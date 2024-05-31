@@ -6,21 +6,33 @@ import pandas as pd
 
 class GraphBuilder:
 
+    '''
+    This class is responsible for handling tasks related to building the graph results view
+    '''
+
+    # Edge color mapping for the current impact relationships
     edge_colors = {'POSITIVELY_CORRELATED':mcolors.to_hex('green'),\
                    'NEGATIVELY_CORRELATED':mcolors.to_hex('red'), \
                     'NOT_CORRELATED':mcolors.to_hex('orange'),\
                         'CORRELATED_NOT_SPECIFIED':mcolors.to_hex('blue')}
     
+    # Edge abbreviation mapping for the current impact relationships
     edge_label_abbr = {'POSITIVELY_CORRELATED':'POS_CORR',\
                    'NEGATIVELY_CORRELATED':'NEG_CORR', \
                     'NOT_CORRELATED':'NT_CORR',\
                         'CORRELATED_NOT_SPECIFIED':'CORR_NT_SPEC'}
 
     def __init__(self, impact_paths):
+        '''
+        Initializing the graph builder requires the list of paths
+        '''
         self.impact_paths = impact_paths
         self.nodes, self.edges = self._build(self.impact_paths)
     
     def _build(self,paths):
+        '''
+        This method builds the graph components from the input paths
+        '''
         nodes = set()
         edges = set()
         for impact_path in paths:
@@ -40,6 +52,9 @@ class GraphBuilder:
         return nodes, edges
 
     def render(self, config, filter_by=None):
+        '''
+        This method renders the graph based on the input user configurations.
+        '''
         selected_paths = set()
         if filter_by:
             for select_node in filter_by:
@@ -56,6 +71,9 @@ class GraphBuilder:
         return graph_component
     
     def get_node_labels(self):
+        '''
+        This method returns the unique list of node labels in the graph
+        '''
         node_labels = set()
         for node in self.nodes:
             node_labels.add(node.get_label())
@@ -64,10 +82,20 @@ class GraphBuilder:
 
 class GridBuilder:
 
+    '''
+    This class is responsible for handling tasks related to building the table view of the results.
+    '''
+
     def __init__(self, paths):
+        '''
+        Initializing the grid builder requires the list of paths.
+        '''
         self.paths = paths
     
     def build(self):
+        '''
+        This method builds the table with the results using the path data. It creates hyperlink for the evidence.
+        '''
         output = list()
         for result in self.paths:
             path, evidence = result.get_final_route(), result.get_path_evidence()

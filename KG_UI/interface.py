@@ -5,7 +5,7 @@ from PIL import Image
 
 from view.builder import GridBuilder, GraphBuilder
 from view.controller import Controller
-
+from view.util import load_dotenv
 
 st.set_page_config(layout='wide')
 
