@@ -42,12 +42,10 @@ Please also make sure you have installed APOC and GDS plugins.
 
 <img src="images/neo4j_plugins.png" width="400px">
 
-## Clone GitHub Repo and Set up JupyterLab
+## Set up and run JupyterLab
 
 ```
 pip install jupyterlab
-git clone https://github.com/udel-cbcb/UD_Waters_Bioprocess_KG.git
-cd UD_Waters_Bioprocess_KG
 jupyter-lab
 ```
 
