@@ -1,0 +1,639 @@
+concept_name	id	canonical_name	type	type_id	alter_names
+(fut8) gene knockout cho-s_COID438040	COID438040	(fut8) gene knockout cho-s	chinese hamster ovary (CHO)	C58	fut8 gene knockout cho-s
+1-ag4-1_COID898401	COID898401	1-ag4-1	hybridoma	C57	
+2-f-peracetyl fucose_COID847827	COID847827	2-f-peracetyl fucose	sugar (subset of carbon source)	C27	
+FA2G1_COID847899	COID847899	FA2G1	sugar (subset of carbon source)	C27	
+FUC8_COID847828	COID847828	FUC8	sugar (subset of carbon source)	C27	
+G0F_COID847830	COID847830	G0F	sugar (subset of carbon source)	C27	g0f glycan; glycan g0f; g0f glycans; glycans g0f
+G1F_COID847930	COID847930	G1F	sugar (subset of carbon source)	C27	g1f glycan; g1f glycans; glycans g1f; glycan g1f; g1fs1 glycans
+G2F_COID847130	COID847130	G2F	sugar (subset of carbon source)	C27	g2f glycan; g2f glycans; glycan g2f; glycans g2f; di-galactosylated glycan g2f
+2-l glass bioreactor_COID536478	COID536478	2-l glass bioreactor	vessel or process parameter or production scale	C12	2-l glass bioreactors
+2-propylpentanoic acid_COID178679	COID178679	2-propylpentanoic acid	secondary raw materials	C25	
+24-dwp culture conditions_COID534425	COID534425	24-dwp culture conditions	cell culture parameters	C15	24-dwp culture condition
+5-alkynylfucose_COID256307	COID256307	5-alkynylfucose	sugar (subset of carbon source)	C27	5-alkfuc
+FO_COID634480	COID634480	F0	hybridoma	C57	
+J558L_COID644480	COID644480	J558L	hybridoma	C57	
+SP2/0_COID644479	COID644479	SP2/0	hybridoma	C57	
+U266_COID644450	COID644450	U266	hybridoma	C57	U-266
+NS1_COID644380	COID644380	NS1	hybridoma	C57	NS-1
+p3x63ag8_COID624480	COID624480	p3x63ag8	hybridoma	C57	
+accumulation of waste products_COID802986	COID802986	accumulation of waste products	culture condition	C20	accumulation of waste product; waste product accumulation
+acetate_COID725612	COID725612	acetate	carbon source (subset of secondary raw materials)	C26	
+acetylation_COID878689	COID878689	acetylation	PTM	C8	
+acetylglucosaminyltransferase_COID400948	COID400948	acetylglucosaminyltransferase	enzyme	C10	
+cyclin dependent kinases_COID401949	COID401949	cyclin dependent kinases	enzyme	C10	CDK
+GMD_COID401999	COID401999	GMD	enzyme	C10
+histone deacetylase_COID400949	COID400949	histone deacetylase	enzyme	C10	HDAC
+dihydrofolate reductase_COID400950	COID400950	dihydrofolate reductase	enzyme	C10	DHFR
+acidic charge variants_COID086024	COID086024	acidic charge variants	product quality attributes	C51	acidic charge variant
+FA2_COID087024	COID087024	FA2	product quality attributes	C51
+A2_COID087025	COID087025	A2	product quality attributes	C51
+M51_COID088024	COID088024	M51	product quality attributes	C51
+acidic isoforms_COID780920	COID780920	acidic isoforms	acid (subset of secondary raw materials)	C37	acidic isoform
+tricarboxylic acid_COID780120	COID780120	tricarboxylic acid	acid (subset of secondary raw materials)	C37	TCA; tricarboxylic citric acid (tca); tricarboxylic citric acid
+acidic variant_COID106814	COID106814	acidic variant	acid (subset of secondary raw materials)	C37	acidic variants
+adapted cell line_COID969985	COID969985	adapted cell line	cell line	C56	adapted cell lines
+YB2/0_COID969855	COID969855	YB2/0	cell line	C56
+adcc effector function_COID107267	COID107267	adcc effector function	process parameters or process control	C11	antibody-dependent cellular cytotoxicity effector function; antibody-dependent cell-mediated cytotoxicity effector function; adcc effector functions; adcc function; adcc functions
+aeration_COID371755	COID371755	aeration	bioreactor conditions	C14	
+afucosylated n-glycans_COID239021	COID239021	afucosylated n-glycans	sugar (subset of carbon source)	C27	afucosylated n-glycan; afucosylated glycans
+afucosylation_COID653555	COID653555	afucosylation	glycosylation	C61
+core fucosylation_COID663555	COID663555	core fucosylation	glycosylation	C61
+aggregates_COID879651	COID879651	aggregates	product quality attributes	C51	aggregated; large aggregated
+aggregation_COID720685	COID720685	aggregation	process condition	C19	
+cd platform_COID720695	COID720695	cd platform	process condition	C19	
+agitation and mixing_COID890976	COID890976	agitation and mixing	bioreactor conditions	C14	
+aglycosylated_COID678822	COID678822	aglycosylated	recombinant protein	C46	
+aglycosylation_COID076549	COID076549	aglycosylation	product quality attributes	C51	
+alanine_COID060748	COID060748	alanine	amino acid (subset of substrates)	C5	
+alanine metabolism_COID957120	COID957120	alanine metabolism	biological process	C6	
+alkynylated forms_COID422332	COID422332	alkynylated forms	substitution material	C30	alkynylated form
+ambr15 cell culture system_COID929817	COID929817	ambr15 cell culture system	vessel or process parameter or production scale	C12	ambr15 cell culture systems
+amino acid substitutions_COID828360	COID828360	amino acid substitutions	genotype	C42	amino acid substitution
+aminomethane_COID280686	COID280686	aminomethane	base (subset of secondary raw materials)	C34	
+ammonia_COID714278	COID714278	ammonia	by-product or waste	C9	
+ammonium_COID714150	COID714150	ammonium	culture condition	C20	NH4+
+ammonium chloride_COID969984	COID969984	ammonium chloride	nitrogen sources (subset of secondary raw materials)	C39	
+ammonium phosphate_COID654997	COID654997	ammonium phosphate	nitrogen sources (subset of secondary raw materials)	C39	
+ammonium nitrate_COID975318	COID975318	ammonium nitrate	nitrogen sources (subset of secondary raw materials)	C39	
+urea_COID337032	COID337032	urea	nitrogen sources (subset of secondary raw materials)	C39	
+ammonium hydroxide_COID298811	COID298811	ammonium hydroxide	nitrogen sources (subset of secondary raw materials)	C39	
+ammonium sulfate_COID836400	COID836400	ammonium sulfate	nitrogen sources (subset of secondary raw materials)	C39	
+antenna_COID708105	COID708105	antenna	sugar (subset of carbon source)	C27	
+antennarity_COID676312	COID676312	antennarity	sugar (subset of carbon source)	C27	
+anti-inflammatory activity_COID628775	COID628775	anti-inflammatory activity	product attributes	C53	anti-inflammatory activities
+anti-inflammatory efficacy_COID334262	COID334262	anti-inflammatory efficacy	clinical outcomes	C24	anti inflammatory efficacy
+anti-inflammatory properties_COID592241	COID592241	anti-inflammatory properties	product attributes	C53	anti-inflammatory property
+anti-oxidant activity_COID997424	COID997424	anti-oxidant activity	clinical outcomes	C24	anti oxidant activity
+anti-tumor activity_COID117042	COID117042	anti-tumor activity	clinical outcomes	C24	anti tumor activity; anti tumor activities; anti-tumor activities
+antibody charge variants_COID361180	COID361180	antibody charge variants	product quality profile	C50	antibody charge variant
+antibody conjugate_COID646320	COID646320	antibody conjugate	recombinant protein	C46	
+antibody galactosylation_COID740922	COID740922	antibody galactosylation	glycosylation	C61	
+antibody glycoforms_COID173858	COID173858	antibody glycoforms	recombinant protein	C46	
+antibody titers_COID307661	COID307661	antibody titers	overall titer or batch yield	C48	antibody titer
+antibody-dependent cell-mediated cytotoxicity_COID386333	COID386333	antibody-dependent cell-mediated cytotoxicity	clinical outcomes	C24	antibody-dependent cellular cytotoxicity; antibody-dependent cellular cytotoxicities; ADCC; antibody-dependent cell-mediated cytotoxicity (adcc); antibody dependent cellular cytotoxicity; antibody dependent cellular cytotoxicities; antibody dependent cell-mediated cytotoxicity; antibody dependent cell-mediated cytotoxicities; antibody dependent cell mediated cytotoxicity; antibody dependent cell mediated cytotoxicities; antibody-dependent cell mediated cytotoxicity; antibody-dependent cell mediated cytotoxicities
+apoptosis_COID850789	COID850789	apoptosis	cellular metabolic state	C21	
+asparagine_COID698257	COID698257	asparagine	amino acid (subset of substrates)	C5	
+asparagine-linked glycosylation_COID652506	COID652506	asparagine-linked glycosylation	glycosylation	C61	
+balanced salt solutions_COID770081	COID770081	balanced salt solutions	media	C59	BSS
+CD-CHO_COID780081	COID780081	CD-CHO	media	C59
+DMEM_COID880081	COID880081	DMEM	media	C59
+batch_COID285438	COID285438	batch	process mode	C44	
+biantennary disialylated glycans_COID144537	COID144537	biantennary disialylated glycans	sugar (subset of carbon source)	C27	biantennary disialylated glycan
+bioactivity_COID046028	COID046028	bioactivity	product quality attributes	C51	
+bioactivity and potency_COID795973	COID795973	bioactivity and potency	product attributes	C53	
+biological activity_COID518861	COID518861	biological activity	clinical outcomes	C24	biological activities
+biopotency_COID405601	COID405601	biopotency	product attributes	C53	
+bioreactor operation conditions_COID538546	COID538546	bioreactor operation conditions	bioreactor conditions	C14	bioreactor operation condition
+bioreactor scale_COID368907	COID368907	bioreactor scale	vessel or process parameter or production scale	C12	
+bispecific antibodies_COID544547	COID544547	bispecific antibodies	bispecific antibody	C64	bispecific antibody
+biosynthesis_COID479844	COID479844	biosynthesis	biochemical compound	C18	
+bolus_COID693522	COID693522	bolus	process parameters or process control	C11	
+bolus concentrated feed additions with sequential medium replacement_COID146294	COID146294	bolus concentrated feed additions with sequential medium replacement	process parameters or process control	C11	bolus concentrated feed additions with sequential medium replacements
+butyrate_COID702790	COID702790	butyrate	secondary raw materials	C25	
+c-terminal lysine_COID549534	COID549534	c-terminal lysine	amino acid (subset of substrates)	C5	
+caesium hydroxide_COID354152	COID354152	caesium hydroxide	base (subset of secondary raw materials)	C34	
+calcium hydroxide_COID504169	COID504169	calcium hydroxide	base (subset of secondary raw materials)	C34	
+carbohydrate constituents_COID605040	COID605040	carbohydrate constituents	sugar (subset of carbon source)	C27	carbohydrate constituent
+carbohydrate modification_COID721251	COID721251	carbohydrate modification	PTM	C8	carbohydrate modifications
+carbon dioxide_COID132568	COID132568	carbon dioxide	gases (subset of secondary raw materials)	C35	co2; CO2
+carbon dioxide partial pressure_COID255565	COID255565	carbon dioxide partial pressure	process condition	C19	partial pressure of carbon dioxide; pco2; pco 2; partial pressure carbon dioxide; partial pressure of co2; partial pressure of co 2
+carboxylation_COID487379	COID487379	carboxylation	PTM	C8	
+carbon sources_COID571637	COID571637	carbon sources	carbon source (subset of secondary raw materials)	C26	carbon source
+cell concentration_COID623648	COID623648	cell concentration	process parameters or process control	C11	cell concentrations
+cell culture media additives_COID247877	COID247877	cell culture media additives	secondary raw materials	C25	cell culture media additive
+cell culture performance_COID284912	COID284912	cell culture performance	product quality attributes	C51	
+cell cycle_COID780295	COID780295	cell cycle	biological process	C6	cell cycles
+cell cycle checkpoint_COID456465	COID456465	cell cycle checkpoint	cell cycle pathway G0/G1/M/G2	C2	cell cycle checkpoints
+cell cycle g1-checkpoint_COID762989	COID762989	cell cycle g1-checkpoint	cell cycle pathway G0/G1/M/G2	C2	cell cycle g1-checkpoints
+cell density_COID283414	COID283414	cell density	cell culture parameters	C15	cell densities; high cell densities; high cell density; HCD
+cell culture_COID293414	COID293414	cell culture	cell culture parameters	C15	cell cultures
+cell effector function_COID337167	COID337167	cell effector function	clinical outcomes	C24	cell effector functions
+cell growth_COID093598	COID093598	cell growth	cell culture parameters	C15	
+cell line_COID702829	COID702829	cell line	cell line	C56	cell lines; host cell lines; host cell line
+cell line characteristics_COID431893	COID431893	cell line characteristics	cell line characteristics	TypeId:	cell line characteristic
+cell morphology_COID468996	COID468996	cell morphology	cell culture parameters	C15	cell morphologies; morphology of cells; morphology of cell; morphology of a cell
+cell respiration_COID898929	COID898929	cell respiration	metabolic pathways	C1	cell respirations; respiration of cells; respiration of cell; respiration of a cell
+cell viability_COID547964	COID547964	cell viability	cell culture parameters	C15	cell viabilities; viability of cell; viability of a cell; viability of cells
+cell-specific productivity_COID637897	COID637897	cell-specific productivity	process condition	C19	cell specific productivity; productivity of a cell; productivity of cells
+cellular processes_COID386352	COID386352	cellular processes	process parameters or process control	C11	cellular process
+central carbon metabolism_COID399873	COID399873	central carbon metabolism	biological process	C6	
+charge heterogeneity_COID995406	COID995406	charge heterogeneity	product quality attributes	C51	
+charge variant profiles_COID820771	COID820771	charge variant profiles	product quality profile	C50	charge variant profile
+charge variants_COID817650	COID817650	charge variants	product quality profile	C50	charge variant
+charge variation_COID858115	COID858115	charge variation	process parameters or process control	C11	charge variations
+chimeric_COID551578	COID551578	chimeric	recombinant protein	C46	
+cho sublime media_COID217450	COID217450	cho sublime media	media	C59	
+cho-dg44_COID939621	COID939621	cho-dg44	chinese hamster ovary (CHO)	C58	cho dg44; cho dg44 cell line; CHO-DG44; CHO DG44
+cho-gmt4 cells_COID585656	COID585656	cho-gmt4 cells	chinese hamster ovary (CHO)	C58	cho-gmt4 cell line; cho gmt4 cell line; cho-gmt4; cho gmt4
+cho-gs_COID991056	COID991056	cho-gs	chinese hamster ovary (CHO)	C58	cho gs
+chinese-hamster ovary k1_COID324081	COID324081	chinese-hamster ovary k1	chinese hamster ovary (CHO)	C58	cho-k1; CHO-K1; cho k1; cho-k1 cell line
+cho-k1 media_COID613537	COID613537	cho-k1 media	media	C59	cho k1 media
+cho-lec_COID362254	COID362254	cho-lec	chinese hamster ovary (CHO)	C58	cho lec
+cho-m_COID467503	COID467503	cho-m	chinese hamster ovary (CHO)	C58	cho m
+cho-s_COID669791	COID669791	cho-s	chinese hamster ovary (CHO)	C58	cho s
+cho-s media_COID626143	COID626143	cho-s media	media	C59	cho s media
+chromatography resin filtration_COID249381	COID249381	chromatography resin filtration	filtration parameters	C17	chromatography resin filtrations; chromatographic resin filtrations; chromatographic resin filtration
+chromium_COID266551	COID266551	chromium	trace metals or minerals (subset of secondary raw materials)	C38	
+UMG_COID267551	COID267551	UMG	trace metals or minerals (subset of secondary raw materials)	C38	
+clearance rate_COID187126	COID187126	clearance rate	process parameters or process control	C11	clearance rates
+cleavage_COID846179	COID846179	cleavage	PTM	C8	
+clipping_COID668086	COID668086	clipping	product attributes	C53	
+cobalt_COID584412	COID584412	cobalt	trace metals or minerals (subset of secondary raw materials)	C38	
+combinations of additives_COID382945	COID382945	combinations of additives	secondary raw materials	C25	combination of additives
+complement-dependent cytotoxicity_COID455860	COID455860	complement-dependent cytotoxicity	clinical outcomes	C24	complement dependent cytotoxicity; complement-dependent cytotoxicities; complement dependent cytotoxicities; CDC
+continuous harvest perfusion_COID753316	COID753316	continuous harvest perfusion	process mode	C44	CHP
+copper_COID395059	COID395059	copper	trace metals or minerals (subset of secondary raw materials)	C38	
+core fucose_COID067033	COID067033	core fucose	sugar (subset of carbon source)	C27	
+cross-flow filtration_COID192382	COID192382	cross-flow filtration	filtration parameters	C17	cross-flow filtrations
+cultivating ph_COID890185	COID890185	cultivating ph	bioreactor conditions	C14	ph in cultivation
+culture condition_COID626277	COID626277	culture condition	culture condition	C20	culture conditions; cultural conditions; cultural condition
+culture environments_COID998785	COID998785	culture environments	process parameters or process control	C11	culture environment
+culture medium_COID180560	COID180560	culture medium	media characteristics	C43	
+culture parameters_COID160285	COID160285	culture parameters	process parameters or process control	C11	culture parameter
+culture perturbation_COID502157	COID502157	culture perturbation	process parameters or process control	C11	culture perturbations
+culture time_COID763032	COID763032	culture time	process parameters or process control	C11	
+culture viability_COID640988	COID640988	culture viability	process parameters or process control	C11	culture viabilities
+culture yield_COID989942	COID989942	culture yield	process parameters or process control	C11	culture yields
+cyclization_COID653391	COID653391	cyclization	PTM	C8	
+cytidine_COID172930	COID172930	cytidine	nucleotide or nucleoside	C4	
+cytidine monophosphate–sialic acid_COID230810	COID230810	cytidine monophosphate–sialic acid	sugar (subset of carbon source)	C27	cytidine monophosphate–sialic acids; CMP–SA
+cytidine monophosphate–sialic acid synthase_COID653356	COID653356	cytidine monophosphate–sialic acid synthase	enzyme	C10	CMP–SAS
+cytidine monophosphate–sialic acid transporter_COID743836	COID743836	cytidine monophosphate–sialic acid transporter	cell line characteristics	TypeId:	CMP–SAT
+dead-end filtration_COID256832	COID256832	dead-end filtration	filtration parameters	C17	dead-end filtrations
+deamidation_COID565107	COID565107	deamidation	PTM	C8	deamidated
+death-resistant cell lines_COID434844	COID434844	death-resistant cell lines	cell line	C56	death-resistant cell line
+deep wells_COID423775	COID423775	deep wells	vessel or process parameter or production scale	C12	
+degradation_COID049441	COID049441	degradation	degradation	C22	
+dehydratase_COID251243	COID251243	dehydratase	enzyme	C10	
+deoxymannojirimycin_COID109253	COID109253	deoxymannojirimycin	enzyme inhibitor	C60	DMJ; deoxymannojirimycin (dmj)
+depth filtration_COID366611	COID366611	depth filtration	filtration parameters	C17	depth filtrations
+dexamethasone_COID895485	COID895485	dexamethasone	secondary raw materials	C25	
+dextrose_COID691820	COID691820	dextrose	sugar (subset of carbon source)	C27	
+dhfr amplified cell line_COID749839	COID749839	dhfr amplified cell line	cell line	C56	dhfr amplified cell lines
+diafiltration_COID146544	COID146544	diafiltration	filtration parameters	C17	diafiltrations; DF
+dichloroacetate_COID715212	COID715212	dichloroacetate	secondary raw materials	C25	DCA
+diethylamine_COID803499	COID803499	diethylamine	base (subset of secondary raw materials)	C34	
+dimers_COID438141	COID438141	dimers	product quality attributes	C51	dimer
+disposable vessels_COID795419	COID795419	disposable vessels	vessel or process parameter or production scale	C12	disposable vessel
+dissolved oxygen_COID661988	COID661988	dissolved oxygen	bioreactor conditions	C14	dissolved o2; dissolving of oxygen; DO; dissolved oxygen (do)
+disulfide bond_COID467614	COID467614	disulfide bond	PTM	C8	
+disulfide linkage glycation_COID371365	COID371365	disulfide linkage glycation	glycosylation	C61	
+dose requirement_COID550661	COID550661	dose requirement	clinical outcomes	C24	dose requirements
+doubling time_COID640482	COID640482	doubling time	cell culture parameters	C15	
+dow corning antifoams_COID466987	COID466987	dow corning antifoams	antifoams	C29	
+dulbecco's modified eagle medium_COID932445	COID932445	dulbecco's modified eagle medium	media	C59	
+dynamis_COID624994	COID624994	dynamis	media	C59	
+effector mechanism_COID990948	COID990948	effector mechanism	clinical outcomes	C24	
+efficacy_COID912630	COID912630	efficacy	clinical outcomes	C24	
+efficientfeed_COID452825	COID452825	efficientfeed	media	C59	
+eight feed additives_COID064405	COID064405	eight feed additives	secondary raw materials	C25	eight feed additive
+energy source_COID713213	COID713213	energy source	cell nutrient	C32	energy sources
+environmental conditions_COID618432	COID618432	environmental conditions	bioreactor conditions	C14	environmental condition
+enzymatic catalysis_COID240637	COID240637	enzymatic catalysis	catalysis	C7	
+ester-based antifoams_COID634169	COID634169	ester-based antifoams	antifoams	C29	
+ethyl acetate_COID331001	COID331001	ethyl acetate	antifoams	C29	
+ex-cell cd cho fusion_COID972819	COID972819	ex-cell cd cho fusion	media	C59	
+expression level of genes_COID011952	COID011952	expression level of genes	genotype	C42	expression level of gene
+extracellular environment_COID244043	COID244043	extracellular environment	process parameters or process control	C11	extracellular environments
+extracellular sialidase_COID727665	COID727665	extracellular sialidase	enzyme	C10	
+fatty acid esters_COID944590	COID944590	fatty acid esters	antifoams	C29	
+fatty alcohols_COID085309	COID085309	fatty alcohols	antifoams	C29	fatty alcohol
+fc gamma receptor binding_COID960943	COID960943	fc gamma receptor binding	clinical outcomes	C24	fc gamma receptor bindings
+fed-batch_COID529446	COID529446	fed-batch	process mode	C44	fed batch
+feed media_COID589634	COID589634	feed media	media characteristics	C43	
+feed volumes_COID336983	COID336983	feed volumes	process parameters or process control	C11	feed volume
+feeding profiles_COID997163	COID997163	feeding profiles	process parameters or process control	C11	feeding profile
+fetal bovine serum_COID234436	COID234436	fetal bovine serum	serum or serum replacements	C31	FBS
+fluctuating culture conditions_COID754846	COID754846	fluctuating culture conditions	cell culture parameters	C15	fluctuating culture condition
+forticho_COID801569	COID801569	forticho	media	C59	
+fragmentation_COID753666	COID753666	fragmentation	product attributes	C53	
+fructose_COID532749	COID532749	fructose	carbon source (subset of secondary raw materials)	C26	
+fucose_COID275575	COID275575	fucose	sugar (subset of carbon source)	C27
+fucose analogue_COID400862	COID400862	fucose analogue	substitution material	C30	fucose analogues
+fucose de novo pathway_COID327903	COID327903	fucose de novo pathway	biological process	C6	
+fucosylation_COID810570	COID810570	fucosylation	glycosylation	C61	
+fucosyltransferase_COID212341	COID212341	fucosyltransferase	enzyme	C10	fucosyltransferases; FUT8; fut8; fucosyltransferase 8
+function_COID532355	COID532355	function	process condition	C19	functions
+fusion protein_COID506208	COID506208	fusion protein	recombinant protein	C46	
+g0 and g1 level n-glycans_COID970118	COID970118	g0 and g1 level n-glycans	sugar (subset of carbon source)	C27	g0 and g1 level n-glycan
+g0/g1 arrest_COID007895	COID007895	g0/g1 arrest	cell cycle pathway G0/G1/M/G2	C2	g0/g1 arrests
+g2/m phase_COID055784	COID055784	g2/m phase	cell cycle pathway G0/G1/M/G2	C2	g2/m phases
+galactose_COID770311	COID770311	galactose	sugar (subset of carbon source)	C27	
+galactosylated glycan_COID107534	COID107534	galactosylated glycan	sugar (subset of carbon source)	C27	galactosylated glycans
+galactosylated glycan profile_COID142990	COID142990	galactosylated glycan profile	product quality attributes	C51	
+galactosylated igg_COID983193	COID983193	galactosylated igg	product quality profile	C50	igg galactosylation
+galactosylation_COID475750	COID475750	galactosylation	glycosylation	C61	early protein galactosylation
+galactosylation index_COID293764	COID293764	galactosylation index	product attributes	C53	GI
+sialylation index_COID283454	COID283454	sialylation index	product attributes	C53	SI
+galactosylation-related glycosyltransferase genes_COID444666	COID444666	galactosylation-related glycosyltransferase genes	enzyme	C10	
+galactosyltransferases_COID703629	COID703629	galactosyltransferases	enzyme	C10	galactosyltransferase; galts
+gassing strategy_COID018240	COID018240	gassing strategy	process parameters or process control	C11	gassing strategies
+gdp-6-deoxy-d-lyxo-4-hexulose reductase_COID569267	COID569267	gdp-6-deoxy-d-lyxo-4-hexulose reductase	enzyme	C10	
+gdp-fuc_COID766661	COID766661	gdp-fuc	sugar (subset of carbon source)	C27	gdp-fucose
+gdp-mannose biosynthesis_COID073869	COID073869	gdp-mannose biosynthesis	biochemical compound	C18	
+genetic engineering_COID939654	COID939654	genetic engineering	genotype	C42	
+fut8 expression_COID939656	COID939656	fut8 expression	genotype	C42	
+n-acetylglucosamine_COID510815	COID510815	n-acetylglucosamine	sugar (subset of carbon source)	C27	glcnac; glcnac6p; n-acetyl-d-glucosamine; n-acetyl-d-glucosamine (glcnac)
+udp–glcnac_COID510816	COID510816	udp–glcnac	sugar (subset of carbon source)	C27	udp-n-acetyl-d-glucosamine; udp-n-acetyl-d-glucosamine (udp-glcnac); uridine diphosphate–n-acetylglucosamine
+globular protine_COID893662	COID893662	globular protine	recombinant protein	C46	
+gluconoylation_COID890451	COID890451	gluconoylation	glycosylation	C61	
+glucosamine_COID850039	COID850039	glucosamine	substrates	C3	
+glucose_COID367406	COID367406	glucose	sugar (subset of carbon source)	C27	q gluc; qgluc; q-gluc
+glutamate_COID485387	COID485387	glutamate	amino acid (subset of substrates)	C5	
+glutamine_COID962935	COID962935	glutamine	amino acid (subset of substrates)	C5	
+gluten hydrolysate_COID405569	COID405569	gluten hydrolysate	recombinant protein	C46	
+glycan_COID626759	COID626759	glycan	sugar (subset of carbon source)	C27	glycans
+glycan distribution_COID651165	COID651165	glycan distribution	product quality profile	C50	glycan distributions
+glycan forms_COID671420	COID671420	glycan forms	sugar (subset of carbon source)	C27	glycan form
+glycan outcomes_COID339685	COID339685	glycan outcomes	product attributes	C53	glycan outcome
+glycan patterns_COID336775	COID336775	glycan patterns	product attributes	C53	glycan pattern
+glycan profile_COID521331	COID521331	glycan profile	product quality attributes	C51	glycan profiles; n-glycan profiles; n-glycan profile
+glycan structures_COID684992	COID684992	glycan structures	sugar (subset of carbon source)	C27	glycan structure
+glycans of lower molecular masses_COID129671	COID129671	glycans of lower molecular masses	sugar (subset of carbon source)	C27	
+glycation_COID274291	COID274291	glycation	glycosylation	C61	
+glycerol_COID217249	COID217249	glycerol	carbon source (subset of secondary raw materials)	C26	
+glycine_COID351597	COID351597	glycine	amino acid (subset of substrates)	C5	
+glycine betaine_COID346560	COID346560	glycine betaine	amino acid (subset of substrates)	C5	
+glycoform distributions_COID259199	COID259199	glycoform distributions	product quality profile	C50	glycoform distribution
+glycoform profile_COID912805	COID912805	glycoform profile	product attributes	C53	glycoform profiles
+glycoforms_COID288767	COID288767	glycoforms	recombinant protein	C46	glycoform; hm glycoform; hm glycoforms
+glycoprofiles_COID135698	COID135698	glycoprofiles	product attributes	C53	glycoprofile
+glycoproteins_COID866322	COID866322	glycoproteins	product	C52	glycoprotein
+glycosidase_COID469765	COID469765	glycosidase	enzyme	C10	
+glycosidases_COID984933	COID984933	glycosidases	enzyme	C10	
+glycosylated forms_COID326314	COID326314	glycosylated forms	recombinant protein	C46	
+glycosylation_COID119643	COID119643	glycosylation	glycosylation	C61	glycated; early protein glycosylation
+glycosylation pattern_COID857544	COID857544	glycosylation pattern	product attributes	C53	glycosylation patterns
+glycosylation precursors_COID638294	COID638294	glycosylation precursors	biochemical compound	C18	glycosylation precursor
+glycosylation profile_COID103232	COID103232	glycosylation profile	product attributes	C53	glycosylation profiles
+glycosylation profile attributes_COID165167	COID165167	glycosylation profile attributes	product attributes	C53	glycosylation profile attribute
+glycosyltransferases_COID225633	COID225633	glycosyltransferases	enzyme	C10	glycosyltransferase
+gnt i_COID947151	COID947151	gnt i	enzyme	C10	
+gntii_COID731801	COID731801	gntii	enzyme	C10	
+gof glycan_COID802526	COID802526	gof glycan	sugar (subset of carbon source)	C27	gof glycans
+golgi acidity_COID752340	COID752340	golgi acidity	cellular metabolic state	C21	
+golgi ph_COID995227	COID995227	golgi ph	bioreactor conditions	C14	acidic golgi ph
+growth_COID203666	COID203666	growth	cell culture parameters	C15	
+growth rate_COID957002	COID957002	growth rate	cell culture parameters	C15	growth rates
+gs-cho_COID432711	COID432711	gs-cho	chinese hamster ovary (CHO)	C58	
+guanosine diphosphate-fucose synthesis_COID983511	COID983511	guanosine diphosphate-fucose synthesis	metabolic pathways	C1	pathways related to guanosine diphosphate-fucose synthesis and fucosylation; pathway related to guanosine diphosphate-fucose synthesis and fucosylation
+half life_COID125212	COID125212	half life	process parameters or process control	C11	half-life
+harvest titer_COID815209	COID815209	harvest titer	overall titer or batch yield	C48	harvest titers
+heptasaccharide_COID475381	COID475381	heptasaccharide	saccharides (subset of secondary raw materials)	C33	heptasaccharides
+heterogeneity_COID021590	COID021590	heterogeneity	clinical outcomes	C24	heterogeneities; micro-heterogeneity; microheterogeneity; microheterogeneities
+hexose_COID807273	COID807273	hexose	sugar (subset of carbon source)	C27	
+high mannose_COID981337	COID981337	high mannose	sugar (subset of carbon source)	C27	HM; high-mannose
+high mannose n-glycans_COID826720	COID826720	high mannose n-glycans	sugar (subset of carbon source)	C27	high mannose n-glycan
+high mannose type n-glycans_COID932230	COID932230	high mannose type n-glycans	sugar (subset of carbon source)	C27	high mannose type n-glycan
+high-mannose glycoforms_COID965734	COID965734	high-mannose glycoforms	recombinant protein	C46	high mannose glycoforms; high mannose glycoform; high-mannose glycoform
+higher growing cell lines_COID379160	COID379160	higher growing cell lines	cell line	C56	
+histone deacetylase (hdac) inhibitors_COID367046	COID367046	histone deacetylase (hdac) inhibitors	secondary raw materials	C25	histone deacetylase inhibitors; histone deacetylase inhibitor; hdac inhibitors
+horse serum_COID506028	COID506028	horse serum	serum or serum replacements	C31	
+host cell proteins_COID169903	COID169903	host cell proteins	recombinant protein	C46	HCP; host cell protein
+human serum_COID211221	COID211221	human serum	serum or serum replacements	C31	
+hycell cho_COID785180	COID785180	hycell cho	media	C59	hycell-cho
+hydroxyethyl cellulose_COID352629	COID352629	hydroxyethyl cellulose	cellulosic compounds	C62	
+hydroxymethyl_COID950892	COID950892	hydroxymethyl	base (subset of secondary raw materials)	C34	
+hyperosmolality_COID710478	COID710478	hyperosmolality	process parameters or process control	C11	
+hyperthermia_COID692231	COID692231	hyperthermia	process parameters or process control	C11	
+hyperthermic culture conditions_COID228883	COID228883	hyperthermic culture conditions	process parameters or process control	C11	hyperthermic culture condition
+hypoosmotic_COID688141	COID688141	hypoosmotic	process parameters or process control	C11	
+hypothermia_COID361582	COID361582	hypothermia	process parameters or process control	C11	
+hypothermic conditions_COID718157	COID718157	hypothermic conditions	bioreactor conditions	C14	hypothermic condition
+hypothermic culture conditions_COID259987	COID259987	hypothermic culture conditions	process parameters or process control	C11	hypothermic culture condition
+hypothermic temperatures_COID331219	COID331219	hypothermic temperatures	bioreactor conditions	C14	hypothermic temperature
+immune response_COID806124	COID806124	immune response	clinical outcomes	C24	immune responses; unexpected immune response; unexpected immune responses
+immunogenicity_COID444425	COID444425	immunogenicity	clinical outcomes	C24	immunogenicities
+impurities_COID901557	COID901557	impurities	process condition	C19	impurity
+incomplete glycan biosynthesis_COID724816	COID724816	incomplete glycan biosynthesis	biochemical compound	C18	
+inhibitors_COID760391	COID760391	inhibitors	secondary raw materials	C25	inhibitor
+insulin_COID453872	COID453872	insulin	recombinant protein	C46	
+intensified fed batch_COID504685	COID504685	intensified fed batch	process mode	C44	IFB; ifb; ifb_5
+intracellular factors_COID386307	COID386307	intracellular factors	process parameters or process control	C11	intracellular factor
+intracellular micro-heterogeneties_COID164502	COID164502	intracellular micro-heterogeneties	cell line characteristics	TypeId:	intracellular micro-heterogeneity
+intracellular nucleotides and nucleotide sugars_COID456570	COID456570	intracellular nucleotides and nucleotide sugars	sugar (subset of carbon source)	C27	intracellular nucleotides and nucleotide sugar
+intracellular process_COID933982	COID933982	intracellular process	process parameters or process control	C11	intracellular processes
+intracellular vesicular trafficking_COID573417	COID573417	intracellular vesicular trafficking	biological process	C6	
+iron_COID094956	COID094956	iron	trace metals or minerals (subset of secondary raw materials)	C38	
+kifunensine_COID287309	COID287309	kifunensine	secondary raw materials	C25	
+knockout_COID494346	COID494346	knockout	genotype	C42	
+lab-scale bioreactors_COID558952	COID558952	lab-scale bioreactors	vessel or process parameter or production scale	C12	
+lactate_COID250920	COID250920	lactate	by-product or waste	C9	lactates
+lactate metabolic rate_COID490412	COID490412	lactate metabolic rate	flux rate	C49	
+lactose_COID629875	COID629875	lactose	disaccharides (subset of carbon source)	C28	
+lec13_COID415606	COID415606	lec13	cell line	C56	
+light chain isotype_COID790740	COID790740	light chain isotype	product attributes	C53	
+lipid-linked oligosaccharide_COID151174	COID151174	lipid-linked oligosaccharide	saccharides (subset of secondary raw materials)	C33	LLO
+lithium hydroxide_COID428317	COID428317	lithium hydroxide	base (subset of secondary raw materials)	C34	
+mab production_COID022887	COID022887	mab production	overall titer or batch yield	C48	
+mab productivity_COID842515	COID842515	mab productivity	process condition	C19	
+mab synthesis_COID609300	COID609300	mab synthesis	metabolic pathways	C1	
+maltose_COID396206	COID396206	maltose	disaccharides (subset of carbon source)	C28	
+man5_COID568402	COID568402	man5	sugar (subset of carbon source)	C27	n-linked mannose-5 glycan; n-linked mannose-5 glycans; mannose-5 glycan; mannose-5 glycans
+man6_COID521642	COID521642	man6	sugar (subset of carbon source)	C27	oligomannose-6
+man8/9_COID436880	COID436880	man8/9	sugar (subset of carbon source)	C27	man9; man8; man8 and man9; man8 or man9; man8/man9
+manganese_COID333220	COID333220	manganese	trace metals or minerals (subset of secondary raw materials)	C38	mn2+
+mannose_COID906305	COID906305	mannose	sugar (subset of carbon source)	C27	
+mannose 5 glycans_COID667485	COID667485	mannose 5 glycans	sugar (subset of carbon source)	C27	mannose 5 glycan
+mannose-5_COID593975	COID593975	mannose-5	sugar (subset of carbon source)	C27	
+mannose-terminated n-glycans_COID789192	COID789192	mannose-terminated n-glycans	sugar (subset of carbon source)	C27	mannose-terminated n-glycan
+mannosidase_COID020739	COID020739	mannosidase	enzyme	C10	
+mannosylation_COID543580	COID543580	mannosylation	glycosylation	C61	
+media_COID913636	COID913636	media	media characteristics	C43	
+media additives_COID816450	COID816450	media additives	media characteristics	C43	media additive
+media characteristics_COID753086	COID753086	media characteristics	media characteristics	C43	media characteristic
+media components_COID256991	COID256991	media components	media characteristics	C43	media component
+media composition_COID162890	COID162890	media composition	media characteristics	C43	
+media hold duration_COID555925	COID555925	media hold duration	process parameters or process control	C11	media hold durations
+media modification_COID193034	COID193034	media modification	media characteristics	C43	media modifications
+media supplementation_COID689497	COID689497	media supplementation	secondary raw materials	C25	media supplementations; ba supplementation
+medium_COID921897	COID921897	medium	media characteristics	C43	
+metabolic pathways_COID588672	COID588672	metabolic pathways	metabolic pathways	C1	metabolic pathway
+metabolism_COID291079	COID291079	metabolism	biological process	C6	metabolities
+metabolite concentration_COID364859	COID364859	metabolite concentration	process parameters or process control	C11	metabolite concentrations; metabolic concentration; metabolic concentrations
+methylation_COID776387	COID776387	methylation	PTM	C8	
+microfiltration_COID128781	COID128781	microfiltration	filtration parameters	C17	microfiltrations; MF
+mncl2_COID426404	COID426404	mncl2	secondary raw materials	C25	
+modified amino acid_COID754629	COID754629	modified amino acid	amino acid (subset of substrates)	C5	modified amino acids
+molecule stability_COID793994	COID793994	molecule stability	product attributes	C53	
+molybdenum_COID562561	COID562561	molybdenum	trace metals or minerals (subset of secondary raw materials)	C38	
+mono galactosylated_COID592818	COID592818	mono galactosylated	sugar (subset of carbon source)	C27	
+monoclonal antibody_COID242255	COID242255	monoclonal antibody	monoclonal antibody	C54	monoclonal antibodies; mab; mabs; mabs carrying n-glycans
+morpholine_COID998656	COID998656	morpholine	base (subset of secondary raw materials)	C34	
+ms704_COID153804	COID153804	ms704	cell line	C56	
+mutations to allow transferase accessibility_COID357556	COID357556	mutations to allow transferase accessibility	genotype	C42	mutation to allow transferase accessibility
+n-acetylgalactosamine_COID449126	COID449126	n-acetylgalactosamine	sugar (subset of carbon source)	C27	
+n-acetylglucosaminyltransferase_COID039686	COID039686	n-acetylglucosaminyltransferase	enzyme	C10	
+n-acetylglucosaminyltransferase i_COID931034	COID931034	n-acetylglucosaminyltransferase i	enzyme	C10	
+n-acetylglucosaminyltransferase ii_COID298225	COID298225	n-acetylglucosaminyltransferase ii	enzyme	C10	
+n-acetylmannosamine_COID135789	COID135789	n-acetylmannosamine	sugar (subset of carbon source)	C27	mannac
+n-acetylneuraminic acid_COID042583	COID042583	n-acetylneuraminic acid	amino acid (subset of substrates)	C5	NANA; n-acetylneuraminic acids
+n-glycan_COID216687	COID216687	n-glycan	sugar (subset of carbon source)	C27	n-glycans
+n-glycan antennary structure_COID675025	COID675025	n-glycan antennary structure	sugar (subset of carbon source)	C27	n-glycan antennary structures
+n-glycan chain extension_COID795392	COID795392	n-glycan chain extension	sugar (subset of carbon source)	C27	n-glycan chain extensions
+n-glycans ratio_COID525588	COID525588	n-glycans ratio	sugar (subset of carbon source)	C27	
+n-glycolylneuraminic acid_COID390231	COID390231	n-glycolylneuraminic acid	amino acid (subset of substrates)	C5	NGNA; n-glycolylneuraminic acids
+n-glycosylation_COID293911	COID293911	n-glycosylation	glycosylation	C61	
+n-glycosylation profile_COID683283	COID683283	n-glycosylation profile	product attributes	C53	n-glycosylation profiles
+n-linked complex glycoform_COID210842	COID210842	n-linked complex glycoform	recombinant protein	C46	
+n-linked glycan_COID297037	COID297037	n-linked glycan	sugar (subset of carbon source)	C27	n-linked glycans
+n-linked glycan distribution_COID235212	COID235212	n-linked glycan distribution	product quality profile	C50	n-linked glycan distributions
+n-linked glycosylation_COID005169	COID005169	n-linked glycosylation	glycosylation	C61	
+n-linked glycosylation patterns_COID545748	COID545748	n-linked glycosylation patterns	product attributes	C53	n-linked glycosylation pattern
+n-linked mannose-5_COID500013	COID500013	n-linked mannose-5	sugar (subset of carbon source)	C27	
+n-linked oligosaccharides_COID832083	COID832083	n-linked oligosaccharides	sugar (subset of carbon source)	C27	n-linked oligosaccharide
+n-terminal glycine_COID640703	COID640703	n-terminal glycine	product attributes	C53	
+nanofiltration_COID399082	COID399082	nanofiltration	filtration parameters	C17	nanofiltrations; NF
+newborn calf serum_COID830185	COID830185	newborn calf serum	serum or serum replacements	C31	NCS
+nickel_COID232036	COID232036	nickel	trace metals or minerals (subset of secondary raw materials)	C38	
+nist cho_COID964757	COID964757	nist cho	chinese hamster ovary (CHO)	C58	nist-cho
+nitrogen_COID546348	COID546348	nitrogen	gases (subset of secondary raw materials)	C35	
+nitrogen sources_COID144540	COID144540	nitrogen sources	secondary raw materials	C25	nitrogen source
+non-core-fucosylation_COID101427	COID101427	non-core-fucosylation	glycosylation	C61	
+non-fucosylated antibody_COID842930	COID842930	non-fucosylated antibody	non-fucosylated antibody	C65	non fucosylated antibody; non-fucosylated antibodies; non fucosylated antibodies; fucose-negative therapeutic antibodies; fucose-negative therapeutic antibody; fucose negative therapeutic antibodies; fucose negative therapeutic antibody; fucose-negative antibody; fucose negative antibodies; non fucosylated therapeutic antibody; non-fucosylated therapeutic antibodies; non-fucosylated therapeutic antibody; non fucosylated therapeutic antibodies
+nonglycosylated_COID862110	COID862110	nonglycosylated	glycosylation	C61	
+nucleoside_COID718935	COID718935	nucleoside	nucleotide or nucleoside	C4	nucleosides
+nucleotide sugar_COID937318	COID937318	nucleotide sugar	sugar (subset of carbon source)	C27	nucleotide sugars
+nucleotide sugar synthetases_COID861834	COID861834	nucleotide sugar synthetases	enzyme	C10	
+nucleotide sugar transport proteins_COID043128	COID043128	nucleotide sugar transport proteins	recombinant protein	C46	
+nucleotide-sugar intracellular pools_COID982927	COID982927	nucleotide-sugar intracellular pools	nucleotide or nucleoside	C4	nucleotide-sugar intracellular pool
+nutrient_COID423902	COID423902	nutrient	secondary raw materials	C25	nutrients
+nutrient concentration_COID287635	COID287635	nutrient concentration	media parameter or raw material	C13	nutrient concentrations
+o-glycan precursor_COID559670	COID559670	o-glycan precursor	biochemical compound	C18	o-glycan precursors
+o-glycan site occupancy_COID183234	COID183234	o-glycan site occupancy	product quality attributes	C51	
+o-glycosylation_COID233146	COID233146	o-glycosylation	glycosylation	C61	
+octanol_COID189410	COID189410	octanol	antifoams	C29	
+oligomannose-5 glycan_COID986471	COID986471	oligomannose-5 glycan	sugar (subset of carbon source)	C27	oligomannose-5 glycans
+oligosaccharide_COID163264	COID163264	oligosaccharide	saccharides (subset of secondary raw materials)	C33	oligosaccharides
+opticho_COID017929	COID017929	opticho	chinese hamster ovary (CHO)	C58	opti cho; opti-cho
+optipro sfm_COID598380	COID598380	optipro sfm	media	C59	
+organic antifoams_COID003111	COID003111	organic antifoams	antifoams	C29	
+osmolality_COID710653	COID710653	osmolality	process parameters or process control	C11	
+osmoprotectant_COID571290	COID571290	osmoprotectant	biochemical compound	C18	osmoprotectants
+orbitally shaken bioreactors_COID030179	COID030179	orbitally shaken bioreactors	vessel or process parameter or production scale	C12	osrs; OSR; orbitally shaken bioreactor
+oxidation_COID907585	COID907585	oxidation	PTM	C8
+met oxidation_COID907685	COID907685	met oxidation	PTM	C8
+oxygen_COID472476	COID472476	oxygen	gases (subset of secondary raw materials)	C35	o2; O2
+p3_COID845585	COID845585	p3	hybridoma	C57	
+patient safety_COID227083	COID227083	patient safety	clinical outcomes	C24	
+pegylation_COID449295	COID449295	pegylation	PTM	C8	
+peptide fragment_COID579814	COID579814	peptide fragment	recombinant protein	C46	
+perfusion_COID329168	COID329168	perfusion	process mode	C44	
+perfusion cultures_COID368508	COID368508	perfusion cultures	process mode	C44	perfusion culture
+ph_COID893209	COID893209	ph	bioreactor conditions	C14	phi
+ph control_COID492476	COID492476	ph control	bioreactor conditions	C14	
+pharmacokinetics_COID373370	COID373370	pharmacokinetics	clinical outcomes	C24	pharmacokinetic
+phi control_COID698824	COID698824	phi control	bioreactor conditions	C14	
+phosphorylation_COID850093	COID850093	phosphorylation	PTM	C8	oxidative phosphorylation
+polydimethylsiloxane_COID685265	COID685265	polydimethylsiloxane	antifoams	C29	PDMS
+polyether_COID585837	COID585837	polyether	antifoams	C29	
+polymerization_COID253452	COID253452	polymerization	biological process	C6	
+polysialylation_COID426194	COID426194	polysialylation	glycosylation	C61	
+post translational modifications_COID479596	COID479596	post translational modifications	PTM	C8	post translational modification
+potassium hydroxide_COID887610	COID887610	potassium hydroxide	base (subset of secondary raw materials)	C34	
+potency_COID969445	COID969445	potency	clinical outcomes	C24	
+powercho-2_COID158043	COID158043	powercho-2	media	C59	
+powercho-3_COID786009	COID786009	powercho-3	media	C59	
+precursor_COID871085	COID871085	precursor	biochemical compound	C18	precursors
+prenylation_COID103961	COID103961	prenylation	PTM	C8	
+primary raw materials_COID615478	COID615478	primary raw materials	primary raw materials	C55	primary raw material
+process condition_COID106153	COID106153	process condition	process condition	C19	process conditions
+process outcome_COID078408	COID078408	process outcome	process outcome	C47	process outcomes
+process parameter_COID163282	COID163282	process parameter	process parameters or process control	C11	process parameters; parameters of processes; parameters of a process; parameter of a process; parameter of the process; parameters of the process; parameter of processes
+procho4_COID741978	COID741978	procho4	media	C59	
+procho5_COID988111	COID988111	procho5	media	C59	
+product concentration_COID189862	COID189862	product concentration	product attributes	C53	product concentrations
+product efficacy_COID793672	COID793672	product efficacy	clinical outcomes	C24	product efficacies
+product formation_COID187355	COID187355	product formation	flux rate	C49	
+product quality_COID111751	COID111751	product quality	product quality attributes	C51	quality of a product; product qualities; quality of products
+product safety_COID232216	COID232216	product safety	product quality attributes	C51	safety of a product; safety of products
+product stability_COID313713	COID313713	product stability	product attributes	C53	
+product titer_COID382077	COID382077	product titer	overall titer or batch yield	C48	product titers
+production bioreactor parameters_COID641378	COID641378	production bioreactor parameters	process parameters or process control	C11	production bioreactor parameter; parameters of production bioreactor
+production rate_COID014362	COID014362	production rate	process parameters or process control	C11	production rates; specific production rate; SPR
+production yield_COID711358	COID711358	production yield	overall titer or batch yield	C48	production yields; antibody production yields; antibody production yield
+productivity_COID731421	COID731421	productivity	process condition	C19	average productivity; specific productivity
+productivity of the cell culture process_COID192960	COID192960	productivity of the cell culture process	process condition	C19	culture process productivity of a cell; culture process productivity of cells
+proline_COID708113	COID708113	proline	amino acid (subset of substrates)	C5	
+prolonged viability_COID937191	COID937191	prolonged viability	process parameters or process control	C11	prolonged viabilities
+properties of glycoproteins_COID445665	COID445665	properties of glycoproteins	product quality profile	C50	property of glycoprotein
+proportion of complex forms_COID157309	COID157309	proportion of complex forms	process outcome	C47	proportion of complex form
+protein aggregation_COID100331	COID100331	protein aggregation	product attributes	C53	
+protein degradation_COID960950	COID960950	protein degradation	degradation	C22	protein degradations
+protein engineering_COID847029	COID847029	protein engineering	recombinant protein	C46	
+protein expression_COID124678	COID124678	protein expression	product attributes	C53	protein expressions
+protein glycosylation profiles_COID614376	COID614376	protein glycosylation profiles	product attributes	C53	protein glycosylation profile
+protein purity_COID523503	COID523503	protein purity	product attributes	C53	
+protein quality attributes_COID846170	COID846170	protein quality attributes	product quality profile	C50	protein quality attribute
+protein-free media_COID927727	COID927727	protein-free media	media	C59	
+proteolytic cleavage_COID789633	COID789633	proteolytic cleavage	PTM	C8	
+protocol_COID625051	COID625051	protocol	process parameters or process control	C11	protocols
+pyruvate_COID727438	COID727438	pyruvate	carbon source (subset of secondary raw materials)	C26	
+qp_COID599783	COID599783	qp	flux rate	C49	q p
+quality_COID109463	COID109463	quality	product quality attributes	C51	
+raffinose_COID985703	COID985703	raffinose	sugar (subset of carbon source)	C27	
+raw material characteristics_COID900595	COID900595	raw material characteristics	raw material characteristics	C40	raw material characteristic
+reactor sterility_COID587134	COID587134	reactor sterility	reactor design	C16	
+recombinant antibody yield_COID518563	COID518563	recombinant antibody yield	overall titer or batch yield	C48	
+recombinant fusion protein_COID676940	COID676940	recombinant fusion protein	recombinant protein	C46	
+recombinant protein_COID593158	COID593158	recombinant protein	recombinant protein	C46	recombinant proteins
+recombinant protein production_COID708316	COID708316	recombinant protein production	overall titer or batch yield	C48	
+redox potential_COID680210	COID680210	redox potential	cellular metabolic state	C21	redox potentials
+relative glycan content_COID604263	COID604263	relative glycan content	product attributes	C53	relative glycan contents
+residance time_COID945033	COID945033	residance time	NYK	TypeId:	
+response surface model_COID906970	COID906970	response surface model	reactor design	C16	response surface models; RSM
+rubidium hydroxide_COID977744	COID977744	rubidium hydroxide	base (subset of secondary raw materials)	C34	
+run time_COID945441	COID945441	run time	process parameters or process control	C11	
+s-sulfocysteine_COID617511	COID617511	s-sulfocysteine	secondary raw materials	C25	
+safety_COID635261	COID635261	safety	clinical outcomes	C24
+safety and potency of the monoclonal antibody_COID685464	COID685464	safety and potency of the monoclonal antibody	clinical outcomes	C24	
+salt balance_COID092325	COID092325	salt balance	cellular metabolic state	C21	
+scales_COID586187	COID586187	scales	vessel or process parameter or production scale	C12	scaled; scale
+secretion rate_COID916779	COID916779	secretion rate	flux rate	C49	
+selenium_COID808285	COID808285	selenium	trace metals or minerals (subset of secondary raw materials)	C38	
+serum-free media_COID688586	COID688586	serum-free media	media	C59	
+shake flask_COID796805	COID796805	shake flask	vessel or process parameter or production scale	C12	shake flasks
+shear forces_COID215539	COID215539	shear forces	process condition	C19	shear force
+shearing stress_COID617140	COID617140	shearing stress	shear forces	C23	shearing stresses
+sialic acid_COID148212	COID148212	sialic acid	sugar (subset of carbon source)	C27	SA
+sialic acid degradation_COID371714	COID371714	sialic acid degradation	metabolic pathways	C1	degradation of sialic acid
+sialidase_COID839818	COID839818	sialidase	enzyme	C10	
+sialylated glycans_COID113402	COID113402	sialylated glycans	sugar (subset of carbon source)	C27	sialylated glycan
+sialylation_COID543327	COID543327	sialylation	glycosylation	C61	
+sialyltransferase_COID191824	COID191824	sialyltransferase	enzyme	C10	sialyl-transferases; sialyltransferases
+silicone-based antifoams_COID404088	COID404088	silicone-based antifoams	antifoams	C29	
+simethicone_COID829840	COID829840	simethicone	antifoams	C29	
+single use bioreactor_COID917715	COID917715	single use bioreactor	vessel or process parameter or production scale	C12	
+single-use filtration_COID146256	COID146256	single-use filtration	filtration parameters	C17	single use filtration; single-use filtrations; single use filtrations
+site occupancy_COID402550	COID402550	site occupancy	product quality attributes	C51	
+sodium bicarbonate_COID760948	COID760948	sodium bicarbonate	buffer (subset of secondary raw materials)	C36	
+sodium carbonate_COID693101	COID693101	sodium carbonate	base (subset of secondary raw materials)	C34	
+sodium chloride_COID277511	COID277511	sodium chloride	trace metals or minerals (subset of secondary raw materials)	C38	
+sodium hydroxide_COID574267	COID574267	sodium hydroxide	base (subset of secondary raw materials)	C34	
+sodium phosphate_COID599868	COID599868	sodium phosphate	base (subset of secondary raw materials)	C34	
+sorbitol_COID857879	COID857879	sorbitol	cell line characteristics	TypeId:	
+st3gal4 gene_COID302607	COID302607	st3gal4 gene	genotype	C42	st3gal4 genes
+stability_COID548988	COID548988	stability	process condition	C19	
+steric hindrance_COID398974	COID398974	steric hindrance	process parameters or process control	C11	
+stirred-tank bioreactors_COID383436	COID383436	stirred-tank bioreactors	vessel or process parameter or production scale	C12	strs; STR; stirred-tank bioreactor
+bioreactors_COID345693	COID345693	bioreactors	vessel or process parameter or production scale	C12	bioreactor; BR
+substrates_COID265919	COID265919	substrates	substrates	C3	substrate
+sucrose_COID945298	COID945298	sucrose	disaccharides (subset of carbon source)	C28	
+sugar transporter genes_COID403797	COID403797	sugar transporter genes	cell line characteristics	TypeId:	sugar transporter gene
+sulfation_COID777322	COID777322	sulfation	PTM	C8	
+sumoylation_COID899198	COID899198	sumoylation	PTM	C8	
+superoxide dismutase_COID501351	COID501351	superoxide dismutase	enzyme	C10	
+supplementation_COID566710	COID566710	supplementation	secondary raw materials	C25	supplementations
+synthetic or chemically defined media_COID198035	COID198035	synthetic or chemically defined media	media	C59	
+tangential flow filtration_COID208659	COID208659	tangential flow filtration	filtration parameters	C17	tangential flow filtrations; TFF
+temperature_COID692615	COID692615	temperature	bioreactor conditions	C14	temperatures
+terminal galactose β1_COID528317	COID528317	terminal galactose β1	sugar (subset of carbon source)	C27	
+tetra-sialylated glycans_COID697788	COID697788	tetra-sialylated glycans	sugar (subset of carbon source)	C27	tetra-sialylated glycan
+tetramethylammonium hydroxide_COID237556	COID237556	tetramethylammonium hydroxide	base (subset of secondary raw materials)	C34	
+therapeutic agent_COID276899	COID276899	therapeutic agent	therapeutic agent	C45	therapeutic agents
+therapeutic efficacy_COID151356	COID151356	therapeutic efficacy	clinical outcomes	C24	
+therapeutic protein quality_COID845607	COID845607	therapeutic protein quality	product quality attributes	C51	
+threonine_COID905902	COID905902	threonine	amino acid (subset of substrates)	C5	
+time_COID742277	COID742277	time	process parameters or process control	C11	
+titer_COID732378	COID732378	titer	overall titer or batch yield	C48	titers; mab titers; mab1 titers
+trace metal_COID221517	COID221517	trace metal	trace metals or minerals (subset of secondary raw materials)	C38	trace metals
+trehalose_COID264187	COID264187	trehalose	disaccharides (subset of carbon source)	C28	trehaloses
+trehalose-containing medium_COID087692	COID087692	trehalose-containing medium	media characteristics	C43	
+tributyl phosphate_COID957770	COID957770	tributyl phosphate	antifoams	C29	
+tris_COID522855	COID522855	tris	base (subset of secondary raw materials)	C34	
+trisaccharide raffinose_COID864970	COID864970	trisaccharide raffinose	sugar (subset of carbon source)	C27	
+tromethamine_COID801576	COID801576	tromethamine	base (subset of secondary raw materials)	C34	
+tyrosine_COID500516	COID500516	tyrosine	media parameter or raw material	C13	
+ubiquitination_COID966920	COID966920	ubiquitination	PTM	C8	
+udp-n-acetylglucosamine biosynthesis_COID929438	COID929438	udp-n-acetylglucosamine biosynthesis	biochemical compound	C18	
+udp-sugars_COID346911	COID346911	udp-sugars	sugar (subset of carbon source)	C27	
+udp–gal_COID756664	COID756664	udp–gal	substrates	C3	udp-galnac
+ultrafiltration_COID277807	COID277807	ultrafiltration	filtration parameters	C17	ultrafiltrations; UF
+undesired glycan forms_COID853412	COID853412	undesired glycan forms	sugar (subset of carbon source)	C27	undesired glycan form
+unnatural fucose analogues_COID154124	COID154124	unnatural fucose analogues	substitution material	C30	unnatural fucose analogue
+uptake rates_COID844360	COID844360	uptake rates	biological process	C6	uptake rate
+oxygen uptake rate_COID844361	COID844361	oxygen uptake rate	biological process	C6	OUR; oxygen uptake rates
+uridine_COID485269	COID485269	uridine	nucleotide or nucleoside	C4	
+uridine diphosphate–galactose_COID990972	COID990972	uridine diphosphate–galactose	substrates	C3	udp–gal; udp–galactose
+valproic acid_COID953809	COID953809	valproic acid	secondary raw materials	C25	VPA
+vanadium_COID504836	COID504836	vanadium	trace metals or minerals (subset of secondary raw materials)	C38	
+variable domains_COID284730	COID284730	variable domains	product attributes	C53	variable domain
+viability_COID222142	COID222142	viability	process parameters or process control	C11	viabilities
+viable cell density_COID384695	COID384695	viable cell density	cell culture parameters	C15	viable cell densities; VCD; vcds
+volumetric recombinant antibody yields_COID088953	COID088953	volumetric recombinant antibody yields	overall titer or batch yield	C48	volumetric recombinant antibody yield
+vpa titrations_COID479988	COID479988	vpa titrations	overall titer or batch yield	C48	vpa titration; valproic acid titration; valproic acid titrations
+waste product_COID007191	COID007191	waste product	by-product or waste	C9	waste products; product wastes
+yield_COID809703	COID809703	yield	overall titer or batch yield	C48	
+zinc_COID532261	COID532261	zinc	trace metals or minerals (subset of secondary raw materials)	C38	
+zinc finger nucleases_COID138449	COID138449	zinc finger nucleases	enzyme	C10	ZFN
+α-2,3 linked sialic acid_COID449367	COID449367	α-2,3 linked sialic acid	sugar (subset of carbon source)	C27	α-2,3 linked sialic acids
+α-2,3 sialyltransferase knockout-α-2,6 sialyltransferase stable clone_COID226938	COID226938	α-2,3 sialyltransferase knockout-α-2,6 sialyltransferase stable clone	genotype	C42	
+α-2,3 sialyltransferases_COID229977	COID229977	α-2,3 sialyltransferases	enzyme	C10	
+α-2,6 and α-2,3 sialylation_COID698284	COID698284	α-2,6 and α-2,3 sialylation	glycosylation	C61	
+α-2,6 sialylation_COID995015	COID995015	α-2,6 sialylation	glycosylation	C61	
+α-2,6 sialyltransferase_COID465059	COID465059	α-2,6 sialyltransferase	enzyme	C10	
+β-1,4 galactosyltransferase_COID856080	COID856080	β-1,4 galactosyltransferase	enzyme	C10	β-1,4-galactosyltransferase; B4GALT; b4galt
+β-1,4 galactosyltransferase activity_COID893155	COID893155	β-1,4 galactosyltransferase activity	cellular metabolic state	C21	
+γ-carboxyglutamate gla_COID854639	COID854639	γ-carboxyglutamate gla	amino acid (subset of substrates)	C5	
+antibody_COID278523	COID278523	antibody	antibody	C63	antibodies
+CHO_COID806780	COID806780	CHO	chinese hamster ovary (CHO)	C58	chinese hamster ovary; chinese hamster ovary (cho); cho cells; chinese hamster ovary cells
+culture ph_COID689332	COID689332	culture ph	bioreactor conditions	C14	ph of culture
+monoclonal antibody-1_COID268135	COID268135	monoclonal antibody-1	monoclonal antibody	C54	monoclonal antibody 1; monoclonal antibody1; mab1; mab-1
+monoclonal antibody-2_COID770105	COID770105	monoclonal antibody-2	monoclonal antibody	C54	monoclonal antibody 2; monoclonal antibody2; mab2; mab-2
+oxygen partial pressure_COID790678	COID790678	oxygen partial pressure	process condition	C19	partial pressure of oxygen; po2; po 2; partial pressure oxygen; partial pressure of o2
+critical quality attributes_COID162607	COID162607	critical quality attributes	product quality attributes	C51	CQA; cqas; critical quality attribute
+serene_COID865161	COID865161	serene	amino acid (subset of substrates)	C5	ser; serenes
+sialidases_COID070440	COID070440	sialidases	enzyme	C10	sialidase
+glucosidase_COID809485	COID809485	glucosidase	enzyme	C10	glucosidases
+glucosidase inhibitor_COID600034	COID600034	glucosidase inhibitor	secondary raw materials	C25	glucosidase inhibitors
+glycosylation gene_COID471026	COID471026	glycosylation gene	genotype	C42	glycosylation genes
+immunogenic response_COID740397	COID740397	immunogenic response	clinical outcomes	C24	immunogenic responses
+cell clone_COID964819	COID964819	cell clone	cell line	C56	cell clones; particular cell clones; particular cell clone
+metabolic state_COID500182	COID500182	metabolic state	cellular metabolic state	C21	cellular metabolic state; cellular metabolic states; metabolic states
+mannose feed_COID729034	COID729034	mannose feed	NYK	C70	
+cultivation process_COID699462	COID699462	cultivation process	media characteristics	C43	cultivation processes; cultivation mode; cultivation modes; cultivation condition; cultivation conditions
+copper chloride_COID901856	COID901856	copper chloride	trace metals or minerals (subset of secondary raw materials)	C38	cucl2; cucl; copper(ii) chloride; copper chlorides
+mycophenolic acid_COID265438	COID265438	mycophenolic acid	NYK	C70	MPA; mycophenolic acids
+dimethyl sulfoxide_COID418525	COID418525	dimethyl sulfoxide	NYK	C70	DMSO; dimethyl sulfoxides
+integral of the viable cells_COID204694	COID204694	integral of the viable cells	NYK	C70	integral of the viable cell; IVC
+sirna_COID416464	COID416464	sirna	NYK	C70	sirna treated cultures; sirna treated culture; sirna treated bioreactors; sirna treated bioreactor
+mannostatin_COID631700	COID631700	mannostatin	NYK	C70	mannostatin a
+gdp-mannose 4,6-dehydratase_COID390450	COID390450	gdp-mannose 4,6-dehydratase	enzyme	C10	GMDS; gdp mannose 4,6 dehydratase; gdp-mannose 4,6 dehydratase; gdp-mannose 4,6-dehydratases
+peracetylation_COID113739	COID113739	peracetylation	PTM	C8	
+monosaccharide_COID882808	COID882808	monosaccharide	sugar (subset of carbon source)	C27	monosaccharides
+tagatose_COID779095	COID779095	tagatose	sugar (subset of carbon source)	C27	
+2-deoxy-2,3-didehydro-n-acetylneuraminic acid_COID084256	COID084256	2-deoxy-2,3-didehydro-n-acetylneuraminic acid	sugar (subset of carbon source)	C27	DANA; 2-deoxy-2,3-didehydro-n-acetylneuraminic acids
+glycosylated igg_COID286158	COID286158	glycosylated igg	product quality profile	C50	igg glycosylation; igg-glycosylation
+monensin_COID766386	COID766386	monensin	NYK	C70	
+beta-galactoside alpha-2,6-sialyltransferase 1_COID749247	COID749247	beta-galactoside alpha-2,6-sialyltransferase 1	enzyme	C10	ST6GAL1; st6gal1; ST6GAL1_OE_31
+chimeric anti-gd2 antibody_COID593142	COID593142	chimeric anti-gd2 antibody	antibody	C63	
+glycerolipid metabolism_COID675248	COID675248	glycerolipid metabolism	biological process	C6	
+aminoglycan metabolism_COID274429	COID274429	aminoglycan metabolism	biological process	C6	
+sphingolipid metabolism_COID520329	COID520329	sphingolipid metabolism	biological process	C6	
+pentose phosphate pathway_COID233901	COID233901	pentose phosphate pathway	metabolic pathways	C1	pentose phosphate pathways; pentose phosphate pathway (ppp); PPP
+amino acid_COID693703	COID693703	amino acid	amino acid (subset of substrates)	C5	amino acids
+cellular metabolism_COID903943	COID903943	cellular metabolism	biological process	C6	
+procho5 medium_COID781761	COID781761	procho5 medium	media characteristics	C43	
+powercho2_COID568973	COID568973	powercho2	chinese hamster ovary (CHO)	C58	power-cho 2; power cho 2; power cho; powercho
+glycolysis_COID345655	COID345655	glycolysis	metabolic pathways	C1	
+fc galactosylation_COID097777	COID097777	fc galactosylation	product quality profile	C50	fc-galactosylation; galactosylated fc
+osmolarity_COID052118	COID052118	osmolarity	process parameters or process control	C11	
+monoclonal antibody-3_COID545724	COID545724	monoclonal antibody-3	monoclonal antibody	C54	mab3; mab-3; monoclonal antibody 3; monoclonal antibody3
+monoclonal antibody-4_COID488138	COID488138	monoclonal antibody-4	monoclonal antibody	C54	mab4; mab-4; monoclonal antibody 4; monoclonal antibody4
+butyric acid_COID365093	COID365093	butyric acid	acid (subset of secondary raw materials)	C37	butyric acids; BA
+gene_COID185502	COID185502	gene	genotype	C42	genes
+secreted igg4 antibody_COID339494	COID339494	secreted igg4 antibody	antibody	C63	secreted igg4 antibodies
+dot fluctuation_COID332196	COID332196	dot fluctuation	NYK	C70	dot fluctuations
+ph and dissolved oxygen heterogeneities_COID571696	COID571696	ph and dissolved oxygen heterogeneities	product quality attributes	C51	ph and dissolved oxygen heterogeneity; ph and do heterogeneity
+DOT_COID003597	COID003597	DOT	NYK	C70	
+dot-fluctuated vessels_COID853468	COID853468	dot-fluctuated vessels	vessel or process parameter or production scale	C12	dot fluctuated vessels; dot fluctuated vessel; dot-fluctuated vessel
+metabolic byproducts_COID531384	COID531384	metabolic byproducts	by-product or waste	C9	metabolic by-products; metabolic by-product; metabolic byproduct
+cgntiii_COID316428	COID316428	cgntiii	genotype	C42	gnt iii; gntiii; CGNT III; cgntiii gene; cgntiii genes; cgntiii expression
+vessels_COID322748	COID322748	vessels	vessel or process parameter or production scale	C12	vessel; fluctuated vessel; fluctuated vessels; do-fluctuated vessels; do fluctuated vessels; do-fluctuated vessel; do fluctuated vessel; ph-fluctuated vessels; ph fluctuated vessels; ph-fluctuated vessel; ph fluctuated vessel
+deoxynojirimycin_COID003598	COID003598	deoxynojirimycin	enzyme inhibitor	C60	glucosidase inhibitor deoxynojirimycin
+st3 beta-galactoside alpha-2,3-sialyltransferase 6_COID373234	COID373234	st3 beta-galactoside alpha-2,3-sialyltransferase 6	enzyme	C10	st3gal6; ST3GAL6
+glycan heterogeneity_COID262061	COID262061	glycan heterogeneity	product quality attributes	C51	glycan heterogeneities; heterogeneity of glycans; n-glycan heterogeneity; heterogeneity of n-glycans
+pyroglutamate_COID083886	COID083886	pyroglutamate	amino acid (subset of substrates)	C5	pyroglutamic acid; 5-oxoproline; pglu; n-terminal pyroglutamate; n-terminal pyroglutamic acid
+immunoglobulin_COID713543	COID713543	immunoglobulin	antibody	C63	immunoglobulin g; igg; igg1; immunoglobulins
+igg titers_COID814559	COID814559	igg titers	overall titer or batch yield	C48	immunoglobulin titers; igg titer; immunoglobulin titer

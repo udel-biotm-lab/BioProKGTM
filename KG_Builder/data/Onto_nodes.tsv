@@ -1,0 +1,67 @@
+id	name
+C1	metabolic pathways
+C2	cell cycle pathway G0/G1/M/G2
+C3	substrates
+C4	nucleotide or nucleoside
+C5	amino acid
+C6	biological process
+C7	catalysis
+C8	PTM
+C61	glycosylation
+C9	by-product or waste
+C10	enzyme
+C11	process parameters or process control
+C12	vessel or process parameter or production scale
+C13	media parameter or raw material
+C14	bioreactor conditions
+C15	cell culture parameters
+C16	reactor design
+C17	filtration parameters
+C18	biochemical compound
+C19	process condition
+C20	culture condition
+C21	cellular metabolic state
+C22	degradation
+C23	shear forces
+C24	clinical outcomes
+C25	secondary raw materials
+C26	carbon source
+C27	sugar
+C28	disaccharides
+C29	antifoams
+C62	cellulosic compounds
+C30	substitution material
+C31	serum or serum replacements
+C32	cell nutrient
+C33	saccharides
+C34	base
+C35	gases
+C36	buffer
+C37	acid
+C38	trace metals or minerals
+C39	nitrogen sources
+C40	raw material characteristics
+C41	cell line characteristics 
+C42	genotype
+C43	media characteristics
+C44	process mode
+C45	therapeutic agent
+C46	[recombinant] protein
+C47	process outcome
+C48	overall titer or batch yield
+C49	flux rate
+C50	product quality profile
+C51	product quality attributes
+C52	product
+C53	product attributes
+C63	antibody
+C54	monoclonal antibody
+C64	bispecific antibody
+C65	non-fucosylated antibody
+C55	primary raw materials
+C56	cell line
+C57	hybridoma
+C58	chinese hamster ovary (CHO)
+C59	media
+C60	enzyme inhibitor
+C70	NYK
