@@ -1,0 +1,2318 @@
+<article article-type="Journal Article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Biotechnology Progress</journal-title>
+      </journal-title-group>
+      <issn>8756-7938</issn>
+      <issn>1520-6033</issn>
+      <publisher>
+        <publisher-name>John Wiley &amp; Sons</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1002/btpr.3365</article-id>
+      <article-id pub-id-type="wtfid">010570550_0000001_231024005725083193</article-id>
+      <article-id pub-id-type="pmid">37221987</article-id>
+      <article-id pub-id-type="tdm">wiley_TDM-10.1002/btpr.3365</article-id>
+      <title-group>
+        <article-title>Use of single analytic tool to quantify both absolute N‐glycosylation and glycan distribution in monoclonal antibodies</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Mao</surname>
+          <given-names>Leran</given-names>
+          <aff>Department of Chemical Engineering Carnegie Mellon University</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Schneider</surname>
+          <given-names>James W.</given-names>
+          <aff>Department of Chemical Engineering Carnegie Mellon University</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Robinson</surname>
+          <given-names>Anne S.</given-names>
+          <aff>Department of Chemical Engineering Carnegie Mellon University</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>23</day>
+        <month>10</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>39</volume>
+      <issue>5</issue>
+      <fpage>n/a</fpage>
+      <lpage>n/a</lpage>
+      <abstract>
+        <p>Abstract Recombinant proteins represent almost half of the top selling therapeutics—with over a hundred billion dollars in global sales—and their efficacy and safety strongly depend on glycosylation. In this study, we showcase a simple method to simultaneously analyze N‐glycan micro‐ and macroheterogeneity of an immunoglobulin G (IgG) by quantifying glycan occupancy and distribution. Our approach is linear over a wide range of glycan and glycoprotein concentrations down to 25 ng/mL. Additionally, we present a case study demonstrating the effect of small molecule metabolic regulators on glycan heterogeneity using this approach. In particular, sodium oxamate (SOD) decreased Chinese hamster ovary (CHO) glucose metabolism and reduced IgG glycosylation by 40% through upregulating reactive oxygen species (ROS) and reducing the UDP‐GlcNAc pool, while maintaining a similar glycan profile to control cultures. Here, we suggest glycan macroheterogeneity as an attribute should be included in bioprocess screening to identify process parameters that optimize culture performance without compromising antibody quality.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>bioprocessing</kwd>
+        <kwd>CHO cell</kwd>
+        <kwd>critical quality attribute</kwd>
+        <kwd>glycosylation</kwd>
+        <kwd>metabolism</kwd>
+      </kwd-group>
+      <sec sec-type="intro">
+        <p>INTRODUCTION  Immunoglobulin G, or IgG, produced in mammalian cells remains the largest segment of protein therapeutics. The market size reached 100 billion dollars in 2017 and continued to grow to over 130 therapeutic products approved or under review by the end of 2021.1,2 Chinese hamster ovary (CHO) cells are the primary workhorse for producing therapeutic proteins, in part due to their robust suspension culture under a variety of growth conditions.3 Glycoproteins produced in CHO cells resemble those produced in the native human body due to a lack of α‐galactose residues, making clinical transferability considerably more efficient. Despite their widespread use, the ability to measure and control post‐translational modifications during a bioprocess remains limited.4,5 Protein N‐glycosylation is a post‐translational modification under enzymatic regulation. Within cells, glucose is metabolized into uridine diphosphate‐N‐acetylglucosamine (UDP‐GlcNAc), a precursor that is further modified and attached to the Asn 297 residue of IgG.6 The glycosylated protein is trimmed down in the endoplasmic reticulum (ER), and complex glycoforms are produced through a series of enzymatic reactions in the Golgi apparatus. Because protein glycosylation governs both the efficacy and safety of the resulting therapeutic proteins,7 the FDA imposes regulations for glycosylation characterization of every glycoprotein that reaches the market. Thus, glycosylation is considered a critical quality attribute (CQA) that needs to be controlled precisely. A failed batch producing undesired glycosylation can result in millions of dollars lost in discarded product. Currently, most published reports have characterized antibody glycosylation through the relative distribution of identified glycoforms.8 Differences in glycoform distribution are termed glycan microheterogeneity, which results from the efficiency and stochasticity of enzymatic processes in the Golgi apparatus. Multiple factors such as temperature,9 reaction precursor concentration,10 and specific productivity (qP)11 can affect glycan microheterogeneity, or the variability from one protein to another produced in the same batch. On the other hand, glycan macroheterogeneity is defined as the presence or absence of glycan modification on a glycosylation site (Asn 297 for IgG). This macroheterogeneity is caused by inefficient glycan transfer to protein glycosylation sites or glycoprotein degradation.12,13 The degree of macroheterogeneity is process‐dependent,14–16 and could reach 6%–25% in IgG17,18 and over 40% in other proteins.14,19–21 Although glycan macroheterogeneity is less frequently measured, it is an important factor governing protein stability and serum clearance rate.12,13,22 By analyzing only microheterogeneity, one may miss crucial aspects of cell culture conditions that can result in altered product quality, which affects safety and efficacy. Tunicamycin is a potent inhibitor of protein N‐glycosylation23 that has been used to increase CHO protein production. Chandrawanshi et al.8 reported that tunicamycin adaptation in CHO cells yielded a cell line with increased specific productivity yet did not change the N‐glycosylation profile of the resulting antibody. However, whether tunicamycin affected macroheterogeneity in that case is an open question. In another case, Onitsuka et al.24 identified a reduction in glycan occupancy in an aggregated protein produced in CHO cells, while the relative glycan distribution was not significantly altered. This result advocates for increased knowledge of macroheterogeneity as well as glycan distribution during cell line and media development. Although many tools are available for analyzing glycan microheterogeneity,4 glycan macroheterogeneity is frequently characterized towards the end of the downstream process by mass spectrometry (MS), which requires expert knowledge and is time intensive. Thus, a simpler and faster screening platform that allows characterization of both glycan micro‐ and macroheterogeneity is needed; such a rapid analysis platform will be essential for screening process conditions that affect antibody quality. In this study, we demonstrate a simple yet robust method to simultaneously analyze antibody micro‐ and macroheterogeneity using a high‐throughput LabChip GXII platform (Figure 1). The LabChip platform, developed by Perkin Elmer, is ideal for our purpose because its analysis pipeline involves reduced manual effort and liquid transfer, and fully excludes glycan extraction steps where the glycans can be lost. Thus, the total amount of glycans injected and analyzed is better controlled, and absolute quantitation can be achieved more reliably. We also present a case study using metabolic regulation to analyze the resulting glycan micro‐ and macroheterogeneity of IgG produced in CHO cells using this approach. 1 FIGURE  Schematic of simultaneous analysis of antibody macroheterogeneity and microheterogeneity. Light blue‐shaded region indicates involvement of manual steps and light yellow‐shaded region indicates automated injection and analysis steps of the LabChip instrument. When the same amount of antibody is analyzed (e.g., 8 μL of 1 mg/mL), the glycoforms can be identified as different peaks, and by comparison to known quantities of glycan standards, macroheterogeneity can be determined by the fluorescence intensity.</p>
+      </sec>
+      <sec sec-type="materials|methods">
+        <p>Materials  Sodium oxamate (SOD) was purchased from Cayman Chemicals (Ann Arbor, MI), and SBI‐797812 (SBI) was purchased from Selleck Chemicals (Houston, TX). All other chemicals were purchased from Sigma‐Aldrich (St. Louis, MO) unless stated otherwise. The G0F glycan standard (NIST SRM 3655) and NIST mAb (NIST RM 8671) were provided from NIST (Gaithersburg, MD) through NIIMBL‐supported collaborations. LabChip glycosylation and capillary electrophoresis‐sodium dodecyl sulfate (CE‐SDS) protein analysis  LabChip glycan analysis was performed with the Glycan Release and Labeling Kit and Glycan Screening Reagent Kit on a High‐Resolution LabChip (Perkin Elmer, Waltham, MA), according to the manufacturer&apos;s protocol. Briefly, 1 mg/mL purified antibody sample was prepared from the NIST mAb stock, and 8 μL of the sample was added to a microcentrifuge tube. A total of 4 μL denaturation buffer was added to the sample and incubated at 70°C for 10 min. The sample was cooled for at least 3 min at room temperature, and 5 μL PNGase F was added and incubated at 37°C for 1 h. In parallel, 8 μL of the sample was added to another microcentrifuge tube, and 5 μL of a glycan‐specific fluorescent dye was added. The sample was incubated open to air at 55°C for 2 h or until the sample was completely dry. Finally, the sample was reconstituted in 100 μL deionized water and prepared for analysis in a LabChip GXII Touch instrument (Perkin Elmer, Waltham, MA). The percentage of glycoform and the absolute area were measured by integrating the relative fluorescent units (RFU) of respective glycan peaks, and were analyzed with the LabChip GXII software. Glycoforms were identified with unlabeled glycan standards (Agilent, Santa Clara, CA) and compared with the expected glycan distributions of antibodies analyzed with ultra‐high‐performance liquid chromatography (U/HPLC)10 (Figure S1). Similarly, the denatured antibody was analyzed directly with the Protein Express Assay Reagent Kit on a Protein Express Assay LabChip (Perkin Elmer, Waltham, MA) for CE‐SDS analysis (non‐reducing). All incubation steps were performed with an Eppendorf 5333 Mastercycler (Eppendorf, Enfield, CT). Antibody purification from cell culture media and deglycosylation  Antibody was purified with a Pierce Protein A Coated Plate (Thermo Fisher Scientific, Waltham, MA). Briefly, the 96‐well plate was washed three times with 400 μL phosphate‐buffered saline (PBS) and centrifuged for 2 min at 300 g. Two milliliters of harvested cell culture was added to each well of the 96‐well plate and incubated for 10 min at room temperature. The plate was washed twice with PBS followed by incubation with the elution buffer (100 mM glycine, pH 2.75) for 4 min. The eluted samples were buffer‐exchanged and concentrated in a collection plate and concentrated with a 10 kDa molecular weight cutoff spin column (EMD Millipore, Burlington, MA) by centrifuging at 14,000 g for 15 min. The samples were stored at −20°C until analysis. For deglycosylation, 120 μg antibody was incubated with 13 μL PNGase F (New England Biolabs, Ipswich, MA) for 48 h at 37°C. Deglycosylated antibody was purified identically to antibody from cell culture media. Solid phase extraction separation (SPE) of glycans  SPE was performed with a HILIC SPE kit (Waters Corp., Milford, MA) according to the manufacturer&apos;s instructions. The SPE plate was first conditioned with deionized water followed by 15:85 (v/v) water:acetonitrile. Then, 10 μL of the G0F standard diluted in acetonitrile was separated with the SPE plate. The plate was washed twice with 1:9:90 (v/v/v) formic acid: water: acetonitrile and the purified glycan was eluted with 200 mM ammonium acetate in 5% acetonitrile. The purified glycan was analyzed identically to purified IgG samples for LabChip glycan analysis. Measurement of antibody titer and metabolite concentration  At predefined days, approximately 600 μL of cell culture fluid was collected, and cells were separated from the spent media by centrifuging at 5000 g for 5 min. Antibody titer and metabolite (glucose, lactate) concentration in the clarified cell culture supernatant were analyzed with a Cedex Bio Analyzer (Roche, South San Francisco, CA). ROS staining  On predefined days, cells were counted, and 0.5 × 106 cells were collected by centrifugation at 200–300 g for 5 min. The cells were washed with PBS by centrifuging at room temperature. Then, 5 μM of H2‐DCFDA (Sigma‐Aldrich, St. Louis, MO) and 1 μM of Superoxide Detection Reagent (Enzo Life Sciences, Farmingdale, NY) diluted in cell culture medium (serum‐ and phenol red‐free) were added to the cells. The cells were incubated in the dark at 37°C for 1 h and analyzed with a Novocyte Advanteon Flow Cytometer (Agilent, Santa Clara, CA) at FITC and PE‐Texas red pre‐set laser settings. Both channels were compensated using unstained samples from the same cell line. Quantification was performed by comparing the proportion of total cells with higher fluorescence intensity than the peak of control cells for each condition. Quantitation of oxygen consumption rate  Oxygen consumption was measured with an Oxygen Consumption Rate (OCR) Assay Kit (Cayman Chemicals, Ann Arbor, MI) as per the manufacturer&apos;s instructions. At predefined days, 0.5 × 106 cells were collected and washed with PBS, followed by resuspension in cell culture media in a black 96‐well plate. The plate was centrifuged at 200 g for 5 min, and 10 μL of the provided probe was added to each well. Two drops of mineral oil were added immediately to each well and the time‐resolved fluorescence was measured kinetically every minute for a total of 120 min with excitation and emission wavelengths at 380 and 640 nm, respectively. The slope of the signal increase in the first 10–30 min was used to calculate oxygen consumption. At the end of the assay, cell number was counted to normalize for cell‐specific oxygen consumption rate. Calculation of specific productivity and metabolite production or consumption  All assay results were converted to cell‐specific rates using the following formula: 1 Specific Productivity=Cantibody,endof cultureIVCCEndof culture, where the end of culture is defined as when cell viability dropped below 70%, and C indicates concentration in mg/L. The integrated viable cell concentration (IVCC) was calculated from the viable cell density (VCD) measured every 2 days over the culture length, where the integration was performed with the trapezoidal rule. Specific productivity was assessed only at the end of the culture process, but correlates well with the specific productivity reported previously when more samples were measured over the duration of the cell culture; it is also consistent with previous definitions of antibody productivity.27 2 Specific Lactate Production=Clactate,D4IVCCD4, 3 Specific Glucose Consumption=Cglucose,D0−Cglucose,D4IVCCD4, where, D0 and D4 represent 0‐ and 4‐days post‐inoculation. Colorimetric UDP‐GlcNAc analysis  The relative concentration of UDP‐GlcNAc was analyzed as reported previously.28 At predefined times, 15 × 106 cells were harvested from the cell culture and lysed immediately by mixing with 1:1 (v/v) water: chloroform, vortexed, and centrifuged at 14,000 g for 20 min at 4°C. The aqueous phase was collected by aspiration and mixed with 10 μL 1 N HCl and heated at 80°C for 20 min. Then, 1 N KOH was added to neutralize the sample, and 50 μL 200 mM potassium tetraborate was added, followed by heating at 80°C for 25 min. After the sample cooled down at room temperature, 150 μL of Ehrlich&apos;s reagent was added to the mixture and incubated at 37°C for 20 min. The sample was centrifuged, and absorbance was measured at 595 nm on a Synergy H1 plate reader (Biotek, Winooski, VT).</p>
+      </sec>
+      <sec sec-type="conclusions">
+        <p>CONCLUSION  Overall, the method we propose here shows good performance, precision, and consistency in quantifying both the absolute and relative amount of glycan released from the glycoprotein, as a robust metric for analysis of both antibody glycan micro‐ and macroheterogeneity. Through our case study, we also show SOD strongly regulated CHO cell metabolism and altered the glycosylation efficiency of the resulting IgG produced. Importantly, our result suggests elevated ROS and ER stress levels may disrupt glycan processing in the ER and Golgi apparatus, resulting in under‐glycosylated antibodies. Thus, we recommend analyzing antibody macroheterogeneity as a part of the antibody analysis pipeline to select conditions that improve antibody production and glycosylation without compromising glycan occupancy. Although our analysis is less sensitive compared to MS, it is straightforward and rapid, and thus can be easily incorporated for screening experiments before scale‐up and will save significant time and expense during process development.</p>
+      </sec>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <body><![CDATA[<component xmlns:wiley="http://www.wiley.com/namespaces/wiley/wiley" xml:id="btpr3365" version="2.0" xml:lang="en" type="serialArticle">
+<header>
+<publicationMeta level="product">
+<publisherInfo>
+<publisherName>John Wiley &amp;amp; Sons, Inc.</publisherName>
+<publisherLoc>Hoboken, USA</publisherLoc>
+</publisherInfo>
+<doi origin="wiley" registered="yes">10.1021/(ISSN)1520-6033</doi>
+<issn type="print">8756-7938</issn>
+<issn type="electronic">1520-6033</issn>
+<idGroup>
+<id type="product" value="BTPR"/>
+</idGroup>
+<titleGroup>
+<title type="main" sort="BIOTECHNOLOGY PROGRESS">Biotechnology Progress</title>
+<title type="short">Biotechnol. Prog</title>
+</titleGroup>
+</publicationMeta>
+<publicationMeta level="part" position="50">
+<doi>10.1002/btpr.v39.5</doi>
+<copyright ownership="thirdParty">© 2023 American Institute of Chemical Engineers</copyright>
+<numberingGroup>
+<numbering type="journalVolume" number="39">39</numbering>
+<numbering type="journalIssue">5</numbering>
+</numberingGroup>
+<coverDate startDate="2023-09">September/October 2023</coverDate>
+</publicationMeta>
+<publicationMeta level="unit" position="90" type="researchArticle" status="forIssue" accessType="open">
+<doi>10.1002/btpr.3365</doi>
+<idGroup>
+<id type="unit" value="BTPR3365"/>
+<id type="eLocator" value="e3365"/>
+</idGroup>
+<countGroup>
+<count type="pageTotal" number="13"/>
+</countGroup>
+<titleGroup>
+<title type="articleCategory">RESEARCH ARTICLE</title>
+<title type="tocHeading1">RESEARCH ARTICLES</title>
+<title type="tocHeading2">Cell Culture and Tissue Engineering</title>
+</titleGroup>
+<copyright ownership="thirdParty">© 2023 The Authors. <i>Biotechnology Progress</i> published by Wiley Periodicals LLC on behalf of American Institute of Chemical Engineers.</copyright>
+<legalStatement type="creativeCommonsBy-nc">
+<p>This is an open access article under the terms of the <link href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution‐NonCommercial</link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</p>
+</legalStatement>
+<eventGroup><event type="firstOnline" date="2023-05-23"/><event type="manuscriptRevised" date="2023-04-22"/><event type="publishedOnlineFinalForm" date="2023-10-23"/><event type="xmlCreated" date="2023-05-16" agent="SPi Global"/><event type="manuscriptReceived" date="2023-01-11"/><event type="publishedOnlineEarlyUnpaginated" date="2023-05-23"/><event type="manuscriptAccepted" date="2023-05-11"/><event type="xmlConverted" agent="Converter:WML3G_To_WML3G version:6.3.4 mode:FullText,remove_FC" date="2023-10-24"/></eventGroup>
+<numberingGroup>
+<numbering type="pageFirst">n/a</numbering>
+<numbering type="pageLast">n/a</numbering>
+</numberingGroup>
+<correspondenceTo>
+<lineatedText>
+<line><b>Correspondence</b></line>
+<line>Anne S. Robinson, Department of Chemical Engineering, Carnegie Mellon University, Pittsburgh, PA 15213, USA.</line>
+<line>Email: <email>asrobins@andrew.cmu.edu</email>
+</line>
+</lineatedText>
+</correspondenceTo>
+<selfCitationGroup><citation type="self" xml:id="btpr3365-cit-9001"><author><familyName>Mao</familyName> <givenNames>L</givenNames></author>, <author><familyName>Schneider</familyName> <givenNames>JW</givenNames></author>, <author><familyName>Robinson</familyName> <givenNames>AS</givenNames></author>. <articleTitle>Use of single analytic tool to quantify both absolute N‐glycosylation and glycan distribution in monoclonal antibodies</articleTitle>. <journalTitle>Biotechnol. Prog</journalTitle>. <pubYear year="2023">2023</pubYear>;<vol>39</vol>(<issue>5</issue>):<eLocator>e3365</eLocator>. doi:<accessionId ref="info:doi/10.1002/btpr.3365">10.1002/btpr.3365</accessionId></citation></selfCitationGroup>
+<objectNameGroup>
+<objectName elementName="figure">FIGURE</objectName>
+<objectName elementName="tabular">TABLE</objectName>
+</objectNameGroup>
+
+</publicationMeta>
+<contentMeta>
+<countGroup>
+<count type="figureTotal" number="7"/>
+<count type="tableTotal" number="1"/>
+<count type="wordTotal" number="9818"/>
+</countGroup>
+<titleGroup>
+<title type="main">Use of single analytic tool to quantify both absolute N‐glycosylation and glycan distribution in monoclonal antibodies</title>
+<title type="shortAuthors">Mao et al.</title>
+</titleGroup>
+<creators>
+<creator creatorRole="author" xml:id="btpr3365-cr-0001" affiliationRef="#btpr3365-aff-0001">
+<casraiContributorRoleGroup>
+<casraiContributorRole casraiContributorRole="conceptualization" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="investigation" degreeOfContribution="lead"/>
+<casraiContributorRole casraiContributorRole="methodology" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="visualization" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="writingOriginalDraft" degreeOfContribution="equal"/>
+</casraiContributorRoleGroup>
+<personName>
+<givenNames>Leran</givenNames>
+<familyName>Mao</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr3365-cr-0002" affiliationRef="#btpr3365-aff-0001">
+<casraiContributorRoleGroup>
+<casraiContributorRole casraiContributorRole="conceptualization" degreeOfContribution="supporting"/>
+<casraiContributorRole casraiContributorRole="fundingAcquisition" degreeOfContribution="supporting"/>
+<casraiContributorRole casraiContributorRole="projectAdministration" degreeOfContribution="supporting"/>
+<casraiContributorRole casraiContributorRole="supervision" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="writingReviewEditing" degreeOfContribution="supporting"/>
+</casraiContributorRoleGroup>
+<personName>
+<givenNames>James W.</givenNames>
+<familyName>Schneider</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr3365-cr-0003" affiliationRef="#btpr3365-aff-0001" corresponding="yes">
+<casraiContributorRoleGroup>
+<casraiContributorRole casraiContributorRole="conceptualization" degreeOfContribution="lead"/>
+<casraiContributorRole casraiContributorRole="formalAnalysis" degreeOfContribution="supporting"/>
+<casraiContributorRole casraiContributorRole="fundingAcquisition" degreeOfContribution="lead"/>
+<casraiContributorRole casraiContributorRole="methodology" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="projectAdministration" degreeOfContribution="lead"/>
+<casraiContributorRole casraiContributorRole="supervision" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="visualization" degreeOfContribution="supporting"/>
+<casraiContributorRole casraiContributorRole="writingOriginalDraft" degreeOfContribution="equal"/>
+<casraiContributorRole casraiContributorRole="writingReviewEditing" degreeOfContribution="equal"/>
+</casraiContributorRoleGroup>
+<idGroup>
+<id type="orcid" value="https://orcid.org/0000-0001-7235-1481"/>
+</idGroup>
+<personName>
+<givenNames>Anne S.</givenNames>
+<familyName>Robinson</familyName>
+</personName>
+<contactDetails>
+<email>asrobins@andrew.cmu.edu</email>
+</contactDetails>
+</creator>
+</creators>
+<affiliationGroup>
+<affiliation xml:id="btpr3365-aff-0001" countryCode="US" type="organization">
+<orgDiv>Department of Chemical Engineering</orgDiv>
+<orgName>Carnegie Mellon University</orgName>
+<address>
+<city>Pittsburgh</city>
+<countryPart>Pennsylvania</countryPart>
+<country>USA</country>
+</address>
+</affiliation>
+</affiliationGroup>
+<keywordGroup type="author" xml:lang="en">
+<keyword xml:id="btpr3365-kwd-0001">bioprocessing</keyword>
+<keyword xml:id="btpr3365-kwd-0002">CHO cell</keyword>
+<keyword xml:id="btpr3365-kwd-0003">critical quality attribute</keyword>
+<keyword xml:id="btpr3365-kwd-0004">glycosylation</keyword>
+<keyword xml:id="btpr3365-kwd-0005">metabolism</keyword>
+</keywordGroup>
+<fundingInfo>
+<fundingAgency fundRefName="National Institute for Innovation in Manufacturing Biopharmaceuticals" funderDoi="10.13039/100014726">National Institute for Innovation in Manufacturing Biopharmaceuticals</fundingAgency>
+<fundingNumber>70NANB17H002</fundingNumber>
+</fundingInfo>
+<supportingInformation xml:id="btpr3365-supInfo-0001">
+<supportingInfoItem xml:id="btpr3365-supitem-0001">
+<mediaResource alt="supplementary data" mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" rendition="webOriginal" href="urn-x:wiley:87567938:media:btpr3365:btpr3365-sup-0001-Supinfo"/>
+<caption><p><b>Data S1</b> Supporting Information</p>
+</caption>
+</supportingInfoItem>
+</supportingInformation>
+<abstractGroup>
+<abstract type="main" xml:lang="en">
+<title type="main">Abstract</title>
+<p>Recombinant proteins represent almost half of the top selling therapeutics—with over a hundred billion dollars in global sales—and their efficacy and safety strongly depend on glycosylation. In this study, we showcase a simple method to simultaneously analyze N‐glycan micro‐ and macroheterogeneity of an immunoglobulin G (IgG) by quantifying glycan occupancy and distribution. Our approach is linear over a wide range of glycan and glycoprotein concentrations down to 25 ng/mL. Additionally, we present a case study demonstrating the effect of small molecule metabolic regulators on glycan heterogeneity using this approach. In particular, sodium oxamate (SOD) decreased Chinese hamster ovary (CHO) glucose metabolism and reduced IgG glycosylation by 40% through upregulating reactive oxygen species (ROS) and reducing the UDP‐GlcNAc pool, while maintaining a similar glycan profile to control cultures. Here, we suggest glycan macroheterogeneity as an attribute should be included in bioprocess screening to identify process parameters that optimize culture performance without compromising antibody quality.</p>
+</abstract>
+</abstractGroup>
+</contentMeta>
+</header>
+<body xml:id="btpr3365-body-0001" sectionsNumbered="yes">
+<section xml:id="btpr3365-sec-0001">
+<title type="main">INTRODUCTION</title>
+<p>Immunoglobulin G, or IgG, produced in mammalian cells remains the largest segment of protein therapeutics. The market size reached 100 billion dollars in 2017 and continued to grow to over 130 therapeutic products approved or under review by the end of 2021.<link href="#btpr3365-bib-0001 #btpr3365-bib-0002"><sup>1,2</sup></link> Chinese hamster ovary (CHO) cells are the primary workhorse for producing therapeutic proteins, in part due to their robust suspension culture under a variety of growth conditions.<link href="#btpr3365-bib-0003"><sup>3</sup></link> Glycoproteins produced in CHO cells resemble those produced in the native human body due to a lack of α‐galactose residues, making clinical transferability considerably more efficient. Despite their widespread use, the ability to measure and control post‐translational modifications during a bioprocess remains limited.<link href="#btpr3365-bib-0004 #btpr3365-bib-0005"><sup>4,5</sup></link></p>
+<p>Protein N‐glycosylation is a post‐translational modification under enzymatic regulation. Within cells, glucose is metabolized into uridine diphosphate‐N‐acetylglucosamine (UDP‐GlcNAc), a precursor that is further modified and attached to the Asn 297 residue of IgG.<link href="#btpr3365-bib-0006"><sup>6</sup></link> The glycosylated protein is trimmed down in the endoplasmic reticulum (ER), and complex glycoforms are produced through a series of enzymatic reactions in the Golgi apparatus. Because protein glycosylation governs both the efficacy and safety of the resulting therapeutic proteins,<link href="#btpr3365-bib-0007"><sup>7</sup></link> the FDA imposes regulations for glycosylation characterization of every glycoprotein that reaches the market. Thus, glycosylation is considered a critical quality attribute (CQA) that needs to be controlled precisely. A failed batch producing undesired glycosylation can result in millions of dollars lost in discarded product.</p>
+<p>Currently, most published reports have characterized antibody glycosylation through the relative distribution of identified glycoforms.<link href="#btpr3365-bib-0008"><sup>8</sup></link> Differences in glycoform distribution are termed glycan microheterogeneity, which results from the efficiency and stochasticity of enzymatic processes in the Golgi apparatus. Multiple factors such as temperature,<link href="#btpr3365-bib-0009"><sup>9</sup></link> reaction precursor concentration,<link href="#btpr3365-bib-0010"><sup>10</sup></link> and specific productivity (qP)<link href="#btpr3365-bib-0011"><sup>11</sup></link> can affect glycan microheterogeneity, or the variability from one protein to another produced in the same batch. On the other hand, glycan macroheterogeneity is defined as the presence or absence of glycan modification on a glycosylation site (Asn 297 for IgG). This macroheterogeneity is caused by inefficient glycan transfer to protein glycosylation sites or glycoprotein degradation.<link href="#btpr3365-bib-0012 #btpr3365-bib-0013"><sup>12,13</sup></link> The degree of macroheterogeneity is process‐dependent,<link href="#btpr3365-bib-0014 #btpr3365-bib-0015 #btpr3365-bib-0016"><sup>14–16</sup></link> and could reach 6%–25% in IgG<link href="#btpr3365-bib-0017 #btpr3365-bib-0018"><sup>17,18</sup></link> and over 40% in other proteins.<link href="#btpr3365-bib-0014 #btpr3365-bib-0019 #btpr3365-bib-0020 #btpr3365-bib-0021"><sup>14,19–21</sup></link> Although glycan macroheterogeneity is less frequently measured, it is an important factor governing protein stability and serum clearance rate.<link href="#btpr3365-bib-0012 #btpr3365-bib-0013 #btpr3365-bib-0022"><sup>12,13,22</sup></link> By analyzing only microheterogeneity, one may miss crucial aspects of cell culture conditions that can result in altered product quality, which affects safety and efficacy.</p>
+<p>Tunicamycin is a potent inhibitor of protein N‐glycosylation<link href="#btpr3365-bib-0023"><sup>23</sup></link> that has been used to increase CHO protein production. Chandrawanshi et al.<link href="#btpr3365-bib-0008"><sup>8</sup></link> reported that tunicamycin adaptation in CHO cells yielded a cell line with increased specific productivity yet did not change the N‐glycosylation profile of the resulting antibody. However, whether tunicamycin affected macroheterogeneity in that case is an open question. In another case, Onitsuka et al.<link href="#btpr3365-bib-0024"><sup>24</sup></link> identified a reduction in glycan occupancy in an aggregated protein produced in CHO cells, while the relative glycan distribution was not significantly altered. This result advocates for increased knowledge of macroheterogeneity as well as glycan distribution during cell line and media development.</p>
+<p>Although many tools are available for analyzing glycan microheterogeneity,<link href="#btpr3365-bib-0004"><sup>4</sup></link> glycan macroheterogeneity is frequently characterized towards the end of the downstream process by mass spectrometry (MS), which requires expert knowledge and is time intensive. Thus, a simpler and faster screening platform that allows characterization of both glycan micro‐ and macroheterogeneity is needed; such a rapid analysis platform will be essential for screening process conditions that affect antibody quality.</p>
+<p>In this study, we demonstrate a simple yet robust method to simultaneously analyze antibody micro‐ and macroheterogeneity using a high‐throughput LabChip GXII platform (Figure <link href="#btpr3365-fig-0001">1</link>). The LabChip platform, developed by Perkin Elmer, is ideal for our purpose because its analysis pipeline involves reduced manual effort and liquid transfer, and fully excludes glycan extraction steps where the glycans can be lost. Thus, the total amount of glycans injected and analyzed is better controlled, and absolute quantitation can be achieved more reliably. We also present a case study using metabolic regulation to analyze the resulting glycan micro‐ and macroheterogeneity of IgG produced in CHO cells using this approach.</p>
+<figure xml:id="btpr3365-fig-0001">
+<label>1</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0001"/>
+
+
+
+</mediaResourceGroup>
+<caption>Schematic of simultaneous analysis of antibody macroheterogeneity and microheterogeneity. Light blue‐shaded region indicates involvement of manual steps and light yellow‐shaded region indicates automated injection and analysis steps of the LabChip instrument. When the same amount of antibody is analyzed (e.g., 8 μL of 1 mg/mL), the glycoforms can be identified as different peaks, and by comparison to known quantities of glycan standards, macroheterogeneity can be determined by the fluorescence intensity.</caption>
+</figure>
+</section>
+<section xml:id="btpr3365-sec-0002" type="materialsAndMethods">
+<title type="main">MATERIALS AND METHODS</title>
+<section xml:id="btpr3365-sec-0003">
+<title type="main">Materials</title>
+<p>Sodium oxamate (SOD) was purchased from Cayman Chemicals (Ann Arbor, MI), and SBI‐797812 (SBI) was purchased from Selleck Chemicals (Houston, TX). All other chemicals were purchased from Sigma‐Aldrich (St. Louis, MO) unless stated otherwise. The G0F glycan standard (NIST SRM 3655) and NIST mAb (NIST RM 8671) were provided from NIST (Gaithersburg, MD) through NIIMBL‐supported collaborations.</p>
+</section>
+<section xml:id="btpr3365-sec-0004">
+<title type="main"><fc>LabChip</fc> glycosylation and capillary electrophoresis‐sodium dodecyl sulfate (<fc>CE‐SDS</fc>) protein analysis</title>
+<p>LabChip glycan analysis was performed with the Glycan Release and Labeling Kit and Glycan Screening Reagent Kit on a High‐Resolution LabChip (Perkin Elmer, Waltham, MA), according to the manufacturer's protocol. Briefly, 1 mg/mL purified antibody sample was prepared from the NIST mAb stock, and 8 μL of the sample was added to a microcentrifuge tube. A total of 4 μL denaturation buffer was added to the sample and incubated at 70°C for 10 min. The sample was cooled for at least 3 min at room temperature, and 5 μL PNGase F was added and incubated at 37°C for 1 h. In parallel, 8 μL of the sample was added to another microcentrifuge tube, and 5 μL of a glycan‐specific fluorescent dye was added. The sample was incubated open to air at 55°C for 2 h or until the sample was completely dry. Finally, the sample was reconstituted in 100 μL deionized water and prepared for analysis in a LabChip GXII Touch instrument (Perkin Elmer, Waltham, MA). The percentage of glycoform and the absolute area were measured by integrating the relative fluorescent units (RFU) of respective glycan peaks, and were analyzed with the LabChip GXII software. Glycoforms were identified with unlabeled glycan standards (Agilent, Santa Clara, CA) and compared with the expected glycan distributions of antibodies analyzed with ultra‐high‐performance liquid chromatography (U/HPLC)<link href="#btpr3365-bib-0010"><sup>10</sup></link> (Figure <link href="#btpr3365-supitem-0001">S1</link>). Similarly, the denatured antibody was analyzed directly with the Protein Express Assay Reagent Kit on a Protein Express Assay LabChip (Perkin Elmer, Waltham, MA) for CE‐SDS analysis (non‐reducing). All incubation steps were performed with an Eppendorf 5333 Mastercycler (Eppendorf, Enfield, CT).</p>
+</section>
+<section xml:id="btpr3365-sec-0005">
+<title type="main">Antibody purification from cell culture media and deglycosylation</title>
+<p>Antibody was purified with a Pierce Protein A Coated Plate (Thermo Fisher Scientific, Waltham, MA). Briefly, the 96‐well plate was washed three times with 400 μL phosphate‐buffered saline (PBS) and centrifuged for 2 min at 300 <i>g</i>. Two milliliters of harvested cell culture was added to each well of the 96‐well plate and incubated for 10 min at room temperature. The plate was washed twice with PBS followed by incubation with the elution buffer (100 mM glycine, pH 2.75) for 4 min. The eluted samples were buffer‐exchanged and concentrated in a collection plate and concentrated with a 10 kDa molecular weight cutoff spin column (EMD Millipore, Burlington, MA) by centrifuging at 14,000 <i>g</i> for 15 min. The samples were stored at −20°C until analysis. For deglycosylation, 120 μg antibody was incubated with 13 μL PNGase F (New England Biolabs, Ipswich, MA) for 48 h at 37°C. Deglycosylated antibody was purified identically to antibody from cell culture media.</p>
+</section>
+<section xml:id="btpr3365-sec-0006">
+<title type="main">Solid phase extraction separation (<fc>SPE</fc>) of glycans</title>
+<p>SPE was performed with a HILIC SPE kit (Waters Corp., Milford, MA) according to the manufacturer's instructions. The SPE plate was first conditioned with deionized water followed by 15:85 (v/v) water:acetonitrile. Then, 10 μL of the G0F standard diluted in acetonitrile was separated with the SPE plate. The plate was washed twice with 1:9:90 (v/v/v) formic acid: water: acetonitrile and the purified glycan was eluted with 200 mM ammonium acetate in 5% acetonitrile. The purified glycan was analyzed identically to purified IgG samples for LabChip glycan analysis.</p>
+</section>
+<section xml:id="btpr3365-sec-0007">
+<title type="main"><fc>CHO</fc> cell culture</title>
+<p>An antibody‐producing CHO cell line (CHOZN)<link href="#btpr3365-bib-0010"><sup>10</sup></link> was thawed and grown in imMEDIAte ADVANTAGE® media (Sigma‐Aldrich, St. Louis, MO). Cells were maintained by seeding at a density of 0.2 × 10<sup>6</sup> cells/mL with a 20 mL working volume in a 125 mL vented Erlenmeyer shake flask (VWR, Radnor, PA). The flask was maintained in a 37°C, 5% CO<sub>2</sub>, 80% humidity shaking incubator at a rotational speed of 130 RPM. Cells at this density were passaged (subcultured) every 3–5 days (&amp;gt;90% viability was ensured before each passage) at the same seeding density; all cells used in this study experienced less than 30 passages. Cells were stained with trypan blue stain (Thermofisher Scientific, Waltham, MA), and cell density and viability were measured on a Cellometer Auto 1000 Bright Field Cell Counter (Nexcelom Bioscience, Lawrence, MA). Every 2 days, 0.6 mL of cell culture was drawn, and cells and spent media were separated by centrifuging at ~3000 <i>g</i> for 5 min. The clarified media was then analyzed with a Cedex Bio Analyzer (Roche, South San Francisco, CA) for metabolite (glucose, lactate, and ammonia) concentrations and was stored at −20°C until further processing. For fed‐batch culture, imMEDIAte ADVANTAGE® Feed A and B were added to the cell culture at 5% and 0.5% of the total culture volume, respectively. Glucose concentration was measured and fed with a 200 g/L stock of glucose solution to 4554.8 mg/L (the glucose concentration measured in the basal media). Feeds were added every 2 days starting on Day 4 of culture. No additional chemicals were added to the feed media. Cell cultures were terminated when cell viability was less than 70%, where strong apoptotic signals may affect antibody quality. When chemicals dissolved in DMSO were supplemented, the same concentration of DMSO (less than 0.2% of total volume) was added to the unsupplemented culture as a control.</p>
+<p>To identify appropriate concentrations for the study, we first determined the potential concentration range of SOD and SBI based on concentrations used in the literature.<link href="#btpr3365-bib-0025 #btpr3365-bib-0026"><sup>25,26</sup></link> Further, we conducted a screening experiment at several concentrations of each chemical and selected the highest concentration that did not affect cell viability at 8 days, as determined by Trypan blue staining. Based on this information, SOD and SBI were added to the culture to yield a final concentration of 10 mM and 5 μM, respectively.</p>
+<section xml:id="btpr3365-sec-0008">
+<title type="main">Measurement of antibody titer and metabolite concentration</title>
+<p>At predefined days, approximately 600 μL of cell culture fluid was collected, and cells were separated from the spent media by centrifuging at 5000 <i>g</i> for 5 min. Antibody titer and metabolite (glucose, lactate) concentration in the clarified cell culture supernatant were analyzed with a Cedex Bio Analyzer (Roche, South San Francisco, CA).</p>
+</section>
+</section>
+<section xml:id="btpr3365-sec-0009">
+<title type="main"><fc>ROS</fc> staining</title>
+<p>On predefined days, cells were counted, and 0.5 × 10<sup>6</sup> cells were collected by centrifugation at 200–300 <i>g</i> for 5 min. The cells were washed with PBS by centrifuging at room temperature. Then, 5 μM of H<sub>2</sub>‐DCFDA (Sigma‐Aldrich, St. Louis, MO) and 1 μM of Superoxide Detection Reagent (Enzo Life Sciences, Farmingdale, NY) diluted in cell culture medium (serum‐ and phenol red‐free) were added to the cells. The cells were incubated in the dark at 37°C for 1 h and analyzed with a Novocyte Advanteon Flow Cytometer (Agilent, Santa Clara, CA) at FITC and PE‐Texas red pre‐set laser settings. Both channels were compensated using unstained samples from the same cell line. Quantification was performed by comparing the proportion of total cells with higher fluorescence intensity than the peak of control cells for each condition.</p>
+</section>
+<section xml:id="btpr3365-sec-0010">
+<title type="main">Quantitation of oxygen consumption rate</title>
+<p>Oxygen consumption was measured with an Oxygen Consumption Rate (OCR) Assay Kit (Cayman Chemicals, Ann Arbor, MI) as per the manufacturer's instructions. At predefined days, 0.5 × 10<sup>6</sup> cells were collected and washed with PBS, followed by resuspension in cell culture media in a black 96‐well plate. The plate was centrifuged at 200 <i>g</i> for 5 min, and 10 μL of the provided probe was added to each well. Two drops of mineral oil were added immediately to each well and the time‐resolved fluorescence was measured kinetically every minute for a total of 120 min with excitation and emission wavelengths at 380 and 640 nm, respectively. The slope of the signal increase in the first 10–30 min was used to calculate oxygen consumption. At the end of the assay, cell number was counted to normalize for cell‐specific oxygen consumption rate.</p>
+</section>
+<section xml:id="btpr3365-sec-0011">
+<title type="main">Calculation of specific productivity and metabolite production or consumption</title>
+<p>All assay results were converted to cell‐specific rates using the following formula:<displayedItem xml:id="btpr3365-disp-0001" type="mathematics" numbered="yes">
+<label>1</label>
+<math display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr3365:btpr3365-math-0001" wiley:location="equation/btpr3365-math-0001.png"><mrow><mtext>Specific Productivity</mtext><mo linebreak="goodbreak">=</mo><mfrac><msub><mi>C</mi><mrow><mtext>antibody</mtext><mo>,</mo><mi>end</mi><mspace width="0.25em"/><mtext>of culture</mtext></mrow></msub><mrow><mi>IVC</mi><msub><mi mathvariant="normal">C</mi><mrow><mi>End</mi><mspace width="0.25em"/><mtext>of culture</mtext></mrow></msub></mrow></mfrac><mo>,</mo></mrow></math>
+</displayedItem>where the end of culture is defined as when cell viability dropped below 70%, and <i>C</i> indicates concentration in mg/L. The integrated viable cell concentration (IVCC) was calculated from the viable cell density (VCD) measured every 2 days over the culture length, where the integration was performed with the trapezoidal rule. Specific productivity was assessed only at the end of the culture process, but correlates well with the specific productivity reported previously when more samples were measured over the duration of the cell culture; it is also consistent with previous definitions of antibody productivity.<link href="#btpr3365-bib-0027"><sup>27</sup></link>
+<displayedItem xml:id="btpr3365-disp-0002" type="mathematics" numbered="yes">
+<label>2</label>
+<math display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr3365:btpr3365-math-0002" wiley:location="equation/btpr3365-math-0002.png"><mrow><mtext>Specific Lactate Production</mtext><mo linebreak="goodbreak">=</mo><mfrac><msub><mi>C</mi><mrow><mtext>lactate</mtext><mo>,</mo><mi mathvariant="normal">D</mi><mn>4</mn></mrow></msub><mrow><mi>IVC</mi><msub><mi mathvariant="normal">C</mi><mrow><mi mathvariant="normal">D</mi><mn>4</mn></mrow></msub></mrow></mfrac><mo>,</mo></mrow></math>
+</displayedItem>
+<displayedItem xml:id="btpr3365-disp-0003" type="mathematics" numbered="yes">
+<label>3</label>
+<math display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr3365:btpr3365-math-0003" wiley:location="equation/btpr3365-math-0003.png"><mrow><mtext>Specific Glucose Consumption</mtext><mo linebreak="goodbreak">=</mo><mfrac><mrow><msub><mi>C</mi><mrow><mtext>glucose</mtext><mo>,</mo><mi mathvariant="normal">D</mi><mn>0</mn></mrow></msub><mo>−</mo><msub><mi>C</mi><mrow><mtext>glucose</mtext><mo>,</mo><mi mathvariant="normal">D</mi><mn>4</mn></mrow></msub></mrow><mrow><mi>IVC</mi><msub><mi mathvariant="normal">C</mi><mrow><mi mathvariant="normal">D</mi><mn>4</mn></mrow></msub></mrow></mfrac><mo>,</mo></mrow></math>
+</displayedItem>where, D0 and D4 represent 0‐ and 4‐days post‐inoculation.</p>
+</section>
+<section xml:id="btpr3365-sec-0012">
+<title type="main">Colorimetric <fc>UDP‐GlcNAc</fc> analysis</title>
+<p>The relative concentration of UDP‐GlcNAc was analyzed as reported previously.<link href="#btpr3365-bib-0028"><sup>28</sup></link> At predefined times, 15 × 10<sup>6</sup> cells were harvested from the cell culture and lysed immediately by mixing with 1:1 (v/v) water: chloroform, vortexed, and centrifuged at 14,000 <i>g</i> for 20 min at 4°C. The aqueous phase was collected by aspiration and mixed with 10 μL 1 N HCl and heated at 80°C for 20 min. Then, 1 N KOH was added to neutralize the sample, and 50 μL 200 mM potassium tetraborate was added, followed by heating at 80°C for 25 min. After the sample cooled down at room temperature, 150 μL of Ehrlich's reagent was added to the mixture and incubated at 37°C for 20 min. The sample was centrifuged, and absorbance was measured at 595 nm on a Synergy H1 plate reader (Biotek, Winooski, VT).</p>
+</section>
+</section>
+<section xml:id="btpr3365-sec-0013" type="results">
+<title type="main">RESULTS</title>
+<section xml:id="btpr3365-sec-0014">
+<title type="main">Glycan distribution and quantitation of reference standards show consistent interday reproducibility</title>
+<p>To develop a simple yet robust method to analyze simultaneously antibody micro‐ and macroheterogeneity, we first implemented a simple step of normalizing purified antibody concentrations to 1 mg/mL before downstream analysis. Samples retain released glycans without losses since no glycan purification step is needed in the analysis protocol. Thus, the sum of absolute glycan peak areas represents the total concentration of glycan released from a known amount of antibody. The presence of macroheterogeneity, or a loss in glycosylation, will therefore result in a reduced released glycan concentration and a lower absolute peak area (Figure <link href="#btpr3365-fig-0001">1</link>). This approach was explored to analyze glycan release efficiency between PNGase F and sodium hypochlorite,<link href="#btpr3365-bib-0029"><sup>29</sup></link> but to date, has not been utilized for macroheterogeneity analysis. Onitsuka et al.<link href="#btpr3365-bib-0024"><sup>24</sup></link> observed the same input concentration of aggregated antibody resulted in a lower peak intensity than antibody monomers via U/HPLC glycan analysis. They then followed up with lectin binding studies to confirm the lack of glycosylation on antibody aggregates. In contrast, we chose to further explore and expand on glycan quantitation of antibody monomers by comparing peak areas in the LabChip platform, whose rapidity and multi‐attribute measurement capability are particularly beneficial.</p>
+<p>To validate the reproducibility of our proposed method, we used a NIST mAb reference standard to test the consistency of interday analyses via the LabChip platform. We note that we primarily focus on the analysis of the G0, G0F, G1Fa, G1Fb, and G2F glycoforms due to their relevance to the resulting antibody potency, and because these glycoforms are the primary glycoforms identified in the NIST mAb standard<link href="#btpr3365-bib-0030"><sup>30</sup></link> and in our antibody‐producing cell line.<link href="#btpr3365-bib-0010 #btpr3365-bib-0031"><sup>10,31</sup></link> On three consecutive days, the standard was diluted to 5 mg/mL and analyzed identically with the LabChip platform, as described in Section <link href="#btpr3365-sec-0002">2</link>. New reagents were used every day, and the microfluidic chip was primed each day prior to sample analysis. Figure <link href="#btpr3365-fig-0002">2a</link> shows the level of consistency between interday runs where the same glycan profile was obtained and an average coefficient of variance (CV) of 10.3% was observed across all glycoforms. The glycoform distribution determined by the LabChip platform was consistent to that reported for NIST mAb.<link href="#btpr3365-bib-0030"><sup>30</sup></link> The consistency of the relative area corresponding to each glycoform (average CV = 7.7%) also suggests the platform is reliable for the analysis of glycan microheterogeneity. Significantly, the retention time observed from day to day for each glycoform was robust (Figure <link href="#btpr3365-fig-0002">2b</link>). This analysis demonstrates the consistency of glycan release, handling, and detection, which is needed to determine the absolute peak area and the resulting absolute glycan quantitation (for subsequent macroheterogeneity analysis).</p>
+<figure xml:id="btpr3365-fig-0002">
+<label>2</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0002"/>
+
+
+
+</mediaResourceGroup>
+<caption>Inter‐day consistency in the characterization of a monoclonal antibody (mAb) reference standard (NIST mAb). (a) Consistency in the absolute peak area (left axis) of identified glycoforms and relative fraction (right axis) of identified glycoforms, and (b) consistent elution times of all analyzed glycoforms were observed across independent measurements. The absolute area represents the integrated area of respective glycan peaks in relative fluorescence units (RFU) as reported by the LabChip platform. The error bars are representative of the standard error of triplicate samples performed independently on three consecutive days. G0, G0F, G1Fa, G1Fb, and G2F designate galactose (G) addition with either 0, 1, or 2, as noted, while F represent the presence of a fucose residue. G1Fa and G1Fb are the galactosylation isoforms where either branch of the GlcNAc residue is galactosylated. Please refer to Reference [<link href="#btpr3365-bib-0007">7</link>] for complete glycan notation. Note that, as expected, not all possible glycoforms were detected and analyzed.</caption>
+</figure>
+<p>Next, we aimed to analyze glycan macroheterogeneity by distinguishing the analysis of the incompletely glycosylated and fully glycosylated protein. To date, the absolute quantitation of glycoprotein has been limited by a lack of glycan and glycopeptide standards.<link href="#btpr3365-bib-0032"><sup>32</sup></link> We used a newly released NIST glycan standard, which contained a known concentration of the G0F glycan (40.6 μg/mL), to facilitate the quantitation. The G0F glycoform was used as a calibration standard to reduce analytical errors since it is the highest abundance glycoform in our antibody (Figure <link href="#btpr3365-fig-0002">2a</link>); however, the use of alternative standards should not result in a difference in analysis or determination of the concentration.<link href="#btpr3365-bib-0033"><sup>33</sup></link> As shown in Figure <link href="#btpr3365-fig-0003">3</link>, titration of the glycan standard resulted in a linear decrease in the absolute area in the chromatogram obtained on the LabChip instrument. An overlay of interday G0F standard curves is also shown in Figure <link href="#btpr3365-supitem-0001">S2</link>, whose similarity suggest day‐to‐day precision. As the final dilution (13 ng/mL) resulted in a plateau of signal, we noted 25 ng/mL and 200 RFU integrated peak area as the detection limit for absolute quantitation. Interestingly, the LabChip analysis is sensitive to the salt concentration in the sample. The presence of salt affects the electrokinetic sample injection<link href="#btpr3365-bib-0034"><sup>34</sup></link> and reduced the fluorescence signal compared to when the glycan standard was directly labeled and injected. In the latter case, less salt (present in PNGase F and buffers) would be introduced to the reaction mixture, yielding a higher signal. Thus, to ensure the assay results were consistent for glycan standards and glycoproteins, we performed all dilution steps in PBS, which is the buffer for our antibody samples. We also included both the denaturation and PNGase F digestion steps in the analysis of the glycan standard to improve accuracy in the analysis. The elution of the G0F glycan standard overlaps with native G0F glycans in our antibody sample. Glycans not present in the native antibody, for example, G2FS, could, however, be utilized as an internal standard spiked in antibody samples for a more precise analysis.</p>
+<figure xml:id="btpr3365-fig-0003">
+<label>3</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0003"/>
+
+
+
+</mediaResourceGroup>
+<caption>Calibration of the absolute peak area with the amount of G0F glycan standard injected. The error bars for each measurement (in almost all cases smaller than the symbols) represent the standard error of interday triplicate analyses of individual measurements (symbols). The dashed line indicates the best fit (area = 8890 × (glycan) − 33.7), where the <i>R</i><sup>2</sup> value for the fit is 0.9992.</caption>
+</figure>
+</section>
+<section xml:id="btpr3365-sec-0015">
+<title type="main">Deglycosylated antibody peak area reduction can be accurately quantitated</title>
+<p>To ensure the amount of incompletely glycosylated protein could be identified, we deglycosylated an in‐house purified antibody sample. We first deglycosylated the sample for 48 h with PNGase F, as described in Section <link href="#btpr3365-sec-0002">2</link>. Then, we removed PNGase F by purifying the deglycosylated antibody again with a protein A spin plate. The deglycosylated sample was then diluted to 1 mg/mL and mixed 1:1 with the original antibody to make a 50% glycosylated sample. The deglycosylated, partially glycosylated, and fully glycosylated samples were then analyzed on the LabChip instrument. Indeed, the amount of antibody glycosylation correlated with the absolute peak area (Figure <link href="#btpr3365-fig-0004">4</link>). Importantly, this is different from antibody titration since the total antibody concentration was identically 1 mg/mL in all three samples. Thus, the difference in peak area is the result of the different degrees of glycosylation. The reduction in glycan species reflects a reduced amount of released glycan that was detected by the instrument. Importantly, fully deglycosylated antibody contributed no anomalous signal.</p>
+<figure xml:id="btpr3365-fig-0004">
+<label>4</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0004"/>
+
+
+
+</mediaResourceGroup>
+<caption>Utilization of the LabChip platform to quantitate antibody deglycosylation. (a) Representative chromatograms of antibody samples of the same concentration (1 mg/mL) but with different degrees of glycosylation. The chromatograms represent intact IgG (green), a 1:1 volumetric mixture of intact and deglycosylated IgG (red), and deglycosylated IgG (blue). G0, G0F, G1Fa, G1Fb, and G2F designate galactose (G) addition with either 0, 1, or 2, as noted, while F represent the presence of a fucose residue. G1Fa and G1Fb are the galactosylation isoforms where either branch of the GlcNAc residues is galactosylated. Please refer to Reference [<link href="#btpr3365-bib-0007">7</link>] for the complete glycan notation. (b) A linear response of the absolute G0F peak area and the amount of glycosylated IgG (<i>n</i> = 1, <i>R</i><sup>2</sup> = 0.995).</caption>
+</figure>
+<p>The LabChip analysis involves microfluidic separation of protein and released glycans in a gel matrix.<link href="#btpr3365-bib-0035"><sup>35</sup></link> We wanted to make sure the fluorescent signal and analyte elution time were not affected by the presence of protein. Therefore, we analyzed the interference effect of non‐glycosylated proteins in the glycan analysis by analyzing a set concentration (50 ng/mL) of the G0F standard diluted in PBS or diluted in a 1 mg/mL deglycosylated IgG, which should not contribute to detectable fluorescence (Figure <link href="#btpr3365-fig-0004">4a</link>). As expected, the protein concentration did not affect the fluorescence signal of the glycan standard (Figure <link href="#btpr3365-supitem-0001">S3</link>). This observation further validates the calibration of glycan (Figure <link href="#btpr3365-fig-0003">3</link>) and glycoprotein measurements.</p>
+<p>Finally, we compared the glycan separation efficiency of solid‐phase separation (SPE) to that of the LabChip. SPE is the most frequently used technique for released glycan separation from protein and salt before downstream analysis by mass spectrometry or U/HPLC.<link href="#btpr3365-bib-0036"><sup>36</sup></link> The hydrophilic sugar residues in glycans are retained better than proteins or salts in the polar column and are eluted only with strongly ionic solvents.<link href="#btpr3365-bib-0036"><sup>36</sup></link> We hypothesized that LabChip would have a higher efficiency since SPE frequently results in a loss of glycans,<link href="#btpr3365-bib-0037 #btpr3365-bib-0038 #btpr3365-bib-0039"><sup>37–39</sup></link> and different glycan recovery efficiency has been reported for different SPE columns.<link href="#btpr3365-bib-0040"><sup>40</sup></link> As shown in Figure <link href="#btpr3365-supitem-0001">S2</link>, when the same amount of G0F standard was injected for analysis in the LabChip, SPE‐separated glycans show a lower level of fluorescence and higher associated CV (8.9% compared to 4.1% of SPE‐free LabChip analysis). This result is consistent with that of others that indicate a glycan loss following SPE separation. We also note that the additional liquid handling steps in U/HPLC protocols will further reduce the consistency of glycan quantitation. Moreover, a reduction in separation efficiency would result in a more limited dynamic range of detection, as we observed a two‐fold or greater loss in signal that would lower the glycan concentration for analysis. While not a focus of our study, improved reproducibility of conventional U/HPLC‐based glycan detection could still be compatible with our proposed analysis if glycan losses could be addressed.</p>
+</section>
+<section xml:id="btpr3365-sec-0016">
+<title type="main">Case study: the effect of metabolic regulation on antibody micro‐ and macroheterogeneity</title>
+<p>Up to this point, we have shown that glycosylation macroheterogeneity can be incorporated easily into the analysis pipeline with a simple step of standardizing purified antibody concentration before denaturation and release. The LabChip platform is extremely well‐suited for such analysis due to its separation‐free nature and low requirement for user manipulation and liquid handling. Therefore, we used the developed method to analyze antibody glycosylation micro‐ and macroheterogeneity during antibody production under different media conditions.</p>
+<p>Glucose is a major nutrient necessary for cell growth and proliferation. Glucose is first metabolized to pyruvate and then to lactate through glycolysis or acetyl‐CoA through the citric acid cycle. The citric acid cycle is also involved in the nucleotide synthesis process for protein and ATP production, resulting in oxidative phosphorylation (OXPHOS). Often overlooked is that glucose is a necessary component in the hexosamine biosynthesis pathway (HBP) to synthesize glycan building blocks, namely, UDP‐GlcNAc. This precursor resides in the endoplasmic reticulum and enables glycoconjugate formation in the Golgi apparatus, such that low glucose levels could reduce glycan addition. The specific fate of glucose is thus determined by the utilization efficiency of these pathways.<link href="#btpr3365-bib-0041 #btpr3365-bib-0042 #btpr3365-bib-0043"><sup>41–43</sup></link></p>
+<p>As a result, we hypothesized that by controlling the flux to specific metabolic pathways, we could observe changes in glycosylation, either through glycan micro‐ or macroheterogeneity. This phenomenon was first studied by Nyberg et al.,<link href="#btpr3365-bib-0044"><sup>44</sup></link> where a reduction in interferon‐gamma (IFN‐γ) glycosylation was related to reactions in the citric acid cycle and the abundance of glycan precursors. Similar studies show a certain percentage of proteins produced in a cell culture remains unglycosylated,<link href="#btpr3365-bib-0017"><sup>17</sup></link> especially towards the stationary phase,<link href="#btpr3365-bib-0017 #btpr3365-bib-0045"><sup>17,45</sup></link> where antibody secretion is the most apparent, and OXPHOS is active.<link href="#btpr3365-bib-0046"><sup>46</sup></link> To implement similar changes to glucose utilization, we chose SBI‐797812 (SBI) and sodium oxamate (SOD) to mediate metabolic activities. SBI is a small molecule enhancer of the intracellular NAD+ pool that increases OXPHOS,<link href="#btpr3365-bib-0025 #btpr3365-bib-0047"><sup>25,47</sup></link> and SOD acts as an inhibitor of glycolysis,<link href="#btpr3365-bib-0026"><sup>26</sup></link> where glycolysis utilizes energy inefficiently towards lactate production.</p>
+<p>Towards the end of the culture, cell death can signal proteasomal or lysosomal glycoprotein degradation.<link href="#btpr3365-bib-0048"><sup>48</sup></link> Glucose deficiency at this stage also depletes the UDP‐GlcNAc pool and results in a high percentage of aglycosylated antibodies.<link href="#btpr3365-bib-0044"><sup>44</sup></link> Thus, we also selected a negative control condition where no nutrient feed was added at any time of the culture. In this case, cell death and glucose depletion should work together to reduce antibody glycosylation. To track the cellular metabolic activity, we measured representative metabolites such as lactate and glucose concentration as metrics for glycolysis and glucose utilization. For determining OXPHOS, we measured cellular respiration through an oxygen utilization rate (OUR) assay. The experimental scheme is shown in Figure <link href="#btpr3365-fig-0005">5</link>.</p>
+<figure xml:id="btpr3365-fig-0005">
+<label>5</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0005"/>
+
+
+
+</mediaResourceGroup>
+<caption>Metabolic perturbation scheme. The analytical methods used for each measurement are detailed in Section <link href="#btpr3365-sec-0002">2</link>.</caption>
+</figure>
+<p>The selected chemicals, SBI (5 μM) and SOD (10 mM) did not impose any negative effects on CHO cell growth or viability (Figure <link href="#btpr3365-fig-0006">6a</link>). SBI and SOD did increase cellular proliferation, especially on Day 2, where the viable cell density was increased compared to the unsupplemented control culture. Figure <link href="#btpr3365-fig-0006">6b</link> shows the effect of SBI and SOD on glucose uptake and lactate production. SBI did not have a significant effect on glucose or lactate concentration on Day 4, while SOD increased glucose concentration and reduced lactate concentration, despite a higher cell density. This result shows SOD had a significant impact on CHO cell metabolism in reducing glycolysis.</p>
+<figure xml:id="btpr3365-fig-0006">
+<label>6</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0006"/>
+
+
+
+</mediaResourceGroup>
+<caption>Effects of unsupplemented (black circle/bar), 5 μM SBI‐supplementation (red square/bar), and 10 mM SOD‐supplementation (green check triangle/bar) on CHO cell fed‐batch culture. (a) Viable cell density (solid symbol and lines) and % viability (open symbol and dashed lines) of CHO cells with or without metabolic regulation added on Day 0. The culture was terminated when the viability of CHO cells dropped below 70%. Symbols represent measurements, and connecting lines added to guide the eye. (b) Key metabolite (glucose, lactate) concentrations in g/L recorded 4 days post‐inoculation, with or without metabolic regulation as indicated. (c) Effect of SBI (red striped) and SOD (green checked) on the relative % of each glycoform. CHO cells were inoculated at 0.2 × 10<sup>6</sup> cells/mL. The error bars represent the standard error of <i>n</i> = 3 (for SOD and SBI‐treated cultures) and <i>n</i> = 2 (for control cultures) biological replicates. * and # represent the <i>p</i>‐value of the two‐tailed <i>t</i>‐test ≤0.05 and 0.1, respectively. G0, G0F, G1Fa, G1Fb, and G2F designate galactose (G) addition with either 0, 1, or 2, as noted, while F represent the presence of a fucose residue. G1Fa and G1Fb are the galactosylation isoforms where either branch of the GlcNAc residues is galactosylated. Please refer to Reference [<link href="#btpr3365-bib-0007">7</link>] for the complete glycan notation. Note that not all glycoforms were detected and analyzed.</caption>
+</figure>
+<p>The fed‐batch cultures were harvested on Day 8 and analyzed for glycan heterogeneity. Here the G0, G0F, G1Fa, G1Fb, and G2F glycoforms are the primary glycan species produced in our production cell line, and high‐mannose or sialylated glycans were not produced at detectable amounts.<link href="#btpr3365-bib-0010 #btpr3365-bib-0031"><sup>10,31</sup></link> Figure <link href="#btpr3365-fig-0006">6c</link> shows that metabolic regulation did not result in significant changes in glycan microheterogeneity, evident by the similar relative percentage of each glycoform.</p>
+<p>However, the G1Fb glycoform was reduced in both SOD‐ and SBI‐supplemented cultures, while the overall change in % galactosylation was not significantly different (galactosylation index<link href="#btpr3365-bib-0049"><sup>49</sup></link> for the control, SBI‐ and SOD‐treated cultures were 0.32, 0.29, and 0.30, respectively, with <i>p</i>‐value &amp;gt;0.4 between all experimental conditions). This suggests G1Fa and G1Fb glycoforms may be produced by a different set of galactosyltransferase genes that are variably expressed under metabolic regulation,<link href="#btpr3365-bib-0010"><sup>10</sup></link> altering the rate of reaction for galactosylation.<link href="#btpr3365-bib-0049"><sup>49</sup></link> Crucially, the differential distribution of G1F isoforms is believed to affect antibody binding and efficacy,<link href="#btpr3365-bib-0050"><sup>50</sup></link> and thus was of particular interest.</p>
+<p>The complete set of measurements from the experiment (Figure <link href="#btpr3365-fig-0005">5</link>) is shown in Table <link href="#btpr3365-tbl-0001">1</link>. The metabolic rates (cell‐specific glucose consumption and lactate production) were not significantly different from unsupplemented cultures. In SOD and SBI‐supplemented cultures, a slight reduction in glucose uptake coincided with reduced specific productivity (qP). This observation is consistent with other reports showing a correlation between glucose uptake and cellular productivity.<link href="#btpr3365-bib-0051"><sup>51</sup></link> Both SOD and SBI increased oxygen uptake, corresponding to SOD and SBI's effect on reducing glycolysis and enhancing OXPHOS.<link href="#btpr3365-bib-0025"><sup>25</sup></link></p>
+<tabular xml:id="btpr3365-tbl-0001">
+<label>1</label>
+<titleGroup>
+<title type="tabularName">TABLE</title>
+<title type="main">Culture conditions and measured parameters with their standard error of analysis according to Figure <link href="#btpr3365-fig-0005">5</link>.</title>
+</titleGroup>
+<table rowsep="0" colsep="0" pgwide="1" frame="topbot">
+<tgroup cols="6">
+<colspec align="left" colname="col1" colnum="1"/>
+<colspec align="char" colname="col2" colnum="2" char="±"/>
+<colspec align="char" colname="col3" colnum="3" char="±"/>
+<colspec align="char" colname="col4" colnum="4" char="±"/>
+<colspec align="char" colname="col5" colnum="5" char="±"/>
+<colspec align="char" colname="col6" colnum="6" char="±"/>
+<thead valign="bottom">
+<row rowsep="1">
+<entry colname="col1" align="left">Culture condition</entry>
+<entry colname="col2" align="left">Specific glucose uptake (μg/10<sup>6</sup> cell/day)</entry>
+<entry colname="col3" align="left">Normalized specific OUR</entry>
+<entry colname="col4" align="left">Specific lactate production (μg/10<sup>6</sup> cell/day)</entry>
+<entry colname="col5" align="left">Specific productivity, qP (pg/10<sup>6</sup> cell/day)</entry>
+<entry colname="col6" align="left">Quantified glycan (μg/mg mAb)</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry colname="col1">CTRL (<i>n</i> = 2)</entry>
+<entry colname="col2">494.9 ± 19.8</entry>
+<entry colname="col3">1</entry>
+<entry colname="col4">300.5 ± 54.8</entry>
+<entry colname="col5">29.0 ± 1.6</entry>
+<entry colname="col6">8.8 ± 1.0</entry>
+</row>
+<row>
+<entry colname="col1">SBI (<i>n</i> = 3)</entry>
+<entry colname="col2">445.7 ± 18.3</entry>
+<entry colname="col3">2.1 ± 1.1</entry>
+<entry colname="col4">251.4 ± 29.0</entry>
+<entry colname="col5">27.6 ± 3.5</entry>
+<entry colname="col6">9.5 ± 2.3</entry>
+</row>
+<row>
+<entry colname="col1">SOD (<i>n</i> = 3)</entry>
+<entry colname="col2">439.0 ± 40.7</entry>
+<entry colname="col3">3.0 ± 1.3</entry>
+<entry colname="col4">250.2 ± 31.7</entry>
+<entry colname="col5">27.2 ± 2.8</entry>
+<entry colname="col6">5.2 ± 1.5</entry>
+</row>
+<row>
+<entry colname="col1">Batch (<i>n</i> = 2)</entry>
+<entry colname="col2" align="left">ND</entry>
+<entry colname="col3">ND</entry>
+<entry colname="col4" align="left">ND</entry>
+<entry colname="col5" align="left">ND</entry>
+<entry colname="col6">7.4 ± 0.1</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<noteGroup xml:id="btpr3365-ntgp-0002">
+<note xml:id="btpr3365-note-0001" numbered="no">
+<p><i>Note</i>: All assays were performed 4 days post‐inoculation of the cell culture. The specific productivity was assessed at the end of the culture (when cell viability dropped below 70%). Quantified glycan was determined based on the RFU measurement of the G0F glycoform, calibrated to the glycan standard curve (Figure <link href="#btpr3365-fig-0003">3</link>) and divided by the total amount of antibody injected (8 μL of 1 mg/mL).</p>
+</note>
+<note xml:id="btpr3365-note-0002" numbered="no">
+<p>Abbreviation: ND, not determined.</p>
+</note>
+</noteGroup>
+</tabular>
+<p>We next determined glycan macroheterogeneity, as opposed to the distribution of the relative glycoforms. The quantified glycan amount in unsupplemented cultures (8.8 μg/mL) was comparable to 9.17 μg/mL that was previously reported in a mAb with a similar glycosylation profile.<link href="#btpr3365-bib-0052"><sup>52</sup></link> As expected, the batch culture showed a reduced released glycan concentration (7.4 μg/mL), likely due to cell death and glucose depletion. Interestingly, SOD‐supplemented cells demonstrated a lower concentration of available glycans, thus a higher level of macroheterogeneity. The same trend was observed in batch culture, where glucose deprivation towards the end of the culture further reduced the available glycan for all analyzed samples (Figure <link href="#btpr3365-supitem-0001">S4</link>). When the purified protein samples were analyzed by CE‐SDS (Figure <link href="#btpr3365-supitem-0001">S5</link>), the aglycosylated glycoforms were qualitatively consistent with LabChip analysis, but could not be quantified reliably due to a large overlap with the protein monomer peak, complicating peak deconvolution. Since IgG1 contains only two available glycosylation sites, the overall change in mass is difficult to be reliably separated, meaning that the use of the LabChip assay to analyze by peak area gives more quantitative and consistent results.</p>
+<p>To determine why the addition of SOD reduced overall antibody glycosylation, we next analyzed the reduction in available glycans in SOD‐supplemented cultures. First, we analyzed the UDP‐GlcNAc pool of SOD‐supplemented culture. Consistent with reduced overall glycosylation, a reduction in UDP‐GlcNAc concentration was observed, which would reduce the glycan precursors available to develop the mature glycoform (Figure <link href="#btpr3365-fig-0007">7a</link>). SOD‐supplemented cultures also showed upregulated levels of reactive oxygen species (ROS, Figure <link href="#btpr3365-fig-0007">7b</link>), which reflect the higher OXPHOS activity observed (Table <link href="#btpr3365-tbl-0001">1</link>). The higher ROS level may induce endoplasmic reticulum (ER) stress activated by the modulation of intracellular redox levels and thus induce protein aggregation and unfolding.<link href="#btpr3365-bib-0053"><sup>53</sup></link> Since only correctly‐folded protein is trafficked to the Golgi apparatus for glycosylation, the unfolded IgG may be either secreted or degraded in an aglycosylated state. In contrast, SBI‐supplemented cultures did not demonstrate significant ROS differences from the unsupplemented cells, which likely explains the comparable level of glycosylation (Table <link href="#btpr3365-tbl-0001">1</link>, Figure <link href="#btpr3365-supitem-0001">S4</link>).</p>
+<figure xml:id="btpr3365-fig-0007">
+<label>7</label>
+<title type="figureName">FIGURE</title>
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr3365:btpr3365-fig-0007"/>
+
+
+
+</mediaResourceGroup>
+<caption>SOD addition reduced glycan precursors and increased ROS. (a) A reduction in UDP‐GlcNAc in SOD supplemented cultures was shown through a colorimetric assay, as described in Section <link href="#btpr3365-sec-0002">2</link>. (b) 10 mM SOD‐supplemented culture (green checked bars) showed a higher‐level ROS by H<sub>2</sub>‐DCFDA staining and superoxide staining compared to control (open bars) and SBI‐supplemented culture (red diagonal bars). Error bars represent the standard error of <i>n</i> = 3 biological replicates for UDP‐GlcNAc measurements and for ROS staining, except for SBI‐treated condition, which is shown in <i>n</i> = 2 biological replicates. * and # represent the <i>p</i>‐value of the two‐tailed <i>t</i>‐test ≤0.05 and 0.1, respectively.</caption>
+</figure>
+</section>
+</section>
+<section xml:id="btpr3365-sec-0017" type="discussion">
+<title type="main">DISCUSSION</title>
+<p>Both glycan micro‐ and macroheterogeneity govern the therapeutic efficacy of recombinant proteins in the human body. However, few reports have characterized glycan macroheterogeneity. Therefore, we aimed to develop a rapid screening platform to analyze both qualities simultaneously. The LabChip instrument from Perkin Elmer was used because it reduces manual liquid handling, and fully eliminates the glycan extraction step, which improves experimental consistency in the glycan retained for analysis. Although we focused on the detection of G0, G0F, G1Fa, G1Fb, and G2F forms due to the lack of abundance of other glycoforms in our selected producer cell line, the LabChip platform can detect a wider variety of glycoforms.<link href="#btpr3365-bib-0035"><sup>35</sup></link> The LabChip platform involves microfluidic separation of glycoforms and proteins, enabling rapid analysis such that up to 96 samples can be analyzed in a matter of 4–6 h. This method is highly compatible with design of experiments (DOE) that produces a large collection of samples. High‐throughput analysis and multi‐attribute methods<link href="#btpr3365-bib-0054"><sup>54</sup></link> are currently a rising interest in bioprocessing, particularly during media or cell line development. The combination of this analysis with typical growth and metabolite data from expression in micro‐reactors<link href="#btpr3365-bib-0055"><sup>55</sup></link> is, therefore, a promising path towards high‐throughput experimentation and analysis. Thus, our proposed method is especially compatible with the high‐throughput nature of the LabChip instrument but may also be adapted to conventional workflows such as U/HPLC.</p>
+<section xml:id="btpr3365-sec-0018">
+<title type="main">Metabolic effects on bioprocess and antibody microheterogeneity</title>
+<p>In our study, metabolic regulation by SOD and SBI had the starkest difference from the unsupplemented culture in an increase in OUR (Table <link href="#btpr3365-tbl-0001">1</link>), which may be linked to increased flux through the citric acid cycle with reduced glycolysis. Previous groups reported a correlation between OUR and increased cellular proliferation.<link href="#btpr3365-bib-0056"><sup>56</sup></link> In agreement with this finding, we also observed an overall increased cumulative viable cell density in SBI and SOD‐supplemented cells (Figure <link href="#btpr3365-fig-0006">6a</link>). The increased proliferation is most likely due to enhanced metabolic efficiency, resulting in a lower concentration of lactate, which is detrimental to cell culture.<link href="#btpr3365-bib-0057"><sup>57</sup></link> In our case, no significant changes in glycan microheterogeneity were observed (Figure <link href="#btpr3365-fig-0006">6c</link>). In other studies, however, the UDP‐GlcNAc level in cultures frequently demonstrates a negative relationship to galactosylation since UDP‐GlcNAc forms the building blocks for the G0 glycoform.<link href="#btpr3365-bib-0058 #btpr3365-bib-0059"><sup>58,59</sup></link> In those studies, UDP‐GlcNAc was directly supplemented, whereas in our study, the change observed in UDP‐GlcNAc was more subtle. In addition, complex glycan formation involves GnTII‐mediated UDP‐GlcNAc addition. This step is reported to react faster than ManI/II cleavage and GnTI UDP‐GlcNAc addition steps to form glycan backbones.<link href="#btpr3365-bib-0060"><sup>60</sup></link> Therefore, the lack of UDP‐GlcNAc sensitivity in our microheterogeneity analysis may be associated with rate‐limiting steps associated with ManI/II and GnTI, and the distribution of the complex glycoforms (G0, G0G, G1Fa, G1Fb, and G2F) was not strongly affected. Noticeably, glycan precursor synthesis, glycan addition, and complex glycan formation occur in the cytoplasm, ER, and Golgi apparatus, respectively, where the UDP‐sugar pool is present at different concentrations.<link href="#btpr3365-bib-0060"><sup>60</sup></link> The transport and differential distribution of nucleotide sugars may therefore also explain a low impact of the UDP‐sugar pool on glycan microheterogeneity. Finally, the specific effect of UDP‐GlcNAc on glycan microheterogeneity may depend additionally on the specific cell line or genetic profile of enzymes in the HBP. For example, altered UDP‐galactose 4′‐epimerase activity<link href="#btpr3365-bib-0061"><sup>61</sup></link> may divert UDP‐GlcNAc flux to UDP‐GalNAc. Still, glucose flux in the HBP comprises only 2%–5% of the total flux.<link href="#btpr3365-bib-0043"><sup>43</sup></link> Therefore, the effect of precursor concentrations on glycosylation needs to be controlled from other factors such as ROS production, since the flux balance between glycolysis and OXPHOS can have a greater impact on the cellular redox environment.</p>
+</section>
+<section xml:id="btpr3365-sec-0019">
+<title type="main">Metabolic effects on antibody macroheterogeneity</title>
+<p>Metabolic constraints are most often seen in IFN‐γ, where the occupancy of glycans in its two glycosylation sites frequently have a significant level of heterogeneity in both batch‐<link href="#btpr3365-bib-0016 #btpr3365-bib-0020"><sup>16,20</sup></link> and fed‐batch<link href="#btpr3365-bib-0014"><sup>14</sup></link> studies. However, such heterogeneity with IgG is less often reported, and the aglycosylated or partially glycosylated antibody is often limited.<link href="#btpr3365-bib-0052 #btpr3365-bib-0062 #btpr3365-bib-0063"><sup>52,62,63</sup></link> The specific origin of such heterogeneity in glycosylation of different proteins, even in the same host cell, is not clear. Possible explanations may be the ease of expression,<link href="#btpr3365-bib-0064"><sup>64</sup></link> the accessibility of glycosylation enzymes to the local structure,<link href="#btpr3365-bib-0064 #btpr3365-bib-0065"><sup>64,65</sup></link> and the glycosylation sequon.<link href="#btpr3365-bib-0065 #btpr3365-bib-0066"><sup>65,66</sup></link> It is therefore interesting that we observed a large difference in glycosylation due solely to SOD supplementation. To account for this observation, we pose several possibilities. The amount of aglycosylated antibodies may increase with Fab glycosylation, which is present in both human and cell culture‐derived IgG.<link href="#btpr3365-bib-0067 #btpr3365-bib-0068"><sup>67,68</sup></link> Different cell culture media is also a source for producing proteins with different quality profiles.<link href="#btpr3365-bib-0014"><sup>14</sup></link> In our case, the use of the AMBIC cell culture media,<link href="#btpr3365-bib-0069"><sup>69</sup></link> which is leaner in media components than other commercial media,<link href="#btpr3365-bib-0069"><sup>69</sup></link> could produce protein aggregates and cell clumps more easily. Lastly, we pose the possibility that less mature glycoforms are labeled with a reduced efficiency and thus are not well‐resolved. While this possibility may artificially increase the level of macroheterogeneity, we note that such immature glycan structures are overall detrimental to therapeutic efficacy and clearance<link href="#btpr3365-bib-0070"><sup>70</sup></link> and thus the measurement is still valuable.</p>
+<p>Comparing the specific effects of metabolic regulation on antibody heterogeneity, we observe SOD slightly reduces cell‐specific lactate production but increases glycan macroheterogeneity. This result is different from the effects of pyruvate carboxylase (PYC)‐mediated lactate reduction that increased the level of fully glycosylated antibodies.<link href="#btpr3365-bib-0020"><sup>20</sup></link> This discrepancy is likely because SOD increased cellular oxygen uptake rate in our study (Table <link href="#btpr3365-tbl-0001">1</link>), while oxygen uptake in PYC‐edited cell lines was not significantly altered from the parental cell line.<link href="#btpr3365-bib-0071"><sup>71</sup></link> SOD may therefore be interfering with alternative pathways involving mitochondrial integrity, OXPHOS, and ROS production (Figure <link href="#btpr3365-fig-0007">7b</link>), which are negatively related to glycan occupancy in IFN‐γ.<link href="#btpr3365-bib-0044"><sup>44</sup></link> Those factors may be additionally related to a reduced level of glycosylation precursors that we observed (Figure <link href="#btpr3365-fig-0007">7a</link>).<link href="#btpr3365-bib-0014 #btpr3365-bib-0044"><sup>14,44</sup></link> Similarly, Onitsuka et al.<link href="#btpr3365-bib-0024"><sup>24</sup></link> reported protein aggregates had a lower degree of glycosylation, and were present even in a glucose‐rich fed‐batch culture.</p>
+</section>
+</section>
+<section xml:id="btpr3365-sec-0020" type="conclusions">
+<title type="main">CONCLUSION</title>
+<p>Overall, the method we propose here shows good performance, precision, and consistency in quantifying both the absolute and relative amount of glycan released from the glycoprotein, as a robust metric for analysis of both antibody glycan micro‐ and macroheterogeneity. Through our case study, we also show SOD strongly regulated CHO cell metabolism and altered the glycosylation efficiency of the resulting IgG produced. Importantly, our result suggests elevated ROS and ER stress levels may disrupt glycan processing in the ER and Golgi apparatus, resulting in under‐glycosylated antibodies. Thus, we recommend analyzing antibody macroheterogeneity as a part of the antibody analysis pipeline to select conditions that improve antibody production and glycosylation without compromising glycan occupancy. Although our analysis is less sensitive compared to MS, it is straightforward and rapid, and thus can be easily incorporated for screening experiments before scale‐up and will save significant time and expense during process development.</p>
+</section>
+<section numbered="no" xml:id="btpr3365-sec-0024">
+<title type="main">AUTHOR CONTRIBUTIONS</title>
+<p><b>Leran Mao:</b> Conceptualization (equal); investigation (lead); methodology (equal); visualization (equal); writing – original draft (equal). <b>James W. Schneider:</b> Conceptualization (supporting); funding acquisition (supporting); project administration (supporting); supervision (equal); writing – review and editing (supporting). <b>Anne S. Robinson:</b> Conceptualization (lead); formal analysis (supporting); funding acquisition (lead); methodology (equal); project administration (lead); supervision (equal); visualization (supporting); writing – original draft (equal); writing – review and editing (equal).</p>
+</section>
+<section type="acknowledgments" xml:id="btpr3365-sec-0021" numbered="no">
+<title type="main">ACKNOWLEDGMENTS</title>
+<p>This study was performed under a Project Award Agreement from the National Institute for Innovation in Manufacturing Biopharmaceuticals (NIIMBL) financial assistance award 70NANB17H002 from the US Department of Commerce, National Institute of Standards, and Technology (NIST). We also thank NIST for providing key reagents, including the mAb and G0F glycan standard, and Michael J. Betenbaugh (Johns Hopkins University) for contributing cell culture media for the studies.</p>
+</section>
+<section type="conflictOfInterest" xml:id="btpr3365-sec-1021" numbered="no">
+<title type="main">CONFLICT OF INTEREST STATEMENT</title>
+<p>The authors have declared no conflict of interest.</p>
+</section>
+<section type="openResearch" numbered="no" xml:id="btpr3365-sec-0022">
+<section type="transparentPeerReview" numbered="no" xml:id="btpr3365-sec-0025">
+<title type="main">PEER REVIEW</title>
+<p>The peer review history for this article is available at <url href="https://www.webofscience.com/api/gateway/wos/peer-review/10.1002/btpr.3365">https://www.webofscience.com/api/gateway/wos/peer-review/10.1002/btpr.3365</url>.</p>
+</section>
+<section type="dataAvailability" numbered="no" xml:id="btpr3365-sec-0023">
+<title type="main">DATA AVAILABILITY STATEMENT</title>
+<p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p>
+</section>
+</section>
+<bibliography xml:id="btpr3365-bibl-0001" style="numbered" cited="yes">
+<title type="main">REFERENCES</title>
+<bib xml:id="btpr3365-bib-0001"><citation type="journal" xml:id="btpr3365-cit-0001"><author><familyName>Grilo</familyName> <givenNames>AL</givenNames></author>, <author><familyName>Mantalaris</familyName> <givenNames>A</givenNames></author>. <articleTitle>The increasingly human and profitable monoclonal antibody market</articleTitle>. <journalTitle>Trends Biotechnol</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>37</vol>(<issue>1</issue>):<pageFirst>9</pageFirst>‐<pageLast>16</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0002"><citation type="journal" xml:id="btpr3365-cit-0002"><author><familyName>Kaplon</familyName> <givenNames>H</givenNames></author>, <author><familyName>Chenoweth</familyName> <givenNames>A</givenNames></author>, <author><familyName>Crescioli</familyName> <givenNames>S</givenNames></author>, <author><familyName>Reichert</familyName> <givenNames>JM</givenNames></author>. <articleTitle>Antibodies to watch in 2022</articleTitle>. <journalTitle>mAbs</journalTitle>. <pubYear year="2022">2022</pubYear>;<vol>14</vol>:<eLocator>2014296</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0003"><citation type="journal" xml:id="btpr3365-cit-0003"><author><familyName>Kunert</familyName> <givenNames>R</givenNames></author>, <author><familyName>Reinhart</familyName> <givenNames>D</givenNames></author>. <articleTitle>Advances in recombinant antibody manufacturing</articleTitle>. <journalTitle>Appl Microbiol Biotechnol</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>100</vol>:<pageFirst>3541</pageFirst>‐<pageLast>3561</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0004"><citation type="journal" xml:id="btpr3365-cit-0004"><author><familyName>Mao</familyName> <givenNames>L</givenNames></author>, <author><familyName>Schneider</familyName> <givenNames>JW</givenNames></author>, <author><familyName>Robinson</familyName> <givenNames>AS</givenNames></author>. <articleTitle>Progress toward rapid, at‐line N‐glycosylation detection and control for recombinant protein expression</articleTitle>. <journalTitle>Curr Opin Biotechnol</journalTitle>. <pubYear year="2022">2022</pubYear>;<vol>78</vol>:<eLocator>102788</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0005"><citation type="journal" xml:id="btpr3365-cit-0005"><author><familyName>Zhang</familyName> <givenNames>P</givenNames></author>, <author><familyName>Woen</familyName> <givenNames>S</givenNames></author>, <author><familyName>Wang</familyName> <givenNames>T</givenNames></author>, et al. <articleTitle>Challenges of glycosylation analysis and control: an integrated approach to producing optimal and consistent therapeutic drugs</articleTitle>. <journalTitle>Drug Disov Today</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>21</vol>(<issue>5</issue>):<pageFirst>740</pageFirst>‐<pageLast>765</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0006"><citation type="journal" xml:id="btpr3365-cit-0006"><author><familyName>Russell</familyName> <givenNames>A</givenNames></author>, <author><familyName>Adua</familyName> <givenNames>E</givenNames></author>, <author><familyName>Ugrina</familyName> <givenNames>I</givenNames></author>, <author><familyName>Laws</familyName> <givenNames>S</givenNames></author>, <author><familyName>Wang</familyName> <givenNames>W</givenNames></author>. <articleTitle>Unravelling immunoglobulin G Fc N‐glycosylation: a dynamic marker potentiating predictive, preventive and personalised medicine</articleTitle>. <journalTitle>Int J Mol Sci</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>19</vol>(<issue>2</issue>):<pageFirst>390</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0007"><citation type="journal" xml:id="btpr3365-cit-0007"><author><familyName>Majewska</familyName> <givenNames>NI</givenNames></author>, <author><familyName>Tejada</familyName> <givenNames>ML</givenNames></author>, <author><familyName>Betenbaugh</familyName> <givenNames>MJ</givenNames></author>, <author><familyName>Agarwal</familyName> <givenNames>N</givenNames></author>. <articleTitle>N‐glycosylation of IgG and IgG‐like recombinant therapeutic proteins: why is it important and how can we control it?</articleTitle> <journalTitle>Annu Rev Chem Biomol Eng</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>11</vol>(<issue>13</issue>):<pageFirst>1</pageFirst>‐<pageLast>28</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0008"><citation type="journal" xml:id="btpr3365-cit-0008"><author><familyName>Chandrawanshi</familyName> <givenNames>V</givenNames></author>, <author><familyName>Kulkarni</familyName> <givenNames>R</givenNames></author>, <author><familyName>Prabhu</familyName> <givenNames>A</givenNames></author>, <author><familyName>Mehra</familyName> <givenNames>S</givenNames></author>. <articleTitle>Enhancing titers and productivity of rCHO clones with a combination of an optimized fed‐batch process and ER‐stress adaptation</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>311</vol>:<pageFirst>49</pageFirst>‐<pageLast>58</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0009"><citation type="journal" xml:id="btpr3365-cit-0009"><author><familyName>Sou</familyName> <givenNames>SN</givenNames></author>, <author><familyName>Sellick</familyName> <givenNames>C</givenNames></author>, <author><familyName>Lee</familyName> <givenNames>K</givenNames></author>, et al. <articleTitle>How does mild hypothermia affect monoclonal antibody glycosylation?</articleTitle> <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2015">2015</pubYear>;<vol>112</vol>(<issue>6</issue>):<pageFirst>1165</pageFirst>‐<pageLast>1176</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0010"><citation type="journal" xml:id="btpr3365-cit-0010"><author><familyName>Wells</familyName> <givenNames>E</givenNames></author>, <author><familyName>Song</familyName> <givenNames>L</givenNames></author>, <author><familyName>Greer</familyName> <givenNames>M</givenNames></author>, et al. <articleTitle>Media supplementation for targeted manipulation of monoclonal antibody galactosylation and fucosylation</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>117</vol>(<issue>11</issue>):<pageFirst>3310</pageFirst>‐<pageLast>3321</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0011"><citation type="journal" xml:id="btpr3365-cit-0011"><author><familyName>Madabhushi</familyName> <givenNames>SR</givenNames></author>, <author><familyName>Podtelezhnikov</familyName> <givenNames>AA</givenNames></author>, <author><familyName>Murgolo</familyName> <givenNames>N</givenNames></author>, <author><familyName>Xu</familyName> <givenNames>S</givenNames></author>, <author><familyName>Lin</familyName> <givenNames>H</givenNames></author>. <articleTitle>Understanding the effect of increased cell specific productivity on galactosylation of monoclonal antibodies produced using Chinese hamster ovary cells</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2021">2021</pubYear>;<vol>329</vol>:<pageFirst>92</pageFirst>‐<pageLast>103</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0012"><citation type="journal" xml:id="btpr3365-cit-0012"><author><familyName>Zacchi</familyName> <givenNames>LF</givenNames></author>, <author><familyName>Schulz</familyName> <givenNames>BL</givenNames></author>. <articleTitle>N‐glycoprotein macroheterogeneity: biological implications and proteomic characterization</articleTitle>. <journalTitle>Glycoconj J</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>33</vol>:<pageFirst>359</pageFirst>‐<pageLast>376</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0013"><citation type="journal" xml:id="btpr3365-cit-0013"><author><familyName>Jones</familyName> <givenNames>J</givenNames></author>, <author><familyName>Krag</familyName> <givenNames>SS</givenNames></author>, <author><familyName>Betenbaugh</familyName> <givenNames>MJ</givenNames></author>. <articleTitle>Controlling N‐linked glycan site occupancy</articleTitle>. <journalTitle>Biochim Biophys Acta</journalTitle>. <pubYear year="2005">2005</pubYear>;<vol>1726</vol>(<issue>2</issue>):<pageFirst>121</pageFirst>‐<pageLast>137</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0014"><citation type="journal" xml:id="btpr3365-cit-0014"><author><familyName>Kochanowski</familyName> <givenNames>N</givenNames></author>, <author><familyName>Blanchard</familyName> <givenNames>F</givenNames></author>, <author><familyName>Cacan</familyName> <givenNames>R</givenNames></author>, et al. <articleTitle>Influence of intracellular nucleotide and nucleotide sugar contents on recombinant interferon‐g glycosylation during batch and fed‐batch cultures of CHO cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2008">2008</pubYear>;<vol>100</vol>(<issue>4</issue>):<pageFirst>721</pageFirst>‐<pageLast>733</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0015"><citation type="journal" xml:id="btpr3365-cit-0015"><author><familyName>Reinhart</familyName> <givenNames>D</givenNames></author>, <author><familyName>Damjanovic</familyName> <givenNames>L</givenNames></author>, <author><familyName>Kaisermayer</familyName> <givenNames>C</givenNames></author>, <author><familyName>Kunert</familyName> <givenNames>R</givenNames></author>. <articleTitle>Benchmarking of commercially available CHO cell culture media for antibody production</articleTitle>. <journalTitle>Appl Microbiol Biotechnol</journalTitle>. <pubYear year="2015">2015</pubYear>;<vol>99</vol>:<pageFirst>445</pageFirst>‐<pageLast>4657</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0016"><citation type="journal" xml:id="btpr3365-cit-0016"><author><familyName>Clincke</familyName> <givenNames>MF</givenNames></author>, <author><familyName>Guedon</familyName> <givenNames>E</givenNames></author>, <author><familyName>Yen</familyName> <givenNames>FT</givenNames></author>, <author><familyName>Ogier</familyName> <givenNames>V</givenNames></author>, <author><familyName>Goergen</familyName> <givenNames>JL</givenNames></author>. <articleTitle>Effect of iron sources on the glycosylation macroheterogeneity of human recombinant IFN‐g produced by CHO cells during batch processes</articleTitle>. <journalTitle>BMC Proc</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>5</vol>:<pageFirst>114</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0017"><citation type="journal" xml:id="btpr3365-cit-0017"><author><familyName>Li</familyName> <givenNames>MY</givenNames></author>, <author><familyName>Ebel</familyName> <givenNames>B</givenNames></author>, <author><familyName>Paris</familyName> <givenNames>C</givenNames></author>, <author><familyName>Chauchard</familyName> <givenNames>F</givenNames></author>, <author><familyName>Guedon</familyName> <givenNames>E</givenNames></author>, <author><familyName>Marc</familyName> <givenNames>A</givenNames></author>. <articleTitle>Real‐time monitoring of antibody glycosylation site occupancy by in situ Raman spectroscopy during bioreactor CHO cell cultures</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>34</vol>(<issue>2</issue>):<pageFirst>486</pageFirst>‐<pageLast>493</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0018"><citation type="journal" xml:id="btpr3365-cit-0018"><author><familyName>Goetze</familyName> <givenNames>AM</givenNames></author>, <author><familyName>Liu</familyName> <givenNames>YD</givenNames></author>, <author><familyName>Zhang</familyName> <givenNames>Z</givenNames></author>, et al. <articleTitle>High‐mannose glycans on the Fc region of therapeutic IgG antibodies increase serum clearance in humans</articleTitle>. <journalTitle>Glycobiology</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>21</vol>(<issue>7</issue>):<pageFirst>949</pageFirst>‐<pageLast>959</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0019"><citation type="journal" xml:id="btpr3365-cit-0019"><author><familyName>Liu</familyName> <givenNames>B</givenNames></author>, <author><familyName>Spearman</familyName> <givenNames>M</givenNames></author>, <author><familyName>Doering</familyName> <givenNames>J</givenNames></author>, <author><familyName>Lattová</familyName> <givenNames>E</givenNames></author>, <author><familyName>Perreault</familyName> <givenNames>H</givenNames></author>, <author><familyName>Butler</familyName> <givenNames>M</givenNames></author>. <articleTitle>The availability of glucose to CHO cells affects the intracellular lipid‐linked oligosaccharide distribution, site occupancy and the N‐glycosylation profile of a monoclonal antibody</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>170</vol>:<pageFirst>17</pageFirst>‐<pageLast>27</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0020"><citation type="journal" xml:id="btpr3365-cit-0020"><author><familyName>Karengera</familyName> <givenNames>E</givenNames></author>, <author><familyName>Robotham</familyName> <givenNames>A</givenNames></author>, <author><familyName>Kelly</familyName> <givenNames>J</givenNames></author>, <author><familyName>Durocher</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Crescenzo</familyName> <givenNames>GD</givenNames></author>, <author><familyName>Henry</familyName> <givenNames>O</givenNames></author>. <articleTitle>Altering the central carbon metabolism of HEK293 cells: impact on recombinant glycoprotein quality</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2017">2017</pubYear>;<vol>242</vol>:<pageFirst>73</pageFirst>‐<pageLast>82</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0021"><citation type="journal" xml:id="btpr3365-cit-0021"><author><familyName>Gawlitzek</familyName> <givenNames>M</givenNames></author>, <author><familyName>Estacio</familyName> <givenNames>M</givenNames></author>, <author><familyName>Furch</familyName> <givenNames>T</givenNames></author>, <author><familyName>Kiss</familyName> <givenNames>R</givenNames></author>. <articleTitle>Identification of cell culture conditions to control</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2009">2009</pubYear>;<vol>103</vol>(<issue>6</issue>):<pageFirst>1164</pageFirst>‐<pageLast>1175</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0022"><citation type="journal" xml:id="btpr3365-cit-0022"><author><familyName>Ha</familyName> <givenNames>S</givenNames></author>, <author><familyName>Ou</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Vlasak</familyName> <givenNames>J</givenNames></author>, et al. <articleTitle>Isolation and characterization of IgG1 with asymmetrical Fc glycosylation</articleTitle>. <journalTitle>Glycobiology</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>21</vol>(<issue>8</issue>):<pageFirst>1087</pageFirst>‐<pageLast>1096</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0023"><citation type="journal" xml:id="btpr3365-cit-0023"><author><familyName>Heifetz</familyName> <givenNames>A</givenNames></author>, <author><familyName>Keenan</familyName> <givenNames>RW</givenNames></author>, <author><familyName>Elbein</familyName> <givenNames>AD</givenNames></author>. <articleTitle>Mechanism of action of tunicamycin on the UDP‐GlcNAc:Dolichyl‐phosphate GlcNAc‐1‐phosphate transferase</articleTitle>. <journalTitle>Biochemistry</journalTitle>. <pubYear year="1979">1979</pubYear>;<vol>18</vol>(<issue>11</issue>):<pageFirst>2186</pageFirst>‐<pageLast>2192</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0024"><citation type="journal" xml:id="btpr3365-cit-0024"><author><familyName>Onitsuka</familyName> <givenNames>M</givenNames></author>, <author><familyName>Kawaguchi</familyName> <givenNames>A</givenNames></author>, <author><familyName>Asano</familyName> <givenNames>R</givenNames></author>, et al. <articleTitle>Glycosylation analysis of an aggregated antibody produced by Chinese hamster ovary cells in bioreactor culture</articleTitle>. <journalTitle>J Biosci Bioeng</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>117</vol>(<issue>5</issue>):<pageFirst>639</pageFirst>‐<pageLast>644</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0025"><citation type="journal" xml:id="btpr3365-cit-0025"><author><familyName>Gardell</familyName> <givenNames>SJ</givenNames></author>, <author><familyName>Hopf</familyName> <givenNames>M</givenNames></author>, <author><familyName>Khan</familyName> <givenNames>A</givenNames></author>, et al. <articleTitle>Boosting NAD+ with a small molecule that activates NAMPT</articleTitle>. <journalTitle>Nat Commun</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>10</vol>:<pageFirst>3241</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0026"><citation type="journal" xml:id="btpr3365-cit-0026"><author><familyName>Qiao</familyName> <givenNames>T</givenNames></author>, <author><familyName>Xiong</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Feng</familyName> <givenNames>Y</givenNames></author>, et al. <articleTitle>Inhibition of LDH‐A by oxamate enhances the efficacy of anti‐PD‐1 treatment in an NSCLC humanized mouse model</articleTitle>. <journalTitle>Front Oncol</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>11</vol>:<eLocator>632364</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0027"><citation type="journal" xml:id="btpr3365-cit-0027"><author><familyName>Tait</familyName> <givenNames>AS</givenNames></author>, <author><familyName>Tarrant</familyName> <givenNames>RDR</givenNames></author>, <author><familyName>Velez‐Suberbie</familyName> <givenNames>ML</givenNames></author>, <author><familyName>Spender</familyName> <givenNames>DIR</givenNames></author>, <author><familyName>Bracewell</familyName> <givenNames>DG</givenNames></author>. <articleTitle>Differential response in downstream processing of CHO cells grown under mild hypothermic conditions</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle>. <pubYear year="2013">2013</pubYear>;<vol>29</vol>(<issue>3</issue>):<pageFirst>388</pageFirst>‐<pageLast>696</pageLast>. doi:<accessionId ref="info:doi/10.1002/btpr.1726">10.1002/btpr.1726</accessionId></citation></bib>
+<bib xml:id="btpr3365-bib-0028"><citation type="journal" xml:id="btpr3365-cit-0028"><author><familyName>Mkhikian</familyName> <givenNames>H</givenNames></author>, <author><familyName>Mortales</familyName> <givenNames>CL</givenNames></author>, <author><familyName>Zhou</familyName> <givenNames>RW</givenNames></author>, et al. <articleTitle>Golgi self‐correction generates bioequivalent glycans to preserve cellular homeostasis</articleTitle>. <journalTitle>eLife</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>5</vol>:<eLocator>14814</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0029"><citation type="journal" xml:id="btpr3365-cit-0029"><author><familyName>Fischler</familyName> <givenNames>DA</givenNames></author>, <author><familyName>Orlando</familyName> <givenNames>R</givenNames></author>. <articleTitle>N‐linked glycan release efficiency: a quantitative comparison between NaOCl and PNGase F release protocols</articleTitle>. <journalTitle>J Biomol Tech</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>30</vol>(<issue>4</issue>):<pageFirst>58</pageFirst>‐<pageLast>63</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0030"><citation type="book" xml:id="btpr3365-cit-0030"><author><familyName>Prien</familyName> <givenNames>JM</givenNames></author>, <author><familyName>Stockmann</familyName> <givenNames>H</givenNames></author>, <author><familyName>Albrecht</familyName> <givenNames>S</givenNames></author>, et al. <bookTitle>State‐of‐the‐Art and Emerging Technologies for Therapeutic Monoclonal Antibody Characterization Volume 2. Biopharmaceutical Characterization: The NISTmAb Case Study</bookTitle>. <publisherName>American Chemical Society</publisherName>; <pubYear year="2015">2015</pubYear>. doi:<accessionId ref="info:doi/10.1021/bk-2015-1201.ch004">10.1021/bk‐2015‐1201.ch004</accessionId></citation></bib>
+<bib xml:id="btpr3365-bib-0031"><citation type="journal" xml:id="btpr3365-cit-0031"><author><familyName>Luo</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Kurian</familyName> <givenNames>V</givenNames></author>, <author><familyName>Song</familyName> <givenNames>L</givenNames></author>, <author><familyName>Wells</familyName> <givenNames>E</givenNames></author>, <author><familyName>Robinson</familyName> <givenNames>AS</givenNames></author>, <author><familyName>Ogunnaike</familyName> <givenNames>BA</givenNames></author>. <articleTitle>Model‐based control of titer and glycosylation in fed‐batch mAb production: modeling and control system development</articleTitle>. <journalTitle>AIChE J</journalTitle>. <pubYear year="2023">2023</pubYear>;<vol>69</vol>(<issue>4</issue>):<eLocator>e18075</eLocator>. doi:<accessionId ref="info:doi/10.1002/aic.18075">10.1002/aic.18075</accessionId></citation></bib>
+<bib xml:id="btpr3365-bib-0032"><citation type="journal" xml:id="btpr3365-cit-0032"><author><familyName>Cao</familyName> <givenNames>C</givenNames></author>, <author><familyName>Yu</familyName> <givenNames>L</givenNames></author>, <author><familyName>Fu</familyName> <givenNames>D</givenNames></author>, <author><familyName>Yuan</familyName> <givenNames>J</givenNames></author>, <author><familyName>Liang</familyName> <givenNames>X</givenNames></author>. <articleTitle>Absolute quantitation of high abundant Fc‐glycopeptides from human serum IgG‐1</articleTitle>. <journalTitle>Anal Chim Acta</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>1102</vol>:<pageFirst>130</pageFirst>‐<pageLast>139</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0033"><citation type="journal" xml:id="btpr3365-cit-0033"><author><familyName>Echeverria</familyName> <givenNames>B</givenNames></author>, <author><familyName>Etxebarria</familyName> <givenNames>J</givenNames></author>, <author><familyName>Ruiz</familyName> <givenNames>N</givenNames></author>, et al. <articleTitle>Chemo‐enzymatic synthesis of <sup>13</sup>C labeled complex N‐glycans as internal standards for the absolute glycan quantification by mass spectrometry</articleTitle>. <journalTitle>Anal Chem</journalTitle>. <pubYear year="2015">2015</pubYear>;<vol>87</vol>:<pageFirst>11460</pageFirst>‐<pageLast>11467</pageLast>. doi:<accessionId ref="info:doi/10.1021/acs.analchem.5b03135">10.1021/acs.analchem.5b03135</accessionId></citation></bib>
+<bib xml:id="btpr3365-bib-0034"><citation type="journal" xml:id="btpr3365-cit-0034"><author><familyName>De Griend</familyName> <givenNames>CES</givenNames></author>. <articleTitle>CE‐SDS method development, validation, and best practice – an overview</articleTitle>. <journalTitle>Electrophoresis</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>40</vol>(<issue>18–19</issue>):<pageFirst>2361</pageFirst>‐<pageLast>2374</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0035"><citation type="journal" xml:id="btpr3365-cit-0035"><author><familyName>Chi</familyName> <givenNames>B</givenNames></author>, <author><familyName>Veyssier</familyName> <givenNames>C</givenNames></author>, <author><familyName>Kasali</familyName> <givenNames>T</givenNames></author>, <author><familyName>Sellick</familyName> <givenNames>CA</givenNames></author>. <articleTitle>At‐line high throughput site‐specific glycan profiling using targeted mass spectrometry</articleTitle>. <journalTitle>Biotechnol Rep</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>25</vol>:<eLocator>e00424</eLocator>. doi:<accessionId ref="info:doi/10.1016/j.btre.2020.e00424">10.1016/j.btre.2020.e00424</accessionId></citation></bib>
+<bib xml:id="btpr3365-bib-0036"><citation type="journal" xml:id="btpr3365-cit-0036"><author><familyName>Wuhrer</familyName> <givenNames>M</givenNames></author>, <author><familyName>De Boer</familyName> <givenNames>AR</givenNames></author>, <author><familyName>Deelder</familyName> <givenNames>AM</givenNames></author>. <articleTitle>Structural glycomics using hydrophilic interaction chromatography (HILIC) with mass spectrometry</articleTitle>. <journalTitle>Mass Spectrom Rev</journalTitle>. <pubYear year="2009">2009</pubYear>;<vol>28</vol>(<issue>2</issue>):<pageFirst>192</pageFirst>‐<pageLast>206</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0037"><citation type="journal" xml:id="btpr3365-cit-0037"><author><familyName>Pabst</familyName> <givenNames>M</givenNames></author>, <author><familyName>Kolarich</familyName> <givenNames>D</givenNames></author>, <author><familyName>Pöltl</familyName> <givenNames>G</givenNames></author>, et al. <articleTitle>Comparison of fluorescent labels for oligosaccharides and introduction of a new postlabeling purification method</articleTitle>. <journalTitle>Anal Biochem</journalTitle>. <pubYear year="2009">2009</pubYear>;<vol>384</vol>(<issue>2</issue>):<pageFirst>263</pageFirst>‐<pageLast>273</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0038"><citation type="journal" xml:id="btpr3365-cit-0038"><author><familyName>Kishimoto</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Okada</familyName> <givenNames>F</givenNames></author>, <author><familyName>Maesako</familyName> <givenNames>T</givenNames></author>, et al. <articleTitle>Analysis of 2‐aminopyridine labeled glycans by dual‐mode online solid phase extraction for hydrophilic interaction and reversed‐phase liquid chromatography</articleTitle>. <journalTitle>J Chromatogr A</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>1625</vol>:<eLocator>461194</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0039"><citation type="journal" xml:id="btpr3365-cit-0039"><author><familyName>Yu</familyName> <givenNames>YQ</givenNames></author>, <author><familyName>Gilar</familyName> <givenNames>M</givenNames></author>, <author><familyName>Kaska</familyName> <givenNames>J</givenNames></author>, <author><familyName>Gebler</familyName> <givenNames>JC</givenNames></author>. <articleTitle>A rapid sample preparation method for mass spectrometric characterization of N‐linked glycans</articleTitle>. <journalTitle>Rapid Commun Mass Spectrom</journalTitle>. <pubYear year="2005">2005</pubYear>;<vol>19</vol>(<issue>16</issue>):<pageFirst>2331</pageFirst>‐<pageLast>2336</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0040"><citation type="journal" xml:id="btpr3365-cit-0040"><author><familyName>Nakhjavan</familyName> <givenNames>B</givenNames></author>, <author><familyName>Bland</familyName> <givenNames>J</givenNames></author>, <author><familyName>Khosravifard</familyName> <givenNames>M</givenNames></author>. <articleTitle>Optimization of a multiresidue analysis of 65 pesticides in surface water using solid‐phase extraction by LC‐MS/MS</articleTitle>. <journalTitle>Molecules</journalTitle>. <pubYear year="2021">2021</pubYear>;<vol>26</vol>(<issue>21</issue>):<pageFirst>6627</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0041"><citation type="journal" xml:id="btpr3365-cit-0041"><author><familyName>Metallo</familyName> <givenNames>CM</givenNames></author>, <author><familyName>Heiden</familyName> <givenNames>MGV</givenNames></author>. <articleTitle>Metabolism strikes back: metabolic flux regulates cell signaling</articleTitle>. <journalTitle>Genes Dev</journalTitle>. <pubYear year="2010">2010</pubYear>;<vol>24</vol>:<pageFirst>2717</pageFirst>‐<pageLast>2722</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0042"><citation type="journal" xml:id="btpr3365-cit-0042"><author><familyName>Buse</familyName> <givenNames>MG</givenNames></author>, <author><familyName>Robinson</familyName> <givenNames>KA</givenNames></author>, <author><familyName>Marshall</familyName> <givenNames>BA</givenNames></author>, <author><familyName>Mueckler</familyName> <givenNames>M</givenNames></author>. <articleTitle>Differential effects of GLUT1 or GLUT4 overexpression on hexosamine biosynthesis by muscles of transgenic mice</articleTitle>. <journalTitle>J Biol Chem</journalTitle>. <pubYear year="1996">1996</pubYear>;<vol>271</vol>(<issue>38</issue>):<pageFirst>23197</pageFirst>‐<pageLast>23202</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0043"><citation type="journal" xml:id="btpr3365-cit-0043"><author><familyName>Akella</familyName> <givenNames>NM</givenNames></author>, <author><familyName>Ciraku</familyName> <givenNames>L</givenNames></author>, <author><familyName>Reginato</familyName> <givenNames>MJ</givenNames></author>. <articleTitle>Fueling the fire: emerging role of the hexosamine biosynthetic pathway in cancer</articleTitle>. <journalTitle>BMC Biol</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>17</vol>:<pageFirst>52</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0044"><citation type="journal" xml:id="btpr3365-cit-0044"><author><familyName>Nyberg</familyName> <givenNames>GB</givenNames></author>, <author><familyName>Balcarcel</familyName> <givenNames>RR</givenNames></author>, <author><familyName>Follstad</familyName> <givenNames>BD</givenNames></author>. <articleTitle>Metabolic effects on recombinant interferon‐g glycosylation in continuous culture of Chinese hamster ovary cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="1999">1999</pubYear>;<vol>62</vol>(<issue>3</issue>):<pageFirst>336</pageFirst>‐<pageLast>347</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0045"><citation type="journal" xml:id="btpr3365-cit-0045"><author><familyName>Sumit</familyName> <givenNames>M</givenNames></author>, <author><familyName>Dolatshahi</familyName> <givenNames>S</givenNames></author>, <author><familyName>Chu</familyName> <givenNames>AHA</givenNames></author>, et al. <articleTitle>Dissecting N‐glycosylation dynamics in Chinese hamster ovary cells fed‐batch cultures using time course omics analyses</articleTitle>. <journalTitle>iScience</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>12</vol>:<pageFirst>102</pageFirst>‐<pageLast>120</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0046"><citation type="journal" xml:id="btpr3365-cit-0046"><author><familyName>Sengupta</familyName> <givenNames>N</givenNames></author>, <author><familyName>Rose</familyName> <givenNames>ST</givenNames></author>, <author><familyName>Morgan</familyName> <givenNames>JA</givenNames></author>. <articleTitle>Metabolic flux analysis of CHO cell metabolism in the late non‐growth phase</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>108</vol>(<issue>1</issue>):<pageFirst>82</pageFirst>‐<pageLast>92</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0047"><citation type="journal" xml:id="btpr3365-cit-0047"><author><familyName>Xie</familyName> <givenNames>N</givenNames></author>, <author><familyName>Zhang</familyName> <givenNames>L</givenNames></author>, <author><familyName>Gao</familyName> <givenNames>W</givenNames></author>, et al. <articleTitle>NAD+ metabolism: pathophysiologic mechanisms and therapeutic potential</articleTitle>. <journalTitle>Signal Transf Target Therapy</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>5</vol>:<pageFirst>227</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0048"><citation type="journal" xml:id="btpr3365-cit-0048"><author><familyName>Fregno</familyName> <givenNames>I</givenNames></author>, <author><familyName>Fasana</familyName> <givenNames>E</givenNames></author>, <author><familyName>Soldà</familyName> <givenNames>T</givenNames></author>, <author><familyName>Galli</familyName> <givenNames>C</givenNames></author>, <author><familyName>Molinari</familyName> <givenNames>M</givenNames></author>. <articleTitle>N‐glycan processing selects ERAD‐resistant misfolded proteins for ER‐to‐lysosome‐associated degradation</articleTitle>. <journalTitle>EMBO J</journalTitle>. <pubYear year="2021">2021</pubYear>;<vol>40</vol>(<issue>15</issue>):<eLocator>107240</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0049"><citation type="journal" xml:id="btpr3365-cit-0049"><author><familyName>Radhakrishnan</familyName> <givenNames>D</givenNames></author>, <author><familyName>Robinson</familyName> <givenNames>AS</givenNames></author>, <author><familyName>Ogunnaike</familyName> <givenNames>BA</givenNames></author>. <articleTitle>Controlling the glycosylation profile in mAbs using time‐dependent media supplementation</articleTitle>. <journalTitle>Antibodies</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>7</vol>(<issue>1</issue>):<pageFirst>1</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0050"><citation type="journal" xml:id="btpr3365-cit-0050"><author><familyName>Aoyama</familyName> <givenNames>M</givenNames></author>, <author><familyName>Hashii</familyName> <givenNames>N</givenNames></author>, <author><familyName>Tsukimura</familyName> <givenNames>W</givenNames></author>, et al. <articleTitle>Effects of terminal galactose residues in mannose α1‐6 arm of Fc‐glycan on the effector functions of therapeutic monoclonal antibodies</articleTitle>. <journalTitle>mAbs</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>11</vol>(<issue>5</issue>):<pageFirst>826</pageFirst>‐<pageLast>836</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0051"><citation type="journal" xml:id="btpr3365-cit-0051"><author><familyName>Chen</familyName> <givenNames>F</givenNames></author>, <author><familyName>Ye</familyName> <givenNames>Z</givenNames></author>, <author><familyName>Zhao</familyName> <givenNames>L</givenNames></author>, <author><familyName>Liu</familyName> <givenNames>X</givenNames></author>, <author><familyName>Fan</familyName> <givenNames>L</givenNames></author>, <author><familyName>Tan</familyName> <givenNames>WS</givenNames></author>. <articleTitle>Correlation of antibody production rate with glucose and lactate metabolism in Chinese hamster ovary cells</articleTitle>. <journalTitle>Biotechnol Lett</journalTitle>. <pubYear year="2012">2012</pubYear>;<vol>34</vol>(<issue>3</issue>):<pageFirst>4255</pageFirst>‐<pageLast>4432</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0052"><citation type="journal" xml:id="btpr3365-cit-0052"><author><familyName>De Leoz</familyName> <givenNames>MLA</givenNames></author>, <author><familyName>Duewer</familyName> <givenNames>DL</givenNames></author>, <author><familyName>Fung</familyName> <givenNames>A</givenNames></author>, et al. <articleTitle>NIST interlaboratory study on glycosylation analysis of monoclonal antibodies: comparison of results from diverse analytical methods</articleTitle>. <journalTitle>Mol Cell Proteomics</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>19</vol>:<pageFirst>11</pageFirst>‐<pageLast>30</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0053"><citation type="journal" xml:id="btpr3365-cit-0053"><author><familyName>Zeeshan</familyName> <givenNames>HMA</givenNames></author>, <author><familyName>Lee</familyName> <givenNames>GH</givenNames></author>, <author><familyName>Kim</familyName> <givenNames>HR</givenNames></author>, <author><familyName>Chae</familyName> <givenNames>HJ</givenNames></author>. <articleTitle>Endoplasmic reticulum stress and associated ROS</articleTitle>. <journalTitle>Int J Mol Sci</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>17</vol>(<issue>3</issue>):<pageFirst>327</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0054"><citation type="journal" xml:id="btpr3365-cit-0054"><author><familyName>Rogers</familyName> <givenNames>RS</givenNames></author>, <author><familyName>Abernathy</familyName> <givenNames>M</givenNames></author>, <author><familyName>Richardson</familyName> <givenNames>DD</givenNames></author>, et al. <articleTitle>A view on the importance of “multi‐attribute method” for measuring purity of biopharmaceuticals and improving overall control strategy</articleTitle>. <journalTitle>AAPS J</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>20</vol>(<issue>1</issue>):<pageFirst>7</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0055"><citation type="journal" xml:id="btpr3365-cit-0055"><author><familyName>Betts</familyName> <givenNames>JI</givenNames></author>, <author><familyName>Baganz</familyName> <givenNames>F</givenNames></author>. <articleTitle>Miniature bioreactors: current practices and future opportunities</articleTitle>. <journalTitle>Microbiol Cell Fact</journalTitle>. <pubYear year="2006">2006</pubYear>;<vol>5</vol>(<issue>1</issue>):<pageFirst>21</pageFirst>.</citation></bib>
+<bib xml:id="btpr3365-bib-0056"><citation type="journal" xml:id="btpr3365-cit-0056"><author><familyName>Ihling</familyName> <givenNames>N</givenNames></author>, <author><familyName>Munkler</familyName> <givenNames>LP</givenNames></author>, <author><familyName>Paul</familyName> <givenNames>R</givenNames></author>, et al. <articleTitle>Non‐invasive and time‐resolved measurement of the respiration activity of Chinese hamster ovary cells enables prediction of key culture parameters in shake flasks</articleTitle>. <journalTitle>Biotechnol J</journalTitle>. <pubYear year="2022">2022</pubYear>;<vol>17</vol>(<issue>8</issue>):<eLocator>2100677</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0057"><citation type="journal" xml:id="btpr3365-cit-0057"><author><familyName>Pereira</familyName> <givenNames>S</givenNames></author>, <author><familyName>Kildegaard</familyName> <givenNames>HF</givenNames></author>, <author><familyName>Andersen</familyName> <givenNames>MR</givenNames></author>. <articleTitle>Impact of CHO metabolism on cell growth and protein production: an overview of toxic and inhibiting metabolites and nutrients</articleTitle>. <journalTitle>Biotechnol J</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>13</vol>(<issue>3</issue>):<eLocator>1700499</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0058"><citation type="journal" xml:id="btpr3365-cit-0058"><author><familyName>Blondeel</familyName> <givenNames>EJ</givenNames></author>, <author><familyName>Braasch</familyName> <givenNames>K</givenNames></author>, <author><familyName>McGill</familyName> <givenNames>T</givenNames></author>, et al. <articleTitle>Tuning a MAb glycan profile in cell culture: supplementing N‐acetylglucosamine to favour G0 glycans without compromising productivity and cell growth</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2015">2015</pubYear>;<vol>214</vol>:<pageFirst>105</pageFirst>‐<pageLast>112</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0059"><citation type="journal" xml:id="btpr3365-cit-0059"><author><familyName>Naik</familyName> <givenNames>HM</givenNames></author>, <author><familyName>Majewska</familyName> <givenNames>NI</givenNames></author>, <author><familyName>Betenbaugh</familyName> <givenNames>MJ</givenNames></author>. <articleTitle>Impact of nucleotide sugar metabolism on protein N‐glycosylation in Chinese hamster ovary (CHO) cell culture</articleTitle>. <journalTitle>Curr Opin Chem Eng</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>22</vol>:<pageFirst>167</pageFirst>‐<pageLast>176</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0060"><citation type="journal" xml:id="btpr3365-cit-0060"><author><familyName>Val</familyName> <givenNames>IJD</givenNames></author>, <author><familyName>Nagy</familyName> <givenNames>JM</givenNames></author>, <author><familyName>Kontoravdi</familyName> <givenNames>C</givenNames></author>. <articleTitle>A dynamic mathematical model for monoclonal antibody N‐linked glycosylation and nucleotide sugar donor transport within a maturing Golgi apparatus</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>27</vol>(<issue>6</issue>):<pageFirst>1730</pageFirst>‐<pageLast>1743</pageLast>. doi:<accessionId ref="info:doi/10.1002/btpr.688">10.1002/btpr.688</accessionId></citation></bib>
+<bib xml:id="btpr3365-bib-0061"><citation type="journal" xml:id="btpr3365-cit-0061"><author><familyName>Daenzer</familyName> <givenNames>JMI</givenNames></author>, <author><familyName>Sanders</familyName> <givenNames>RD</givenNames></author>, <author><familyName>Hang</familyName> <givenNames>D</givenNames></author>, <author><familyName>Fridovich‐Keil</familyName> <givenNames>JL</givenNames></author>. <articleTitle>UDP‐galactose 4′‐epimerase activities toward UDP‐gal and UDP‐GalNAc play different roles in the development of <i>Drosophila melanogaster</i></articleTitle>. <journalTitle>PLoS Genet</journalTitle>. <pubYear year="2012">2012</pubYear>;<vol>8</vol>(<issue>5</issue>):<eLocator>1002721</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0062"><citation type="journal" xml:id="btpr3365-cit-0062"><author><familyName>Yan</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Xing</familyName> <givenNames>T</givenNames></author>, <author><familyName>Wang</familyName> <givenNames>S</givenNames></author>, <author><familyName>Li</familyName> <givenNames>N</givenNames></author>. <articleTitle>Versatile, sensitive, and robust native LC–MS platform for intact mass analysis of protein drugs</articleTitle>. <journalTitle>J Am Soc Mass Spectrom</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>31</vol>:<pageFirst>2171</pageFirst>‐<pageLast>2179</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0063"><citation type="journal" xml:id="btpr3365-cit-0063"><author><familyName>Rustandi</familyName> <givenNames>RR</givenNames></author>, <author><familyName>Washabaugh</familyName> <givenNames>MW</givenNames></author>, <author><familyName>Wang</familyName> <givenNames>Y</givenNames></author>. <articleTitle>Applications of CE SDS gel in development of biopharmaceutical antibody‐based products</articleTitle>. <journalTitle>Electrophoresis</journalTitle>. <pubYear year="2008">2008</pubYear>;<vol>29</vol>(<issue>17</issue>):<pageFirst>3612</pageFirst>‐<pageLast>3620</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0064"><citation type="journal" xml:id="btpr3365-cit-0064"><author><familyName>Silverman</familyName> <givenNames>JM</givenNames></author>, <author><familyName>Imperiali</familyName> <givenNames>B</givenNames></author>. <articleTitle>Bacterial N‐glycosylation efficiency is dependent on the structural context of target sequons</articleTitle>. <journalTitle>J Biol Chem</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>291</vol>(<issue>42</issue>):<pageFirst>22001</pageFirst>‐<pageLast>22020</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0065"><citation type="journal" xml:id="btpr3365-cit-0065"><author><familyName>Bañó‐Polo</familyName> <givenNames>M</givenNames></author>, <author><familyName>Baldin</familyName> <givenNames>F</givenNames></author>, <author><familyName>Tamborero</familyName> <givenNames>S</givenNames></author>, <author><familyName>Marti‐Renom</familyName> <givenNames>MA</givenNames></author>, <author><familyName>Mingarro</familyName> <givenNames>I</givenNames></author>. <articleTitle>N‐glycosylation efficiency is determined by the distance to the C‐terminus and the amino acid preceding an Asn‐Ser‐Thr sequon</articleTitle>. <journalTitle>Protein Sci</journalTitle>. <pubYear year="2011">2011</pubYear>;<vol>20</vol>(<issue>1</issue>):<pageFirst>179</pageFirst>‐<pageLast>186</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0066"><citation type="journal" xml:id="btpr3365-cit-0066"><author><familyName>Águila</familyName> <givenNames>S</givenNames></author>, <author><familyName>Martínez‐Martínez</familyName> <givenNames>I</givenNames></author>, <author><familyName>Dichiara</familyName> <givenNames>G</givenNames></author>, et al. <articleTitle>Increased N‐glycosylation efficiency by generation of an aromatic sequon on N135 of antithrombin</articleTitle>. <journalTitle>PLoS ONE</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>9</vol>(<issue>12</issue>):<eLocator>114454</eLocator>.</citation></bib>
+<bib xml:id="btpr3365-bib-0067"><citation type="journal" xml:id="btpr3365-cit-0067"><author><familyName>Mimura</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Ashton</familyName> <givenNames>PR</givenNames></author>, <author><familyName>Takahashi</familyName> <givenNames>N</givenNames></author>, <author><familyName>Harvey</familyName> <givenNames>DJ</givenNames></author>, <author><familyName>Jefferis</familyName> <givenNames>R</givenNames></author>. <articleTitle>Contrasting glycosylation profiles between Fab and Fc of a human IgG protein studied by electrospray ionization mass spectrometry</articleTitle>. <journalTitle>J Immunol Methods</journalTitle>. <pubYear year="2007">2007</pubYear>;<vol>326</vol>(<issue>1–2</issue>):<pageFirst>116</pageFirst>‐<pageLast>126</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0068"><citation type="journal" xml:id="btpr3365-cit-0068"><author><familyName>Ehret</familyName> <givenNames>J</givenNames></author>, <author><familyName>Zimmermann</familyName> <givenNames>M</givenNames></author>, <author><familyName>Eichhorn</familyName> <givenNames>T</givenNames></author>, <author><familyName>Zimmer</familyName> <givenNames>A</givenNames></author>. <articleTitle>Impact of cell culture media additives on IgG glycosylation produced in Chinese hamster ovary cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2019">2019</pubYear>;<vol>116</vol>:<pageFirst>816</pageFirst>‐<pageLast>830</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0069"><citation type="book" xml:id="btpr3365-cit-0069"><author><familyName>Wells</familyName> <givenNames>E</givenNames></author>. <bookTitle>Post‐Translational Modifications to Recombinant Proteins: Roles in Antibody Production and Neurodegenerative Disease</bookTitle>. PhD Thesis. <publisherName>Carnegie Mellon University</publisherName>; <pubYear year="2020">2020</pubYear>. Available from ProQuest Dissertations &amp;amp; Theses (28261741).</citation></bib>
+<bib xml:id="btpr3365-bib-0070"><citation type="journal" xml:id="btpr3365-cit-0070"><author><familyName>Mastrangeli</familyName> <givenNames>R</givenNames></author>, <author><familyName>Audino</familyName> <givenNames>MC</givenNames></author>, <author><familyName>Palinsky</familyName> <givenNames>W</givenNames></author>, <author><familyName>Broly</familyName> <givenNames>H</givenNames></author>, <author><familyName>Bierau</familyName> <givenNames>H</givenNames></author>. <articleTitle>The formidable challenge of controlling high mannose‐type N‐glycans in therapeutic mAbs</articleTitle>. <journalTitle>Trends Biotechnol</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>38</vol>(<issue>10</issue>):<pageFirst>1154</pageFirst>‐<pageLast>1168</pageLast>.</citation></bib>
+<bib xml:id="btpr3365-bib-0071"><citation type="journal" xml:id="btpr3365-cit-0071"><author><familyName>Vallée</familyName> <givenNames>C</givenNames></author>, <author><familyName>Durocher</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Henry</familyName> <givenNames>O</givenNames></author>. <articleTitle>Exploiting the metabolism of PYC expressing HEK293 cells in fed‐batch cultures</articleTitle>. <journalTitle>J Bioechnol</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>169</vol>:<pageFirst>63</pageFirst>‐<pageLast>70</pageLast>.</citation></bib>
+</bibliography>
+</body>
+</component>]]></body>
+  <back>
+    <ref-list>
+      <ref id="0">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grilo</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Mantalaris</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Trends Biotechnol</article-title>
+          <year>2019</year>
+          <volume>37</volume>
+          <fpage>9</fpage>
+          <lpage>16</lpage>
+        </element-citation>
+      </ref>
+      <ref id="1">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplon</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Chenoweth</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Crescioli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Reichert</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>mAbs</article-title>
+          <year>2022</year>
+          <volume>14</volume>
+        </element-citation>
+      </ref>
+      <ref id="2">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kunert</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Reinhart</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Appl Microbiol Biotechnol</article-title>
+          <year>2016</year>
+          <volume>100</volume>
+          <fpage>3541</fpage>
+          <lpage>3561</lpage>
+        </element-citation>
+      </ref>
+      <ref id="3">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mao</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>AS</given-names>
+            </name>
+          </person-group>
+          <article-title>Curr Opin Biotechnol</article-title>
+          <year>2022</year>
+          <volume>78</volume>
+        </element-citation>
+      </ref>
+      <ref id="4">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Woen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Drug Disov Today</article-title>
+          <year>2016</year>
+          <volume>21</volume>
+          <fpage>740</fpage>
+          <lpage>765</lpage>
+        </element-citation>
+      </ref>
+      <ref id="5">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Russell</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Adua</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Ugrina</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Laws</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Int J Mol Sci</article-title>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>390</fpage>
+        </element-citation>
+      </ref>
+      <ref id="6">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Majewska</surname>
+              <given-names>NI</given-names>
+            </name>
+            <name>
+              <surname>Tejada</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Betenbaugh</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Agarwal</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Annu Rev Chem Biomol Eng</article-title>
+          <year>2020</year>
+          <volume>11</volume>
+          <fpage>1</fpage>
+          <lpage>28</lpage>
+        </element-citation>
+      </ref>
+      <ref id="7">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chandrawanshi</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Kulkarni</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Prabhu</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mehra</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biotechnol</article-title>
+          <year>2020</year>
+          <volume>311</volume>
+          <fpage>49</fpage>
+          <lpage>58</lpage>
+        </element-citation>
+      </ref>
+      <ref id="8">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sou</surname>
+              <given-names>SN</given-names>
+            </name>
+            <name>
+              <surname>Sellick</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>2015</year>
+          <volume>112</volume>
+          <fpage>1165</fpage>
+          <lpage>1176</lpage>
+        </element-citation>
+      </ref>
+      <ref id="9">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wells</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Greer</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>2020</year>
+          <volume>117</volume>
+          <fpage>3310</fpage>
+          <lpage>3321</lpage>
+        </element-citation>
+      </ref>
+      <ref id="10">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madabhushi</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Podtelezhnikov</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Murgolo</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biotechnol</article-title>
+          <year>2021</year>
+          <volume>329</volume>
+          <fpage>92</fpage>
+          <lpage>103</lpage>
+        </element-citation>
+      </ref>
+      <ref id="11">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zacchi</surname>
+              <given-names>LF</given-names>
+            </name>
+            <name>
+              <surname>Schulz</surname>
+              <given-names>BL</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycoconj J</article-title>
+          <year>2016</year>
+          <volume>33</volume>
+          <fpage>359</fpage>
+          <lpage>376</lpage>
+        </element-citation>
+      </ref>
+      <ref id="12">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Krag</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Betenbaugh</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochim Biophys Acta</article-title>
+          <year>2005</year>
+          <volume>1726</volume>
+          <fpage>121</fpage>
+          <lpage>137</lpage>
+        </element-citation>
+      </ref>
+      <ref id="13">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kochanowski</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Blanchard</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Cacan</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>2008</year>
+          <volume>100</volume>
+          <fpage>721</fpage>
+          <lpage>733</lpage>
+        </element-citation>
+      </ref>
+      <ref id="14">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reinhart</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Damjanovic</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Kaisermayer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kunert</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Appl Microbiol Biotechnol</article-title>
+          <year>2015</year>
+          <volume>99</volume>
+          <fpage>445</fpage>
+          <lpage>4657</lpage>
+        </element-citation>
+      </ref>
+      <ref id="15">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clincke</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Guedon</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Yen</surname>
+              <given-names>FT</given-names>
+            </name>
+            <name>
+              <surname>Ogier</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Goergen</surname>
+              <given-names>JL</given-names>
+            </name>
+          </person-group>
+          <article-title>BMC Proc</article-title>
+          <year>2011</year>
+          <volume>5</volume>
+          <fpage>114</fpage>
+        </element-citation>
+      </ref>
+      <ref id="16">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>MY</given-names>
+            </name>
+            <name>
+              <surname>Ebel</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Paris</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Chauchard</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Guedon</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Marc</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Prog</article-title>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>486</fpage>
+          <lpage>493</lpage>
+        </element-citation>
+      </ref>
+      <ref id="17">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goetze</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>YD</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycobiology</article-title>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>949</fpage>
+          <lpage>959</lpage>
+        </element-citation>
+      </ref>
+      <ref id="18">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Spearman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Doering</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lattová</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Perreault</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Butler</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biotechnol</article-title>
+          <year>2014</year>
+          <volume>170</volume>
+          <fpage>17</fpage>
+          <lpage>27</lpage>
+        </element-citation>
+      </ref>
+      <ref id="19">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karengera</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Robotham</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Durocher</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Crescenzo</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Henry</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biotechnol</article-title>
+          <year>2017</year>
+          <volume>242</volume>
+          <fpage>73</fpage>
+          <lpage>82</lpage>
+        </element-citation>
+      </ref>
+      <ref id="20">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gawlitzek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Estacio</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Furch</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kiss</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>2009</year>
+          <volume>103</volume>
+          <fpage>1164</fpage>
+          <lpage>1175</lpage>
+        </element-citation>
+      </ref>
+      <ref id="21">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ha</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Vlasak</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycobiology</article-title>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>1087</fpage>
+          <lpage>1096</lpage>
+        </element-citation>
+      </ref>
+      <ref id="22">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heifetz</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Keenan</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Elbein</surname>
+              <given-names>AD</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochemistry</article-title>
+          <year>1979</year>
+          <volume>18</volume>
+          <fpage>2186</fpage>
+          <lpage>2192</lpage>
+        </element-citation>
+      </ref>
+      <ref id="23">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Onitsuka</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kawaguchi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Asano</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biosci Bioeng</article-title>
+          <year>2014</year>
+          <volume>117</volume>
+          <fpage>639</fpage>
+          <lpage>644</lpage>
+        </element-citation>
+      </ref>
+      <ref id="24">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gardell</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Hopf</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Nat Commun</article-title>
+          <year>2019</year>
+          <volume>10</volume>
+          <fpage>3241</fpage>
+        </element-citation>
+      </ref>
+      <ref id="25">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qiao</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Front Oncol</article-title>
+          <year>2011</year>
+          <volume>11</volume>
+        </element-citation>
+      </ref>
+      <ref id="26">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tait</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Tarrant</surname>
+              <given-names>RDR</given-names>
+            </name>
+            <name>
+              <surname>Velez‐Suberbie</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Spender</surname>
+              <given-names>DIR</given-names>
+            </name>
+            <name>
+              <surname>Bracewell</surname>
+              <given-names>DG</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Prog</article-title>
+          <year>2013</year>
+          <volume>29</volume>
+          <fpage>388</fpage>
+          <lpage>696</lpage>
+        </element-citation>
+      </ref>
+      <ref id="27">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mkhikian</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Mortales</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>RW</given-names>
+            </name>
+          </person-group>
+          <article-title>eLife</article-title>
+          <year>2016</year>
+          <volume>5</volume>
+        </element-citation>
+      </ref>
+      <ref id="28">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fischler</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Orlando</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biomol Tech</article-title>
+          <year>2019</year>
+          <volume>30</volume>
+          <fpage>58</fpage>
+          <lpage>63</lpage>
+        </element-citation>
+      </ref>
+      <ref id="29">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prien</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Stockmann</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Albrecht</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="30">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kurian</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Wells</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Ogunnaike</surname>
+              <given-names>BA</given-names>
+            </name>
+          </person-group>
+          <article-title>AIChE J</article-title>
+          <year>2023</year>
+          <volume>69</volume>
+        </element-citation>
+      </ref>
+      <ref id="31">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Anal Chim Acta</article-title>
+          <year>2020</year>
+          <volume>1102</volume>
+          <fpage>130</fpage>
+          <lpage>139</lpage>
+        </element-citation>
+      </ref>
+      <ref id="32">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Echeverria</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Etxebarria</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ruiz</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Anal Chem</article-title>
+          <year>2015</year>
+          <volume>87</volume>
+          <fpage>11460</fpage>
+          <lpage>11467</lpage>
+        </element-citation>
+      </ref>
+      <ref id="33">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Griend</surname>
+              <given-names>CES</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrophoresis</article-title>
+          <year>2019</year>
+          <volume>40</volume>
+          <fpage>2361</fpage>
+          <lpage>2374</lpage>
+        </element-citation>
+      </ref>
+      <ref id="34">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chi</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Veyssier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kasali</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sellick</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Rep</article-title>
+          <year>2020</year>
+          <volume>25</volume>
+        </element-citation>
+      </ref>
+      <ref id="35">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wuhrer</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>De Boer</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Deelder</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Mass Spectrom Rev</article-title>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>192</fpage>
+          <lpage>206</lpage>
+        </element-citation>
+      </ref>
+      <ref id="36">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pabst</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kolarich</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Pöltl</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Anal Biochem</article-title>
+          <year>2009</year>
+          <volume>384</volume>
+          <fpage>263</fpage>
+          <lpage>273</lpage>
+        </element-citation>
+      </ref>
+      <ref id="37">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kishimoto</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Maesako</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>J Chromatogr A</article-title>
+          <year>2020</year>
+          <volume>1625</volume>
+        </element-citation>
+      </ref>
+      <ref id="38">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>YQ</given-names>
+            </name>
+            <name>
+              <surname>Gilar</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kaska</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gebler</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid Commun Mass Spectrom</article-title>
+          <year>2005</year>
+          <volume>19</volume>
+          <fpage>2331</fpage>
+          <lpage>2336</lpage>
+        </element-citation>
+      </ref>
+      <ref id="39">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakhjavan</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bland</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Khosravifard</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecules</article-title>
+          <year>2021</year>
+          <volume>26</volume>
+          <fpage>6627</fpage>
+        </element-citation>
+      </ref>
+      <ref id="40">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Metallo</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Heiden</surname>
+              <given-names>MGV</given-names>
+            </name>
+          </person-group>
+          <article-title>Genes Dev</article-title>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>2717</fpage>
+          <lpage>2722</lpage>
+        </element-citation>
+      </ref>
+      <ref id="41">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buse</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Mueckler</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biol Chem</article-title>
+          <year>1996</year>
+          <volume>271</volume>
+          <fpage>23197</fpage>
+          <lpage>23202</lpage>
+        </element-citation>
+      </ref>
+      <ref id="42">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akella</surname>
+              <given-names>NM</given-names>
+            </name>
+            <name>
+              <surname>Ciraku</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Reginato</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>BMC Biol</article-title>
+          <year>2019</year>
+          <volume>17</volume>
+          <fpage>52</fpage>
+        </element-citation>
+      </ref>
+      <ref id="43">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nyberg</surname>
+              <given-names>GB</given-names>
+            </name>
+            <name>
+              <surname>Balcarcel</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Follstad</surname>
+              <given-names>BD</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>1999</year>
+          <volume>62</volume>
+          <fpage>336</fpage>
+          <lpage>347</lpage>
+        </element-citation>
+      </ref>
+      <ref id="44">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sumit</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Dolatshahi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>AHA</given-names>
+            </name>
+          </person-group>
+          <article-title>iScience</article-title>
+          <year>2019</year>
+          <volume>12</volume>
+          <fpage>102</fpage>
+          <lpage>120</lpage>
+        </element-citation>
+      </ref>
+      <ref id="45">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sengupta</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Rose</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>82</fpage>
+          <lpage>92</lpage>
+        </element-citation>
+      </ref>
+      <ref id="46">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Signal Transf Target Therapy</article-title>
+          <year>2020</year>
+          <volume>5</volume>
+          <fpage>227</fpage>
+        </element-citation>
+      </ref>
+      <ref id="47">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fregno</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Fasana</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Soldà</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Galli</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Molinari</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>EMBO J</article-title>
+          <year>2021</year>
+          <volume>40</volume>
+        </element-citation>
+      </ref>
+      <ref id="48">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Radhakrishnan</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Ogunnaike</surname>
+              <given-names>BA</given-names>
+            </name>
+          </person-group>
+          <article-title>Antibodies</article-title>
+          <year>2018</year>
+          <volume>7</volume>
+          <fpage>1</fpage>
+        </element-citation>
+      </ref>
+      <ref id="49">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aoyama</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hashii</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Tsukimura</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>mAbs</article-title>
+          <year>2019</year>
+          <volume>11</volume>
+          <fpage>826</fpage>
+          <lpage>836</lpage>
+        </element-citation>
+      </ref>
+      <ref id="50">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>WS</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Lett</article-title>
+          <year>2012</year>
+          <volume>34</volume>
+          <fpage>4255</fpage>
+          <lpage>4432</lpage>
+        </element-citation>
+      </ref>
+      <ref id="51">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Leoz</surname>
+              <given-names>MLA</given-names>
+            </name>
+            <name>
+              <surname>Duewer</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Fung</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Mol Cell Proteomics</article-title>
+          <year>2020</year>
+          <volume>19</volume>
+          <fpage>11</fpage>
+          <lpage>30</lpage>
+        </element-citation>
+      </ref>
+      <ref id="52">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeeshan</surname>
+              <given-names>HMA</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>GH</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>HR</given-names>
+            </name>
+            <name>
+              <surname>Chae</surname>
+              <given-names>HJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Int J Mol Sci</article-title>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>327</fpage>
+        </element-citation>
+      </ref>
+      <ref id="53">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rogers</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Abernathy</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>DD</given-names>
+            </name>
+          </person-group>
+          <article-title>AAPS J</article-title>
+          <year>2018</year>
+          <volume>20</volume>
+          <fpage>7</fpage>
+        </element-citation>
+      </ref>
+      <ref id="54">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Betts</surname>
+              <given-names>JI</given-names>
+            </name>
+            <name>
+              <surname>Baganz</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbiol Cell Fact</article-title>
+          <year>2006</year>
+          <volume>5</volume>
+          <fpage>21</fpage>
+        </element-citation>
+      </ref>
+      <ref id="55">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ihling</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Munkler</surname>
+              <given-names>LP</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol J</article-title>
+          <year>2022</year>
+          <volume>17</volume>
+        </element-citation>
+      </ref>
+      <ref id="56">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pereira</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kildegaard</surname>
+              <given-names>HF</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol J</article-title>
+          <year>2018</year>
+          <volume>13</volume>
+        </element-citation>
+      </ref>
+      <ref id="57">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blondeel</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Braasch</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>McGill</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biotechnol</article-title>
+          <year>2015</year>
+          <volume>214</volume>
+          <fpage>105</fpage>
+          <lpage>112</lpage>
+        </element-citation>
+      </ref>
+      <ref id="58">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naik</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Majewska</surname>
+              <given-names>NI</given-names>
+            </name>
+            <name>
+              <surname>Betenbaugh</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Curr Opin Chem Eng</article-title>
+          <year>2018</year>
+          <volume>22</volume>
+          <fpage>167</fpage>
+          <lpage>176</lpage>
+        </element-citation>
+      </ref>
+      <ref id="59">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Val</surname>
+              <given-names>IJD</given-names>
+            </name>
+            <name>
+              <surname>Nagy</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Kontoravdi</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Prog</article-title>
+          <year>2011</year>
+          <volume>27</volume>
+          <fpage>1730</fpage>
+          <lpage>1743</lpage>
+        </element-citation>
+      </ref>
+      <ref id="60">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daenzer</surname>
+              <given-names>JMI</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Hang</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Fridovich‐Keil</surname>
+              <given-names>JL</given-names>
+            </name>
+          </person-group>
+          <article-title>PLoS Genet</article-title>
+          <year>2012</year>
+          <volume>8</volume>
+        </element-citation>
+      </ref>
+      <ref id="61">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Xing</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>J Am Soc Mass Spectrom</article-title>
+          <year>2020</year>
+          <volume>31</volume>
+          <fpage>2171</fpage>
+          <lpage>2179</lpage>
+        </element-citation>
+      </ref>
+      <ref id="62">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rustandi</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Washabaugh</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrophoresis</article-title>
+          <year>2008</year>
+          <volume>29</volume>
+          <fpage>3612</fpage>
+          <lpage>3620</lpage>
+        </element-citation>
+      </ref>
+      <ref id="63">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silverman</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Imperiali</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>J Biol Chem</article-title>
+          <year>2016</year>
+          <volume>291</volume>
+          <fpage>22001</fpage>
+          <lpage>22020</lpage>
+        </element-citation>
+      </ref>
+      <ref id="64">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bañó‐Polo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Baldin</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Tamborero</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Marti‐Renom</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Mingarro</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein Sci</article-title>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>179</fpage>
+          <lpage>186</lpage>
+        </element-citation>
+      </ref>
+      <ref id="65">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Águila</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Martínez‐Martínez</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Dichiara</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>PLoS ONE</article-title>
+          <year>2014</year>
+          <volume>9</volume>
+        </element-citation>
+      </ref>
+      <ref id="66">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mimura</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ashton</surname>
+              <given-names>PR</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Harvey</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Jefferis</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>J Immunol Methods</article-title>
+          <year>2007</year>
+          <volume>326</volume>
+          <fpage>116</fpage>
+          <lpage>126</lpage>
+        </element-citation>
+      </ref>
+      <ref id="67">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ehret</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zimmermann</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Eichhorn</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Zimmer</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Biotechnol Bioeng</article-title>
+          <year>2019</year>
+          <volume>116</volume>
+          <fpage>816</fpage>
+          <lpage>830</lpage>
+        </element-citation>
+      </ref>
+      <ref id="68">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wells</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+        </element-citation>
+      </ref>
+      <ref id="69">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mastrangeli</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Audino</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Palinsky</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Broly</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bierau</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Trends Biotechnol</article-title>
+          <year>2020</year>
+          <volume>38</volume>
+          <fpage>1154</fpage>
+          <lpage>1168</lpage>
+        </element-citation>
+      </ref>
+      <ref id="70">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vallée</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Durocher</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Henry</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>J Bioechnol</article-title>
+          <year>2014</year>
+          <volume>169</volume>
+          <fpage>63</fpage>
+          <lpage>70</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

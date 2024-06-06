@@ -1,0 +1,103 @@
+format-version: 1.0
+date: 2024-02-21
+auto-generated-by: Shovan
+
+[Term]
+ConceptName: (fut8) gene knockout cho-s_COID438040
+Id: COID438040
+CanonicalName: (fut8) gene knockout cho-s
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: fut8 gene knockout cho-s
+
+[Term]
+ConceptName: 1-ag4-1_COID898401
+Id: COID898401
+CanonicalName: 1-ag4-1
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: 2-f-peracetyl fucose_COID847827
+Id: COID847827
+CanonicalName: 2-f-peracetyl fucose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames:
+
+[Term]
+ConceptName: ggg_COID182961
+Id: COID182961
+CanonicalName: ggg
+Type: by-product or waste
+TypeId: C9
+
+[Term]
+ConceptName: fha_COID045318
+Id: COID045318
+CanonicalName: fha
+Type: enzyme
+TypeId: C10
+
+
+[Term]
+ConceptName: asdff_COID827023
+Id: COID827023
+CanonicalName: asdff
+Type: biological process
+TypeId: C6
+AlternativeNames:tyyTrsR
+
+[Term]
+ConceptName: rrrr_COID797750
+Id: COID797750
+CanonicalName: rrrr
+Type: product quality profile
+TypeId: C50
+AlternativeNames:
+
+[Term]
+ConceptName: SFFF_COID802712
+Id: COID802712
+CanonicalName: SFFF
+Type: by-product or waste
+TypeId: C9
+AlternativeNames: IIII
+OOOP
+sahsafas
+
+[Term]
+ConceptName: eew_COID360312
+Id: COID360312
+CanonicalName: eew
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+[Term]
+ConceptName: xxx_COID846052
+Id: COID846052
+CanonicalName: xxx
+Type: enzyme
+TypeId: C10
+AlternativeNames: AlternativeNames: x
+AlternativeNames: 10
+AlternativeNames: sdaa
+AlternativeNames: FGGF
+
+[Term]
+ConceptName: sdaU_COID662826
+Id: COID662826
+CanonicalName: sdaU
+Type: process condition
+TypeId: C19
+AlternativeNames: AlternativeNames: 
+
+[Term]
+ConceptName: XCV_COID248678
+Id: COID248678
+CanonicalName: XCV
+Type: enzyme
+TypeId: C10
+AlternativeNames: Xc
+

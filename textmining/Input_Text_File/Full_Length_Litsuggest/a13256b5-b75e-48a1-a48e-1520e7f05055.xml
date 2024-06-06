@@ -1,0 +1,1537 @@
+<article article-type="Journal Article|Research Support, Non-U.S. Gov&apos;t">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Biotechnology Progress</journal-title>
+      </journal-title-group>
+      <issn>8756-7938</issn>
+      <issn>1520-6033</issn>
+      <publisher>
+        <publisher-name>John Wiley &amp; Sons</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1002/btpr.2946</article-id>
+      <article-id pub-id-type="wtfid">531f8d40-7a54-11ea-a758-0ed8004f4851</article-id>
+      <article-id pub-id-type="pmid">31823468</article-id>
+      <article-id pub-id-type="tdm">wiley_TDM-10.1002/btpr.2946</article-id>
+      <title-group>
+        <article-title>Effects of cysteine, asparagine, or glutamine limitations in Chinese hamster ovary cell batch and fed‐batch cultures</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Ghaffari</surname>
+          <given-names>Navid</given-names>
+          <aff>Michael Smith Laboratories The University of British Columbia</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Jardon</surname>
+          <given-names>Mario A.</given-names>
+          <aff>Michael Smith Genome Sciences Centre BC Cancer Research Centre</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Krahn</surname>
+          <given-names>Natalie</given-names>
+          <aff>Department of Microbiology University of Manitoba</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Butler</surname>
+          <given-names>Michael</given-names>
+          <aff>Department of Microbiology University of Manitoba</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Kennard</surname>
+          <given-names>Malcolm</given-names>
+          <aff>Michael Smith Laboratories The University of British Columbia</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Turner</surname>
+          <given-names>Robin F. B.</given-names>
+          <aff>Michael Smith Laboratories The University of British Columbia</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Gopaluni</surname>
+          <given-names>Bhushan</given-names>
+          <aff>Department of Chemical and Biological Engineering The University of British Columbia</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Piret</surname>
+          <given-names>James M.</given-names>
+          <aff>Michael Smith Laboratories The University of British Columbia</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>9</day>
+        <month>4</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>36</volume>
+      <issue>2</issue>
+      <fpage>n/a</fpage>
+      <lpage>n/a</lpage>
+      <abstract>
+        <p>Abstract Amino acid availability is a key factor that can be controlled to optimize the productivity of fed‐batch cultures. To study amino acid limitation effects, a serum‐free chemically defined basal medium was formulated to exclude the amino acids that became depleted in batch culture. The effect of limiting glutamine, asparagine, and cysteine on the cell growth, metabolism, antibody productivity, and product glycosylation was investigated in three Chinese hamster ovary (CHO) cell lines (CHO‐DXB11, CHO‐K1SV, and CHO‐S). Cysteine limitation was detrimental to both cell proliferation and productivity for all three CHO cell lines. Glutamine limitation reduced growth but not cell specific productivity, whereas asparagine limitation had no significant effect on either growth or cell specific productivity. Neither glutamine nor asparagine limitation significantly affected antibody glycosylation. Replenishing the CHO‐DXB11 culture with cysteine after 1 day of cysteine limitation allowed the cells to partially recover their growth and productivity. This recovery was not observed after 2 days of cysteine limitation. Based on these findings, a fed‐batch protocol was developed using single or mixed amino acid supplementation. Although cell density and antibody concentration were lower compared to a commercial feed, the feeds based on cysteine supplementation yielded comparable cell specific productivity. Overall, this study showed that different amino acid limitations have varied effects on the performance of CHO cell cultures and that maintaining cysteine availability is a critical process parameter for the three cell lines investigated.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>amino acid</kwd>
+        <kwd>Chinese hamster ovary cells</kwd>
+        <kwd>fed‐batch</kwd>
+        <kwd>monoclonal antibody</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Immunoglobulin G</chemical.name>
+          <chemical.ui>D007074</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0RH81L854J</chemical.registryNumber>
+          <chemical.name>Glutamine</chemical.name>
+          <chemical.ui>D005973</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>7006-34-0</chemical.registryNumber>
+          <chemical.name>Asparagine</chemical.name>
+          <chemical.ui>D001216</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>K848JZ4886</chemical.registryNumber>
+          <chemical.name>Cysteine</chemical.name>
+          <chemical.ui>D003545</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Antibody Formation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Asparagine</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>pharmacology</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000494</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Batch Cell Culture Techniques</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cell Proliferation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>drug effects</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000187</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cell Survival</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>drug effects</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000187</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cells, Cultured</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cysteine</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>pharmacology</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000494</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glutamine</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>pharmacology</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000494</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glycosylation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Humans</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Immunoglobulin G</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>biosynthesis</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000096</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+      </kwd-group>
+      <sec sec-type="intro">
+        <p>INTRODUCTION  Fed‐batch processes are commonly used to produce recombinant proteins such as monoclonal antibodies (MAb) from Chinese hamster ovary (CHO) cells. In a fed‐batch process, nutrients are added to avoid limitations so as to maintain the proliferation and productivity of the cells. The development of improved fed‐batch processes, in order to reduce therapeutic protein production costs, is an important focus of the pharmaceutical industry. To most effectively achieve such a goal, it is best to have a thorough understanding of cell physiology and metabolism as well as to identify critical process parameters that affect product quality and yield. The common practice in developing feed strategies for cultures has been based on identifying the nutrients that are depleted during culture and to simply supplement those nutrients to avoid their limitation. However, understanding the metabolism of individual nutrients could provide a more objective approach to experimental design and process optimization. Although amino acids are important nutrients, essential for many biological functions of cells and complex organisms, there are relatively few publications on the effects of individual amino acid levels on the performance of CHO cell cultures. In some cases, it has been noted that replacement of depleted amino acids has not led to process improvements. In the present study, the amino acids glutamine, asparagine, and cysteine (that were first depleted in batch culture) were selected to investigate the effects of their limitation on the productivity and product glycosylation of three MAb expressing CHO cell lines in batch and fed‐batch cultures. Glutamine is the most abundant free amino acid in human blood and classified as an essential amino acid for cells in culture by Eagle, though he noted that HeLa cells could grow without glutamine if high levels of glutamate are present. Glutamine can be synthesized by the condensation of glutamate and ammonia by the glutamine synthetase (GS) enzyme. Glutamine has a key role in the storage and transport of nitrogen. Compared to glutamate, glutamine has a greater cell membrane transport rate and can act as a source of ammonia for many reactions without exposure to the toxicity of free ammonia. Glutamine plays a significant role in CHO cell metabolism, in particular through its conversion to glutamate and then α‐ketoglutarate, thus an anaplerotic pathway that provides a TCA cycle intermediate. In addition, glutamine is important for the metabolism of other amino acids, the formation of γ‐aminobutyrate, the reactions of the γ‐glutamyl cycle, the utilization of ammonia, as well as the synthesis of glutamate and carbamyl phosphate. Asparagine contributes to nitrogen homeostasis as well as an anaplerotic pathway to the TCA cycle when it is converted to aspartate and then oxaloacetate. It was not classified as essential by Eagle and in mammalian cells, asparagine can be synthesized through pyrophosphorolytic cleavage of ATP with either NH4+ or glutamine as the amide donor. L‐asparaginyl‐tRNA regulates the synthesis of asparagine in CHO cells. It is also understood that under asparagine limited conditions cells can synthesize asparagine from aspartate and glutamine. Cysteine is considered by some as a semi‐essential amino acid as it can be synthesized in the normal human body but may be considered essential for infants or elderly. Cysteine and methionine are both sulfur containing amino acids but, cysteine is the only thiol containing amino acid. Thiols have important biological functions in reduction/oxidation (redox) reactions. Oxidation of cysteine results in formation of cystine that is essentially a dimer of cysteine that is, two cysteine molecules joined by a disulfide bond. Disulfide bonds are important for the structure of many proteins. The reverse reaction involves the reduction of cystine and regeneration of two cysteine molecules. In mammals, the cysteine concentration is tightly controlled by the liver that converts excess cysteine to glutathione, a reservoir for cysteine with cysteine uptake considered the rate limiting step in the synthesis of glutathione. Cysteine is also an essential precursor for co‐enzyme A (CoA), which plays many roles in cell metabolism including lipogenesis. In order to study the effect of limiting and supplementing individual amino acids on batch and fed‐batch cultures for three antibody expressing CHO cell lines (CHO‐DXB11, CHO‐K1SV, and CHO‐S), a serum‐free chemically defined basal medium called BIOGRO was used where specific amino acids (glutamine, asparagine, and cysteine) could be added or deleted. The metabolism of these specific amino acids and the effects of their limitation on CHO cell cultures were further investigated. Finally, these findings were used to develop feed protocols to improve a CHO fed‐batch culture using only specific amino acid supplementation.</p>
+      </sec>
+      <sec sec-type="materials|methods">
+        <p>Cell lines  Three CHO cell lines were used in this study. CHO EG2 1A7 referred to as CHO‐DXB11, from National Research Council of Canada, derived from the CHO‐DXB11 cell line that produces EG2‐hFc. EG2‐hFc is a chimeric heavy chain antibody constructed by fusing a camelid heavy chain antibody or single domain antibody to the Fc portion of a human IgG1. EG2 was generated from a variant of EGFR. ChK2 437.89.56 referred to as CHO‐K1SV, from Pfizer Inc., derived from Lonza&apos;s CHO‐K1SV cell line producing human monoclonal anti‐interleukin 1 β IgG1 antibody. The CHO‐S cell line producing a human IgG1 was from Australian Institute for Bioengineering and Nanotechnology. Cell culture  All cells were incubated in 125 ml shake flasks (Corning, Corning, NY) in a humidified incubator (Kuhner, Basel, Switzerland) at 37°C, 5% CO2, 85% relative humidity, and 140 rpm. One‐milliliter vials of frozen 107 CHO cells were rapidly thawed in a 30°C water bath and then transferred to 75 cm2 T‐flasks containing 15 ml of serum‐free basal medium, BIOGRO CHO medium (Biogro Technologies Inc., Winnipeg, Canada) supplemented with 4 mM glutamine (Invitrogen). On Day 2 or when the cell viability was above 93%, cells were transferred to 125 mL shake flasks. Cells were then passaged to 2 × 105 cells/ml at least three times in the shake flasks before performing experiments. Preferably, new vials were thawed for each new experiment and inocula were not maintained for more than 40 days or 15 passages. CHO cells were seeded at 2 × 105 cells/ml for fed‐batch and 106 cells/ml for batch in 25 ml of the basal BIOGRO medium supplemented with glutamine. The higher seed cell concentration for the batch cultures was chosen to ensure detectable levels of antibody under cysteine limitation. To study the effects of three amino acid limitations, BIOGRO media were prepared lacking glutamine, asparagine, or cysteine. Mitochondrial damage was also investigated under batch conditions using rapamycin (Calbiochem, San Diego, CA) at 250 and 500 nM, and the antioxidant glutathione (Invitrogen) at 0.25 and 0.5 mM, prepared at 500 mM in 0.2 N HCl. For fed‐batch studies, cultures were fed on Days 3, 5, and 7 with either 500 μl of Feed A (CHO CD Efficient Feed™ A, Invitrogen) (2% of initial volume) or 250 μl (1% of initial volume) of cysteine (C) stock (10 mM in 0.1 N HCL) or 250 μl of asparagine (N) stock (100 mM in 0.1 N NaOH) or 250 μl of glutamine (Q) stock (200 mM, Invitrogen). In addition, feeds made up from combinations of the amino acids (1% initial volume) were also tested (Q+N, Q+C, C+N, and Q+C+N). Stock solutions of the amino acids were: 40 mM cysteine (Sigma) in 0.1 N HCl, 100 mM asparagine (Sigma) in 0.1 N NaOH, and 200 mM glutamine (Invitrogen). The glucose level was controlled by addition of a concentrated glucose solution (2.5 M) when the glucose concentration of the culture fell below 5 mM the glucose level was increased to 20 mM. The pH was increased to 7.4 by the addition of 7.5% w/v sodium bicarbonate (Invitrogen). Free amino acid measurement  High‐performance liquid chromatography (HPLC) was used to measure the free amino acid concentrations. In this method, the proteins of the supernatant were removed using Nanosep centrifugal ultra‐filters (Pall Life Sciences, Ann Arbor, MI) with a cutoff of 3 kDa (Pall Life Sciences, Ann Arbor, MI). Samples of culture supernatant were spun to remove cells and were tagged using AccQFluor reagent (Waters, Milford, MA) and run in HPLC using 3.9 × 150 mm 4 μm silica base bonded with C18 HPLC columns (Waters). The concentrations of amino acids were calculated from the areas under the peaks of the resolved amino acids compared to standards. The standards were prepared from a mixture of Amino Acid Standard H (Pierce Biotechnology, Rockford, IL) supplemented by glutamine, hydroxyproline, and tryptophan. Glycan analysis  Glycan analysis was performed to determine the effect of amino acid limitation on the product quality of the antibodies expressed by the CHO cells. The antibody glycans were released by incubating the antibodies in phosphate buffer with PNGaseF (Promega, Cat # V4831) at 37°C for 24 hr. The released glycans were filtered through a prewashed 10 kDa cutoff filter and dried under vacuum at room temperature. Glycans were labelled with 5 μl of 2‐aminobenzamide (2‐AB) labelling solution (0.4 mM 2‐AB and 1 mM NaBH3CN in 30% acetic acid/70% DMSO) by incubating at 65°C for 2 hr. Excess 2‐AB was removed using a GlycoClean™ S Cartridge (Prozyme, Cat # GKI‐4726) by normal phase extraction using manufacturer&apos;s protocol. The labelled glycans were analyzed by hydrophobic interaction chromatography mode with a Waters HPLC using Xbridge BEH Amide column (Waters Corporation, Cat # 186004870). Each peak was assigned a glucose unit value calculated using a dextran ladder standard. Structures corresponding to each peak were assigned by comparing their glucose unit values with reference to the Glycobase 3.2 database (glycobase.nibrt.ie, NIBRT, Dublin, Ireland). Glycosylation quality of the produced antibodies was determined according to the methods published in literature by calculating the area percentage determined during HPLC analysis, as follows: Antennarity Index=A0×0+A1×1+A2×2+A3×3+A4×4A0+A1+A2+A3+A4 Sialylation Index=S0×0+S1×1+S2×2S0+S1+S2 Galactosylation Index=G2+0.5×G1G2+G1+G0 Fucosylation Index=F0×0+F1×1F0+F1 Where A, S, F refer to N‐acetylglucosamine, sialic acid, and fucose, respectively with the corresponding number of attached molecules. LC3 autophagic flux assay  The effect of cysteine limitation on markers of autophagy was analyzed by the methods previously described by Jardon et al.  Samples were taken from batch cultures under amino acid limitations after 24 hr (the timing was selected to avoid other nutrient limitations). All cultures retained high viability (~93%) at this 24 hr time point. Cells were suspended in conditioned media at a concentration of 1.5 × 106 cell/ml and were incubated for 2 hr inside a humidified incubator in the presence or absence of the lysosomal inhibitor, bafilomycin (Sigma). The difference between the LC3II levels in the presence and absence of the lysosomal inhibitor indicates the autophagic flux. A concentration of 40 nM was previously shown to effectively inhibit lysosomal activity. After incubation, the cells were centrifuged and supernatant removed. The cell pellets were stored at −80°C. Raman spectroscopy  Raman spectroscopy was used to measure the cellular phospholipid levels under cysteine limitation relative to protein levels. The working hypothesis was that under cysteine limitation cells were not able to synthesize lipids due to a lack of CoA synthesis. For acquisition of Raman spectra, first cell samples were taken from batch cultures on Days 1, 2, and 3, centrifuged and the supernatant removed. Cells were then resuspended in PBS (0.9% w/v phosphate buffered saline, pH 7.4) to a concentration of 106 cells/ml. These cells were then pipetted onto glass‐encapsulated, gold‐coated mirrors (PF05‐03‐M01, ThorLabs Inc, Newton, NJ) and dry‐fixed under a gentle stream of clean, dry air. Raman spectra were acquired using a commercial InVia™ Raman microscope system (Renishaw, Gloucestershire, UK) with 80 mW of 785 nm laser excitation and a collection time of 30 s per spectrum. For each spectrum, the contribution from ~10 cells was collected. The 400 cm−1 to 1800 cm−1 spectral interval of each sample was analyzed using MATLAB™ software. The (averaged) background spectra collected from cell‐free regions of each mirror were subtracted from each of the culture spectra. Relative phospholipid levels were obtained by computing the ratio of intensities of the 718 cm−1 band (phospholipid C‐N+ symmetric stretching vibration) versus the 1,003 cm−1 protein band (symmetric ring breathing vibration of phenylalanine). The strong 1,003 cm−1 band serves as a general protein spectral marker that is relatively free of contributions from other cellular components and was used as a reference for aligning and normalizing all culture spectra. Cell count/viability  Dye exclusion method by 0.2% trypan blue (Invitrogen) was used for cell count and viability measurement using an automated cell count device (CEDEX, Roche Diagnostics, Laval PQ). For each count, 500 μl of cell culture sample was added to 500 μl of Trypsin–EDTA (to breakdown cell aggregates for a more accurate measurement) and incubated for 15 min at 37°C. This device uses an automated trypan blue dye exclusion method and digital imaging to count the cells. Monoclonal antibody measurement  The concentrations of antibodies produced by all three cell lines were measured using ELISA assays in maxisorb plates (ThermoFisher Scientific, Waltham, MA) according to previously described methods for CHO‐S (Sleiman, 2008), CHO‐K1SV, and CHO‐DXB11. Cell specific productivity was determined from the total MAb accumulated divided by the integral of viable cells (IVC). IVC was calculated using the following equation in which X is the viable cell concentration, V is the volume, and t is the time: IVC=∫0tXVdt.</p>
+      </sec>
+      <sec sec-type="conclusions"/>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <body><![CDATA[<component xmlns="http://www.wiley.com/namespaces/wiley" xmlns:wiley="http://www.wiley.com/namespaces/wiley/wiley" xml:id="btpr2946" version="2.0" xml:lang="en" type="serialArticle">
+<header>
+<publicationMeta level="product">
+<publisherInfo>
+<publisherName>John Wiley &amp;amp; Sons, Inc.</publisherName>
+<publisherLoc>Hoboken, USA</publisherLoc>
+</publisherInfo>
+<doi origin="wiley" registered="yes">10.1021/(ISSN)1520-6033</doi>
+<issn type="print">8756-7938</issn>
+<issn type="electronic">1520-6033</issn>
+<idGroup>
+<id type="product" value="BTPR"/>
+</idGroup>
+<titleGroup>
+<title type="main" sort="BIOTECHNOLOGY PROGRESS">Biotechnology Progress</title>
+<title type="short">Biotechnol Progress</title>
+</titleGroup>
+</publicationMeta>
+<publicationMeta level="part" position="20">
+<doi>10.1021/btpr.v36.2</doi>
+<copyright ownership="thirdParty">© 2020 American Institute of Chemical Engineers</copyright>
+<numberingGroup>
+<numbering type="journalVolume" number="36">36</numbering>
+<numbering type="journalIssue">2</numbering>
+</numberingGroup>
+<coverDate startDate="2020-03">March/April 2020</coverDate></publicationMeta>
+<publicationMeta level="unit" position="220" type="article" status="forIssue">
+<doi>10.1002/btpr.2946</doi>
+<idGroup>
+<id type="unit" value="BTPR2946"/>
+<id type="eLocator" value="e2946"/>
+</idGroup>
+<countGroup>
+<count type="pageTotal" number="12"/>
+</countGroup>
+<titleGroup>
+<title type="articleCategory">RESEARCH ARTICLE</title>
+<title type="tocHeading1">RESEARCH ARTICLES</title>
+<title type="tocHeading2">Cell Culture and Tissue Engineering</title>
+</titleGroup>
+<copyright ownership="thirdParty">© 2019 American Institute of Chemical Engineers</copyright>
+<eventGroup><event type="manuscriptReceived" date="2019-08-09"/><event type="manuscriptRevised" date="2019-11-20"/><event type="manuscriptAccepted" date="2019-12-02"/><event type="xmlCreated" agent="SPi Global" date="2019-12-10"/><event type="firstOnline" date="2019-12-19"/><event type="publishedOnlineAccepted" date="2019-12-10"/><event type="publishedOnlineEarlyUnpaginated" date="2019-12-19"/><event type="publishedOnlineFinalForm" date="2020-04-09"/><event type="xmlConverted" agent="Converter:WML3G_To_WML3G version:5.7.9 mode:FullText,remove_FC" date="2020-04-09"/></eventGroup>
+<numberingGroup>
+<numbering type="pageFirst">n/a</numbering>
+<numbering type="pageLast">n/a</numbering>
+</numberingGroup>
+<correspondenceTo>
+<lineatedText>
+<line><b>Correspondence</b></line>
+<line>James M. Piret, 207‐2185 East Mall, Vancouver, British Columbia, Canada V6T1Z4.</line>
+<line>Email: <email>james.piret@ubc.ca</email></line>
+</lineatedText>
+</correspondenceTo>
+<selfCitationGroup><citation type="self" xml:id="btpr2946-cit-9001"><author><familyName>Ghaffari</familyName> <givenNames>N</givenNames></author>, <author><familyName>Jardon</familyName> <givenNames>MA</givenNames></author>, <author><familyName>Krahn</familyName> <givenNames>N</givenNames></author>, et al. <articleTitle>Effects of cysteine, asparagine, or glutamine limitations in Chinese hamster ovary cell batch and fed‐batch cultures</articleTitle>. <journalTitle>Biotechnol Progress</journalTitle>. <pubYear year="2020">2020</pubYear>;<vol>36</vol>:<eLocator>e2946</eLocator>. <url href="https://doi.org/10.1002/btpr.2946">https://doi.org/10.1002/btpr.2946</url></citation></selfCitationGroup>
+
+</publicationMeta>
+<contentMeta>
+<countGroup>
+<count type="figureTotal" number="10"/>
+<count type="tableTotal" number="1"/>
+<count type="wordTotal" number="6882"/>
+</countGroup>
+<titleGroup>
+<title type="main">Effects of cysteine, asparagine, or glutamine limitations in Chinese hamster ovary cell batch and fed‐batch cultures</title>
+<title type="shortAuthors">Ghaffari et al.</title>
+</titleGroup>
+<creators>
+<creator creatorRole="author" xml:id="btpr2946-cr-0001" affiliationRef="#btpr2946-aff-0001 #btpr2946-aff-0002">
+<personName>
+<givenNames>Navid</givenNames> <familyName>Ghaffari</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0002" affiliationRef="#btpr2946-aff-0003">
+<personName>
+<givenNames>Mario A.</givenNames> <familyName>Jardon</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0003" affiliationRef="#btpr2946-aff-0004">
+<personName>
+<givenNames>Natalie</givenNames> <familyName>Krahn</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0004" affiliationRef="#btpr2946-aff-0004 #btpr2946-aff-0005">
+<personName>
+<givenNames>Michael</givenNames> <familyName>Butler</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0005" affiliationRef="#btpr2946-aff-0001">
+<idGroup>
+<id type="orcid" value="https://orcid.org/0000-0002-9233-706X"/>
+</idGroup>
+<personName>
+<givenNames>Malcolm</givenNames> <familyName>Kennard</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0006" affiliationRef="#btpr2946-aff-0001 #btpr2946-aff-0006 #btpr2946-aff-0007">
+<personName>
+<givenNames>Robin F. B.</givenNames> <familyName>Turner</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0007" affiliationRef="#btpr2946-aff-0002">
+<personName>
+<givenNames>Bhushan</givenNames> <familyName>Gopaluni</familyName>
+</personName>
+</creator>
+<creator creatorRole="author" xml:id="btpr2946-cr-0008" affiliationRef="#btpr2946-aff-0001 #btpr2946-aff-0002" corresponding="yes">
+<idGroup>
+<id type="orcid" value="https://orcid.org/0000-0001-7934-9675"/>
+</idGroup>
+<personName>
+<givenNames>James M.</givenNames> <familyName>Piret</familyName>
+</personName>
+<contactDetails><email>james.piret@ubc.ca</email></contactDetails>
+</creator>
+</creators>
+<affiliationGroup>
+<affiliation xml:id="btpr2946-aff-0001" type="organization" countryCode="CA">
+<orgDiv>Michael Smith Laboratories</orgDiv>
+<orgName>The University of British Columbia</orgName>
+<address>
+<city>Vancouver</city>
+<countryPart>British Columbia</countryPart>
+<country>Canada</country>
+</address>
+</affiliation>
+<affiliation xml:id="btpr2946-aff-0002" type="organization" countryCode="CA">
+<orgDiv>Department of Chemical and Biological Engineering</orgDiv>
+<orgName>The University of British Columbia</orgName>
+<address>
+<city>Vancouver</city>
+<countryPart>British Columbia</countryPart>
+<country>Canada</country>
+</address>
+</affiliation>
+<affiliation xml:id="btpr2946-aff-0003" type="organization" countryCode="CA">
+<orgDiv>Michael Smith Genome Sciences Centre</orgDiv>
+<orgName>BC Cancer Research Centre</orgName>
+<address>
+<city>Vancouver</city>
+<countryPart>British Columbia</countryPart>
+<country>Canada</country>
+</address>
+</affiliation>
+<affiliation xml:id="btpr2946-aff-0004" type="organization" countryCode="CA">
+<orgDiv>Department of Microbiology</orgDiv>
+<orgName>University of Manitoba</orgName>
+<address>
+<city>Winnipeg</city>
+<countryPart>Manitoba</countryPart>
+<country>Canada</country>
+</address>
+</affiliation>
+<affiliation xml:id="btpr2946-aff-0005" type="organization" countryCode="IE">
+<orgDiv>National Institute for Bioprocessing Research and Training</orgDiv>
+<address>
+<city>Dublin</city>
+<country>Ireland</country>
+</address>
+</affiliation>
+<affiliation xml:id="btpr2946-aff-0006" type="organization" countryCode="CA">
+<orgDiv>Department of Electrical and Computer Engineering</orgDiv>
+<orgName>The University of British Columbia</orgName>
+<address>
+<city>Vancouver</city>
+<countryPart>British Columbia</countryPart>
+<country>Canada</country>
+</address>
+</affiliation>
+<affiliation xml:id="btpr2946-aff-0007" type="organization" countryCode="CA">
+<orgDiv>Department of Chemistry</orgDiv>
+<orgName>The University of British Columbia</orgName>
+<address>
+<city>Vancouver</city>
+<countryPart>British Columbia</countryPart>
+<country>Canada</country>
+</address>
+</affiliation>
+</affiliationGroup>
+<keywordGroup type="author">
+<keyword xml:id="btpr2946-kwd-0001">amino acid</keyword>
+<keyword xml:id="btpr2946-kwd-0002">Chinese hamster ovary cells</keyword>
+<keyword xml:id="btpr2946-kwd-0003">fed‐batch</keyword>
+<keyword xml:id="btpr2946-kwd-0004">monoclonal antibody</keyword>
+</keywordGroup>
+<fundingInfo>
+<fundingAgency fundRefName="Natural Sciences and Engineering Research Council of Canada" funderDoi="10.13039/501100000038">NSERC</fundingAgency>
+</fundingInfo>
+<fundingInfo>
+<fundingAgency>NSERC MabNet</fundingAgency>
+</fundingInfo>
+<abstractGroup>
+<abstract type="main" xml:lang="en">
+<title type="main">Abstract</title>
+<p>Amino acid availability is a key factor that can be controlled to optimize the productivity of fed‐batch cultures. To study amino acid limitation effects, a serum‐free chemically defined basal medium was formulated to exclude the amino acids that became depleted in batch culture. The effect of limiting glutamine, asparagine, and cysteine on the cell growth, metabolism, antibody productivity, and product glycosylation was investigated in three Chinese hamster ovary (CHO) cell lines (CHO‐DXB11, CHO‐K1SV, and CHO‐S). Cysteine limitation was detrimental to both cell proliferation and productivity for all three CHO cell lines. Glutamine limitation reduced growth but not cell specific productivity, whereas asparagine limitation had no significant effect on either growth or cell specific productivity. Neither glutamine nor asparagine limitation significantly affected antibody glycosylation. Replenishing the CHO‐DXB11 culture with cysteine after 1 day of cysteine limitation allowed the cells to partially recover their growth and productivity. This recovery was not observed after 2 days of cysteine limitation. Based on these findings, a fed‐batch protocol was developed using single or mixed amino acid supplementation. Although cell density and antibody concentration were lower compared to a commercial feed, the feeds based on cysteine supplementation yielded comparable cell specific productivity. Overall, this study showed that different amino acid limitations have varied effects on the performance of CHO cell cultures and that maintaining cysteine availability is a critical process parameter for the three cell lines investigated.</p>
+</abstract>
+</abstractGroup>
+</contentMeta>
+<noteGroup xml:id="btpr2946-ntgp-0001">
+<note numbered="no" xml:id="btpr2946-note-0001"><b>Peer Review</b> The peer review history for this article is available at <url href="https://publons.com/publon/10.1002/btpr.2946">https://publons.com/publon/10.1002/btpr.2946</url>.</note>
+<note xml:id="btpr2946-note-1002" numbered="no">
+<p><b>Funding information</b> NSERC; NSERC MabNet</p>
+</note>
+</noteGroup>
+</header>
+<body xml:id="btpr2946-body-0001" sectionsNumbered="yes">
+<section xml:id="btpr2946-sec-0001">
+<title type="main">INTRODUCTION</title>
+<p>Fed‐batch processes are commonly used to produce recombinant proteins such as monoclonal antibodies (MAb) from Chinese hamster ovary (CHO) cells. In a fed‐batch process, nutrients are added to avoid limitations so as to maintain the proliferation and productivity of the cells. The development of improved fed‐batch processes, in order to reduce therapeutic protein production costs, is an important focus of the pharmaceutical industry. To most effectively achieve such a goal, it is best to have a thorough understanding of cell physiology and metabolism as well as to identify critical process parameters that affect product quality and yield.</p>
+<p>The common practice in developing feed strategies for cultures has been based on identifying the nutrients that are depleted during culture and to simply supplement those nutrients to avoid their limitation.<link href="#btpr2946-bib-0001 #btpr2946-bib-0002 #btpr2946-bib-0003"/> However, understanding the metabolism of individual nutrients could provide a more objective approach to experimental design and process optimization. Although amino acids are important nutrients, essential for many biological functions of cells and complex organisms, there are relatively few publications on the effects of individual amino acid levels on the performance of CHO cell cultures.<link href="#btpr2946-bib-0004 #btpr2946-bib-0005 #btpr2946-bib-0006"/> In some cases, it has been noted that replacement of depleted amino acids has not led to process improvements.<link href="#btpr2946-bib-0006"/> In the present study, the amino acids glutamine, asparagine, and cysteine (that were first depleted in batch culture) were selected to investigate the effects of their limitation on the productivity and product glycosylation of three MAb expressing CHO cell lines in batch and fed‐batch cultures.</p>
+<p>Glutamine is the most abundant free amino acid in human blood and classified as an essential amino acid for cells in culture by Eagle,<link href="#btpr2946-bib-0007"/> though he noted that HeLa cells could grow without glutamine if high levels of glutamate are present. Glutamine can be synthesized by the condensation of glutamate and ammonia by the glutamine synthetase (GS) enzyme. Glutamine has a key role in the storage and transport of nitrogen. Compared to glutamate, glutamine has a greater cell membrane transport rate and can act as a source of ammonia for many reactions without exposure to the toxicity of free ammonia.<link href="#btpr2946-bib-0008"/> Glutamine plays a significant role in CHO cell metabolism, in particular through its conversion to glutamate and then α‐ketoglutarate, thus an anaplerotic pathway that provides a TCA cycle intermediate.<link href="#btpr2946-bib-0009"/> In addition, glutamine is important for the metabolism of other amino acids, the formation of γ‐aminobutyrate, the reactions of the γ‐glutamyl cycle, the utilization of ammonia, as well as the synthesis of glutamate and carbamyl phosphate.</p>
+<p>Asparagine contributes to nitrogen homeostasis as well as an anaplerotic pathway to the TCA cycle when it is converted to aspartate and then oxaloacetate.<link href="#btpr2946-bib-0010"/> It was not classified as essential by Eagle<link href="#btpr2946-bib-0007"/> and in mammalian cells, asparagine can be synthesized through pyrophosphorolytic cleavage of ATP with either NH<sub>4</sub><sup>+</sup> or glutamine as the amide donor.<link href="#btpr2946-bib-0011"/> L‐asparaginyl‐tRNA regulates the synthesis of asparagine in CHO cells. It is also understood that under asparagine limited conditions cells can synthesize asparagine from aspartate and glutamine.<link href="#btpr2946-bib-0012"/></p>
+<p>Cysteine is considered by some as a semi‐essential amino acid as it can be synthesized in the normal human body but may be considered essential for infants or elderly.<link href="#btpr2946-bib-0007"/> Cysteine and methionine are both sulfur containing amino acids but, cysteine is the only thiol containing amino acid. Thiols have important biological functions in reduction/oxidation (redox) reactions. Oxidation of cysteine results in formation of cystine that is essentially a dimer of cysteine that is, two cysteine molecules joined by a disulfide bond. Disulfide bonds are important for the structure of many proteins. The reverse reaction involves the reduction of cystine and regeneration of two cysteine molecules. In mammals, the cysteine concentration is tightly controlled by the liver that converts excess cysteine to glutathione, a reservoir for cysteine<link href="#btpr2946-bib-0013"/> with cysteine uptake considered the rate limiting step in the synthesis of glutathione.<link href="#btpr2946-bib-0014"/> Cysteine is also an essential precursor for co‐enzyme A (CoA), which plays many roles in cell metabolism including lipogenesis.<link href="#btpr2946-bib-0013"/></p>
+<p>In order to study the effect of limiting and supplementing individual amino acids on batch and fed‐batch cultures for three antibody expressing CHO cell lines (CHO‐DXB11, CHO‐K1SV, and CHO‐S), a serum‐free chemically defined basal medium called BIOGRO was used where specific amino acids (glutamine, asparagine, and cysteine) could be added or deleted. The metabolism of these specific amino acids and the effects of their limitation on CHO cell cultures were further investigated. Finally, these findings were used to develop feed protocols to improve a CHO fed‐batch culture using only specific amino acid supplementation.</p>
+</section>
+<section xml:id="btpr2946-sec-0002">
+<title type="main">MATERIALS AND METHODS</title>
+<section xml:id="btpr2946-sec-0003">
+<title type="main">Cell lines</title>
+<p>Three CHO cell lines were used in this study. CHO EG2 1A7 referred to as CHO‐DXB11, from National Research Council of Canada, derived from the CHO‐DXB11 cell line that produces EG2‐hFc.<link href="#btpr2946-bib-0015"/> EG2‐hFc is a chimeric heavy chain antibody constructed by fusing a camelid heavy chain antibody or single domain antibody to the Fc portion of a human IgG1.<link href="#btpr2946-bib-0016"/> EG2 was generated from a variant of EGFR. ChK2 437.89.56 referred to as CHO‐K1SV, from Pfizer Inc., derived from Lonza's CHO‐K1SV cell line producing human monoclonal anti‐interleukin 1 β IgG1 antibody.<link href="#btpr2946-bib-0017"/> The CHO‐S cell line producing a human IgG1 was from Australian Institute for Bioengineering and Nanotechnology.<link href="#btpr2946-bib-0018"/></p>
+</section>
+<section xml:id="btpr2946-sec-0004">
+<title type="main">Cell culture</title>
+<p>All cells were incubated in 125 ml shake flasks (Corning, Corning, NY) in a humidified incubator (Kuhner, Basel, Switzerland) at 37°C, 5% CO<sub>2</sub>, 85% relative humidity, and 140 rpm. One‐milliliter vials of frozen 10<sup>7</sup> CHO cells were rapidly thawed in a 30°C water bath and then transferred to 75 cm<sup>2</sup> T‐flasks containing 15 ml of serum‐free basal medium, BIOGRO CHO medium (Biogro Technologies Inc., Winnipeg, Canada) supplemented with 4 mM glutamine (Invitrogen). On Day 2 or when the cell viability was above 93%, cells were transferred to 125 mL shake flasks. Cells were then passaged to 2 × 10<sup>5</sup> cells/ml at least three times in the shake flasks before performing experiments. Preferably, new vials were thawed for each new experiment and inocula were not maintained for more than 40 days or 15 passages.</p>
+<p>CHO cells were seeded at 2 × 10<sup>5</sup> cells/ml for fed‐batch and 10<sup>6</sup> cells/ml for batch in 25 ml of the basal BIOGRO medium supplemented with glutamine. The higher seed cell concentration for the batch cultures was chosen to ensure detectable levels of antibody under cysteine limitation. To study the effects of three amino acid limitations, BIOGRO media were prepared lacking glutamine, asparagine, or cysteine. Mitochondrial damage was also investigated under batch conditions using rapamycin (Calbiochem, San Diego, CA) at 250 and 500 nM, and the antioxidant glutathione (Invitrogen) at 0.25 and 0.5 mM, prepared at 500 mM in 0.2 N HCl.</p>
+<p>For fed‐batch studies, cultures were fed on Days 3, 5, and 7 with either 500 μl of Feed A (CHO CD Efficient Feed™ A, Invitrogen) (2% of initial volume) or 250 μl (1% of initial volume) of cysteine (C) stock (10 mM in 0.1 N HCL) or 250 μl of asparagine (N) stock (100 mM in 0.1 N NaOH) or 250 μl of glutamine (Q) stock (200 mM, Invitrogen). In addition, feeds made up from combinations of the amino acids (1% initial volume) were also tested (Q+N, Q+C, C+N, and Q+C+N). Stock solutions of the amino acids were: 40 mM cysteine (Sigma) in 0.1 N HCl, 100 mM asparagine (Sigma) in 0.1 N NaOH, and 200 mM glutamine (Invitrogen). The glucose level was controlled by addition of a concentrated glucose solution (2.5 M) when the glucose concentration of the culture fell below 5 mM the glucose level was increased to 20 mM. The pH was increased to 7.4 by the addition of 7.5% w/v sodium bicarbonate (Invitrogen).</p>
+</section>
+<section xml:id="btpr2946-sec-0005">
+<title type="main">Free amino acid measurement</title>
+<p>High‐performance liquid chromatography (HPLC) was used to measure the free amino acid concentrations. In this method, the proteins of the supernatant were removed using Nanosep centrifugal ultra‐filters (Pall Life Sciences, Ann Arbor, MI) with a cutoff of 3 kDa (Pall Life Sciences, Ann Arbor, MI). Samples of culture supernatant were spun to remove cells and were tagged using AccQFluor reagent (Waters, Milford, MA) and run in HPLC using 3.9 × 150 mm 4 μm silica base bonded with C18 HPLC columns (Waters). The concentrations of amino acids were calculated from the areas under the peaks of the resolved amino acids compared to standards. The standards were prepared from a mixture of Amino Acid Standard H (Pierce Biotechnology, Rockford, IL) supplemented by glutamine, hydroxyproline, and tryptophan.</p>
+</section>
+<section xml:id="btpr2946-sec-0006">
+<title type="main">Glycan analysis</title>
+<p>Glycan analysis was performed to determine the effect of amino acid limitation on the product quality of the antibodies expressed by the CHO cells. The antibody glycans were released by incubating the antibodies in phosphate buffer with PNGaseF (Promega, Cat # V4831) at 37°C for 24 hr. The released glycans were filtered through a prewashed 10 kDa cutoff filter and dried under vacuum at room temperature. Glycans were labelled with 5 μl of 2‐aminobenzamide (2‐AB) labelling solution (0.4 mM 2‐AB and 1 mM NaBH<sub>3</sub>CN in 30% acetic acid/70% DMSO) by incubating at 65°C for 2 hr. Excess 2‐AB was removed using a GlycoClean™ S Cartridge (Prozyme, Cat # GKI‐4726) by normal phase extraction using manufacturer's protocol. The labelled glycans were analyzed by hydrophobic interaction chromatography mode with a Waters HPLC using Xbridge BEH Amide column (Waters Corporation, Cat # 186004870). Each peak was assigned a glucose unit value calculated using a dextran ladder standard. Structures corresponding to each peak were assigned by comparing their glucose unit values with reference to the Glycobase 3.2 database (<url href="http://glycobase.nibrt.ie">glycobase.nibrt.ie</url>, NIBRT, Dublin, Ireland). Glycosylation quality of the produced antibodies was determined according to the methods published in literature<link href="#btpr2946-bib-0019 #btpr2946-bib-0020"/> by calculating the area percentage determined during HPLC analysis, as follows:<displayedItem type="mathematics" xml:id="btpr2946-disp-0001" numbered="no">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr2946:btpr2946-math-0001" wiley:location="equation/btpr2946-math-0001.png"><mtext>Antennarity Index</mtext><mo>=</mo><mfrac><mrow><mfenced open="(" close=")"><mrow><mi mathvariant="normal">A</mi><mn>0</mn><mo>×</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">A</mi><mn>1</mn><mo>×</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">A</mi><mn>2</mn><mo>×</mo><mn>2</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">A</mi><mn>3</mn><mo>×</mo><mn>3</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">A</mi><mn>4</mn><mo>×</mo><mn>4</mn></mrow></mfenced></mrow><mrow><mi mathvariant="normal">A</mi><mn>0</mn><mo>+</mo><mi mathvariant="normal">A</mi><mn>1</mn><mo>+</mo><mi mathvariant="normal">A</mi><mn>2</mn><mo>+</mo><mi mathvariant="normal">A</mi><mn>3</mn><mo>+</mo><mi mathvariant="normal">A</mi><mn>4</mn></mrow></mfrac></math>
+</displayedItem>
+<displayedItem type="mathematics" xml:id="btpr2946-disp-0002" numbered="no">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr2946:btpr2946-math-0002" wiley:location="equation/btpr2946-math-0002.png"><mtext>Sialylation Index</mtext><mo>=</mo><mfrac><mrow><mfenced open="(" close=")"><mrow><mi mathvariant="normal">S</mi><mn>0</mn><mo>×</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">S</mi><mn>1</mn><mo>×</mo><mn>1</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">S</mi><mn>2</mn><mo>×</mo><mn>2</mn></mrow></mfenced></mrow><mrow><mi mathvariant="normal">S</mi><mn>0</mn><mo>+</mo><mi mathvariant="normal">S</mi><mn>1</mn><mo>+</mo><mi mathvariant="normal">S</mi><mn>2</mn></mrow></mfrac></math>
+</displayedItem>
+<displayedItem type="mathematics" xml:id="btpr2946-disp-0003" numbered="no">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr2946:btpr2946-math-0003" wiley:location="equation/btpr2946-math-0003.png"><mtext>Galactosylation Index</mtext><mo>=</mo><mfrac><mfenced open="(" close=")"><mrow><mi mathvariant="normal">G</mi><mn>2</mn><mo>+</mo><mn>0.5</mn><mo>×</mo><mi mathvariant="normal">G</mi><mn>1</mn></mrow></mfenced><mrow><mi mathvariant="normal">G</mi><mn>2</mn><mo>+</mo><mi mathvariant="normal">G</mi><mn>1</mn><mo>+</mo><mi mathvariant="normal">G</mi><mn>0</mn></mrow></mfrac></math>
+</displayedItem>
+<displayedItem type="mathematics" xml:id="btpr2946-disp-0004" numbered="no">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr2946:btpr2946-math-0004" wiley:location="equation/btpr2946-math-0004.png"><mtext>Fucosylation Index</mtext><mo>=</mo><mfrac><mrow><mfenced open="(" close=")"><mrow><mi mathvariant="normal">F</mi><mn>0</mn><mo>×</mo><mn>0</mn></mrow></mfenced><mo>+</mo><mfenced open="(" close=")"><mrow><mi mathvariant="normal">F</mi><mn>1</mn><mo>×</mo><mn>1</mn></mrow></mfenced></mrow><mrow><mi mathvariant="normal">F</mi><mn>0</mn><mo>+</mo><mi mathvariant="normal">F</mi><mn>1</mn></mrow></mfrac></math>
+</displayedItem></p>
+<p>Where A, S, F refer to N‐acetylglucosamine, sialic acid, and fucose, respectively with the corresponding number of attached molecules.</p>
+</section>
+<section xml:id="btpr2946-sec-0007">
+<title type="main">LC3 autophagic flux assay</title>
+<p>The effect of cysteine limitation on markers of autophagy was analyzed by the methods previously described by Jardon et al. <link href="#btpr2946-bib-0004"/> Samples were taken from batch cultures under amino acid limitations after 24 hr (the timing was selected to avoid other nutrient limitations). All cultures retained high viability (~93%) at this 24 hr time point. Cells were suspended in conditioned media at a concentration of 1.5 × 10<sup>6</sup> cell/ml and were incubated for 2 hr inside a humidified incubator in the presence or absence of the lysosomal inhibitor, bafilomycin (Sigma). The difference between the LC3II levels in the presence and absence of the lysosomal inhibitor indicates the autophagic flux. A concentration of 40 nM was previously shown to effectively inhibit lysosomal activity. After incubation, the cells were centrifuged and supernatant removed. The cell pellets were stored at −80°C.</p>
+</section>
+<section xml:id="btpr2946-sec-0008">
+<title type="main">Raman spectroscopy</title>
+<p>Raman spectroscopy was used to measure the cellular phospholipid levels under cysteine limitation relative to protein levels. The working hypothesis was that under cysteine limitation cells were not able to synthesize lipids due to a lack of CoA synthesis. For acquisition of Raman spectra, first cell samples were taken from batch cultures on Days 1, 2, and 3, centrifuged and the supernatant removed. Cells were then resuspended in PBS (0.9% w/v phosphate buffered saline, pH 7.4) to a concentration of 10<sup>6</sup> cells/ml. These cells were then pipetted onto glass‐encapsulated, gold‐coated mirrors (PF05‐03‐M01, ThorLabs Inc, Newton, NJ) and dry‐fixed under a gentle stream of clean, dry air. Raman spectra were acquired using a commercial InVia™ Raman microscope system (Renishaw, Gloucestershire, UK) with 80 mW of 785 nm laser excitation and a collection time of 30 s per spectrum. For each spectrum, the contribution from ~10 cells was collected. The 400 cm<sup>−1</sup> to 1800 cm<sup>−1</sup> spectral interval of each sample was analyzed using MATLAB™ software. The (averaged) background spectra collected from cell‐free regions of each mirror were subtracted from each of the culture spectra. Relative phospholipid levels were obtained by computing the ratio of intensities of the 718 cm<sup>−1</sup> band (phospholipid C‐N+ symmetric stretching vibration) versus the 1,003 cm<sup>−1</sup> protein band (symmetric ring breathing vibration of phenylalanine). The strong 1,003 cm<sup>−1</sup> band serves as a general protein spectral marker that is relatively free of contributions from other cellular components and was used as a reference for aligning and normalizing all culture spectra.</p>
+</section>
+<section xml:id="btpr2946-sec-0009">
+<title type="main">Cell count/viability</title>
+<p>Dye exclusion method by 0.2% trypan blue (Invitrogen) was used for cell count and viability measurement using an automated cell count device (CEDEX, Roche Diagnostics, Laval PQ). For each count, 500 μl of cell culture sample was added to 500 μl of Trypsin–EDTA (to breakdown cell aggregates for a more accurate measurement) and incubated for 15 min at 37°C. This device uses an automated trypan blue dye exclusion method and digital imaging to count the cells.</p>
+</section>
+<section xml:id="btpr2946-sec-0010">
+<title type="main">Monoclonal antibody measurement</title>
+<p>The concentrations of antibodies produced by all three cell lines were measured using ELISA assays in maxisorb plates (ThermoFisher Scientific, Waltham, MA) according to previously described methods for CHO‐S (Sleiman, 2008), CHO‐K1SV, and CHO‐DXB11.<link href="#btpr2946-bib-0018"/> Cell specific productivity was determined from the total MAb accumulated divided by the integral of viable cells (IVC). IVC was calculated using the following equation in which X is the viable cell concentration, V is the volume, and t is the time: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" overflow="scroll" altimg="urn:x-wiley:87567938:media:btpr2946:btpr2946-math-0005" wiley:location="equation/btpr2946-math-0005.png"><mi>IVC</mi><mo>=</mo><msubsup><mo>∫</mo><mn>0</mn><mi>t</mi></msubsup><mtext mathvariant="italic">XVdt</mtext></math>.</p>
+</section>
+</section>
+<section xml:id="btpr2946-sec-0011">
+<title type="main">RESULTS</title>
+<section xml:id="btpr2946-sec-0012">
+<title type="main">Batch studies on CHO cell cultures</title>
+<p>Amino acids frequently become depleted in batch and fed‐batch CHO cell culture.<link href="#btpr2946-bib-0014"/> In this study, initial amino acid analysis of a batch culture of CHO‐DXB11 cells revealed that three amino acids: glutamine, cysteine, and asparagine were depleted to below detection limits by Day 5 (Figure <link href="#btpr2946-fig-0001"/>). Thus, glutamine, cysteine, and asparagine were selected to further investigate the CHO cell response to these specific amino acid limitations and to determine whether they should all be considered critical process parameters. Compared to control cultures, media without cysteine or glutamine reduced the cell growth of the three cell lines in a similar manner (Figure <link href="#btpr2946-fig-0002"/>a–c) with the cysteine deletion from the medium having the greatest effect on inhibiting cell growth. Despite having been depleted at a high rate in the batch culture (Figure <link href="#btpr2946-fig-0001"/>), medium without asparagine had no effect on cell growth, although deleting both asparagine and glutamine resulted a greater than 90% reduction in cell growth, similar to that of cysteine limitation. Interestingly, for CHO‐K1SV and CHO‐S cells (Figure <link href="#btpr2946-fig-0002"/>b,c), asparagine limitation increased the maximum measured cell concentration by over 15%. It is possible that asparagine limitation had relatively little effect on the cultures as asparagine could be synthesized from either glutamine or aspartate.</p>
+<figure xml:id="btpr2946-fig-0001">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0001"/>
+
+
+
+</mediaResourceGroup>
+<caption>An example of amino acid profiles for CHO‐DXB11 batch culture (normalized to initial amino acid concentration versus time)</caption>
+</figure>
+<figure xml:id="btpr2946-fig-0002">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0002"/>
+
+
+
+</mediaResourceGroup>
+<caption>Growth profiles of CHO‐DXB11 (a), CHO‐K1SV (b), and CHO‐S (c) cells under glutamine, cysteine, or asparagine limitation. Error bars represent SEM; <i>n</i> = 2</caption>
+</figure>
+<p>Figure <link href="#btpr2946-fig-0003"/> shows the normalized final MAb concentration and cell specific productivity of three CHO cells lines. The data are normalized to control culture MAb production to show the relative effect of deleting specific amino acids. Overall, these results show the vital role of cysteine for maintaining CHO cell productivity. Similar to cell growth (Figure <link href="#btpr2946-fig-0002"/>), the productivity in all three CHO cells lines was significantly reduced when cysteine was deleted from the medium (over 90% reduction in the final MAb concentration and over 80% reduction in cell specific productivity). Glutamine deletion resulted in an approximately 40% reduction in the final MAb concentration for all cell lines and a more than 30% reduction in cell specific productivity for CHO‐S cells. Similar to its effect on cell growth, asparagine deletion had no effect on the final MAb concentrations for all of the cell lines. However, the asparagine limitation resulted in a ~20% reduction in the cell specific productivity of both CHOK1SV and CHO‐S cell lines, possibly associated with the ~15% increase in cell concentration. Finally, combining asparagine and glutamine limitation resulted for all cell lines in a decreased final MAb concentration by ~70% and cell specific productivity by ~50%.</p>
+<figure xml:id="btpr2946-fig-0003">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0003"/>
+
+
+
+</mediaResourceGroup>
+<caption>Final MAb concentrations and cell specific productivities of CHO‐DXB11, CHO‐K1SV, and CHO‐S cell lines under glutamine, cysteine, asparagine or glutamine and asparagine limitation. Error bars represent SEM; <i>n</i> = 2. (Data normalized to a control culture with no amino acid limitation)</caption>
+</figure>
+</section>
+<section xml:id="btpr2946-sec-0013">
+<title type="main">The effect of amino acid limitation on product quality</title>
+<p>Table <link href="#btpr2946-tbl-0001"/> shows the HPLC glycan profiles of the antibodies purified from samples obtained at the end of the three CHO cell batch cultures. For the CHO‐DXB11 cell line, under all of the limiting conditions, no substantial differences were observed in the glycosylation profiles of the expressed EG2‐hFc antibody. In addition, there were only minor differences for most of the glycan profiles of the IgG1 produced by either the CHO‐K1SV cells or the CHO‐S cells. For the CHO‐K1SV cells under cysteine limitation there was a reduction in the fucosylated glycans by 16% and a reduction in the antennarity index by 15%. For the CHO‐S cells under cysteine limitation there was a reduction in the fucosylated glycans by 12% and in the antennarity index by 16%. The glutamine limitation had a similar impact compared to the control culture only for the CHO‐S cells, with a reduction in the fucosylated glycans by 9% and in the antennarity index by 16%.</p>
+<tabular xml:id="btpr2946-tbl-0001">
+<title type="main">Analysis of glycans released from monoclonal antibodies produced by the CHO‐DXB11, CHO‐KS1V, or CHO‐S cells</title>
+<table rowsep="0" colsep="0" pgwide="1" frame="topbot">
+<tgroup cols="7">
+<colspec align="left" colname="col1" colnum="1"/>
+<colspec align="left" colname="col2" colnum="2"/>
+<colspec align="left" colname="col3" colnum="3"/>
+<colspec align="left" colname="col4" colnum="4"/>
+<colspec align="left" colname="col5" colnum="5"/>
+<colspec align="left" colname="col6" colnum="6"/>
+<colspec align="left" colname="col7" colnum="7"/>
+<thead valign="bottom">
+<row rowsep="1">
+<entry colname="col1"/>
+<entry colname="col2"/>
+<entry colname="col3">Control</entry>
+<entry colname="col4">Gln(−)</entry>
+<entry colname="col5">Cys(−)</entry>
+<entry colname="col6">Asn(−)</entry>
+<entry colname="col7">Gln(−) Asn(−)</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry morerows="3" colname="col1">CHO‐DXB11</entry>
+<entry colname="col2">Fucosylation index</entry>
+<entry colname="col3">0.89</entry>
+<entry colname="col4">0.85</entry>
+<entry colname="col5">0.87</entry>
+<entry colname="col6">0.92</entry>
+<entry colname="col7">0.88</entry>
+</row>
+<row>
+<entry colname="col2">Sialylation index</entry>
+<entry colname="col3">0.1</entry>
+<entry colname="col4">0.11</entry>
+<entry colname="col5">0.08</entry>
+<entry colname="col6">0.08</entry>
+<entry colname="col7">0.13</entry>
+</row>
+<row>
+<entry colname="col2">Galactosylation index</entry>
+<entry colname="col3">0.58</entry>
+<entry colname="col4">0.6</entry>
+<entry colname="col5">0.64</entry>
+<entry colname="col6">0.62</entry>
+<entry colname="col7">0.65</entry>
+</row>
+<row>
+<entry colname="col2">Antennarity index</entry>
+<entry colname="col3">0.95</entry>
+<entry colname="col4">0.94</entry>
+<entry colname="col5">0.95</entry>
+<entry colname="col6">0.97</entry>
+<entry colname="col7">0.92</entry>
+</row>
+<row>
+<entry morerows="3" colname="col1">CHO‐K1SV</entry>
+<entry colname="col2">Fucosylation index</entry>
+<entry colname="col3">0.91</entry>
+<entry colname="col4">0.91</entry>
+<entry colname="col5">0.75</entry>
+<entry colname="col6">0.9</entry>
+<entry colname="col7">0.91</entry>
+</row>
+<row>
+<entry colname="col2">Sialylation index</entry>
+<entry colname="col3">0.01</entry>
+<entry colname="col4">0.02</entry>
+<entry colname="col5">0.03</entry>
+<entry colname="col6">0.02</entry>
+<entry colname="col7">0.02</entry>
+</row>
+<row>
+<entry colname="col2">Galactosylation index</entry>
+<entry colname="col3">0.35</entry>
+<entry colname="col4">0.35</entry>
+<entry colname="col5">0.32</entry>
+<entry colname="col6">0.32</entry>
+<entry colname="col7">0.38</entry>
+</row>
+<row>
+<entry colname="col2">Antennarity index</entry>
+<entry colname="col3">0.96</entry>
+<entry colname="col4">0.97</entry>
+<entry colname="col5">0.81</entry>
+<entry colname="col6">0.94</entry>
+<entry colname="col7">0.95</entry>
+</row>
+<row>
+<entry morerows="3" colname="col1">CHO‐S</entry>
+<entry colname="col2">Fucosylation index</entry>
+<entry colname="col3">0.85</entry>
+<entry colname="col4">0.76</entry>
+<entry colname="col5">0.73</entry>
+<entry colname="col6">0.85</entry>
+<entry colname="col7">0.85</entry>
+</row>
+<row>
+<entry colname="col2">Sialylation index</entry>
+<entry colname="col3">0.03</entry>
+<entry colname="col4">0.04</entry>
+<entry colname="col5">0.05</entry>
+<entry colname="col6">0.04</entry>
+<entry colname="col7">0.05</entry>
+</row>
+<row>
+<entry colname="col2">Galactosylation index</entry>
+<entry colname="col3">0.35</entry>
+<entry colname="col4">0.38</entry>
+<entry colname="col5">0.34</entry>
+<entry colname="col6">0.38</entry>
+<entry colname="col7">0.41</entry>
+</row>
+<row>
+<entry colname="col2">Antennarity index</entry>
+<entry colname="col3">0.94</entry>
+<entry colname="col4">0.78</entry>
+<entry colname="col5">0.78</entry>
+<entry colname="col6">0.93</entry>
+<entry colname="col7">0.89</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tabular>
+</section>
+<section xml:id="btpr2946-sec-0014">
+<title type="main">Transient cysteine limitation in CHO‐DXB11 cells</title>
+<p>Of the three amino acid limitations studied, the cysteine limitation had the greatest detrimental impact on the culture growth and productivity, as well as the MAb glycosylation. Cysteine has a low solubility and can become limiting in the discontinuous feeding protocols commonly used at industrial scales, especially at high cell concentrations. Therefore, the duration that the CHO‐DXB11 cells can tolerate cysteine limitation was investigated. These cells were initially grown in BIOGRO medium with no cysteine. The cysteine concentration was then restored to 0.4 mM on either Day 1 or Day 2 of the culture by the addition of a concentrated cysteine solution. Figure <link href="#btpr2946-fig-0004"/> shows the cell growth and the final MAb concentration of the CHO‐DXB11 cells exposed to these transient cysteine limitations compared to growth in a control medium containing 0.4 mM cysteine from Day 0. If the cysteine level was restored on Day 1, the cells remained in a lag phase for an extra day and then resumed growth on Day 2; by Day 5 these cultures reaching concentrations similar to the control. Restoring the cysteine levels after 2 days of the cysteine limited culture proved to be ineffective and the cells did not grow. In addition, restoring the cysteine levels by Day 1 resulted in the final MAb concentration reaching over 50% of the control with no cysteine limitation (Figure <link href="#btpr2946-fig-0004"/>b).</p>
+<figure xml:id="btpr2946-fig-0004">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0004"/>
+
+
+
+</mediaResourceGroup>
+<caption>Cell growth (a) and normalized final MAb concentration (b) of CHO‐DXB11 cells undergoing 0, 1, or 2 day cysteine limitation. Error bars represent SEM; <i>n</i> = 2</caption>
+</figure>
+</section>
+<section xml:id="btpr2946-sec-0015">
+<title type="main">Cysteine dose response in CHO‐DXB11 cells</title>
+<p>In order to further understand the influence of cysteine concentration on the growth and productivity of CHO cells, the CHO‐DXB11 cells were cultured at 0.1 mM cysteine (one fourth of the control cysteine concentration of 0.4 mM) in BIOGRO medium (Figure <link href="#btpr2946-fig-0005"/>). Although the cells were able to grow under lower 0.1 mM concentration of cysteine with no lag, the maximum cell and MAb concentrations were decreased compared to the control by 25 and 36%, respectively. These observations suggest that cysteine is a rate limiting factor for both growth and productivity but that interestingly cysteine medium concentrations of 0.1 mM and lower could nonetheless maintain substantial cell growth and MAb productivity.</p>
+<figure xml:id="btpr2946-fig-0005">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0005"/>
+
+
+
+</mediaResourceGroup>
+<caption>Cell growth (a) and normalized final MAb concentration (b) of CHO‐DXB11 cells cultured with different initial medium cysteine concentrations (0, 0.1, 0.4 mM). Error bars represent SEM; <i>n</i> = 2</caption>
+</figure>
+</section>
+<section xml:id="btpr2946-sec-0016">
+<title type="main">Cellular effects of cysteine limitation</title>
+<p>To further investigate the effects of cysteine limitation on the CHO cells and their productivity, mitochondrial damage, autophagy disruption, and membrane phospholipid levels were studied in CHO‐DXB11 cells.</p>
+<section xml:id="btpr2946-sec-0017">
+<title type="main">Mitochondrial damage</title>
+<p>Cysteine is important for the synthesis of CoA that takes place in the mitochondria.<link href="#btpr2946-bib-0013"/> Disruption of CoA synthesis could result in oxidative damage to the mitochondria, stimulating the release of cytochrome c and activating caspase 9, resulting in apoptotic cell death. To reduce mitochondrial damage, CHO‐DXB11 cells cultured under cysteine limitation were treated with 250 or 500 nM rapamycin from the start of the culture (Figure <link href="#btpr2946-fig-0006"/>). It was observed that rapamycin treatment did not restore the cell growth (Figure <link href="#btpr2946-fig-0006"/>a) but did maintain high viability beyond Day 2 (Figure <link href="#btpr2946-fig-0006"/>b), whereas the viability fell rapidly in the cysteine limited cultures. Thus, the rapamycin may have reduced the oxidative damage to mitochondria but did not alleviate the lack of cysteine for cell growth. Cells were also treated with the thiol containing endogenous antioxidant glutathione,<link href="#btpr2946-bib-0021"/> a tripeptide of glutamate, cysteine, and glycine with cysteine trapped in the middle of the chain. Figure <link href="#btpr2946-fig-0007"/> shows the cell growth and viability of the cysteine limited cells with two different concentrations of glutathione (0.25 and 0.5 mM). These concentrations were chosen to be similar to the control concentration of cysteine in BIOGRO medium. Similar to treatment with rapamycin, glutathione treatment of CHO‐DXB11 resulted in maintaining cell viability but did not improve the cell growth (or restore productivity, data not shown).</p>
+<figure xml:id="btpr2946-fig-0006">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0006"/>
+
+
+
+</mediaResourceGroup>
+<caption>Cell growth (a) and viability (b) of CHO‐DXB11 cells under cysteine limitation treated with two different concentrations of rapamycin (250, 500 nM). Error bars represent SEM; <i>n</i> = 2</caption>
+</figure>
+<figure xml:id="btpr2946-fig-0007">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0007"/>
+
+
+
+</mediaResourceGroup>
+<caption>Cell growth (a) and viability (b) of CHO‐DXB11 cells under cysteine limitation treated with two different concentrations of glutathione (0.25, 0.5 nM). Error bars represent SEM; <i>n</i> = 2</caption>
+</figure>
+</section>
+<section xml:id="btpr2946-sec-0018">
+<title type="main">Cellular autophagy response</title>
+<p>Autophagy can increase cell survival under nutrient limitation, by degrading cellular components to extract the necessary nutrients for cell survival.<link href="#btpr2946-bib-0004"/> Western blotting was used as a measure of autophagy and autophagic flux under glutamine, cysteine, or asparagine limitation in CHO‐DXB11 cultures. Figure <link href="#btpr2946-fig-0008"/>a shows the LC3II/actin (autophagy marker, LC3, normalized to actin) levels in the absence (solid bars) and presence (hashed bars) of a 2‐hour treatment with 40 mM bafilomycin that is a measure of autophagic flux. Although it should be noted that this is not a true flux as it is only measured at one time point, rather it is indicative that autophagy is taking place. Also increasing levels of LC3II can be due to either increased autophagy through autophagosome synthesis or an attempt to increase autophagy through increased production of LC3II as in the case of a blockage in autophagosome formation through impaired phospholipid production. Or it may indicate a decrease in autophagosome degradation due to problems with the autophagosome fusing with the lysosome or decreased lysosomal degradation.</p>
+<figure xml:id="btpr2946-fig-0008">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0008"/>
+
+
+
+</mediaResourceGroup>
+<caption>(a) Western blot data from LC3II/actin ratios for CHO‐DXB11 cells under glutamine, cysteine, and asparagine limitation compared to the control culture in the absence (solid bars) and presence (hashed bars) of bafilomycin (40 nM). Error bars represent SEM; <i>n</i> = 2. (b) Normalized ratio of phospholipids to proteins of CHO‐DXB11 cells (718 cm<sup>−<b>1</b></sup>/1003 cm<sup>−<b>1</b></sup>) under glutamine and cysteine limitation compared to control culture. Error bars represent SEM; <i>n</i> = 2</caption>
+</figure>
+<p>In Figure <link href="#btpr2946-fig-0008"/>a, it can be seen in all cases that bafilomycin treatment resulted in an increase in LC3II, as expected upon autophagy induction. As previously reported,<link href="#btpr2946-bib-0004"/> under glutamine limitation, LC3II levels were significantly increased compared to the control indicating that the cells were increasing autophagy activity to cope with the lack of glutamine. In the case of cysteine limitation, LC3II was also increased but not as much as in the case of glutamine limitation, again indicating that the cells increase autophagy. However, this increase in autophagy did not effectively sustain the cell growth and viability as can be seen in Figures <link href="#btpr2946-fig-0002"/>a, <link href="#btpr2946-fig-0006"/>, and <link href="#btpr2946-fig-0007"/> (Cys[−] cultures). This could be attributed to the inability of cysteine limited cells to synthesize lipids through CoA affecting the formation of autophagosomes. The absence of increased autophagy compared to the control under asparagine limitation is consistent with the minimal impact of that limitation on cell growth or antibody productivity.</p>
+</section>
+<section xml:id="btpr2946-sec-0019">
+<title type="main">Membrane phospholipid levels</title>
+<p>Using Raman spectroscopy,<link href="#btpr2946-bib-0022"/> Konorov et al. observed increased phospholipid levels in LMD cells undergoing autophagy due to glutamine depletion. These cells were found to accumulate lipids during autophagy. A similar approach using Raman spectroscopy was used to analyze changes in the phospholipid levels of the CHO‐DXB11 cells under glutamine or cysteine limited conditions compared to control cells (Figure <link href="#btpr2946-fig-0008"/>b). The bar graphs represent the normalized ratio of the 718 cm<sup>−1</sup> peak intensity (phospholipids) to the 1,003 cm<sup>−1</sup> peak intensity (proteins). In the case of glutamine limitation, it can be seen that phospholipid levels steadily increase as the cells induce autophagy to survive. In the case of cysteine limitation, there is no change in the phospholipid level due to the need for cysteine as a precursor of phospholipid synthesis. These results are consistent with increases in phospholipid levels being correlated with increased autophagy. In the case of the control cells, the phospholipid levels began to increase by Day 3 as they are reaching their peak cell density (Figure <link href="#btpr2946-fig-0002"/>a), indicating they are also increasing autophagy. It should be noted that although the autophagic flux assay seemed to indicate autophagy was increasing for the cysteine limited culture, the assay was taken only after 24 hr to ensure the cysteine limited cells were still relatively viable (see Figures <link href="#btpr2946-fig-0002 #btpr2946-fig-0006"/>, and <link href="#btpr2946-fig-0007"/>). By Day 3, the cysteine limited culture was in active cell death and unable to increase its phospholipid levels and use autophagy in a similar fashion to both the control and glutamine limited cultures.</p>
+</section>
+</section>
+<section xml:id="btpr2946-sec-0020">
+<title type="main">Development of a fed‐batch protocol based on amino acid supplementation</title>
+<p>A goal of this study was to determine whether a simple fed‐batch process could be developed based on a greater understanding of the cellular responses to the amino acids: glutamine, cysteine, and asparagine. These amino acids were selected as they were most rapidly consumed, falling to below detection limits by Day 5 of batch culture. Therefore, fed‐batch feeds based on supplementing the cultures with glutamine (Q), cysteine (C), and asparagine (N) alone or as mixtures were tested to determine the effect of reducing or eliminating these amino acid limitations and comparing the results with a commercial feed, Feed A.</p>
+<p>Figure <link href="#btpr2946-fig-0009"/> shows that the culture supplemented with Feed A alone had the highest growth reaching a maximum cell concentration of ~5 × 10<sup>6</sup> cells/ml on Day 4. In contrast, the cultures supplemented with combinations and single specific amino acids solutions only reached maximum cell concentrations of ~ 3.5 × 10<sup>6</sup> cells/ml by Day 4 or 5. The control batch culture reached a similar maximum cell concentration of ~3.5 × 10<sup>6</sup> cells/ml by Day 4 but then, as expected, rapidly declined. In addition, the culture fed with Feed A maintained ~20% higher viability after Day 4. All feeds improved the overall final MAb concentration compared to batch, although using Feed A significantly outperformed the productivity of the other fed‐batch cultures (Figure <link href="#btpr2946-fig-0010"/>). Fed‐batch cultures supplemented with asparagine, glutamine, or glutamine plus asparagine yielded the lowest MAb concentrations (~ 30% of Feed A). The fed‐batch cultures supplemented with cysteine alone and in combination with the other amino acids yielded the highest MAb concentrations (60–75% of Feed A). Interestingly, the cell specific productivity of cultures supplemented with cysteine were similar to that using Feed A (Figure <link href="#btpr2946-fig-0010"/>b).</p>
+<figure xml:id="btpr2946-fig-0009">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0009"/>
+
+
+
+</mediaResourceGroup>
+<caption>Fed‐batch cell concentration of CHO‐DXB11 cells cultured with various feeds. Error bars represent SEM; <i>n</i> = 2. C, cysteine; N, asparagine; Q, glutamine</caption>
+</figure>
+<figure xml:id="btpr2946-fig-0010">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:87567938:media:btpr2946:btpr2946-fig-0010"/>
+
+
+
+</mediaResourceGroup>
+<caption>Fed Batch final MAb concentration (a) and cell specific productivity (b) of CHO‐DXB11 cells cultured with various feeds. Error bars represent SEM; <i>n</i> = 2. C, cysteine; N, asparagine; Q, glutamine</caption>
+</figure>
+</section>
+</section>
+<section xml:id="btpr2946-sec-0021">
+<title type="main">DISCUSSION</title>
+<p>The responses to three amino acid limitations was similar for the three CHO cell lines investigated, with cysteine limitations affecting CHO cell growth and productivity the most. Thus, for these CHO cells, cysteine can be considered an essential amino acid. Glutamine limitation also resulted in a reduced CHO cell growth and productivity in a cell‐line dependent manner but to a far lesser extent than cysteine limitation. Limitation of asparagine did not affect either the CHO cell growth or productivity of any of the cell lines. However, when asparagine limitation was combined with glutamine limitation, the cell growth and productivity were both significantly reduced, to a greater extent than under glutamine limitation alone.</p>
+<p>It is believed that cysteine metabolism involves synthesis of CoA in a pathway that is universal to eukaryotic cells. Inability of cells to synthesize CoA will disrupt and inhibit their ability to produce energy through the TCA cycle and to synthesize lipids that are required for growth. The extension of viability of the cysteine limited cells upon treatment with rapamycin or glutathione indicated that damage to the mitochondria results from disruption the TCA cycle. It has been reported that the oxygen consumption and oxidative capacity of mitochondria is controlled through mammalian target of rapamycin (mTOR).<link href="#btpr2946-bib-0023"/> Rapamycin is also shown to delay apoptosis and extend the viability of CHO cell cultures in batch culture expressing antibodies<link href="#btpr2946-bib-0024"/> as well as having a protective role for mitochondria against oxidative damage in a rate model of Parkinson's disease.<link href="#btpr2946-bib-0025"/> Glutathione is an important antioxidant that is synthesized from cysteine and known to reduce oxidative stress in cells.<link href="#btpr2946-bib-0026"/> It also can play a protective role against mitochondrial oxidative modification that can lead to mitochondrial dysfunction by maintaining the mitochondrial redox environment. Thus cysteine‐limited cultures were treated with rapamycin or glutathione to determine whether addition of these compounds could reduce the impact of cysteine limitation on CHO cells. Interestingly, the addition of either rapamycin or glutathione was able to maintain the cell viability under cysteine limitation but not able to affect the cell growth. It therefore appears that both compounds may be able to reduce the oxidative damage to mitochondria but cannot affect the cysteine cell growth limitation. In the case of glutathione, which contains cysteine trapped in the middle of a tripeptide chain of glutamate, cysteine, and glycine, the lack of cell growth may be due to the cells inability to access the cysteine content of glutathione. Thus, it appears that oxidative damage of the mitochondria may be a leading cause of death in the cells undergoing cysteine limitation.</p>
+<p>Autophagy can increase cell survival under nutrient limitation, by degrading cellular components to extract nutrients necessary for cell survival. While it was observed under cysteine limitation that the LC3II marker of autophagy was induced, autophagy apparently did not effectively increase the cell viability. This could be attributed to the inability of the cells to synthesize lipids affecting the autophagic process that is dependent on the formation of autophagosomes, double layer lipid membrane vesicles that transport cellular contents to lysosomes for degradation. Using Raman spectroscopy,<link href="#btpr2946-bib-0022"/> no significant increase in phospholipid levels was observed relative to protein levels under cysteine limitation. This is to be expected where cysteine limitation prevents further lipid synthesis resulting in the blocking of autophagosome membrane formation. In the case of glutamine limitation, phospholipid levels steadily increase paralleling the increase in LC3II and showing that the cells are using autophagy to minimize the effects of the glutamine limitation.</p>
+<p>Like other studies,<link href="#btpr2946-bib-0027 #btpr2946-bib-0028"/> a fed‐batch strategy was developed to improve productivity by supplementing depleted amino acids. In this study, it appeared that simply adding cysteine resulted in significant improvements to productivity of all the CHO cell cultures. Addition of cysteine alone resulted in a 60%‐fold increase in cell specific productivity and an almost threefold increased final MAb concentration compared to batch. The combination of cysteine and asparagine appeared to have the greatest benefit resulting in an 85%‐fold increase in cell‐specific productivity. Although the final MAb concentrations were not as high as that achieved by feeding with the commercial Feed A, the cell specific productivities were similar. This result was not unexpected as Feed A provides many other components to increase the cell growth while maintaining the specific productivity. These results show the importance of cysteine in CHO cell cultures and demonstrate the potential of supplementing cultures with feeds based on one or two amino acids compared to the more expensive and complex commercial feeds.</p>
+</section>
+<section type="acknowledgments" xml:id="btpr2946-sec-0022" numbered="no">
+<title type="main">ACKNOWLEDGMENTS</title>
+<p>The authors would like to thank Dr. Yves Durocher (Université de Montréal and the Biotechnology Research Institute) for providing the EG2‐hFc producing CHO‐DUKXB cell line and assay, Pfizer for providing the IgG‐1 producing CHOK1SV cell line, as well as Drs. Peter Gray and Trent Munro (Australian Institute for Bioengineering and Nanotechnology) for providing the IgG‐1 producing CHO‐S cell line. We also acknowledge Natural Sciences and Engineering Research Council (NSERC) of Canada and NSERC MabNet for funding.</p>
+</section>
+<bibliography xml:id="btpr2946-bibl-0001" style="numbered" cited="yes">
+<title type="main">REFERENCES</title>
+<bib xml:id="btpr2946-bib-0001"><citation type="journal" xml:id="btpr2946-cit-0001"><author><familyName>Altamirano</familyName> <givenNames>C</givenNames></author>, <author><familyName>Paredes</familyName> <givenNames>C</givenNames></author>, <author><familyName>Illanes</familyName> <givenNames>A</givenNames></author>, <author><familyName>Cairó</familyName> <givenNames>JJ</givenNames></author>, <author><familyName>Gòdia</familyName> <givenNames>F</givenNames></author>. <articleTitle>Strategies for fed‐batch cultivation of T‐PA producing CHO cells: substitution of glucose and glutamine and rational design of culture medium</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2004">2004</pubYear>;<vol>110</vol>(<issue>2</issue>):<pageFirst>171</pageFirst>‐<pageLast>179</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0002"><citation type="journal" xml:id="btpr2946-cit-0002"><author><familyName>Dowd</familyName> <givenNames>JE</givenNames></author>, <author><familyName>Kwok</familyName> <givenNames>KE</givenNames></author>, <author><familyName>Piret</familyName> <givenNames>JM</givenNames></author>. <articleTitle>Increased T‐PA yields using ultrafiltration of an inhibitory product from CHO fed‐batch culture</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle>. <pubYear year="2000">2000</pubYear>;<vol>16</vol>(<issue>5</issue>):<pageFirst>786</pageFirst>‐<pageLast>794</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0003"><citation type="journal" xml:id="btpr2946-cit-0003"><author><familyName>Kim</familyName> <givenNames>DY</givenNames></author>, <author><familyName>Chaudhry</familyName> <givenNames>MA</givenNames></author>, <author><familyName>Kennard</familyName> <givenNames>ML</givenNames></author>, et al. <articleTitle>Fed‐batch CHO cell T‐PA production and feed glutamine replacement to reduce ammonia production</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle>. <pubYear year="2013">2013</pubYear>;<vol>29</vol>(<issue>1</issue>):<pageFirst>165</pageFirst>‐<pageLast>175</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0004"><citation type="journal" xml:id="btpr2946-cit-0004"><author><familyName>Jardon</familyName> <givenNames>MA</givenNames></author>, <author><familyName>Sattha</familyName> <givenNames>B</givenNames></author>, <author><familyName>Braasch</familyName> <givenNames>K</givenNames></author>, et al. <articleTitle>Inhibition of glutamine‐dependent autophagy increases t‐PA production in CHO cell fed‐batch processes</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2012">2012</pubYear>;<vol>109</vol>(<issue>5</issue>):<pageFirst>1228</pageFirst>‐<pageLast>1238</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0005"><citation type="journal" xml:id="btpr2946-cit-0005"><author><familyName>Fomina‐Yadlin</familyName> <givenNames>D</givenNames></author>, <author><familyName>Gosink</familyName> <givenNames>JJ</givenNames></author>, <author><familyName>McCoy</familyName> <givenNames>R</givenNames></author>, et al. <articleTitle>Cellular responses to individual amino‐acid depletion in antibody expressing and parental CHO cell lines</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>111</vol>(<issue>5</issue>):<pageFirst>965</pageFirst>‐<pageLast>979</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0006"><citation type="journal" xml:id="btpr2946-cit-0006"><author><familyName>Salazar</familyName> <givenNames>A</givenNames></author>, <author><familyName>Keusgen</familyName> <givenNames>M</givenNames></author>, <author><familyNamePrefix>von</familyNamePrefix> <familyName>Hagen</familyName> <givenNames>J</givenNames></author>. <articleTitle>Amino acids in the cultivation of mammalian cells</articleTitle>. <journalTitle>Amino Acids</journalTitle>. <pubYear year="2016">2016</pubYear>;<vol>48</vol>:<pageFirst>1161</pageFirst>‐<pageLast>1171</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0007"><citation type="journal" xml:id="btpr2946-cit-0007"><author><familyName>Eagle</familyName> <givenNames>H</givenNames></author>. <articleTitle>Nutrition needs of mammalian cells in tissue culture</articleTitle>. <journalTitle>Science</journalTitle>. <pubYear year="1955">1955b</pubYear>;<vol>122</vol>(<issue>3168</issue>):<pageFirst>501</pageFirst>‐<pageLast>504</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0008"><citation type="book" xml:id="btpr2946-cit-0008"><author><familyName>Häussinger</familyName> <givenNames>D</givenNames></author>, <author><familyName>Sies</familyName> <givenNames>H</givenNames></author>. <bookTitle>Glutamine Metabolism in Mammalian Tissues</bookTitle>. <publisherLoc>Berlin, Heidelberg</publisherLoc>: <publisherName>Springer Berlin Heidelberg</publisherName>; <pubYear year="1984">1984</pubYear>.</citation></bib>
+<bib xml:id="btpr2946-bib-0009"><citation type="journal" xml:id="btpr2946-cit-0009"><author><familyName>Fan</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Jimenez Del Val</familyName> <givenNames>I</givenNames></author>, <author><familyName>Müller</familyName> <givenNames>C</givenNames></author>, et al. <articleTitle>A multi‐pronged investigation into the effect of glucose starvation and culture duration on fed‐batch CHO cell culture</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2015">2015</pubYear>;<vol>112</vol>(<issue>10</issue>):<pageFirst>2172</pageFirst>‐<pageLast>2184</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0010"><citation type="book" xml:id="btpr2946-cit-0010"><author><familyName>Berg</familyName> <givenNames>JM</givenNames></author>, <author><familyName>Tymoczko</familyName> <givenNames>JL</givenNames></author>, <author><familyName>Stryer</familyName> <givenNames>L</givenNames></author>. <chapterTitle>Glucose can be synthesized from noncarbohydrate precursors</chapterTitle>. <bookTitle>Biochemistry</bookTitle>. <edition number="5">5th ed.</edition> <publisherLoc>New York</publisherLoc>: <publisherName>W H Freeman</publisherName>; <pubYear year="2002">2002</pubYear>.</citation></bib>
+<bib xml:id="btpr2946-bib-0011"><citation type="journal" xml:id="btpr2946-cit-0011"><author><familyName>Milman</familyName> <givenNames>HA</givenNames></author>, <author><familyName>Cooney</familyName> <givenNames>DA</givenNames></author>. <articleTitle>The distribution of L‐asparagine synthetase in the principal organs of several mammalian and avian species</articleTitle>. <journalTitle>Biochem J</journalTitle>. <pubYear year="1974">1974</pubYear>;<vol>142</vol>(<issue>1</issue>):<pageFirst>27</pageFirst>‐<pageLast>35</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0012"><citation type="journal" xml:id="btpr2946-cit-0012"><author><familyName>Arfin</familyName> <givenNames>SM</givenNames></author>, <author><familyName>Simpson</familyName> <givenNames>DR</givenNames></author>, <author><familyName>Chiang</familyName> <givenNames>CS</givenNames></author>, <author><familyName>Andrulis</familyName> <givenNames>IL</givenNames></author>, <author><familyName>Hatfield</familyName> <givenNames>GW</givenNames></author>. <articleTitle>A role for Asparaginyl‐tRNA in the regulation of asparagine synthetase in a mammalian cell line</articleTitle>. <journalTitle>Proc Natl Acad Sci U S A</journalTitle>. <pubYear year="1977">1977</pubYear>;<vol>74</vol>(<issue>6</issue>):<pageFirst>2367</pageFirst>‐<pageLast>2369</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0013"><citation type="journal" xml:id="btpr2946-cit-0013"><author><familyName>Stipanuk</familyName> <givenNames>MH</givenNames></author>, <author><familyName>Dominy</familyName> <givenNames>JE</givenNames></author>, <author><familyName>Lee</familyName> <givenNames>JI</givenNames></author>, <author><familyName>Coloso</familyName> <givenNames>RM</givenNames></author>. <articleTitle>Mammalian cysteine metabolism: new insights into regulation of cysteine metabolism</articleTitle>. <journalTitle>J Nutr</journalTitle>. <pubYear year="2006">2006</pubYear>;<vol>136</vol>(<issue>6</issue>):<pageFirst>1652</pageFirst>‐<pageLast>1659</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0014"><citation type="journal" xml:id="btpr2946-cit-0014"><author><familyName>Handlogten</familyName> <givenNames>MW</givenNames></author>, <author><familyName>Lee‐O'Brien</familyName> <givenNames>A</givenNames></author>, <author><familyName>Roy</familyName> <givenNames>G</givenNames></author>, et al. <articleTitle>Intracellular response to process optimization and impact on productivity and product aggregates for a high titer CHO cell process</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2018">2018</pubYear>;<vol>115</vol>:<pageFirst>126</pageFirst>‐<pageLast>138</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0015"><citation type="journal" xml:id="btpr2946-cit-0015"><author><familyName>Bell</familyName> <givenNames>A</givenNames></author>, <author><familyName>Wang</familyName> <givenNames>ZJ</givenNames></author>, <author><familyName>Arbabi‐Ghahroudi</familyName> <givenNames>M</givenNames></author>, et al. <articleTitle>Differential tumor‐targeting abilities of three single‐domain antibody formats</articleTitle>. <journalTitle>Cancer Lett</journalTitle>. <pubYear year="2010">2010</pubYear>;<vol>289</vol>(<issue>1</issue>):<pageFirst>81</pageFirst>‐<pageLast>90</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0016"><citation type="journal" xml:id="btpr2946-cit-0016"><author><familyName>Zhang</familyName> <givenNames>J</givenNames></author>, <author><familyName>Liu</familyName> <givenNames>X</givenNames></author>, <author><familyName>Bell</familyName> <givenNames>A</givenNames></author>, et al. <articleTitle>Transient expression and purification of chimeric heavy chain antibodies</articleTitle>. <journalTitle>Protein Expr Purif</journalTitle>. <pubYear year="2009">2009</pubYear>;<vol>65</vol>(<issue>1</issue>):<pageFirst>77</pageFirst>‐<pageLast>82</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0017"><citation type="journal" xml:id="btpr2946-cit-0017"><author><familyName>Kennard</familyName> <givenNames>ML</givenNames></author>, <author><familyName>Goosney</familyName> <givenNames>DL</givenNames></author>, <author><familyName>Monteith</familyName> <givenNames>D</givenNames></author>, et al. <articleTitle>The generation of stable, high MAb expressing CHO cell lines based on the artificial chromosome expression (ACE) technology</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2009">2009</pubYear>;<vol>104</vol>(<issue>3</issue>):<pageFirst>540</pageFirst>‐<pageLast>553</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0018"><citation type="journal" xml:id="btpr2946-cit-0018"><author><familyName>Nasseri</familyName> <givenNames>SS</givenNames></author>, <author><familyName>Ghaffari</familyName> <givenNames>G</givenNames></author>, <author><familyName>Jardon</familyName> <givenNames>MA</givenNames></author>, et al. <articleTitle>Increased CHO cell fed‐batch monoclonal antibody production using the autophagy inhibitor 3‐MA or gradually increasing osmolality</articleTitle>. <journalTitle>Biochem Eng J</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>91</vol>:<pageFirst>37</pageFirst>‐<pageLast>45</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0019"><citation type="journal" xml:id="btpr2946-cit-0019"><author><familyName>Gervais</familyName> <givenNames>A</givenNames></author>, <author><familyName>Hammel</familyName> <givenNames>YA</givenNames></author>, <author><familyName>Pelloux</familyName> <givenNames>S</givenNames></author>, et al. <articleTitle>Glycosylation of human recombinant Gonadotrophins: characterization and batch‐to‐batch consistency</articleTitle>. <journalTitle>Glycobiology</journalTitle>. <pubYear year="2003">2003</pubYear>;<vol>13</vol>(<issue>3</issue>):<pageFirst>179</pageFirst>‐<pageLast>189</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0020"><citation type="journal" xml:id="btpr2946-cit-0020"><author><familyName>Liu</familyName> <givenNames>B</givenNames></author>, <author><familyName>Spearman</familyName> <givenNames>M</givenNames></author>, <author><familyName>Doering</familyName> <givenNames>J</givenNames></author>, <author><familyName>Lattová</familyName> <givenNames>E</givenNames></author>, <author><familyName>Perreault</familyName> <givenNames>H</givenNames></author>, <author><familyName>Butler</familyName> <givenNames>M</givenNames></author>. <articleTitle>The availability of glucose to CHO cells affects the intracellular lipid‐linked oligosaccharide distribution, site occupancy and the N‐glycosylation profile of a monoclonal antibody</articleTitle>. <journalTitle>J Biotechnol</journalTitle>. <pubYear year="2014">2014</pubYear>;<vol>170</vol>:<pageFirst>17</pageFirst>‐<pageLast>27</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0021"><citation type="journal" xml:id="btpr2946-cit-0021"><author><familyName>Matés</familyName> <givenNames>JM</givenNames></author>, <author><familyName>Pérez‐Gómez</familyName> <givenNames>C</givenNames></author>, <author><familyName>Núñez de Castro</familyName> <givenNames>I</givenNames></author>, <author><familyName>Asenjo</familyName> <givenNames>M</givenNames></author>, <author><familyName>Márquez</familyName> <givenNames>J</givenNames></author>. <articleTitle>Glutamine and its relationship with intracellular redox status, oxidative stress and cell proliferation/death</articleTitle>. <journalTitle>Int J Biochem Cell Biol</journalTitle>. <pubYear year="2002">2002</pubYear>;<vol>34</vol>(<issue>5</issue>):<pageFirst>439</pageFirst>‐<pageLast>458</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0022"><citation type="journal" xml:id="btpr2946-cit-0022"><author><familyName>Konorov</familyName> <givenNames>SO</givenNames></author>, <author><familyName>Jardon</familyName> <givenNames>MA</givenNames></author>, <author><familyName>Piret</familyName> <givenNames>JM</givenNames></author>, <author><familyName>Blades</familyName> <givenNames>MW</givenNames></author>, <author><familyName>Turner</familyName> <givenNames>RF</givenNames></author>. <articleTitle>Raman microspectroscopy of live cells under autophagy‐inducing conditions</articleTitle>. <journalTitle>Analyst</journalTitle>. <pubYear year="2012">2012</pubYear>;<vol>137</vol>(<issue>20</issue>):<pageFirst>4662</pageFirst>‐<pageLast>4668</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0023"><citation type="journal" xml:id="btpr2946-cit-0023"><author><familyName>SM1</familyName> <givenNames>S</givenNames></author>, <author><familyName>Phillips</familyName> <givenNames>D</givenNames></author>, <author><familyName>JP</familyName> <givenNames>MC</givenNames> <nameSuffix>Jr</nameSuffix></author>, et al. <articleTitle>The mammalian target of rapamycin (mTOR) pathway regulates mitochondrial oxygen consumption and oxidative capacity</articleTitle>. <journalTitle>J Biol Chem</journalTitle>. <pubYear year="2006">2006</pubYear>;<vol>281</vol>:<pageFirst>27643</pageFirst>‐<pageLast>27652</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0024"><citation type="journal" xml:id="btpr2946-cit-0024"><author><familyName>Lee</familyName> <givenNames>JS</givenNames></author>, <author><familyName>Lee</familyName> <givenNames>GM</givenNames></author>. <articleTitle>Rapamycin treatment inhibits CHO cell death in a serum‐free suspension culture by autophagy induction</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2012">2012</pubYear>;<vol>109</vol>(<issue>12</issue>):<pageFirst>3093</pageFirst>‐<pageLast>3102</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0025"><citation type="journal" xml:id="btpr2946-cit-0025"><author><familyName>Jiang</familyName> <givenNames>J</givenNames></author>, <author><familyName>Zuo</familyName> <givenNames>Y</givenNames></author>, <author><familyName>Gu</familyName> <givenNames>Z</givenNames></author>. <articleTitle>Rapamycin protects the mitochondria against oxidative stress and apoptosis in a rat model of Parkinson's disease</articleTitle>. <journalTitle>Int J Mol Med</journalTitle>. <pubYear year="2013">2013</pubYear>;<vol>31</vol>(<issue>4</issue>):<pageFirst>825</pageFirst>‐<pageLast>832</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0026"><citation type="journal" xml:id="btpr2946-cit-0026"><author><familyName>Kerksick</familyName> <givenNames>C</givenNames></author>, <author><familyName>Willoughby</familyName> <givenNames>D</givenNames></author>. <articleTitle>The antioxidant role of glutathione and N‐acetyl‐cysteine supplements and exercise‐induced oxidative stress</articleTitle>. <journalTitle>J Int Soc Sports Nutr</journalTitle>. <pubYear year="2005">2005</pubYear>;<vol>2</vol>(<issue>2</issue>):<pageFirst>38</pageFirst>‐<pageLast>44</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0027"><citation type="journal" xml:id="btpr2946-cit-0027"><author><familyName>Pan</familyName> <givenNames>X</givenNames></author>, <author><familyName>Dalm</familyName> <givenNames>C</givenNames></author>, <author><familyName>Wijffels</familyName> <givenNames>RH</givenNames></author>, <author><familyName>Martens</familyName> <givenNames>DE</givenNames></author>. <articleTitle>Metabolic characterization of a CHO cell size increase phase in fed‐batch cultures</articleTitle>. <journalTitle>Appl Microbiol Biotechnol</journalTitle>. <pubYear year="2017">2017</pubYear>;<vol>101</vol>:<pageFirst>8101</pageFirst>‐<pageLast>8113</pageLast>.</citation></bib>
+<bib xml:id="btpr2946-bib-0028"><citation type="journal" xml:id="btpr2946-cit-0028"><author><familyName>Kshirsagar</familyName> <givenNames>R</givenNames></author>, <author><familyName>McElearney</familyName> <givenNames>K</givenNames></author>, <author><familyName>Gilbert</familyName> <givenNames>A</givenNames></author>, <author><familyName>Sinacore</familyName> <givenNames>M</givenNames></author>, <author><familyName>Ryll</familyName> <givenNames>T</givenNames></author>. <articleTitle>Controlling trisulfide modification in recombinant monoclonal antibody produced in fed‐batch cell culture</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle>. <pubYear year="2012">2012</pubYear>;<vol>109</vol>(<issue>10</issue>):<pageFirst>2523</pageFirst>‐<pageLast>2532</pageLast>.</citation></bib>
+</bibliography>
+</body>
+</component>]]></body>
+  <back>
+    <ref-list>
+      <ref id="0">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Altamirano</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Illanes</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cairó</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Gòdia</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Strategies for fed‐batch cultivation of T‐PA producing CHO cells: substitution of glucose and glutamine and rational design of culture medium</article-title>
+          <source>J Biotechnol</source>
+          <year>2004</year>
+          <volume>110</volume>
+          <fpage>171</fpage>
+          <lpage>179</lpage>
+        </element-citation>
+      </ref>
+      <ref id="1">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dowd</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Kwok</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Piret</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased T‐PA yields using ultrafiltration of an inhibitory product from CHO fed‐batch culture</article-title>
+          <source>Biotechnol Prog</source>
+          <year>2000</year>
+          <volume>16</volume>
+          <fpage>786</fpage>
+          <lpage>794</lpage>
+        </element-citation>
+      </ref>
+      <ref id="2">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>DY</given-names>
+            </name>
+            <name>
+              <surname>Chaudhry</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Kennard</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Fed‐batch CHO cell T‐PA production and feed glutamine replacement to reduce ammonia production</article-title>
+          <source>Biotechnol Prog</source>
+          <year>2013</year>
+          <volume>29</volume>
+          <fpage>165</fpage>
+          <lpage>175</lpage>
+        </element-citation>
+      </ref>
+      <ref id="3">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jardon</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Sattha</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Braasch</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of glutamine‐dependent autophagy increases t‐PA production in CHO cell fed‐batch processes</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>1228</fpage>
+          <lpage>1238</lpage>
+        </element-citation>
+      </ref>
+      <ref id="4">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fomina‐Yadlin</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gosink</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>McCoy</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular responses to individual amino‐acid depletion in antibody expressing and parental CHO cell lines</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2014</year>
+          <volume>111</volume>
+          <fpage>965</fpage>
+          <lpage>979</lpage>
+        </element-citation>
+      </ref>
+      <ref id="5">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salazar</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Keusgen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hagen</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Amino acids in the cultivation of mammalian cells</article-title>
+          <source>Amino Acids</source>
+          <year>2016</year>
+          <volume>48</volume>
+          <fpage>1161</fpage>
+          <lpage>1171</lpage>
+        </element-citation>
+      </ref>
+      <ref id="6">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eagle</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Nutrition needs of mammalian cells in tissue culture</article-title>
+          <source>Science</source>
+          <year>1955</year>
+          <volume>122</volume>
+          <fpage>501</fpage>
+          <lpage>504</lpage>
+        </element-citation>
+      </ref>
+      <ref id="7">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Häussinger</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Sies</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>1984</year>
+        </element-citation>
+      </ref>
+      <ref id="8">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Jimenez Del Val</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Müller</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>A multi‐pronged investigation into the effect of glucose starvation and culture duration on fed‐batch CHO cell culture</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2015</year>
+          <volume>112</volume>
+          <fpage>2172</fpage>
+          <lpage>2184</lpage>
+        </element-citation>
+      </ref>
+      <ref id="9">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berg</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Tymoczko</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Stryer</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+        </element-citation>
+      </ref>
+      <ref id="10">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milman</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>Cooney</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>The distribution of L‐asparagine synthetase in the principal organs of several mammalian and avian species</article-title>
+          <source>Biochem J</source>
+          <year>1974</year>
+          <volume>142</volume>
+          <fpage>27</fpage>
+          <lpage>35</lpage>
+        </element-citation>
+      </ref>
+      <ref id="11">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arfin</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Chiang</surname>
+              <given-names>CS</given-names>
+            </name>
+            <name>
+              <surname>Andrulis</surname>
+              <given-names>IL</given-names>
+            </name>
+            <name>
+              <surname>Hatfield</surname>
+              <given-names>GW</given-names>
+            </name>
+          </person-group>
+          <article-title>A role for Asparaginyl‐tRNA in the regulation of asparagine synthetase in a mammalian cell line</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>1977</year>
+          <volume>74</volume>
+          <fpage>2367</fpage>
+          <lpage>2369</lpage>
+        </element-citation>
+      </ref>
+      <ref id="12">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stipanuk</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Dominy</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JI</given-names>
+            </name>
+            <name>
+              <surname>Coloso</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian cysteine metabolism: new insights into regulation of cysteine metabolism</article-title>
+          <source>J Nutr</source>
+          <year>2006</year>
+          <volume>136</volume>
+          <fpage>1652</fpage>
+          <lpage>1659</lpage>
+        </element-citation>
+      </ref>
+      <ref id="13">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Handlogten</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Lee‐O&apos;Brien</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Intracellular response to process optimization and impact on productivity and product aggregates for a high titer CHO cell process</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2018</year>
+          <volume>115</volume>
+          <fpage>126</fpage>
+          <lpage>138</lpage>
+        </element-citation>
+      </ref>
+      <ref id="14">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bell</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>ZJ</given-names>
+            </name>
+            <name>
+              <surname>Arbabi‐Ghahroudi</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential tumor‐targeting abilities of three single‐domain antibody formats</article-title>
+          <source>Cancer Lett</source>
+          <year>2010</year>
+          <volume>289</volume>
+          <fpage>81</fpage>
+          <lpage>90</lpage>
+        </element-citation>
+      </ref>
+      <ref id="15">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Transient expression and purification of chimeric heavy chain antibodies</article-title>
+          <source>Protein Expr Purif</source>
+          <year>2009</year>
+          <volume>65</volume>
+          <fpage>77</fpage>
+          <lpage>82</lpage>
+        </element-citation>
+      </ref>
+      <ref id="16">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kennard</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Goosney</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Monteith</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>The generation of stable, high MAb expressing CHO cell lines based on the artificial chromosome expression (ACE) technology</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2009</year>
+          <volume>104</volume>
+          <fpage>540</fpage>
+          <lpage>553</lpage>
+        </element-citation>
+      </ref>
+      <ref id="17">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nasseri</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Ghaffari</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Jardon</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased CHO cell fed‐batch monoclonal antibody production using the autophagy inhibitor 3‐MA or gradually increasing osmolality</article-title>
+          <source>Biochem Eng J</source>
+          <year>2014</year>
+          <volume>91</volume>
+          <fpage>37</fpage>
+          <lpage>45</lpage>
+        </element-citation>
+      </ref>
+      <ref id="18">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gervais</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hammel</surname>
+              <given-names>YA</given-names>
+            </name>
+            <name>
+              <surname>Pelloux</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycosylation of human recombinant Gonadotrophins: characterization and batch‐to‐batch consistency</article-title>
+          <source>Glycobiology</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>179</fpage>
+          <lpage>189</lpage>
+        </element-citation>
+      </ref>
+      <ref id="19">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Spearman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Doering</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lattová</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Perreault</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Butler</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The availability of glucose to CHO cells affects the intracellular lipid‐linked oligosaccharide distribution, site occupancy and the N‐glycosylation profile of a monoclonal antibody</article-title>
+          <source>J Biotechnol</source>
+          <year>2014</year>
+          <volume>170</volume>
+          <fpage>17</fpage>
+          <lpage>27</lpage>
+        </element-citation>
+      </ref>
+      <ref id="20">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matés</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Pérez‐Gómez</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Núñez de Castro</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Asenjo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Márquez</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Glutamine and its relationship with intracellular redox status, oxidative stress and cell proliferation/death</article-title>
+          <source>Int J Biochem Cell Biol</source>
+          <year>2002</year>
+          <volume>34</volume>
+          <fpage>439</fpage>
+          <lpage>458</lpage>
+        </element-citation>
+      </ref>
+      <ref id="21">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Konorov</surname>
+              <given-names>SO</given-names>
+            </name>
+            <name>
+              <surname>Jardon</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Piret</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Blades</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>RF</given-names>
+            </name>
+          </person-group>
+          <article-title>Raman microspectroscopy of live cells under autophagy‐inducing conditions</article-title>
+          <source>Analyst</source>
+          <year>2012</year>
+          <volume>137</volume>
+          <fpage>4662</fpage>
+          <lpage>4668</lpage>
+        </element-citation>
+      </ref>
+      <ref id="22">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>SM1</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>JP</surname>
+              <given-names>MC</given-names>
+            </name>
+          </person-group>
+          <article-title>The mammalian target of rapamycin (mTOR) pathway regulates mitochondrial oxygen consumption and oxidative capacity</article-title>
+          <source>J Biol Chem</source>
+          <year>2006</year>
+          <volume>281</volume>
+          <fpage>27643</fpage>
+          <lpage>27652</lpage>
+        </element-citation>
+      </ref>
+      <ref id="23">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>GM</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapamycin treatment inhibits CHO cell death in a serum‐free suspension culture by autophagy induction</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>3093</fpage>
+          <lpage>3102</lpage>
+        </element-citation>
+      </ref>
+      <ref id="24">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zuo</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>Z</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapamycin protects the mitochondria against oxidative stress and apoptosis in a rat model of Parkinson&apos;s disease</article-title>
+          <source>Int J Mol Med</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>825</fpage>
+          <lpage>832</lpage>
+        </element-citation>
+      </ref>
+      <ref id="25">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kerksick</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Willoughby</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>The antioxidant role of glutathione and N‐acetyl‐cysteine supplements and exercise‐induced oxidative stress</article-title>
+          <source>J Int Soc Sports Nutr</source>
+          <year>2005</year>
+          <volume>2</volume>
+          <fpage>38</fpage>
+          <lpage>44</lpage>
+        </element-citation>
+      </ref>
+      <ref id="26">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pan</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Dalm</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Wijffels</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Martens</surname>
+              <given-names>DE</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic characterization of a CHO cell size increase phase in fed‐batch cultures</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>2017</year>
+          <volume>101</volume>
+          <fpage>8101</fpage>
+          <lpage>8113</lpage>
+        </element-citation>
+      </ref>
+      <ref id="27">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kshirsagar</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>McElearney</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Gilbert</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sinacore</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ryll</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlling trisulfide modification in recombinant monoclonal antibody produced in fed‐batch cell culture</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>2523</fpage>
+          <lpage>2532</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

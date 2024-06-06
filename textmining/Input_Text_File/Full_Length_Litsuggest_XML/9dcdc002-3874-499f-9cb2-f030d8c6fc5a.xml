@@ -1,0 +1,207 @@
+<article article-type="Journal Article|Research Support, Non-U.S. Gov&apos;t">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Metabolic engineering</journal-title>
+      </journal-title-group>
+      <issn>1096-7184</issn>
+      <publisher>
+        <publisher-name>Medline</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36906118</article-id>
+      <article-id pub-id-type="doi">10.1016/j.ymben.2023.03.004</article-id>
+      <article-id pub-id-type="pii">S1096-7176(23)00043-5</article-id>
+      <article-id pub-id-type="wtfid">009979710_0006354_230516180543592225</article-id>
+      <article-id pub-id-type="tdm">medline_TDM-36906118</article-id>
+      <title-group>
+        <article-title>A novel system for glycosylation engineering by natural and artificial miRNAs.</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Klingler</surname>
+          <given-names>Florian</given-names>
+          <aff>Institute for Applied Biotechnology, University of Applied Sciences Biberach, Hubertus-Liebrecht-Str. 35, 88400, Biberach, Germany. Electronic address: klingler@hochschule-bc.de.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Naumann</surname>
+          <given-names>Lukas</given-names>
+          <aff>Department of Chemistry, Aalen University, Beethovenstraße 1, 73430, Aalen, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Schlossbauer</surname>
+          <given-names>Patrick</given-names>
+          <aff>Institute for Applied Biotechnology, University of Applied Sciences Biberach, Hubertus-Liebrecht-Str. 35, 88400, Biberach, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Dreyer</surname>
+          <given-names>Leonard</given-names>
+          <aff>Department of Chemistry, Aalen University, Beethovenstraße 1, 73430, Aalen, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Burkhart</surname>
+          <given-names>Madina</given-names>
+          <aff>Institute for Applied Biotechnology, University of Applied Sciences Biberach, Hubertus-Liebrecht-Str. 35, 88400, Biberach, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Handrick</surname>
+          <given-names>René</given-names>
+          <aff>Institute for Applied Biotechnology, University of Applied Sciences Biberach, Hubertus-Liebrecht-Str. 35, 88400, Biberach, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Junker</surname>
+          <given-names>Hans-Dieter</given-names>
+          <aff>Department of Chemistry, Aalen University, Beethovenstraße 1, 73430, Aalen, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Hesse</surname>
+          <given-names>Friedemann</given-names>
+          <aff>Institute for Applied Biotechnology, University of Applied Sciences Biberach, Hubertus-Liebrecht-Str. 35, 88400, Biberach, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Neusüß</surname>
+          <given-names>Christian</given-names>
+          <aff>Department of Chemistry, Aalen University, Beethovenstraße 1, 73430, Aalen, Germany.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Otte</surname>
+          <given-names>Kerstin</given-names>
+          <aff>Institute for Applied Biotechnology, University of Applied Sciences Biberach, Hubertus-Liebrecht-Str. 35, 88400, Biberach, Germany.</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>1</day>
+        <month>5</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>77</volume>
+      <fpage>53</fpage>
+      <lpage>63</lpage>
+      <abstract>
+        <p>N-linked glycosylation is a crucial post-translational modification of many biopharmaceuticals, including monoclonal antibodies (mAbs), capable of modifying their biological effect in patients and thus considered as a critical quality attribute (CQA). However, expression of desired and consistent glycosylation patterns remains a constant challenge for the biopharmaceutical industry and constitutes the need for tools to engineer glycosylation. Small non-coding microRNAs (miRNAs) are known regulators of entire gene networks and have therefore the potential of being used as tools for modulation of glycosylation pathways and for glycoengineering. Here, we demonstrate that novel identified natural miRNAs are capable of altering N-linked glycosylation patterns on mAbs expressed in Chinese hamster ovary (CHO) cells. We established a workflow for a functional high-throughput screening of a complete miRNA mimic library and identified 82 miRNA sequences affecting various moieties including galactosylation, sialylation, and α-1,6 linked core-fucosylation, an important glycan feature influencing antibody-dependent cytotoxicity (ADCC). Subsequent validation shed light on the intra-cellular mode of action and the impact on the cellular fucosylation pathway of miRNAs reducing core-fucosylation. While multiplex approaches increased phenotypic effects on the glycan structure, a synthetic biology approach utilizing rational design of artificial miRNAs further enhanced the potential of miRNAs as novel, versatile and tune-able tools for engineering of N-linked glycosylation pathways and expressed glycosylation patterns towards favourable phenotypes.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Biopharmaceuticals</kwd>
+        <kwd>CHO</kwd>
+        <kwd>GlycomiRs</kwd>
+        <kwd>Glycosylation engineering</kwd>
+        <kwd>microRNA</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>MicroRNAs</chemical.name>
+          <chemical.ui>D035683</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Antibodies, Monoclonal</chemical.name>
+          <chemical.ui>D000911</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Polysaccharides</chemical.name>
+          <chemical.ui>D011134</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetinae</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glycosylation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>MicroRNAs</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Antibodies, Monoclonal</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Polysaccharides</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+      </kwd-group>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <back>
+    <ref-list/>
+  </back>
+</article>

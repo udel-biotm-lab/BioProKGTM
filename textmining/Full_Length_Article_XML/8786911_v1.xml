@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>8786911</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_1">surname:Lee;given-names:Kelvin H.</infon>
+      <infon key="article-id_pmid">35087805</infon>
+      <infon key="name_0">surname:Singh;given-names:Sumit K.</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">8786911</infon>
+      <infon key="article-id_publisher-id">805788</infon>
+      <infon key="alt-title">Singh and Lee Glycan Screening Method for mAbs</infon>
+      <infon key="article-id_doi">10.3389/fbioe.2021.805788</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">805788</infon>
+      <infon key="volume">9</infon>
+      <infon key="license">This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Front Bioeng Biotechnol;2021; 9 805788. doi:10.3389/fbioe.2021.805788</infon>
+      <infon key="kwd">glycosylation glycan monoclonal antibody CHO cell hydrophilic interaction liquid chromatography</infon>
+      <infon key="authors">Singh SK, Lee KH, </infon>
+      <offset>0</offset>
+      <text>Characterization of Monoclonal Antibody Glycan Heterogeneity Using Hydrophilic Interaction Liquid Chromatography-Mass Spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>131</offset>
+      <text>Glycosylation is a critical quality attribute of monoclonal antibody (mAb) therapeutics. Hydrophilic interaction liquid chromatography-mass spectrometry (HILIC-MS) is an invaluable technology for the characterization of protein glycosylation. HILIC/MS-based glycan analysis relies on the library search using Glucose Units (GU) and accurate mass (AM) as the primary search parameters for identification. However, GU-based identifications are gradient-dependent and are not suitable for applications where separation gradients need to be optimized to analyze complex samples or achieve higher throughput. Additionally, the workflow requires calibration curves (using dextran ladder) to be generated for each analysis campaign, which in turn, are used to derive the GU values of the separated glycan species. To overcome this limitation, we employed a two-step strategy for targeted glycan analysis of a mAb expressed in Chinese Hamster Ovary (CHO) cells. The first step is to create a custom library of the glycans of interest independent of GU values (thereby eliminating the need for a calibration curve) and instead uses AM and retention time (RT) as the primary search variables. The second step is to perform targeted glycan screening using the custom-built library. The developed workflow was applied for targeted glycan analysis of a mAb expressed in CHO for 1) cell line selection 2) characterizing the day-wise glycan evolution in a model mAb during a fed-batch culture, 3) assessing the impact of different media conditions on glycosylation, and 4) evaluating the impact of two different process conditions on glycosylation changes in a model mAb grown in a bioreactor. Taken together, the data presented in this study provides insights into the sources of glycan heterogeneity in a model mAb that are seen during its commercial manufacturing.</text>
+      <annotation id="6">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T19:46:47Z</infon>
+        <location offset="1450" length="6"/>
+        <text>glycan</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T19:46:38Z</infon>
+        <location offset="1499" length="9"/>
+        <text>cell line</text>
+      </annotation>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T19:46:03Z</infon>
+        <location offset="1647" length="16"/>
+        <text>media conditions</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T19:46:09Z</infon>
+        <location offset="1667" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T19:46:16Z</infon>
+        <location offset="1728" length="18"/>
+        <text>process conditions</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T19:46:21Z</infon>
+        <location offset="1750" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1984</offset>
+      <text>1 Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1999</offset>
+      <text>Monoclonal antibodies (mAbs) are the fastest-growing modality in the biopharmaceutical industry with application towards treating many diseases including cancer. An important feature of mAbs that is crucial for safety and efficacy is glycosylation. About two-thirds of all the approved biologics include glycosylation as a key post-translational modification bears testimony to its importance in the development of biologics.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2425</offset>
+      <text>The most common type of glycosylation observed in mAbs is N-glycosylation. In this type of glycosylation, glycans are attached to the nitrogen atom of an Asparagine (Asn) residue with a consensus sequence of Asn-X-Ser/Thr, where X is any amino acid except proline. Moreover, N-glycans also possess a common five-membered trimannosyl chitobiose core, to which N-acetylglucosamine, galactose, and sialic acid get added in a probabilistic fashion, resulting in considerable observed glycan complexity and heterogeneity. The overwhelming diversity of possible glycan types on a mAb necessitates analytical methods that can characterize the mAb glycosylation at different levels of protein architecture. These include analysis at the level of intact proteins, protein subunits, peptides, and released glycans often utilizing liquid chromatography with mass spectrometry and/or fluorescence detection. In addition, other approaches include capillary electrophoresis-mass spectrometry (CE-MS), capillary electrophoresis-laser induced fluorescence detection (LIF), high-performance anion-exchange chromatography with pulsed amperometric detection (HPAEC-PAD), and/or nuclear magnetic resonance (NMR) spectroscopy.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3631</offset>
+      <text>Among the available analytical methods for glycosylation analysis, a common approach is to release the glycans from the protein by hydrolyzing the side-chain amide group of the asparagine residue of the protein by treating the analyte with Peptide-N-glycosidase F (PNGase F) enzyme. The released glycans are either permethylated, reduced, or labeled with a fluorophore dye before analysis with LC-MS to enhance the optical detection and MS ionization efficiency. Chromatographic analysis of glycans is typically performed with hydrophilic-interaction chromatography (HILIC) because of the relatively lower back pressure (due to high fraction of organic solvents during separation) making the analysis amenable to the use of ultra-high-performance liquid chromatographic columns. This fact, in turn, facilitates improved resolution under the separation conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4495</offset>
+      <text>HILIC-MS analysis involves the identification of each of the glycans by conversion of the retention time to Glucose Units (GU). The GU values of each of the glycans is a specific property of the fluorescent tag used for labeling, and therefore each tag will have a unique GU value for a particular glycan. The most widely used commercial fluorescent tag that is currently used for released glycan analysis is RapiFlour-MS (RFMS), because its properties enable rapid labeling, high sensitivity FLR measurements, and improved MS ionization in the positive mode of operation. Other commonly used fluorescent tags include 2-aminobenzamide (2-AB), 2-aminoanthranilic acid (2-AA), and 4-aminobenzoic acid 2-(diethylamino)ethyl ester. While the released glycan assays using GU-based identification followed by confirmation using mass spectrometry have certainly improved analytical performance, this workflow is gradient-dependent (works only with the gradient used for generating the search library). As such, the GU-based glycan workflows are not well-suited for applications where separation gradients need to be optimized to analyze complex samples or achieve higher throughput.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5671</offset>
+      <text>In this work, we developed an alternative workflow that overcomes this limitation by using accurate mass (AM) as the primary search parameter. For this, the search library (from Waters Corp) was modified by removing the GU-information and incorporating the AM data for all the glycan candidates in the search library. Next, the retention time data were included for the glycans of interest as a confirmatory screening variable. Finally, the workflow was applied for screens of the following: 1) cell line selection 2) characterizing the day-wise glycan evolution in a model mAb during a fed-batch culture, 3) assessing the impact of different media conditions on glycosylation, and 4) evaluating the impact of two different process conditions on glycosylation changes in a model mAb grown in a bioreactor.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>6477</offset>
+      <text>2 Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6501</offset>
+      <text>2.1 Monoclonal Antibody Fed-Batch Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6548</offset>
+      <text>Recombinant CHO-K1 Clone A11 expressing the anti-HIV antibody VRC01 (IgG1) was obtained from the Vaccine Research Center at the National Institutes of Health (NIH). Working cell bank cells (1 ml: 90% media and 10% DMSO frozen in liquid nitrogen) were thawed directly into 125 ml vented shake flasks with 30 ml working volume containing ActiPro medium (GE Healthcare) with 6 mM L-glutamine (Sigma-Aldrich) (media 1) and a parallel bank was thawed using a proprietary chemically-defined Medium 2, and a proprietary chemically-defined Medium 3. Cultures were maintained in a 5% CO2 incubator at 37 C in a 1-inch orbital shaker at 135 rpm. Cells were passaged five times, in the exponential growth phase (every 2-3 days) to a target cell density of 0.4 x 106 cells/ml, before inoculation into the fed-batch.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7363</offset>
+      <text>Fed-batch was carried out in shake flasks and ambr250 bioreactors (Sartorius) using the appropriate feeds for each medium and cells harvested at day 14 or 70% viability whichever came first.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>7554</offset>
+      <text>2.2 Protein-A Purification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7581</offset>
+      <text>The mAb from the different cell lines were purified from the cell culture harvest fluid using a 5 ml HiTrap Protein-A HP column (Cat. 17040201, GE Healthcare, Uppsala, Sweden). Briefly, protein A column was equilibrated with 50 mM phosphate containing 150 mM NaCl, pH 7.5 (5CV). Next, the cell culture harvest was loaded onto the column such that a residence time of 4 min was obtained. The column was subsequently washed with the equilibration buffer (2CV). Elution was performed using 100 mM glycine buffer, pH 3 (1.5CV). Before subsequent loading, the column was reconditioned using washing with 2 M NaCl (2CV) and 0.5 M NaOH (2CV). The concentration of the elute was determined using UV-Spectrophotometer (Cat. ND-2000, Thermo Fisher) by recording the absorbance at 280 nm. The samples were buffer exchanged into water +0.1% formic acid before mass spectrometric analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8466</offset>
+      <text>2.3 Glycan Analysis With Library Searching</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>8509</offset>
+      <text>2.3.1 Glycan Release</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8530</offset>
+      <text>Briefly, the purified samples were concentrated to 2 mg/ml in water +0.1% formic acid. A 7.5 ml aliquot (15 mg) was diluted with 15.3 ml of water. To this, a 6 ml of a 5% RapiGest solution (Cat. 186002123, Waters) was added. The solution was heated at 95 C for 5 min and then cooled to the ambient temperature. Next, a 1.2 ml aliquot of Rapid PNGase F was added and mixed by aspiration. The sample solution was incubated at 55 C for 5 min and cooled at room temperature for 5 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>9022</offset>
+      <text>2.3.2 Glycan Labeling</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9044</offset>
+      <text>Following the deglycosylation from the mAb, the released glycans were labeled with RapiFluor-MS  (RFMS). A 24-reaction kit was used and the RFMS reagent (23 mg) was dissolved in 131 ml of anhydrous DMF. A 12 ml aliquot of this solution was added to the deglycosylation mixture and mixed by aspiration. The labeling reaction was allowed to proceed at room temperature for 5 min. The reaction was then quenched with the diluting reaction mixture with a 360 microl aliquot of acetonitrile (ACN).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>9541</offset>
+      <text>2.3.3 Glycan Purification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9567</offset>
+      <text>The labeled glycans were purified using a HILIC micro-elution plate. The wells of the micro-elution plate were conditioned with 200 microl aliquots of water (three times). The steps in purifying the labeled glycans from other byproducts involve the following steps: equilibration with 200 microl of 85% ACN, sample loading (~400 microl), wash with 1% formic acid, 90% ACN, and finally elution with 30 microl SPE Elution Buffer (200 mM ammonium acetate in 5% ACN). The eluate was diluted with 310 microl of GlycoWorks SPE diluent (DMF/ACN) and mixed by aspiration.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>10131</offset>
+      <text>2.3.4 UPLC-MS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10145</offset>
+      <text>The purified glycans from the above step were separated on a Waters ACQUITY UPLC system  using Waters ACQUITY UPLC Glycan BEH Amide column (2.1 x 150 mm, 1.7 mm particle size, 130 A pore size). A 50 mM ammonium formate solution (pH = 4.4) was used as mobile phase A and a 100% ACN solution was used as mobile phase B. Other parameters for chromatographic separation of glycans included column temperature: 60 C and 75-54% gradient of mobile phase B over 35 min at a flow rate of 0.4 ml/min. The separated glycans were detected using a fluorescence (FLR) detector with an excitation wavelength of 265 nm and an emission wavelength of 425 nm. MS data were recorded on a Bioaccord  Waters MS system operated in positive ion mode. MS parameters included: m/z range: 50-2000, capillary voltage: 1.5 kV, cone voltage: 45 V. The MS was calibrated using ACQUITY RDa calibrant and wash solution (Cat. 186009012, Waters) and lock mass calibration was performed using ACQUITY RDa lock mass solution (Cat. No. 186009012, Waters).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>11182</offset>
+      <text>2.3.5 Data Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11202</offset>
+      <text>The glycan peak annotation was performed using the Glycan Assay (FLR with MS confirmation) workflow within UNIFI. Initially, a calibration curve is constructed by running a dextran ladder labeled with RFMS (Cat No. 186007982, Waters) using the above-described method conditions. The components of the dextran ladder, G4 through G12 with the expected retention times are noted. Next, the retention times of the released glycans are converted into GU values using the calibration curve. The GU values of the assigned species are then matched with the potential glycan structures in the RFMS glycan GU scientific library in UNIFI with a GU tolerance of 0.2 units and mass error of 15 ppm. The relative abundance of any mass confirmed glycan species was determined from the dividing FLR peak area of that species with the total summed peak area of all the identified glycans. Statistical analysis for comparing mAb glycosylation from different cell lines was done by two-way ANOVA using Tukey post-test with Graphpad software version 8.4.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>12238</offset>
+      <text>3 Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12248</offset>
+      <text>3.1 Glycan Analysis of VRC01 mAb Using the Standard Method</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12307</offset>
+      <text>The glycan analysis of the VRC01 using the standard library search method resulted in the identification of 53 confirmed N-glycans, out of which 44 were assigned based on both GU values and accurate mass, while the remaining nine glycan species were annotated based on GU values alone (Figure 1). These nine glycan species were low abundance glycans (&lt;2%) and co-eluted with a more abundant glycan species that potentially resulted in suppression of its mass spectrum. Table 1 lists out the identified glycans with their corresponding normalized abundances expressed as the total area of the FLR peak. The relative abundances of these glycans spanned in the range from 0.1% (A2[3]G(4)1S(6)1) to 11.92% (F(6)A2G(4)2S(3,3)2). A total of 18 glycans were base-line resolved, while 35 glycans co-eluted with a more abundant species but were identified and mass-confirmed with this method. Out of the 53 identified glycans, 25 were complex biantennary, 12 were complex triantennary, five were complex tetra antennary, five were high mannose, and six were hybrid glycans. The individual glycan species identified for the VRC01 mAb were grouped into various glycan attributes and are shown in Figure 2. The percentage calculated is the sum of individual normalized amounts (Table 1) for each glycan species contributing to the overall abundance of a given attribute. As it is evident from Figure 2, the majority of glycans are complex biantennary glycans (~57%). High mannose forms also constitute ~13.2% of the overall glycans of VRC01 indicating the presence of immature glycoforms. Of the total identified VRC01 glycans, ~70% of the glycans were galactosylated, ~51% of them were terminally sialylated, and ~68% were core-fucosylated. The higher levels of sialylation observed in VRC01 is an unusual feature generally not observed with mAbs, thereby suggesting it to be an important quality attribute of VRC01. The heavy sialylation level seen in the VRC01 was attributed to glycans occupying the light chain that comprised of heterogenous population of bi-, tri-, and tetraantennary, core fucosylated complex galactosylated and terminally sialylated glycans.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-09-805788-g001.jpg</infon>
+      <infon key="id">F1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14472</offset>
+      <text>Released N-glycan map from the FLR channel of the HILIC- UPLC-FLR-MS analysis of VRC01 mAb. In total 53 glycans were identified and annotated (44 were identified and annotated based on GU and accurate mass, while 9 of them were based only on GU values).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">T1.xml</infon>
+      <infon key="id">T1</infon>
+      <infon key="type">table_caption</infon>
+      <offset>14726</offset>
+      <text>List of the confirmed N-glycans derived from VRC01 mAb analyzed in the study. Also included are the observed retention times, normalized abundance (% amount), expected and observed GU values, expected and observed masses, the predominant charge state, and the response units. The highlighted glycan species are those that are shortlisted to be monitored using the screening workflow.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">T1.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead valign="top"&gt;&lt;tr&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;SL. No&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Component name&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Observed RT (min)&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Glycan units&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Observed mass (Da)&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;% Amount (%)&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Expected glycan units&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Expected mass (Da)&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Charge&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Response&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;1&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.04&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.3583&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,221.507&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.43&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.3633&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,221.502&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;31886133&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)M3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.27&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.752&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,367.564&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.81&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.7617&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,367.56&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;60887988&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.9&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.9581&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,424.587&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.33&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.9699&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,424.582&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;24741016&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;4&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M4&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.72&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.2148&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,383.558&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.46&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.3077&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,383.555&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;34666288&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;5&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.03&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.3126&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,570.643&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.2906&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,570.64&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;75026269&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;6&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.64&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.5003&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,627.665&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.42&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.4619&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,627.661&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;31299243&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;7&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M4A1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;13.5&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.7619&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,586.637&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.32&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.7402&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,586.635&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;24184490&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;8&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;13.68&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.8169&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,773.727&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.98&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.7879&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,773.719&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3.74E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;9&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A1[3]G(4)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;14.54&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.0808&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,732.698&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.24&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.095&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,732.692&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;93050430&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;10&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M5&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;14.92&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.1996&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,545.611&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;5.75&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.1692&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,545.608&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;4.31E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;11&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2[3]G(4)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;15.47&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.3716&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,789.718&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.36&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.29&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,789.714&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;27222853&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;12&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2[6]G(4)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;16.05&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.559&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,935.777&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2.87&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.5337&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,935.772&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.15E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;13&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2[3]G(4)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;16.46&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.6921&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,935.779&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2.3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.6633&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,935.772&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.72E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;14&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2[6]BG(4)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;16.83&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.8134&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,138.856&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.66&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;6.8&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,138.851&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;49258887&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;15&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M6&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;17.54&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.0486&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,707.662&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.61&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.1138&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,707.661&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;45834299&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;16&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2G(4)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;17.81&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.1397&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,951.772&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4.05&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.0955&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,951.767&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3.04E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;17&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M6 D1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;18.07&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.2303&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;854.8377&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.21&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.14&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;821.7959&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;15499336&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;18&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2BG(4)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;18.52&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.3836&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,154.865&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.78&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.35&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,154.846&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;58458127&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;19&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2G(4)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;18.69&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.4413&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,097.832&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.91&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.4266&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,097.825&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;6.68E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;20&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M5A1G(4)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;19.03&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.5596&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,910.739&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.69&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.431&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,910.74&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;51800792&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;21&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2BG(4)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;19.21&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.6232&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,300.913&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.31&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.605&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,300.904&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;23189435&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;22&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;19.69&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.7936&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,300.912&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.15&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.7585&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,300.904&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;86301406&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;23&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2[6]G(4)1S(6)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;19.9&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.8696&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,226.876&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3.7&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;7.84&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,226.867&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.77E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;24&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M7 D1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;20.3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.0131&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,869.719&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.65&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.0285&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,869.714&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;48971172&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;25&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2G(4)2S(3)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;20.47&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.0732&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;748.6280&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.29&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.06&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;729.282&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;96888102&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;26&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2G(4)2S(3)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;20.68&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.1502&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,388.927&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.36&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.124&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,388.92&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;7.01E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;27&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2[3]G(4)1Sg(6)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;21.06&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.2939&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,242.868&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.65&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.3057&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,242.862&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;48619741&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;28&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2G(4)2S(6)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;21.65&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.5146&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,195.4673&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.14&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.55&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,394.5757&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;10806796&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;29&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2G(4)2S(3,3)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;21.83&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.5856&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,533.966&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3.97&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.57&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,533.958&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.97E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2[3]G(4)1S(6)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;22.11&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.6935&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;694.6104&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.69&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;586.5778&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;7558824&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;31&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2BG(4)2S(6)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;22.3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.7666&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,592.009&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.67&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.82&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,591.999&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;50024309&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;32&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2G(4)2S(3,3)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;22.47&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.8339&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,680.025&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.92&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;8.85&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,680.016&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;8.94E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;33&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2G(4)2S(3,6)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;22.92&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.0107&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,533.965&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.33&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,533.958&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;24788235&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;34&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A3G(4)3S(3)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;23.33&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.1737&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,608.012&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.57&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.23&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,607.994&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.18E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;35&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A2G(4)2S(6,6)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;23.8&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.3668&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;845.6598&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.48&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.415&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;869.3230&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.11E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;36&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)3S(3)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;24.02&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.4614&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,754.06&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.68&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.538&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,754.052&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;50906409&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;37&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A2G(4)2S(6,6)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;24.21&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.5405&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,680.015&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.47&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.69&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,680.016&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;35023310&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;38&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M9&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;24.47&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.6488&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,193.825&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.32&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.6667&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,193.819&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;98775879&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;39&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A4G(4)4&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;24.92&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.8416&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,828.098&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2.12&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.915&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,828.089&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.59E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;40&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3Lac3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;25.05&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.8994&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,537.1048&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.68&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;9.91&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,529.1198&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;50960194&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;41&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)3Lac1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;25.33&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.019&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,828.1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.72&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.015&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,828.089&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.29E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;42&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A3S(6)1G(4,4,3)3S(3,6)2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;26.04&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.3369&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,190.18&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.31&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,190.185&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;82361071&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;43&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;M10 a3D1,a3D3,a2D4(2)&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;26.42&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.5103&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,355.882&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.53&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,355.872&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.5E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;44&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)3S(3,3,3)3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;26.62&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.6002&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,336.262&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2.97&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.6267&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,336.243&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.23E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;45&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;A3G(4)3S(3,3,6)3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;26.99&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.774&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,879.0101&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.51&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.72&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2,862.6845&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;38209650&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;46&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)2Ga(3)2Sg(6)1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;27.29&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.9168&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;978.3740&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.99&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;10.94&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;940.687&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.49E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;47&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A4G(4)4Lac1&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;27.53&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.0304&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,193.235&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.14&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.01&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,193.221&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;10417180&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;48&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)3Lac2&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;27.79&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.1559&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,065.41&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.52&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.16&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1,059.7256&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.14E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;49&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A4G(4)4S(3,3,3)3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;28.52&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.5199&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,701.393&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;2.02&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.52&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,701.375&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.51E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;50&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)3Lac1S(3,3,3)3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;28.81&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.666&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,701.389&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;1.39&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;11.71&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,701.375&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.04E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;51&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A4G(4)4S(3,3,3,3)4&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;29.73&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.148&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,992.491&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3.7&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.17&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;3,992.471&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.77E+08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;52&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A3G(4)3Lac2S(3,3,3)3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;30.47&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.5441&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4,066.515&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.66&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.52&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4,066.508&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;49654386&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;53&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;F(6)A4G(4)4Lac1S(3,3,3)3&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;30.73&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.6875&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4,066.512&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;0.54&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;12.7&lt;/td&gt;&lt;td align="char" char="." rowspan="1" colspan="1"&gt;4,066.508&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;40618466&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">T1</infon>
+      <infon key="type">table</infon>
+      <offset>15110</offset>
+      <text>SL. No Component name Observed RT (min) Glycan units Observed mass (Da) % Amount (%) Expected glycan units Expected mass (Da) Charge Response   1 M3 9.04 4.3583 1,221.507 0.43 4.3633 1,221.502 2 31886133   2 F(6)M3 10.27 4.752 1,367.564 0.81 4.7617 1,367.56 2 60887988   3 A1 10.9 4.9581 1,424.587 0.33 4.9699 1,424.582 2 24741016   4 M4 11.72 5.2148 1,383.558 0.46 5.3077 1,383.555 2 34666288   5 F(6)A1 12.03 5.3126 1,570.643 1 5.2906 1,570.64 2 75026269   6 A2 12.64 5.5003 1,627.665 0.42 5.4619 1,627.661 2 31299243   7 M4A1 13.5 5.7619 1,586.637 0.32 5.7402 1,586.635 2 24184490   8 F(6)A2 13.68 5.8169 1,773.727 4.98 5.7879 1,773.719 2 3.74E+08   9 F(6)A1[3]G(4)1 14.54 6.0808 1,732.698 1.24 6.095 1,732.692 2 93050430   10 M5 14.92 6.1996 1,545.611 5.75 6.1692 1,545.608 2 4.31E+08   11 A2[3]G(4)1 15.47 6.3716 1,789.718 0.36 6.29 1,789.714 2 27222853   12 F(6)A2[6]G(4)1 16.05 6.559 1,935.777 2.87 6.5337 1,935.772 2 2.15E+08   13 F(6)A2[3]G(4)1 16.46 6.6921 1,935.779 2.3 6.6633 1,935.772 2 1.72E+08   14 F(6)A2[6]BG(4)1 16.83 6.8134 2,138.856 0.66 6.8 2,138.851 2 49258887   15 M6 17.54 7.0486 1,707.662 0.61 7.1138 1,707.661 2 45834299   16 A2G(4)2 17.81 7.1397 1,951.772 4.05 7.0955 1,951.767 2 3.04E+08   17 M6 D1 18.07 7.2303 854.8377 0.21 7.14 821.7959 2 15499336   18 A2BG(4)2 18.52 7.3836 2,154.865 0.78 7.35 2,154.846 3 58458127   19 F(6)A2G(4)2 18.69 7.4413 2,097.832 8.91 7.4266 2,097.825 2 6.68E+08   20 M5A1G(4)1 19.03 7.5596 1,910.739 0.69 7.431 1,910.74 2 51800792   21 F(6)A2BG(4)2 19.21 7.6232 2,300.913 0.31 7.605 2,300.904 3 23189435   22 F(6)A3G(4)2 19.69 7.7936 2,300.912 1.15 7.7585 2,300.904 3 86301406   23 F(6)A2[6]G(4)1S(6)1 19.9 7.8696 2,226.876 3.7 7.84 2,226.867 2 2.77E+08   24 M7 D1 20.3 8.0131 1,869.719 0.65 8.0285 1,869.714 2 48971172   25 A2G(4)2S(3)1 20.47 8.0732 748.6280 1.29 8.06 729.282 2 96888102   26 F(6)A2G(4)2S(3)1 20.68 8.1502 2,388.927 9.36 8.124 2,388.92 2 7.01E+08   27 F(6)A2[3]G(4)1Sg(6)1 21.06 8.2939 2,242.868 0.65 8.3057 2,242.862 2 48619741   28 F(6)A2G(4)2S(6)1 21.65 8.5146 1,195.4673 0.14 8.55 1,394.5757 2 10806796   29 A2G(4)2S(3,3)2 21.83 8.5856 2,533.966 3.97 8.57 2,533.958 3 2.97E+08   30 A2[3]G(4)1S(6)1 22.11 8.6935 694.6104 0.1 8.69 586.5778 2 7558824   31 F(6)A2BG(4)2S(6)1 22.3 8.7666 2,592.009 0.67 8.82 2,591.999 3 50024309   32 F(6)A2G(4)2S(3,3)2 22.47 8.8339 2,680.025 11.92 8.85 2,680.016 3 8.94E+08   33 A2G(4)2S(3,6)2 22.92 9.0107 2,533.965 0.33 9 2,533.958 3 24788235   34 A3G(4)3S(3)1 23.33 9.1737 2,608.012 1.57 9.23 2,607.994 3 1.18E+08   35 A2G(4)2S(6,6)2 23.8 9.3668 845.6598 1.48 9.415 869.3230 2 1.11E+08   36 F(6)A3G(4)3S(3)1 24.02 9.4614 2,754.06 0.68 9.538 2,754.052 2 50906409   37 F(6)A2G(4)2S(6,6)2 24.21 9.5405 2,680.015 0.47 9.69 2,680.016 2 35023310   38 M9 24.47 9.6488 2,193.825 1.32 9.6667 2,193.819 2 98775879   39 F(6)A4G(4)4 24.92 9.8416 2,828.098 2.12 9.915 2,828.089 3 1.59E+08   40 F(6)A3Lac3 25.05 9.8994 1,537.1048 0.68 9.91 1,529.1198 2 50960194   41 F(6)A3G(4)3Lac1 25.33 10.019 2,828.1 1.72 10.015 2,828.089 3 1.29E+08   42 A3S(6)1G(4,4,3)3S(3,6)2 26.04 10.3369 3,190.18 1.1 10.31 3,190.185 3 82361071   43 M10 a3D1,a3D3,a2D4(2) 26.42 10.5103 2,355.882 2 10.53 2,355.872 2 1.5E+08   44 F(6)A3G(4)3S(3,3,3)3 26.62 10.6002 3,336.262 2.97 10.6267 3,336.243 3 2.23E+08   45 A3G(4)3S(3,3,6)3 26.99 10.774 2,879.0101 0.51 10.72 2,862.6845 3 38209650   46 F(6)A3G(4)2Ga(3)2Sg(6)1 27.29 10.9168 978.3740 1.99 10.94 940.687 2 1.49E+08   47 F(6)A4G(4)4Lac1 27.53 11.0304 3,193.235 0.14 11.01 3,193.221 3 10417180   48 F(6)A3G(4)3Lac2 27.79 11.1559 1,065.41 1.52 11.16 1,059.7256 2 1.14E+08   49 F(6)A4G(4)4S(3,3,3)3 28.52 11.5199 3,701.393 2.02 11.52 3,701.375 3 1.51E+08   50 F(6)A3G(4)3Lac1S(3,3,3)3 28.81 11.666 3,701.389 1.39 11.71 3,701.375 3 1.04E+08   51 F(6)A4G(4)4S(3,3,3,3)4 29.73 12.148 3,992.491 3.7 12.17 3,992.471 3 2.77E+08   52 F(6)A3G(4)3Lac2S(3,3,3)3 30.47 12.5441 4,066.515 0.66 12.52 4,066.508 3 49654386   53 F(6)A4G(4)4Lac1S(3,3,3)3 30.73 12.6875 4,066.512 0.54 12.7 4,066.508 3 40618466   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">T1.xml</infon>
+      <infon key="id">T1</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>19129</offset>
+      <text>Abbreviations: F, fucose; G, galactose; A1, monoantennary; A2, biantennary; Sg, N-glycolylneuraminic acid; Ga, a1,3-linked galactose.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-09-805788-g002.jpg</infon>
+      <infon key="id">F2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>19263</offset>
+      <text>The relative abundance levels of various glycan attributes obtained by summing the corresponding normalized abundance levels for each glycan species that possess that attribute (listed in Table 1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19461</offset>
+      <text>Based on the VRC01 glycan profile using the standard analysis method, 12 glycan species were selected for the monitoring using the glycan screening method (highlighted in Table 1). The selection of these species was made based on the relative % amount, with each of these glycan species present in an amount greater than or equal to 3%. Cumulatively, these 12 glycan species constitute ~65% of overall VRC01 glycans.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>19880</offset>
+      <text>3.2 Glycan Screening Method</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19908</offset>
+      <text>The first step in the development of the glycan screening method was to prepare a library of glycan species devoid of GU value information. This step was accomplished by deleting the corresponding GU values of each of the glycan species from the existing waters-commercial glycan library. The Waters commercial glycan library contains GU values of 168 N-linked glycans derived from trastuzumab, infliximab, etanercept, NISTmAb, human serum polyclonal IgG, mouse serum polyclonal IgG, erythropoietin, bovine fetuin, and yeast invertase. The rationale of choosing these glycoproteins for the generation of glycan search library was two-fold: 1) to comprehensively cover the three classes of N-linked glycans namely, high mannose, complex, and hybrid structures; and 2) to provide the extensive coverage of the N-linked glycans that are routinely attached to the therapeutic mAbs and other biopharmaceutical products. Each of these glycans in the commercial library contains information about the corresponding GU values and accurate mass information. The glycan screening library, therefore, is composed of these 168 N-linked glycan species with their only corresponding accurate mass information (Supplementary Table S1). Further, the retention time information of the VRC01 glycan species that are shortlisted for screening was updated to the glycan screening method from the standard run. We note that accurate mass will be used as a primary search variable while the retention time of the glycan species is to be used as a confirmatory variable in the glycan screening method. The retention time information needs to be updated for each separation gradient used for the glycan analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>21599</offset>
+      <text>3.3 Comparison of VRC01 Glycosylation From Four Different Clones</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21664</offset>
+      <text>Several clonal CHO cell lines expressing VRC01 mAb were evaluated for the following criterion: the clone should have maximum viable cell densities ranging between 1.0-2.0 x 107 cells/ml and enough volumetric productivity over a standard 14 days fed-batch platform process to ensure that enough material for analysis of N-linked glycans was generated for analysis. Further, the glycan profile should be within a range that allows for any change to be reliably measured in every aspect of the glycosylation profile: galactosylation, fucosylation, sialylation, and high mannose content.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22253</offset>
+      <text>We conducted eight independent fed-batch experiments using the glycan screening method to select one out of the four available clones (two replicates for each clone) for further evaluation. Each of the clones exhibited different volumetric productivities and were developed using a DHFR-based MTX selection system and the detail of their development is provided in a recent publication. The clones, specifically A11, CP24, CP19, and CP 35 demonstrated titers of 1,770, 1,550, 750, and 61 mg/L.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22748</offset>
+      <text>The glycosylation profiles of VRC01 from these clones show large reproducible differences in the levels of sialylation, galactosylation, and fucosylation. As shown in Figure 3, the highest producing clone A11, exhibited maximum relative abundance of the levels of sialylation (~24%), galactosylation (55%), and fucosylation (50%). On the other hand, the lowest producing clone CP35 exhibited the lowest relative abundance of sialylation (10%), galactosylation (35%), and fucosylation (25%). The intermediate producer clones, CP19 and CP24, resulted in relative levels of sialylation, and fucosylation that were less than A11, but higher than CP35. The galactosylation levels in CP24 and CP35 clones were 33.9 +- 1.97 and 36.9 +- 4.36, thereby indicating that the changes are not statistically significant between these 2 cell lines. However, it was found that while the productivity of CP24 cell lines was more than CP19, the levels of the sialylation, galactosylation, and fucosylation were higher in CP19 indicating that the glycosylation levels does not follow a linear relationship with the productivity of the clone. All four clones exhibited different glycan profiles indicating variability in the glycan processing machinery potentially attributed to differential availability of nucleotide sugars, glycan precursors, conformational steric hindrance, and metabolic activity of each clone.</text>
+      <annotation id="57">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:46:42Z</infon>
+        <location offset="22795" length="6"/>
+        <text>clones</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:46:51Z</infon>
+        <location offset="22855" length="46"/>
+        <text>sialylation, galactosylation, and fucosylation</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:38:04Z</infon>
+        <location offset="22947" length="9"/>
+        <text>clone A11</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:36:11Z</infon>
+        <location offset="23012" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:36:14Z</infon>
+        <location offset="23032" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:36:19Z</infon>
+        <location offset="23059" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:38:13Z</infon>
+        <location offset="23119" length="10"/>
+        <text>clone CP35</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:36:41Z</infon>
+        <location offset="23173" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:36:46Z</infon>
+        <location offset="23192" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:36:49Z</infon>
+        <location offset="23219" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:37:36Z</infon>
+        <location offset="23265" length="12"/>
+        <text>clones, CP19</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:37:47Z</infon>
+        <location offset="23282" length="4"/>
+        <text>CP24</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:38:32Z</infon>
+        <location offset="23319" length="29"/>
+        <text>sialylation, and fucosylation</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:38:41Z</infon>
+        <location offset="23369" length="3"/>
+        <text>A11</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:38:45Z</infon>
+        <location offset="23390" length="4"/>
+        <text>CP35</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:39:00Z</infon>
+        <location offset="23400" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:38:52Z</infon>
+        <location offset="23426" length="13"/>
+        <text>CP24 and CP35</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:39:13Z</infon>
+        <location offset="23634" length="15"/>
+        <text>CP24 cell lines</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:39:17Z</infon>
+        <location offset="23664" length="4"/>
+        <text>CP19</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:39:55Z</infon>
+        <location offset="23688" length="46"/>
+        <text>sialylation, galactosylation, and fucosylation</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:39:22Z</infon>
+        <location offset="23750" length="4"/>
+        <text>CP19</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:40:02Z</infon>
+        <location offset="23775" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:40:14Z</infon>
+        <location offset="23863" length="5"/>
+        <text>clone</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:40:19Z</infon>
+        <location offset="23879" length="6"/>
+        <text>clones</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:40:24Z</infon>
+        <location offset="23906" length="15"/>
+        <text>glycan profiles</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-09-805788-g003.jpg</infon>
+      <infon key="id">F3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>24147</offset>
+      <text>The relative levels of various glycan attribute. (A) Sialylation, (B) Galactosylation, (C) Fucosylation and (D) Mannose content for four different CHO clones (A11, CP19, CP24, and CP35) expressing VRC01 mAb in a 12 days long fed-culture. The suffix 01 and 02 represents the biological replicates for each of the clone.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24467</offset>
+      <text>There was no significant difference in the levels of the high mannose glycoforms (M5 forms) in VRC01 from any of the four clones indicating that the structural diversification from the immature high mannose N-glycans into relatively more processed and functionally mature forms consisting of hybrid and complex N- glycans subtypes did take place, regardless of the differences in the productivity of the clones. All clones exhibited similar viable cell density and viability profiles through day 3 before diverging, likely as a result of innate clonal variations. Clone CP35 seemed to diverge the most as it exhibited the highest VCD with nearly 50% greater cell density during exponential growth. This increase in exponential growth for CP35, correlated with greater glucose/nutrient consumption and lactate production which may be associated with apoptosis, leading to a shortened fed-batch culture duration in comparison to the other cell clones. Meanwhile, clone A11 showed slightly greater late culture viability than CP19 and CP24, and A11 had a distinctively lower lactate profile than the other cell clones. Based on these characteristics, the A11 clone was selected for further studies to explore glycosylation dynamics of VRC01 under different culture conditions.</text>
+      <annotation id="32">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:50:42Z</infon>
+        <location offset="24524" length="23"/>
+        <text>high mannose glycoforms</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:51:02Z</infon>
+        <location offset="24589" length="6"/>
+        <text>clones</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:51:27Z</infon>
+        <location offset="24652" length="31"/>
+        <text>immature high mannose N-glycans</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:51:34Z</infon>
+        <location offset="24770" length="18"/>
+        <text>complex N- glycans</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T20:51:16Z</infon>
+        <location offset="24871" length="6"/>
+        <text>clones</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:18:03Z</infon>
+        <location offset="25673" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:18:30Z</infon>
+        <location offset="25721" length="18"/>
+        <text>culture conditions</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>25741</offset>
+      <text>3.4 Day-Wise Evolution of VRC01 Glycans in a Fed-Batch CHO Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25813</offset>
+      <text>The A11 CHO clone was cultivated in a 14 days fed-batch cell culture process, carried out in a 25 ml shake flask. HILIC was used for VRC01 glycan analysis from cell-culture harvest samples collected on different days across exponential growth (days 5, 7, and 8) and the stationary production phase (days 9 and 11). The individual glycan structures were then grouped into major glycosylated species, namely high mannose, galactosylated, sialylated, fucosylated, and afucosylated species.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26302</offset>
+      <text>The FLR traces of the monitored glycans of the VRC01 for the respective days are shown in Figure 4. On day 5, all 12 monitored glycans species were detected and identified, though some were low abundance. With the increasing cell culture duration until day 8, the relative abundance of certain glycan species such as F(6)A2, F(6)A2(6)G(4)1, F(6)A2(3)G(4)1, increased. However, the amounts of F(6)A2G(4)2, F(6)A2G(4)2S(3)1, F(6)A2G(4)2S(3,3)2, A2G(4)2S(3)1 remained relatively constant from day 5 to day 8 (growth phase). From day 8 onwards, the relative abundances of the latter glycan species started decreasing, while the former glycans remained unchanged. The relative abundance of the M5 species remained the same throughout the cell culture period. These data are consistent with a bottleneck in the VRC01 glycosylation that is not in the ability to convert high mannose into low mannose (and followed by the subsequent extension of the glycosylation network in the Golgi), but with steps leading to the transfer of galactosyl and sialyl transfer might be the rate-limiting step in overall glycosylation reaction of the VRC01 in CHO cells. The relatively constant levels of glycoforms such as A2G(4)2S(3)1, F(6) A2G(4)2S(3)1, F(6)A2G(4)2S(3,3)2, and A2G(4)2S(3,6)2 (all of them representing terminally sialylated forms) was observed during the cell culture phase when the viable cell density (VCD) was increasing. However, as the VCD started to decline from day 8 onwards, the relative abundances of the sialylated glycoforms also started decreasing. This decrease in the levels of sialylated glycans at later days of the cell culture (beyond day 8) might be attributed either to the availability of necessary nucleotide sugar donors (NSDs) or the expression levels of the enzymes responsible for the transfer of sialic acid to the growing glycosylation network on the VRC01, or both.</text>
+      <annotation id="39">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:24:41Z</infon>
+        <location offset="26527" length="21"/>
+        <text>cell culture duration</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:24:53Z</infon>
+        <location offset="26596" length="14"/>
+        <text>glycan species</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:48:09Z</infon>
+        <location offset="26828" length="5"/>
+        <text>day 8</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:48:17Z</infon>
+        <location offset="26881" length="14"/>
+        <text>glycan species</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:25:11Z</infon>
+        <location offset="26991" length="10"/>
+        <text>M5 species</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:25:17Z</infon>
+        <location offset="27035" length="19"/>
+        <text>cell culture period</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:31:38Z</infon>
+        <location offset="27397" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:31:45Z</infon>
+        <location offset="27436" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:31:59Z</infon>
+        <location offset="27481" length="10"/>
+        <text>glycoforms</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:32:03Z</infon>
+        <location offset="27500" length="12"/>
+        <text>A2G(4)2S(3)1</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:32:08Z</infon>
+        <location offset="27514" length="17"/>
+        <text>F(6) A2G(4)2S(3)1</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:32:12Z</infon>
+        <location offset="27533" length="18"/>
+        <text>F(6)A2G(4)2S(3,3)2</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:32:18Z</infon>
+        <location offset="27557" length="14"/>
+        <text>A2G(4)2S(3,6)2</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:32:51Z</infon>
+        <location offset="27651" length="18"/>
+        <text>cell culture phase</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:34:32Z</infon>
+        <location offset="27737" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:34:39Z</infon>
+        <location offset="27811" length="21"/>
+        <text>sialylated glycoforms</text>
+      </annotation>
+      <annotation id="53">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:34:52Z</infon>
+        <location offset="27889" length="18"/>
+        <text>sialylated glycans</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:35:01Z</infon>
+        <location offset="27911" length="30"/>
+        <text>later days of the cell culture</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:35:17Z</infon>
+        <location offset="28080" length="7"/>
+        <text>enzymes</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:35:25Z</infon>
+        <location offset="28120" length="11"/>
+        <text>sialic acid</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-09-805788-g004.jpg</infon>
+      <infon key="id">F4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28192</offset>
+      <text>Day-wise evolution of various glycan species of the VRC01 mAb expressed using A11 CHO cell line in fed-batch culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>28310</offset>
+      <text>3.5 Comparison of VRC01 Glycosylation Grown in Three Different Media</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28379</offset>
+      <text>The workflow was used for the assessment of the impact of the different cell culture media on the VRC01 glycosylation characteristics. Here, the VRC01 mAb were expressed in a fed-batch CHO culture in both bioreactor and the shake-flask modes of operation in three different media (Media 1, 2, and 3). As shown in Figure 5A, glycans of the VRC01 grown in Media 1 and 2 show similar relative abundances. In contrast, we observed a lower abundance of all glycan species from samples grown in Medium 3 as evidenced by the signal intensity in Figure 5A. The Man 5 species was ~27 and ~52% less in Media 2 and 3, respectively, as compared to that of Medium 1. Similarly, the afucosylated content (mainly from the A2G(4)2 and A2G(4)2S(3,3)2 species) constituted 11.2, 14.9, and 15.6% respectively in Media 1, 2, and 3. Another significant difference in the VRC01 glycosylation that was seen across the three media was in levels of sialylation which exhibited the following trend: sialylation (Medium 3)&gt; sialylation (Medium 2) &gt; sialylation (Medium 1). The increase in sialylation in Media 2 and 3 were attributed to the increase in the relative abundances of following glycan species in Media 2 and 3, respectively as compared that in Medium 1: F(6)A2[6]G(4)1S(6)1 (25.6 and 29.9%), F(6)A2G(4)2S(3)1 (17 and 28.2%), A2G(4)2S(3,3)2 (39.6 and 62%), F(6)A2G(4)2S(3,3)2 (49.2 and 59.3%), F(6)A3G(4)3S(3,3,3)3 (15.3 and 50%), and F(6)A4G(4)4S(3,3,3,3)4 (57 and 56%). Thus, we generally observed a modest increase in the levels of mono-sialylation, and a significant increase in the levels of di-, tri-, and tetra-sialylation of VRC01 glycans in Media 2 and 3, respectively as compared to Medium 1. In addition, consistent with this trend, a modest increase of 12.7 and 21.2% were noted in the levels of galactosylation of VRC01 grown in Media 2 and 3 as compared to Medium 1 (Figure 5B).</text>
+      <annotation id="61">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:49:21Z</infon>
+        <location offset="28451" length="18"/>
+        <text>cell culture media</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:49:29Z</infon>
+        <location offset="28483" length="29"/>
+        <text>glycosylation characteristics</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:49:43Z</infon>
+        <location offset="28564" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:50:33Z</infon>
+        <location offset="28703" length="7"/>
+        <text>glycans</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:50:26Z</infon>
+        <location offset="28733" length="13"/>
+        <text>Media 1 and 2</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:50:42Z</infon>
+        <location offset="28831" length="14"/>
+        <text>glycan species</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T21:50:48Z</infon>
+        <location offset="28868" length="8"/>
+        <text>Medium 3</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:01:10Z</infon>
+        <location offset="28932" length="13"/>
+        <text>Man 5 species</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:01:03Z</infon>
+        <location offset="28971" length="13"/>
+        <text>Media 2 and 3</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:01:29Z</infon>
+        <location offset="29048" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:01:40Z</infon>
+        <location offset="29172" length="17"/>
+        <text>Media 1, 2, and 3</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:02:05Z</infon>
+        <location offset="29441" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:02:11Z</infon>
+        <location offset="29456" length="13"/>
+        <text>Media 2 and 3</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:05:52Z</infon>
+        <location offset="29542" length="14"/>
+        <text>glycan species</text>
+      </annotation>
+      <annotation id="74">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:06:43Z</infon>
+        <location offset="29560" length="13"/>
+        <text>Media 2 and 3</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:06:08Z</infon>
+        <location offset="29898" length="16"/>
+        <text>mono-sialylation</text>
+      </annotation>
+      <annotation id="77">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:06:24Z</infon>
+        <location offset="29960" length="32"/>
+        <text>di-, tri-, and tetra-sialylation</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:06:31Z</infon>
+        <location offset="30013" length="13"/>
+        <text>Media 2 and 3</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:08:17Z</infon>
+        <location offset="30056" length="8"/>
+        <text>Medium 1</text>
+      </annotation>
+      <annotation id="82">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:08:43Z</infon>
+        <location offset="30171" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:08:30Z</infon>
+        <location offset="30205" length="13"/>
+        <text>Media 2 and 3</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:08:35Z</infon>
+        <location offset="30234" length="8"/>
+        <text>Medium 1</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-09-805788-g005.jpg</infon>
+      <infon key="id">F5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30260</offset>
+      <text> (A) Released glycan map (FLR trace) of the VRC01 expressed using A11 clone in three different media. (B) Relative abundance of various glycan attributes of VRC01 grown in the three different media.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30459</offset>
+      <text>The low levels of high mannose glycans along with higher levels of afucosylated glycans seen in Media 2 and 3 as compared to Medium 1 suggests a positive impact of cell culture medium composition on the product quality attribute of VRC01 in the former as compared to the latter. The presence of high mannose glycans in biotherapeutics has been correlated with their rapid clearance in the body resulting in decreased half-life of the molecule. Similarly, a positive correlation between the levels of afucosylated glycans and the antibody-mediated cell cytotoxicity has been established. Recently, a positive correlation in the levels of sialylation and anti-inflammatory activity has also been observed for several mAbs.</text>
+      <annotation id="83">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:08:56Z</infon>
+        <location offset="30477" length="20"/>
+        <text>high mannose glycans</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:09:01Z</infon>
+        <location offset="30526" length="20"/>
+        <text>afucosylated glycans</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:09:11Z</infon>
+        <location offset="30555" length="13"/>
+        <text>Media 2 and 3</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:09:17Z</infon>
+        <location offset="30584" length="8"/>
+        <text>Medium 1</text>
+      </annotation>
+      <annotation id="87">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-21T22:09:55Z</infon>
+        <location offset="30754" length="20"/>
+        <text>high mannose glycans</text>
+      </annotation>
+      <annotation id="90">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:03:58Z</infon>
+        <location offset="30825" length="15"/>
+        <text>rapid clearance</text>
+      </annotation>
+      <annotation id="91">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:04:06Z</infon>
+        <location offset="30866" length="19"/>
+        <text>decreased half-life</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:03:05Z</infon>
+        <location offset="30959" length="20"/>
+        <text>afucosylated glycans</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:03:24Z</infon>
+        <location offset="30988" length="35"/>
+        <text>antibody-mediated cell cytotoxicity</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:04:44Z</infon>
+        <location offset="31096" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="93">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:04:53Z</infon>
+        <location offset="31112" length="26"/>
+        <text>anti-inflammatory activity</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>31180</offset>
+      <text>3.6 Comparison of VRC01 Glycosylation Grown Under Two Different Process Conditions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31263</offset>
+      <text>Finally, the glycan profile of VRC01 grown in the Ambr250 bioreactor under two different process conditions was assessed using a glycan screening workflow. The two processes differed from each other in terms of the feedback loop used for DO control over the course of the cell culture (Supplementary Figure S1). The processes are referred to as 2-level DO and 6-level DO, respectively.</text>
+      <annotation id="94">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:05:55Z</infon>
+        <location offset="31276" length="14"/>
+        <text>glycan profile</text>
+      </annotation>
+      <annotation id="95">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:06:04Z</infon>
+        <location offset="31501" length="10"/>
+        <text>DO control</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31649</offset>
+      <text>As seen in Figure 6, there are substantial differences in the glycosylation profiles of the VRC01 expressed under these two conditions. The 6-level DO process resulted in the presence of greater than ~10-fold higher mannose forms in the VRC01 than the 2-level DO process. This difference is evident from the presence of M5, M7, and M9 forms (peaks 2, 7, 12 in Figure 6A) in the former and was completely absent (except trace levels of M5) in the latter. Even though the overall galactosylation levels of the VRC01 from both processes were similar, several compositional differences of individual glycan forms were also noted between the two processes. For example, while the ratio of peak areas of G1F isoforms (peaks 3 and 4) is 3:1 for the 2-level DO process, it is almost 1:1 for the 6-level DO process. However, the G2F species (peak 6) is significantly higher in abundance in the 6-level DO process than the 2-level DO process, thereby compensating for the decrease in the G1F form. There was no significant change in the sialylated forms (peaks 8, 9,10, and 11), which resulted in a similar level of overall sialylation in the VRC01 from both processes.</text>
+      <annotation id="96">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:06:16Z</infon>
+        <location offset="31789" length="10"/>
+        <text>6-level DO</text>
+      </annotation>
+      <annotation id="97">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:06:24Z</infon>
+        <location offset="31865" length="7"/>
+        <text>mannose</text>
+      </annotation>
+      <annotation id="98">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:06:35Z</infon>
+        <location offset="31901" length="10"/>
+        <text>2-level DO</text>
+      </annotation>
+      <annotation id="99">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:07:14Z</infon>
+        <location offset="31969" length="14"/>
+        <text>M5, M7, and M9</text>
+      </annotation>
+      <annotation id="100">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:08:18Z</infon>
+        <location offset="32347" length="3"/>
+        <text>G1F</text>
+      </annotation>
+      <annotation id="101">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:08:30Z</infon>
+        <location offset="32391" length="10"/>
+        <text>2-level DO</text>
+      </annotation>
+      <annotation id="102">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:08:39Z</infon>
+        <location offset="32436" length="10"/>
+        <text>6-level DO</text>
+      </annotation>
+      <annotation id="103">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:09:00Z</infon>
+        <location offset="32469" length="3"/>
+        <text>G2F</text>
+      </annotation>
+      <annotation id="104">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:09:09Z</infon>
+        <location offset="32534" length="10"/>
+        <text>6-level DO</text>
+      </annotation>
+      <annotation id="105">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:09:23Z</infon>
+        <location offset="32562" length="10"/>
+        <text>2-level DO</text>
+      </annotation>
+      <annotation id="106">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T00:09:32Z</infon>
+        <location offset="32627" length="8"/>
+        <text>G1F form</text>
+      </annotation>
+      <annotation id="109">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T01:23:09Z</infon>
+        <location offset="32763" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="110">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T01:23:21Z</infon>
+        <location offset="32798" length="9"/>
+        <text>processes</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-09-805788-g006.jpg</infon>
+      <infon key="id">F6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>32811</offset>
+      <text> (A) Released glycan map (FLR trace) of the VRC01 expressed using A11 clone using two different processes in Ambr 250 bioreactor. (B) Relative abundance of various glycan attributes of VRC01 grown under the two process conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33042</offset>
+      <text>Thus, the workflow can highlight the impact of process changes on the observed glycan heterogeneity of mAbs from CHO cell cultures.</text>
+      <annotation id="108">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T01:22:47Z</infon>
+        <location offset="33121" length="6"/>
+        <text>glycan</text>
+      </annotation>
+      <annotation id="107">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-22T01:22:41Z</infon>
+        <location offset="33155" length="3"/>
+        <text>CHO</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>33174</offset>
+      <text>4 Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33187</offset>
+      <text>A major consideration with the CHO-based mAb production is the need to assess the glycan heterogeneity. Several factors, including process parameters, media and feed compositions, cell culture duration, and feeding strategy impacts glycan heterogeneity. It is important to understand the source of glycan heterogeneity during mAb production to devise strategies to minimize the glycosylation variations observed during manufacturing. Towards this goal, an analytical method that can provide a comprehensive mAb glycosylation profile by separating and resolving as many glycan species as possible is of significant interest. The current approach of performing such an analysis is by the enzymatic release of the glycans from the mAbs followed by their separation and detection using LC-FLR-MS.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33980</offset>
+      <text>In the present study, a screening method for glycan analysis is developed that leverages the accurate mass and retention time of the glycan species for their identification and annotation. The proposed method has an advantage over the existing released glycan workflows regarding its ability to optimize the separation gradient that can help improve the resolving power of the chromatography. Additionally, the method does not require calibration using the dextran ladder for each analysis campaign as only the accurate mass and retention time is used for identification and annotation of the glycan species in the released glycan map, thus the method offers advantages as a screening approach as a surrogate to other methods that may be validated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34729</offset>
+      <text>The method was applied to understand the glycan heterogeneity of VRC01 under various processing conditions. The existing literature attributes cell culture duration as one of the most dominant factors that bring about changes in the N-glycan distribution, gene expression profiles, metabolic states, and changes in the cell cycle. A general trend that is observed for different host cell lines, mAbs, and feeding strategies is an increase in the specific productivity with a simultaneous decrease in the levels of galactosylation over the course of typical fed-batch cell culture. The decrease in the levels of galactosylation is more pronounced towards the end of the culture. Our observations are consistent with this trend. The enhanced protein secretion capacity (at higher specific productivity) potentially corresponds to shorter Golgi residence time, but at the same time limits the glycosylation reactions leading to incomplete processing of the glycosylation resulting in lower galactosylation levels. However, our data on the glycosylation profiles of the VRC01 mAb expressed in CHO cell lines with a wide range of cell-specific productivities shows that the least productive clone also had the lowest galactosylation levels. This observation suggests that there are additional molecular mechanisms that may contribute.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36059</offset>
+      <text>Endogenous human IgG1 contains &lt;1% of high mannose glycans. In contrast, recombinant therapeutic mAbs include ~10% high mannose glycans. Thus, there is interest in limiting excessive high mannose glycan formation in IgGs during commercial manufacturing. Current trends in biopharmaceutical manufacturing such as process intensification, development of fully humanized mAbs, growth in biosimilar products, development of high concentration mAb formulations, and the emergence of next-generation biopharmaceuticals such as anti-drug conjugates and bispecific antibodies, necessitates the control of high mannose content as a critical aspect in the process development.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36728</offset>
+      <text>Our analysis of the range of process conditions, cell lines, cell culture duration, and feed conditions indicate that high mannose glycans in VRC01 are unaffected by clone-specific productivity differences, standard commercial medium feeds (unless specific additives are used that are known to influence the high mannose glycan formation) and even the cell culture duration. However, under different DO control conditions in an AMBR250 bioreactor, it was found that there was a 10-fold increase in the high mannose content. The most abundant high-mannose structure observed was the M5 form, along with M3, M4, M6, M7, and M9 forms that were present in relatively very low abundance as compared to the M5 form. The occurrence of Man 5 glycans could potentially be attributed either by the action of mannosidases in the Golgi complex or from an incomplete/truncated biosynthesis of lipid linked oligosaccharides (LLO) in the endoplasmic reticulum (ER). The M6, M7 glycans also could be an outcome of inefficient glycan processing in the Golgi complex, although they could also originate from incomplete LLO biosynthesis. Inefficient ER processing, potentially originating from a bottleneck in the availability of nucleotide sugar substrates such as UDP-GlcNAc and UDP-Man in the ER, thereby creating an imbalance in the protein folding and synthesis rates could also be a causative factor leading to the accumulation of high mannose glycans. Other process conditions that have been reported to cause ER stress during CHO cell cultures include a combination of factors such as temperature, pH, trace metals (zinc, copper), specific media supplements (Choline, spermine, ornithine). In addition, there are reports in the literature showing that the extended cell culture durations also lead to less processing of glycans resulting in high mannose glycans. Similarly, the impact of cell-specific productivity on the high mannose content is generally attributed to steric hinderance effects in the enzymatic processes, making the impact product-specific and less generalizable.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38800</offset>
+      <text>Another important mAb glycan attribute is the level of fucosylation. The high levels of fucosylation impose steric hindrance around the glycosylation site and thus inhibit the interaction of the Fc domain of the mAb with the Fc receptors on the effector cells leading to low antibody-dependent cell-mediated cytotoxicity (ADCC). However, existing data on commercial mAbs indicate only &lt;10% of the recombinant mAbs as being non-fucosylated. The most common strategies employed to reduce mAb fucosylation includes the use of engineered cell lines lacking the enzyme (alpha-1,6 fructosyltransferase) or overexpressing beta(1-4)-N-acetylglucosaminyltransferase III gene (GnTIII), use of glycoside inhibitor kifunensine, and zinc finer mediated knockdown of fucose transport gene. mAb fucosylation can also be varied by controlling the cell culture osmolarity and pH, where an inverse correlation exists. Here, we observed that the less-productive clone (CP35) also had the lowest fucosylation levels:consistent with observations from others. Also, the fucosylation level was observed to decrease with the loss in the cell viability at later days of cell culture (potentially due to accumulation of the lactate and ammonia that impacts the cell culture pH). The three different media used in the cell culture did not impact levels of the VRC01 fucosylation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40153</offset>
+      <text>Together, our results illustrate that clonal variability, cell culture duration, media and feed, and process conditions together impact VRC01 mAb glycan heterogeneity. The reasons for glycan heterogeneity are multi-factorial and strategies to obtain a particular level of a particular glycoform towards achieving the desired product quality requires knowledge and adjustment of these parameters. The analytical method reported in this work provides a step towards elucidating and determining the complex relationship between process variables and glycosylation. Additional studies expanding on the data obtained from this study using multi-omic approaches will provide additional insights into the sources of glycan heterogeneity of mAbs during CHO cell culture and thereby aid in robust process development to control the glycosylation attributes to the desired levels.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>41024</offset>
+      <text>5 Conclusion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41037</offset>
+      <text>The present study reports the development of a HILIC based glycan screening method for characterization of mAb glycosylation. The method employs the accurate mass of the glycans as the primary search variable and retention time as the confirmatory variable. The method was employed to study the source of glycan heterogeneity in a model IgG1 mAb, VRC01. It was determined that clonal heterogeneity, cell culture duration, and the process conditions impact several glycan attributes such as galactosylation, sialylation, fucosylation, and high mannose forms. Overall, the analytical method and glycosylation data presented here can guide in-depth analysis and process development to optimize the levels of VRC01 glycosylation for the desired product quality.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>41795</offset>
+      <text>Data Availability Statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41823</offset>
+      <text>The original contributions presented in the study are included in the article/Supplementary Material, further inquiries can be directed to the corresponding author.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_1</infon>
+      <offset>41988</offset>
+      <text>Author Contributions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42009</offset>
+      <text>SS conceived the work, executed experiments, and analyzed data. KL conceived the work, sponsored the work, and analyzed data. All authors contributed to manuscript revision, read, and approved the submitted version.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title_1</infon>
+      <offset>42225</offset>
+      <text>Funding</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42233</offset>
+      <text>The work has been supported, in part, by the National Science Foundation (1624698, 1736123) and NIST (70NANB17H002).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>42350</offset>
+      <text>Conflict of Interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42371</offset>
+      <text>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>42544</offset>
+      <text>Publisher's Note</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42563</offset>
+      <text>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>42910</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42933</offset>
+      <text>The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fbioe.2021.805788/full#supplementary-material </text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>43093</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="name_1">surname:Rathore;given-names:A. S.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Batra;given-names:J.</infon>
+      <infon key="fpage">1091</infon>
+      <infon key="pub-id_doi">10.1002/BTPR.2366</infon>
+      <infon key="pub-id_pmid">27677099</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1102</infon>
+      <offset>43104</offset>
+      <text>Glycosylation of Monoclonal Antibody Products: Current Status and Future Prospects</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_1">surname:Robinson;given-names:D. K.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bibila;given-names:T. A.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1021/BP00031A001</infon>
+      <infon key="pub-id_pmid">7765983</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">13</infon>
+      <offset>43187</offset>
+      <text>In Pursuit of the Optimal Fed-Batch Process for Monoclonal Antibody Production</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="name_1">surname:Aebi;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Breitling;given-names:J.</infon>
+      <infon key="fpage">a013359</infon>
+      <infon key="pub-id_doi">10.1101/cshperspect.a013359</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Cold Spring Harbor Perspect. Biol.</infon>
+      <infon key="type">ref</infon>
+      <offset>43266</offset>
+      <text>N-linked Protein Glycosylation in the Endoplasmic Reticulum</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Spencer;given-names:D. I. R.</infon>
+      <infon key="name_2">surname:Fernandes;given-names:D. L.</infon>
+      <infon key="name_1">surname:Pardos-Pardos;given-names:A. C.</infon>
+      <infon key="name_0">surname:Domann;given-names:P. J.</infon>
+      <infon key="fpage">70</infon>
+      <infon key="pub-id_doi">10.1002/PMIC.200700640</infon>
+      <infon key="pub-id_pmid">17893855</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">76</infon>
+      <infon key="name_5">surname:Royle;given-names:L.</infon>
+      <infon key="name_4">surname:Radcliffe;given-names:C. M.</infon>
+      <offset>43326</offset>
+      <text>Separation-based Glycoprofiling Approaches Using Fluorescent Labels</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Veuthey;given-names:J.-L.</infon>
+      <infon key="name_2">surname:Beck;given-names:A.</infon>
+      <infon key="name_1">surname:Jiskoot;given-names:W.</infon>
+      <infon key="name_0">surname:Duivelshof;given-names:B. L.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1016/J.ACA.2019.08.044</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Analytica Chim. Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">1089</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">18</infon>
+      <infon key="name_5">surname:D'Atri;given-names:V.</infon>
+      <infon key="name_4">surname:Guillarme;given-names:D.</infon>
+      <offset>43394</offset>
+      <text>Glycosylation of Biosimilars: Recent Advances in Analytical Characterization and Clinical Implications</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Eon-Duval;given-names:A.</infon>
+      <infon key="name_2">surname:Gleixner;given-names:R.</infon>
+      <infon key="name_1">surname:Broly;given-names:H.</infon>
+      <infon key="name_0">surname:Eon-Duval;given-names:A.</infon>
+      <infon key="fpage">608</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1548</infon>
+      <infon key="pub-id_pmid">22473974</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">622</infon>
+      <infon key="name_5">surname:Gleixner;given-names:R.</infon>
+      <infon key="name_4">surname:Broly;given-names:H.</infon>
+      <offset>43497</offset>
+      <text>Quality Attributes of Recombinant Therapeutic Proteins: An Assessment of Impact on Safety and Efficacy as Part of a Quality by Design Development Approach</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Drickamer;given-names:K.</infon>
+      <infon key="name_2">surname:Rex;given-names:M. J.</infon>
+      <infon key="name_1">surname:Jegouzo;given-names:S. A. F.</infon>
+      <infon key="name_0">surname:Feinberg;given-names:H.</infon>
+      <infon key="fpage">13402</infon>
+      <infon key="pub-id_doi">10.1074/JBC.M117.799080</infon>
+      <infon key="pub-id_pmid">28652405</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">292</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">13414</infon>
+      <infon key="name_5">surname:Taylor;given-names:M. E.</infon>
+      <infon key="name_4">surname:Weis;given-names:W. I.</infon>
+      <offset>43652</offset>
+      <text>Mechanism of Pathogen Recognition by Human Dectin-2</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ungar;given-names:D.</infon>
+      <infon key="volume">7</infon>
+      <infon key="name_2">surname:Wood;given-names:A. J.</infon>
+      <infon key="name_1">surname:Thomas-Oates;given-names:J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Fisher;given-names:P.</infon>
+      <infon key="fpage">157</infon>
+      <infon key="pub-id_doi">10.3389/fcell.2019.00157</infon>
+      <infon key="pub-id_pmid">31457009</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Front. Cell Dev. Biol.</infon>
+      <infon key="type">ref</infon>
+      <offset>43704</offset>
+      <text>The N-Glycosylation Processing Potential of the Mammalian Golgi Apparatus</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shah;given-names:B.</infon>
+      <infon key="name_2">surname:Zhang;given-names:Z.</infon>
+      <infon key="name_1">surname:Liu;given-names:Y. D.</infon>
+      <infon key="name_0">surname:Goetze;given-names:A. M.</infon>
+      <infon key="fpage">949</infon>
+      <infon key="pub-id_doi">10.1093/GLYCOB/CWR027</infon>
+      <infon key="pub-id_pmid">21421994</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">959</infon>
+      <infon key="name_5">surname:Bondarenko;given-names:P. V.</infon>
+      <infon key="name_4">surname:Lee;given-names:E.</infon>
+      <offset>43778</offset>
+      <text>High-mannose Glycans on the Fc Region of Therapeutic IgG Antibodies Increase Serum Clearance in Humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="name_2">surname:Yoon;given-names:S.</infon>
+      <infon key="name_1">surname:Bhatia;given-names:H.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Graham;given-names:R. J.</infon>
+      <infon key="fpage">3446</infon>
+      <infon key="pub-id_doi">10.1002/BIT.27140</infon>
+      <infon key="pub-id_pmid">31403183</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3456</infon>
+      <offset>43881</offset>
+      <text>Consequences of Trace Metal Variability and Supplementation on Chinese Hamster Ovary (CHO) Cell Culture Performance: A Review of Key Mechanisms and Considerations</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="name_1">surname:Mantalaris;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Grilo;given-names:A. L.</infon>
+      <infon key="fpage">9</infon>
+      <infon key="pub-id_doi">10.1016/J.TIBTECH.2018.05.014</infon>
+      <infon key="pub-id_pmid">29945725</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Trends Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">16</infon>
+      <offset>44044</offset>
+      <text>The Increasingly Human and Profitable Monoclonal Antibody Market</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:McManus;given-names:C. A.</infon>
+      <infon key="name_2">surname:Alley;given-names:W. R.</infon>
+      <infon key="name_1">surname:William;given-names:R. A.;suffix:Jr.</infon>
+      <infon key="name_0">surname:Hilliard;given-names:M.</infon>
+      <infon key="fpage">1349</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2017.1377381</infon>
+      <infon key="pub-id_pmid">28895795</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1359</infon>
+      <infon key="name_5">surname:Hallinan;given-names:S.</infon>
+      <infon key="name_4">surname:Yu;given-names:Y. Q.</infon>
+      <offset>44109</offset>
+      <text>Glycan Characterization of the NIST RM Monoclonal Antibody Using a Total Analytical Solution: From Sample Preparation to Data Analysis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:James;given-names:D. C.</infon>
+      <infon key="name_2">surname:Boyd;given-names:P.</infon>
+      <infon key="name_1">surname:Patel;given-names:A.</infon>
+      <infon key="name_0">surname:Hills;given-names:A. E.</infon>
+      <infon key="fpage">239</infon>
+      <infon key="pub-id_doi">10.1002/BIT.10022</infon>
+      <infon key="pub-id_pmid">11536148</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">75</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">251</infon>
+      <offset>44244</offset>
+      <text>Metabolic Control of Recombinant Monoclonal antibodyN-Glycosylation in GS-NS0 Cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="name_2">surname:Li;given-names:Z. J.</infon>
+      <infon key="name_1">surname:Khattak;given-names:S. F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hossler;given-names:P.</infon>
+      <infon key="fpage">936</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwp079</infon>
+      <infon key="pub-id_pmid">19494347</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">949</infon>
+      <offset>44328</offset>
+      <text>Optimal and Consistent Protein Glycosylation in Mammalian Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="name_2">surname:Hu;given-names:W.-S.</infon>
+      <infon key="name_1">surname:Mulukutla;given-names:B. C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hossler;given-names:P.</infon>
+      <infon key="fpage">e713</infon>
+      <infon key="pub-id_doi">10.1371/JOURNAL.PONE.0000713</infon>
+      <infon key="pub-id_pmid">17684559</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <offset>44399</offset>
+      <text>Systems Analysis of N-Glycan Processing in Mammalian Cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Packer;given-names:N. H.</infon>
+      <infon key="name_2">surname:Kolarich;given-names:D.</infon>
+      <infon key="name_1">surname:Karlsson;given-names:N. G.</infon>
+      <infon key="name_0">surname:Jensen;given-names:P. H.</infon>
+      <infon key="fpage">1299</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1038/nprot.2012.063</infon>
+      <infon key="pub-id_pmid">22678433</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Nat. Protoc.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1310</infon>
+      <offset>44458</offset>
+      <text>Structural Analysis of N- and O-Glycans Released from Glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="name_2">surname:Xu;given-names:S.</infon>
+      <infon key="name_1">surname:Chen;given-names:H.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jiang;given-names:R.</infon>
+      <infon key="fpage">1731</infon>
+      <infon key="pub-id_doi">10.1007/S00449-018-1996-Y</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Bioproc. Biosyst. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1741</infon>
+      <offset>44526</offset>
+      <text>pH Excursions Impact CHO Cell Culture Performance and Antibody N-Linked Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Haslam;given-names:S.</infon>
+      <infon key="name_2">surname:Dell;given-names:A.</infon>
+      <infon key="name_1">surname:Constantinou;given-names:A.</infon>
+      <infon key="name_0">surname:Jimenez del Val;given-names:I.</infon>
+      <infon key="fpage">O10</infon>
+      <infon key="pub-id_doi">10.1186/1753-6561-7-s6-o10</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">BMC Proc.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_5">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_4">surname:Polizzi;given-names:K. M.</infon>
+      <offset>44612</offset>
+      <text>A Quantitative and Mechanistic Model for Monoclonal Antibody Glycosylation as a Function of Nutrient Availability during Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_2">surname:Weilguny;given-names:D.</infon>
+      <infon key="name_1">surname:Fan;given-names:Y.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jimenez del Val;given-names:I.</infon>
+      <infon key="fpage">610</infon>
+      <infon key="pub-id_doi">10.1002/BIOT.201400663</infon>
+      <infon key="pub-id_pmid">26743760</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">623</infon>
+      <offset>44746</offset>
+      <text>Dynamics of Immature mAb Glycoform Secretion during CHO Cell Culture: An Integrated Modelling Framework</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shah;given-names:B.</infon>
+      <infon key="name_2">surname:Richardson;given-names:J.</infon>
+      <infon key="name_1">surname:Zhang;given-names:Z.</infon>
+      <infon key="name_0">surname:Kang;given-names:S.</infon>
+      <infon key="fpage">22</infon>
+      <infon key="pub-id_doi">10.1016/J.JBIOTEC.2015.03.002</infon>
+      <infon key="pub-id_pmid">25797592</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">203</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">31</infon>
+      <infon key="name_5">surname:Huang;given-names:C.-J.</infon>
+      <infon key="name_4">surname:Gupta;given-names:S.</infon>
+      <offset>44850</offset>
+      <text>Metabolic Markers Associated with High Mannose Glycan Levels of Therapeutic Recombinant Monoclonal Antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Epstein;given-names:E.</infon>
+      <infon key="name_2">surname:Yee;given-names:J. C.</infon>
+      <infon key="name_1">surname:Jacob;given-names:N. M.</infon>
+      <infon key="name_0">surname:Kantardjieff;given-names:A.</infon>
+      <infon key="fpage">143</infon>
+      <infon key="pub-id_doi">10.1016/J.JBIOTEC.2009.09.008</infon>
+      <infon key="pub-id_pmid">19770009</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">145</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">159</infon>
+      <infon key="name_5">surname:Philp;given-names:R.</infon>
+      <infon key="name_4">surname:Kok;given-names:Y.-J.</infon>
+      <offset>44960</offset>
+      <text>Transcriptome and Proteome Analysis of Chinese Hamster Ovary Cells under Low Temperature and Butyrate Treatment</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kaur;given-names:H.</infon>
+      <infon key="fpage">300</infon>
+      <infon key="pub-id_doi">10.1080/07388551.2020.1869684</infon>
+      <infon key="pub-id_pmid">33430641</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Crit. Rev. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">315</infon>
+      <offset>45072</offset>
+      <text>Characterization of Glycosylation in Monoclonal Antibodies and its Importance in Therapeutic Antibody Development</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Takahashi;given-names:E.</infon>
+      <infon key="name_2">surname:Takahashi;given-names:K.</infon>
+      <infon key="name_1">surname:Kobayashi;given-names:Y.</infon>
+      <infon key="name_0">surname:Konno;given-names:Y.</infon>
+      <infon key="fpage">249</infon>
+      <infon key="pub-id_doi">10.1007/S10616-011-9377-2</infon>
+      <infon key="pub-id_pmid">21870215</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">64</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">265</infon>
+      <infon key="name_5">surname:Wakitani;given-names:M.</infon>
+      <infon key="name_4">surname:Sakae;given-names:S.</infon>
+      <offset>45186</offset>
+      <text>Fucose Content of Monoclonal Antibodies Can Be Controlled by Culture Medium Osmolality for High Antibody-dependent Cellular Cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">70</infon>
+      <infon key="name_2">surname:Doi;given-names:T.</infon>
+      <infon key="name_1">surname:Miyakawa;given-names:I.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kuwae;given-names:S.</infon>
+      <infon key="fpage">939</infon>
+      <infon key="pub-id_doi">10.1007/S10616-017-0185-1</infon>
+      <infon key="pub-id_pmid">29322349</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">948</infon>
+      <offset>45323</offset>
+      <text>Development of a Chemically Defined Platform Fed-Batch Culture media for Monoclonal Antibody-Producing CHO Cell Lines with Optimized Choline Content</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hua;given-names:Z.</infon>
+      <infon key="name_2">surname:Brousmiche;given-names:D. W.</infon>
+      <infon key="name_1">surname:Yu;given-names:Y.-Q.</infon>
+      <infon key="name_0">surname:Lauber;given-names:M. A.</infon>
+      <infon key="fpage">5401</infon>
+      <infon key="pub-id_doi">10.1021/ACS.ANALCHEM.5B00758</infon>
+      <infon key="pub-id_pmid">25927596</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Anal. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">87</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">5409</infon>
+      <infon key="name_5">surname:Magnelli;given-names:P.</infon>
+      <infon key="name_4">surname:Koza;given-names:S. M.</infon>
+      <offset>45472</offset>
+      <text>Rapid Preparation of Released N-Glycans for HILIC Analysis Using a Labeling Reagent that Facilitates Sensitive Fluorescence and ESI-MS Detection</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Xu;given-names:S.</infon>
+      <infon key="name_2">surname:Murgolo;given-names:N.</infon>
+      <infon key="name_1">surname:Podtelezhnikov;given-names:A. A.</infon>
+      <infon key="name_0">surname:Madabhushi;given-names:S. R.</infon>
+      <infon key="fpage">92</infon>
+      <infon key="pub-id_doi">10.1016/J.JBIOTEC.2021.01.023</infon>
+      <infon key="pub-id_pmid">33549674</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">329</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">103</infon>
+      <infon key="name_4">surname:Lin;given-names:H.</infon>
+      <offset>45617</offset>
+      <text>Understanding the Effect of Increased Cell Specific Productivity on Galactosylation of Monoclonal Antibodies Produced Using Chinese Hamster Ovary Cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Broly;given-names:H.</infon>
+      <infon key="name_2">surname:Palinsky;given-names:W.</infon>
+      <infon key="name_1">surname:Audino;given-names:M. C.</infon>
+      <infon key="name_0">surname:Mastrangeli;given-names:R.</infon>
+      <infon key="fpage">1154</infon>
+      <infon key="pub-id_doi">10.1016/J.TIBTECH.2020.05.009</infon>
+      <infon key="pub-id_pmid">32616303</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Trends Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">38</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1168</infon>
+      <infon key="name_4">surname:Bierau;given-names:H.</infon>
+      <offset>45769</offset>
+      <text>The Formidable Challenge of Controlling High Mannose-type N-Glycans in Therapeutic mAbs</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:O'Flaherty;given-names:R.</infon>
+      <infon key="name_2">surname:Saldova;given-names:R.</infon>
+      <infon key="name_1">surname:Katoh;given-names:T.</infon>
+      <infon key="name_0">surname:Mimura;given-names:Y.</infon>
+      <infon key="fpage">47</infon>
+      <infon key="pub-id_doi">10.1007/s13238-017-0433-3</infon>
+      <infon key="pub-id_pmid">28597152</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Protein Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">62</infon>
+      <infon key="name_5">surname:Mimura-Kimura;given-names:Y.</infon>
+      <infon key="name_4">surname:Izumi;given-names:T.</infon>
+      <offset>45857</offset>
+      <text>Glycosylation Engineering of Therapeutic IgG Antibodies: Challenges for the Safety, Functionality and Efficacy</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lee;given-names:K. H.</infon>
+      <infon key="name_1">surname:Singh;given-names:S. K.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Nmagu;given-names:D.</infon>
+      <infon key="fpage">267</infon>
+      <infon key="pub-id_doi">10.1016/BS.MIE.2021.06.039</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Methods in Enzymology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">295</infon>
+      <offset>45968</offset>
+      <text>Creation of Monoclonal Antibody Expressing CHO Cell Lines Grown With Sodium Butyrate and Characterization of Resulting Antibody Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bayer;given-names:R.</infon>
+      <infon key="name_2">surname:Autsen;given-names:J.</infon>
+      <infon key="name_1">surname:Yu;given-names:M.</infon>
+      <infon key="name_0">surname:Pacis;given-names:E.</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="pub-id_doi">10.1002/BIT.23200</infon>
+      <infon key="pub-id_pmid">21557201</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2358</infon>
+      <infon key="name_4">surname:Li;given-names:F.</infon>
+      <offset>46110</offset>
+      <text>Effects of Cell Culture Conditions on Antibody N-Linked Glycosylation-What Affects High Mannose 5 Glycoform</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Song;given-names:Z.</infon>
+      <infon key="name_2">surname:Lin;given-names:P. C.</infon>
+      <infon key="name_1">surname:Chan;given-names:K. F.</infon>
+      <infon key="name_0">surname:Pereira;given-names:N. A.</infon>
+      <infon key="fpage">693</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2018.1466767</infon>
+      <infon key="pub-id_pmid">29733746</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">711</infon>
+      <offset>46218</offset>
+      <text>The "Less-Is-More" in Therapeutic Antibodies: Afucosylated Anti-cancer Antibodies with Enhanced Antibody-dependent Cellular Cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Peter;given-names:B.</infon>
+      <infon key="name_2">surname:Falck;given-names:D.</infon>
+      <infon key="name_1">surname:Haberger;given-names:M.</infon>
+      <infon key="name_0">surname:Reusch;given-names:D.</infon>
+      <infon key="fpage">732</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2015.1045173</infon>
+      <infon key="pub-id_pmid">25996192</infon>
+      <infon key="year">2015a</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">742</infon>
+      <infon key="name_5">surname:Gassner;given-names:J.</infon>
+      <infon key="name_4">surname:Maier;given-names:B.</infon>
+      <offset>46355</offset>
+      <text>Comparison of Methods for the Analysis of Therapeutic Immunoglobulin G Fc-Glycosylation Profiles-Part 2: Mass Spectrometric Methods</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Maier;given-names:M.</infon>
+      <infon key="name_2">surname:Maier;given-names:B.</infon>
+      <infon key="name_1">surname:Haberger;given-names:M.</infon>
+      <infon key="name_0">surname:Reusch;given-names:D.</infon>
+      <infon key="fpage">167</infon>
+      <infon key="pub-id_doi">10.4161/19420862.2014.986000</infon>
+      <infon key="pub-id_pmid">25524468</infon>
+      <infon key="year">2015b</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">179</infon>
+      <infon key="name_5">surname:Zimmermann;given-names:B.</infon>
+      <infon key="name_4">surname:Kloseck;given-names:R.</infon>
+      <offset>46487</offset>
+      <text>Comparison of Methods for the Analysis of Therapeutic Immunoglobulin G Fc-Glycosylation Profiles-Part 1: Separation-Based Methods</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="name_1">surname:Aebi;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Schwarz;given-names:F.</infon>
+      <infon key="fpage">576</infon>
+      <infon key="pub-id_doi">10.1016/J.SBI.2011.08.005</infon>
+      <infon key="pub-id_pmid">21978957</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Curr. Opin. Struct. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">582</infon>
+      <offset>46617</offset>
+      <text>Mechanisms and Principles of N-Linked Protein Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="name_1">surname:Goudar;given-names:C. T.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Shi;given-names:H. H.</infon>
+      <infon key="fpage">1907</infon>
+      <infon key="pub-id_doi">10.1002/BIT.25318</infon>
+      <infon key="pub-id_pmid">24975601</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1919</infon>
+      <offset>46677</offset>
+      <text>Recent Advances in the Understanding of Biological Implications and Modulation Methodologies of Monoclonal Antibody N-Linked High Mannose Glycans</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mason;given-names:A.</infon>
+      <infon key="name_2">surname:Lee;given-names:K.</infon>
+      <infon key="name_1">surname:Sellick;given-names:C.</infon>
+      <infon key="name_0">surname:Sou;given-names:S. N.</infon>
+      <infon key="fpage">1165</infon>
+      <infon key="pub-id_doi">10.1002/BIT.25524</infon>
+      <infon key="pub-id_pmid">25545631</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1176</infon>
+      <infon key="name_5">surname:Polizzi;given-names:K. M.</infon>
+      <infon key="name_4">surname:Kyriakopoulos;given-names:S.</infon>
+      <offset>46823</offset>
+      <text>How Does Mild Hypothermia Affect Monoclonal Antibody Glycosylation?</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Cote;given-names:K.</infon>
+      <infon key="name_2">surname:Chu;given-names:A.-H. A.</infon>
+      <infon key="name_1">surname:Dolatshahi;given-names:S.</infon>
+      <infon key="name_0">surname:Sumit;given-names:M.</infon>
+      <infon key="fpage">102</infon>
+      <infon key="pub-id_doi">10.1016/J.ISCI.2019.01.006</infon>
+      <infon key="pub-id_pmid">30682623</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">iScience</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">120</infon>
+      <infon key="name_5">surname:Marshall;given-names:J. K.</infon>
+      <infon key="name_4">surname:Scarcelli;given-names:J. J.</infon>
+      <offset>46891</offset>
+      <text>Dissecting N-Glycosylation Dynamics in Chinese Hamster Ovary Cells Fed-Batch Cultures Using Time Course Omics Analyses</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Uddin;given-names:S.</infon>
+      <infon key="volume">14</infon>
+      <infon key="name_2">surname:Davies;given-names:S. A.</infon>
+      <infon key="name_1">surname:Mead;given-names:E. J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Talbot;given-names:N. E.</infon>
+      <infon key="fpage">1900024</infon>
+      <infon key="pub-id_doi">10.1002/BIOT.201900024</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_4">surname:Smales;given-names:C. M.</infon>
+      <offset>47010</offset>
+      <text>Application of ER Stress Biomarkers to Predict Formulated Monoclonal Antibody Stability</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Valbjorn;given-names:J.</infon>
+      <infon key="name_2">surname:Perdok;given-names:G.</infon>
+      <infon key="name_1">surname:Gerritsen;given-names:J.</infon>
+      <infon key="name_0">surname:van Berkel;given-names:P. H. C.</infon>
+      <infon key="fpage">244</infon>
+      <infon key="pub-id_doi">10.1002/BTPR.92</infon>
+      <infon key="pub-id_pmid">19224598</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">251</infon>
+      <infon key="name_5">surname:van de Winkel;given-names:J. G. J.</infon>
+      <infon key="name_4">surname:Vink;given-names:T.</infon>
+      <offset>47098</offset>
+      <text>N-linked Glycosylation Is an Important Parameter for Optimal Selection of Cell Lines Producing Biopharmaceutical Human IgG</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Walsh;given-names:G.</infon>
+      <infon key="fpage">1136</infon>
+      <infon key="pub-id_doi">10.1038/nbt.4305</infon>
+      <infon key="pub-id_pmid">30520869</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Nat. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1145</infon>
+      <offset>47221</offset>
+      <text>Biopharmaceutical Benchmarks 2018</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="name_1">surname:Satoh;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Yamane-Ohnuki;given-names:N.</infon>
+      <infon key="fpage">230</infon>
+      <infon key="pub-id_doi">10.4161/MABS.1.3.8328</infon>
+      <infon key="pub-id_pmid">20065644</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">236</infon>
+      <offset>47255</offset>
+      <text>Production of Therapeutic Antibodies with Controlled Fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Peng;given-names:W.</infon>
+      <infon key="name_2">surname:Dong;given-names:X.</infon>
+      <infon key="name_1">surname:Huang;given-names:Y.</infon>
+      <infon key="name_0">surname:Zhou;given-names:S.</infon>
+      <infon key="fpage">6590</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.7b00747</infon>
+      <infon key="pub-id_pmid">28475308</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Anal. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">6597</infon>
+      <infon key="name_5">surname:Kitagawa;given-names:D. A. S.</infon>
+      <infon key="name_4">surname:Veillon;given-names:L.</infon>
+      <offset>47321</offset>
+      <text>Isomeric Separation of Permethylated Glycans by Porous Graphitic Carbon (PGC)-LC-MS/MS at High Temperatures</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,2940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>6352710</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">3</infon>
+    <infon key="tt_round">3</infon>
+    <passage>
+      <infon key="name_3">surname:Cote;given-names:Kaffa</infon>
+      <infon key="name_2">surname:Chu;given-names:An-Hsiang Adam</infon>
+      <infon key="name_1">surname:Dolatshahi;given-names:Sepideh</infon>
+      <infon key="article-id_pmid">30682623</infon>
+      <infon key="name_0">surname:Sumit;given-names:Madhuresh</infon>
+      <infon key="notes">Published: February 22, 2019</infon>
+      <infon key="year">2019</infon>
+      <infon key="article-id_pmc">6352710</infon>
+      <infon key="article-id_publisher-id">S2589-0042(19)30006-9</infon>
+      <infon key="article-id_doi">10.1016/j.isci.2019.01.006</infon>
+      <infon key="title">Subject Areas</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">iScience. 2019 Feb 22;12:102-120. doi: 10.1016/j.isci.2019.01.006. Epub 2019 Jan </infon>
+      <infon key="lpage">120</infon>
+      <infon key="fpage">102</infon>
+      <infon key="volume">12</infon>
+      <infon key="license">This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).</infon>
+      <infon key="name_10">surname:Figueroa;given-names:Bruno;suffix:Jr.</infon>
+      <infon key="kwd">Process Biotechnology Industrial Biotechnology Metabolomics Transcriptomics</infon>
+      <infon key="name_9">surname:Mulukutla;given-names:Bhanu Chandra</infon>
+      <infon key="name_8">surname:Lauffenburger;given-names:Douglas A.</infon>
+      <infon key="name_7">surname:Weiss;given-names:Ron</infon>
+      <infon key="name_6">surname:Cornell;given-names:Richard J.</infon>
+      <infon key="name_5">surname:Marshall;given-names:Jeffrey K.</infon>
+      <infon key="authors">Sumit M, Dolatshahi S, Chu AA, Cote K, Scarcelli JJ, Marshall JK, Cornell RJ, Weiss R, Lauffenburger DA, Mulukutla BC, Figueroa B Jr</infon>
+      <infon key="name_4">surname:Scarcelli;given-names:John J.</infon>
+      <offset>0</offset>
+      <text>Dissecting N-Glycosylation Dynamics in Chinese Hamster Ovary Cells Fed-batch Cultures using Time Course Omics Analyses</text>
+      <annotation id="741">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:14:08Z</infon>
+        <location offset="39" length="21"/>
+        <text>Chinese Hamster Ovary</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>119</offset>
+      <text>Summary</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>127</offset>
+      <text>N-linked glycosylation affects the potency, safety, immunogenicity, and pharmacokinetic clearance of several therapeutic proteins including monoclonal antibodies. A robust control strategy is needed to dial in appropriate glycosylation profile during the course of cell culture processes accurately. However, N-glycosylation dynamics remains insufficiently understood owing to the lack of integrative analyses of factors that influence the dynamics, including sugar nucleotide donors, glycosyltransferases, and glycosidases. Here, an integrative approach involving multi-dimensional omics analyses was employed to dissect the temporal dynamics of glycoforms produced during fed-batch cultures of CHO cells. Several pathways including glycolysis, tricarboxylic citric acid cycle, and nucleotide biosynthesis exhibited temporal dynamics over the cell culture period. The steps involving galactose and sialic acid addition were determined as temporal bottlenecks. Our results show that galactose, and not manganese, is able to mitigate the temporal bottleneck, despite both being known effectors of galactosylation. Furthermore, sialylation is limited by the galactosylated precursors and autoregulation of cytidine monophosphate-sialic acid biosynthesis.</text>
+      <annotation id="355">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:14:04Z</infon>
+        <location offset="127" length="22"/>
+        <text>N-linked glycosylation</text>
+      </annotation>
+      <annotation id="356">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:14:11Z</infon>
+        <location offset="162" length="7"/>
+        <text>potency</text>
+      </annotation>
+      <annotation id="357">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:14:12Z</infon>
+        <location offset="171" length="6"/>
+        <text>safety</text>
+      </annotation>
+      <annotation id="358">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:25Z</infon>
+        <location offset="179" length="14"/>
+        <text>immunogenicity</text>
+      </annotation>
+      <annotation id="359">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:14:17Z</infon>
+        <location offset="199" length="25"/>
+        <text>pharmacokinetic clearance</text>
+      </annotation>
+      <annotation id="718">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T15:47:26Z</infon>
+        <location offset="436" length="24"/>
+        <text>N-glycosylation dynamics</text>
+      </annotation>
+      <annotation id="361">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:38Z</infon>
+        <location offset="540" length="7"/>
+        <text>factors</text>
+      </annotation>
+      <annotation id="362">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:42Z</infon>
+        <location offset="587" length="23"/>
+        <text>sugar nucleotide donors</text>
+      </annotation>
+      <annotation id="363">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:45Z</infon>
+        <location offset="612" length="20"/>
+        <text>glycosyltransferases</text>
+      </annotation>
+      <annotation id="364">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:47Z</infon>
+        <location offset="638" length="12"/>
+        <text>glycosidases</text>
+      </annotation>
+      <annotation id="367">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:14Z</infon>
+        <location offset="1110" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="368">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:15Z</infon>
+        <location offset="1129" length="9"/>
+        <text>manganese</text>
+      </annotation>
+      <annotation id="369">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:17Z</infon>
+        <location offset="1223" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="370">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:21Z</infon>
+        <location offset="1253" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="371">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:26Z</infon>
+        <location offset="1283" length="25"/>
+        <text>galactosylated precursors</text>
+      </annotation>
+      <annotation id="571">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:40Z</infon>
+        <location offset="1331" length="34"/>
+        <text>cytidine monophosphate-sialic acid</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>1380</offset>
+      <text>Graphical Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>1399</offset>
+      <text>Highlights</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1410</offset>
+      <text>Major glycosylated species exhibit temporal dynamics during fed-batch processes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1490</offset>
+      <text>Key metabolic pathways linked to N-glycosylation exhibit significant temporal dynamics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1577</offset>
+      <text>Dynamics in nucleotide sugar donors (NSDs) directly influences glycoform heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1664</offset>
+      <text>Glycoform heterogeneity can be mitigated by supplementing NSD biosynthetic precursors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1750</offset>
+      <text>Process Biotechnology; Industrial Biotechnology; Metabolomics; Transcriptomics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1829</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1842</offset>
+      <text>Over the past decade, monoclonal antibody (mAb) therapeutics has shown significant success in clinical studies and constitutes the majority of biologically derived drugs. More than 30% of the new drugs licensed currently are based on mAbs and biological therapeutics. N-linked glycosylation (N-glycosylation) is known to play a key role in governing the potency, safety, immunogenicity, and pharmacokinetic clearance of these proteins. It can therefore be a critical quality attribute of such biologically derived therapeutic proteins. N-glycosylation is a complex network of reactions resulting in a number of possible glycoform structures. As a result, despite consistent protein backbones, a number of different glycosylation isoforms (glycoforms) are observed on recombinant proteins purified from the harvest of a Chinese hamster ovary (CHO) cells fed-batch process. Therefore, a robust control strategy is needed during the course of a culture to dial in a desired harvest glycosylation profile accurately.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr1.jpg</infon>
+      <infon key="id">fig1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>2855</offset>
+      <text>Schematic of the Study</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr1.jpg</infon>
+      <infon key="id">fig1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>2878</offset>
+      <text>(A) Glycoform heterogeneity in the monoclonal antibodies observed in the harvest of a fed-batch culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr1.jpg</infon>
+      <infon key="id">fig1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>2983</offset>
+      <text>(B) Clonally propagated CHO-K1 cells with random integration of a monoclonal antibody gene were grown under two different processes, and time course analysis was performed on the transcriptome, metabolome, and mAb glycoform data to identify key bottlenecks.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3241</offset>
+      <text>Glycoform produced at any given time point in a cell culture process is heterogeneous. For example, there could be 5% mAbs with high mannose species, another 25% mAbs with galactosylated species, etc. (Figure 1A). However, this heterogeneity in glycoform also changes with time, or exhibits temporal dynamics. Both of these contribute toward the heterogeneity in glycoform observed at the harvest, also called cumulative glycoform. We hypothesize that the temporal variation in glycoform distribution is likely due to the kinetics of the metabolic components in the glycosylation network during CHO fed-batch cultures. Such temporal dynamics in glycosylation network activity can be due to changes in factors including sugar nucleotide levels, glycosylation enzyme levels, and availability of cofactors such as metal ions. These factors are, in turn, influenced by changes in cell culture process parameters including, but not limited to, culture nutrient levels, pH, levels of by-products such as lactate and ammonia, and temperature. Several groups have developed mathematical models to probe the heterogeneity of glycoforms in a cell culture process. Only recently, with the availability CHO genome data, several groups have implemented time course omics analysis of CHO fed-batch cultures to probe the system as a whole. However, our understanding of the dynamics in the intracellular factors influencing N-glycosylation, including levels of nucleotide sugar donors (NSDs), glycosyltransferases, and glycosidases, remains insufficient owing to the lack of an integrative and quantitative analyses of the same. In this study, a systems approach that employs multi-prong omics analyses was used to probe the glycosylation physiology of CHO cells in fed-batch cultures with the specific goal of dissecting the temporal dynamics in NSD synthesis, glycosylation-related gene expression, and levels of cofactors that play a key role in the glycosylation reaction network.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5212</offset>
+      <text>Briefly, in this study, a CHO-K1-derived cell line expressing a model mAb was cultivated in environmentally controlled bioreactors using two distinct fed-batch processes (Figure 1B). Time course transcriptomics (RNA sequencing [RNA-seq] analysis), metabolomics, and glycan analyses were performed on the two processes. Statistical and functional analyses, including principal-component analysis (PCA), gene set enrichment analysis (GSEA), time course gene set analyses (TCGSA), and time course differential gene and metabolite expression analyses (maSigPro), were performed on the omics data to identify pathways that were differentially regulated between the two processes or, within a process as a function of time. This helped identify potential factors that could be responsible for temporal dynamics in glycosylation reaction kinetics. Additional experiments were performed to validate and confirm the role of these factors in temporal dynamics of glycosylation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>6182</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6190</offset>
+      <text>Major Glycosylated Species Show Similar Temporal Dynamics across the Two Fed-Batch Processes Employed but Vary in Their Absolute Values</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr2.jpg</infon>
+      <infon key="id">fig2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>6326</offset>
+      <text>Glycan Species from the mAbs Exhibit Similar Time Dynamics Despite Process Variation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr2.jpg</infon>
+      <infon key="id">fig2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>6411</offset>
+      <text>(A) The two processes resulted in widely varying lactate profiles as well as cell growth and titer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr2.jpg</infon>
+      <infon key="id">fig2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>6511</offset>
+      <text>(B) Agalactosylated (G0) and high-mannose species increase over time, whereas terminal galactosylated and sialylated species decrease over time. Slight decrease in fucosylated species is also observed over time. A detailed classification of the glycan structures is provided in Data S2. Asterisks (*) represent p &lt; 0.05 for two-tailed unpaired t tests comparing CC and HD samples from each day.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6908</offset>
+      <text>A CHO-K1 host-cell-derived clone producing a model mAb was cultivated in two distinct 12-day fed-batch cell culture processes, namely, platform (CC) and HiPDOG (HD), carried out in 1-L working volume bioreactors (see the Transparent Methods for details on the process differences between CC and HD). Higher peak cell densities and titers were observed in the HD process than those observed in the CC process (Figure 2A). Peak lactate levels were significantly lower in the HD (~2 g/L) than in the CC process (~4 g/L). However, cells in CC culture underwent a strong metabolic shift to lactate consumption on day 5 of the process. The higher viable cell density observed in the HD process could therefore be due to the relatively lower peak lactate levels when compared with the CC process. Specific productivity or the amount of protein produced per cell per day (qP) was similar across both processes and increased over time until day 9 (Figure 2A). The dynamics of other process-related parameters and extracellular metabolites is shown in Figure S1A.</text>
+      <annotation id="19">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:55:45Z</infon>
+        <location offset="6910" length="6"/>
+        <text>CHO-K1</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7969</offset>
+      <text>Hydrophilic interaction chromatography-based glycan analysis was performed on the mAb molecules present in the spent media samples collected from different days of the two processes across the exponential "growth phase" (days 0, 3, 5) and the stationary "production phase" (days 7, 9, and 12) (Data S1). These glycan structures were then classified into major glycosylated species (Data S2). Each major glycosylated species had similar temporal dynamic patterns in both processes, but differed in the absolute level of the species measured (Figures 2B and S1B). For example, the levels of high mannose species, which is primarily the glycan core with five or more mannose moieties, and the agalactosylated species (G0) increased over time in both processes. However, terminally galactosylated species (term-gal) that have either one (G1) or two (G2) galactoses terminating the glycan chain decreased significantly over time across both processes. Furthermore, a slight decrease in the sialylated and fucosylated species was also observed over time in both processes. To understand the glycan profile of the mAbs at specific time points during the culture, instantaneous glycan profiles were calculated by taking the time derivative of the cumulative glycans with respect to the titer produced (Figure S1C, see Transparent Methods). These results suggested that there are two observations that needed explanation, namely, the absolute differences in the levels of major species (specifically galactosylation/agalactosylation) between the two fed-batch processes and the temporal changes in the major glycan species (which are relatively conserved across the two processes).</text>
+      <annotation id="589">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T19:02:34Z</infon>
+        <location offset="8366" length="26"/>
+        <text>major glycosylated species</text>
+      </annotation>
+      <annotation id="591">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:19:10Z</infon>
+        <location offset="8405" length="25"/>
+        <text>temporal dynamic patterns</text>
+      </annotation>
+      <annotation id="592">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T19:02:37Z</infon>
+        <location offset="8470" length="29"/>
+        <text>absolute level of the species</text>
+      </annotation>
+      <annotation id="382">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T14:40:37Z</infon>
+        <location offset="8558" length="20"/>
+        <text>high mannose species</text>
+      </annotation>
+      <annotation id="594">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T19:02:41Z</infon>
+        <location offset="8659" length="28"/>
+        <text>agalactosylated species (G0)</text>
+      </annotation>
+      <annotation id="595">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:20Z</infon>
+        <location offset="8711" length="14"/>
+        <text>both processes</text>
+      </annotation>
+      <annotation id="385">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:37Z</infon>
+        <location offset="8798" length="60"/>
+        <text>one (G1) or two (G2) galactoses terminating the glycan chain</text>
+      </annotation>
+      <annotation id="599">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:26Z</infon>
+        <location offset="8900" length="14"/>
+        <text>both processes</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:47Z</infon>
+        <location offset="8954" length="34"/>
+        <text>sialylated and fucosylated species</text>
+      </annotation>
+      <annotation id="602">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:30Z</infon>
+        <location offset="9020" length="14"/>
+        <text>both processes</text>
+      </annotation>
+      <annotation id="603">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:50Z</infon>
+        <location offset="9394" length="20"/>
+        <text>absolute differences</text>
+      </annotation>
+      <annotation id="390">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:53Z</infon>
+        <location offset="9460" length="32"/>
+        <text>galactosylation/agalactosylation</text>
+      </annotation>
+      <annotation id="606">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:56Z</infon>
+        <location offset="9506" length="23"/>
+        <text>two fed-batch processes</text>
+      </annotation>
+      <annotation id="607">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:35:59Z</infon>
+        <location offset="9538" length="16"/>
+        <text>temporal changes</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9651</offset>
+      <text>To explain the absolute differences in the major species between the two processes, differences in the spent culture media for the two processes were probed. As the two processes were implemented in distinct basal and feed media, a detailed metal ion analysis was performed to understand the differences between the processes (Figure S1D). Manganese, a known cofactor for the enzyme beta-1,4-galactosyltransferase-1 (B4GALT1), which catalyzes the addition of galactose to the extending glycan chain, was observed to be significantly lower in the CC samples. Although other metal ions such as Mg2+, Ca2+, and Cu2+ also showed differences between the two fed-batch processes and they could be potential covariates in contributing to the absolute differences, the goal was to identify the major influencing factor. As Mn2+ is directly linked to the galactosylation step, we hypothesized that manganese level could be the main reason for the differences in the absolute levels of term-gal species between the two processes. To test this, a fed-batch experiment was conducted in shake flasks with pH adjustment, by inoculating cells in the two basal media but with the manganese levels swapped between them (Figure S1E). Cells were inoculated in original or modified versions of CC and HD media. Modified versions of each medium had Mn2+ levels adjusted to match the starting levels in the original formulation of the other medium. This experiment was part of a bigger experiment described later in the last subsection of the Results section. The absolute levels of term-gal produced in the two media were found significantly different and corresponded to the swapped manganese concentrations. This established that the absolute difference in the galactosylated (and agalactosylated) species was mainly due to the difference in the culture manganese levels between the two processes.</text>
+      <annotation id="254">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T16:38:58Z</infon>
+        <location offset="9991" length="9"/>
+        <text>Manganese</text>
+      </annotation>
+      <annotation id="395">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:36:09Z</infon>
+        <location offset="10034" length="32"/>
+        <text>beta-1,4-galactosyltransferase-1</text>
+      </annotation>
+      <annotation id="715">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T16:39:45Z</infon>
+        <location offset="10137" length="6"/>
+        <text>glycan</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:36:21Z</infon>
+        <location offset="10197" length="2"/>
+        <text>CC</text>
+      </annotation>
+      <annotation id="614">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:36:24Z</infon>
+        <location offset="10466" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="615">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:07Z</infon>
+        <location offset="10497" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="719">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T16:49:49Z</infon>
+        <location offset="10540" length="9"/>
+        <text>manganese</text>
+      </annotation>
+      <annotation id="400">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T14:49:01Z</infon>
+        <location offset="10627" length="8"/>
+        <text>term-gal</text>
+      </annotation>
+      <annotation id="405">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T14:49:49Z</infon>
+        <location offset="11212" length="8"/>
+        <text>term-gal</text>
+      </annotation>
+      <annotation id="619">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:53Z</infon>
+        <location offset="11314" length="9"/>
+        <text>manganese</text>
+      </annotation>
+      <annotation id="407">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:37:38Z</infon>
+        <location offset="11393" length="14"/>
+        <text>galactosylated</text>
+      </annotation>
+      <annotation id="408">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:37:48Z</infon>
+        <location offset="11413" length="15"/>
+        <text>agalactosylated</text>
+      </annotation>
+      <annotation id="409">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:16:58Z</infon>
+        <location offset="11486" length="9"/>
+        <text>manganese</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11532</offset>
+      <text>From the instantaneous glycan profiles, it was apparent that throughout the fed-batch process, most of the glycans produced have the mannose sugars trimmed and N-acetylglucosamine (GlcNAc) added to them (Figure S1C). However, the amount of agalactosylated species increased with time, whereas those of the galactosylated and sialylated species decreased over time. This suggested that the conversion of high-mannose species into low-mannose species and the subsequent addition of GlcNAc in the Golgi might not have bottlenecks, but the steps involving galactosyl and sialyl transfer might be rate-limiting steps in the glycosylation reaction network. The reaction steps involving glycan chain extension in the N-glycosylation process are highly ordered and sequential. Under pseudo-steady-state assumption, the turnover rate (which includes factors such as precursor, substrate, enzyme concentrations and enzyme activity influenced by enzymatic rate constants, as well as steric hindrance) of reactants to products governs the fraction of substrate converted into product. For successive reaction steps, under no rate limitation, one can plot the substrate and product levels on x and y axes, respectively. For example, if all the glycans attached to mAbs exist as the terminal species, i.e., completely sialylated species, on a scatterplot of nth species as y axis and (n-1)th species as x axis, the data should fall on the y axis, i.e., (n-1)th species ~0% and nth species ~100%. For the rest of the intermediate species, because their levels are near zero, on a scatterplot of ith (y axis) and (i-1)th species (x axis), the data should fall at the intersection of the x and y axes, i.e., (i-1)th species ~0% and ith species ~0%. Alternatively, under rate limitation scenario, the scatterplot would be shifted to non-zero values due to significant buildup of the intermediate species, as seen in case of several glycosylated species (Figure S2). This alternative approach using quasi-steady-state analysis of instantaneous glycan profiles supports the same conclusion that the steps involving galactosyl and sialyl transfer might be rate-limiting steps in the glycosylation reaction network (Figure S2). Temporal variation observed in the glycoforms produced could be an outcome of these bottlenecks in the galactosylation and sialylation steps. To investigate the other potential reasons for the dynamic nature of the glycosylation profile, and to identify the bottlenecks in the galactosylation and sialylation steps, systems analysis approach integrating transcriptomic and metabolomic data was undertaken.</text>
+      <annotation id="414">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T14:51:26Z</infon>
+        <location offset="11772" length="15"/>
+        <text>agalactosylated</text>
+      </annotation>
+      <annotation id="621">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:03Z</infon>
+        <location offset="11811" length="4"/>
+        <text>time</text>
+      </annotation>
+      <annotation id="415">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T14:51:28Z</infon>
+        <location offset="11838" length="14"/>
+        <text>galactosylated</text>
+      </annotation>
+      <annotation id="416">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T14:51:30Z</infon>
+        <location offset="11857" length="10"/>
+        <text>sialylated</text>
+      </annotation>
+      <annotation id="624">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:06Z</infon>
+        <location offset="11891" length="4"/>
+        <text>time</text>
+      </annotation>
+      <annotation id="740">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:12:50Z</infon>
+        <location offset="11921" length="97"/>
+        <text>conversion of high-mannose species into low-mannose species and the subsequent addition of GlcNAc</text>
+      </annotation>
+      <annotation id="716">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-06T11:06:44Z</infon>
+        <location offset="12084" length="30"/>
+        <text>galactosyl and sialyl transfer</text>
+      </annotation>
+      <annotation id="717">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-06T11:07:41Z</infon>
+        <location offset="12151" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14155</offset>
+      <text>Systems Analysis Suggests that CHO Cells Undergo a Shift in Their Transcriptional, Metabolic, and Glycome Program along the Course of a Fed-Batch Culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr3.jpg</infon>
+      <infon key="id">fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14309</offset>
+      <text>CHO Cells Undergo a Shift in Transcriptional and Metabolic Profile during Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr3.jpg</infon>
+      <infon key="id">fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14396</offset>
+      <text>(A) Time course data for (i) genes that constitute top 10% variance across the samples, (ii) the intracellular metabolites, (iii) extracellular metabolites, and (iv) mAb glycoforms were correlated with all other samples, and the samples were clustered based on their pairwise Spearman correlation coefficients.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr3.jpg</infon>
+      <infon key="id">fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14707</offset>
+      <text>(B) Principal-component analysis of the transcriptomic, metabolomic, and glycan data. The first and second (top panel) or third (bottom panel) principal components together account for ~60%-90% of the variance in the omics data and show temporal shift in the CHO transcriptional and metabolic profile from growth phase (day 0 to day 7) to production phase (day 7 to day 12).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr3.jpg</infon>
+      <infon key="id">fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>15086</offset>
+      <text>(C) Time course data for process parameters were correlated with all other samples, and the samples were clustered based on their pairwise Spearman correlation coefficients showing that the parameters cluster separately for the two process conditions (HD and CD), regardless of the growth phase and production phase. Process variables included in the analysis are glucose, lactate, glutamate, pH, media feed, base feed, glucose feed, and ICP metals (fed differently in the two processes). As the units of each of the variables differ, the data were z-normalized for each variable before calculating the Spearman correlations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15712</offset>
+      <text>Time course analyses of global transcript levels (RNA-seq) as well as intra- and extracellular metabolite levels were performed for the samples collected from both CC and HD processes (see the Transparent Methods and Data S3, S4, and S5). Pairwise clustering, using the Spearman correlation was used to cluster samples based on the transcriptional profile of the genes constituting the top 10% variance (Figure 3A [i]). Irrespective of the process employed, the samples within each phase, i.e., growth or production phase, clustered together. Next, pairwise clustering was performed on the time course extracellular and intracellular metabolomic data (Figure 3A [ii, iii]). Similar to the transcriptomic data, the metabolomics data also showed clustering of samples based on growth or production phase, irrespective of the processes. Alternatively, PCA performed on the transcriptome data showed that the trajectory of change in the variance over the course of the culture, as explained by principal component 1 (PC1) and PC2 or PC3, appears to be primarily dictated by the growth or production phase of the culture, together explaining 75% of the total variance (Figure 3B [i]). PCA of the metabolomics data revealed similar shift in the metabolic state of the cells during the growth and production phases, together explaining 63% and 52% of the variance for the extracellular and intracellular metabolites, respectively (Figure 3B [ii, iii]). These analyses showed that the metabolic and transcriptional footprints of samples correlated well within growth or production phase, despite different processes being employed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17340</offset>
+      <text>Similar clustering analysis of the standardized (Z scored) glycan data for the time course samples suggested that the glycan profiles also appeared to be dependent on the stage of the culture (Figure 3A [iv]). Interestingly, HD1D7 and HD2D7 samples from HD process clustered with growth phase (days 0, 3, 5). Glycan addition to the mAbs is downstream of all the steps, including transcription, translation, and metabolism (nucleotide synthesis). Therefore, a time delay (or lag) is possible, explaining why HD1D7 and HD2D7 glycoforms cluster with growth phase rather than the production phase. In addition, PCA analysis was performed on a list of glycosylation-related genes curated from the literature. Only those genes that were expressed at least for one time point for both the processes were considered in the analysis (Data S6). Similar to the clustering analysis, variance in the glycan-related genes was a function of the state of cells and appeared to be independent of the process (Figure 3B [iv]). Next, correlation analysis was performed on the process parameter data from different days of the two processes, spanning growth and production phases (see Figure 3 legends). Interestingly, unlike the transcriptome and metabolome, the process parameters clustered together based on the process employed (CC or HD) (Figure 3C). Together, the results suggested that although the cells are subjected to relatively different process conditions, the transcriptome, metabolome, and to an extent the N-glycan signature seemed to be dictated primarily by the culture stages (growth or production phase). These results motivated a detailed functional analysis of the time course omics data to gain insights into the complex regulation of N-glycosylation dynamics.</text>
+      <annotation id="422">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:06:12Z</infon>
+        <location offset="17458" length="15"/>
+        <text>glycan profiles</text>
+      </annotation>
+      <annotation id="423">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:06:17Z</infon>
+        <location offset="17511" length="20"/>
+        <text>stage of the culture</text>
+      </annotation>
+      <annotation id="636">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:27Z</infon>
+        <location offset="17863" length="10"/>
+        <text>glycoforms</text>
+      </annotation>
+      <annotation id="637">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:42Z</infon>
+        <location offset="17887" length="12"/>
+        <text>growth phase</text>
+      </annotation>
+      <annotation id="638">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:39Z</infon>
+        <location offset="17916" length="16"/>
+        <text>production phase</text>
+      </annotation>
+      <annotation id="639">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:32Z</infon>
+        <location offset="18227" length="20"/>
+        <text>glycan-related genes</text>
+      </annotation>
+      <annotation id="640">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:29Z</infon>
+        <location offset="18270" length="14"/>
+        <text>state of cells</text>
+      </annotation>
+      <annotation id="641">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:27Z</infon>
+        <location offset="18323" length="7"/>
+        <text>process</text>
+      </annotation>
+      <annotation id="426">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:10:13Z</infon>
+        <location offset="18842" length="18"/>
+        <text>N-glycan signature</text>
+      </annotation>
+      <annotation id="427">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:19Z</infon>
+        <location offset="18900" length="14"/>
+        <text>culture stages</text>
+      </annotation>
+      <annotation id="643">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:17Z</infon>
+        <location offset="18916" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="644">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:36Z</infon>
+        <location offset="18926" length="16"/>
+        <text>production phase</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>19108</offset>
+      <text>Functional Analysis of the Omics Data Identified Significant Time Dynamics in Key Metabolic Pathways Linked to N-Glycosylation</text>
+      <annotation id="720">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:13:09Z</infon>
+        <location offset="19169" length="39"/>
+        <text>Time Dynamics in Key Metabolic Pathways</text>
+      </annotation>
+      <annotation id="428">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:15Z</infon>
+        <location offset="19219" length="15"/>
+        <text>N-Glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19235</offset>
+      <text>An integrative approach, employing three orthogonal methods, was taken to analyze the multi-dimensional omics data. These methods include GSEA, TCGSA, time course metabolite set analysis (TCMSA), and maSigPro. GSEA was employed to identify functional classes that are enriched in either the growth phase or the production phase of the culture. TCGSA or TCMSA were used to capture the functional classes (gene sets or metabolic sets) that may or may not have dynamics in one phase or the other, but might show dynamics over the course of the complete culture. maSigPro was used to identify key genes or metabolites that exhibit significant temporal dynamics (i.e., the genes and metabolites that were significantly perturbed over time) using a regression-based analysis (see Transparent Methods). The analyses were performed on data from both processes separately, and unless otherwise stated, the results/trends from these analyses hold true for both processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20197</offset>
+      <text>For GSEA and TCGSA functional class analyses, a composite curated gene set list was used comprising gene sets from KEGG, BioCarta, Reactome, and additional gene sets related to glycosylation from Gene Ontology (Data S7, see also Transparent Methods). Employing GSEA, several pathways were found to be enriched in the growth phase including central energy metabolism, cell cycle, apoptosis, and protein synthesis (Data S8A and S8B, Figure S3). In contrast, several other pathways including those involved in glycosylation, aminoglycan metabolism, glycerolipid metabolism, sphingolipid metabolism, and cell adhesion were enriched in the production phase. TCGSA analysis identifies the gene sets that exhibit time dynamics over the complete duration of the culture irrespective of the changes in the growth or production phases of the culture (see methods section in Transparent Methods for more details). Employing TCGSA and using the same gene set list that was used for GSEA, gene sets such as those related to NSD biosynthetic pathways, pentose phosphate pathway, and oxidative phosphorylation, among others, were identified to have time dynamics over the complete time span of the culture. Interestingly, these gene sets were not enriched in GSEA (Data S9).</text>
+      <annotation id="650">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:15Z</infon>
+        <location offset="20704" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="655">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:34Z</infon>
+        <location offset="20832" length="16"/>
+        <text>production phase</text>
+      </annotation>
+      <annotation id="656">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:08Z</infon>
+        <location offset="21208" length="25"/>
+        <text>NSD biosynthetic pathways</text>
+      </annotation>
+      <annotation id="659">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:04Z</infon>
+        <location offset="21354" length="33"/>
+        <text>complete time span of the culture</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21458</offset>
+      <text>Apart from transcription level control of enzyme/metabolic pathway activity, it is well known that changes in metabolic pathway flux can also be influenced significantly by intermediate metabolite levels. To investigate temporal changes in metabolite levels across the fed-batch processes, TCMSA was performed on the intracellular metabolomic dataset. A curated list of metabolites based on their functional classes was employed for the analysis (Data S10). The analysis suggested that several pathways that exhibit significant temporal dynamics at the transcriptional level also vary significantly at the metabolite level. These include sphingolipid metabolism, fatty acid metabolism, purine and pyrimidine metabolism, nucleotide sugar metabolism, amino acid metabolism, and glycolytic pathway (Data S11). In addition, a statistical test (maSigPro) was employed to identify key transcripts and metabolites that show significant time dynamics. Top transcripts and intracellular metabolites that vary significantly over time were ranked based on their q-values for the maSigPro test, and a ranked list is shown for overall data as well as for various functional groups (Data S12) and metabolic pathways (Data S13).</text>
+      <annotation id="660">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:01Z</infon>
+        <location offset="21568" length="22"/>
+        <text>metabolic pathway flux</text>
+      </annotation>
+      <annotation id="661">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:59Z</infon>
+        <location offset="21631" length="30"/>
+        <text>intermediate metabolite levels</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>22672</offset>
+      <text>NSD, nucleotide sugar donors; GPG, glycerophosphoglycerol ; GPC, glycerophosphocholine. Three orthogonal analyses (GSEA, TCGSA, and maSigPro) on the transcriptome and metabolome data were performed to identify key pathways that change over time. Top transcripts and metabolites based on maSigPro analysis are also shown (see also Data S15).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>23013</offset>
+      <text>Found significant in time course analysis, but not in the GSEA analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">tbl1.xml</infon>
+      <infon key="id">tbl1</infon>
+      <infon key="type">table_caption</infon>
+      <offset>23086</offset>
+      <text>Key Functional Groups and Pathways that Exhibit Significant Temporal Dynamics over the Cell Culture Period during Fed-Batch Processes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Pathway/Functional Sets (GSEA Enrichment Phase)&lt;/th&gt;&lt;th&gt;Significant Gene Sets (GSEA and TCGSA)&lt;/th&gt;&lt;th&gt;Significant Metabolic Sets (TCMSA)&lt;/th&gt;&lt;th&gt;Top Significant Genes (maSigPro)&lt;/th&gt;&lt;th&gt;Top Significant Metabolites (maSigPro)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Sphingolipid metabolism (production phase)&lt;/td&gt;&lt;td&gt;REACTOME_SPHINGOLIPID_METABOLISM&lt;break/&gt;REACTOME_GLYCOSPHINGOLIPID_METABOLISM&lt;break/&gt;KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GANGLIO_SERIES&lt;break/&gt;KEGG_SPHINGOLIPID_METABOLISM&lt;break/&gt;REACTOME_SPHINGOLIPID_DE_NOVO_BIOSYNTHESIS&lt;/td&gt;&lt;td&gt;Sphingolipid metabolism&lt;/td&gt;&lt;td&gt;ASAH1&lt;break/&gt;SMPD1&lt;break/&gt;PSAP&lt;break/&gt;GM2A&lt;/td&gt;&lt;td&gt;Glycosyl-N-nervonoyl-sphingadienine&lt;break/&gt;N-nervonoyl-sphingadiene&lt;break/&gt;N-erucoyl-sphingosine sphingomyelin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Cell adhesion &amp;amp;extracellular matrix (production phase)&lt;/td&gt;&lt;td&gt;KEGG_CELL_ADHESION_MOLECULES_CAMS&lt;break/&gt;KEGG_ECM_RECEPTOR_INTERACTION&lt;break/&gt;REACTOME_COLLAGEN_FORMATION&lt;break/&gt;REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION&lt;break/&gt;REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;NEO&lt;break/&gt;ICAM1&lt;break/&gt;SDC1&lt;break/&gt;PTPRM&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Amino acid metabolism (growth phase)&lt;/td&gt;&lt;td&gt;REACTOME_METABOLISM_OF_AMINO_ACIDS_AND_DERIVATIVES&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;break/&gt;REACTOME_AMINO_ACID_AND_OLIGOPEPTIDE_SLC_TRANSPORTERS&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;/td&gt;&lt;td&gt;Lysine and histidine metabolism&lt;break/&gt;Urea cycle, arginine, and proline metabolism&lt;break/&gt;Gammaglutamyl amino acid&lt;break/&gt;Tyrosine and phenylalanine metabolism&lt;break/&gt;Tryptophan metabolism&lt;/td&gt;&lt;td&gt;SMS&lt;break/&gt;AHCY&lt;break/&gt;SLC25A15&lt;break/&gt;CBS&lt;break/&gt;GOT1&lt;/td&gt;&lt;td&gt;Taurine&lt;break/&gt;Pipecolate&lt;break/&gt;Argininate&lt;break/&gt;N-acxetylhistidinemethionine sulfoxide&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Phospholipid metabolism (production phase)&lt;/td&gt;&lt;td&gt;REACTOME_GLYCEROPHOSPHOLIPID_BIOSYNTHESIS&lt;break/&gt;REACTOME_PHOSPHOLIPID_METABOLISM&lt;break/&gt;KEGG_GLYCEROPHOSPHOLIPID_METABOLISM&lt;/td&gt;&lt;td&gt;Phosphatidylglycerol/phosphatidylinositol&lt;break/&gt;Phosphatidylcholine&lt;break/&gt;Lysophospholipid&lt;/td&gt;&lt;td&gt;PNPLA2&lt;break/&gt;PNPLA8&lt;break/&gt;PCYT1A&lt;break/&gt;DGAT2&lt;break/&gt;PLD3&lt;/td&gt;&lt;td&gt;CDP-ethanolamine&lt;break/&gt;1,2-dioleoyl-GPG&lt;break/&gt;1-palmitoleoyl-2-oleoyl-glycerophosphoglycerol&lt;break/&gt;1-palmitoyl-2-stearoyl-glycerophosphocholine&lt;break/&gt;1,2-dipalmitoleoyl-glycerophosphocholine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Amino sugar and NSD metabolism (NA)&lt;/td&gt;&lt;td&gt;KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;break/&gt;GO_NUCLEOTIDE_SUGAR_BIOSYNTHETIC_PROCESS&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;/td&gt;&lt;td&gt;Amino sugar and nucleotide sugar&lt;/td&gt;&lt;td&gt;GALE&lt;break/&gt;UGDH&lt;break/&gt;FPGT&lt;break/&gt;PGM2&lt;break/&gt;GMDS&lt;/td&gt;&lt;td&gt;Glucuronate&lt;break/&gt;UDP-galactose&lt;break/&gt;UDP-glucose&lt;break/&gt;UDP-GlcNAc/UDP-GalNAc&lt;break/&gt;CMP-N-acetylneuraminic acid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pyrimidine metabolism (growth phase)&lt;/td&gt;&lt;td&gt;GO_PYRIMIDINE_NUCLEOTIDE_BIOSYNTHETIC_PROCESS&lt;break/&gt;GO_PYRIMIDINE_NUCLEOTIDE_METABOLIC_PROCESS&lt;break/&gt;KEGG_PYRIMIDINE_METABOLISM&lt;break/&gt;REACTOME_PYRIMIDINE_METABOLISM&lt;/td&gt;&lt;td&gt;Pyrimidine metabolism&lt;break/&gt;Pyrimidine metabolism uracil containing&lt;/td&gt;&lt;td&gt;PRPS1&lt;break/&gt;TYMS&lt;break/&gt;UNG&lt;break/&gt;DUT&lt;break/&gt;TDG&lt;/td&gt;&lt;td&gt;Thymidine&lt;break/&gt;2'-O-methylcytidine&lt;break/&gt;5-methylcytidine&lt;break/&gt;5-methyl-2'-deoxycytidine beta-alanine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Purine metabolism (growth phase)&lt;/td&gt;&lt;td&gt;REACTOME_PURINE_RIBONUCLEOSIDE_MONOPHOSPHATE&lt;break/&gt;KEGG_PURINE_METABOLISM&lt;break/&gt;REACTOME_PURINE_METABOLISM&lt;/td&gt;&lt;td&gt;Purine metabolism&lt;/td&gt;&lt;td&gt;RRM2&lt;break/&gt;IMPDH2&lt;break/&gt;RRM1&lt;/td&gt;&lt;td&gt;N1-methylinosine&lt;break/&gt;N2,N2-dimethylguanosine&lt;break/&gt;7-methylguanine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Cell cycle, mitosis, and apoptosis (growth phase)&lt;/td&gt;&lt;td&gt;KEGG_CELL_CYCLE&lt;break/&gt;REACTOME_CELL_CYCLE&lt;break/&gt;REACTOME_CELL_CYCLE_CHECKPOINTS&lt;break/&gt;REACTOME_CELL_CYCLE_MITOTIC&lt;break/&gt;REACTOME_REGULATION_OF_APOPTOSIS&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;LMNB1&lt;break/&gt;ZWILCH&lt;break/&gt;POLE&lt;break/&gt;CDC6&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Glycosylation (production phase)&lt;/td&gt;&lt;td&gt;GO_GLYCOSYLATION&lt;break/&gt;GO_N_GLYCAN_PROCESSING&lt;break/&gt;GO_PROTEIN_N_LINKED_GLYCOSYLATION&lt;break/&gt;REACTOME_N_GLYCAN_TRIMMING_IN_THE_ER&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;MAN1B1&lt;break/&gt;DDOST&lt;break/&gt;ALG13&lt;break/&gt;B4GALT1&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Amino glycans (production phase)&lt;/td&gt;&lt;td&gt;KEGG_GLYCOSAMINOGLYCAN_DEGRADATION&lt;break/&gt;REACTOME_GLYCOSAMINOGLYCAN_METABOLISM&lt;break/&gt;KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;GNS&lt;break/&gt;CHPF&lt;break/&gt;HMMR&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TCA cycle (growth phase)&lt;/td&gt;&lt;td&gt;MOOTHA_TCA&lt;break/&gt;KEGG_CITRATE_CYCLE_TCA_CYCLE&lt;break/&gt;REACTOME_CITRIC_ACID_CYCLE_TCA_CYCLE&lt;break/&gt;REACTOME_METABOLISM_OF_CARBOHYDRATES&lt;/td&gt;&lt;td&gt;TCA cycle&lt;/td&gt;&lt;td&gt;FH&lt;break/&gt;ACLY&lt;break/&gt;ME1&lt;break/&gt;SDHC&lt;break/&gt;SDHB&lt;/td&gt;&lt;td&gt;Malate&lt;break/&gt;Aconitate&lt;break/&gt;Citrate&lt;break/&gt;Succinate&lt;break/&gt;2-methylcitrate/homocitrate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Glycolysis and gluconeogenesis (growth phase)&lt;/td&gt;&lt;td&gt;REACTOME_GLUCOSE_TRANSPORT&lt;break/&gt;REACTOME_REGULATION_OF_GLUCOKINASE&lt;break/&gt;REACTOME_GLUCONEOGENESIS&lt;break/&gt;BIOCARTA_GLYCOLYSIS_PATHWAY&lt;break/&gt;REACTOME_METABOLISM_OF_CARBOHYDRATES&lt;/td&gt;&lt;td&gt;Glycolysis and gluconeogenesis&lt;/td&gt;&lt;td&gt;ADPGK&lt;break/&gt;PFKFB4&lt;break/&gt;TPI1&lt;break/&gt;HK2&lt;break/&gt;ALDOC&lt;/td&gt;&lt;td&gt;Lactate&lt;break/&gt;Dihydroxyacetone phosphate&lt;break/&gt;Hexose diphosphates&lt;break/&gt;Glucose 6-phosphate&lt;break/&gt;Pyruvate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Glutamate/glutathione metabolism (growth phase)&lt;/td&gt;&lt;td&gt;KEGG_GLUTATHIONE_METABOLISM&lt;/td&gt;&lt;td&gt;Glutamate and glutathione metabolism&lt;/td&gt;&lt;td&gt;RRM2&lt;break/&gt;SMS&lt;break/&gt;GSTM2&lt;/td&gt;&lt;td&gt;5-oxoproline glutamine&lt;break/&gt;N-acetylglutamine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pentose phosphate pathway (NA)&lt;/td&gt;&lt;td&gt;KEGG_PENTOSE_PHOSPHATE_PATHWAY&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;break/&gt;KEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONS&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;/td&gt;&lt;td&gt;Pentose metabolism and pentose pathway&lt;/td&gt;&lt;td&gt;H6PD&lt;break/&gt;TKT&lt;break/&gt;RPIA&lt;/td&gt;&lt;td&gt;Arabitol/xylitol&lt;break/&gt;Ribitol&lt;break/&gt;Arabonate/xylonate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Oxidative phosphorylation (NA)&lt;/td&gt;&lt;td&gt;KEGG_OXIDATIVE_PHOSPHORYLATION&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;NDUFA7&lt;break/&gt;COX6B1&lt;break/&gt;ETFDH&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Glycosidases and deglycosylation (production phase)&lt;/td&gt;&lt;td&gt;GO_PROTEIN_DEGLYCOSYLATION&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;FUCA1&lt;break/&gt;HEXA&lt;break/&gt;NEU1&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Regulators of N-glycosylation (NA)&lt;/td&gt;&lt;td&gt;GO_REGULATION_OF_PROTEIN_GLYCOSYLATION&lt;xref rid="tblfn1" ref-type="table-fn"&gt;a&lt;/xref&gt;&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;TMEM59&lt;break/&gt;IL15&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">tbl1</infon>
+      <infon key="type">table</infon>
+      <infon key="File">tbl1.xml</infon>
+      <offset>23220</offset>
+      <text>Pathway/Functional Sets (GSEA Enrichment Phase) Significant Gene Sets (GSEA and TCGSA) Significant Metabolic Sets (TCMSA) Top Significant Genes (maSigPro) Top Significant Metabolites (maSigPro) Sphingolipid metabolism (production phase) REACTOME_SPHINGOLIPID_METABOLISMREACTOME_GLYCOSPHINGOLIPID_METABOLISMKEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GANGLIO_SERIESKEGG_SPHINGOLIPID_METABOLISMREACTOME_SPHINGOLIPID_DE_NOVO_BIOSYNTHESIS Sphingolipid metabolism ASAH1SMPD1PSAPGM2A Glycosyl-N-nervonoyl-sphingadienineN-nervonoyl-sphingadieneN-erucoyl-sphingosine sphingomyelin Cell adhesion &amp;extracellular matrix (production phase) KEGG_CELL_ADHESION_MOLECULES_CAMSKEGG_ECM_RECEPTOR_INTERACTIONREACTOME_COLLAGEN_FORMATIONREACTOME_EXTRACELLULAR_MATRIX_ORGANIZATIONREACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX NA NEOICAM1SDC1PTPRM NA Amino acid metabolism (growth phase) REACTOME_METABOLISM_OF_AMINO_ACIDS_AND_DERIVATIVESaREACTOME_AMINO_ACID_AND_OLIGOPEPTIDE_SLC_TRANSPORTERSa Lysine and histidine metabolismUrea cycle, arginine, and proline metabolismGammaglutamyl amino acidTyrosine and phenylalanine metabolismTryptophan metabolism SMSAHCYSLC25A15CBSGOT1 TaurinePipecolateArgininateN-acxetylhistidinemethionine sulfoxide Phospholipid metabolism (production phase) REACTOME_GLYCEROPHOSPHOLIPID_BIOSYNTHESISREACTOME_PHOSPHOLIPID_METABOLISMKEGG_GLYCEROPHOSPHOLIPID_METABOLISM Phosphatidylglycerol/phosphatidylinositolPhosphatidylcholineLysophospholipid PNPLA2PNPLA8PCYT1ADGAT2PLD3 CDP-ethanolamine1,2-dioleoyl-GPG1-palmitoleoyl-2-oleoyl-glycerophosphoglycerol1-palmitoyl-2-stearoyl-glycerophosphocholine1,2-dipalmitoleoyl-glycerophosphocholine Amino sugar and NSD metabolism (NA) KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISMaGO_NUCLEOTIDE_SUGAR_BIOSYNTHETIC_PROCESSa Amino sugar and nucleotide sugar GALEUGDHFPGTPGM2GMDS GlucuronateUDP-galactoseUDP-glucoseUDP-GlcNAc/UDP-GalNAcCMP-N-acetylneuraminic acid Pyrimidine metabolism (growth phase) GO_PYRIMIDINE_NUCLEOTIDE_BIOSYNTHETIC_PROCESSGO_PYRIMIDINE_NUCLEOTIDE_METABOLIC_PROCESSKEGG_PYRIMIDINE_METABOLISMREACTOME_PYRIMIDINE_METABOLISM Pyrimidine metabolismPyrimidine metabolism uracil containing PRPS1TYMSUNGDUTTDG Thymidine2'-O-methylcytidine5-methylcytidine5-methyl-2'-deoxycytidine beta-alanine Purine metabolism (growth phase) REACTOME_PURINE_RIBONUCLEOSIDE_MONOPHOSPHATEKEGG_PURINE_METABOLISMREACTOME_PURINE_METABOLISM Purine metabolism RRM2IMPDH2RRM1 N1-methylinosineN2,N2-dimethylguanosine7-methylguanine Cell cycle, mitosis, and apoptosis (growth phase) KEGG_CELL_CYCLEREACTOME_CELL_CYCLEREACTOME_CELL_CYCLE_CHECKPOINTSREACTOME_CELL_CYCLE_MITOTICREACTOME_REGULATION_OF_APOPTOSIS NA LMNB1ZWILCHPOLECDC6 NA Glycosylation (production phase) GO_GLYCOSYLATIONGO_N_GLYCAN_PROCESSINGGO_PROTEIN_N_LINKED_GLYCOSYLATIONREACTOME_N_GLYCAN_TRIMMING_IN_THE_ER NA MAN1B1DDOSTALG13B4GALT1 NA Amino glycans (production phase) KEGG_GLYCOSAMINOGLYCAN_DEGRADATIONREACTOME_GLYCOSAMINOGLYCAN_METABOLISMKEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_ NA GNSCHPFHMMR NA TCA cycle (growth phase) MOOTHA_TCAKEGG_CITRATE_CYCLE_TCA_CYCLEREACTOME_CITRIC_ACID_CYCLE_TCA_CYCLEREACTOME_METABOLISM_OF_CARBOHYDRATES TCA cycle FHACLYME1SDHCSDHB MalateAconitateCitrateSuccinate2-methylcitrate/homocitrate Glycolysis and gluconeogenesis (growth phase) REACTOME_GLUCOSE_TRANSPORTREACTOME_REGULATION_OF_GLUCOKINASEREACTOME_GLUCONEOGENESISBIOCARTA_GLYCOLYSIS_PATHWAYREACTOME_METABOLISM_OF_CARBOHYDRATES Glycolysis and gluconeogenesis ADPGKPFKFB4TPI1HK2ALDOC LactateDihydroxyacetone phosphateHexose diphosphatesGlucose 6-phosphatePyruvate Glutamate/glutathione metabolism (growth phase) KEGG_GLUTATHIONE_METABOLISM Glutamate and glutathione metabolism RRM2SMSGSTM2 5-oxoproline glutamineN-acetylglutamine Pentose phosphate pathway (NA) KEGG_PENTOSE_PHOSPHATE_PATHWAYaKEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONSa Pentose metabolism and pentose pathway H6PDTKTRPIA Arabitol/xylitolRibitolArabonate/xylonate Oxidative phosphorylation (NA) KEGG_OXIDATIVE_PHOSPHORYLATION NA NDUFA7COX6B1ETFDH NA Glycosidases and deglycosylation (production phase) GO_PROTEIN_DEGLYCOSYLATION NA FUCA1HEXANEU1 NA Regulators of N-glycosylation (NA) GO_REGULATION_OF_PROTEIN_GLYCOSYLATIONa NA TMEM59IL15 NA </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr4.jpg</infon>
+      <infon key="id">fig4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>27410</offset>
+      <text>Transcriptional and Metabolic Factors that Can Potentially Affect N-Glycosylation Dynamics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr4.jpg</infon>
+      <infon key="id">fig4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>27501</offset>
+      <text>Glycosylation dynamics can potentially be regulated via multiple ways as suggested by the time course and gene set enrichment analyses. Dynamics of top few transcripts (green blocks)/metabolites (red blocks) from each group that vary significantly with time are shown. A p value based on the time course analysis (maSigPro) is indicated by asterisks as follows: ***p &lt;0.005, **0.005 &gt; p &gt; 0.01, *0.01 &gt; p &gt; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27916</offset>
+      <text>Combining the results from all the functional set and statistical analyses, a list of key pathways that exhibit significant time dynamics in CHO cells during fed-batch culture time course was curated (Table 1). For each functional class listed in the table, gene/metabolites that had significant time dynamics are also included. Several pathways from this list were identified as potential regulators of N-glycosylation dynamics because of their direct or indirect linkage with the N-glycosylation process (Figure 4). Next, temporal changes in these specific pathways were explored.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>28500</offset>
+      <text>Temporal Dynamics in Levels of Enzyme Transcripts and Intermediate Metabolites of Metabolic Pathways Influencing N-Glycosylation Dynamics</text>
+      <annotation id="721">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:14:02Z</infon>
+        <location offset="28531" length="18"/>
+        <text>Enzyme Transcripts</text>
+      </annotation>
+      <annotation id="431">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:56Z</infon>
+        <location offset="28554" length="46"/>
+        <text>Intermediate Metabolites of Metabolic Pathways</text>
+      </annotation>
+      <annotation id="432">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:43:11Z</infon>
+        <location offset="28613" length="15"/>
+        <text>N-Glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>28638</offset>
+      <text>Glycolysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28649</offset>
+      <text>The glycolytic pathway was found to be enriched in the growth phase (GSEA). TCGSA suggested that glycolytic gene sets exhibit significant temporal perturbation or dynamics (Table 1). Glycolytic metabolites such as glucose-6-phosphate (G6P) and fructose-6-phosphate (F6P) serve as precursors to the NSD biosynthetic pathways. Therefore, changes in the transcript levels of glycolytic enzymes and in the corresponding metabolites can potentially influence the flux directed toward NSD biosynthesis. Glucose consumption rates (qGlc) and lactate production rates (qLac) have been used as indicators of the dynamics in central energy metabolism. For both processes, the metabolic state of the cells in the bioreactors shifted from lactate-producing (qLac/qGlc&gt;0) to lactate-consuming state (qLac/qGlc&lt;0) and again to a marginally lactate-producing state toward the end of the culture (Figure S4A). Such metabolic shifts are known to be outcomes of changes in the glycolytic gene expression and intermediate metabolite levels. Several glycolytic enzymes, including ADP-dependent glucokinase (ADPGK), 6-phosphofructo-2-kinase (PFKFB4), triosephosphate isomerase (TPI), hexokinase-2 (HK2), and fructose bisphosphate aldolase C (ALDOC), changed significantly over time (Data S12). Similarly, metabolites such as lactate, dihydroxyacetone phosphate, hexose diphosphates, and pyruvate were also found varying significantly with time (Data S13, Figures 4 and S4B).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>30103</offset>
+      <text>Purine and Pyrimidine Metabolism</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30136</offset>
+      <text>Purine and pyrimidine metabolism provides essential nucleotides during NSD biosynthesis such as cytidine triphosphate, guanosine triphosphate, and uridine triphosphate. Both these pathways are enriched in the growth phase (GSEA, Data S8B) and also show significant time dynamics in the time course analyses (Data S9 and S11). Several key enzymes involved in these pathways also vary significantly with time, such as ribose phosphate pyrophosphokinase 1 (PRPS1), thymidylsynthatase (TYMS), uracil-DNA glycosylase (UNG), ribonucleoside-diphosphate reductase M2 (RRM2), and inosine-5'-monophosphate dehydrogenase 2 (IMPDH2). Several key metabolites also exhibit significant temporal dynamics, including thymidine, 2'-O-methylcytidine, and N1-methylinosine (Table 1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>30904</offset>
+      <text>TCA Cycle</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30914</offset>
+      <text>The tricarboxylic citric acid (TCA) cycle is directly linked to glycolysis, glutamine, and purine and pyrimidine metabolic pathways (Figure S4B). Several gene sets related to the TCA cycle were enriched in the growth phase (GSEA, Data S8B). These gene sets also exhibited significant time dynamics (TCGSA, Data S9). The levels of several genes including those encoding for fumarate hydratase (FH), ATP citrate synthase (ACLY), NADP-dependent malic enzyme (ME1), and succinate dehydrogenase (SDHC) varied over time (maSigPro, Data S12). Interestingly, although the TCA cycle did not show up in TCMSA analysis, a few of its metabolites including aconitate, citrate, and malate were either up- or downregulated over time (Data S13).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>31645</offset>
+      <text>Other Central Energy Metabolism Pathways</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31686</offset>
+      <text>Other pathways linked to glycolysis and TCA cycle such as glutamine/glutamate metabolism (which serves as a precursor to N-acetylated NSD intermediates), pentose phosphate pathway (PPP), and oxidative phosphorylation showed significant time dynamics in their corresponding gene sets, transcripts, and metabolites (Table 1). For example, transketolase (TKT) and ribose-5-phosphate isomerase (RPIA) enzymes in the PPP decreased with time, whereas NADH dehydrogenase 1 alpha subcomplex 7 (NDUFA7) from oxidative phosphorylation increased with time (Figure 4, Data S12).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>32254</offset>
+      <text>Glycosyltransferases</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32275</offset>
+      <text>The concentration of glycosyltransferases can directly affect the reaction rates for each of the glycosylation steps. GSEA analysis suggested that gene sets containing glycosyltransferases were primarily enriched in the production phase (Data S8B). These gene sets also showed up significant in TCGSA analysis (Data S9). Several genes encoding for mannosidases and glycosyltransferases varied over time (Data S12, Figure 4). For example, 1,2-alpha mannosidases (MAN1B1, MAN2A2, MAN2B1, MAN2B2, and MAN1A1), N-acetylglucosamineyltransferases (MGAT4B and MGAT1), and beta-1,4-galactosyltransferase 1 (B4GALT1) increased over time (Figure S5). Other mannosidases (MAN1C1, MAN2A1, MAN2C1), fucosyltransferase (FUT8), and sialyltrasferases (ST3GALT3 and ST3GAL4) showed marginal or no dynamics.</text>
+      <annotation id="433">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:54Z</infon>
+        <location offset="32279" length="37"/>
+        <text>concentration of glycosyltransferases</text>
+      </annotation>
+      <annotation id="434">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:23Z</infon>
+        <location offset="32372" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>33067</offset>
+      <text>Glycosidases</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33080</offset>
+      <text>Glycosidases catalyze cleavage of specific sugar moieties from the glycan structures on therapeutic proteins (and other host cell proteins). TCGSA strongly suggested that gene sets linked to glycan degradation vary significantly over time (Data S9), and GSEA analysis suggested that these gene sets are enriched in the production phase (Data S8B). Most of the glycosidase enzymes showed up in the maSigPro analysis including, fucosidase (FUCA1), galactosidases (GLA, GLB1), sialidases (NEU1, NEU2, NEU3, NEU4), and hexosidases (HEXA, HEXB) (Figure 4).</text>
+      <annotation id="435">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:51Z</infon>
+        <location offset="33080" length="12"/>
+        <text>Glycosidases</text>
+      </annotation>
+      <annotation id="436">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:46Z</infon>
+        <location offset="33147" length="17"/>
+        <text>glycan structures</text>
+      </annotation>
+      <annotation id="441">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:43Z</infon>
+        <location offset="33506" length="10"/>
+        <text>fucosidase</text>
+      </annotation>
+      <annotation id="723">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:41:44Z</infon>
+        <location offset="33518" length="5"/>
+        <text>FUCA1</text>
+      </annotation>
+      <annotation id="442">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:40Z</infon>
+        <location offset="33526" length="14"/>
+        <text>galactosidases</text>
+      </annotation>
+      <annotation id="724">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:41:58Z</infon>
+        <location offset="33542" length="3"/>
+        <text>GLA</text>
+      </annotation>
+      <annotation id="725">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:00Z</infon>
+        <location offset="33547" length="4"/>
+        <text>GLB1</text>
+      </annotation>
+      <annotation id="443">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:38Z</infon>
+        <location offset="33554" length="10"/>
+        <text>sialidases</text>
+      </annotation>
+      <annotation id="726">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:04Z</infon>
+        <location offset="33566" length="4"/>
+        <text>NEU1</text>
+      </annotation>
+      <annotation id="727">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:07Z</infon>
+        <location offset="33572" length="4"/>
+        <text>NEU2</text>
+      </annotation>
+      <annotation id="728">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:09Z</infon>
+        <location offset="33578" length="4"/>
+        <text>NEU3</text>
+      </annotation>
+      <annotation id="729">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:11Z</infon>
+        <location offset="33584" length="4"/>
+        <text>NEU4</text>
+      </annotation>
+      <annotation id="444">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:34Z</infon>
+        <location offset="33595" length="11"/>
+        <text>hexosidases</text>
+      </annotation>
+      <annotation id="730">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:14Z</infon>
+        <location offset="33608" length="4"/>
+        <text>HEXA</text>
+      </annotation>
+      <annotation id="731">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:16Z</infon>
+        <location offset="33614" length="4"/>
+        <text>HEXB</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>33633</offset>
+      <text>Other Regulators of Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33667</offset>
+      <text>Apart from enzymes or gene sets that are directly linked to glycosylation, a gene set comprising regulators of glycosylation also showed up significant in GSEA and TCGSA analyses. The expression levels of most of the genes in this gene set increased over time (Figure 4, Data S12). These include transmembrane protein 59 (TMEM59), interleukin-15 (IL15) and golgin subfamily A member 2 (GOLGA2). For example, TMEM59 has been reported to be an inhibitor of galactosylation and sialylation. Temporal dynamics in transcript levels of TMEM59 levels can affect the glycoforms produced.</text>
+      <annotation id="437">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:23Z</infon>
+        <location offset="33678" length="7"/>
+        <text>enzymes</text>
+      </annotation>
+      <annotation id="438">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:21Z</infon>
+        <location offset="33689" length="9"/>
+        <text>gene sets</text>
+      </annotation>
+      <annotation id="439">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:21Z</infon>
+        <location offset="33727" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="440">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:19Z</infon>
+        <location offset="33764" length="27"/>
+        <text>regulators of glycosylation</text>
+      </annotation>
+      <annotation id="722">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:41:21Z</infon>
+        <location offset="33963" length="24"/>
+        <text>transmembrane protein 59</text>
+      </annotation>
+      <annotation id="732">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:20Z</infon>
+        <location offset="33989" length="6"/>
+        <text>TMEM59</text>
+      </annotation>
+      <annotation id="446">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:11Z</infon>
+        <location offset="33998" length="14"/>
+        <text>interleukin-15</text>
+      </annotation>
+      <annotation id="733">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:23Z</infon>
+        <location offset="34014" length="4"/>
+        <text>IL15</text>
+      </annotation>
+      <annotation id="447">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:06Z</infon>
+        <location offset="34024" length="27"/>
+        <text>golgin subfamily A member 2</text>
+      </annotation>
+      <annotation id="734">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:42:25Z</infon>
+        <location offset="34053" length="6"/>
+        <text>GOLGA2</text>
+      </annotation>
+      <annotation id="449">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:15Z</infon>
+        <location offset="34197" length="6"/>
+        <text>TMEM59</text>
+      </annotation>
+      <annotation id="735">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:43:06Z</infon>
+        <location offset="34226" length="10"/>
+        <text>glycoforms</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34248</offset>
+      <text>In summary, functional analyses of time course omics data identified a number of enriched pathways and functional classes that can influence either the levels of substrates for NSD biosynthesis or the enzymes linked with the N-glycosylation process. These include genes and metabolites involved in glycolysis, TCA cycle, purine and pyrimidine biosynthesis, and amino sugar and NSD biosynthesis. Key genes and metabolites involved in these pathways that could be potential limiting factors for N-glycosylation are listed in Table 1 and Data S15. In the next section, a detailed analysis of the NSD biosynthetic pathway dynamics is performed.</text>
+      <annotation id="736">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:44:21Z</infon>
+        <location offset="34410" length="31"/>
+        <text>substrates for NSD biosynthesis</text>
+      </annotation>
+      <annotation id="451">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:42:32Z</infon>
+        <location offset="34449" length="7"/>
+        <text>enzymes</text>
+      </annotation>
+      <annotation id="450">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:53Z</infon>
+        <location offset="34473" length="15"/>
+        <text>N-glycosylation</text>
+      </annotation>
+      <annotation id="452">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:44Z</infon>
+        <location offset="34512" length="44"/>
+        <text>genes and metabolites involved in glycolysis</text>
+      </annotation>
+      <annotation id="737">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:45:03Z</infon>
+        <location offset="34558" length="9"/>
+        <text>TCA cycle</text>
+      </annotation>
+      <annotation id="738">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:45:12Z</infon>
+        <location offset="34569" length="34"/>
+        <text>purine and pyrimidine biosynthesis</text>
+      </annotation>
+      <annotation id="739">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:45:17Z</infon>
+        <location offset="34609" length="32"/>
+        <text>amino sugar and NSD biosynthesis</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>34889</offset>
+      <text>Analysis of Temporal Dynamics in Nucleotide Sugar Donor Biosynthetic Pathway Suggests Galactosylation and Sialylation Enzymatic Steps Might Be Substrate Limited</text>
+      <annotation id="455">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:45:59Z</infon>
+        <location offset="34975" length="47"/>
+        <text>Galactosylation and Sialylation Enzymatic Steps</text>
+      </annotation>
+      <annotation id="456">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:39Z</infon>
+        <location offset="35032" length="9"/>
+        <text>Substrate</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr5.jpg</infon>
+      <infon key="id">fig5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>35050</offset>
+      <text>Time Dynamics of Nucleotide Sugar Donors and NSD Intermediates Partially Explains N-Glycosylation Dynamics Observed Experimentally</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr5.jpg</infon>
+      <infon key="id">fig5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>35181</offset>
+      <text>(A) Intracellular concentration of nucleotide sugar donors varies significantly over time for both processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr5.jpg</infon>
+      <infon key="id">fig5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>35291</offset>
+      <text>(B) Overview of the temporal dynamics for the nucleotide sugar intermediates and transcripts that encode for enzymes involved in the nucleotide sugar biosynthetic pathways. A p value based on the time course analysis (maSigPro) for the RNA-seq and metabolomic data are available in Supplemental Information.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35599</offset>
+      <text>NSDs serve as substrates for the N-glycosylation process. Intracellular levels of NSDs were quantified from the cell pellet samples taken at multiple time points from the bioreactors for both fed-batch processes. The NSD concentrations varied over the course of fed-batch culture, and the dynamics for each NSD is conserved between the two fed-batch processes employed (Figure 5A). The dynamics in NSDs could be a result of temporal changes in the precursors from glycolysis and/or the enzymes and intermediate metabolites involved in the NSD biosynthetic pathways (Figure 5B). Time course transcriptome and metabolome data were used to probe biosynthetic pathway changes for each NSD, to identify the cause for temporal variation observed in the corresponding NSDs.</text>
+      <annotation id="457">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:35:06Z</infon>
+        <location offset="35599" length="4"/>
+        <text>NSDs</text>
+      </annotation>
+      <annotation id="458">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:46Z</infon>
+        <location offset="35632" length="15"/>
+        <text>N-glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>36368</offset>
+      <text>GDP-Mannose</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36380</offset>
+      <text>Glucose is converted to G6P by hexokinase (HK1 and HK2). G6P enters the NSD biosynthetic pathway and serves as a precursor to all the NSDs (Figure 5B). G6P exhibited significant time dynamics over the culture period (Data S13, Figure 5B). It is converted to F6P, which serves as the precursor for guanosine triphospho-mannose (GDP-Man) synthesis (Figure 5B). The intracellular concentration of GDP-Man increased during the course of the culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>36829</offset>
+      <text>GDP-Fucose</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36840</offset>
+      <text>Levels of guanosine triphospho-L-fucose (GDP-Fuc), which serves as the substrate for fucose addition to the glycan chain, for most part were relatively constant over the course of the culture for both the processes. GDP-Fuc is synthesized from GDP-Man in a two-step enzymatic process catalyzed by GDP-mannose 4,6 dehydratase (GMDS) and GDP-L-fucose synthase (encoded by the gene tissue-specific transplantation antigen P35B [TSTA3]) (Figure 5B). Marginal dynamics were observed in the transcript levels of the two enzymes, with GMDS going up with time and TSTA3 decreasing over time.</text>
+      <annotation id="667">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:31Z</infon>
+        <location offset="36850" length="39"/>
+        <text>guanosine triphospho-L-fucose (GDP-Fuc)</text>
+      </annotation>
+      <annotation id="106">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:42:00Z</infon>
+        <location offset="36925" length="35"/>
+        <text>fucose addition to the glycan chain</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>37425</offset>
+      <text>UDP-GlcNAc</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37436</offset>
+      <text>Uridine diphospho-N-acetylglucosamine (UDP-GlcNAc) serves as the substrate for GlcNAc addition to the glycan chain. It is synthesized from G6P via intermediates including glucosamine-6-phosphate (GlcNAc6P) and glucosamine-1-phosphate (GlcNAc1P) (Figure 5B). UDP-GlcNAc increases significantly with time (~15-fold in CC; ~12-fold in HD), whereas no significant dynamics is observed for GlcNAc6P and GlcNAc1P (Data S13). The expression levels of the genes that encode the corresponding enzymes involved in the synthesis of GlcNAc1P also did not exhibit any significant time dynamics (Data S12). UDP-GlcNAc is also converted to Uridine diphospho-N-acetylgalactosamine (UDP-GalNAc) by UDP-glucose 4-epimerase, which is encoded by the gene GALE. UDP-GalNAc shows similar trends as UDP-GlcNAc despite significant increase in the expression level of GALE (Figure 5, Data S12).</text>
+      <annotation id="669">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-01T17:54:06Z</infon>
+        <location offset="37436" length="50"/>
+        <text>Uridine diphospho-N-acetylglucosamine (UDP-GlcNAc)</text>
+      </annotation>
+      <annotation id="108">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:45:12Z</infon>
+        <location offset="37515" length="35"/>
+        <text>GlcNAc addition to the glycan chain</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>38313</offset>
+      <text>UDP-Galactose</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38327</offset>
+      <text>Uridine diphospho-galactose (UDP-Gal) serves as the substrate for galactose addition to the glycan chain. It is generally synthesized from G6P via a multi-step process (Figure 5B). G6P is initially converted to UDP-glucose (UDP-Glc), which is then converted to UDP-Gal by GALE. Transcript levels of enzymes involved in the UDP-Glc biosynthesis did not change significantly with time (Data S12), whereas the transcript levels of GALE were observed to increase with time. However, both UDP-Gal and UDP-Glc levels decreased significantly during the production phase (Figure 5A). As G6P levels decreased over time, the drop in UPD-Gal could be a direct result of decrease in G6P levels.</text>
+      <annotation id="671">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T17:50:26Z</infon>
+        <location offset="38327" length="37"/>
+        <text>Uridine diphospho-galactose (UDP-Gal)</text>
+      </annotation>
+      <annotation id="116">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:46:57Z</infon>
+        <location offset="38393" length="38"/>
+        <text>galactose addition to the glycan chain</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>39012</offset>
+      <text>CMP-Sialic Acid</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39028</offset>
+      <text>Cytidine monophospho-sialic acid (CMP-Sia) serves as the substrate for sialic acid addition to the glycan chain. Formation of CMP-Sia from UDP-GlcNAc is a multi-step process (Figure 5B). UDP-GlcNAc is converted to N-acetyl mannosamine (ManNAc) by the enzyme glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase (GNE). ManNAc is converted to 5-acetyl neuraminic acid (Neu5Ac) by a series of enzymatic steps, which is then converted to CMP-Sia. CMP-Sia is known to strongly inhibit (with Hill coefficient = 4.1) the epimerase function of GNE, thus maintaining an autoregulation of CMP-Sia levels. The levels of CMP-Sia were in the lower concentration range, although a slight increase was observed over the course of the fed-batch processes (Figure 5A). Inhibition of the epimerase function of GNE by slightly higher concentrations of CMP-Sia might result in inhibition of UDP-GlcNAc conversion to downstream intermediates including Neu5Ac. This is observed to be the case as the Neu5Ac levels decreased over time, even though the levels of UDP-GlcNAc increased over time (Figure 5B).</text>
+      <annotation id="673">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:14Z</infon>
+        <location offset="39028" length="42"/>
+        <text>Cytidine monophospho-sialic acid (CMP-Sia)</text>
+      </annotation>
+      <annotation id="476">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:49:42Z</infon>
+        <location offset="39099" length="40"/>
+        <text>sialic acid addition to the glycan chain</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40128</offset>
+      <text>Galactosylation and sialylation were observed to decrease over time (Figure 2B). Decrease in galactosylated species can now be explained by the decrease in the UDP-Gal levels over the course of the fed-batch culture. The decrease in sialylation can be explained by the decrease in galactosylated species over time. Relatively low availability of CMP-Sia does not help the drop in sialylation incurred due to the decrease in galactosylated species. With the help of the above-described understanding for the cause of the drop in the UDP-Gal levels and low levels of CMP-Sia, we next designed and performed experiments to overcome these bottlenecks in an attempt to increase and maintain a sustained level of galactosylation and sialylation in fed-batch cultures.</text>
+      <annotation id="136">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:21Z</infon>
+        <location offset="40128" length="31"/>
+        <text>Galactosylation and sialylation</text>
+      </annotation>
+      <annotation id="676">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:08Z</infon>
+        <location offset="40191" length="4"/>
+        <text>time</text>
+      </annotation>
+      <annotation id="491">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:18Z</infon>
+        <location offset="40221" length="22"/>
+        <text>galactosylated species</text>
+      </annotation>
+      <annotation id="492">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:17Z</infon>
+        <location offset="40288" length="14"/>
+        <text>UDP-Gal levels</text>
+      </annotation>
+      <annotation id="493">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:25Z</infon>
+        <location offset="40361" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="494">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:14Z</infon>
+        <location offset="40409" length="22"/>
+        <text>galactosylated species</text>
+      </annotation>
+      <annotation id="495">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:21Z</infon>
+        <location offset="40474" length="7"/>
+        <text>CMP-Sia</text>
+      </annotation>
+      <annotation id="496">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:31Z</infon>
+        <location offset="40508" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="497">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:10Z</infon>
+        <location offset="40552" length="22"/>
+        <text>galactosylated species</text>
+      </annotation>
+      <annotation id="498">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:04Z</infon>
+        <location offset="40660" length="7"/>
+        <text>UDP-Gal</text>
+      </annotation>
+      <annotation id="499">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:41:23Z</infon>
+        <location offset="40693" length="7"/>
+        <text>CMP-Sia</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>40891</offset>
+      <text>Temporal Rate Limitations in Galactosylation and Sialylation Can Be Mitigated by Supplementation of Corresponding NSD Biosynthetic Pathway Intermediates</text>
+      <annotation id="147">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:53Z</infon>
+        <location offset="40920" length="31"/>
+        <text>Galactosylation and Sialylation</text>
+      </annotation>
+      <annotation id="502">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:54:35Z</infon>
+        <location offset="41005" length="38"/>
+        <text>NSD Biosynthetic Pathway Intermediates</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr6.jpg</infon>
+      <infon key="id">fig6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41044</offset>
+      <text>Media Supplementation Can Potentially Bypass the NSD Biosynthetic Pathway to Partially Mitigate Galactosylation and Sialylation Bottlenecks</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr6.jpg</infon>
+      <infon key="id">fig6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41184</offset>
+      <text>(A) Supplementation of manganese to enhance B4galt1 activity alone is insufficient to reduce the bottleneck at galactosylation level, whereas galactose supplementation (5 g/L) leads to 25- to 50-fold increase in intracellular pool of UDP-Gal (left), resulting in sustained levels of galactosylation throughout the cell culture (right).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr6.jpg</infon>
+      <infon key="id">fig6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41520</offset>
+      <text>(B) Supplementation of 20 mM ManNAc bypasses the self-regulation on CMP-Sia biosynthesis (shown by dotted arrow) and leads to ~30-fold increase in intracellular concentrations of CMP-sialic acid (left), resulting in around 2-fold increase in sialylated species.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">gr6.jpg</infon>
+      <infon key="id">fig6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41785</offset>
+      <text>(C) Temporal variations in the intracellular concentrations of the NSD substrates and/or potential substrate competition for intra-Golgi transport due to shared transport protein might result in the temporal heterogeneity in glycoforms observed in fed-batch cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42053</offset>
+      <text>To explore if the drop in the substrate (UDP-Gal) and/or cofactor (Mn2+) levels of the enzyme that catalyzes galactosylation (B4galt1) is the root cause for the drop in the galactosylation of mAb glycoform produced, a pH-controlled fed-batch experiment was conducted in shake flasks with additional supplementation of galactose and/or Mn2+. Galactose can be converted intracellularly to UDP-Gal by the action of enzymes encoded by GALK and GALT, the expression of which was observed to be relatively constant over the course of the fed-batch culture (Figure S6A). The shake flask experiment was performed using media used in the CC and HD bioreactor runs, with varying levels of Mn2+ (0.9 nM, 200 nM and 2,000 nM) or with combined supplementation of 5 g/L galactose and 2,000 nM Mn2+. The additives were added to the culture on day 0. Manganese supplementation resulted in a decrease in cell growth in CC medium, whereas no such effect was observed in HD medium (Figure S6B). Time course glycan analysis suggested that although Mn2+ enhanced galactosylation, Mn2+ alone was insufficient to achieve high and sustained levels of galactosylation across the course of the culture (Figures 6A and S6). Interestingly, additional supplementation of galactose resulted in high and sustained levels of galactosylated species, which could be explained by the significantly higher UDP-Gal levels (Figure 6A). This established that maintaining higher levels of UDP-Gal and Mn2+ can help mitigate the drop in the galactosylation level over the course of a fed-batch culture.</text>
+      <annotation id="503">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:39:02Z</infon>
+        <location offset="42094" length="7"/>
+        <text>UDP-Gal</text>
+      </annotation>
+      <annotation id="504">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:36:57Z</infon>
+        <location offset="42120" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="505">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:55:06Z</infon>
+        <location offset="42226" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="681">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:50Z</infon>
+        <location offset="42271" length="23"/>
+        <text>pH-controlled fed-batch</text>
+      </annotation>
+      <annotation id="506">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:55:12Z</infon>
+        <location offset="42371" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="507">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:37:20Z</infon>
+        <location offset="42388" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="518">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-02T22:37:26Z</infon>
+        <location offset="43081" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="519">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:56:17Z</infon>
+        <location offset="43095" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="520">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:56:10Z</infon>
+        <location offset="43112" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="521">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:56:26Z</infon>
+        <location offset="43180" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="522">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:56:44Z</infon>
+        <location offset="43295" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="523">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:56:52Z</infon>
+        <location offset="43346" length="22"/>
+        <text>galactosylated species</text>
+      </annotation>
+      <annotation id="524">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:58Z</infon>
+        <location offset="43423" length="7"/>
+        <text>UDP-Gal</text>
+      </annotation>
+      <annotation id="525">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:57:38Z</infon>
+        <location offset="43502" length="7"/>
+        <text>UDP-Gal</text>
+      </annotation>
+      <annotation id="526">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:57:40Z</infon>
+        <location offset="43514" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="696">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:14Z</infon>
+        <location offset="43553" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43622</offset>
+      <text>Next, the effect of enhancing the substrate level for sialyltransferases, namely, CMP-Sia, on total sialylation was probed. As inferred in the previous section, it was hypothesized that low levels of CMP-Sia in fed-batch cultures could be due to the presence of active inhibitory feedback regulation of epimerase activity of GNE by CMP-Sia, limiting its own formation (autoregulation). The epimerase encoded by GNE converts UDP-GlcNAc to ManNAc. Supplementation of downstream metabolite of GNE, namely, ManNAc, can bypass this autoregulation by CMP-Sia resulting in higher levels of CMP-Sia, which has been previously demonstrated. However, supplementation of an upstream metabolite, namely, GlcNAc, should not result in increase in CMP-Sia. To test this, a fed-batch experiment with either no supplementation (control) or with supplementation of 20 mM ManNAc or GlcNAc was performed in pH-controlled shake flasks. For this experiment, HD medium supplemented with 2,000 nM Mn2+ and 5 g/L of galactose was used to ensure maximum possible levels of galactosylation. Day 3 and day 9 intracellular NSD and mAb glycan levels were measured for all conditions (Figures 6B and S7A). A 2-fold increase in sialylation was observed in case of ManNAc-supplemented media, but no such increase in sialylation was observed for GlcNAc-supplemented or control conditions (Figures 6B and S7B). In fact, a small drop in the sialylation was observed in the GlcNAc-supplemented condition when compared with the control condition, which could be attributed to a proportional drop in galactosylation observed (when compared with control) (Figures 6B and S7). The increase in the mAb sialylation in case of ManNAc supplementation could be explained by an ~24-fold increase in intracellular CMP-Sia levels compared to the control condition (Figure 6B). No significant change in CMP-Sia levels was observed in the GlcNAc-supplemented condition when compared to the control condition.</text>
+      <annotation id="528">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:48Z</infon>
+        <location offset="43656" length="38"/>
+        <text>substrate level for sialyltransferases</text>
+      </annotation>
+      <annotation id="529">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T15:58:06Z</infon>
+        <location offset="43704" length="7"/>
+        <text>CMP-Sia</text>
+      </annotation>
+      <annotation id="698">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:46Z</infon>
+        <location offset="43716" length="17"/>
+        <text>total sialylation</text>
+      </annotation>
+      <annotation id="542">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:04:49Z</infon>
+        <location offset="44595" length="4"/>
+        <text>Mn2+</text>
+      </annotation>
+      <annotation id="543">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:05:21Z</infon>
+        <location offset="44613" length="9"/>
+        <text>galactose</text>
+      </annotation>
+      <annotation id="544">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:17:20Z</infon>
+        <location offset="44669" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="545">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:02:59Z</infon>
+        <location offset="44818" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="546">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:03:06Z</infon>
+        <location offset="44854" length="25"/>
+        <text>ManNAc-supplemented media</text>
+      </annotation>
+      <annotation id="547">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:03:08Z</infon>
+        <location offset="44905" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="548">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:03:12Z</infon>
+        <location offset="44934" length="19"/>
+        <text>GlcNAc-supplemented</text>
+      </annotation>
+      <annotation id="549">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:43Z</infon>
+        <location offset="44957" length="18"/>
+        <text>control conditions</text>
+      </annotation>
+      <annotation id="550">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:03:28Z</infon>
+        <location offset="45027" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="551">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:04:10Z</infon>
+        <location offset="45059" length="19"/>
+        <text>GlcNAc-supplemented</text>
+      </annotation>
+      <annotation id="552">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:41Z</infon>
+        <location offset="45112" length="17"/>
+        <text>control condition</text>
+      </annotation>
+      <annotation id="553">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:04:19Z</infon>
+        <location offset="45183" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="554">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:04:23Z</infon>
+        <location offset="45282" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="201">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T18:07:57Z</infon>
+        <location offset="45305" length="22"/>
+        <text>ManNAc supplementation</text>
+      </annotation>
+      <annotation id="202">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com,josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-11-17T16:04:33Z</infon>
+        <location offset="45388" length="7"/>
+        <text>CMP-Sia</text>
+      </annotation>
+      <annotation id="557">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2024-01-02T22:38:39Z</infon>
+        <location offset="45419" length="17"/>
+        <text>control condition</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>45585</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45596</offset>
+      <text>A fundamental challenge with therapeutic protein production using CHO fed-batch cultures is the heterogeneous glycoforms observed on the recombinant proteins at harvest. Glycoform heterogeneity at harvest is a cumulative effect of transient glycoform distribution integrated over the cell culture period. The transient glycoform distribution varies from one time point in culture to another. This heterogeneity in the transient glycoform distribution appears to be contributed by the changing glycosylation state of the cells with the progress of a fed-batch culture. In other words, the glycoforms produced at any given time point seem to change with time in a fed-batch culture (Figure S1C). Such temporal changes in glycosylation state could be a result of variation in multiple intrinsic factors including glycosyltransferase enzymes, NSDs, by-products from central energy metabolism like ammonia, cofactors for glycosylation enzymes, and host cell protein production. To understand the underlying cause for dynamics of protein N-glycosylation across fed-batch cultures and identify key factors contributing to it, we employed a systems approach combining time course transcriptomics, metabolomics, and glycan analysis for a model CHO cell line producing a recombinant antibody in two variants of fed-batch culture (Figures 1 and 2).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46935</offset>
+      <text>Functional analysis of the omics data showed that a significant part of the time course variance in transcriptome, metabolome, and glycoform, at a global level, appeared to be a function of culture time and that a smaller fraction of the variance depended on the type of medium/process employed (Figure 3). Analysis of the glycoforms produced showed that one of the bottlenecks in the glycosylation pathway could be at the reaction step, which adds galactose to the extending glycan moiety (Figure S2). Employing statistical analysis approaches including GSEA, TCGSA, TCMSA, and maSigPro on transcriptome and metabolome data, it was observed that a number of glycosylation-affecting factors became more dynamically perturbed over the course of the culture, including metabolic pathways such as glycolysis, TCA cycle, pyrimidine/purine metabolism, nucleotide sugar synthesis, and other functional classes such as glycosidases (Table 1). The changes observed across the various metabolic pathways were due to changes at transcript or metabolite intermediate levels or in some cases due to both occurring simultaneously.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>48055</offset>
+      <text>Glycosyltransferases are the primary factors that affect glycoform heterogeneity as they catalyze addition of sugar moieties to the extending glycan chain on a secretory protein. The transcript levels of a number of glycosyltransferases were observed to change significantly over the culture time (Figure S5). However, these changes did not correlate with the glycoforms produced. For example, levels of galactosyltransferase (B4GALT1) increased with time, whereas galactosylation decreased with time. Similarly, 2-beta-N-acetylglucosaminyltransferase (MGAT2) decreased with time, whereas agalactosylated species increased with time. No significant dynamics was observed for alpha-(1,6)-fucosyltransferase (FUT8), whereas a marginal decrease in fucosylated species was observed over time. Sialylated species decreased over time in both processes, which could not be explained by the constant or marginal increased transcript levels of sialyltransferases (ST3GALT3 and ST3GAL4). This suggested that the temporal variation of galactosylation and sialylation could be at the biochemical levels, i.e., enzyme cofactors and substrates (NSDs).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49194</offset>
+      <text>Glycolytic intermediates G6P and F6P are key carbon sources for all the NSD biosynthesis. Dynamics in the levels of glycolytic pathway activity can directly affect the NSD levels. Glycolytic pathway was observed to be enriched in growth phase with a number of glycolytic enzymes and glycolytic intermediates demonstrating time dynamics (Table 1, Data S12 and S13). Levels of G6P (and other upper glycolysis intermediates) decreased over time in the production phase of the cultures. Interestingly, the dynamics of intermediates in lower glycolytic pathway intermediates, namely 3-Phosphoglycerate (3PG) and Phophoenolpyruvate (PEP), increased over time. Glycolytic intermediates are known to have feedforward and feedback allosteric regulation on the upstream and downstream glycolysis enzymes imparting non-linear behavior to the flux and intermediate concentrations. The dynamics observed in the levels of G6P and lower glycolysis intermediates could be an outcome of such non-linear allosteric regulations at play in addition to enzyme level changes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50249</offset>
+      <text>Decrease in the levels of G6P in the production phase should result in a corresponding fall in the intracellular levels of the UDP-Gal, UDP-Man, and UDP-GlcNAc, which are NSDs produced directly from G6P through a chain of reactions. However, only UDP-Gal levels decreased with time, whereas UDP-GlcNAc and GDP-Man increased over time in the production phase of the cultures. This suggests that there are additional regulations within the UPD-GlcNAc and GDP-Man biosynthetic pathway segments. For example, increase in the UDP-GlcNAc levels could be due to increase in the levels of UDP-GlcNAc pyrophosphorylase encoded by the gene UAP1, an enzyme that catalyzes the conversion of GlcNAc-1P to UDP-GlcNAc (Figure 5B, Data S12). The increase in UDP-GlcNAc happens even though the levels of its direct precursor, GlcNAc-1P, decrease with time, which further strengthens the argument that increase in the levels of UAP1 could be at play here.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>51188</offset>
+      <text>Levels of GDP-Fuc and CMP-Sia could be influenced by the levels of their precursors, GDP-Man and UDP-GlcNAc, respectively. Interestingly, the intracellular levels of GDP-Fuc remain relatively constant, although GDP-Man increases over the last 2 days of the culture. One explanation for this could be the decrease in the levels of fucose synthase enzyme (TSTA3) in the last 2 days of the culture. Similarly, even though UDP-GlcNAc levels increase significantly, only marginal increase in the levels of CMP-Sia were observed. This could be explained by the negative feedback regulation of an irreversible enzyme, GNE, in CMP-Sia biosynthetic pathway by itself. Supplementation of the intermediates downstream of the GNE, ManNAc, led to a significant increase in the CMP-Sia, further supporting the argument that auto feedback regulation could be at play. This regulation was also previously reported to be at play in CHO cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>52116</offset>
+      <text>UDP-Gal, the NSD for the step of galactosylation, decreases with time for both the conditions (CC and HD) (Figure 5A). Assessing if the temporal changes in the NSD levels affect the glycoforms being produced, a clear correlation was observed between temporal decrease in protein galactosylation and intracellular levels of UDP-Gal. Another well-known factor that affects the level of galactosylation is manganese (Mn2+), a cofactor that enhances B4galt1 activity. Mn2+ concentration decreases with time even for the condition with higher Mn2+ (HD-1 and HD-2) (Figure S1D). Although manganese enhances galactosylation in a dose-dependent manner, supplementation of manganese alone fails to sustain high levels of galactosylation throughout the course of the culture (Figure 6A). Interestingly, in the presence of Mn2+, supplementation of galactose to fed-batch cultures, which increased the intracellular UDP-Gal levels by 25- to 100-fold results in sustained levels of galactosylation for the entire cell culture period (Figure 6A). Galactose supplementation bypasses the glycolytic pathway for UDP-Gal biosynthesis, and galactose is converted to UPD-Gal by the Leloir pathway. The transcript levels of enzymes in the Leloir pathway, namely, GALK1, GALK2, GALT, and GALE, either increase or stay relatively constant across the fed-batch cultures (Figure S6A).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>53481</offset>
+      <text>Furthermore, temporal reduction in galactosylation could also be partly due to the inhibition of UDP-Gal transport into trans-Golgi cisternae by increased levels of UDP-GalNAc and UDP-GlcNAc, observed in the late stages of the culture (Figure 5A). The NSD transport protein encoded by SLC35A2 not only serves as a transporter for UDP-Gal, but is also reported to transport UDP-GalNAc and UDP-GlcNAc. Therefore, each one of them can competitively inhibit transport of the other substrate. When cells were cultivated in GlcNAc-supplemented media, a significant increase in intracellular concentrations of UDP-Gal, UDP-GlcNAc, and UDP-GalNAc were observed (Figures 6B and S7A). This resulted in reduction in galactosylation when compared with control (Figures 6B and S7B). Interestingly, the ratio of UDP-Gal to UDP-GalNAc or UDP-GlcNAc was lower in the GlcNAc-treated condition when compared with control. These data further substantiate the hypothesis that increase in UDP-GalNAc and/or UDP-GlcNAc might negatively influence galactosylation (Figure 6C).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>54536</offset>
+      <text>We also notice that UDP-Gal showed an increasing trend over time in a fed-batch culture upon galactose supplementation. Based on our hypothesis UDP-HexNAc (UDP-GlcNAc and UDP-GalNAc) competes with UDP-Gal for transport to Golgi. UDP-HexNAc was observed to increase over time intracellularly (Figure 6A). In the presence of such higher levels of UDP-HexNAc, and under sufficient availability of galactose, it is possible that to maintain the same flux of UDP-Gal through Golgi, the cytosolic UDP-Gal concentrations could increase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>55067</offset>
+      <text>Our study also shows that sialylation levels are very low and decrease with time. Galactose supplementation did not increase the peak levels of sialylation observed across the culture but helped prevent the drop in the sialylation observed during the production phase of the culture (Figure S6). This suggested that one reason behind temporal heterogeneity of sialylation is the heterogeneity in galactosylation levels. Another reason for low levels of sialylation could be the relatively lower levels of the corresponding NSD substrate (CMP-Sia). Evidently, supplementation of ManNAc increased the intracellular levels of CMP-Sia, which in turn enhanced the levels of sialylation. Interestingly, although ManNAc supplementation resulted in ~30-fold increase in the intracellular pool of CMP-Sia, the overall increase in sialylation was significantly low (from ~3% to ~5.5%). This suggests that, apart from the substrate limitations (availability of galactosylated species and CMP-Sia), other factors might be at play. These include, but are not limited to, low expression levels of sialyltransferases, reduced residence time for sialylation in trans-Golgi networks, and steric hindrance for sialyltransferases for glycan chain extension in case of mAbs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>56329</offset>
+      <text>Another potential factor that can influence temporal heterogeneity in glycan profile is the glycosidase activity. Glycosidases are prominently present in the extracellular matrix of the CHO fed-batch cultures for mAb production. Addition of neuraminidases (glycosidases for sialic acid) results in reduced levels of sialylation in fed-batch cultures. Functional analyses of the transcriptome data suggested that these glycosidases are significantly expressed and are enriched during production phase. We tested the effect of glycosidases present in the extracellular matrix by incubating the day 9 cell-free supernatants from cell cultures for 3 days at 36.5 C. When these samples were analyzed for changes in the glycan profile over the 3 days, only a slight reduction in the sialylation levels were observed (from ~2.9% to ~2.5%), whereas no significant differences were observed for other glycosylated species (data not shown). A possible reason why the effect was minimal is because the fed-batch cultures were maintained in the strict pH range of 6.9-7.2, whereas the optimum pH for most of these glycosidase activity is within the pH range of 4-6. Intracellularly, these glycosidases are known to localize primarily in lysosomes where pH is lower and suitable for their activity, such as participating in salvage pathways for misfolded proteins. Thus, despite exhibiting significant time dynamics, barring sialidases, other glycosidases might not directly influence the N-glycosylation dynamics in fed-batch cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57864</offset>
+      <text>Functional analysis of the omics data also suggested genes and functional classes that might act as potential competitors for the common substrates (NSDs) and might affect the glycosylation dynamics. These include enzymes/genes that are involved in O-linked glycosylation, glycosaminoglycan, and glycosphingolipid synthesis. Although not completely understood, given the co-localization of some of these enzymes with those involved in N-glycosylation, these enzymes might compete for NSDs and even cofactors, thus influencing the dynamics. Similarly, the level and type of host cell glycoproteins secreted over the course of the culture might also affect the temporal changes in glycosylation of the mAb being produced. In addition, the specific productivity can potentially affect the residence time of the mAb within Golgi cisternae. Temporal changes in specific productivity can, therefore, result in the changes in the glycoforms produced with time. Additional work is needed to assess the role of these factors on glycosylation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>58898</offset>
+      <text>In conclusion, N-glycosylation is a complex dynamic process influenced by several pathways including NSD biosynthesis, glycolysis, and other processes that compete for enzymes or substrates. Systematic analysis of time course omics data identified the primary cause for glycosylation dynamics in fed-batch cultures as changes in the substrate availability. The holistic understanding of glycosylation network dynamics helped contrive strategies to overcome the bottlenecks toward reduction in the heterogeneity observed in fed-batch culture. Going forward, this understanding can be used to implement additional strategies to perform both process- and genetic-engineering-related modifications toward further reducing the glycoform heterogeneity observed in fed-batch cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_2</infon>
+      <offset>59676</offset>
+      <text>Limitations of the Study</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>59701</offset>
+      <text>In this study, in addition to identifying the cause for dynamics in N-glycosylation pathway activity and the glycoform produced, we made a number of observations that are intriguing but need to be probed further experimentally. First, we showed using one cell line with two distinct cell culture processes that glycoform dynamics are dominantly time dependent and less process dependent. Further experimentation with additional producing CHO cell lines across different lineages employing different fed-batch processes will be needed to be analyzed before fully establishing the generality of the above argument. Second, we identified other glycosylation-related pathways, including sphingolipid, glycerolipid, and aminoglycan biosynthesis, to be modulated in growth or production phases of the fed-batch processes. More experimentation is needed to probe the effect of competition for resources shared (nucleotide sugars, cofactors, and glycosylation enzymes) by these pathways along with protein glycosylation on the recombinant protein glycoform. Third, we observed that an increase in UPD-GlcNAc levels results in lower galactosylation. Experimentation is needed for identifying the mechanism at play.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>60907</offset>
+      <text>Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>60915</offset>
+      <text>All methods can be found in the accompanying Transparent Methods supplemental file.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>60999</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="name_1">surname:Kuranda;given-names:M.J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Aronson;given-names:N.N.</infon>
+      <infon key="fpage">2615</infon>
+      <infon key="pub-id_pmid">2531691</infon>
+      <infon key="year">1989</infon>
+      <infon key="source">FASEB J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2622</infon>
+      <offset>61010</offset>
+      <text>Lysosomal degradation of Asn-linked glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Blanchard;given-names:V.</infon>
+      <infon key="name_1">surname:Kaup;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Berger;given-names:M.</infon>
+      <infon key="fpage">165</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Genomics and Systems Biology of Mammalian Cell Culture</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">185</infon>
+      <offset>61060</offset>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Talon;given-names:M.</infon>
+      <infon key="volume">22</infon>
+      <infon key="name_2">surname:Ferrer;given-names:A.</infon>
+      <infon key="name_1">surname:Nueda;given-names:M.J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Conesa;given-names:A.</infon>
+      <infon key="fpage">1096</infon>
+      <infon key="pub-id_pmid">16481333</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1102</infon>
+      <offset>61061</offset>
+      <text>maSigPro: a method to identify significantly differential expression profiles in time-course microarray experiments</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Visser;given-names:R.</infon>
+      <infon key="name_2">surname:Koeleman;given-names:C.A.M.</infon>
+      <infon key="name_1">surname:Plomp;given-names:R.</infon>
+      <infon key="name_0">surname:Dekkers;given-names:G.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_pmid">28442746</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Sci. Rep.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Vidarsson;given-names:G.</infon>
+      <infon key="name_7">surname:Wuhrer;given-names:M.</infon>
+      <infon key="lpage">12</infon>
+      <infon key="name_6">surname:Rispens;given-names:T.</infon>
+      <infon key="name_5">surname:Sandig;given-names:V.</infon>
+      <infon key="name_4">surname:Von Horsten;given-names:H.H.</infon>
+      <offset>61177</offset>
+      <text>Multi-level glyco-engineering techniques to generate IgG with defined Fc-glycans</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="name_2">surname:Gleixner;given-names:R.</infon>
+      <infon key="name_1">surname:Broly;given-names:H.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Eon-Duval;given-names:A.</infon>
+      <infon key="fpage">608</infon>
+      <infon key="pub-id_pmid">22473974</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">622</infon>
+      <offset>61258</offset>
+      <text>Quality attributes of recombinant therapeutic proteins: an assessment of impact on safety and efficacy as part of a quality by design development approach</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wagtberg Sen;given-names:J.</infon>
+      <infon key="name_2">surname:Muller;given-names:C.</infon>
+      <infon key="name_1">surname:Jimenez Del Val;given-names:I.</infon>
+      <infon key="name_0">surname:Fan;given-names:Y.</infon>
+      <infon key="fpage">521</infon>
+      <infon key="pub-id_pmid">25220616</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Andersen;given-names:M.R.</infon>
+      <infon key="lpage">535</infon>
+      <infon key="name_6">surname:Weilguny;given-names:D.</infon>
+      <infon key="name_5">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_4">surname:Rasmussen;given-names:S.K.</infon>
+      <offset>61413</offset>
+      <text>Amino acid and glucose metabolism in fed-batch CHO cell culture affects antibody production and glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sliwkowski;given-names:M.B.</infon>
+      <infon key="volume">68</infon>
+      <infon key="name_2">surname:Lofgren;given-names:J.</infon>
+      <infon key="name_1">surname:Ryll;given-names:T.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Gawlitzek;given-names:M.</infon>
+      <infon key="fpage">637</infon>
+      <infon key="pub-id_pmid">10799988</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">646</infon>
+      <offset>61523</offset>
+      <text>Ammonium alters N-glycan structures of recombinant TNFR-IgG: degradative versus biosynthetic mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="name_1">surname:Goochee;given-names:C.F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Gramer;given-names:M.J.</infon>
+      <infon key="fpage">366</infon>
+      <infon key="pub-id_pmid">7763907</infon>
+      <infon key="year">1993</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">373</infon>
+      <offset>61627</offset>
+      <text>Glycosidase activities in Chinese hamster ovary cell lysate and cell culture supernatant</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Brousseau;given-names:D.T.</infon>
+      <infon key="name_2">surname:Chock;given-names:V.Y.</infon>
+      <infon key="name_1">surname:Goochee;given-names:C.F.</infon>
+      <infon key="name_0">surname:Gramer;given-names:M.J.</infon>
+      <infon key="fpage">692</infon>
+      <infon key="pub-id_pmid">9634806</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Biotechnology (N. Y.)</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">698</infon>
+      <infon key="name_4">surname:Sliwkowski;given-names:M.B.</infon>
+      <offset>61716</offset>
+      <text>Removal of sialic acid from a glycoprotein in CHO cell culture supernatant by action of an extracellular cho cell sialidase</text>
+    </passage>
+    <passage>
+      <infon key="volume">58</infon>
+      <infon key="name_1">surname:Wang;given-names:D.I.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Gu;given-names:X.</infon>
+      <infon key="fpage">642</infon>
+      <infon key="pub-id_pmid">10099302</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">648</infon>
+      <offset>61840</offset>
+      <text>Improvement of interferon-gamma sialylation in Chinese hamster ovary cell culture by feeding of N-acetylmannosamine</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Goya;given-names:J.</infon>
+      <infon key="name_2">surname:Xu;given-names:W.</infon>
+      <infon key="name_1">surname:Zanotelli;given-names:V.R.T.</infon>
+      <infon key="name_0">surname:Hackett;given-names:S.R.</infon>
+      <infon key="fpage">aaf2786</infon>
+      <infon key="pub-id_pmid">27789812</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">354</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Rabinowitz;given-names:J.D.</infon>
+      <infon key="name_8">surname:Storey;given-names:J.D.</infon>
+      <infon key="name_7">surname:Botstein;given-names:D.</infon>
+      <infon key="name_6">surname:Gibney;given-names:P.A.</infon>
+      <infon key="name_5">surname:Perlman;given-names:D.H.</infon>
+      <infon key="name_4">surname:Park;given-names:J.O.</infon>
+      <offset>61956</offset>
+      <text>Systems-level analysis of mechanisms regulating yeast metabolic flux</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Day;given-names:C.J.</infon>
+      <infon key="name_2">surname:Ashikov;given-names:A.</infon>
+      <infon key="name_1">surname:Maggioni;given-names:A.</infon>
+      <infon key="name_0">surname:Hadley;given-names:B.</infon>
+      <infon key="fpage">23</infon>
+      <infon key="pub-id_pmid">25210595</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Comput. Struct. Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">32</infon>
+      <infon key="name_5">surname:Tiralongo;given-names:J.</infon>
+      <infon key="name_4">surname:Haselhorst;given-names:T.</infon>
+      <offset>62025</offset>
+      <text>Structure and function of nucleotide sugar transporters: current progress</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Morten;given-names:K.</infon>
+      <infon key="volume">115</infon>
+      <infon key="name_2">surname:Chung;given-names:V.</infon>
+      <infon key="name_1">surname:Walker;given-names:T.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hartley;given-names:F.</infon>
+      <infon key="fpage">1890</infon>
+      <infon key="pub-id_pmid">29603726</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1903</infon>
+      <offset>62099</offset>
+      <text>Mechanisms driving the lactate switch in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_2">surname:Thiebaut;given-names:R.</infon>
+      <infon key="name_1">surname:Skinner;given-names:J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hejblum;given-names:B.P.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">PLoS Comput. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">21</infon>
+      <offset>62168</offset>
+      <text>Time-course gene set analysis for longitudinal gene expression data</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hu;given-names:W.-S.</infon>
+      <infon key="volume">95</infon>
+      <infon key="name_2">surname:Lee;given-names:M.M.</infon>
+      <infon key="name_1">surname:Goh;given-names:L.-T.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hossler;given-names:P.</infon>
+      <infon key="fpage">946</infon>
+      <infon key="pub-id_pmid">16807922</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">960</infon>
+      <offset>62236</offset>
+      <text>GlycoVis: Visualizing glycan distribution in the proteinN-glycosylation pathway in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="name_2">surname:Hu;given-names:W.-S.S.</infon>
+      <infon key="name_1">surname:Mulukutla;given-names:B.C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hossler;given-names:P.</infon>
+      <infon key="fpage">e713</infon>
+      <infon key="pub-id_pmid">17684559</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <offset>62335</offset>
+      <text>Systems analysis of N-glycan processing in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hori;given-names:Y.</infon>
+      <infon key="name_2">surname:Mochizuki;given-names:M.</infon>
+      <infon key="name_1">surname:Araki;given-names:M.</infon>
+      <infon key="name_0">surname:Hsu;given-names:H.-H.</infon>
+      <infon key="fpage">43518</infon>
+      <infon key="pub-id_pmid">28252038</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Sci. Rep.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Kondo;given-names:A.</infon>
+      <infon key="name_7">surname:Hasunuma;given-names:T.</infon>
+      <infon key="name_6">surname:Yoshida;given-names:T.</infon>
+      <infon key="name_5">surname:Kahar;given-names:P.</infon>
+      <infon key="name_4">surname:Murata;given-names:M.</infon>
+      <offset>62394</offset>
+      <text>A systematic approach to time-series metabolite profiling and RNA-seq analysis of Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Stettler;given-names:M.</infon>
+      <infon key="name_2">surname:Bruhlmann;given-names:D.</infon>
+      <infon key="name_1">surname:Villiger;given-names:T.K.</infon>
+      <infon key="name_0">surname:Hutter;given-names:S.</infon>
+      <infon key="fpage">9</infon>
+      <infon key="pub-id_pmid">28754360</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Metab. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">43</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">20</infon>
+      <infon key="name_6">surname:Gunawan;given-names:R.</infon>
+      <infon key="name_5">surname:Soos;given-names:M.</infon>
+      <infon key="name_4">surname:Broly;given-names:H.</infon>
+      <offset>62511</offset>
+      <text>Glycosylation flux analysis reveals dynamic changes of intracellular glycosylation flux distribution in Chinese hamster ovary fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Soos;given-names:M.</infon>
+      <infon key="volume">188</infon>
+      <infon key="name_2">surname:Morbidelli;given-names:M.</infon>
+      <infon key="name_1">surname:Villiger;given-names:T.K.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ivarsson;given-names:M.</infon>
+      <infon key="fpage">88</infon>
+      <infon key="pub-id_pmid">25173615</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">96</infon>
+      <offset>62656</offset>
+      <text>Evaluating the impact of cell culture process parameters on monoclonal antibody N-glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Dell;given-names:A.</infon>
+      <infon key="name_2">surname:Constantinou;given-names:A.</infon>
+      <infon key="name_1">surname:del Val;given-names:I.J.</infon>
+      <infon key="name_0">surname:Jedrzejewski;given-names:P.M.</infon>
+      <infon key="fpage">4492</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J. Mol. Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">15</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">4522</infon>
+      <infon key="name_6">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_5">surname:Polizzi;given-names:K.M.</infon>
+      <infon key="name_4">surname:Haslam;given-names:S.M.</infon>
+      <offset>62752</offset>
+      <text>Towards controlling the glycoform: a model framework linking extracellular metabolites to antibody glycosylation. Int</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="name_2">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_1">surname:Nagy;given-names:J.M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jimenez del Val;given-names:I.</infon>
+      <infon key="fpage">1730</infon>
+      <infon key="pub-id_pmid">21956887</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1743</infon>
+      <offset>62870</offset>
+      <text>A dynamic mathematical model for monoclonal antibody N-linked glycosylation and nucleotide sugar donor transport within a maturing Golgi apparatus</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Haslam;given-names:S.</infon>
+      <infon key="volume">7</infon>
+      <infon key="name_2">surname:Dell;given-names:A.</infon>
+      <infon key="name_1">surname:Constantinou;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jimenez del Val;given-names:I.</infon>
+      <infon key="fpage">O10</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">BMC Proc.</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_5">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_4">surname:Polizzi;given-names:K.M.</infon>
+      <offset>63017</offset>
+      <text>A quantitative and mechanistic model for monoclonal antibody glycosylation as a function of nutrient availability during cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Murray;given-names:M.-Y.</infon>
+      <infon key="name_2">surname:Johannes;given-names:G.</infon>
+      <infon key="name_1">surname:Hengameh;given-names:A.</infon>
+      <infon key="name_0">surname:Kaveh;given-names:O.</infon>
+      <infon key="fpage">30</infon>
+      <infon key="issue">31</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">IFAC</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">46</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">35</infon>
+      <infon key="name_6">surname:Budman;given-names:H.M.</infon>
+      <infon key="name_5">surname:Jeno;given-names:S.</infon>
+      <infon key="name_4">surname:Legge;given-names:R.L.</infon>
+      <offset>63151</offset>
+      <text>Novel dynamic model to predict the glycosylation pattern of monoclonal antibodies from extracellular cell culture conditions</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Pauers;given-names:M.</infon>
+      <infon key="name_2">surname:Leparc;given-names:G.</infon>
+      <infon key="name_1">surname:Muller;given-names:M.M.</infon>
+      <infon key="name_0">surname:Konitzer;given-names:J.D.</infon>
+      <infon key="fpage">1412</infon>
+      <infon key="pub-id_pmid">26212696</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Hampel;given-names:M.</infon>
+      <infon key="name_8">surname:Hildebrandt;given-names:T.</infon>
+      <infon key="name_7">surname:Enenkel;given-names:B.</infon>
+      <infon key="lpage">1423</infon>
+      <infon key="name_6">surname:Schaub;given-names:J.</infon>
+      <infon key="name_5">surname:Schulz;given-names:P.</infon>
+      <infon key="name_4">surname:Bechmann;given-names:J.</infon>
+      <offset>63277</offset>
+      <text>A global RNA-seq-driven analysis of CHO host and production cell lines reveals distinct differential expression patterns of genes contributing to recombinant antibody glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="name_1">surname:Betenbaugh;given-names:M.J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Krambeck;given-names:F.J.</infon>
+      <infon key="fpage">711</infon>
+      <infon key="pub-id_pmid">16247773</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">728</infon>
+      <offset>63458</offset>
+      <text>A mathematical model of N-linked glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Choi;given-names:S.</infon>
+      <infon key="name_2">surname:Narang;given-names:S.</infon>
+      <infon key="name_1">surname:Bennun;given-names:S.V.</infon>
+      <infon key="name_0">surname:Krambeck;given-names:F.J.</infon>
+      <infon key="fpage">1163</infon>
+      <infon key="pub-id_pmid">19506293</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1175</infon>
+      <infon key="name_5">surname:Betenbaugh;given-names:M.J.</infon>
+      <infon key="name_4">surname:Yarema;given-names:K.J.</infon>
+      <offset>63505</offset>
+      <text>A mathematical model to derive N-glycan structures and cellular enzyme activities from mass spectrometric data</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nagarajan;given-names:H.</infon>
+      <infon key="name_2">surname:Li;given-names:Y.</infon>
+      <infon key="name_1">surname:Liu;given-names:X.</infon>
+      <infon key="name_0">surname:Lewis;given-names:N.E.</infon>
+      <infon key="fpage">759</infon>
+      <infon key="pub-id_pmid">23873082</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nat. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Bian;given-names:C.</infon>
+      <infon key="name_8">surname:Rosenbloom;given-names:J.</infon>
+      <infon key="name_7">surname:Roth;given-names:A.M.</infon>
+      <infon key="lpage">765</infon>
+      <infon key="name_6">surname:Bordbar;given-names:A.</infon>
+      <infon key="name_5">surname:O'Brien;given-names:E.</infon>
+      <infon key="name_4">surname:Yerganian;given-names:G.</infon>
+      <offset>63616</offset>
+      <text>Genomic landscapes of Chinese hamster ovary cell lines as revealed by the Cricetulus griseus draft genome</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:George;given-names:H.J.</infon>
+      <infon key="name_2">surname:Sealover;given-names:N.R.</infon>
+      <infon key="name_1">surname:Mascarenhas;given-names:J.</infon>
+      <infon key="name_0">surname:Lin;given-names:N.</infon>
+      <infon key="fpage">334</infon>
+      <infon key="pub-id_pmid">25641927</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Archer-Hartmann;given-names:S.</infon>
+      <infon key="name_8">surname:Azadi;given-names:P.</infon>
+      <infon key="name_7">surname:Yasa;given-names:I.</infon>
+      <infon key="lpage">346</infon>
+      <infon key="name_6">surname:Gau;given-names:B.</infon>
+      <infon key="name_5">surname:Kayser;given-names:K.J.</infon>
+      <infon key="name_4">surname:Brooks;given-names:J.</infon>
+      <offset>63722</offset>
+      <text>Chinese hamster ovary (CHO) host cell engineering to increase sialylation of recombinant therapeutic proteins by modulating sialyltransferase expression</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gershwin;given-names:M.E.</infon>
+      <infon key="name_2">surname:Shimoda;given-names:M.</infon>
+      <infon key="name_1">surname:Kim;given-names:K.</infon>
+      <infon key="name_0">surname:Maverakis;given-names:E.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_pmid">25578468</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J. Autoimmun.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">57</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Lebrilla;given-names:C.B.</infon>
+      <infon key="name_7">surname:Ruhaak;given-names:L.R.</infon>
+      <infon key="lpage">13</infon>
+      <infon key="name_6">surname:Raychaudhuri;given-names:S.</infon>
+      <infon key="name_5">surname:Wilken;given-names:R.</infon>
+      <infon key="name_4">surname:Patel;given-names:F.</infon>
+      <offset>63875</offset>
+      <text>Glycans in the immune system and the altered glycan theory of autoimmunity: a critical review</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="name_2">surname:Davey;given-names:G.P.</infon>
+      <infon key="name_1">surname:Hayes;given-names:J.M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:McDonald;given-names:A.G.</infon>
+      <infon key="fpage">97</infon>
+      <infon key="pub-id_pmid">27620650</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Curr. Opin. Struct. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">103</infon>
+      <offset>63969</offset>
+      <text>Metabolic flux control in glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="name_1">surname:Yamaguchi;given-names:K.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Miyagi;given-names:T.</infon>
+      <infon key="fpage">880</infon>
+      <infon key="pub-id_pmid">22377912</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">896</infon>
+      <offset>64009</offset>
+      <text>Mammalian sialidases: physiological and pathological roles in cellular functions</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="name_2">surname:Hu;given-names:W.S.</infon>
+      <infon key="name_1">surname:Gramer;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Mulukutla;given-names:B.C.</infon>
+      <infon key="fpage">138</infon>
+      <infon key="pub-id_pmid">22244936</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Metab. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">149</infon>
+      <offset>64090</offset>
+      <text>On metabolic shift to lactate consumption in fed-batch culture of mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hu;given-names:W.S.</infon>
+      <infon key="volume">9</infon>
+      <infon key="name_2">surname:Daoutidis;given-names:P.</infon>
+      <infon key="name_1">surname:Yongky;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Mulukutla;given-names:B.C.</infon>
+      <infon key="fpage">e98756</infon>
+      <infon key="pub-id_pmid">24911170</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <offset>64172</offset>
+      <text>Bistability in glycolysis pathway as a physiological switch in energy metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Daoutidis;given-names:P.</infon>
+      <infon key="volume">10</infon>
+      <infon key="name_2">surname:Grimm;given-names:S.</infon>
+      <infon key="name_1">surname:Yongky;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Mulukutla;given-names:B.C.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">20</infon>
+      <infon key="name_4">surname:Hu;given-names:W.S.</infon>
+      <offset>64253</offset>
+      <text>Multiplicity of steady states in glycolysis and shift of metabolic state in cultured mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mashek;given-names:D.G.</infon>
+      <infon key="name_2">surname:Le;given-names:T.</infon>
+      <infon key="name_1">surname:Yongky;given-names:A.</infon>
+      <infon key="name_0">surname:Mulukutla;given-names:B.C.</infon>
+      <infon key="fpage">638</infon>
+      <infon key="pub-id_pmid">27265890</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Trends Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">651</infon>
+      <infon key="name_4">surname:Hu;given-names:W.S.</infon>
+      <offset>64354</offset>
+      <text>Regulation of glucose metabolism - a perspective from cell bioprocessing</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hall;given-names:E.M.</infon>
+      <infon key="name_2">surname:Harris;given-names:K.</infon>
+      <infon key="name_1">surname:York;given-names:W.S.</infon>
+      <infon key="name_0">surname:Nairn;given-names:A.V.</infon>
+      <infon key="fpage">17298</infon>
+      <infon key="pub-id_pmid">18411279</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">283</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">17313</infon>
+      <infon key="name_5">surname:Moremen;given-names:K.W.</infon>
+      <infon key="name_4">surname:Pierce;given-names:J.M.</infon>
+      <offset>64429</offset>
+      <text>Regulation of glycan structures in animal tissues: transcript profiling of glycan-related genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="name_1">surname:Satoh;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Niwa;given-names:R.</infon>
+      <infon key="fpage">930</infon>
+      <infon key="pub-id_pmid">25583555</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J. Pharm. Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">941</infon>
+      <offset>64525</offset>
+      <text>The current status and prospects of antibody engineering for therapeutic use: focus on glycoengineering technology</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Li;given-names:S.</infon>
+      <infon key="name_2">surname:Kellman;given-names:B.</infon>
+      <infon key="name_1">surname:Richelle;given-names:A.</infon>
+      <infon key="name_0">surname:Opdam;given-names:S.</infon>
+      <infon key="fpage">318</infon>
+      <infon key="pub-id_pmid">28215528</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Cell Syst.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">329.e6</infon>
+      <infon key="name_5">surname:Lewis;given-names:N.E.</infon>
+      <infon key="name_4">surname:Zielinski;given-names:D.C.</infon>
+      <offset>64640</offset>
+      <text>A Systematic evaluation of methods for tailoring genome-scale metabolic models</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:An;given-names:H.J.</infon>
+      <infon key="name_2">surname:Lim;given-names:M.S.</infon>
+      <infon key="name_1">surname:Jin;given-names:J.H.</infon>
+      <infon key="name_0">surname:Park;given-names:J.H.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_pmid">28127051</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Sci. Rep.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">13</infon>
+      <infon key="name_5">surname:Lee;given-names:G.M.</infon>
+      <infon key="name_4">surname:Kim;given-names:J.W.</infon>
+      <offset>64719</offset>
+      <text>Proteomic analysis of host cell protein dynamics in the culture supernatants of antibody-producing CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:de Haan;given-names:L.</infon>
+      <infon key="name_2">surname:Bielsky;given-names:M.-C.</infon>
+      <infon key="name_1">surname:Sethu;given-names:S.</infon>
+      <infon key="name_0">surname:Sathish;given-names:J.G.</infon>
+      <infon key="fpage">306</infon>
+      <infon key="pub-id_pmid">23535934</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nat. Rev. Drug Discov.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Jones;given-names:D.</infon>
+      <infon key="name_8">surname:Holgate;given-names:S.</infon>
+      <infon key="name_7">surname:Griffiths;given-names:C.E.M.</infon>
+      <infon key="lpage">324</infon>
+      <infon key="name_6">surname:Green;given-names:J.</infon>
+      <infon key="name_5">surname:Govindappa;given-names:K.</infon>
+      <infon key="name_4">surname:French;given-names:N.S.</infon>
+      <offset>64828</offset>
+      <text>Challenges and approaches for the development of safer immunomodulatory biologics</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:D.-Y.</infon>
+      <infon key="name_2">surname:Brorson;given-names:K.</infon>
+      <infon key="name_1">surname:Agarabi;given-names:C.</infon>
+      <infon key="name_0">surname:Sha;given-names:S.</infon>
+      <infon key="fpage">835</infon>
+      <infon key="pub-id_pmid">27016033</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Trends Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">846</infon>
+      <infon key="name_4">surname:Yoon;given-names:S.</infon>
+      <offset>64910</offset>
+      <text>N-glycosylation design and control of therapeutic monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">271</infon>
+      <infon key="name_2">surname:Yoon;given-names:S.</infon>
+      <infon key="name_1">surname:Bhatia;given-names:H.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sha;given-names:S.</infon>
+      <infon key="fpage">37</infon>
+      <infon key="pub-id_pmid">29476805</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">46</infon>
+      <offset>64982</offset>
+      <text>An RNA-seq based transcriptomic investigation into the productivity and growth variants with Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Song;given-names:Z.</infon>
+      <infon key="fpage">590</infon>
+      <infon key="pub-id_pmid">23506892</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Mol. Aspects Med.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">600</infon>
+      <offset>65103</offset>
+      <text>Roles of the nucleotide sugar transporters (SLC35 family) in health and disease</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mason;given-names:A.</infon>
+      <infon key="name_2">surname:Lee;given-names:K.</infon>
+      <infon key="name_1">surname:Sellick;given-names:C.</infon>
+      <infon key="name_0">surname:Sou;given-names:S.N.</infon>
+      <infon key="fpage">1165</infon>
+      <infon key="pub-id_pmid">25545631</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1176</infon>
+      <infon key="name_6">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_5">surname:Polizzi;given-names:K.M.</infon>
+      <infon key="name_4">surname:Kyriakopoulos;given-names:S.</infon>
+      <offset>65183</offset>
+      <text>How does mild hypothermia affect monoclonal antibody glycosylation?</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mukherjee;given-names:S.</infon>
+      <infon key="name_2">surname:Mootha;given-names:V.K.</infon>
+      <infon key="name_1">surname:Tamayo;given-names:P.</infon>
+      <infon key="name_0">surname:Subramanian;given-names:A.</infon>
+      <infon key="fpage">15545</infon>
+      <infon key="pub-id_pmid">16199517</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. U S A</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">102</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Lander;given-names:E.S.</infon>
+      <infon key="name_8">surname:Golub;given-names:T.R.</infon>
+      <infon key="name_7">surname:Pomeroy;given-names:S.L.</infon>
+      <infon key="lpage">15550</infon>
+      <infon key="name_6">surname:Paulovich;given-names:A.</infon>
+      <infon key="name_5">surname:Gillette;given-names:M.A.</infon>
+      <infon key="name_4">surname:Ebert;given-names:B.L.</infon>
+      <offset>65251</offset>
+      <text>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kremmer;given-names:E.</infon>
+      <infon key="name_2">surname:Neumann;given-names:S.</infon>
+      <infon key="name_1">surname:Munch;given-names:A.</infon>
+      <infon key="name_0">surname:Ullrich;given-names:S.</infon>
+      <infon key="fpage">20664</infon>
+      <infon key="pub-id_pmid">20427278</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">285</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">20674</infon>
+      <infon key="name_5">surname:Lichtenthaler;given-names:S.F.</infon>
+      <infon key="name_4">surname:Tatzelt;given-names:J.</infon>
+      <offset>65357</offset>
+      <text>The novel membrane protein TMEM59 modulates complex glycosylation, cell surface expression, and secretion of the amyloid precursor protein</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Stettler;given-names:M.</infon>
+      <infon key="name_2">surname:Perilleux;given-names:A.</infon>
+      <infon key="name_1">surname:Roulet;given-names:A.</infon>
+      <infon key="name_0">surname:Villiger;given-names:T.K.</infon>
+      <infon key="fpage">1123</infon>
+      <infon key="pub-id_pmid">27254475</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1134</infon>
+      <infon key="name_6">surname:Soos;given-names:M.</infon>
+      <infon key="name_5">surname:Morbidelli;given-names:M.</infon>
+      <infon key="name_4">surname:Broly;given-names:H.</infon>
+      <offset>65496</offset>
+      <text>Controlling the time evolution of mAb N-linked glycosylation, Part I: Microbioreactor experiments</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Broly;given-names:H.</infon>
+      <infon key="name_2">surname:Stettler;given-names:M.</infon>
+      <infon key="name_1">surname:Scibona;given-names:E.</infon>
+      <infon key="name_0">surname:Villiger;given-names:T.K.</infon>
+      <infon key="fpage">1135</infon>
+      <infon key="pub-id_pmid">27273889</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1148</infon>
+      <infon key="name_5">surname:Soos;given-names:M.</infon>
+      <infon key="name_4">surname:Morbidelli;given-names:M.</infon>
+      <offset>65594</offset>
+      <text>Controlling the time evolution of mAb N-linked glycosylation - Part II: model-based predictions</text>
+    </passage>
+    <passage>
+      <infon key="volume">265</infon>
+      <infon key="name_2">surname:Neville;given-names:C.</infon>
+      <infon key="name_1">surname:Casey;given-names:C.E.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Witsell;given-names:D.L.</infon>
+      <infon key="fpage">15731</infon>
+      <infon key="pub-id_pmid">2118531</infon>
+      <infon key="year">1990</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">15737</infon>
+      <offset>65690</offset>
+      <text>Divalent cation of galactosyltransferase in native activation mammary golgi vesicles</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ciccone;given-names:C.</infon>
+      <infon key="name_2">surname:Jacobs;given-names:K.</infon>
+      <infon key="name_1">surname:Choekyi;given-names:T.</infon>
+      <infon key="name_0">surname:Yardeni;given-names:T.</infon>
+      <infon key="fpage">8914</infon>
+      <infon key="pub-id_pmid">21910480</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">50</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Huizing;given-names:M.</infon>
+      <infon key="name_7">surname:Kurochkina;given-names:N.</infon>
+      <infon key="lpage">8925</infon>
+      <infon key="name_6">surname:Gahl;given-names:W.A.</infon>
+      <infon key="name_5">surname:Anikster;given-names:Y.</infon>
+      <infon key="name_4">surname:Patzel;given-names:K.</infon>
+      <offset>65775</offset>
+      <text>Identification, tissue distribution, and molecular modeling of novel human isoforms of the key enzyme in sialic acid synthesis, UDP-GlcNAc 2-epimerase/ManNAc kinase</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>65940</offset>
+      <text>Supplemental Information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>65965</offset>
+      <text>Supplemental Information includes Transparent Methods, 7 figures, and 15 data files and can be found with this article online at https://doi.org/10.1016/j.isci.2019.01.006.</text>
+    </passage>
+  </document>
+</collection>

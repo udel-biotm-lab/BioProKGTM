@@ -1,0 +1,2165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>5098448</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Woen;given-names:Susanto</infon>
+      <infon key="name_2">surname:Zhang;given-names:Peiqing</infon>
+      <infon key="name_1">surname:Lingg;given-names:Nico</infon>
+      <infon key="article-id_pmid">27559765</infon>
+      <infon key="name_0">surname:Hintersteiner;given-names:Beate</infon>
+      <infon key="year">2016</infon>
+      <infon key="article-id_pmc">5098448</infon>
+      <infon key="article-id_publisher-id">1225642</infon>
+      <infon key="article-id_doi">10.1080/19420862.2016.1225642</infon>
+      <infon key="title">KEYWORDS</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">MAbs; 2016 Nov/Dec; 8(8) 1548-1560</infon>
+      <infon key="lpage">1560</infon>
+      <infon key="fpage">1548</infon>
+      <infon key="issue">8</infon>
+      <infon key="alt-title">B. HINTERSTEINER ET AL. MABS</infon>
+      <infon key="volume">8</infon>
+      <infon key="license">This is an Open Access article distributed under the terms of the Creative Commons Attribution-Non-Commercial License (http://creativecommons.org/licenses/by-nc/3.0/), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. The moral rights of the named author(s) have been asserted.</infon>
+      <infon key="name_10">surname:Jungbauer;given-names:Alois</infon>
+      <infon key="kwd">Biosimilar glycoforms immunoglobulin isoforms linear pH gradient Microheterogeneity monoclonal antibody</infon>
+      <infon key="name_9">surname:Loibner;given-names:Hans</infon>
+      <infon key="name_8">surname:Schuster;given-names:Manfred</infon>
+      <infon key="name_7">surname:Mutschlechner;given-names:Oliver</infon>
+      <infon key="name_6">surname:Wiederkum;given-names:Susanne</infon>
+      <infon key="name_5">surname:Stranner;given-names:Stefan</infon>
+      <infon key="authors">Hintersteiner B, Lingg N, Zhang P, Woen S, Hoi KM, Stranner S, Wiederkum S, Mutschlechner O, Schuster M, Loibner H, Jungbauer A</infon>
+      <infon key="name_4">surname:Hoi;given-names:Kong Meng</infon>
+      <offset>0</offset>
+      <text>Charge heterogeneity: Basic antibody charge variants with increased binding to Fc receptors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>92</offset>
+      <text>ABSTRACT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>101</offset>
+      <text>We identified active isoforms of the chimeric anti-GD2 antibody, ch14.18, a recombinant antibody produced in Chinese hamster ovary cells, which is already used in clinical trials. We separated the antibody by high resolution ion-exchange chromatography with linear pH gradient elution into acidic, main and basic charge variants on a preparative scale yielding enough material for an in-depth study of the sources and the effects of microheterogeneity. The binding affinity of the charge variants toward the antigen and various cell surface receptors was studied by Biacore. Effector functions were evaluated using cellular assays for antibody-dependent cell-mediated cytotoxicity and complement-dependent cytotoxicity. Basic charge variants showed increased binding to cell surface receptor FcgammaRIIIa, which plays a major role in regulating effector functions. Furthermore, increased binding of the basic fractions to the neonatal receptor was observed. As this receptor mediates the prolonged half-life of IgG in human serum, this data may well hint at an increased serum half-life of these basic variants compared to their more acidic counterparts. Different glycoform patterns, C-terminal lysine clipping and N-terminal pyroglutamate formation were identified as the main structural sources for the observed isoform pattern. Potential differences in structural stability between individual charge variant fractions by nano differential scanning calorimetry could not been detected. Our in-vitro data suggests that the connection between microheterogeneity and the biological activity of recombinant antibody therapeutics deserves more attention than commonly accepted.</text>
+      <annotation id="1">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:53:23Z</infon>
+        <location offset="558" length="16"/>
+        <text>binding affinity</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:53:34Z</infon>
+        <location offset="676" length="18"/>
+        <text>Effector functions</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:53:38Z</infon>
+        <location offset="736" length="44"/>
+        <text>antibody-dependent cell-mediated cytotoxicit</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:53:40Z</infon>
+        <location offset="786" length="33"/>
+        <text>complement-dependent cytotoxicity</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:53:47Z</infon>
+        <location offset="821" length="21"/>
+        <text>Basic charge variants</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:54:00Z</infon>
+        <location offset="1004" length="14"/>
+        <text>basic fraction</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:54:06Z</infon>
+        <location offset="1027" length="17"/>
+        <text>neonatal receptor</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:54:40Z</infon>
+        <location offset="1099" length="9"/>
+        <text>half-life</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:54:45Z</infon>
+        <location offset="1178" length="9"/>
+        <text>half-life</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:54:50Z</infon>
+        <location offset="1197" length="14"/>
+        <text>basic variants</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:54:52Z</infon>
+        <location offset="1235" length="19"/>
+        <text>acidic counterparts</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:55:05Z</infon>
+        <location offset="1266" length="19"/>
+        <text>glycoform patterns,</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:55:52Z</infon>
+        <location offset="1645" length="18"/>
+        <text>microheterogeneity</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:56:02Z</infon>
+        <location offset="1672" length="19"/>
+        <text>biological activity</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1777</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1790</offset>
+      <text>The exact reasons for why some antibodies show higher potency than others remains unclear. Lacking comprehensive information about the effects of product characteristics on a molecular level, there is an increased need to monitor the production process of antibody therapeutic products to ensure constant product quality.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2112</offset>
+      <text>An increased understanding of the structural and molecular basis of the efficacy of antibody therapeutics is of interest to the scientific, medical and bioprocess engineering communities, and will result in new approaches to develop more potent therapeutic products. Relevant information can be gained through the analysis of antibody variants, which can show quite profound differences in potency, as well as potential side effects, resulting from small structural modifications.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2593</offset>
+      <text>Considering the large size of an IgG molecule (~150 kDa) and the complexity of its structure, which consists of 4 subunits that are connected via disulfide bonds, it is not surprising that monoclonal antibodies contain multiple sites where protein modifications can occur. Such modifications can originate either during the production process or due to chemical reactions during product storage. Formulations of therapeutic monoclonal antibodies thus do not result in only one defined species of molecules, but rather in a large variety of so-called isoforms or protein variants that may differ in structure, biophysical characteristics, e.g., isoelectric point (pI), long-term stability, biological activity. The pattern of microheterogeneity created by these variants is considered to be of decisive importance for consistent product quality of monoclonal antibodies, and therefore must be monitored closely for changes during development and production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3553</offset>
+      <text>One of the most common, and possibly the best-studied, type of protein modification in antibody molecules is glycosylation. The highly conserved residue Asn 297 present in the CH2 domain of each heavy chain provides 2 potential N-glycosylation sites in each antibody molecule, resulting in a wide variety of glycosylation patterns. The glycan moieties predominately found at this site in human IgG are of the complex bi-antennary type, terminating in structures ranging from N-acetylglucosamine (GlcNAc) to galactose (Gal) and N-acetylneuraminic acid (Neu5Ac) molecules. Additionally, other O- and N-glycosylation sites can be present on the antibody molecule, further increasing the diversity of possible IgG glycosylation patterns. The presence of charged glycans containing sialic acid may be one of the most prominent reasons for the occurrence of different charge variants in IgG.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4439</offset>
+      <text>Other protein modifications that result in altered charge characteristics are C-terminal lysine processing, leading to the loss of up to one positive charge unit, deamidation of asparagine and glutamine, which introduces an additional negative charge unit, isomerization of aspartate to isoaspartate, which is slightly more acidic, and the cyclization of glutamic acid to pyroglutamate, which results in the loss of the positively charged primary amine.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4893</offset>
+      <text>Furthermore, there are possible protein modifications that should formally not result in a change of the net charge of the molecule, including methionine oxidation and varying disulfide bond structures, even though they may affect other characteristics. The racemization of L-aspartic acid and L-iso-aspartic acid is another possible modification that should not introduce a change of the pI of the protein, but can result in conformational changes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5343</offset>
+      <text>Recently, a method based on cation exchange chromatography combined with pH gradient elution, which allows the large-scale separation of IgG variants showing different surface charge characteristics, was reported. This method has now been applied to different production batches of ch14.18, a therapeutic mAb against neuroblastoma, which recently finished Phase 3 clinical studies, in order to obtain a closer insight into the origins and the biological effects of different charge variants present in a GMP-produced monoclonal antibody used in clinical settings.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5907</offset>
+      <text>We were able to gain new information about charge heterogeneity because we were able to separate closely related charge variants from each other in mg amounts, which allowed us to further characterize them in biological assays. For that purpose, the separated antibody variants were analyzed by isoelectric focusing, surface plasmon resonance (SPR)-based binding assays to GD2, FcgammaRIIIa and FcRn, and cellular assays to determine antibody-dependent cell-mediated cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6439</offset>
+      <text>Isoelectric focusing is the standard method for visualizing antibody charge variants and was therefore used to evaluate the results of the chromatographic experiments. SPR is a well-established platform for the label-free, real-time monitoring of interactions between biomolecules in vitro, and was therefore selected as an appropriate method for determining the strength of the interaction between the separated antibody charge variants to GD2 and the Fc receptors. The disialoganglioside GD2 is the molecular target of the mAb used for this study. It is a surface molecule, commonly expressed on many different kinds of tumors including neuroblastoma, melanoma and various sarcomas. The specificity of the antibody is a major feature of the molecule determining effectiveness and is therefore of great importance in evaluating differences between charge variants.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7305</offset>
+      <text>FcgammaRIIIa and FcRn, which are both cellular surface receptors binding the Fc domain of IgG, are involved in regulation of 2 major biological modes of action specific to antibodies. FcgammaRIIIa (CD16) is present on natural killer cells and macrophages. Binding of IgG to the receptor molecule is responsible for mediating ADCC and phagocytosis of tumor cells by macrophages. FcRn is expressed on monocytes and endothelial cells. Binding of FcRn to IgG is pH dependent, and it regulates the prolonged serum half-life of IgG by mediating the recycling of the antibody-receptor-complex from the early endosomes, which prevents degradation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7945</offset>
+      <text>To complement the data obtained in those in-vitro experiments, the separated antibody variants were also tested for their performance in cellular assays for ADCC and CDC.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8116</offset>
+      <text>When an antibody binds to the antigen GD2 on a target cell, the Fc domain interacts with its corresponding ligands (FcgammaRIIIa) on leukocytes, as well as with soluble blood proteins (C1q, C4 and C3) of the antibody-dependent complement activation pathway. The interaction with leukocytes triggers ADCC, a process in which target cells are lysed by leukocyte perforins that form pores in the membrane through which the cytoplasm leaks out of the cell. Granzymes induce programmed cell death in the target cell. The interaction with C1q induces CDC by forming a membrane attack complex, which disrupts the phospholipid bilayer leading to target cell lysis. For both types of effector functions, the extent of the target cell killing can be determined by labeling with a radioactive tracer, which is released from the cells when they disintegrate. The tracer, in our case 51Cr, can be detected in the cell supernatant after the immune reaction has taken place. Spontaneous release from labeled target cells, as well as maximum release by total cell lysis with a surfactant can be determined via control samples. Cell lysis by a test sample can then be calculated as a percentage value compared to the maximum lysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9331</offset>
+      <text>Finally, we obtained insight into the structural basis of the variants that we separated and formed a structure-function relationship by analyzing the variants in a series of MS-based experiments, targeting the glycosylation pattern by glycan analysis and modifications on individual amino acids by peptide mapping. In addition, the samples were analyzed by nano differential scanning calorimetry (Nano DSC) to detect any possible differences in thermal stability of the separated variant fractions. For IgG, a Nano DSC experiment normally results in 2 peaks and the corresponding melting temperature (Tm) points, the first of which is associated with the unfolding of the CH2 domain and the antigen-binding fragment (Fab). The second one indicates the unfolding of the CH3 domain.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10113</offset>
+      <text>To our knowledge, this is the first study to investigate the influence of the microheterogeneity pattern of a monoclonal antibody on various critical quality attributes, including target affinity, efficacy and stability, with a large scope. With this thorough data set, we were able to draw conclusions about the relationship of efficacy and overall performance of our antibody to its observed microheterogeneity pattern. Our data shows that antibody modifications can have a considerable influence on the in-vitro behavior of a therapeutic product. If the observed relationship can be confirmed for other mAb products, the results may aid future antibody and process design.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>10789</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10797</offset>
+      <text>Chromatographic separation, confirmation of identity and quality control of starting material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10891</offset>
+      <text>The method previously introduced and validated by Lingg et al. for the analytical separation of antibody charge variants using highly linear pH gradients was scaled up to preparative scale and applied to 3 different production batches of the ch14.18 a chimeric anti-GD2 monoclonal antibody intended for cancer immunotherapy ("Newton," "Darwin," "Curie"), which were manufactured at different stages during product development. Batch "Newton" contains the oldest material, produced in 2004, batch "Darwin" was the result of an engineering run in 2011 after introducing minor changes in the downstream process and batch "Curie" was produced in 2013 after the production process was transferred to a new contract manufacturer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g001.jpg</infon>
+      <infon key="id">f0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>11640</offset>
+      <text>Preparative chromatogram of batch "Newton." The blue trace indicates UV absorbance. A1-A5, M, B1-B2 denotes the collection of acidic, the main and basic variants, respectively. The fractionation boundaries are represented by turquoise lines. The gray trace shows the pH.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g002.jpg</infon>
+      <infon key="id">f0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>11915</offset>
+      <text>Preparative chromatogram of batch "Darwin." The yellow trace indicates UV absorbance. A1-A5, M, B1-B2 denotes the collection of acidic, the main and basic variants, respectively. The fractionation boundaries are represented by turquoise lines. The gray trace shows the pH.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g003.jpg</infon>
+      <infon key="id">f0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>12192</offset>
+      <text>Preparative chromatogram of batch "Curie." The red trace indicates UV absorbance. A1-A5, M, B1-B2 denotes the collection of acidic, the main and basic, respectively. The fractionation boundaries are represented by turquoise lines. The gray trace shows the pH.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g004.jpg</infon>
+      <infon key="id">f0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>12456</offset>
+      <text>Isoelectric focusing of batches "Newton," "Darwin" and "Curie" charge variants, positive control (PC) samples and starting material (SM). For batch "Curie" no positive control run was performed due to limited availability of the starting material. More acidic isoforms get enriched in the early eluting fractions, more basic ones are present in higher amounts in the later eluting fractions. No difference is detectable between the starting material and the positive control samples.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12956</offset>
+      <text>The chromatograms, as well as a comparison of the isoelectric focusing pattern of batches "Newton," "Darwin" and "Curie," (Figs. 1-4) show very similar isoform distributions. All three samples contain a main peak or gel band, flanked by a considerable number of acidic variants and a small amount of basic variants. This is a typical isoform distribution for IgG samples, given that many different kinds of protein modifications are possible, resulting in a shift of the pI value to either side of the main peak for a certain number of molecules. A clearly noticeable difference can be seen for batch "Newton," which seems to contain less of the main fraction and larger amounts of both acidic and basic variants (Fig. 1). "Newton" is the oldest among the investigated batches and it was stored in a different formulation buffer, which may explain the increased number of variants. Environmental factors and storage conditions, such as temperature and the buffer system used, can have a profound effect on the microheterogeneity pattern of a protein solution, and different variants may have accumulated in the sample over the prolonged storage period. Another possible explanation is that the batches "Darwin" and "Curie" contain fewer variants due to changes in the downstream process.     </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14281</offset>
+      <text>Despite the differences for batch "Newton" in comparison to the other batches, it was possible to fractionate the material eluting from the column in a similar fashion for all 3 batches. The chromatograms obtained for batches "Newton," "Darwin" and "Curie" showed a qualitatively comparable shape, while exhibiting quantitative differences in the abundance of the variants (Figs. 1-3). Five acidic fractions (A1-A5), one main peak fraction (M) and 2 basic fractions (B1, B2) were identified and collected for each of the investigated antibodies. Isoelectric focusing (Fig. 4) showed that all those fractions still contained a mixture of different variants, corresponding to multiple bands visible on the gel. However, it was possible to enrich specific acidic and basic variants and obtain an almost pure main peak. Especially the fractions on both extremes of the pH spectrum contained a much larger amount of isoforms corresponding to bands that were hardly visible in the starting material. This high enrichment of specific variants provides the opportunity to collect enough material for extensive investigation using methods with high samples demand such as glycan analysis or peptide mapping.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15500</offset>
+      <text>To eliminate the possibility that these additional isoforms were created during the separation procedure, an additional preparative scale experiment was carried out in which the fractions were pooled together after fractionation, concentrated and analyzed for its microheterogeneity pattern via isoelectric focusing (IEF; positive control sample PC in Fig. 4). Compared to the starting material, no differences could be detected in the IEF profile of this control sample, which suggests that the ion-exchange chromatography (IEX) used is indeed appropriate for detection and separation of antibody charge variants without affecting the original isoform profile.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g005.jpg</infon>
+      <infon key="id">f0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>16163</offset>
+      <text>Overlay of analytical chromatograms of batch "Newton" charge variants. A1-A5, M and B1-B2 shows the composition of the acidic, main and basic fractions, respectively. The dotted blue trace is the original material. The gray trace shows the % of buffer B.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16422</offset>
+      <text>Analytical scale chromatography was performed to evaluate the quantitative differences in the microheterogeneity of the separated fraction. Fig. 5 shows an overlay of the analytical chromatograms of the "Newton" fractions compared to the starting material. Once again, a clear enrichment of individual peaks could be confirmed.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g006.jpg</infon>
+      <infon key="id">f0006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>16757</offset>
+      <text>Semi-preparative separation of the "Newton" B2 charge variant pool. The blue trace indicates UV absorbance, B21-B25 denotes the collection of variants of B2. The fractionation boundaries are represented by turquoise lines. The gray trace shows the pH.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g007.jpg</infon>
+      <infon key="id">f0007</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>17013</offset>
+      <text>Overlay of analytical chromatograms of "Newton" basic charge variants. The dashed red trace is fraction B1. The dotted blue trace is fraction B2. B22-B25 are the further separated variants from B2. The gray trace shows the % of buffer B. Insufficient material from B21 made it impossible to analyze it.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17320</offset>
+      <text>For batch "Newton," we collected enough of fraction B2 that it could be used as a starting material for a more refined separation step, applying a shallower pH gradient to achieve better isoform separation. Based on this procedure, the fractions B21-B25 were obtained (Fig. 6). This second separation step could not be done with the other batches because the B2 fraction did not contain enough material. An analytical scale pH gradient elution was performed from fractions B22-B25 (Fig. 7), clearly demonstrating that even those sub fractions are not pure charge variants. Fraction B21 contained too little protein to perform the analytical pH gradient method.   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17990</offset>
+      <text>In considering just 3 modifications responsible for charge variants, i.e., sialylation (0-4 sialic acids per mAb), pyroglutamate formation (0-4 affected N-termini per mAb) and lysine clipping (0-2 affected C-termini per mAb), the number of possible charge variants (213) is already in the high thousands. Even if only a fraction of those theoretically possible variants is actually present in a sample, it is not surprising that, in spite of high-resolution separation techniques, no pure isoform fractions could be observed.</text>
+      <annotation id="15">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:06:23Z</infon>
+        <location offset="18042" length="14"/>
+        <text>charge variant</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:06:28Z</infon>
+        <location offset="18065" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g008.jpg</infon>
+      <infon key="id">f0008</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>18522</offset>
+      <text>Size exclusion chromatogram of batches "Newton," "Darwin" and "Curie" starting material. A significant amount of low and high molecular weight impurities are present in "Newton" starting material. No low and high molecular weight impurities were detected in "Darwin" and "Curie" starting material, but an additional peak at 25 minutes was present, which most likely stems from histidine from the sample buffer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18958</offset>
+      <text>To ensure that the starting material was free of proteins aggregates, which could compromise the results in later performed assays such as ADCC, size-exclusion chromatography coupled with multiple angle light scattering detection (SEC-MALS) was performed for all 3 batches (Fig. 8). Neither batch "Darwin" nor "Curie" contained any measurable amounts of aggregates or fragments. For batch "Newton" on the other hand, 3 different peaks were detected. The largest one, corresponding to the monomer, accounted for 95% of the sample, an earlier eluting aggregate peak was ~1.5% and a later eluting fragment peak made up 3.5% of the total sample material. Given the fact that "Newton" is the oldest of the 3 batches and already out of specifications for clinical use, a certain amount of aggregation and fragmentation in this sample is not surprising. The detected levels are still in an acceptable range and should therefore not have a decisive influence on the biological assays. Typically, aggregation levels below 2% are not considered to be a cause for concern.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20041</offset>
+      <text>Influence of charge variants on antigen binding and effector functions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20112</offset>
+      <text>In vitro and cellular assays were performed to assess the biological efficacy of the individual charge variant fractions. Due to the high sample demand for some of these methods, not all analyses could be performed for all fractions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g009.jpg</infon>
+      <infon key="id">f0009</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>20346</offset>
+      <text>Surface plasmon resonance GD2 binding data for batches "Newton" (blue), "Darwin" (yellow) and "Curie" (red) reference material and charge variants. Main and basic fractions M, B1 and B2 show a lower Kd and therefore higher binding affinity to the antigen than the more acidic variants.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g010.jpg</infon>
+      <infon key="id">f0010</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>20644</offset>
+      <text>Surface plasmon resonance FcgammaRIIIa binding data for batches "Newton" (blue), "Darwin" (yellow) and "Curie" (red). Fractions B2 and B22 from batch "Newton" show remarkably low Kd and therefore high binding affinity toward the FcgammaRIIIa receptor.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g011.jpg</infon>
+      <infon key="id">f0011</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>20906</offset>
+      <text>Surface plasmon resonance FcRn binding data for batches "Newton" (blue), "Darwin" (yellow) and "Curie" (red). The main and basic fractions M, B1 and B2 show a lower Kd and therefore higher binding affinity toward the FcRn receptor than the more acidic variants.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21180</offset>
+      <text>SPR analysis for binding to GD2 (Fig. 9) showed a clear increase in target binding strength from the acidic toward the main peak fraction and the more basic charge variants for all investigated mAbs. A similar, though less pronounced, trend could be observed for the biding assay of the mAbs toward the Fc receptors, with main peak and basic variants showing better performance than acidic variants. (Figs. 10 and 11). In the FcgammaRIIIa assay, the only fraction that showed significantly higher binding strength than the reference in all 3 investigated batches was B2. For this fraction, a remarkably lower Kd, and therefore increased binding toward the FcgammaRIIIa receptor, was observed, with this effect being more pronounced in batch "Newton" than in the other 2 batches. A higher affinity for FcgammaRIIIa indicates an increased ADCC response, and therefore predicts a higher efficacy for the corresponding variants.    </text>
+      <annotation id="19">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:14:09Z</infon>
+        <location offset="21248" length="23"/>
+        <text>target binding strength</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:13:45Z</infon>
+        <location offset="21281" length="6"/>
+        <text>acidic</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:13:57Z</infon>
+        <location offset="21331" length="20"/>
+        <text>basic charge variant</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:14:40Z</infon>
+        <location offset="21447" length="48"/>
+        <text>biding assay of the mAbs toward the Fc receptors</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:14:27Z</infon>
+        <location offset="21502" length="28"/>
+        <text>main peak and basic variants</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:16:24Z</infon>
+        <location offset="21677" length="16"/>
+        <text>binding strength</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:16:32Z</infon>
+        <location offset="21747" length="3"/>
+        <text>B2.</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:17:02Z</infon>
+        <location offset="21789" length="2"/>
+        <text>Kd</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:17:06Z</infon>
+        <location offset="21807" length="50"/>
+        <text>increased binding toward the FcgammaRIIIa receptor</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:17:27Z</infon>
+        <location offset="22017" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:17:30Z</infon>
+        <location offset="22064" length="8"/>
+        <text>efficacy</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22109</offset>
+      <text>In the FcRn assay, the basic fractions again showed a slightly higher interaction strength toward the receptor than the more acidic fractions. This could be a first indication of a prolonged serum half-life of these fractions. However, it remains unclear whether the observed difference in binding strength is large enough to have a considerable influence on the in-vivo process. To confirm any such correlation, pharmacokinetic experiments must be conducted with the separated material, which exceeds the scope of this study.</text>
+      <annotation id="28">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:17:44Z</infon>
+        <location offset="22132" length="15"/>
+        <text>basic fractions</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:19:12Z</infon>
+        <location offset="22179" length="40"/>
+        <text>interaction strength toward the receptor</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:19:03Z</infon>
+        <location offset="22234" length="16"/>
+        <text>acidic fractions</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:19:21Z</infon>
+        <location offset="22300" length="15"/>
+        <text>serum half-life</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g012.jpg</infon>
+      <infon key="id">f0012</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>22636</offset>
+      <text>ADCC assay for batches "Newton" (blue), "Darwin" (yellow) and "Curie" (red). For the main M and basic fraction B1, a lower antibody concentration is necessary to achieve 50% cell lysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g013.jpg</infon>
+      <infon key="id">f0013</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>22834</offset>
+      <text>CDC assay for batches "Newton" (blue) and "Darwin" (yellow). For the main M and basic fraction B1, a lower antibody concentration is necessary to achieve 50% cell lysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23012</offset>
+      <text>The general trend of increased efficacy of the main and the basic variants compared to the acidic ones was confirmed by the biological assays for ADCC and CDC (Figs. 12 and 13). The main peak and the basic variant B1 showed a significantly better performance in both the ADCC and the CDC assay. The particularly strong binding of B2 toward FcgammaRIIIa, did not manifest itself as higher activity in the ADCC assay. Given that any kind of cellular assay will always be much more complex than a simple protein-protein interaction measurement, but also much more similar to the expected effect in vivo, we demonstrated that a simple characterization of antibody variants via receptor binding is not enough to estimate the efficacy of isoforms in vivo. The ADCC activity of an antibody is not solely defined by its affinity to the FcgammaRIIIa receptor, but by many other factors, e.g., structural modifications.   </text>
+      <annotation id="32">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:12Z</infon>
+        <location offset="23059" length="27"/>
+        <text>main and the basic variants</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:17Z</infon>
+        <location offset="23103" length="6"/>
+        <text>acidic</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:35Z</infon>
+        <location offset="23158" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:36Z</infon>
+        <location offset="23167" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:43Z</infon>
+        <location offset="23194" length="9"/>
+        <text>main peak</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:45Z</infon>
+        <location offset="23212" length="16"/>
+        <text>basic variant B1</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:28:09Z</infon>
+        <location offset="23283" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:28:13Z</infon>
+        <location offset="23296" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:27:52Z</infon>
+        <location offset="23342" length="2"/>
+        <text>B2</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:28:19Z</infon>
+        <location offset="23352" length="12"/>
+        <text>FcgammaRIIIa</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:28:21Z</infon>
+        <location offset="23416" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23925</offset>
+      <text>Relationship of function and biochemical and biophysical properties</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23993</offset>
+      <text>With a detailed set of data about the influence of microheterogeneity on antigen biding and effector functions available, we investigated the possible structural causes of the observed effects and their influence on structural integrity and stability of the product. Glycan analysis and peptide mapping were performed to address the first issue. As an indicator for overall structural stability, thermal unfolding was measured via Nano-DSC.</text>
+      <annotation id="43">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:30:53Z</infon>
+        <location offset="24044" length="18"/>
+        <text>microheterogeneity</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:30:59Z</infon>
+        <location offset="24066" length="14"/>
+        <text>antigen biding</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:31:01Z</infon>
+        <location offset="24085" length="18"/>
+        <text>effector functions</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24434</offset>
+      <text>With respect to glycosylation, 4 groups of structures were previously reported to have significant impact on mAb efficacies and performance in cell based assays: sialylated structures, complex nonfucosylated structures, high mannose type structures and complex nongalactosylated structures. Glycan analysis was set up to investigate these 4 groups in detail. The first group of sialylated structures are a charged sugar moiety, and the presence of sialic acid influences the pI of a monoclonal antibody molecule. Furthermore, it is documented in the literature that monoclonal antibodies containing high amounts of this residue show a decreased performance in ADCC assays. Complex type non-fucosylated structures were investigated because those are known to have a higher affinity toward the FcgammaRIIIa receptor. High mannose type glycan structures, on the other hand, are expected to show decreased CDC, and are therefore of interest for the performance of antibodies. The fourth group of target glycan structures in this study, the complex type non-galactosylated molecules, have been described to alter the affinity of an antibody molecule toward C1q, the initial component of the complement cascade and can therefore also be expected to affect the performance in CDC assays. Whether this affinity change occurs in a positive or negative manner remains unclear at this point, as both have been reported in the literature.</text>
+      <annotation id="46">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:31:23Z</infon>
+        <location offset="24450" length="37"/>
+        <text>glycosylation, 4 groups of structures</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:31:35Z</infon>
+        <location offset="24543" length="14"/>
+        <text>mAb efficacies</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:31:37Z</infon>
+        <location offset="24562" length="32"/>
+        <text>performance in cell based assays</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:31:55Z</infon>
+        <location offset="24596" length="21"/>
+        <text>sialylated structures</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:31:49Z</infon>
+        <location offset="24619" length="33"/>
+        <text>complex nonfucosylated structures</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:32:01Z</infon>
+        <location offset="24654" length="28"/>
+        <text>high mannose type structures</text>
+      </annotation>
+      <annotation id="53">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:32:05Z</infon>
+        <location offset="24687" length="36"/>
+        <text>complex nongalactosylated structures</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:32:55Z</infon>
+        <location offset="24812" length="20"/>
+        <text>sialylated structure</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:32:58Z</infon>
+        <location offset="24882" length="11"/>
+        <text>sialic acid</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:33:11Z</infon>
+        <location offset="25094" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:33:25Z</infon>
+        <location offset="25107" length="39"/>
+        <text>Complex type non-fucosylated structures</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:33:36Z</infon>
+        <location offset="25206" length="41"/>
+        <text>affinity toward the FcgammaRIIIa receptor</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:33:43Z</infon>
+        <location offset="25249" length="35"/>
+        <text>High mannose type glycan structures</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:33:47Z</infon>
+        <location offset="25336" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:33:56Z</infon>
+        <location offset="25483" length="28"/>
+        <text>non-galactosylated molecules</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:34:41Z</infon>
+        <location offset="25546" length="43"/>
+        <text>affinity of an antibody molecule toward C1q</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:35:05Z</infon>
+        <location offset="25703" length="3"/>
+        <text>CDC</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g014.jpg</infon>
+      <infon key="id">f0014</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25861</offset>
+      <text>High mannose (A) and sialylated (B) glycans found in batches "Newton" (blue), "Darwin" (yellow) and "Curie" (red) charge variants. High mannose glycans are present in higher amounts only in fraction B2 of batch "Newton." Sialylated glycans get enriched in the early eluting acidic fractions of all batches.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26184</offset>
+      <text>Our glycan data (Fig. 14) shows a much higher amount of sialylated glycan structures in the acidic charge variant fractions compared to the main and basic ones (Fig. 14B), which suggests that sialic acid is indeed at least one of the modifications responsible for the observed microheterogeneity pattern. Furthermore, the obtained sialylation profile of the individual isoform fractions also correlates well with the ADCC data. Although sialylation might not be the only contributing factor, we demonstrated that, at least for our antibody, there is a strong link between antibody in-vitro efficacy and sialylation content.  </text>
+      <annotation id="64">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:35:29Z</infon>
+        <location offset="26240" length="17"/>
+        <text>sialylated glycan</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:35:37Z</infon>
+        <location offset="26276" length="31"/>
+        <text>acidic charge variant fractions</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:35:43Z</infon>
+        <location offset="26324" length="19"/>
+        <text>main and basic ones</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:35:55Z</infon>
+        <location offset="26515" length="19"/>
+        <text>sialylation profile</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:36:00Z</infon>
+        <location offset="26601" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:36:04Z</infon>
+        <location offset="26621" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:36:12Z</infon>
+        <location offset="26766" length="16"/>
+        <text>n-vitro efficacy</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:36:19Z</infon>
+        <location offset="26787" length="19"/>
+        <text>sialylation content</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26812</offset>
+      <text>With respect to the complex type non-fucosylated glycans, only one fraction contained a considerably different amount of non-fucosylated N-glycans than the others (Figs. 14A and 15). This was B2 of batch "Newton," which had also shown significantly stronger binding to the FcgammaRIIIa receptor. This confirms what was expected from the available literature. The same correlation could be observed for batch "Curie," although to a lesser degree, as this batch B2 contains slightly lower amounts of non-fucosylated glycans than B1.</text>
+      <annotation id="72">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:36:38Z</infon>
+        <location offset="26832" length="36"/>
+        <text>complex type non-fucosylated glycans</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:36:44Z</infon>
+        <location offset="27004" length="2"/>
+        <text>B2</text>
+      </annotation>
+      <annotation id="74">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:38:32Z</infon>
+        <location offset="27070" length="36"/>
+        <text>binding to the FcgammaRIIIa receptor</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g015.jpg</infon>
+      <infon key="id">f0015</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>27349</offset>
+      <text>Complex non-fucosylated (A) and non-galactosylated (B) glycans found in batches "Newton" (blue), "Darwin" (yellow) and "Curie" (red) charge variants. Only fraction B2 of batch "Newton" contains considerably higher amounts of complex, non-fucosylated glycans than the other fractions of that batch. When it comes to non-galactosylated glycans, no characteristic differences could be observed between the fractions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27779</offset>
+      <text>For the high-mannose type structures, the situation was similar (Fig. 14 A). Once again, the only fraction for which a noticeably different value could be measured was B2 of batch "Newton." High-mannose type glycans therefore do not provide a satisfactory explanation for the observed behavior of our charge variants in the CDC assay. Though B2 of batch "Newton" does in fact show comparatively weak performance in the CDC assay, the general trend of an activity increase from the acidic variants toward M and B1 cannot be attributed to this group of glycan structures. Regarding the complex, non-galactosylated glycans, no characteristic differences were observed in the charge variant fractions (Fig. 15B). Thus, it remains doubtful if there really is a link between these types of sugar residues and the ability of an antibody to elicit an effective CDC response. Summarizing glycan data, our method is clearly able to enrich sialylated glycoforms in the early eluting fractions, and complex-non fucosylated and high-mannose-type structures in the later eluting ones.  </text>
+      <annotation id="75">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:38:45Z</infon>
+        <location offset="27787" length="28"/>
+        <text>high-mannose type structures</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:39:27Z</infon>
+        <location offset="27947" length="2"/>
+        <text>B2</text>
+      </annotation>
+      <annotation id="77">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:39:44Z</infon>
+        <location offset="27969" length="25"/>
+        <text>High-mannose type glycans</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:39:50Z</infon>
+        <location offset="28103" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:39:57Z</infon>
+        <location offset="28121" length="2"/>
+        <text>B2</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:40:03Z</infon>
+        <location offset="28198" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:41:38Z</infon>
+        <location offset="28233" length="8"/>
+        <text>activity</text>
+      </annotation>
+      <annotation id="82">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:41:50Z</infon>
+        <location offset="28260" length="31"/>
+        <text>acidic variants toward M and B1</text>
+      </annotation>
+      <annotation id="83">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:42:14Z</infon>
+        <location offset="28363" length="35"/>
+        <text>complex, non-galactosylated glycans</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:42:17Z</infon>
+        <location offset="28451" length="24"/>
+        <text>charge variant fractions</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:42:27Z</infon>
+        <location offset="28548" length="29"/>
+        <text>these types of sugar residues</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:42:39Z</infon>
+        <location offset="28632" length="3"/>
+        <text>CDC</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g016.jpg</infon>
+      <infon key="id">f0016</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28862</offset>
+      <text>Peptide map data for batch "Schrodinger." Increased levels of Oxidation at residue M34 (blue) were detected in fraction B2, N-terminal pyroglutamate (orange) is mainly present in the basic fractions B1 and B2, fraction B1 contains a considerably higher amount of molecules, where the C-terminal Lysine is still present (green).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29195</offset>
+      <text>Peptide map data (Fig. 16) was obtained focusing on 4 different types of modifications on amino acids located in or in close proximity to the complementarity-determining regions (CDRs), the binding sites for C1q and the Fc receptor or the C- and N-termini of the protein. With respect to the deamidation of asparagine residues, no significant differences could be observed between the charge variant fractions (data not shown).  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29626</offset>
+      <text>In fraction B2, a remarkably high value for oxidation of methionine residue M34 in the CDR1 could be observed. Oxidation of methionine and tryptophan residues by itself should not have an effect on the charge heterogeneity of a given sample. The modifications may, however, result in conformational changes in the protein, bringing other charged residues to the surface of the molecule and thereby making them available for interaction in IEX chromatography. Oxidation reactions on residues located in the CDRs of the antibody could very well result in a different binding affinity toward its molecular target. For our fraction B2, the detected modification does not seem to result in a profound effect on the binding levels to GD2, which were only slightly lower than for the main fraction.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30418</offset>
+      <text>N-terminal pyroglutamate formation results in the change of the pKa values of the amine and carboxy group and a loss of a positive and a negative charge at neutral pH. At basic pH, only the loss of the negatively charged carboxyl group is relevant because the N-terminus gets deprotonated at a pH of around 7.7. Literature suggests that this type of modification has no substantial effect on antigen binding affinity, efficacy and safety of the antibody product. An increased amount of this modification was found mainly in fraction B1 and to a lesser extent in B2, suggesting an explanation for the observed behavior of those fractions in IEF and IEX. The high level of pyroglutamate in fraction A3 were surprising. We therefore tried to confirm this result by comparing it to peptide map data from stressed material from the same batch, which was also available to us. This material was stored at 40 C for 30 d and then separated with preparative pH gradient elution. The acidic variant A3 in the stressed sample did not show any elevated levels of pyroglutamate, which indicated that the value from the unstressed A3 sample is an outlier (data not shown).</text>
+      <annotation id="87">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:45:50Z</infon>
+        <location offset="30418" length="34"/>
+        <text>N-terminal pyroglutamate formation</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:46:04Z</infon>
+        <location offset="30810" length="45"/>
+        <text>antigen binding affinity, efficacy and safety</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:46:23Z</infon>
+        <location offset="30951" length="2"/>
+        <text>B1</text>
+      </annotation>
+      <annotation id="90">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:46:27Z</infon>
+        <location offset="30980" length="2"/>
+        <text>B2</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31579</offset>
+      <text>Lysine clipping at the C-terminus results in the removal of one positive charge. Similar to N-terminal pyroglutamate formation, so far, no further effects on structure and biological functions of the molecule have been observed. Once again, this modification was found in significantly higher amounts in fractions B1 and seems to be contributing to the more basic characteristics of this variant fraction.</text>
+      <annotation id="91">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:47:17Z</infon>
+        <location offset="31579" length="33"/>
+        <text>Lysine clipping at the C-terminus</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T18:47:25Z</infon>
+        <location offset="31751" length="20"/>
+        <text>biological functions</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31985</offset>
+      <text>Overall, the peptide map data confirms once again that C-terminal Lysine clipping and N-terminal pyroglutamate formation are of decisive importance for the presence of basic isoforms in monoclonal antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32194</offset>
+      <text>What comes as a surprise is that our pH gradient elution method also seems to have a separation effect on molecules that show elevated oxidation levels at residue M34, since methionine sulfoxide does not have a charged side chain. It is likely that the oxidation of methionine changes the surrounding protein surface enough to influence binding to a cation-exchange stationary phase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32578</offset>
+      <text>The lack of separation of mAbs with deamidated asparagine was likewise unexpected because the charged aspartate or iso-aspartate side chains should influence binding behavior. This may be due to the fact that we were only taking into account residues positioned in areas of the molecule involved in binding to Fc-receptors, antigen and C1q. It is still possible that the overall deamidation levels in the molecule have a decisive influence on the observed microheterogeneity pattern.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">kmab-08-08-1225642-g017.jpg</infon>
+      <infon key="id">f0017</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>33062</offset>
+      <text>Nano DSC data; (A) Transition temperature Tm1 corresponding to CH2 domain and Fab, (B) Transition temperature Tm2 corresponding to CH3 domain. No stability differences could be detected between the charge variant fractions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33285</offset>
+      <text>As it is easily, measureable thermal stability is often used as an indicator for overall structural integrity and long-term stability of proteins. In case of IgG molecules, a thermal unfolding experiment typically results in 2 or 3 peaks and their corresponding melting temperatures (Tm) are associated with the unfolding of the CH2 domain, the Fab, and the CH3 domain. In many cases, including ours, the first 2 peaks are not recognizable as 2 individual signals but are merged together into one bigger peak with a minor shoulder. The first thermal transition is usually taken into account as a reference number for stability determination because it occurs at lower temperature than the one for the CH3 domain. Concerning our variants fractions, little to no differences could be observed in between the separated charge variants (Fig. 17). If anything, the main peak and its neighboring fractions show a slightly higher Tm1 than the other variants, indicating a slightly better stability of the CH2 domain and the Fab in these fractions.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>34329</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34340</offset>
+      <text>With the pH gradient elution in cation-exchange chromatography, we could enrich sialylated glycoforms of antibody in the early eluting, acidic fractions, and complex non-fucosylated and high mannose type glycoforms in the later eluting, basic fractions. Our study can therefore be considered one of the first successful attempts at chromatographical separation of antibody glycoforms. This technique greatly facilitates research in the area of functional biology and may be of great use in cases when glycoengineering is not possible.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34875</offset>
+      <text>In our study, basic recombinant antibody charge variants separated by the pH gradient elution method exhibited more potent effector functions, which might correspond to better efficacy in vivo. These basic charge variants showed elevated levels of complex, non-fucosylated glycoforms, oxidation in methionine 34 and incomplete C-terminal lysine clipping. Only the absence of fucose in the N-glycosylation had an influence on effector functions. Non-fucosylated glycoforms showed elevated binding to FcgammaRIIIa, and therefore increased ADCC through increased recruitment of leukocytes. Since M34 is located in a CDR, it could potentially affect antigen binding and consequently ADCC and CDC, but this effect was not observed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35602</offset>
+      <text>The separated charge variant fractions showed different binding to the FcRn receptor, which suggests that product microheterogeneity might have a noticeable effect on antibody half-life in serum. If the observed relation holds true in in-vivo studies, this may be used to optimize antibodies for increased half-life, reduced dosage and better overall performance.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35966</offset>
+      <text>No difference between the individual isoform fractions could be detected in terms of thermal stability, indicating that microheterogeneity does not greatly affect the overall structural stability of a recombinant antibody molecule. This opens possibilities for enhancing features such as better ADCC or CDC either during upstream or downstream processing without damaging the stability of the antibody.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36369</offset>
+      <text>Our data suggests that the connection between microheterogeneity and the efficacy of monoclonal antibody therapeutics is of more importance than commonly accepted. With the rise of biosimilar recombinant antibody development, and in context with quality by design approaches, the analysis and comparison of microheterogeneity patterns becomes even more relevant. In ensure equivalent biological characteristics, industry should emphasize microheterogeneity profiling. The ability to predict the effect of charge variant distribution might, however, obviate the need to closely match microheterogeneity of a biosimilar to the originator. The advent of new high-resolution separation and new tools in interaction analysis in recent years now allows the elucidation and quantification of differences in recombinant antibody isoforms. The work presented here lays the groundwork for future studies on this often overlooked phenomenon.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>37300</offset>
+      <text>Material and methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>37321</offset>
+      <text>Materials and chemicals</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37345</offset>
+      <text>All chemicals were of analytical grade, unless stated otherwise. 3-morpholino-2-hydroxypropanesulfonic acid (MOPSO) (M8389), 4-(2-hydroxyethyl)piperazine-1-ethanesulfonic acid (HEPES) (H3375), N,N-bis(2-hydroxyethyl)glycine (bicine) (B3876), 3-(cyclohexylamino)-2-hydroxy-1-propanesulfonic acid (CAPSO) (C2278) and 3-(cyclohexylamino)-1-propanesulfonic acid (CAPS) (29337), 2-(N-morpholino)ethanesulfonic acid (MES) (M3671), NaH2PO4 (S8282), Tergitol (70% in water) (NP40S), acrylamido buffers (0.2 M in H2O with pKa 3.6 and &gt;12, as well as 0.2 M in 1-propanol with pKa 8.5, 9.3, and 10.3) (01716, 01743, 01736, 01738, 01741) isopropanol (34959) and Coomassie  G250 (B0770) were purchased from Sigma-Aldrich. NaCl (1.06404.5000), Na2HPO4 (1.06586.2500), NaOH (1.06482.5000), urea (1.08487.5000), disodium dihydrogen ethylenediaminetetraacetate (EDTA, Titriplex III) (1.08421.1000), glycerol (1.04094.2500), paraffin oil (1.07174.2500) was purchased from Merck. GELbond-PAG-film (80-1129-36), Pharmalyte 3-10 (17-0456-01), CM 5 Sensor chips (BR-1000-12) and an amine coupling kit (BR-1000-50) for protein immobilization were purchased from GE Healthcare. Histidine, research grade (&gt; 98.5% purity) (24820.03) was bought from Serva. Tween 20 (170-6606), 40% acrylamide-bis solution (37.5:1) (161-0148), ammonium persulfate (APS) (161-0700) and N,N,N',N'-tetramethylethylenediamine (TEMED) (161-0800) were obtained from Bio-Rad.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38786</offset>
+      <text>The recombinant monoclonal antibody CH14.18 was obtained from APEIRON biologics. It is a mouse-human chimeric IgG1 mAb, produced in Chinese hamster ovary (CHO) cells and directed against the disialoganglioside GD2, which is commonly expressed as a surface antigen on neuroblastoma and various other types of tumor cells, including melanoma and osteosarcoma.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>39144</offset>
+      <text>Preparative and analytical scale cation-exchange chromatography with linear pH gradient elution</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">t0001.xml</infon>
+      <infon key="id">t0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>39240</offset>
+      <text>The buffer system used for pH gradient elution.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;colgroup&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;col width="86.4pt" align="left"/&gt;&lt;/colgroup&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"&gt; &lt;/th&gt;&lt;th align="center"&gt;HEPES&lt;/th&gt;&lt;th align="center"&gt;bicine&lt;/th&gt;&lt;th align="center"&gt;CAPSO&lt;/th&gt;&lt;th align="center"&gt;CAPS&lt;/th&gt;&lt;th align="center"&gt;NaCl&lt;/th&gt;&lt;th align="center"&gt;pH&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt;Buffer A [mM]&lt;/td&gt;&lt;td align="char" char="."&gt;5.5&lt;/td&gt;&lt;td align="char" char="."&gt;4.2&lt;/td&gt;&lt;td align="char" char="."&gt;9.5&lt;/td&gt;&lt;td align="char" char="."&gt;0.8&lt;/td&gt;&lt;td align="char" char="."&gt;6.3&lt;/td&gt;&lt;td align="char" char="."&gt;8.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;Buffer B [mM]&lt;/td&gt;&lt;td align="char" char="."&gt;0.0&lt;/td&gt;&lt;td align="char" char="."&gt;10.5&lt;/td&gt;&lt;td align="char" char="."&gt;2.5&lt;/td&gt;&lt;td align="char" char="."&gt;7.0&lt;/td&gt;&lt;td align="char" char="."&gt;0.0&lt;/td&gt;&lt;td align="char" char="."&gt;10.5&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">t0001</infon>
+      <infon key="type">table</infon>
+      <infon key="File">t0001.xml</infon>
+      <offset>39288</offset>
+      <text>  HEPES bicine CAPSO CAPS NaCl pH Buffer A [mM] 5.5 4.2 9.5 0.8 6.3 8.0 Buffer B [mM] 0.0 10.5 2.5 7.0 0.0 10.5 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39402</offset>
+      <text>All preparative separations were performed using an Akta Explorer 100 (GE Healthcare) and a Dionex ProPac WCX-10 column, 22 x 250 mm (Thermo Fisher, SP5482)). The outlet was monitored at 280 nm. The flow rate was 10 ml/min (158 cm/h). The mobile phase used was a pH gradient buffer system as described in Lingg et al. and shown in Table 1.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39752</offset>
+      <text>After loading 50 ml of mAb solution, with mAb concentrations between 3 and 4 mg/ml, to the equilibrated column (0% B) via a superloop, the method consisted of a 1 column volume (CV) wash step at 0% B, followed by a linear gradient to 70% B in 14 CV. Fractionation of the eluate was started at a concentration of 34% B into 7.5 ml fractions until the end of elution (70% B for mAb batch "Newton," 60% B for the other batches).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40186</offset>
+      <text>The fractions were immediately neutralized with 10 x PBS, to avoid asparagine deamidation and pooled into a main fraction (M), acidic fractions named A1 - A5 and basic fractions B1 - B2. The fractions were concentrated and the buffer was exchanged with a Kvick Start Cassette, 50 kDa (GE Healthcare UFEST0005050ST) on a Labscale TFF System (Merck Millipore), using PBS as the ultrafiltration - diafiltration buffer. To further reduce the volume of the fractions, Amicon Ultra-15 Centrifugal Filter Units, 50 kDa (Merck Millipore UFC905096) were used.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40746</offset>
+      <text>In the case of the mAb batch ""Newton," a significant amount of B2 fraction was purified (~12 mg), which allowed further separation of this fraction into the B21 - B25 fractions. This additional step was performed on a semi-preparative Dionex ProPac WCX-10 column, 9 x 250 mm (Thermo Fisher Scientific 063474) on an Akta Explorer 100 (GE Healthcare). Eight ml of B2 (1 mg/ml) were loaded onto the equilibrated (0% B) column via a super loop. The flow rate was 2.5 ml/min (236 cm/h). After a 2 CV wash step, an initial steep gradient to 25% B in 2.5 CV was followed by a shallower gradient to 70% B in 9 CV. Fractionation of the eluate was started at a concentration of 40% B into 1 ml fractions until end of elution. The fractions were, again, immediately neutralized with 10 x PBS, and pooled into the B21 - B25 fractions. Ultra- and diafiltration was performed with Amicon Ultra-15 Centrifugal Filter Units, 50 kDa (Merck Millipore UFC905096).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41717</offset>
+      <text>For analytical chromatography, an Agilent 1220 Infinity LC System equipped with a SIM sample-cooler (Scientific Instruments Manufacturer GmbH) was used. The column was a Dionex ProPac WCX-10, 4 x 250 mm (Thermo Fisher Scientific 054993). The outlet was monitored at 280 nm. The flow rate was 1 ml/min (477.5 cm/h). The buffers were the same as those used for the preparative experiments in Table 1. A gradient from 25% to 65% buffer B in 8 CV was used with an injection volume of 100 microl at a concentration of 1 mg/ml.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>42245</offset>
+      <text>Isoelectric focusing</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42266</offset>
+      <text>Immobilized pH gradient (IPG)-polyacrylamide-gels (size: 125 x 260 x 1 mm) were cast on a GELbond-PAG-film backing (GE Healthcare), polymerized, washed and dried following a procedure previously described by Westermaier et al. The desired pH gradient from 7.0 to 11.0 was obtained by graphic interpolation from a recipe previously published by Gorg et al. Before use, the gel was cut into half, one half was used directly and rehydrated for 2 h in a solution containing 6 M urea, 2% Tergitol, 2% Pharmalyte 3-10, 10% glycerol and 16% isopropanol. The other one was stored at -20 C. The rehydrated gel was put onto the Multiphor instrument (GE Healthcare). The electrodes were positioned on the acidic and basic ends of the gel with wetted paper wicks between gel and electrode to ensure good contact. The samples were applied by cup loading under a covering layer of paraffin and electrophoresis was performed overnight (at 150 V for 1 h, followed by 300 V for 4 h, and 3500 V for 18 h). Afterwards, the gel was thoroughly rinsed with water and then stained with Coomassie G250.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>43364</offset>
+      <text>Size exclusion chromatography coupled with multi-angle light scattering detection</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43446</offset>
+      <text>IgG aggregation analysis was done using a previously described method. Briefly, 45 - 80 microg of IgG was injected to an HPLC system (Shimadzu, Kyoto, Japan), which was connected in series with a TSK guard column SWXL, 6 x 40 mm, a TSK gel G3000 SWXL, 7.8 x 300 mm (both from Tosoh Corporation, 08543 08541), a UV-Vis detector (Shimadzu), followed by a MALS detector (Dawn 8 from Wyatt Technology Corporation). IgG aggregates, monomers, and fragments were separated by the SEC column, which was kept at 25 C, using an isocratic mobile phase of aqueous solution containing 0.2 M sodium phosphate (Merck Millipore 1063421000) and 0.1 M potassium sulfate at pH 6.0 (Merck Millipore 1051531000) at 0.5 ml/min flow rate. The molecular weight of each elution peak was estimated by ASTRA V 5.3.4.20 software (Wyatt Technology Corporation). Relative peak areas from the UV280 nm channel were used to calculate the percentage of IgG aggregates, monomers, and fragments. The SEC-MALS HPLC system was calibrated using monomeric bovine serum albumin. All IgG samples were analyzed in triplicates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>44540</offset>
+      <text>Surface plasmon resonance binding assay to GD2</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44587</offset>
+      <text>For direct hydrophobic immobilization of ganglioside GD2, a CM5 sensor chip (GE healthcare) with 4 flow cells that had been reacted previously with ethanolamine using NHS/EDC chemistry and analyzed on a Biacore 2000 system (GE healthcare) was used. Therefore, GD2 was dissolved (1 mg/ml) in 50% ethanol, 50% methanol (v/v), further diluted 1/3 with HBS-N buffer (0.01 M HEPES, 0.15 M NaCl, pH 7.4) and injected (15 microl) at a flow rate of 5 microl/min over a single flow cell. Weakly bound GD2 was removed by 2 injections of 15 mM NaOH solution. For GD2 binding measurements, PBS, supplemented with 200 mM NaCl, pH 7.4, was used as running and dilution buffer for all antibody fractions, which were diluted to concentration levels of 24, 60, 120, 180 and 240 nM. Diluted antibody fractions were injected for 6 minutes at a flow rate of 20 microl/min over the GD2 immobilized and a control (blank) flow cell. GD2 binding levels were measured for each of the concentrations in steady state at the end of injection and were used to calculate the dissociation rate constant Kd by using a steady-state model. For these calculations, the maximum binding capacity value was calculated using the BiaEvaluation software (GE healthcare) using the Langmuir adsorption isotherm model fit. Blanked GD2 binding levels at the end of injection were used for calculation of the dissociation rate constant (Kd), by using the steady state model. The maximum binding response value (Rmax) used for all analysis was 988.5 RU, calculated by BiaEvaluation software using the 1:1 Langmuir absorption isotherm model fit. The final Kd value was calculated as an average of the Kd values at each concentration. Regeneration of the sensor chip surface was done by 2 injections of 15 mM NaOH solution for 15 seconds.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>46381</offset>
+      <text>Surface plasmon resonance binding assay to FcgammaRIIIa and FcRn</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46446</offset>
+      <text>Both receptors were immobilized on CM5 sensor chips (GE healthcare) using the amine coupling approach and analyzed on a Biacore 2000 system (GE healthcare). The running buffer for the FcgammaRIIIa binding assay was the standard Biacore HBS-EP buffer (0.01 M HEPES, 0.15 M NaCl, 3 mM EDTA, and 0.005% v/v surfactant P20) at pH 7.4 as recommended by the manufacturer of the instrument. For the FcRn binding assay, a similar MES buffer (0.01 M MES, 0.15 M NaCl, 3 mM EDTA, 0.005% v/v surfactant P20) at pH 5.5 was used. All antibody fractions were diluted to concentration levels of 10, 25, 50, 75 and 100 nM before measurement. FcgammaRIIIa interaction was measured for each concentration level, FcRn interaction was only measured at concentrations of 25, 50 and 100 nM. The observed binding data was fitted to a protein-protein-interaction model to obtain rate and affinity constants. For FcgammaRIIIa, Kd values were calculated based on a Langmuir adsorption isotherm model. For FcRn, the 2:1 bivalent analyte model built into the BiaEvaluation Software was used. Regeneration was done by a one-minute injection of a 0.05% (w/v) solution of SDS in H2O for FcgammaRIIIa and a 50 mM Na2HPO4, 150 mM NaCl solution at pH 7.4 for FcRn.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>47677</offset>
+      <text>ADCC and CDC assays</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>47697</offset>
+      <text>In our ADCC assays, we used GD2-positive M21 melanoma cells as target cells and labeled them by incubation in an isotonic labeling buffer containing Na251CrO4 (Perkin Elmer). After labeling, the cells were washed by centrifugation in fresh medium until no radioactivity was detected in the supernatant. As effector cells, a suspension of peripheral blood mononuclear cells was prepared by density gradient centrifugation of heparinized blood obtained by venipuncture of healthy human donors. These cells were used at an effector : target cell ratio of 30 : 1 in the assay. Dilutions of charge variant fractions were prepared in cell culture medium and used as test substance compared to the reference material from the original batches. The assays were conducted in 96-well plates. All samples were prepared in duplicates; supernatants were harvested and pipetted into micro tubes fitted with absorbent tissue. Said tubes were analyzed in a gamma counter and radioactivity values were used to calculate cell lysis of individual samples. All calculations and the 4-parameter sigmoidal dose-response fit with variable slope and a confidence interval of 95% for determination of the calibration function were performed using GraphPad Prism (GraphPad software) and Microsoft Excel Software.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>48984</offset>
+      <text>In our CDC assays, we used GD2-positive M21 melanoma cells as target cells and labeled them by incubation in an isotonic labeling buffer containing Na251CrO4. After labeling, the cells were washed by centrifugation in fresh medium until no radioactivity was detected in the supernatant. As complement source, serum of healthy human donors was obtained by venipuncture and subsequent clotting of the blood sample. In the assay, a final dilution of 1:5 of serum in culture medium was used. Dilutions of charge variant fractions were prepared in cell culture medium and used as test substance compared to the reference material from the original batches. The assays were conducted in 96-well plates. All samples were prepared in duplicates; supernatants were harvested by pipetting into micro tubes fitted with absorbent tissue. Said tubes were analyzed in a gamma counter and radioactivity values were used to calculate cell lysis of individual samples. All calculations and the 4-parameter sigmoidal dose-response fit with variable slope and a confidence interval of 95% for determination of the calibration function were performed using GraphPad Prism and Microsoft Excel Software.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>50166</offset>
+      <text>Glycan analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50182</offset>
+      <text>N-glycans were released directly from intact, purified glycoprotein samples, by PNGase F treatment and analyzed by mass spectrometry. Glycoprotein samples were desalted using a PD 10 column (GE Healthcare 17-0851-01) following manufacturer's protocol. Then, 100 microg IgG was mixed with 500 U of the PNGase F (New England Biolabs P0704 L) in the reaction buffer in a total volume of 100 microl and incubated at 37 C for 1 h. Such conditions will result in complete deglycosylation of IgG as indicated by SDS-PAGE-capillary gel electrophoresis (data not shown). The released glycans were then purified by HyperCarb porous graphitized carbon cartridge (Thermo Fisher Scientific 35003), and dried by CentriVap (Labconco).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50902</offset>
+      <text>The dried N-glycans were labeled with 2-aminobenzamide (2-AB) according to a published protocol. The excess 2-AB was removed by passing the labeling mixture through a MiniTrap G-10 desalting column (GE Healthcare 28-9180-10) and the purified 2-AB-labeled glycans were then dried under vacuum. Before the analysis, the dried samples were reconstituted in 250 microl of solvent consisting of 70% (v/v) acetonitrile in water. The reconstituted 2-AB labeled glycan samples were analyzed by the UNIFI Biopharmaceutical platform (Waters Corporation). The entire platform consists of an UPLC-H class ultra-performance liquid chromatogram (UPLC) that is online-connected to a Xevo G2-S quadrupole-time of flight (QTOF) mass spectrometer, both under the control of UNIFI Biopharmaceutical scientific software platform (version 1.7). The UPLC-H class consists of a sample manager (kept at 10 C), a quaternary pump, a column oven (kept at 40 C) that houses a Waters BEH glycan column (2.1 mm ID x 150 mm length 186004742), and a fluorescence detector. Ten microl of the reconstituted 2-AB glycan sample were injected to the UPLC system. Glycans were separated on the hydrophilic interaction column using a binary solvent system. Solvent A was 50 mM ammonium formate (pH 4.4) and Solvent B is acetonitrile. The analytical run takes place in 16 min by ramping up Solvent A from 30% to 47%. The column was then regenerated with 80% Solvent A before re-equilibrated with 30% Solvent A for the next run. Glycan signal was detected at excitation wavelength of 330 nm and emission wavelength of 420 nm. Retention time for each chromatographic peak was converted to a specific glucose unit (GU) by fitting into a calibration curve established by a 2-AB-labeled dextran ladder (Waters Corporation 186006841). The GU value of each chromatographic peak was then used to search against an experimental database for N-glycans embedded in the UNIFI Biopharmaceutical platform. Primary assignment was done by alignment of observed and the expected GU values. In case of structural ambiguity, i.e., a GU value corresponding to more than one structure within the error tolerance (typically 0.1 GU), a decision was then made based on accurate mass confirmation (5 ppm error) by the online ESI-QTOF, exoglycosidase fingerprinting, and the knowledge of the N-glycan biosynthetic pathway in CHO cells. The online ESI-QTOF was operated under the following conditions: cone voltage: 80 kV; capillary voltage: 2.75 kV; source temperature: 120 C; desolvation gas flow: 800 l/h; desolvation temperature: 300 C. The QTOF was operated by scanning the mass range of 400 - 3,000 amu at the acquisition speed of 1 Hz. Mass accuracy was maintained by introducing a "lock spray" of Glu-fibrinopeptide (m/z = 785.8421).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>53696</offset>
+      <text>Peptide map</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>53708</offset>
+      <text>For the peptide map analysis, samples were obtained from a newly produced antibody batch "Schrodinger," which was separated into fractions A1-A5, M, B1 and B2 in the same fashion as described in section 4.2.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>53924</offset>
+      <text>For the tryptic digest, 10 microg of each sample were diluted with PBS to a total volume of 10 microl. Then 36 microl of Buffer A (8 M guanidinium-HCl, 0.2 M His-HCl pH 6) were added. Reduction of cysteines was done using 6.4 microl of 0.02 mg/ml DTT and incubation at room temperature for 1 h. The sample was then diluted to 900 microl with buffer B (0.02 M His-HCl, pH 6), followed by the addition of 0.5 microg trypsin. Digestion was carried out at 37 C overnight. For MS-analysis the sample was acidified to 1% with formic acid.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>54457</offset>
+      <text>For the double digest with Asp-N and Lys-C, 10 microg of each sample was diluted with PBS to a total volume of 10 microl. Then, 36 microl of Buffer A (8 M guanidinium-HCl, 0.4 M Tris-HCl pH 8.5) and 6.4 microl 0.02 mg/ml DTT were added and the samples were incubated at room temperature for 1 h. Cysteines were then alkylated by adding 1 microl iodoacetic acid (0.094 microg/ml) and incubating the mixture at room temperature in the dark for 30 minutes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>54911</offset>
+      <text>Following alkylation, a buffer exchange was done. The samples were diluted to 500 microl with buffer B (0.02 M His-HCl, pH 6) and applied to a Vivaspin column (cutoff 10 kDa VS0102). The sample was concentrated to a final volume of 25-30 microl with centrifugation. This procedure was repeated twice.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>55212</offset>
+      <text>For digestion, 2.5 microl Lys-C and 1 microl Asp-N (both from stock solutions with 0.2 microg/microl were added and the samples were incubated at 37 C overnight. For MS analysis, the sample was acidified to 1% with formic acid.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>55440</offset>
+      <text>Before the actual MS analysis, samples were desalted using a pre-column ACE C18, particle size 5 microm, pore size 100 A, 2 cm length, 100 microm I.D.). Chromatographic separation was then performed using a 25 cm long C18 column particle size 3 microm, pore size 100 A, 75 microm I.D.) with a linear gradient from 3-42% B in 90 minutes (B: 84% ACN in 0,1% FA) at a flow rate of 17 microl/min.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>55833</offset>
+      <text>Samples were then analyzed online in an Orbitrap Velos mass spectrometer with a scan range from m/z 200-2000. The mass spectrometer was operating in the so called "data dependent" mode where after each full scan the 10 most intense signals are chosen automatically for MS/MS analysis. Here an inclusion list that contains the theoretical masses of the peptides of interest with and without modifications was used. This ensured that these peptides are detected even if they are present only in minute amounts.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>56348</offset>
+      <text>Nano differential scanning calorimetry</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>56387</offset>
+      <text>Samples were diluted to a concentration of 0.5 mg/ml in PBS buffer at pH 6.94. Six hundred and 50 microl of this solution were loaded into the sample cell of a TA- Instruments Nano DSC instrument (model: 602000). The reference cell was filled with PBS buffer and a thermoscan from 25 C to 100 C with a scan rate of 0.7 C/min was performed. The obtained thermogram data was analyzed using the TA Instruments NanoAnalyse software.Between sample runs, the instrument was cleaned using a solution containing 0.5 M NaCl, 0.1 M acetic Acid and 1 mg/ml pepsin followed by flushing with water.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>56978</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>57001</offset>
+      <text>Disclosure of potential conflicts of interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57047</offset>
+      <text>No potential conflicts of interest were disclosed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title_1</infon>
+      <offset>57098</offset>
+      <text>Acknowledgments</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57114</offset>
+      <text>We would like to thank Toplab for providing the peptide map data, and Peter Satzer for critically reviewing the manuscript. This work was supported by the Austrian Research Promotion Agency (FFG). PZ, SW, and KMH were funded by the Strategic Positioning Fund (SPF) ("GlycoSing") from the Biomedical Research Council (BMRC) of Agency for Science, Technology and Research (A*STAR), Singapore and A*STAR's Joint Council (JCO) Visiting Investigator Program ("HighGlycoART").</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>57593</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bleeke;given-names:M</infon>
+      <infon key="name_2">surname:Baykan;given-names:B</infon>
+      <infon key="name_1">surname:Weixler;given-names:S</infon>
+      <infon key="name_0">surname:Ladenstein;given-names:R</infon>
+      <infon key="fpage">801</infon>
+      <infon key="pub-id_doi">10.4161/mabs.25215</infon>
+      <infon key="pub-id_pmid">23924804</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Pistoia;given-names:V</infon>
+      <infon key="name_8">surname:Bauer;given-names:S</infon>
+      <infon key="name_7">surname:Glander;given-names:P</infon>
+      <infon key="lpage">9</infon>
+      <infon key="name_6">surname:Pribill;given-names:I</infon>
+      <infon key="name_5">surname:Katinger;given-names:D</infon>
+      <infon key="name_4">surname:Kunert;given-names:R</infon>
+      <offset>57604</offset>
+      <text>Ch14.18 antibody produced in CHO cells in relapsed or refractory Stage 4 neuroblastoma patients: a SIOPEN Phase 1 study</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lim;given-names:AP</infon>
+      <infon key="name_2">surname:Smith;given-names:LM</infon>
+      <infon key="name_1">surname:Fox;given-names:E</infon>
+      <infon key="name_0">surname:Desai;given-names:AV</infon>
+      <infon key="fpage">1047</infon>
+      <infon key="pub-id_doi">10.1007/s00280-014-2575-9</infon>
+      <infon key="pub-id_pmid">25212536</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Cancer Chemother Pharmacol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">74</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">55</infon>
+      <infon key="name_5">surname:Balis;given-names:FM</infon>
+      <infon key="name_4">surname:Maris;given-names:JM</infon>
+      <offset>57724</offset>
+      <text>Pharmacokinetics of the chimeric anti-GD2 antibody, ch14.18, in children with high-risk neuroblastoma</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Juttner;given-names:M</infon>
+      <infon key="name_2">surname:Seidel;given-names:D</infon>
+      <infon key="name_1">surname:Eger;given-names:C</infon>
+      <infon key="name_0">surname:Siebert;given-names:N</infon>
+      <infon key="fpage">604</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2015.1130196</infon>
+      <infon key="pub-id_pmid">26785755</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Siegmund;given-names:W</infon>
+      <infon key="name_8">surname:Veal;given-names:GJ</infon>
+      <infon key="name_7">surname:Ehlert;given-names:K</infon>
+      <infon key="lpage">16</infon>
+      <infon key="name_6">surname:Kietz;given-names:S</infon>
+      <infon key="name_5">surname:Wegner;given-names:D</infon>
+      <infon key="name_4">surname:Zumpe;given-names:M</infon>
+      <offset>57826</offset>
+      <text>Pharmacokinetics and pharmacodynamics of ch14.18/CHO in relapsed/refractory high-risk neuroblastoma patients treated by long-term infusion in combination with IL-2</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_1">surname:Jia;given-names:AY</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Brorson;given-names:K</infon>
+      <infon key="fpage">140</infon>
+      <infon key="pub-id_doi">10.1016/j.copbio.2014.06.012</infon>
+      <infon key="pub-id_pmid">25022603</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6</infon>
+      <offset>57990</offset>
+      <text>Therapeutic monoclonal antibodies and consistent ends: terminal heterogeneity, detection, and impact on quality</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_1">surname:Bardor;given-names:M</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:van Beers;given-names:MM</infon>
+      <infon key="fpage">1473</infon>
+      <infon key="pub-id_doi">10.1002/biot.201200065</infon>
+      <infon key="pub-id_pmid">23027660</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">84</infon>
+      <offset>58102</offset>
+      <text>Minimizing immunogenicity of biopharmaceuticals by controlling critical quality attributes of proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chumsae;given-names:C</infon>
+      <infon key="name_2">surname:Faldu;given-names:D</infon>
+      <infon key="name_1">surname:Gaza-Bulseco;given-names:G</infon>
+      <infon key="name_0">surname:Liu;given-names:H</infon>
+      <infon key="fpage">2426</infon>
+      <infon key="pub-id_doi">10.1002/jps.21180</infon>
+      <infon key="pub-id_pmid">17828757</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">J Pharm Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">97</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">47</infon>
+      <infon key="name_4">surname:Sun;given-names:J</infon>
+      <offset>58205</offset>
+      <text>Heterogeneity of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="name_2">surname:Flynn;given-names:GC</infon>
+      <infon key="name_1">surname:Schenauer;given-names:MR</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Goetze;given-names:AM</infon>
+      <infon key="fpage">500</infon>
+      <infon key="pub-id_doi">10.4161/mabs.2.5.12897</infon>
+      <infon key="pub-id_pmid">20671426</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">7</infon>
+      <offset>58244</offset>
+      <text>Assessing monoclonal antibody product quality attribute criticality through clinical studies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bardor;given-names:M</infon>
+      <infon key="name_2">surname:Song;given-names:Z</infon>
+      <infon key="name_1">surname:Zhang;given-names:P</infon>
+      <infon key="name_0">surname:Lingg;given-names:N</infon>
+      <infon key="fpage">1462</infon>
+      <infon key="pub-id_doi">10.1002/biot.201200078</infon>
+      <infon key="pub-id_pmid">22829536</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">72</infon>
+      <offset>58337</offset>
+      <text>The sweet tooth of biopharmaceuticals: importance of recombinant protein glycosylation analysis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Rombouts;given-names:Y</infon>
+      <infon key="name_2">surname:Bondt;given-names:A</infon>
+      <infon key="name_1">surname:Selman;given-names:MH</infon>
+      <infon key="name_0">surname:Zauner;given-names:G</infon>
+      <infon key="fpage">856</infon>
+      <infon key="pub-id_doi">10.1074/mcp.R112.026005</infon>
+      <infon key="pub-id_pmid">23325769</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">65</infon>
+      <infon key="name_6">surname:Wuhrer;given-names:M</infon>
+      <infon key="name_5">surname:Deelder;given-names:AM</infon>
+      <infon key="name_4">surname:Blank;given-names:D</infon>
+      <offset>58433</offset>
+      <text>Glycoproteomic analysis of antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lokteff;given-names:M</infon>
+      <infon key="name_2">surname:Bussat;given-names:MC</infon>
+      <infon key="name_1">surname:Wagner-Rousset;given-names:E</infon>
+      <infon key="name_0">surname:Beck;given-names:A</infon>
+      <infon key="fpage">482</infon>
+      <infon key="pub-id_doi">10.2174/138920108786786411</infon>
+      <infon key="pub-id_pmid">19075687</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Curr Pharm Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Corvaia;given-names:N</infon>
+      <infon key="name_8">surname:Van Dorsselaer;given-names:A</infon>
+      <infon key="name_7">surname:Wurch;given-names:T</infon>
+      <infon key="lpage">501</infon>
+      <infon key="name_6">surname:Goetsch;given-names:L</infon>
+      <infon key="name_5">surname:Haeuw;given-names:JF</infon>
+      <infon key="name_4">surname:Klinguer-Hamour;given-names:C</infon>
+      <offset>58471</offset>
+      <text>Trends in glycosylation, glycoanalysis and glycoengineering of therapeutic antibodies and Fc-fusion proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Daus;given-names:A</infon>
+      <infon key="name_2">surname:Yang;given-names:L</infon>
+      <infon key="name_1">surname:Liu;given-names:T</infon>
+      <infon key="name_0">surname:Qian;given-names:J</infon>
+      <infon key="fpage">8</infon>
+      <infon key="pub-id_doi">10.1016/j.ab.2007.01.023</infon>
+      <infon key="pub-id_pmid">17362871</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">364</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">18</infon>
+      <infon key="name_5">surname:Zhou;given-names:Q</infon>
+      <infon key="name_4">surname:Crowley;given-names:R</infon>
+      <offset>58580</offset>
+      <text>Structural characterization of N-linked oligosaccharides on monoclonal antibody cetuximab by the combination of orthogonal matrix-assisted laser desorption/ionization hybrid quadrupole-quadrupole time-of-flight tandem mass spectrometry and sequential enzymatic digestion</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="name_2">surname:Stadtman;given-names:ER</infon>
+      <infon key="name_1">surname:Moskovitz;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Levine;given-names:RL</infon>
+      <infon key="fpage">301</infon>
+      <infon key="pub-id_doi">10.1080/15216540051081056</infon>
+      <infon key="pub-id_pmid">11327324</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">IUBMB Life</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">7</infon>
+      <offset>58851</offset>
+      <text>Oxidation of methionine in proteins: roles in antioxidant defense and cellular regulation</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="name_1">surname:May;given-names:K</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Liu;given-names:H</infon>
+      <infon key="fpage">17</infon>
+      <infon key="pub-id_doi">10.4161/mabs.4.1.18347</infon>
+      <infon key="pub-id_pmid">22327427</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">23</infon>
+      <offset>58941</offset>
+      <text>Disulfide bond structures of IgG molecules: structural variations, chemical modifications and possible impacts to stability and biological function</text>
+    </passage>
+    <passage>
+      <infon key="volume">410</infon>
+      <infon key="name_2">surname:Katta;given-names:V</infon>
+      <infon key="name_1">surname:Yip;given-names:H</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zhang;given-names:J</infon>
+      <infon key="fpage">234</infon>
+      <infon key="pub-id_doi">10.1016/j.ab.2010.11.040</infon>
+      <infon key="pub-id_pmid">21130067</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">43</infon>
+      <offset>59089</offset>
+      <text>Identification of isomerization and racemization of aspartate in the Asp-Asp motifs of a therapeutic protein</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bardor;given-names:M</infon>
+      <infon key="name_2">surname:Hintersteiner;given-names:B</infon>
+      <infon key="name_1">surname:Tan;given-names:E</infon>
+      <infon key="name_0">surname:Lingg;given-names:N</infon>
+      <infon key="fpage">65</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2013.10.028</infon>
+      <infon key="pub-id_pmid">24183595</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Chromatogr A</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">1319</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">71</infon>
+      <infon key="name_4">surname:Jungbauer;given-names:A</infon>
+      <offset>59198</offset>
+      <text>Highly linear pH gradients for analyzing monoclonal antibody charge heterogeneity in the alkaline range</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Schuster;given-names:M</infon>
+      <infon key="name_2">surname:Hintersteiner;given-names:B</infon>
+      <infon key="name_1">surname:Berndtsson;given-names:M</infon>
+      <infon key="name_0">surname:Lingg;given-names:N</infon>
+      <infon key="fpage">124</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2014.11.021</infon>
+      <infon key="pub-id_pmid">25465369</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J Chromatogr A</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">1373</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">30</infon>
+      <infon key="name_5">surname:Jungbauer;given-names:A</infon>
+      <infon key="name_4">surname:Bardor;given-names:M</infon>
+      <offset>59302</offset>
+      <text>Highly linear pH gradients for analyzing monoclonal antibody charge heterogeneity in the alkaline range: Validation of the method parameters</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bruno;given-names:J</infon>
+      <infon key="name_1">surname:Murphy;given-names:M</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jason-Moller;given-names:L</infon>
+      <infon key="pub-id_doi">10.1002/0471140864.ps1913s45</infon>
+      <infon key="pub-id_pmid">18429302</infon>
+      <infon key="comment">Chapter 19:Unit 19.3</infon>
+      <infon key="source">Curr Protoc Protein Sci</infon>
+      <infon key="type">ref</infon>
+      <offset>59443</offset>
+      <text>Overview of Biacore systems and their applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">588</infon>
+      <infon key="name_1">surname:Cheung;given-names:NK</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ahmed;given-names:M</infon>
+      <infon key="fpage">288</infon>
+      <infon key="pub-id_doi">10.1016/j.febslet.2013.11.030</infon>
+      <infon key="pub-id_pmid">24295643</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">97</infon>
+      <offset>59494</offset>
+      <text>Engineering anti-GD2 monoclonal antibodies for cancer immunotherapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">160</infon>
+      <infon key="name_2">surname:Vidarsson;given-names:G</infon>
+      <infon key="name_1">surname:Einarsdottir;given-names:HK</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kapur;given-names:R</infon>
+      <infon key="fpage">139</infon>
+      <infon key="pub-id_doi">10.1016/j.imlet.2014.01.015</infon>
+      <infon key="pub-id_pmid">24495619</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Immunol Lett</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">44</infon>
+      <offset>59562</offset>
+      <text>IgG-effector functions: "the good, the bad and the ugly"</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bruhns;given-names:P</infon>
+      <infon key="volume">5</infon>
+      <infon key="name_2">surname:Jonsson;given-names:F</infon>
+      <infon key="name_1">surname:Gouel-Cheron;given-names:A</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Gillis;given-names:C</infon>
+      <infon key="fpage">254</infon>
+      <infon key="pub-id_doi">10.3389/fimmu.2014.00254</infon>
+      <infon key="pub-id_pmid">24910634</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Front Immunol</infon>
+      <infon key="type">ref</infon>
+      <offset>59623</offset>
+      <text>Contribution of Human FcgammaRs to Disease with Evidence from Human Polymorphisms and Transgenic Animal Studies</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="name_2">surname:Rispens;given-names:T</infon>
+      <infon key="name_1">surname:Dekkers;given-names:G</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Vidarsson;given-names:G</infon>
+      <infon key="fpage">520</infon>
+      <infon key="pub-id_doi">10.3389/fimmu.2014.00520</infon>
+      <infon key="pub-id_pmid">25368619</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Front Immunol</infon>
+      <infon key="type">ref</infon>
+      <offset>59735</offset>
+      <text>IgG subclasses and allotypes: from structure to effector functions</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hammad;given-names:H</infon>
+      <infon key="name_2">surname:Saeys;given-names:Y</infon>
+      <infon key="name_1">surname:Bruhns;given-names:P</infon>
+      <infon key="name_0">surname:Guilliams;given-names:M</infon>
+      <infon key="fpage">94</infon>
+      <infon key="pub-id_doi">10.1038/nri3582</infon>
+      <infon key="pub-id_pmid">24445665</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Nat Rev Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">108</infon>
+      <infon key="name_4">surname:Lambrecht;given-names:BN</infon>
+      <offset>59802</offset>
+      <text>The function of Fcgamma receptors in dendritic cells and macrophages</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="name_1">surname:Szoka;given-names:FC</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sockolosky;given-names:JT</infon>
+      <infon key="fpage">109</infon>
+      <infon key="pub-id_doi">10.1016/j.addr.2015.02.005</infon>
+      <infon key="pub-id_pmid">25703189</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Adv Drug Deliv Rev</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">24</infon>
+      <offset>59871</offset>
+      <text>The neonatal Fc receptor, FcRn, as a target for drug delivery and therapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="name_1">surname:Weiner;given-names:G</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wang;given-names:SY</infon>
+      <infon key="fpage">759</infon>
+      <infon key="pub-id_doi">10.1517/14712598.8.6.759</infon>
+      <infon key="pub-id_pmid">18476787</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Expert opinion on biological therapy</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">68</infon>
+      <offset>59945</offset>
+      <text>Complement and cellular cytotoxicity in antibody therapy of cancer</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wiederkum;given-names:S</infon>
+      <infon key="name_2">surname:Mudde;given-names:GC</infon>
+      <infon key="name_1">surname:Jost;given-names:W</infon>
+      <infon key="name_0">surname:Schuster;given-names:M</infon>
+      <infon key="fpage">700</infon>
+      <infon key="pub-id_doi">10.1002/biot.200600255</infon>
+      <infon key="pub-id_pmid">17427997</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Gorr;given-names:G</infon>
+      <infon key="name_8">surname:Stemmer;given-names:C</infon>
+      <infon key="name_7">surname:Stadlmann;given-names:J</infon>
+      <infon key="lpage">8</infon>
+      <infon key="name_6">surname:Altmann;given-names:F</infon>
+      <infon key="name_5">surname:Janzek;given-names:E</infon>
+      <infon key="name_4">surname:Schwager;given-names:C</infon>
+      <offset>60012</offset>
+      <text>In vivo glyco-engineered antibody with improved lytic potential produced by an innovative non-mammalian expression system</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.imlet.2006.05.011</infon>
+      <infon key="type">ref</infon>
+      <offset>60134</offset>
+    </passage>
+    <passage>
+      <infon key="volume">47</infon>
+      <infon key="name_2">surname:Strickland;given-names:B</infon>
+      <infon key="name_1">surname:Bernhardt;given-names:B</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Parsons;given-names:K</infon>
+      <infon key="fpage">210</infon>
+      <infon key="pub-id_doi">10.1345/aph.1R353</infon>
+      <infon key="pub-id_pmid">23386066</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Ann Pharmacother</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">8</infon>
+      <offset>60135</offset>
+      <text>Targeted immunotherapy for high-risk neuroblastoma-the role of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Xu;given-names:W</infon>
+      <infon key="name_2">surname:Ehrick;given-names:R</infon>
+      <infon key="name_1">surname:Walsh;given-names:A</infon>
+      <infon key="name_0">surname:Du;given-names:Y</infon>
+      <infon key="fpage">578</infon>
+      <infon key="pub-id_doi">10.4161/mabs.21328</infon>
+      <infon key="pub-id_pmid">22820257</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">85</infon>
+      <infon key="name_5">surname:Liu;given-names:H</infon>
+      <infon key="name_4">surname:May;given-names:K</infon>
+      <offset>60222</offset>
+      <text>Chromatographic analysis of the acidic and basic species of recombinant monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Arroll;given-names:T</infon>
+      <infon key="name_2">surname:Bergelson;given-names:S</infon>
+      <infon key="name_1">surname:Song;given-names:A</infon>
+      <infon key="name_0">surname:Jiang;given-names:XR</infon>
+      <infon key="fpage">101</infon>
+      <infon key="pub-id_doi">10.1038/nrd3365</infon>
+      <infon key="pub-id_pmid">21283105</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nat Rev Drug Discov</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Schenerman;given-names:M</infon>
+      <infon key="name_8">surname:Mire-Sluis;given-names:A</infon>
+      <infon key="name_7">surname:Strouse;given-names:R</infon>
+      <infon key="lpage">11</infon>
+      <infon key="name_6">surname:Chung;given-names:S</infon>
+      <infon key="name_5">surname:May;given-names:K</infon>
+      <infon key="name_4">surname:Parekh;given-names:B</infon>
+      <offset>60316</offset>
+      <text>Advances in the assessment and control of the effector functions of therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Okazaki;given-names:A</infon>
+      <infon key="name_2">surname:Mori;given-names:K</infon>
+      <infon key="name_1">surname:Yamada;given-names:T</infon>
+      <infon key="name_0">surname:Kanda;given-names:Y</infon>
+      <infon key="fpage">104</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwl057</infon>
+      <infon key="pub-id_pmid">17012310</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Kakita;given-names:S</infon>
+      <infon key="name_8">surname:Yano;given-names:K</infon>
+      <infon key="name_7">surname:Nakano;given-names:R</infon>
+      <infon key="lpage">18</infon>
+      <infon key="name_6">surname:Kuni-Kamochi;given-names:R</infon>
+      <infon key="name_5">surname:Kitajima-Miyama;given-names:K</infon>
+      <infon key="name_4">surname:Inoue;given-names:M</infon>
+      <offset>60407</offset>
+      <text>Comparison of biological activity among nonfucosylated therapeutic IgG1 antibodies with three different N-linked Fc oligosaccharides: the high-mannose, hybrid, and complex types</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="name_2">surname:James;given-names:DC</infon>
+      <infon key="name_1">surname:Zheng;given-names:YZ</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hodoniczky;given-names:J</infon>
+      <infon key="fpage">1644</infon>
+      <infon key="pub-id_doi">10.1021/bp050228w</infon>
+      <infon key="pub-id_pmid">16321047</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">52</infon>
+      <offset>60585</offset>
+      <text>Control of recombinant monoclonal antibody effector functions by Fc N-glycan remodeling in vitro</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Engen;given-names:JR</infon>
+      <infon key="name_2">surname:Berkowitz;given-names:SA</infon>
+      <infon key="name_1">surname:Peng;given-names:Y</infon>
+      <infon key="name_0">surname:Houde;given-names:D</infon>
+      <infon key="fpage">1716</infon>
+      <infon key="pub-id_doi">10.1074/mcp.M900540-MCP200</infon>
+      <infon key="pub-id_pmid">20103567</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">28</infon>
+      <offset>60682</offset>
+      <text>Post-translational modifications differentially affect IgG1 conformation and receptor binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="name_2">surname:Pace;given-names:CN</infon>
+      <infon key="name_1">surname:Scholtz;given-names:JM</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Grimsley;given-names:GR</infon>
+      <infon key="fpage">247</infon>
+      <infon key="pub-id_doi">10.1002/pro.19</infon>
+      <infon key="pub-id_pmid">19177368</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Protein Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">51</infon>
+      <offset>60776</offset>
+      <text>A summary of the measured pK values of the ionizable groups in folded proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nowak;given-names:C</infon>
+      <infon key="name_2">surname:Zhang;given-names:HM</infon>
+      <infon key="name_1">surname:Ponniah;given-names:G</infon>
+      <infon key="name_0">surname:Liu;given-names:H</infon>
+      <infon key="fpage">1145</infon>
+      <infon key="pub-id_doi">10.4161/mabs.29883</infon>
+      <infon key="pub-id_pmid">25517300</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Andrien;given-names:B</infon>
+      <infon key="name_8">surname:Kita;given-names:AZ</infon>
+      <infon key="name_7">surname:Cheng;given-names:G</infon>
+      <infon key="lpage">54</infon>
+      <infon key="name_6">surname:Patel;given-names:R</infon>
+      <infon key="name_5">surname:Gonzalez-Lopez;given-names:N</infon>
+      <infon key="name_4">surname:Neill;given-names:A</infon>
+      <offset>60855</offset>
+      <text>In vitro and in vivo modifications of recombinant and human IgG antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Katinger;given-names:H</infon>
+      <infon key="name_2">surname:Kunert;given-names:R</infon>
+      <infon key="name_1">surname:Fest;given-names:S</infon>
+      <infon key="name_0">surname:Zeng;given-names:Y</infon>
+      <infon key="fpage">1311</infon>
+      <infon key="pub-id_doi">10.1016/j.molimm.2004.12.018</infon>
+      <infon key="pub-id_pmid">15950727</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Mol Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">42</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Lode;given-names:HN</infon>
+      <infon key="name_7">surname:Ladenstein;given-names:R</infon>
+      <infon key="lpage">9</infon>
+      <infon key="name_6">surname:Lewis;given-names:G</infon>
+      <infon key="name_5">surname:Michon;given-names:J</infon>
+      <infon key="name_4">surname:Pistoia;given-names:V</infon>
+      <offset>60930</offset>
+      <text>Anti-neuroblastoma effect of ch14.18 antibody produced in CHO cells is mediated by NK-cells in mice</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1002/3527603468</infon>
+      <infon key="type">ref</infon>
+      <offset>61030</offset>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Csordas;given-names:A</infon>
+      <infon key="name_2">surname:Boguth;given-names:G</infon>
+      <infon key="name_1">surname:Obermaier;given-names:C</infon>
+      <infon key="name_0">surname:Gorg;given-names:A</infon>
+      <infon key="fpage">328</infon>
+      <infon key="pub-id_doi">10.1002/elps.1150180306</infon>
+      <infon key="pub-id_pmid">9150910</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Electrophoresis</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">18</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">37</infon>
+      <infon key="name_5">surname:Madjar;given-names:JJ</infon>
+      <infon key="name_4">surname:Diaz;given-names:JJ</infon>
+      <offset>61031</offset>
+      <text>Very alkaline immobilized pH gradients for two-dimensional electrophoresis of ribosomal and nuclear proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Tong;given-names:YW</infon>
+      <infon key="name_2">surname:Feng;given-names:H</infon>
+      <infon key="name_1">surname:Bardor;given-names:M</infon>
+      <infon key="name_0">surname:Ho;given-names:SC</infon>
+      <infon key="fpage">130</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2011.09.023</infon>
+      <infon key="pub-id_pmid">22024589</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">157</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">9</infon>
+      <infon key="name_6">surname:Yang;given-names:Y</infon>
+      <infon key="name_5">surname:Yap;given-names:MG</infon>
+      <infon key="name_4">surname:Song;given-names:Z</infon>
+      <offset>61140</offset>
+      <text>IRES-mediated Tricistronic vectors for enhancing generation of high monoclonal antibody expressing CHO cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bones;given-names:J</infon>
+      <infon key="name_2">surname:Saldova;given-names:R</infon>
+      <infon key="name_1">surname:Royle;given-names:L</infon>
+      <infon key="name_0">surname:Shahrokh;given-names:Z</infon>
+      <infon key="fpage">286</infon>
+      <infon key="pub-id_doi">10.1021/mp100353a</infon>
+      <infon key="pub-id_pmid">21138277</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Mol Pharm</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Sehgal;given-names:S</infon>
+      <infon key="name_8">surname:Baycroft;given-names:A</infon>
+      <infon key="name_7">surname:Davies;given-names:M</infon>
+      <infon key="lpage">96</infon>
+      <infon key="name_6">surname:Flatman;given-names:S</infon>
+      <infon key="name_5">surname:Artemenko;given-names:NV</infon>
+      <infon key="name_4">surname:Abrahams;given-names:JL</infon>
+      <offset>61254</offset>
+      <text>Erythropoietin produced in a human cell line (Dynepo) has significant differences in glycosylation compared with erythropoietins produced in CHO cell lines</text>
+    </passage>
+  </document>
+</collection>

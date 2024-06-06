@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>9310845</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Dell;given-names:Anne</infon>
+      <infon key="name_2">surname:Krueger;given-names:Anja</infon>
+      <infon key="name_1">surname:Livanos;given-names:Maria</infon>
+      <infon key="article-id_pmid">35182428</infon>
+      <infon key="name_0">surname:Edwards;given-names:Elizabeth</infon>
+      <infon key="notes">  , , , , , , &amp;  . . , , -.   </infon>
+      <infon key="pub-id_doi">10.1002/bit.28066</infon>
+      <infon key="pub-id_pmid">35182428</infon>
+      <infon key="year">2022</infon>
+      <infon key="article-id_pmc">9310845</infon>
+      <infon key="article-id_publisher-id">BIT28066</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="article-id_doi">10.1002/bit.28066</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol Bioeng;202206; 119 (6) 1343-1358. doi:10.1002/bit.28066</infon>
+      <infon key="lpage">1358</infon>
+      <infon key="fpage">1343</infon>
+      <infon key="issue">6</infon>
+      <infon key="alt-title">EDWARDS et al. </infon>
+      <infon key="volume">119</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="kwd">antibodies biosimilars CQAs downstream glycosylation bioprocessing mAbs  N-glycosylation</infon>
+      <infon key="name_6">surname:Bracewell;given-names:Daniel G.</infon>
+      <infon key="name_5">surname:Mark Smales;given-names:C.</infon>
+      <infon key="name_4">surname:Haslam;given-names:Stuart M.</infon>
+      <infon key="authors">Edwards E, Livanos M, Krueger A, Dell A, Haslam SM, Mark Smales C, Bracewell DG, </infon>
+      <offset>0</offset>
+      <text>Strategies to control therapeutic antibody glycosylation during bioprocessing: Synthesis and separation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>104</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>113</offset>
+      <text>Glycosylation can be a critical quality attribute in biologic manufacturing. In particular, it has implications on the half-life, immunogenicity, and pharmacokinetics of therapeutic monoclonal antibodies (mAbs), and must be closely monitored throughout drug development and manufacturing. To address this, advances have been made primarily in upstream processing, including mammalian cell line engineering, to yield more predictably glycosylated mAbs and the addition of media supplements during fermentation to manipulate the metabolic pathways involved in glycosylation. A more robust approach would be a conjoined upstream-downstream processing strategy. This could include implementing novel downstream technologies, such as the use of Fc gamma-based affinity ligands for the separation of mAb glycovariants. This review highlights the importance of controlling therapeutic antibody glycosylation patterns, the challenges faced in terms of glycosylation during mAb biosimilar development, current efforts both upstream and downstream to control glycosylation and their limitations, and the need for research in the downstream space to establish holistic and consistent manufacturing processes for the production of antibody therapies.</text>
+      <annotation id="1">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:51:53Z</infon>
+        <location offset="113" length="13"/>
+        <text>Glycosylation</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:52:03Z</infon>
+        <location offset="232" length="47"/>
+        <text>half-life, immunogenicity, and pharmacokinetics</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:53:07Z</infon>
+        <location offset="546" length="17"/>
+        <text>glycosylated mAbs</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:53:11Z</infon>
+        <location offset="584" length="17"/>
+        <text>media supplements</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1355</offset>
+      <text>Upstream and downstream processing strategies to control antibody glycosylation are reviewed. Edwards et al. have presented various approaches in both upstream and downstream processing to direct antibody glycosylation towards certain profiles. Upstream examples include cell line engineering, media supplementation, and manipulating bioreactor conditions. Downstream techniques have also been developed such as the use of Fc gamma-receptor 3a affinity ligands for glycovariant separations, but the authors have highlighted that there is notably less development in this area. </text>
+      <annotation id="5">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:56:07Z</infon>
+        <location offset="1551" length="22"/>
+        <text>antibody glycosylation</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:56:18Z</infon>
+        <location offset="1626" length="84"/>
+        <text>cell line engineering, media supplementation, and manipulating bioreactor conditions</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1933</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1946</offset>
+      <text>Out of all known posttranslational modifications, glycosylation has one of the most significant impacts on therapeutic antibody pharmacokinetics (Boune et al., ). Glycosylation of antibodies changes as a result of aging, immune events such as infections and environmental factors. Such changes have been associated with autoimmune and inflammatory diseases (Hashii et al., ; Kemna et al., ). Glycosylation is known to have effects on the biological activity, solubility, serum half-life, and safety of therapeutic antibodies (Bas et al., ; Narhi et al., ; Varki, ). Glycans have an important role in immunity and self-recognition during common immune events and, ultimately, can impact the therapeutic efficacy of biopharmaceuticals (Gagneux &amp; Varki, ; van Kooyk &amp; Rabinovich, ). Therefore, controlling glycosylation in antibody biotherapeutics is of critical importance.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2830</offset>
+      <text>A good example of the impact of glycosylation on a biotherapeutic protein is that of intravenous immunoglobulin (IVIg), which is the treatment of choice for patients with immunodeficiencies and inflammatory diseases such as Kawasaki disease, dermatomyositis and lupus. It is prepared from pools of plasma-derived IgG, which are harvested from tens of thousands of donors to capture a diverse antibody repertoire (Jolles et al., ). Despite IVIg being a standard treatment for several different diseases, and these preparations having been used for over 30 years, their precise mechanism of action is yet to be elucidated. However, it has been concluded that the presence of terminal sialic acid residues (see Figure 1) on the Fc glycan of IgG is crucial to the clinical efficacy of IVIg in the context of many different disease models (Anthony &amp; Ravetch, ; Anthony et al., ; Bruckner et al., ; Schwab et al., ). Among other observations, desialylation of the Fc fragment reduces the anti-inflammatory activity of IVIg. Conversely, the enrichment of these preparations with sialic acid results in improved in vivo efficacy in a mouse model of rheumatoid arthritis (Kasermann et al., ). Interestingly, IgG glycans and other serum glycoproteins have been shown to vary with age (de Haan et al., ; Merleev et al., ; Stambuk et al., ). Age-dependent Fc-glycosylation may be relevant to the generation of biotherapeutics for more severe disease types. Similarly, customized medicines in children, pregnant women or other immune sensitive groups may benefit from a more finely tuned and less heterogenous glycosylation profile.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-1343-g001.jpg</infon>
+      <infon key="id">bit28066-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>4471</offset>
+      <text>Simplified N-glycan structure scheme showing the complexity of matured biantennary N-glycan structures, general N-glycan nomenclature and common N-glycan structures seen attached to Asn297 in the Fc region of IgG1. Reducing and nonreducing terminology is applied from basic glycobiology. Bisecting N-glycans are common in human serum. Complex N-glycans follow a complex core structure comprising five sugar residues, three mannoses, and two N-acetylglucosamine (GlcNAc) residues. The immature N-glycan is normally trimmed back until the core structure is created to achieve full complexity of the maturing N-glycan required for monoclonal antibodies (mAbs). N-glycans in general can reach higher branching</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5197</offset>
+      <text>Despite the ubiquity and importance of glycosylation, control of N- and O-linked glycosylation remains a challenge in biopharmaceutical manufacturing due to the potential glycosylation heterogeneity of a glycoprotein. This heterogeneity can have an impact on antibody effector functions such as antibody-dependent cellular cytotoxicity (ADCC; see Figure 2). It arises due to the intricate and complex cellular process by which proteins are glycosylated (see Figure 3). The heterogeneity can be divided into two types: micro- and macroheterogeneity. Microheterogeneity refers to the variability of the glycans at each glycosylation site. In recombinant protein production, this primarily occurs as a result of the choice of host cell expression system and the balance of glycosylation enzymes expressed. Other important factors include the metabolism of the host cell, the media composition and any associated feeding regime, pH, and the temperature of the fermentation process. On the other hand, heterogeneity due to the presence or absence of glycans at particular glycosylation sites in the protein primary structure is termed macroheterogeneity (Hossler, ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-1343-g003.jpg</infon>
+      <infon key="id">bit28066-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>6370</offset>
+      <text>Monoclonal antibody (mAb) mechanism of action by way of antibody-dependent cellular cytotoxicity (ADCC). The antigen binding (Fab) region of the mAb binds the antigen on the surface of a target cell, such as a cancer cell. The Fc region then binds an Fc gamma-receptor (Fc gammaR) on the surface of an immune effector cell, such as a natural killer (NK) cell. This cross-linking stimulates the NK cell to release apoptotic agents that kill off the cancer cell in a targeted manner. IgG are glycosylated in the Fc region and sometimes also in the Fab region, and these glycans mediate clinically relevant properties such as serum half-life, pharmacokinetics, target binding affinity, and overall therapeutic efficacy. Created with BioRender.com </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-1343-g002.jpg</infon>
+      <infon key="id">bit28066-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>7117</offset>
+      <text>Schematic of the monoclonal antibody (mAb) N-glycosylation pathway that occurs during mammalian cell culture and the possible stages at which heterogeneity can arise. (1) an immature precursor N-glycan (three glucose, nine mannose, and two N-acetylglucosamine residues, Glc3Man9GlcNAc2) is transferred from the dolichol phosphate anchor onto an asparagine (Asn) residue on the nascent mAb protein within an Asn-X-Ser/Thr, except Pro motif within the primary protein structure. (2) The three terminal Glc residues are further cleaved by a set of glucose specific glucosidases. (3) The immature N-glycan is further trimmed to an immature Man8 N-glycan structure. (4) The immature glycoprotein is transported from the endoplasmic reticulum (ER) to the Golgi apparatus (Golgi) via vesicular trafficking. Further trimming to a Man5 structure occurs in the Golgi. (5) beta-1,2-N-acetylglucosaminyltransferase I adds a GlcNAc residue to one of the terminal mannose residues. (6) Two terminal mannose residues are trimmed by -mannosidase II. (7) Another N-acetylglucosyltransferase adds a GlcNAc residue onto the terminal mannose residue, followed by a fucosyltransferase adding a fucose sugar to the core GlcNAc. (8) Two galactose (Gal) residues are added to the two terminal GlcNAcs by specific galactosyltransferases. (9) Two sialic acid residues are added to the two terminal Gals by specific sialyltransferases and, finally, (10) the glycoprotein is encased in a vesicle, which buds off from the Golgi and travels towards the cell surface. There are about 100 glycosyltransferases and glucosidases involved in the processing and trimming of N-glycans and other glycoconjugates. Most biosynthetic steps are precursor-dependent, which gives rise to an immense variety of glycans described as heterogeneity. Created with BioRender.com </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8973</offset>
+      <text>Overall, IgG antibodies are mainly biantennary N-glycosylated in their Fc-region at a single site (Asn297). The overall diversity of N-glycosylation lies primarily in the antennae of the glycan and in the presence or absence of a fucose residue on the core of the N-glycan (see Figure 1). However, other glycosylation sites have been observed in serum IgGs in the variable Fab region. Such N-glycans have been shown to have a greater level of structural heterogeneity (Anumula, ; Bondt et al., ). Further, somatic mutation induces additional Fab N-glycosylation in monoclonal antibodies (mAbs) derived from human synovial tissue B cells from patients with rheumatoid arthritis, with antigen specificity against citrullinated histone. These mAbs showed a variable Fab N-glycan-dependent antigen binding (Corsiero et al., ). Interestingly, B-cell-derived, experimentally point-mutated mAbs (anti-adalimumab and anti-infliximab), which had Fab N-glycans deleted in complementarity-determining regions appeared structurally more thermally unstable compared with their glycosylated wild types (WTs; van de Bovenkamp et al., ). However, increased antigen binding induced by Fab- N-glycans appears to be antigen-dependent, as others reported a decrease in CD33-binding affinity in the presence of Fab N-glycosylation (Co et al., ). In summary, the antigen-binding affinity might be differentially modulated via Fab-N-glycosylation. However, more investigation of Fab N-glycosylation and modulation of antigen-binding affinity is required to further understand the binding effects of Fab N-glycosylation regarding different types of antigens.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10666</offset>
+      <text>As glycosylation is diverse and challenging to control during bioprocessing, most US Food and Drug Administration (FDA)- or European Medicines Agency (EMA)-approved IgG-type biotherapeutics contain N-glycosylation in the Fc region only. Cetuximab, however, is glycosylated in the Fab region, so the glycosylation of both the Fab and Fc regions of this molecule must be monitored (Janin-Bussat et al., ). As glycosylation heterogeneity substantially impacts mAb immunogenicity and therapeutic efficacy, the control and characterization of mAb glycosylation profiles is specified in ICH guideline Q6B (EMA, ). The EMA also state that "particular attention should be paid to the degree of sialylation, galactosylation, mannosylation, and fucosylation" (Carillo et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11452</offset>
+      <text>The diversity of IgG glycosylation was demonstrated by Pucic et al., whereby N-glycan content distribution on three human serum IgG populations was reported for 24 N-glycan structures out of 36 theoretical structures. Of these, 96% of all neutral N-glycan structures contained core fucose. Agalactosylated and monogalactosylated glycan content was similar at around 40% with digalactosylated structures making up the remaining 20%. Only 11.6% of monogalactosylated structures and 50% of digalactosylated were sialylated (Pucic et al., ). However, as N-glycans vary with age and location, the optimal N-glycosylation for a given IgG biotherapeutic may depend on the target group and the required biological activity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12181</offset>
+      <text>Due to the tendency for regulations to become more rigorous over time and as advances are made in this area, we anticipate that the requirement for the control and characterization of mAb glycosylation patterns will become more stringent. Monitoring and control of glycosylation during bioprocessing is therefore paramount. However, techniques for in- and online characterization of glycoprofiles are rarely, if ever, reported in industrial-scale bioprocessing. Further, as is discussed in Section 2.3, during mAb biosimilar development the glycosylation patterns of both the proposed biosimilar and the innovator drug must be characterized and matched as closely as possible. Table 1 details the upcoming patent expiration dates of a number of blockbuster mAbs and antibody-drug conjugates (ADCs), both in Europe and in the US, illustrating the rich pipeline and potential for biosimilar development over the coming decade (Duivelshof et al., ). Attempts to control mAb glycosylation so far have mainly focused on cell line engineering, media supplementation and process parameter alterations, such as temperature and pH shifts during fermentation. Enzymatic approaches to glycoengineering have also been investigated but are not always scalable. In particular, the control of IgG core fucosylation using hydrolytic fucosidases has proved difficult due to the lack of an enzyme that is able to specifically and efficiently remove the core fucose of the Fc N-glycan on IgG (Tsai et al., ). Whilst upstream approaches allow the fine-tuning of mAb glycosylation and its heterogeneity to an extent, it remains difficult to predict and tightly control such an intricate process. Therefore, to develop bioprocesses that give more control over the ultimate mAb glycosylation patterns, attention should turn to downstream events so that integrated processes which produce mAbs with more defined glycosylation profiles can be developed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28066-tbl-0001.xml</infon>
+      <infon key="id">bit28066-tbl-0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>14124</offset>
+      <text>Blockbuster mAbs and ADCs with upcoming patent expirations in Europe and the United States</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28066-tbl-0001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr valign="bottom"&gt;&lt;th align="left" rowspan="2" valign="bottom" colspan="1"&gt;mAb&lt;/th&gt;&lt;th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1"&gt;Patent expiration date&lt;/th&gt;&lt;/tr&gt;&lt;tr style="border-bottom:solid 1px #000000" valign="bottom"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Europe&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;United States&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Adcetris  (brentuximab vedotin)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;August 2023&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;2015-2031&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Avastin  (bevacizumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;January 2022&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;July 2019&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Campath  (alemtuzumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;May 2021&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;July 2021&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Cyramza  (ramucirumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;May 2023&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;November 2025&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Darzalex  (daratumumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;May 2026&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;February 2025&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gazyvaro , Gazyva  (obinutuzumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;November 2024&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;January 2035&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Kadcyla  (trastuzumab emtansine)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;June 2020&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;September 2026&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Keytruda  (pembrolizumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;June 2028&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;November 2036&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Opdivo  (nivolumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;May 2026&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;June 2027&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Perjeta  (pertuzumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;May 2023&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;June 2024&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Prolia , Xgeva  (denosumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;June 2022&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;February 2025&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Tecentriq  (atezolizumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;September 2027&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;May 2028&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yervoy  (ipilimumab)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;2021&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;2023&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">bit28066-tbl-0001</infon>
+      <infon key="type">table</infon>
+      <offset>14215</offset>
+      <text>mAb Patent expiration date   Europe United States   Adcetris  (brentuximab vedotin) August 2023 2015-2031   Avastin  (bevacizumab) January 2022 July 2019   Campath  (alemtuzumab) May 2021 July 2021   Cyramza  (ramucirumab) May 2023 November 2025   Darzalex  (daratumumab) May 2026 February 2025   Gazyvaro , Gazyva  (obinutuzumab) November 2024 January 2035   Kadcyla  (trastuzumab emtansine) June 2020 September 2026   Keytruda  (pembrolizumab) June 2028 November 2036   Opdivo  (nivolumab) May 2026 June 2027   Perjeta  (pertuzumab) May 2023 June 2024   Prolia , Xgeva  (denosumab) June 2022 February 2025   Tecentriq  (atezolizumab) September 2027 May 2028   Yervoy  (ipilimumab) 2021 2023   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28066-tbl-0001.xml</infon>
+      <infon key="id">bit28066-tbl-0001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>14928</offset>
+      <text> Note: Obinutuzumab is glycoengineered to have reduced core fucosylation, illustrating the commercial potential of further investment and development in the area of glycoengineered mAbs. Adapted from Busse and Luftner.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28066-tbl-0001.xml</infon>
+      <infon key="id">bit28066-tbl-0001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>15148</offset>
+      <text>Abbreviations: ADC, antibody-drug conjugate; mAbs, monoclonal antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15224</offset>
+      <text>Here we review how different glycosylation patterns of certain therapeutic antibodies affect their safety and clinical efficacies. Advances that have been made in genetic engineering, upstream processing and enzymatic glycoengineering to direct glycosylation towards particular profiles, as well as downstream development that has also been made in this area, are then explored. Finally, future perspectives and developments that could provide a step-change in the area are described, particularly with a focus on specific areas of downstream processing that could be targeted for developing approaches to control mAb glycosylation patterns. Development of such approaches would allow the separation and purification of IgG therapeutics with specific glycosylation patterns, or more homogenous mAb glycoprofiles, and facilitate experiments to determine if such products are more clinically efficacious.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>16129</offset>
+      <text> N-GLYCOSYLATION PATTERNS OF THERAPEUTIC ANTIBODIES</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16183</offset>
+      <text>As different glycosylation patterns affect the clinical efficacies of biopharmaceuticals, platforms must be developed to yield the desired glycosylation patterns on a case-by-case basis. Glycosylation in the Fc region affects IgG affinity for Fc gamma-receptors (Fc gammaRs), which mediate effector functions such as ADCC, phagocytosis and cytokine secretion (Junker et al., ). Complement-dependent cytotoxicity (CDC) is also an important effector function for IgG therapeutics which can be impacted by different glycosylation patterns in the Fc region, particularly galactosylation (Abes &amp; Teillaud, ; Reusch &amp; Tejada, ; Zabczynska et al., ). Here we focus on the effect of glycosylation on ADCC, as it is a more common effector function of IgG-type therapeutics, particularly those used for oncological indications. As of 2020, out of all 22 FDA-approved antitumor therapeutic antibodies, ADCC was listed as contributing to the mechanism of action for 11 of these drugs, whereas CDC was listed for only 5 (Yu et al., ). Interestingly, some patients receiving antibody therapy experience resistance or limited clinical responses. For example, there is both a high- and a low-affinity allotype of the Fc gamma-receptor 3a (Fc gammaRIIIa), one of the receptors on the surface of natural killer cells that mediate the therapeutic activity of many IgG1-type mAbs. A patient will have a different response to a mAb therapy depending on which of these allotypes they express. This has resulted in a drive within the industry to develop antibodies with enhanced clinical efficacies and one way to do this is to improve therapeutic antibody glycosylation patterns.</text>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:58:31Z</infon>
+        <location offset="16370" length="13"/>
+        <text>Glycosylation</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:58:40Z</infon>
+        <location offset="16500" length="41"/>
+        <text>ADCC, phagocytosis and cytokine secretion</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:58:56Z</infon>
+        <location offset="16561" length="33"/>
+        <text>Complement-dependent cytotoxicity</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:59:16Z</infon>
+        <location offset="16750" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:00:42Z</infon>
+        <location offset="17739" length="19"/>
+        <text>clinical efficacies</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:00:45Z</infon>
+        <location offset="17817" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>17857</offset>
+      <text>Afucosylated therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17893</offset>
+      <text>ADCC is a mechanism by which a number of mAbs mediate their immunotherapeutic action. mAbs that target tumor-associated antigens and employ ADCC as their sole mechanism of action are still able to yield therapeutic benefit (Hubert et al., ). Interestingly, the removal of a core fucose residue from the N-glycan attached to the conserved Asn297 of the Fc region of IgG is known to enhance ADCC activity in vivo by up to 50-fold (Shields et al., ; Shinkawa et al., ). This upregulation is a result of the afucosylated IgG having increased affinity for the ADCC-activating receptor, FcgammaRIIIa. This discovery stimulated research focused around generating cell lines yielding afucosylated mAbs, as well as investigations into upstream control strategies to direct mAb glycosylation towards particular glycan profiles. As a result, afucosylated mAbs are now licensed as therapeutics in their own right, with examples of such mAbs currently in the market or in clinical trials including obinutuzumab, mogamulizumab, MEDI-551, DI-B4, ublituximab, imgatuzumab, and tomuzotuximab (Zahavi et al., ).</text>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:01:36Z</infon>
+        <location offset="18167" length="11"/>
+        <text>core fucose</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:01:50Z</infon>
+        <location offset="18282" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:02:23Z</infon>
+        <location offset="18397" length="16"/>
+        <text>afucosylated IgG</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:02:50Z</infon>
+        <location offset="18448" length="24"/>
+        <text>ADCC-activating receptor</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:05:51Z</infon>
+        <location offset="18549" length="10"/>
+        <text>cell lines</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:05:34Z</infon>
+        <location offset="18569" length="17"/>
+        <text>afucosylated mAbs</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19000</offset>
+      <text>Rituximab is a CD20-targeting mAb that was first approved by the FDA for the treatment of relapsed or refractory non-Hodgkin's lymphoma. It is now a standard treatment for the majority of B-cell neoplasms either in combination with chemotherapy or as a standalone therapy. Although it has shown good clinical efficacy, evidence that some tumors develop resistance has been reported. In an attempt to mitigate this, obinutuzumab was developed. Among other modifications, obinutuzumab has reduced core fucosylation and therefore increased ADCC activity compared with its fucosylated counterpart rituximab. In the context of chronic lymphocytic leukemia (CLL), obinutuzumab demonstrates strong clinical advantages over rituximab and enhanced progression-free survival of patients receiving obinutuzumab therapy compared with rituximab (Freeman &amp; Sehn, ). Another afucosylated mAb that targets CD20 is ublituximab, which has recently been granted Fast Track Designation by the FDA for the treatment of CLL in combination with umbralisib.</text>
+      <annotation id="19">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:07:44Z</infon>
+        <location offset="19495" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:07:52Z</infon>
+        <location offset="19537" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20043</offset>
+      <text>For a number of reasons, efforts towards the production of afucosylated IgG have mainly focused on cell line engineering. First, the application of specific fucosidases for hydrolysis of the core fucose is usually not successful due to steric hindrance. It is also not possible to use size-, charge-, or hydrophobicity-based separation methods due to the fucose having a very low molecular weight and no associated charge. Finally, the use of lectin affinity chromatography (LAC) is not feasible for the isolation of afucosylated mAbs due to specificity issues and potential lectin-induced toxicity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>20651</offset>
+      <text>Matching glycosylation patterns during mAb biosimilar development</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20717</offset>
+      <text>Biosimilars create pricing pressure and competition within the biologics market, which is important for widening patient access to treatments by lowering the cost of healthcare. Over the past few years, there has been considerable development and investment in the biosimilars space as a result of patents expiring for many blockbuster mAbs, such as trastuzumab, rituximab, and adalimumab. Developers of biosimilars benefit from truncated approval procedures that utilize existing knowledge of the reference drug. This means that drug safety and efficacy can be extrapolated, to a certain extent, from the reference drug clinical trial data, which saves a significant amount of time and money.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21411</offset>
+      <text>However, mAbs are large, complex molecules with a variety of factors influencing their primary, tertiary, and quaternary structure. As a result of this complexity, it is difficult to develop cell lines and manufacturing processes such that the required degree of "similarity" to the innovator molecule is achieved. Even small differences in process parameters, media composition and expression systems can result in significant differences in mAb glycosylation between innovator molecules and biosimilars, making it challenging to gain regulatory approval (Duivelshof et al., ). As such, biosimilar developers are expected to structurally characterize both the innovator molecule and their proposed biosimilar, including the primary structure, higher or lower molecular weight derivatives of the product, and posttranslational modifications such as glycosylation. In the case of mAbs that elicit effector function for their mechanism of action, varying the N-glycan structure at position Asn297 in the Fc region can confer different ADCC and CDC activities in vivo, and consequently different clinical efficacies. For these reasons, thorough characterization of a mAb's glycosylation profile is essential at all stages of development and during manufacturing. This gives rise to a need for the development of novel, orthogonal analytical techniques for glycoprofile characterization (Duivelshof et al., ).</text>
+      <annotation id="21">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:29:22Z</infon>
+        <location offset="22368" length="37"/>
+        <text>N-glycan structure at position Asn297</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:29:43Z</infon>
+        <location offset="22444" length="23"/>
+        <text>ADCC and CDC activities</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22825</offset>
+      <text>Since the patent for rituximab expired in 2013 in Europe and 2018 in the United States, manufacturers have focused on developing biosimilars (Subramanian et al., ). A number of studies have reported the characterization of the glycosylation profiles of rituximab biosimilars and the impact of different glycosylation patterns on the drug's clinical efficacy (Cerutti et al., ; D'Atri et al., ; Kang et al., ; Nupur et al., ). In addition to strategies for directing mAb biosimilar glycosylation towards profiles closer to that of the innovator molecule, analytical and structural characterization techniques that can accurately define such profiles are important. In general, liquid chromatographic techniques such as hydrophilic interaction liquid chromatography and ultrahigh-performance liquid chromatography coupled to mass spectrometry are used to characterize and compare biosimilar glycosylation to the innovator molecule (D'Atri et al., ; Kaur et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>23797</offset>
+      <text>The impact of the choice of host cell line on glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23857</offset>
+      <text>The choice of the host cell expression system for human IgG production is mainly restricted by the expression system's ability to produce safe human-like glycosylation. Most FDA- and EMA-approved biosimilars are mAbs expressed in mammalian systems to avoid generation of glycoepitopes giving rise to allergic reactions or severe immune responses. Besides achieving high yields of authentic and "safe" product with the highest therapeutic activity, other factors such as development and manufacturing costs are considered such as choice of the host cell system, cost and time of purification strategies, and final product yield.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24495</offset>
+      <text>To date, three mammalian cell lines have been widely utilized for glycosylated IgG production: Chinese hamster ovary (CHO), the mouse SP0/2, and the NS0 cell lines, with CHO cells by far the most commonly used for marketed products. Indeed, IgG production in CHO cell lines is well established and the range of glycoproteins produced using this expression system has been recently reviewed (Donini et al., ). CHO cells have the potential to present nonhuman terminal Gal-alpha1,3-Gal-GlcNAc glycoepitopes in the antennary region, which has been associated with severe immune consequences in humans. In 2008, the chimeric mouse-human IgG1 cetuximab caused severe hypersensitivity in 26 of 76 patients receiving cetuximab treatment. The recognition of terminal Gal-alpha1,3-Gal glycoepitopes in the Fab region of the antibody occurred via IgE and induced anaphylaxis. It is assumed that Fab N-glycans are exposed in a preferred steric orientation for IgE binding (Chung et al., ).</text>
+      <annotation id="23">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:30:41Z</infon>
+        <location offset="24590" length="21"/>
+        <text>Chinese hamster ovary</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:30:44Z</infon>
+        <location offset="24623" length="11"/>
+        <text>mouse SP0/2</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:30:48Z</infon>
+        <location offset="24644" length="3"/>
+        <text>NS0</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:31:26Z</infon>
+        <location offset="24962" length="37"/>
+        <text>Gal-alpha1,3-Gal-GlcNAc glycoepitopes</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:32:22Z</infon>
+        <location offset="25063" length="19"/>
+        <text>immune consequences</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25484</offset>
+      <text>Sialic acid is primarily connected as Neu5Ac alpha2,3-linkages in CHO cell lines. Genomic sequencing of CHO-K1 cells determined the presence of a ST6Gal sialyltransferase homolog but did not detect any expression of the enzyme (Xu et al., ). Human serum IgG N-glycans (Fab- and Fc-region) contain about 10% sialylated structures, the vast majority of which are alpha2,6-Neu5Ac-linkages (Adamczyk et al., ). Furthermore, Neu5Gc may be inserted into the antennae of recombinant glycoproteins of CHO cell products, which are considered less desirable, as humans have lost the ability to generate Neu5Gc from Neu5Ac. All humans contain low levels of anti-Neu5Gc antibodies, up to 0.25% of total serum IgG (Tangvoranuntakul et al., ). Therefore, the amount of Neu5Gc glycoepitopes should be kept to a minimum (Ghaderi et al., ). Mouse and CHO cell lines exhibit similar issues regarding Gal-alpha1,3-Gal epitopes. Further, NS0, CHO, and Sp0/2 cell lines can generate glycoproteins with Man5GlcNAc2 high-mannose type N-glycans. Literature regarding IgG-Man5 remains controversial. For example, the pharmacokinetic study by Falck et al. determined pharmacokinetic effects of modified glycoengineered IgG1 derived from CHO cells. To generate large amounts of the desired IgG1 glycoforms, chemo-enzymatic modification and/or glycosidase treatment were applied. Three engineered IgG1 variants had the following differences in their glycosylation: biantennary agalactosylated complex N-glycan (IgG1-G0F) as a reference standard, IgG1-G0F truncated by one N-acetylglucosamine (GlcNAc) (IgG1-(G0F-1GlcNAc)), and IgG1-Man5, and these were injected into individual animals. The clearance rates for IgG1 glycoforms from rat serum were determined to be 1.8- to 2.6-fold quicker for IgG1-Man5 structures compared with the IgG1-G0F. IgG1-(G0F-1GlcNAc) had a 1.2- to 1.4-fold increase in clearance rate compared with the IgG1-G0F standard (Falck et al., ). Following the previous study, the study by Yu et al. demonstrated threefold faster clearance rates for IgG1-Man5 variants compared with complex IgG1-G0F/G1F structures in mice. The authors also investigated the ability to induce ADCC in vitro using peripheral blood mononuclear cells from healthy blood donors as effector cells in the presence of B cells (WIL2-S). The EC50 value for the induction of ADCC showed a five- to sevenfold increase for IgG1-Man5 compared with the reference IgG-G0F/G1F mixture. However, IgGs with afucosylated glycoforms were more potent than IgG1-Man5. Also, the FcgR3a-binding activity to IgG1-Man5 had EC50 values six- to eightfold higher compared with the reference IgG1-G0F/G1F (Yu et al., ). Overall, the literature on pharmacokinetic in vivo studies remains contradictive regarding IgG-Fc N-glycans role and underlines the field's challenge. Studying clearance rates of IgG-Fc-N-glycan variability requires analytical expertise and sensitive techniques to determine glycopeptide sequences and abundancies to exclude Fab glycosylation or other glycovariants. Pharmacokinetic studies are often dependent on multiple factors, such as the study design, manufacturing approach affecting distribution of IgG glycoforms impacted by cell culture feeding conditions, or variation in animal model versus samples derived from human clinical trials. Recent literature highlights that administration parameters influence most animal studies as follows: administration route, the concentration of IgG administered, and collection time points (Chen et al., ; Goetze et al., ; Yu et al., ). However, it is known that oligomannose structures in circulatory systems are cleared by mannose-binding proteins (C-type lectins) present on sinusoidal endothelial cells and Kupffer cells with macrophagic activity residing in the liver (Bhandari et al., ; Loke et al., ). Potential clearance of carbohydrates via mammalian sugar-binding receptors was reviewed by Taylor and Drickamer.</text>
+      <annotation id="32">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:36:32Z</infon>
+        <location offset="27147" length="15"/>
+        <text>clearance rates</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:36:36Z</infon>
+        <location offset="27249" length="9"/>
+        <text>IgG1-Man5</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:36:53Z</infon>
+        <location offset="27504" length="9"/>
+        <text>clearance</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:37:02Z</infon>
+        <location offset="27524" length="9"/>
+        <text>IgG1-Man5</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:35:42Z</infon>
+        <location offset="27822" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:35:45Z</infon>
+        <location offset="27868" length="9"/>
+        <text>IgG1-Man5</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:36:10Z</infon>
+        <location offset="28013" length="23"/>
+        <text>FcgR3a-binding activity</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:36:14Z</infon>
+        <location offset="28040" length="9"/>
+        <text>IgG1-Man5</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>29516</offset>
+      <text>UPSTREAM STRATEGIES TO CONTROL GLYCOSYLATION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29561</offset>
+      <text>Attempts to control and direct biologic glycosylation towards certain profiles have primarily focused on cell line engineering and bioprocess control, including process parameter alterations such as pH shifts and the addition of supplements to cell culture media during mAb production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>29847</offset>
+      <text>Cell line engineering strategies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29880</offset>
+      <text>Various developments in cell line engineering for mAb manufacturing have aimed to reduce the core fucosylation of the N-glycan at Asn297 in the Fc region of IgG, as this is known to confer the most significant increase in ADCC activity of IgG mAbs compared with galactosylation, mannosylation, sialylation and N-acetyl-glucosamine levels. The Potelligent  technology was first developed by Kyowa Hakko Kogyo Co. Ltd in 2004 to address this issue. After the discovery was made, which reduced core fucosylation of IgG mAbs results in enhanced ADCC in vivo, the group at Kyowa Hakko Kogyo focused on generating a mammalian cell line that was capable of yielding IgG with reduced core fucosylation to enhance its therapeutic efficacy. The group generated a CHO cell line, which had the gene encoding the fucosyltransferase (alpha1,6-FucT) responsible for adding the fucose to the core GlcNAc, FUT8, knocked out (see Figure 4). This was achieved by disrupting both FUT8 alleles using sequential homologous recombination (Shinkawa et al., ). These FUT8 -/- cells produce IgG, which does not possess core fucose and therefore elicits a greater level of ADCC compared with other fucosylated mAbs. An example of a current therapy manufactured using the Potelligent  CHO FUT8 -/- cell line is mogamulizumab, commercially known as Poteligeo . This mAb was originally approved for the treatment of chemokine C receptor 4 (CCR4)-expressing T-cell leukemia-lymphoma and peripheral T-cell lymphoma (Evans &amp; Syed, ). The EMA now list Poteligeo  as a treatment for mycosis fungoides and Sezary syndrome. Another technique that has been used to yield afucosylated IgG mAbs is interference with the synthetic pathway that gives rise to the fucose precursor or substrate for alpha1,6-FucT, guanosine diphosphate (GDP)-fucose. One such approach has been to disrupt the gene that encodes the enzyme GDP-mannose 4,6-dehydratase (GMD). GMD is involved in catalyzing the conversion of d-glucose to GDP-fucose and is therefore crucial for the activity of alpha1,6-FucT in carrying out fucosylation downstream in this pathway. CHO cells deficient for GMD reportedly completely lack GDP-fucose, and when not provided with sources of l-fucose in the growth media these cells yield 100% afucosylated IgG (Kanda et al., ).</text>
+      <annotation id="36">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:38:13Z</infon>
+        <location offset="30371" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:39:14Z</infon>
+        <location offset="30421" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:39:03Z</infon>
+        <location offset="30973" length="11"/>
+        <text>core fucose</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:39:10Z</infon>
+        <location offset="31026" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:40:29Z</infon>
+        <location offset="31757" length="27"/>
+        <text>GDP-mannose 4,6-dehydratase</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:40:33Z</infon>
+        <location offset="31939" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:41:03Z</infon>
+        <location offset="32004" length="3"/>
+        <text>GMD</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:41:07Z</infon>
+        <location offset="32085" length="8"/>
+        <text>l-fucose</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:40:59Z</infon>
+        <location offset="32137" length="16"/>
+        <text>afucosylated IgG</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-1343-g006.jpg</infon>
+      <infon key="id">bit28066-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>32214</offset>
+      <text>Monoclonal antibody (mAb) glycosylation pathway in Chinese hamster ovary (CHO) cells with the FUT8 gene knocked out. This engineered pathway yields IgG mAbs with afucosylated glycans attached to Asn297. Created with BioRender.com </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32445</offset>
+      <text>Another approach to achieving afucosylation is by genetic engineering so that glycans with bisecting GlcNAc are produced. GlcNAc bisection creates steric hindrance for alpha1,6-FucT, thereby preventing core fucosylation on resulting glycan structures (see Figure 5). This has been achieved using different approaches, one of which has been to engineer cells to overexpress the enzyme beta1,4-N-acetylglucosaminyltransferase III (GnTIII), which adds a bisecting GlcNAc residue onto the betaMan of the N-glycan core structure (Hossler et al., ). This technology, commercially known as GlycoMAb , was developed by Glycart (Evans &amp; Syed, ). GlycoMAb  technology has since been optimized so that the localization motif of the Golgi alpha-mannosidase II is incorporated into the expressed GnTIII. This results in the GnTIII enzyme outcompeting alpha1,6-FucT more effectively (Ferrara et al., ), possibly due to the fact that the addition of the localization motif means that the GnTIII is more likely to act earlier in the glycosylation pathway when core fucosylation has not yet occurred, therefore preventing fucosylation more successfully (see Figure 3). This particular platform is used to produce obinutuzumab (Yu et al., ).</text>
+      <annotation id="45">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:41:29Z</infon>
+        <location offset="32475" length="13"/>
+        <text>afucosylation</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:41:39Z</infon>
+        <location offset="32536" length="16"/>
+        <text>bisecting GlcNAc</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:41:51Z</infon>
+        <location offset="32567" length="16"/>
+        <text>GlcNAc bisection</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:41:55Z</infon>
+        <location offset="32647" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:42:17Z</infon>
+        <location offset="32829" length="43"/>
+        <text>beta1,4-N-acetylglucosaminyltransferase III</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:42:23Z</infon>
+        <location offset="32896" length="16"/>
+        <text>bisecting GlcNAc</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:42:32Z</infon>
+        <location offset="32945" length="23"/>
+        <text>N-glycan core structure</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:43:08Z</infon>
+        <location offset="33418" length="6"/>
+        <text>GnTIII</text>
+      </annotation>
+      <annotation id="53">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:43:03Z</infon>
+        <location offset="33550" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-1343-g004.jpg</infon>
+      <infon key="id">bit28066-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>33676</offset>
+      <text>Monoclonal antibody (mAb) glycosylation pathway of Chinese hamster ovary (CHO) cells when diverted towards N-acetylglucosamine (GlcNAc) bisection. The overexpression of beta1,4-N-acetylglucosaminyltransferase III (GnTIII) generates bisected glycans, which cannot be fucosylated due to the steric hindrance created by the GlcNAc residue for c1,6-FucT. Created with BioRender.com </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34061</offset>
+      <text>Alternatively, reduction in the level of core fucosylation can be achieved by engineering CHO cells to heterologously express the enzyme GDP-6-deoxy-d-lyxo-4-hexulose reductase (RMD). As described above, this mechanism also affects the GDP-fucose synthesis pathway, but this time indirectly. RMD is responsible for the production of GDP-D-rhamnose, which negatively inhibits the GMD enzyme. By inhibiting GMD, the production of GDP-fucose is downregulated and the pool of substrate for the alpha1,6-FucT enzyme is depleted. This approach has shown remarkable success, yielding 98% afucosylated IgG (von Horsten et al., ). The platform was developed by ProBioGen and is commercially known as GlymaxX  technology, which was licensed to Bayer in 2019. Bayer stated that they would "leverage the technology to further increase the potency of an undisclosed antibody candidate for oncological indications" (BioSpace, ).</text>
+      <annotation id="54">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:44:30Z</infon>
+        <location offset="34102" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:44:38Z</infon>
+        <location offset="34198" length="39"/>
+        <text>GDP-6-deoxy-d-lyxo-4-hexulose reductase</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:45:34Z</infon>
+        <location offset="34466" length="3"/>
+        <text>GMD</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:45:38Z</infon>
+        <location offset="34489" length="10"/>
+        <text>GDP-fucose</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:45:46Z</infon>
+        <location offset="34551" length="20"/>
+        <text>alpha1,6-FucT enzyme</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:45:50Z</infon>
+        <location offset="34642" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35002</offset>
+      <text>The humanization of the yeast N-glycosylation pathway was a significant breakthrough in cell line engineering. A review of early efforts in this space is provided by Wildt &amp; Gerngross, which covers the first attempts to engineer Saccharomyces cerevisiae in the 1990s and some of the studies carried out in the early 2000s. Choi et. al reported engineering of the Pichia pastoris glycosylation pathway so that it could perform some early human N-glycan processing steps. First, the gene encoding 1,6-mannosyltransferase, the initiating enzyme in the P. pastoris glycosylation pathway, was deleted. Several combinatorial genetic libraries were then constructed using fungal type II membrane proteins and the catalytic domains of enzymes from mammals, insects, amphibians, worms, and fungi with the aim of generating alpha1,2-mannosidase and human beta1,2-N-acetylglucosaminyltransferase I (Choi et al., ; see Figures 2, 3, and 4). Further investigation has revealed more enzymes within the yeast glycosylation pathway that must be targeted and deleted to reduce hypermannosylation, as well as how best to localize active forms of enzymes downstream in this pathway required for converting the Man8GlcNAc2 to Man5GlcNAc2, then to GlcNAcMan5GlcNAc2 and so on (see Figures 3 and 4). A review of these efforts is provided by Laukens et al.. Another recent study used CRISPR/Cas9 to humanize the yeast Kluyveromyces marxianus (Lee et al., ). The success of these efforts suggest that some IgG biotherapeutics could eventually be produced using yeast expression systems.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36579</offset>
+      <text>The degree and type of sialylation of mAbs can also be altered by engineering the host expression system. In one study in CHO cells, the enzyme that attaches sialic acid in an alpha2,6 linkage was overexpressed to increase the amount of alpha2,6 sialylation and CRISPR/Cas9 was used to disrupt the genes encoding the enzymes responsible for alpha2,3 sialylation, thus reducing levels of alpha2,3 sialylation. This is favorable, as alpha2,6 sialylation in the Fc region of IgG has been reported to increase ADCC activity compared with alpha2,3 sialylation (Chung et al., ).</text>
+      <annotation id="62">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:47:47Z</infon>
+        <location offset="36816" length="20"/>
+        <text>alpha2,6 sialylation</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:47:44Z</infon>
+        <location offset="36966" length="20"/>
+        <text>alpha2,3 sialylation</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:46:55Z</infon>
+        <location offset="37010" length="20"/>
+        <text>alpha2,6 sialylation</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:47:06Z</infon>
+        <location offset="37085" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37152</offset>
+      <text>Despite the success of cell line engineering strategies for altering the glycosylation of IgGs, development has been arduous and expensive. There are often significant regulatory hurdles that must be overcome when gaining approval for the use of a new cell line for biologics manufacturing, such as demonstrating the required product quality. Combining this with the fact that not all genetic engineering strategies have yielded overwhelming levels of success, research efforts have also focused on fermentation process parameter alterations, media supplementation and enzymatic glycoengineering.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>37749</offset>
+      <text>Upstream processing conditions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37780</offset>
+      <text>Manipulating fermentation process conditions is arguably a cheaper and possibly less time-consuming approach to controlling mAb glycosylation than cell line engineering and can be applied during a bioprocess to tune glycan patterns. A number of groups have experimented with pH changes in particular; low pH has commonly been found to enhance galactosylation and sialylation, but concomitantly decreases specific productivity (Aghamohseni et al., ). Galactosylation is generally associated with an increase in CDC activity, whereas sialylation is known to result in increased serum half-life and ADCC (St. Amand et al., ). In a study investigating the effect of temperature shifts on glycosylation macroheterogeneity, a reduction in culture temperature from 37 C to 33 C increased glycosylation site occupancy of recombinant human tissue plasminogen activator by up to 4% and an increase in culture pH resulted in a decrease in site occupancy (Gawlitzek et al., ). Temperature reductions in fermentation have had differing effects on glycan structures, depending on the system that is being experimented with; in some cases, more processed glycan structures are generated and in other cases less so (Villiger et al., ).</text>
+      <annotation id="68">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:48:53Z</infon>
+        <location offset="38085" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:48:43Z</infon>
+        <location offset="38123" length="31"/>
+        <text>galactosylation and sialylation</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:48:23Z</infon>
+        <location offset="38230" length="15"/>
+        <text>Galactosylation</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:48:29Z</infon>
+        <location offset="38290" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:49:05Z</infon>
+        <location offset="38312" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:49:13Z</infon>
+        <location offset="38356" length="24"/>
+        <text>serum half-life and ADCC</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:49:42Z</infon>
+        <location offset="38513" length="19"/>
+        <text>culture temperature</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:50:04Z</infon>
+        <location offset="38561" length="28"/>
+        <text>glycosylation site occupancy</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:50:12Z</infon>
+        <location offset="38671" length="10"/>
+        <text>culture pH</text>
+      </annotation>
+      <annotation id="74">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:50:15Z</infon>
+        <location offset="38708" length="14"/>
+        <text>site occupancy</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:50:35Z</infon>
+        <location offset="38745" length="22"/>
+        <text>Temperature reductions</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:50:40Z</infon>
+        <location offset="38814" length="6"/>
+        <text>glycan</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>39010</offset>
+      <text>Media supplementation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39032</offset>
+      <text>Media supplementation approaches have shown greater utility to yield different glycoforms. This approach can be useful for directing glycosylation towards certain profiles, for example, increasing sialylation through the addition of N-acetyl-mannosamine (ManNAc) (Yin et al., ) or manganese, galactose, and uridine (Villacres et al., ) to the culture medium. As with cell line engineering, many media supplementation approaches have focused on reducing IgG Fc core fucosylation due to this having the most significant impact on ADCC activity out of all known oligosaccharide variations. A common addition to cell culture media when attempting to yield afucosylated IgG is kifunensine, an inhibitor of alpha1,2-mannosidase I. This enzyme is responsible for trimming the N-glycan to a form that can be subsequently fucosylated. Other additions to cell culture media which have been investigated for preventing fucosylation are 2-deoxy-2-fluorofucose and 5-alkynylfucose, which are both inhibitors of the fucosyltransferase alpha1,6-FucT. Although addition of these inhibitors to cell culture media have been shown to reduce IgG Fc core fucosylation, results from one study showed that there was significant incorporation of these analogs into the resulting IgG glycans and 2-deoxy-d-fluorofucose in particular is known to be toxic. The group stated they had not investigated the effect that the incorporation of these analogs into mAb glycans had on potency and safety (Zimmermann et al., ).</text>
+      <annotation id="77">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:51:03Z</infon>
+        <location offset="39032" length="21"/>
+        <text>Media supplementation</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:51:08Z</infon>
+        <location offset="39111" length="10"/>
+        <text>glycoforms</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:51:16Z</infon>
+        <location offset="39229" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:51:50Z</infon>
+        <location offset="39265" length="81"/>
+        <text>N-acetyl-mannosamine (ManNAc) (Yin et al., ) or manganese, galactose, and uridine</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:52:12Z</infon>
+        <location offset="39427" length="21"/>
+        <text>media supplementation</text>
+      </annotation>
+      <annotation id="82">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:52:17Z</infon>
+        <location offset="39492" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="83">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:52:24Z</infon>
+        <location offset="39560" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:52:33Z</infon>
+        <location offset="39684" length="16"/>
+        <text>afucosylated IgG</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:52:39Z</infon>
+        <location offset="39704" length="11"/>
+        <text>kifunensine</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:52:50Z</infon>
+        <location offset="39733" length="22"/>
+        <text>alpha1,2-mannosidase I</text>
+      </annotation>
+      <annotation id="87">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:53:00Z</infon>
+        <location offset="39940" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:53:24Z</infon>
+        <location offset="39957" length="42"/>
+        <text>2-deoxy-2-fluorofucose and 5-alkynylfucose</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:53:18Z</infon>
+        <location offset="40034" length="33"/>
+        <text>fucosyltransferase alpha1,6-FucT.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40544</offset>
+      <text>Other media supplementation approaches have been studied with the aim of targeting biologic glycosylation more generally, including degrees of mannosylation, galactosylation GlcNAcylation, and sialylation. The addition of MnCl2 can direct glycosylation towards more highly mannosylated and galactosylated structures, which is likely to enhance mAb ADCC activity. MnCl2, uridine, and galactose supplementation has been shown to increase galactosylation levels, as can the addition of glutamate (but not glutamine) to cell cultures (St. Amand et al., ). The effect of differing levels of ammonia has been investigated by several groups, with the consensus being that in the case of mAbs, higher ammonia concentrations reduce glycosylation overall. However, many reports are contradictory and depend on other factors such as the cell line, glucose, lactate, and amino acid concentrations, dissolved oxygen and shear rate (Aghamohseni et al., ). This is yet another reflection of how sensitive glycosylation pathways are to process factors and the difficulty in its control.</text>
+      <annotation id="90">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:13Z</infon>
+        <location offset="40550" length="21"/>
+        <text>media supplementation</text>
+      </annotation>
+      <annotation id="91">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:09Z</infon>
+        <location offset="40687" length="61"/>
+        <text>mannosylation, galactosylation GlcNAcylation, and sialylation</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:22Z</infon>
+        <location offset="40766" length="5"/>
+        <text>MnCl2</text>
+      </annotation>
+      <annotation id="93">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:37Z</infon>
+        <location offset="40817" length="42"/>
+        <text>mannosylated and galactosylated structures</text>
+      </annotation>
+      <annotation id="94">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:44Z</infon>
+        <location offset="40892" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="95">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:52Z</infon>
+        <location offset="40907" length="29"/>
+        <text>MnCl2, uridine, and galactose</text>
+      </annotation>
+      <annotation id="96">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:54:57Z</infon>
+        <location offset="40980" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="97">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:55:14Z</infon>
+        <location offset="41027" length="9"/>
+        <text>glutamate</text>
+      </annotation>
+      <annotation id="98">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:55:27Z</infon>
+        <location offset="41237" length="7"/>
+        <text>ammonia</text>
+      </annotation>
+      <annotation id="99">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:55:33Z</infon>
+        <location offset="41267" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41617</offset>
+      <text>Due to its impact on ADCC activity, the levels of mannosylation of IgG biosimilars must be monitored carefully. High mannose structures (Man5 and higher) have been reported to increase as a result of the addition of alternative sugars and amino sugars to the culture medium when producing a mAb using a CHO cell line, although upon scale-up this supplementation caused a secondary interaction with osmolality. Mannose and glucosamine in combination with either fructose, galactosamine, or both fructose and galactosamine resulted in increased high-mannose levels of the biosimilar compared with the innovator molecule in the region of 140%-160%, which correlated with an increased ADCC activity (&gt;100%) compared with the innovator molecule (Rameez et al., ). As well as increasing ADCC activity, high mannose structures in the Fc region of IgG are also commonly associated with a faster serum clearance rate compared with other glycosylation structures in this region (Goetze et al., ; Yu et al., ), making mannosylation an important process to control during antibody production. Ornithine, spermine, and copper in fermentation media have been found to correlate with levels of high mannose, which is postulated to be via the polyamine pathway and cellular redox (Kang et al., ). Kang et al. also noted that conditions of low osmolality resulted in decreased levels of high mannose, which had been found in previous studies (Pacis et al., ). Conversely to the effect of increasing manganese concentration, which results in reduced mannosylation, depriving the culture of copper has been found to reduce levels of high mannose glycans. When high mannose levels are high, ornithine accumulates in the culture medium. Supplementation of the media with ornithine also results in increased levels of high mannose and reduction of spermine in the media results in reduced high mannose levels. Spermine is an inhibitor of the enzyme that converts ornithine into putrescine in the polyamine pathway; by lowering the amount of spermine, ornithine accumulates and, therefore, the levels of high mannose increase (Kang et al., ). These results suggest a link between the polyamine pathway and glycosylation, although this has not been studied extensively.</text>
+      <annotation id="101">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:55:59Z</infon>
+        <location offset="41638" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="100">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:55:51Z</infon>
+        <location offset="41667" length="13"/>
+        <text>mannosylation</text>
+      </annotation>
+      <annotation id="102">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:56:08Z</infon>
+        <location offset="41729" length="12"/>
+        <text>High mannose</text>
+      </annotation>
+      <annotation id="103">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:56:17Z</infon>
+        <location offset="41833" length="35"/>
+        <text>alternative sugars and amino sugars</text>
+      </annotation>
+      <annotation id="104">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:56:48Z</infon>
+        <location offset="42027" length="110"/>
+        <text>Mannose and glucosamine in combination with either fructose, galactosamine, or both fructose and galactosamine</text>
+      </annotation>
+      <annotation id="105">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:56:52Z</infon>
+        <location offset="42160" length="12"/>
+        <text>high-mannose</text>
+      </annotation>
+      <annotation id="106">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:02Z</infon>
+        <location offset="42298" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="107">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:12Z</infon>
+        <location offset="42413" length="12"/>
+        <text>high mannose</text>
+      </annotation>
+      <annotation id="108">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:22Z</infon>
+        <location offset="42504" length="15"/>
+        <text>serum clearance</text>
+      </annotation>
+      <annotation id="109">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:35Z</infon>
+        <location offset="42698" length="31"/>
+        <text>Ornithine, spermine, and copper</text>
+      </annotation>
+      <annotation id="110">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:39Z</infon>
+        <location offset="42796" length="12"/>
+        <text>high mannose</text>
+      </annotation>
+      <annotation id="111">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:51Z</infon>
+        <location offset="42944" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="112">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:57:54Z</infon>
+        <location offset="42987" length="12"/>
+        <text>high mannose</text>
+      </annotation>
+      <annotation id="113">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:06Z</infon>
+        <location offset="43099" length="9"/>
+        <text>manganese</text>
+      </annotation>
+      <annotation id="114">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:10Z</infon>
+        <location offset="43149" length="13"/>
+        <text>mannosylation</text>
+      </annotation>
+      <annotation id="115">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:24Z</infon>
+        <location offset="43189" length="6"/>
+        <text>copper</text>
+      </annotation>
+      <annotation id="116">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:21Z</infon>
+        <location offset="43231" length="20"/>
+        <text>high mannose glycans</text>
+      </annotation>
+      <annotation id="117">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:40Z</infon>
+        <location offset="43367" length="9"/>
+        <text>ornithine</text>
+      </annotation>
+      <annotation id="118">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:47Z</infon>
+        <location offset="43413" length="12"/>
+        <text>high mannose</text>
+      </annotation>
+      <annotation id="119">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:58:54Z</infon>
+        <location offset="43443" length="8"/>
+        <text>spermine</text>
+      </annotation>
+      <annotation id="120">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:59:00Z</infon>
+        <location offset="43484" length="12"/>
+        <text>high mannose</text>
+      </annotation>
+      <annotation id="121">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:59:30Z</infon>
+        <location offset="43636" length="19"/>
+        <text>spermine, ornithine</text>
+      </annotation>
+      <annotation id="122">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:59:36Z</infon>
+        <location offset="43698" length="12"/>
+        <text>high mannose</text>
+      </annotation>
+      <annotation id="123">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:59:46Z</infon>
+        <location offset="43778" length="17"/>
+        <text>polyamine pathway</text>
+      </annotation>
+      <annotation id="124">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T14:59:49Z</infon>
+        <location offset="43800" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43875</offset>
+      <text>A design of experiments approach was used by Loebrich et al., to evaluate the effect of commonly used media additives to control glycosylation of an IgG1 produced in a CHO-K1 cell line. They found that 12.5 mM glucosamine decreased galactosylation levels, 5.0 mM uridine increased galactosylation, and 1.0 mM copper decreased levels of Man5 glycan structures. The degrees to which these supplements achieved these effects varied, with some having concomitant effects on other glycan structures; 1.0 mM copper, for example, also increased levels of G0, G0F, and G1F (glycans with no galactosylation, no galactosylation and one fucose, and one galactose and one fucose, respectively). The effect of other supplements, such as glycerol, cytidine, and ManNAc, was also investigated, the latter of which at lower concentrations increased levels of G0F specifically but did not affect the levels of other glycan structures (Loebrich et al., ).</text>
+      <annotation id="125">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:06Z</infon>
+        <location offset="44085" length="11"/>
+        <text>glucosamine</text>
+      </annotation>
+      <annotation id="126">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:02Z</infon>
+        <location offset="44107" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="127">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:14Z</infon>
+        <location offset="44138" length="7"/>
+        <text>uridine</text>
+      </annotation>
+      <annotation id="128">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:16Z</infon>
+        <location offset="44156" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="129">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:22Z</infon>
+        <location offset="44184" length="6"/>
+        <text>copper</text>
+      </annotation>
+      <annotation id="130">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:26Z</infon>
+        <location offset="44211" length="11"/>
+        <text>Man5 glycan</text>
+      </annotation>
+      <annotation id="131">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:37Z</infon>
+        <location offset="44377" length="6"/>
+        <text>copper</text>
+      </annotation>
+      <annotation id="132">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:00:48Z</infon>
+        <location offset="44423" length="16"/>
+        <text>G0, G0F, and G1F</text>
+      </annotation>
+      <annotation id="133">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:01:03Z</infon>
+        <location offset="44623" length="6"/>
+        <text>ManNAc</text>
+      </annotation>
+      <annotation id="134">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T15:01:10Z</infon>
+        <location offset="44718" length="3"/>
+        <text>G0F</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>44824</offset>
+      <text>DOWNSTREAM STRATEGIES TO CONTROL GLYCOSYLATION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44871</offset>
+      <text>A complementary or alternative approach to glycan tuning is to develop and utilize downstream processing techniques that can be used in conjunction with upstream processing technologies or as standalone techniques in the manufacturing of biologics with specific glycosylation patterns, such as afucosylated mAbs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>45184</offset>
+      <text>Enzymatic remodeling</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45205</offset>
+      <text>A number of studies have investigated the use of endoglycosidases for antibody glycan remodeling. EndoS is an endoglycosidase that cleaves between the two GlcNAc residues of the N-glycan core. It is specific for IgG and has been used for the remodeling of IgG Fc N-glycans in a number of studies (Kurogochi et al., ; Li et al., ; Sjogren et al., ). The discovery of this enzyme sparked interest in this area, including the immobilization of WT EndoS and its glycosynthase mutant D184M with gained transglycosylation activity for the enzymatic glycoengineering of IgG (Li et al., ). Other endoglycosidases are specific for different oligosaccharide structures. EndoH, for instance, cleaves high-mannose and hybrid N-glycans, and has been used for glycoprotein remodeling, whereas EndoD cleaves the GlcNAc-beta1-4-GlcNAc linkage in the chitobiose core region of N-glycans, resulting in a truncated beta-GlcNAc-alpha1,6-Fuc on a glycoprotein (Sjogren et al., ). Enzymatic remodeling techniques have shown significant potential in vivo for generating IgG with more homogenous glycoprofiles. However, when it comes to yielding afucosylated IgG, enzymatic techniques have their limitations. As mentioned in Section 2.1, fucosidases are not efficient in removing fucosylated structures from IgG due to steric hindrance.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46541</offset>
+      <text>During glycan remodeling reactions, many endoglycosidases utilize sugar oxazoline transition state analogs, which act as the glycan donor substrates for transglycosidases (Yang &amp; Wang, ). However, oxazoline compounds can undergo side reactions if conditions are not controlled within strict limits; the carbon between the nitrogen and oxygen of oxazoline can undergo nucleophilic attack from a reactive amino group, such as a lysine side chain. These side reactions are undesirable, particularly when manufacturing clinical-grade material, as they can make downstream operations more complex and alter product function (Manabe et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>47183</offset>
+      <text>For these reasons, developments have been made to negate the need for the sugar oxazoline donor substrate for glycan remodeling. Many of these efforts have focused on engineering endoglycosidases and using alternative glycan donors (Boune et al., ). The glycosylation state of trastuzumab has been remodeled using mutant forms of EndoS, EndoM, and endo-CC. In one study, an EndoM mutant was used to remove a fully sialylated glycan from sialylglycopeptide (SGP), and an EndoS mutant with transglycosylation activity then catalyzed the addition of this glycan to the Fc region of deglycosylated trastuzumab (Iwamoto et al., ). In another study, the use of an oxazoline donor substrate was successfully negated by using SGP as the donor and EndoS to deglycosylate an anti-CCR4 antibody followed by a mutant endoglycosidase, endo-CC N180H, to transfer the glycan from SGP to the antibody (Manabe et al., ). Although particular mutants of these endoglycosidases achieved high efficiency in these studies, and this method would likely increase the glycosylation heterogeneity of other IgG mAbs, the addition of further steps during larger-scale mAb processing is likely to be unattractive to manufacturers due to the inevitable reduction in yield that these extra processing steps would cause. In addition, this method requires the presence of a donor glycoprotein; in the case of the work carried out by Manabe et al., it was noted that a particularly large amount of SGP donor substrate was required for the successful transglycosylation reaction. This adds cost to a process and can complicate downstream processing.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_2</infon>
+      <offset>48809</offset>
+      <text>Chromatographic separations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>48837</offset>
+      <text>Although enzymatic remodeling efforts have yielded success, their use is rarely reported at larger scales. Developments have been made in the area of chromatography that focus on glycoform separations, such as the use of anion or cation exchange chromatography to separated out sialylated species. This is possible due to the negative charge on terminal sialic acid residues and is a technique that has primarily been used at an analytical scale (Hurum &amp; Rohrer, ; Rohrer, ). This section of the review focuses on affinity ligand development that has been made towards separating differentially glycosylated recombinant proteins.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_3</infon>
+      <offset>49469</offset>
+      <text>Lectins</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49477</offset>
+      <text>One chromatographic technique that has gained interest over the past decade has been LAC. Lectins are proteins or glycoproteins often derived from plants which have the ability to bind specific carbohydrate moieties, making them useful ligands for separating different glycoforms of glycopeptides, glycoproteins, or glycolipids (Hage et al., ). Although monomeric binding affinities of lectins can be low, multivalent interactions can increase binding affinities into the nanomolar range and the binding is reversible, which are characteristics consistent with properties that make for suitable affinity ligands. Lectins do not react with or modify their targets and generally remain stable at conditions of variable pH and ionic strength, meaning that their three-dimensional structure and binding affinity for their target is unlikely to alter after elution or after several chromatographic cycles. Lectins have been successfully immobilized onto Sepharose, silica beads, and some monolithic supports, with no significant perturbations in binding affinity reported.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50548</offset>
+      <text>Despite the suitability of lectins for use as affinity ligands and their ability to separate different product glycoforms, they are not widely used, particularly in industrial-scale processing. This is probably because of difficulties in consistent manufacturing, as lectins are often multimeric with many glycosylation sites themselves, making them difficult to produce recombinantly. This results in batch-to-batch variation, which compromises their effectiveness as affinity ligands (O'Connor et al., ). There is also the potential for these resins to leach toxic lectins (Bolton et al., ). In addition, eukaryotic lectins often require further posttranslational modification, which not only increases their structural complexity but also renders them unsuitable for recombinant production in a bacterial host. Attempts have been made to synthesize plant lectins recombinantly, but these efforts have normally resulted in very low yields of insoluble protein. These issues have made lectin production almost impossible to scale up and has constrained their use to analytical-scale applications (Keogh et al., ). In addition, in the context of enriching for afucosylated IgG, the use of lectins is not suitable. Although one study did identify the ability of Aleuria Aurantia Lectin to specifically bind fucose moieties on IgG, this lectin is only capable of doing so if the antibody is denatured or treated with a glycosidase (Chen et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_3</infon>
+      <offset>52006</offset>
+      <text>Fc gamma- receptors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>52026</offset>
+      <text>Affinity ligands based on the FcgammaRIIIa have been developed and patented in various economic areas for the separation of fucosylated and afucosylated IgG (EP 2 768 845 B1, US 10221210 B2, US 2016/0222081 A1; see Figure 6). The first company to do this was Zepteon, who obtained their patent covering the United States in 2019. This group transiently expressed WT FcgammaRIIIa in HEK293 cells and immobilized it to an activated N-hydroxysuccinimide (NHS) Sepharose resin using amine chemistry. These ligands have been successfully used in different settings to enrich for afucosylated IgG (Boesch et al., ; Freimoser-Grundschober et al., ; Lippold et al., ). In particular, they are used during IgG-type mAb biosimilar development to match fucosylation levels of the biosimilar with the innovator molecule, which is key to obtaining regulatory approval, and during lot-to-lot comparisons.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-1343-g005.jpg</infon>
+      <infon key="id">bit28066-fig-0006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>52925</offset>
+      <text>Schematic of the fucosylated and afucosylated IgG glycoform separation afforded by glycosylated FcgammaRIIIa-based ligands. The pool of IgG loaded onto the column is heterogeneously glycosylated and a gradient elution (red line) is used. Fucosylated IgG binds the ligands with lower affinity and therefore elutes off the column first. As the elution gradient increases, the more tightly bound afucosylated IgG eventually also elutes. Created with BioRender.com </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>53387</offset>
+      <text>Despite the proven capability of these ligands for enriching afucosylated IgG, the yield obtained has been low and would not be viable in industrial-scale processing (Bolton et al., ). Reasons for this are likely to be due to WT FcgammaRIIIa possessing up to five glycosylation sites, giving the ligands a large hydrodynamic radius; a variety of highly complex glycans at these sites could affect the overall shape of the ligands and, consequently, their hydrodynamic properties that may influence their separation capabilities. It could also be related to the immobilization chemistry used, as there are a number of lysine residues in the binding site of WT FcgammaRIIIa. The biocompatible 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide (EDC)/NHS 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide/method is neither an orthogonal nor a specifically targeted labeling strategy, so multiple surface-exposed lysine residues of the WT FcgammaRIIIa are conjugated to for immobilization. The IgG binding of the WT FcgammaRIIIa may therefore be compromised, resulting in a lower separation efficacy. The Japanese company Tosoh have developed aglycosylated FcgammaRIIIa-based affinity ligands with enhanced pH and/or temperature stability compared with WT FcgammaRIIIa. Although these ligands are not capable of discriminating between fucosylated and afucosylated IgG due to their lack of glycosylation themselves, they do seem to be able to separate IgG based on galactosylation levels (Kiyoshi et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>54887</offset>
+      <text>FUTURE PERSPECTIVES</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>54907</offset>
+      <text>As our understanding of glycosylation pathways and the effects of glycosylation on biologic immunogenicity and pharmacokinetics deepens, and indeed as time goes on, the stringency of regulations surrounding mAb glycosylation and the importance of controlling and monitoring it is likely to increase. The upstream approaches to controlling mAb glycosylation have not proved infallible and it is therefore necessary for downstream approaches to be employed in conjunction with upstream technologies to yield products within a desired glycosylation specification. Advancements have been made in the field of chromatographic affinity ligand development, primarily for the separation of fucosylated and afucosylated IgG, but there is ample opportunity for further research in this area to enhance our ability to produce IgGs with much more defined glycosylation profiles. Improvements to online monitoring technologies for product glycosylation status would also be beneficial when seeking regulatory approval for new mAbs, mAb derivatives or biosimilars and attempting to demonstrate lot-to-lot consistency.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>56015</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">146</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.3390/ph3010146</infon>
+      <infon key="pub-id_pmid">27713246</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Pharmaceuticals</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">157</infon>
+      <offset>56026</offset>
+      <text>Impact of glycosylation on effector functions of therapeutic IgG</text>
+    </passage>
+    <passage>
+      <infon key="volume">389</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">174</infon>
+      <infon key="pub-id_doi">10.1016/j.carres.2014.01.018</infon>
+      <infon key="pub-id_pmid">24680513</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Carbohydrate Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">185</infon>
+      <offset>56091</offset>
+      <text>Comparison of separation techniques for the elucidation of IgG N-glycans pooled from healthy mammalian species</text>
+    </passage>
+    <passage>
+      <infon key="volume">186</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">98</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2014.05.024</infon>
+      <infon key="pub-id_pmid">25014402</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">109</infon>
+      <offset>56204</offset>
+      <text>Effects of nutrient levels and average culture pH on the glycosylation pattern of camelid-humanized monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">320</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">373</infon>
+      <infon key="issue">5874</infon>
+      <infon key="pub-id_doi">10.1126/science.1154315</infon>
+      <infon key="pub-id_pmid">18420934</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">376</infon>
+      <offset>56326</offset>
+      <text>Recapitulation of IVIG anti-inflammatory activity with a recombinant IgG Fc</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">S9</infon>
+      <infon key="issue">Suppl 1</infon>
+      <infon key="pub-id_doi">10.1007/s10875-010-9405-6</infon>
+      <infon key="pub-id_pmid">20480216</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Journal of Clinical Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">S14</infon>
+      <offset>56404</offset>
+      <text>A novel role for the IgG Fc glycan: The anti-inflammatory activity of sialylated IgG Fcs</text>
+    </passage>
+    <passage>
+      <infon key="volume">382</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">167</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_doi">10.1016/j.jim.2012.05.022</infon>
+      <infon key="pub-id_pmid">22683540</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Journal of Immunological Methods</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">176</infon>
+      <offset>56495</offset>
+      <text>Quantitative glycan profiling of normal human plasma derived immunoglobulin and its fragments Fab and Fc</text>
+    </passage>
+    <passage>
+      <infon key="volume">202</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1582</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.4049/jimmunol.1800896</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Journal of Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1594</infon>
+      <offset>56600</offset>
+      <text>Fc sialylation prolongs serum half-life of therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">85</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1186/s12860-020-00331-9</infon>
+      <infon key="pub-id_pmid">33246411</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">BMC Molecular and Cell Biology</infon>
+      <infon key="type">ref</infon>
+      <offset>56668</offset>
+      <text>Transcriptome and proteome profiling reveal complementary scavenger and immune features of rat liver sinusoidal endothelial cells and liver macrophages</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2019</infon>
+      <infon key="type">ref</infon>
+      <offset>56820</offset>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1265</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/bit.26545</infon>
+      <infon key="pub-id_pmid">29315477</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1278</infon>
+      <offset>56821</offset>
+      <text>Enrichment of high affinity subclasses and glycoforms from serum-derived IgG using FcgammaRs as affinity ligands</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1717</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">American Institute of Chemical Engineers</infon>
+      <infon key="type">ref</infon>
+      <offset>56934</offset>
+      <text>Separation of nonfucosylated antibodies with immobilized FcgRIII receptors</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3029</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1074/mcp.M114.039537</infon>
+      <infon key="pub-id_pmid">25004930</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Molecular and Cellular Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3039</infon>
+      <offset>57009</offset>
+      <text>Immunoglobulin G (IgG) Fab glycosylation analysis using a new mass spectrometric high-throughput profiling method reveals pregnancy-associated changes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.3390/antib9020022</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Antibodies</infon>
+      <infon key="type">ref</infon>
+      <offset>57164</offset>
+      <text>Principles of N-Linked glycosylation variations of IgG-based therapeutics: Pharmacokinetic and functional considerations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9</infon>
+      <infon key="pub-id_doi">10.3389/fimmu.2018.00740</infon>
+      <infon key="pub-id_pmid">29403493</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Frontiers in Immunology</infon>
+      <infon key="type">ref</infon>
+      <offset>57289</offset>
+      <text>Variable domain N-linked glycans acquired during antigen-specific immune responses can contribute to immunoglobulin G antibody stability</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">499</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1093/intimm/dxx053</infon>
+      <infon key="pub-id_pmid">29300958</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">International Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">509</infon>
+      <offset>57430</offset>
+      <text>Sweet SIGNs: IgG glycosylation leads the way in IVIG-mediated resolution of inflammation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">10</infon>
+      <infon key="pub-id_doi">10.1159/000496834</infon>
+      <infon key="pub-id_pmid">31019437</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Breast Care</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">16</infon>
+      <offset>57521</offset>
+      <text>What does the pipeline promise about upcoming biosimilar antibodies in Oncology?</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">23</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.jpha.2019.11.008</infon>
+      <infon key="pub-id_pmid">32123597</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Pharmaceutical Analysis</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">34</infon>
+      <offset>57602</offset>
+      <text>Comparing different domains of analysis for the characterisation of N-glycans on monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">307</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1007/s40259-019-00349-2</infon>
+      <infon key="pub-id_pmid">30927214</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">BioDrugs: Clinical Immunotherapeutics, Biopharmaceuticals and Gene Therapy</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">319</infon>
+      <offset>57707</offset>
+      <text>Physicochemical and biological characterization of RTXM83, a new Rituximab biosimilar</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0044422</infon>
+      <infon key="pub-id_pmid">23024749</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e44422</infon>
+      <offset>57793</offset>
+      <text>Aleuria Aurantia Lectin (AAL)-reactive immunoglobulin G rapidly appears in sera of animals following antigen exposure</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">240</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwn120</infon>
+      <infon key="pub-id_pmid">18974198</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">249</infon>
+      <offset>57913</offset>
+      <text>The effect of Fc glycan forms on human IgG2 antibody clearance in humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5022</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1073/pnas.0931263100</infon>
+      <infon key="pub-id_pmid">12702754</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Proceedings of the National Academy of Sciences of the United States of America</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5027</infon>
+      <offset>57986</offset>
+      <text>Use of combinatorial genetic libraries to humanize N-linked glycosylation in the yeast Pichia pastoris </text>
+    </passage>
+    <passage>
+      <infon key="volume">358</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1109</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1056/NEJMoa074943</infon>
+      <infon key="pub-id_pmid">18337601</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">The New England Journal of Medicine</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1117</infon>
+      <offset>58092</offset>
+      <text>Cetuximab-induced anaphylaxis and IgE specific for galactose-alpha-1,3-galactose</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/biot.201600502</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnology Journal</infon>
+      <infon key="type">ref</infon>
+      <offset>58181</offset>
+      <text>Integrated genome and protein Eediting swaps alpha-2,6 sialylation for alpha-2,3 sialic acid on recombinant antibodies from CHO</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1361</infon>
+      <infon key="issue">15</infon>
+      <infon key="pub-id_doi">10.1016/0161-5890(93)90097-u</infon>
+      <infon key="pub-id_pmid">8232322</infon>
+      <infon key="year">1993</infon>
+      <infon key="source">Molecular Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1367</infon>
+      <offset>58309</offset>
+      <text>Genetically engineered deglycosylation of the variable domain increases the affinity of an anti-CD33 monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">204</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2374</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.4049/jimmunol.1901457</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2379</infon>
+      <offset>58432</offset>
+      <text>H and L chain affinity maturation and/or Fab N-glycosylation influence immunoreactivity toward neutrophil extracellular trap antigens in rheumatoid arthritis synovial B cell clones</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2086</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.6b04726</infon>
+      <infon key="pub-id_pmid">28208257</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Analytical Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2092</infon>
+      <offset>58615</offset>
+      <text>Hydrophilic interaction chromatography hyphenated with mass spectrometry: A powerful analytical tool for the comparison of originator and biosimilar therapeutic monoclonal antibodies at the middle-up level of analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">915</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1042/BST20200840</infon>
+      <infon key="pub-id_pmid">33704400</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biochemical Society Transactions</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">931</infon>
+      <offset>58835</offset>
+      <text>Glycoengineering Chinese hamster ovary cells: a short history</text>
+    </passage>
+    <passage>
+      <infon key="volume">1089</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1016/j.aca.2019.08.044</infon>
+      <infon key="pub-id_pmid">31627805</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Analytica Chimica Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">18</infon>
+      <offset>58897</offset>
+      <text>Glycosylation of biosimilars: Recent advances in analytical characterization and clinical implications</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">ICH topic Q6B specifications: Test procedures and acceptance criteria for biotechnological/biological products</infon>
+      <infon key="type">ref</infon>
+      <offset>59000</offset>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">413</infon>
+      <infon key="issue">6</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Nature Reviews Drug Discovery</infon>
+      <infon key="type">ref</infon>
+      <offset>59001</offset>
+      <text>Next generation antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2020.1865596</infon>
+      <infon key="pub-id_pmid">33382957</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">1865596</infon>
+      <offset>59028</offset>
+      <text>Glycoform-resolved pharmacokinetic studies in a rat model employing glycoengineered variants of a therapeutic monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">851</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/bit.20777</infon>
+      <infon key="pub-id_pmid">16435400</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">861</infon>
+      <offset>59160</offset>
+      <text>Modulation of therapeutic antibody effector functions by glycosylation engineering: Influence of Golgi enzyme localization domain and co-expression of heterologous beta1, 4-N-acetylglucosaminyltransferase III and Golgi alpha-mannosidase II</text>
+    </passage>
+    <passage>
+      <infon key="volume">182</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">29</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1111/bjh.15232</infon>
+      <infon key="pub-id_pmid">29741753</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">British Journal of Haematology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">45</infon>
+      <offset>59408</offset>
+      <text>A tale of two antibodies: Obinutuzumab versus rituximab</text>
+    </passage>
+    <passage>
+      <infon key="volume">1610</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2019.460554</infon>
+      <infon key="pub-id_pmid">31597603</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">460554</infon>
+      <offset>59464</offset>
+      <text>FcgammaRIIIa chromatography to enrich a-fucosylated glycoforms and assess the potency of glycoengineered therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">747</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1093/glycob/9.8.747</infon>
+      <infon key="pub-id_pmid">10406840</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">755</infon>
+      <offset>59592</offset>
+      <text>Evolutionary considerations in relating oligosaccharide diversity to biological function</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1164</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.22348</infon>
+      <infon key="pub-id_pmid">19418565</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1175</infon>
+      <offset>59681</offset>
+      <text>Identification of cell culture conditions to control N-glycosylation site-occupancy of recombinant glycoproteins expressed in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">863</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt.1651</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">867</infon>
+      <offset>59821</offset>
+      <text>Implications of the presence of N-glycolylneuraminic acid in recombinant therapeutic glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">949</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwr027</infon>
+      <infon key="pub-id_pmid">21421994</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">959</infon>
+      <offset>59922</offset>
+      <text>High-mannose glycans on the Fc region of therapeutic IgG antibodies increase serum clearance in humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1853</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1021/acs.jproteome.6b00038</infon>
+      <infon key="pub-id_pmid">27161864</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Journal of Proteome Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1861</infon>
+      <offset>60027</offset>
+      <text>Changes in healthy human IgG Fc-glycosylation after birth and during early childhood</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">93</infon>
+      <infon key="pub-id_doi">10.1016/j.jpba.2012.01.004</infon>
+      <infon key="pub-id_pmid">22305083</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Journal of Pharmaceutical and Biomedical Analysis</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">105</infon>
+      <offset>60114</offset>
+      <text>Pharmaceutical and biomedical applications of affinity chromatography: Recent trends and developments</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">336</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1111/j.1365-2567.2008.02898.x</infon>
+      <infon key="pub-id_pmid">18710403</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">345</infon>
+      <offset>60216</offset>
+      <text>Alteration of N-glycosylation in the kidney in a mouse model of systemic lupus erythematosus: Relative quantification of N-glycans using an isotope-tagging method</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1607</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwq109</infon>
+      <infon key="pub-id_pmid">20639190</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1618</infon>
+      <offset>60385</offset>
+      <text>Production of non-fucosylated antibodies by co-expression of heterologous GDP-6-deoxy-d-lyxo-4-hexulose reductase</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">936</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwp079</infon>
+      <infon key="pub-id_pmid">19494347</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">949</infon>
+      <offset>60515</offset>
+      <text>Optimal and consistent protein glycosylation in mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">187</infon>
+      <infon key="pub-id_doi">10.1007/10_2011_113</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Genomics and systems biology of mammalian cell culture</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">219</infon>
+      <offset>60586</offset>
+    </passage>
+    <passage>
+      <infon key="volume">71</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5134 LP</infon>
+      <infon key="issue">15</infon>
+      <infon key="pub-id_doi">10.1158/0008-5472.CAN-10-4222</infon>
+      <infon key="pub-id_pmid">21697279</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Cancer Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5135143</infon>
+      <offset>60587</offset>
+      <text>Antibody-dependent cell cytotoxicity synapses form in mice during tumor-specific antibody immunotherapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">419</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">67</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.ab.2011.08.002</infon>
+      <infon key="pub-id_pmid">21872565</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Analytical Biochemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">69</infon>
+      <offset>60695</offset>
+      <text>Five-minute glycoprotein sialic acid determination by high-performance anion exchange chromatography with pulsed amperometric detection</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0193534</infon>
+      <infon key="pub-id_pmid">29474426</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e0193534</infon>
+      <offset>60835</offset>
+      <text>Generation of efficient mutants of endoglycosidase from Streptococcus pyogenes and their application in a novel one-pot transglycosylation reaction for antibody modification</text>
+    </passage>
+    <passage>
+      <infon key="volume">988</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">93</infon>
+      <infon key="pub-id_doi">10.1007/978-1-62703-327-5_7</infon>
+      <infon key="pub-id_pmid">23475716</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Methods in Molecular Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">113</infon>
+      <offset>61011</offset>
+      <text>Cetuximab Fab and Fc N-glycan fast characterization using IdeS digestion and liquid chromatography coupled to electrospray ionization mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">142</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1111/j.1365-2249.2005.02834.x</infon>
+      <infon key="pub-id_pmid">16178850</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Clinical and Experimental Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">11</infon>
+      <offset>61165</offset>
+      <text>Clinical uses of intravenous immunoglobulin</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.3389/fimmu.2020.01393</infon>
+      <infon key="pub-id_pmid">32719679</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Frontiers in Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">1393</infon>
+      <offset>61209</offset>
+      <text>Fc gamma receptors and their role in antigen uptake, presentation, and T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">300</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2007.04.025</infon>
+      <infon key="pub-id_pmid">17559959</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">310</infon>
+      <offset>61298</offset>
+      <text>Establishment of a GDP-mannose 4,6-dehydratase (GMD) knockout host cell line: A new strategy for generating completely non-fucosylated recombinant therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="volume">146</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">111</infon>
+      <infon key="pub-id_doi">10.1016/j.ejpb.2019.12.003</infon>
+      <infon key="pub-id_pmid">31841688</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">European Journal of Pharmaceutics and Biopharmaceutics: Official Journal of Arbeitsgemeinschaft Fur Pharmazeutische Verfahrenstechnik e.V</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">124</infon>
+      <offset>61464</offset>
+      <text>Multifaceted assessment of rituximab biosimilarity: The impact of glycan microheterogeneity on Fc function</text>
+    </passage>
+    <passage>
+      <infon key="volume">203</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">22</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.03.002</infon>
+      <infon key="pub-id_pmid">25797592</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">31</infon>
+      <offset>61571</offset>
+      <text>Metabolic markers associated with high mannose glycan levels of therapeutic recombinant monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0037243</infon>
+      <infon key="pub-id_pmid">22675478</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e37243</infon>
+      <offset>61681</offset>
+      <text>Analysis and functional consequences of increased Fab-sialylation of intravenous immunoglobulin (IVIG) after lectin fractionation</text>
+    </passage>
+    <passage>
+      <infon key="volume">244</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.jprot.2021.104267</infon>
+      <infon key="pub-id_pmid">34015520</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Journal of Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">104267</infon>
+      <offset>61813</offset>
+      <text>Comparison of glycoprofiles of rituximab versions licensed for sale in India and an analytical approach for quality assessment</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">108</infon>
+      <infon key="pub-id_doi">10.1016/j.ebiom.2017.01.033</infon>
+      <infon key="pub-id_pmid">28169190</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">EBioMedicine</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">118</infon>
+      <offset>61940</offset>
+      <text>Galactosylation and sialylation levels of IgG predict relapse in patients with PR3-ANCA associated vasculitis</text>
+    </passage>
+    <passage>
+      <infon key="volume">1840</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2091</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1016/j.bbagen.2014.01.020</infon>
+      <infon key="pub-id_pmid">24462641</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biochimica et Biophysica Acta (BBA)-General Subjects</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2104</infon>
+      <offset>62052</offset>
+      <text>Generating novel recombinant prokaryotic lectins with altered carbohydrate binding properties through mutagenesis of the PA-IL protein from Pseudomonas aeruginosa </text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3955</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/s41598-018-22199-8</infon>
+      <infon key="pub-id_pmid">29500371</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Scientific Reports</infon>
+      <infon key="type">ref</infon>
+      <offset>62218</offset>
+      <text>Assessing the heterogeneity of the Fc-glycan of a therapeutic antibody using an engineered Fcgamma-receptor IIIa-immobilized column</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">593</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1038/ni.f.203</infon>
+      <infon key="pub-id_pmid">18490910</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Nature Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">601</infon>
+      <offset>62353</offset>
+      <text>Protein-glycan interactions in the control of innate and adaptive immune responses</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0132848</infon>
+      <infon key="pub-id_pmid">26200113</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e0132848</infon>
+      <offset>62438</offset>
+      <text>Glycoengineered monoclonal antibodies with homogeneous glycan (M3, G0, G2, and A2) using a chemoenzymatic approach have different affinities for FcgammaRIIIa and variable antibody-dependent cellular cytotoxicity activities</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">21</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.2217/fmb.14.104</infon>
+      <infon key="pub-id_pmid">25598335</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Future Microbiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">34</infon>
+      <offset>62661</offset>
+      <text>Engineering yeast for producing human glycoproteins: Where are we now?</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0233492</infon>
+      <infon key="pub-id_pmid">32469948</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e0233492</infon>
+      <offset>62732</offset>
+      <text>Constructing a human complex type N-linked glycosylation pathway in Kluyveromyces marxianus </text>
+    </passage>
+    <passage>
+      <infon key="volume">458-459</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">77</infon>
+      <infon key="pub-id_doi">10.1016/j.carres.2018.02.007</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Carbohydrate Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">84</infon>
+      <offset>62827</offset>
+      <text>Site-specific immobilization of endoglycosidases for streamlined chemoenzymatic glycan remodeling of antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1191</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2019.1636602</infon>
+      <infon key="pub-id_pmid">31276431</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1196</infon>
+      <offset>62941</offset>
+      <text>Glycoform-resolved FcgammaRIIIa affinity chromatography-mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">335</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2018.1527665</infon>
+      <infon key="pub-id_pmid">30252592</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">349</infon>
+      <offset>63016</offset>
+      <text>Comprehensive manipulation of glycosylation profiles across development scales</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">31</infon>
+      <infon key="pub-id_doi">10.1016/j.mam.2016.04.004</infon>
+      <infon key="pub-id_pmid">27086127</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Molecular Aspects of Medicine</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">55</infon>
+      <offset>63095</offset>
+      <text>Emerging roles of protein mannosylation in inflammation and infection</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1098/rsos.171521</infon>
+      <infon key="pub-id_pmid">29892355</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Royal Society Open Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">171521</infon>
+      <offset>63165</offset>
+      <text>Acceptor range of endo-beta-N-acetylglucosaminidase mutant endo-CC N180H: From monosaccharide to antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/s41598-020-73588-x</infon>
+      <infon key="pub-id_pmid">33060657</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Scientific Reports</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">17505</infon>
+      <offset>63277</offset>
+      <text>A site-specific map of the human plasma glycome and its age and gender-associated alterations</text>
+    </passage>
+    <passage>
+      <infon key="volume">266</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">23022</infon>
+      <infon key="issue">34</infon>
+      <infon key="pub-id_pmid">1744097</infon>
+      <infon key="year">1991</infon>
+      <infon key="source">The Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">23026</infon>
+      <offset>63375</offset>
+      <text>The effect of carbohydrate on the structure and stability of erythropoietin</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">143</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2017.1402996</infon>
+      <infon key="pub-id_pmid">29200314</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">158</infon>
+      <offset>63451</offset>
+      <text>Assessment of structural and functional similarity of biosimilar products: Rituximab as a case study</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">411</infon>
+      <infon key="pub-id_doi">10.1007/978-1-4939-6412-3_23</infon>
+      <infon key="year">2017</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">420</infon>
+      <offset>63552</offset>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1002/bit.23200</infon>
+      <infon key="pub-id_pmid">21557201</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2358</infon>
+      <offset>63553</offset>
+      <text>Effects of cell culture conditions on antibody N-linked glycosylation-what affects high mannose 5 glycoform</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1074/mcp.M111.010090</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Molecular and Cellular Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">M111.010090</infon>
+      <offset>63665</offset>
+      <text>High throughput isolation and glycosylation analysis of IgG-variability and heritability of the IgG glycome in three isolated human populations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1002/btpr.3176</infon>
+      <infon key="pub-id_pmid">34021724</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e3176</infon>
+      <offset>63811</offset>
+      <text>Modulation of high mannose levels in N-linked glycosylation through cell culture process conditions to increase antibody-dependent cell-mediated cytotoxicity activity for an antibody biosimilar</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1325</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwv065</infon>
+      <infon key="pub-id_pmid">26263923</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1334</infon>
+      <offset>64011</offset>
+      <text>Fc glycans of therapeutic antibodies as critical quality attributes</text>
+    </passage>
+    <passage>
+      <infon key="volume">283</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1006/abio.2000.4643</infon>
+      <infon key="pub-id_pmid">10929801</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Analytical Biochemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">9</infon>
+      <offset>64079</offset>
+      <text>Analyzing sialic acids using high-performance anion-exchange chromatography with pulsed amperometric detection</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1444</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/eji.201344230</infon>
+      <infon key="pub-id_pmid">24505033</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">European Journal of Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1453</infon>
+      <offset>64194</offset>
+      <text>Broad requirement for terminal sialic acid residues and FcgammaRIIB for the preventive and therapeutic activity of intravenous immunoglobulins in vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">277</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">26733</infon>
+      <infon key="issue">30</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M202069200</infon>
+      <infon key="pub-id_pmid">11986321</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">The Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">26740</infon>
+      <offset>64345</offset>
+      <text>Lack of fucose on human IgG1 N-linked oligosaccharide improves binding to human Fcgamma RIII and antibody-dependent cellular toxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3466</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M210665200</infon>
+      <infon key="pub-id_pmid">12427744</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">The Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3473</infon>
+      <offset>64483</offset>
+      <text>The absence of fucose but not the presence of galactose or bisecting N-acetylglucosamine of human IgG1 complex-type oligosaccharides shows the critical role of enhancing antibody-dependent cellular cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">254</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwz085</infon>
+      <infon key="pub-id_pmid">31616919</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">267</infon>
+      <offset>64700</offset>
+      <text>On enzymatic remodeling of IgG glycosylation; unique tools with broad applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1957</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1002/bit.25251</infon>
+      <infon key="pub-id_pmid">24728980</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1970</infon>
+      <offset>64783</offset>
+      <text>Identification of manipulated variables for a glycosylation control strategy</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">131</infon>
+      <infon key="pub-id_doi">10.2147/CMAR.S120589</infon>
+      <infon key="pub-id_pmid">28479860</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Cancer Management and Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">140</infon>
+      <offset>64860</offset>
+      <text>Rituximab in the treatment of follicular lymphoma: The future of biosimilars in the evolving therapeutic landscape</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">12045</infon>
+      <infon key="issue">21</infon>
+      <infon key="pub-id_doi">10.1073/pnas.2131556100</infon>
+      <infon key="pub-id_pmid">14523234</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Proceedings of the National Academy of Sciences of the United States of America</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12050</infon>
+      <offset>64975</offset>
+      <text>Human uptake and incorporation of an immunogenic nonhuman dietary sialic acid</text>
+    </passage>
+    <passage>
+      <infon key="volume">286</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1800</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1111/febs.14759</infon>
+      <infon key="pub-id_pmid">30657247</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">The FEBS Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1814</infon>
+      <offset>65053</offset>
+      <text>Mammalian sugar-binding receptors: Known functions and unexplored roles</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">63</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1021/acschembio.6b00821</infon>
+      <infon key="pub-id_pmid">28103685</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">ACS Chemical Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">72</infon>
+      <offset>65127</offset>
+      <text>An effective bacterial fucosidase for glycoprotein remodeling</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">97</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1093/glycob/3.2.97</infon>
+      <infon key="pub-id_pmid">8490246</infon>
+      <infon key="year">1993</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">130</infon>
+      <offset>65189</offset>
+      <text>Biological roles of oligosaccharides: All of the theories are correct</text>
+    </passage>
+    <passage>
+      <infon key="volume">333</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">49</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2021.04.005</infon>
+      <infon key="pub-id_pmid">33901620</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">62</infon>
+      <offset>65259</offset>
+      <text>Strategic feeding of NS0 and CHO cell cultures to control glycan profiles and immunogenic epitopes of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1123</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2305</infon>
+      <infon key="pub-id_pmid">27254475</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1134</infon>
+      <offset>65383</offset>
+      <text>Controlling the time evolution of mAb N-linked glycosylation, Part I: Microbioreactor experiments</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">119</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1038/nrmicro1087</infon>
+      <infon key="pub-id_pmid">15685223</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Nature Reviews Microbiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">128</infon>
+      <offset>65483</offset>
+      <text>The humanization of N-glycosylation pathways in yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">735</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt.1932</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">741</infon>
+      <offset>65539</offset>
+      <text>The genomic sequence of the Chinese hamster ovary (CHO)-K1 cell line</text>
+    </passage>
+    <passage>
+      <infon key="volume">597</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">265</infon>
+      <infon key="pub-id_doi">10.1016/bs.mie.2017.06.006</infon>
+      <infon key="pub-id_pmid">28935106</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Methods in Enzymology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">281</infon>
+      <offset>65610</offset>
+      <text>Chemoenzymatic glycan remodeling of natural and recombinant glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1899</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/bit.26291</infon>
+      <infon key="pub-id_pmid">28295160</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1902</infon>
+      <offset>65684</offset>
+      <text>A novel sugar analog enhances sialic acid production and biotherapeutic sialylation in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">45</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1186/s13045-020-00876-4</infon>
+      <infon key="pub-id_pmid">32370812</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Hematology and Oncology</infon>
+      <infon key="type">ref</infon>
+      <offset>65781</offset>
+      <text>How to select IgG subclasses in developing anti-tumor therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">475</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.4161/mabs.20737</infon>
+      <infon key="pub-id_pmid">22699308</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">487</infon>
+      <offset>65860</offset>
+      <text>Production, characterization, and pharmacokinetic properties of antibodies with N-linked mannose-5 glycans</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">151</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1007/s40259-017-0223-8</infon>
+      <infon key="pub-id_pmid">28466278</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">BioDrugs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">166</infon>
+      <offset>65971</offset>
+      <text>Improving antibody-based cancer therapeutics through glycan engineering</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">7</infon>
+      <infon key="pub-id_doi">10.1093/abt/tby002</infon>
+      <infon key="pub-id_pmid">33928217</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Antibody Therapeutics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12</infon>
+      <offset>66045</offset>
+      <text>Enhancing antibody-dependent cell-mediated cytotoxicity: a strategy for improving antibody-based immunotherapy</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.3390/antib8010009</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Antibodies</infon>
+      <infon key="type">ref</infon>
+      <offset>66162</offset>
+      <text>Impact of acetylated and non-acetylated fucose analogues on IgG glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.3390/biom10020171</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biomolecules</infon>
+      <infon key="type">ref</infon>
+      <offset>66242</offset>
+      <text>The contribution of IgG glycosylation to antibody-dependent cell-mediated cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC) in Hashimoto's thyroiditis: An in vitro model of thyroid autoimmunity</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">15222</infon>
+      <infon key="issue">15</infon>
+      <infon key="pub-id_doi">10.18632/aging.103884</infon>
+      <infon key="pub-id_pmid">32788422</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Aging</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">15259</infon>
+      <offset>66456</offset>
+      <text>Global variability of the human IgG glycome</text>
+    </passage>
+  </document>
+</collection>

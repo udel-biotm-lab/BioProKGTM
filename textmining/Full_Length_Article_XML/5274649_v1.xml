@@ -1,0 +1,2231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>5274649</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Herwig;given-names:Christoph</infon>
+      <infon key="name_2">surname:Kroll;given-names:Paul</infon>
+      <infon key="name_1">surname:Fricke;given-names:Jens</infon>
+      <infon key="article-id_pmid">27752770</infon>
+      <infon key="name_0">surname:Brunner;given-names:Matthias</infon>
+      <infon key="fpage">251</infon>
+      <infon key="issue">2</infon>
+      <infon key="year">2017</infon>
+      <infon key="article-id_pmc">5274649</infon>
+      <infon key="article-id_publisher-id">1693</infon>
+      <infon key="article-id_doi">10.1007/s00449-016-1693-7</infon>
+      <infon key="title">Keywords</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">40</infon>
+      <infon key="license"> Open AccessThis article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Bioprocess Biosyst Eng; 2017 Feb; 40(2) 251-263. doi:10.1007/s00449-016-1693-7</infon>
+      <infon key="kwd">CHO cell culture Process parameter Scale-up Monoclonal antibody CQA Design of experiments</infon>
+      <infon key="lpage">263</infon>
+      <infon key="authors">Brunner M, Fricke J, Kroll P, Herwig C</infon>
+      <offset>0</offset>
+      <text>Investigation of the interactions of critical scale-up parameters (pH, pO2 and pCO2) on CHO batch performance and critical quality attributes</text>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:53:08Z</infon>
+        <location offset="67" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:53:08Z</infon>
+        <location offset="71" length="3"/>
+        <text>pO2</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:53:09Z</infon>
+        <location offset="79" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:53:17Z</infon>
+        <location offset="114" length="27"/>
+        <text>critical quality attributes</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>142</offset>
+      <text>Understanding process parameter interactions and their effects on mammalian cell cultivations is an essential requirement for robust process scale-up. Furthermore, knowledge of the relationship between the process parameters and the product critical quality attributes (CQAs) is necessary to satisfy quality by design guidelines. So far, mainly the effect of single parameters on CQAs was investigated. Here, we present a comprehensive study to investigate the interactions of scale-up relevant parameters as pH, pO2 and pCO2 on CHO cell physiology, process performance and CQAs, which was based on design of experiments and extended product quality analytics. The study used a novel control strategy in which process parameters were decoupled from each other, and thus allowed their individual control at defined set points. Besides having identified the impact of single parameters on process performance and product quality, further significant interaction effects of process parameters on specific cell growth, specific productivity and amino acid metabolism could be derived using this method. Concerning single parameter effects, several monoclonal antibody (mAb) charge variants were affected by process pCO2 and pH. N-glycosylation analysis showed positive correlations between mAb sialylation and high pH values as well as a relationship between high mannose variants and process pH. This study additionally revealed several interaction effects as process pH and pCO2 interactions on mAb charge variants and N-glycosylation pattern. Hence, through our process control strategy and multivariate investigation, novel significant process parameter interactions and single effects were identified which have to be taken into account especially for process scale-up.</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:52:46Z</infon>
+        <location offset="651" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:52:47Z</infon>
+        <location offset="655" length="3"/>
+        <text>pO2</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:52:48Z</infon>
+        <location offset="663" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:53:04Z</infon>
+        <location offset="716" length="4"/>
+        <text>CQAs</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:54:36Z</infon>
+        <location offset="1353" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:54:37Z</infon>
+        <location offset="1362" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:54:42Z</infon>
+        <location offset="1366" length="15"/>
+        <text>N-glycosylation</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:54:44Z</infon>
+        <location offset="1432" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:54:50Z</infon>
+        <location offset="1502" length="16"/>
+        <text>mannose variants</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:54:57Z</infon>
+        <location offset="1531" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:55:13Z</infon>
+        <location offset="1607" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:55:14Z</infon>
+        <location offset="1614" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T15:55:19Z</infon>
+        <location offset="1659" length="23"/>
+        <text>N-glycosylation pattern</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>1913</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1947</offset>
+      <text>The online version of this article (doi:10.1007/s00449-016-1693-7) contains supplementary material, which is available to authorized users.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>2087</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2100</offset>
+      <text>Monoclonal antibodies (mAbs) have become the main products of biopharmaceutical industries throughout the past decades. Despite their typically low growth rate, unstable productivity and high process costs, mammalian cells benefit from their ability to perform human-like posttranslational modifications and thus represent the main expression system for mAb production. Chinese hamster ovary (CHO) cells are the most commonly used cell systems for mammalian processes. Since GMP certificated processes are readily available and high throughput cell screening and fed-batch processing are established and well understood CHO cells will remain the main expression system in the near future. Advanced understanding of CHO cell metabolism and interaction with process parameters is of high importance for process optimization, scale-up; and moreover, is a major requirement of quality by design (QbD) guidelines as claimed by the Federal Drug Association (FDA). Furthermore, modeling approaches as hybrid models may benefit from the knowledge of process parameter interactions and single effects to improve model fit and model quality. Understanding of process parameter interactions is especially useful during process scale-up, where unwanted variations of pH, dissolved oxygen tension (pO2) and carbon dioxide tension (pCO2) are most likely to occur. Manufacturing processes aim towards high product titers and space-time-yields but, moreover, good and consistent final product quality is of upmost importance. Monoclonal antibodies are very complex molecules and can be modified during up- and downstream process thus leading to heterogeneous final products. Product heterogeneity may lead to various changes in physiochemical, biological and immunogenic properties compared to the desired homogeneous antibody drug. In more detail, protein heterogeneity may lead to different protein binding, stability, immune responses and pharmacokinetics. Therefore, control of product heterogeneity within predefined analytical specifications is of high importance for cGMP manufacturing.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4180</offset>
+      <text>Process parameters such as temperature, pH, pO2 and pCO2 can have enormous effects on CHO cell process performance and critical quality attributes as described widely in the literature. Link et al. discovered that changing dissolved oxygen concentration can have an effect on specific productivity of CHO-K1 cells. Additionally, a study conducted by Trummer et al. showed significant influences of culture temperature and culture pH on cell metabolism, growth and product quality in a CHO batch fermentation producing EPO-Fc. However, influences of different carbon dioxide tensions are most often neglected although it has been shown in other studies that pCO2 can have significant effects on specific cell growth, productivity and product quality. Studies about interaction effects of parameters are less prominent in the literature, however, Zanghi et al. showed that at elevated pH or pCO2 in a CHO culture, osmolality and bicarbonate concentration significantly influence product polysialylation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5182</offset>
+      <text>In contrast to the current state of the art, the goal of our study was to derive interaction effects of critical scale-up parameters on cell physiology as well as on process performance and critical product quality attributes. Therefore, our approach consisted of a central composite face-centered design of experiments and various in-process analytics as well as product quality analytics for charge, size and glycan heterogeneity. This investigation was only possible through usage of a novel control strategy via decoupling of pO2, pH and pCO2 process control and thus investigating the individual effects and interactions of these critical scale-up parameters in one systematic approach. The novelty of this work is therefore the elucidation of interaction effects of scale dependent process parameters on a large number of responses including amino acids and product quality attributes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>6074</offset>
+      <text>Materials and methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6096</offset>
+      <text>Design of experiment and data evaluation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab1.xml</infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table_caption</infon>
+      <offset>6137</offset>
+      <text>Specific process parameter conditions of the experimental design space</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab1.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"&gt;Exp. No.&lt;/th&gt;&lt;th align="left"&gt;11&lt;/th&gt;&lt;th align="left"&gt;12&lt;/th&gt;&lt;th align="left"&gt;13&lt;/th&gt;&lt;th align="left"&gt;14&lt;/th&gt;&lt;th align="left"&gt;15&lt;/th&gt;&lt;th align="left"&gt;16&lt;/th&gt;&lt;th align="left"&gt;17&lt;/th&gt;&lt;th align="left"&gt;18&lt;/th&gt;&lt;th align="left"&gt;19&lt;/th&gt;&lt;th align="left"/&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt;pH&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7.2&lt;/td&gt;&lt;td char="." align="char"&gt;6.8&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td align="left"/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;5&lt;/td&gt;&lt;td char="." align="char"&gt;20&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td align="left"/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;10&lt;/td&gt;&lt;td char="." align="char"&gt;40&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td align="left"/&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table</infon>
+      <offset>6208</offset>
+      <text>Exp. No. 1 2 3 4 5 6 7 8 9 10   pH 6.8 7.2 6.8 7.2 6.8 7.2 6.8 7.2 7 7   pCO2 5 5 20 20 5 5 20 20 12.5 12.5   pO2 10 10 10 10 40 40 40 40 25 25   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab1.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"&gt;Exp. No.&lt;/th&gt;&lt;th align="left"&gt;11&lt;/th&gt;&lt;th align="left"&gt;12&lt;/th&gt;&lt;th align="left"&gt;13&lt;/th&gt;&lt;th align="left"&gt;14&lt;/th&gt;&lt;th align="left"&gt;15&lt;/th&gt;&lt;th align="left"&gt;16&lt;/th&gt;&lt;th align="left"&gt;17&lt;/th&gt;&lt;th align="left"&gt;18&lt;/th&gt;&lt;th align="left"&gt;19&lt;/th&gt;&lt;th align="left"/&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt;pH&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7.2&lt;/td&gt;&lt;td char="." align="char"&gt;6.8&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td char="." align="char"&gt;7&lt;/td&gt;&lt;td align="left"/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;5&lt;/td&gt;&lt;td char="." align="char"&gt;20&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td char="." align="char"&gt;12.5&lt;/td&gt;&lt;td align="left"/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;10&lt;/td&gt;&lt;td char="." align="char"&gt;40&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td char="." align="char"&gt;25&lt;/td&gt;&lt;td align="left"/&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table</infon>
+      <offset>6355</offset>
+      <text>Exp. No. 11 12 13 14 15 16 17 18 19    pH 7 7.2 6.8 7 7 7 7 7 7    pCO2 12.5 12.5 12.5 5 20 12.5 12.5 12.5 12.5    pO2 25 25 25 25 25 10 40 25 25    </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab1.xml</infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table_foot</infon>
+      <offset>6505</offset>
+      <text>Experiment number 8 had to be excluded from data evaluation due to a defect pH probe</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6590</offset>
+      <text>Experiments were carried out according to a central composite face-centered design with the factors pH ranging from 6.8 to 7.2, pO2 from 10 to 40 % and pCO2 from 5 (37 mmHg) to 20 % (150 mmHg) (Table 1). Boundaries were set for pCO2 in between physiological values and levels that might occur during large-scale fermentation processes, whereas pH was mostly set in between boundaries of physiological ranges to allow constant fermentation conditions. However, pH variations to 6.8 may also occur during large-scale fermentation due to CO2 gradients. The dissolved oxygen tension concentration upper limit was set to 40 % according to common industrial settings. Since in large-scale fermentations at high cell densities pO2 gradients are likely to occur, the lower limit for pO2 was set to 10 %. In total, the experimental design space consisted of 19 batch fermentations, whereas five fermentation runs were carried out at the center point settings of the DoE. Due to problems with one of the pH-probes, one fermentation run at pH 7.2, pO2 40 % and pCO2 20 % finally had to be excluded from data evaluation. Since all other 14 set points of the experimental design space were carried out successfully, this one missing run was found not to compromise the quality of the experimental design to any significant extent. Furthermore, two fermentation runs (pH 7; pCO2 20 %; pO2 25 % and pH 7; pCO2 12.5 %; pO2 10 %) revealed unusually high mAb aggregation rates and thus their mAb quality data were excluded from data evaluation. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8131</offset>
+      <text>Experimental planning and data evaluation was carried out by the help of the software MODDE  (Umetrics, Sweden). For each selected response MODDE  generates a PLS Model and the final parameters after model optimization are illustrated in this report. Key parameters of the models are the coefficient of determination R 2, goodness of prediction Q 2, model validity MV and reproducibility RP. Ideally, R 2, Q 2, MV and RP should be close to 1 and above 0.5, or 0.25 concerning MV, for a significant model. Furthermore, tables with normalized coefficients derived out of PLS models are shown in this work. Since errors for specific growth and metabolite production/consumption rates are generally high in mammalian processes, confidence intervals were set to 0.90 for all calculated growth, consumption and production rates. For all other responses, confidence levels were set to 0.95. The responses analyzed were maximum and average specific growth rate (micro max, micro average), specific lactate and ammonia production (q lac, q amm), specific glucose and glutamine consumption (q gluc, q gln), further specific amino acid consumption and production rates (q Ala, q Arg, q Asn, q Asp, q Cys, q Glu, q Gly, q His, q Ile, q Leu, q Lys, q Meth, q Phe, q Pro, q Ser, q Thr, q Tyr, q Try, q Val) and specific productivity (q p). Moreover, critical product quality attributes were analyzed as charge, size and glycan variants.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9554</offset>
+      <text>Cell line, seed train and batch fermentations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9600</offset>
+      <text>An industrial CHO cell line producing a mAb was cultivated in chemically defined media. Precultures for batch fermentation processes were cultivated in shake flasks and incubated at 10 % pCO2 and 37  C temperature. Exponentially growing cells were transferred into 3 L glass bioreactors resulting in an inoculation density of 3 x 105 cells/mL. All batch cultivations were carried out at 37  C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10004</offset>
+      <text>Using a novel control strategy, pO2, pCO2 and pH set points were set and kept constant throughout the fermentation process according to the DoE. Usually, pH control in cell culture is performed using pCO2 as acid; this had to be changed to decouple pH and pCO2 control. pH regulation was therefore realized by the addition of 0.5 M HCL and 0.5 M NaOH, respectively. Dissolved oxygen tension and carbon dioxide tension were regulated independently through gas mixing while keeping stirrer speed and gas volumetric flow rate constant. pCO2 measurement and control was done by use of an off-gas sensor (BlueInOne, Bluesens, Germany) and based on calculations from Frahm et al.. pH and pO2 were measured by in-line probes (EasyFerm, Hamilton, United States and VisiFerm, Hamilton, United States).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10799</offset>
+      <text>In-process control, mAb and amino acid determination</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10852</offset>
+      <text>Cultivation samples were taken every 12 h and cell counting/viability determination was performed using the automatic picture analyzer Cedex HiRes Analyzer (Roche, Germany). Osmolality of supernatant was determined via freeze point depression (Mikro-Osmometer TypOM806, Loser, Germany). Analysis of metabolites glucose, glutamine, glutamate, lactate and ammonium were performed using Cedex Bio HT Analyzer (Roche, Germany). Antibody titer determination was carried out by HPLC (Ultimate 3000, Dionex, United States) with a Protein A sensor cartridge (Applied Biosystems, The Netherlands). Amino acid concentrations were determined by HPLC measurement (Ultimate 3000, Dionex, United States; ZORBAX Eclipse Plus C18 column, Agilent Technologies, United States) and prior sample-derivatization with ortho-phthalaldehyde (OPA) and 9-fluorenylmethyloxycarbonyl (FMOC).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11718</offset>
+      <text>Product quality analytics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11744</offset>
+      <text>Harvest samples for product quality analytics were taken only once at the end of batch processes as soon as viability dropped below 75 % and supernatants were stored at -80  C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>11926</offset>
+      <text>Cation exchange chromatography</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11957</offset>
+      <text>Determination of charge variants was performed using a ProPac WCX-10 (4 x 250 mm) analytical column (Dionex, United States) connected to HPLC system (Agilent Technologies 1100/1200 Series, United States) with UV detection at 220 nm.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>12195</offset>
+      <text>Size exclusion chromatography</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12225</offset>
+      <text>Size exclusion chromatography was performed using a TSKgel G3000SWXL column (Tosoh, Japan) connected to a HPLC system (Agilent Technologies 1100/1200 Series, United States) with UV detection at 210 nm.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>12428</offset>
+      <text>N-glycan determination</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12451</offset>
+      <text>Quantitative determination of N-glycans was performed after digest with N-glycosidase F (PNGase F, Roche, Germany). After separation from the protein using ultra centrifugal filters, released N-glycans were labeled with 2-aminobenzamide (2-AB) at 37  C overnight. Afterwards 2-AB labeled glycans were profiled by normal phase chromatography using a ACQUITY UPLC BEH column (Waters, United States) connected to an HPLC system (Agilent 1200 series, United States) with FLD detection.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12936</offset>
+      <text>Calculation of specific rates and degree of glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12994</offset>
+      <text>Calculation of the specific growth rate micro was performed using the integral of viable cell density as described by Klein et al. and shown in Eq. (1):with VCD being the viable cell density and IVCD the integral of viable cell density.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13231</offset>
+      <text>Calculation of the specific production or consumption rates was performed as shown in Eq. (2), with ci being the concentration of either a specific metabolite or product i: </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13406</offset>
+      <text>Calculation of the specific growth and production or consumption rates were performed for each time point and average rates were calculated for the relevant process phase using values between inoculation and peak VCD. The maximum specific growth rate, however, was calculated only for time points within the exponential growth phase of the processes. All cell specific metabolic rates were assigned positive for production and negative for consumption.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13859</offset>
+      <text>The degree of galactosylation (GI) was calculated as shown in Eq. (3) and described earlier by Ivarsson et al.: </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13973</offset>
+      <text>The degrees of sialylation (SI) and afucosylation (aFI) were calculated in the same manner.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>14065</offset>
+      <text>Results and discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14088</offset>
+      <text>Experiments were carried out according to our experimental design as specified in the "Materials and methods" section. The specific data points for the PLS models are summarized in the supplementary file. Concerning the evaluation of the data, additionally to our controlled process parameters, the influences of important uncontrolled parameters on the responses of the design of experiments were considered. Especially effects that might occur due to different osmolalities, average cell viabilities and overall process time.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14620</offset>
+      <text>Although only minor variations in osmolality occurred during cell growth (mostly between 290 and 330 mOsm/kg), the influence of variations in osmolality was investigated in separate experiments and no significant differences in cell specific growth, productivity or metabolite production/consumption could be derived for this cell line (data not shown).</text>
+      <annotation id="18">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:04:46Z</infon>
+        <location offset="14762" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:04:53Z</infon>
+        <location offset="14870" length="12"/>
+        <text>productivity</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">449_2016_1693_Fig1_HTML.jpg</infon>
+      <infon key="id">Fig1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14975</offset>
+      <text>Viable cell density (a) and cell viability (b) over process time for all batch fermentations. (Black symbols represent processes at pH 7.0, blue symbols at pH 6.8, red symbols at pH 7.2; closed symbols represent processes at pCO2 5 %, half-closed at 12.5 % and open symbols at 20 %; triangles represent processes at pO2 25 %, squares at 10 %, circles at 40 %). High pH values led to high viable cell densities but concurrently to shorter process time due to faster depletion of the main c-source. Cell viabilities stayed at high values as long as glutamine was available</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15552</offset>
+      <text>The overall batch process time and mean cell viabilities in this study correlate strongly with process pH but not with pO2 and pCO2 (Fig. 1). Therefore, effects on product quality data attributed to process pH might furthermore derive from different process times or mean cell viabilities. Effects of pCO2 and pO2 were found to be independent from process time. The authors would like to state that due to the complexity of mammalian cell culture processes, only a certain portion of the data variability can be explained by the presented models. Therefore, the goodness of fit R 2, a measure how good the model fits the observed data, and the goodness of prediction Q 2, an estimate of the predictive ability of the model, deviate from the ideal value of 1. However, R 2 and Q 2 values are presented in the corresponding data tables and only significant models with values above 0.5 are discussed. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16453</offset>
+      <text>Effects on cell growth and viability</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16490</offset>
+      <text>Cell growth and cell viability are essential parameters that have to be monitored closely during mammalian fermentation processes. This is usually done by automated offline cell counting and live/dead cell staining. Through determination of viable and total cell densities (VCD and TCD) specific cell growth and cell viabilities were evaluated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">449_2016_1693_Fig2_HTML.jpg</infon>
+      <infon key="id">Fig2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>16835</offset>
+      <text>Metabolite profiles for all conducted batch processes. (Black symbols represent processes at pH 7.0, blue symbols at pH 6.8, red symbols at pH 7.2; closed symbols represent processes at pCO2 5 %, half-closed at 12.5 % and open symbols at 20 %; triangles represent processes at pO2 25 %, squares at 10 %, circles at 40 %). a Glucose became limiting in almost all fermentations before reaching the harvest criteria of 75 % viability. b Glutamine profiles showed glutamine limitations after 100-150 h of process time for all batches. c Ammonia concentrations showed process phases of production and consumption for almost all runs at pH values of 6.8 and 7.0, whereas only production and steady-state values were derived from fermentation runs at pH 6.8. d Lactate was produced and consumed during all processes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17654</offset>
+      <text>Comparing the maximum viable cell density (VCD) of all batch processes, it can be derived that processes at pH 7.0 reached the highest maximum viable cell densities (Fig. 1a). All processes declined in viabilities to values lower than 75 % shortly after limitation of the main C-source. Therefore, differences in maximum VCD derived not only from different growth behavior but furthermore from nutrient availability. Cell viabilities stayed at high values and decreased dramatically as soon as glucose became limiting. Furthermore, slight decreases in cell viabilities could be detected for processes at pH 7.0 and 6.8, most probably due to glutamine limitation before final glucose depletion (Figs. 1b, 2a/b). </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab2.xml</infon>
+      <infon key="id">Tab2</infon>
+      <infon key="type">table_caption</infon>
+      <offset>18369</offset>
+      <text>Coefficient table and summary of fit of the models obtained for specific growth rates, specific glucose consumption, specific lactate and IgG production rates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab2.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"/&gt;&lt;th align="left"&gt;pH&lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt;pH&lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub arrange="stack"&gt;2&lt;/sub&gt;&lt;sup arrange="stack"&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub arrange="stack"&gt;2&lt;/sub&gt;&lt;sup arrange="stack"&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;R&lt;/italic&gt; &lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;Q&lt;/italic&gt; &lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt;MV&lt;/th&gt;&lt;th align="left"&gt;RP&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;micro&lt;/italic&gt; &lt;sub&gt;average&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;0.83&lt;/td&gt;&lt;td align="left"&gt;0.28&lt;/td&gt;&lt;td align="left"&gt;-0.18&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.18&lt;/td&gt;&lt;td char="." align="char"&gt;0.88&lt;/td&gt;&lt;td char="." align="char"&gt;0.70&lt;/td&gt;&lt;td char="." align="char"&gt;0.93&lt;/td&gt;&lt;td char="." align="char"&gt;0.79&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;micro&lt;/italic&gt; &lt;sub&gt;max&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;0.67&lt;/td&gt;&lt;td align="left"&gt;0.32&lt;/td&gt;&lt;td align="left"&gt;-0.18&lt;/td&gt;&lt;td align="left"&gt;-0.19&lt;/td&gt;&lt;td align="left"&gt;-0.21&lt;/td&gt;&lt;td align="left"&gt;-0.22&lt;/td&gt;&lt;td align="left"&gt;-0.23&lt;/td&gt;&lt;td char="." align="char"&gt;0.95&lt;/td&gt;&lt;td char="." align="char"&gt;0.82&lt;/td&gt;&lt;td char="." align="char"&gt;0.87&lt;/td&gt;&lt;td char="." align="char"&gt;0.90&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;glucose&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;-0.85&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.26&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.82&lt;/td&gt;&lt;td char="." align="char"&gt;0.78&lt;/td&gt;&lt;td char="." align="char"&gt;0.65&lt;/td&gt;&lt;td char="." align="char"&gt;0.89&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;lactate&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;0.93&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.87&lt;/td&gt;&lt;td char="." align="char"&gt;0.85&lt;/td&gt;&lt;td char="." align="char"&gt;0.98&lt;/td&gt;&lt;td char="." align="char"&gt;0.65&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;p&lt;/sub&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;0.58&lt;/td&gt;&lt;td align="left"&gt;0.34&lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.14&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.31&lt;/td&gt;&lt;td align="left"&gt;-0.28&lt;/td&gt;&lt;td char="." align="char"&gt;0.76&lt;/td&gt;&lt;td char="." align="char"&gt;0.55&lt;/td&gt;&lt;td char="." align="char"&gt;0.63&lt;/td&gt;&lt;td char="." align="char"&gt;0.81&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab2</infon>
+      <infon key="type">table</infon>
+      <offset>18528</offset>
+      <text> pH pO2 pCO2 pH2 pO22 pCO22 pH x pCO2 R2 Q2 MV RP   microaverage 0.83 0.28 -0.18 - - - -0.18 0.88 0.70 0.93 0.79   micromax 0.67 0.32 -0.18 -0.19 -0.21 -0.22 -0.23 0.95 0.82 0.87 0.90   qglucose -0.85 - - -0.26 - - - 0.82 0.78 0.65 0.89   qlactate 0.93 - - - - - - 0.87 0.85 0.98 0.65   qp 0.58 0.34 -0.14 - - -0.31 -0.28 0.76 0.55 0.63 0.81   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab2.xml</infon>
+      <infon key="id">Tab2</infon>
+      <infon key="type">table_foot</infon>
+      <offset>18926</offset>
+      <text>The coefficients according to the individual factors of the DoE are normalized. Coefficients that are shown in italic are not considered as significant regarding the applied significance level</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19119</offset>
+      <text>Regarding specific cell growth during exponential growth (micro max) and total growth phase (micro average) significant influences of pH, pO2 and pCO2 as well as a significant interaction of pH and pCO2 could be detected (Table 2). micro max and micro average were strongly affected by process conditions, whereby the lowest growth rates were reduced to around 35 and 45 %, respectively, when compared to the maximum values obtained in this DoE. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19566</offset>
+      <text>Table 2 shows that pH affected specific cell growth the most and higher pH values led to higher cell growth. Increased pCO2 had a negative impact on cell growth, whereas increased pO2 seemed to stimulate specific cell growth between the borders of our experimental design. These general results confirm other publications as Link et al., Yoon et al., Trummer et al. and Dezengotita et al.. Remarkably, through the independent control of process parameters our study derived additional significant interaction effects of pH and pCO2 on specific growth.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20119</offset>
+      <text>Effects on cell metabolism and productivity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20163</offset>
+      <text>CHO cell metabolism strongly depends on the main carbon and energy sources, glucose and glutamine. Furthermore, by-product accumulation can be of high interest since lactate and ammonia concentrations can affect cell physiology at elevated levels. Moreover, specific productivity of cells is clearly of high importance, because final product titer levels are directly correlated with this entity. Additionally, amino acids are one of the most important cell culture media components, influencing cell growth and productivity.</text>
+      <annotation id="41">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:06Z</infon>
+        <location offset="20421" length="21"/>
+        <text>specific productivity</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:15:54Z</infon>
+        <location offset="20505" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:16:02Z</infon>
+        <location offset="20574" length="11"/>
+        <text>amino acids</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:16:07Z</infon>
+        <location offset="20675" length="12"/>
+        <text>productivity</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20689</offset>
+      <text>In Table 2 the result for the DoE evaluation regarding the average specific glucose uptake rate q gluc is shown. q gluc was significantly influenced by process pH whereby lowest rates were reduced to around 60 % when compared to the maximum consumption rates obtained in this DoE. No significant pO2, pCO2 or quadratic/interaction terms could be determined. These results can be confirmed by other studies.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21098</offset>
+      <text>The mean specific glutamine uptake rate was not significantly influenced by pH or pCO2 or pO2 (data not shown). Concerning pH this is in accordance to the results from Yoon et al. but contrary to Trummer et al. who observed higher specific consumption rates at higher pH values. Processes at high pH values depleted earlier of glutamine than processes at low pH (Fig. 2). Since no effects on specific glutamine uptake rates could be determined, this effect is most probably due to higher viable cell densities and thus higher total glutamine consumptions at high pH values.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21673</offset>
+      <text>The average specific lactate production rate q lac was significantly affected by process conditions (Table 1), whereby lowest rates were reduced to around 80 % when compared to the maximum production rates obtained in this study. Comparing the specific lactate production q lac during the growth phase, data clearly shows a direct link between pH and lactate production. Runs at highest pH values produced significantly more lactate than cells at lower pH. This effect is well reported in literature. Furthermore, the yield of glucose to lactate was affected by culture pH, higher pH values leading to higher yields. Dependencies of q lac from pO2 or pCO2 could not be found.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22351</offset>
+      <text>No significant effects of either pH, pCO2 or pO2 on specific ammonia production could be observed (data not shown). This is in agreement with the results from Yoon et al. but contrary to Trummer et al., who found a dependency of specific ammonia production from culture pH. The contrary findings on specific ammonia production and glutamine consumption in the stated literature may indicate that effects on ammonia and glutamine metabolism are more cell line specific than effects on glucose and lactate metabolism.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22867</offset>
+      <text>Due to higher specific glucose consumption rates and higher cell growth, processes became glucose-limited earliest at pH 7.2 (Fig. 2a). Ammonia profiles varied between phases of ammonia production and consumption throughout most processes at 7.0 (Fig. 2c). All fermentation runs at pH 6.8 showed no significant ammonia consumption over process time and thus resulted in general higher final ammonia concentrations. Similar to Li et al. low levels of lactate during the lactate consumption phase, present at most processes at pH 7.0 and 6.8, led to the consumption of alanine (data not shown) and subsequently to an increase in final ammonia levels.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab3.xml</infon>
+      <infon key="id">Tab3</infon>
+      <infon key="type">table_caption</infon>
+      <offset>23518</offset>
+      <text>Coefficient table and summary of fit of the models obtained for specific amino acid production and consumption rates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab3.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"/&gt;&lt;th align="left"&gt;pH&lt;/th&gt;&lt;th align="left"/&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt;pH&lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub arrange="stack"&gt;2&lt;/sub&gt;&lt;sup arrange="stack"&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;R&lt;/italic&gt; &lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;Q&lt;/italic&gt; &lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt;MV&lt;/th&gt;&lt;th align="left"&gt;RP&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Asp&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.58&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-0.2&lt;/td&gt;&lt;td align="left"&gt;-0.25&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.67&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.96&lt;/td&gt;&lt;td char="." align="char"&gt;0.82&lt;/td&gt;&lt;td char="." align="char"&gt;0.91&lt;/td&gt;&lt;td char="." align="char"&gt;0.91&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Glu&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.76&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.39&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.76&lt;/td&gt;&lt;td char="." align="char"&gt;0.69&lt;/td&gt;&lt;td char="." align="char"&gt;0.90&lt;/td&gt;&lt;td char="." align="char"&gt;0.66&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Ser&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.45&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.47&lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.31&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.22&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;0.26&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.82&lt;/td&gt;&lt;td char="." align="char"&gt;0.58&lt;/td&gt;&lt;td char="." align="char"&gt;0.90&lt;/td&gt;&lt;td char="." align="char"&gt;0.67&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;His&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.36&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-0.37&lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.13&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.29&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.37&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.75&lt;/td&gt;&lt;td char="." align="char"&gt;0.52&lt;/td&gt;&lt;td char="." align="char"&gt;0.75&lt;/td&gt;&lt;td char="." align="char"&gt;0.71&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Arg&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.67&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-0.59&lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.2&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.2&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.24&lt;/td&gt;&lt;td char="." align="char"&gt;0.93&lt;/td&gt;&lt;td char="." align="char"&gt;0.72&lt;/td&gt;&lt;td char="." align="char"&gt;0.79&lt;/td&gt;&lt;td char="." align="char"&gt;0.90&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Gly&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.20&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-0.58&lt;/td&gt;&lt;td align="left"&gt;0.37&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.42&lt;/td&gt;&lt;td char="." align="char"&gt;0.81&lt;/td&gt;&lt;td char="." align="char"&gt;0.63&lt;/td&gt;&lt;td char="." align="char"&gt;0.52&lt;/td&gt;&lt;td char="." align="char"&gt;0.89&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Cys&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.31&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-0.57&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.49&lt;/td&gt;&lt;td char="." align="char"&gt;0.78&lt;/td&gt;&lt;td char="." align="char"&gt;0.70&lt;/td&gt;&lt;td char="." align="char"&gt;0.77&lt;/td&gt;&lt;td char="." align="char"&gt;0.78&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Val&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.58&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.12&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.49&lt;/td&gt;&lt;td align="left"&gt;0.32&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.94&lt;/td&gt;&lt;td char="." align="char"&gt;0.61&lt;/td&gt;&lt;td char="." align="char"&gt;0.57&lt;/td&gt;&lt;td char="." align="char"&gt;0.95&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;Ile&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;-0.44&lt;/td&gt;&lt;td align="left"/&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.20&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.31&lt;/td&gt;&lt;td align="left"&gt;0.47&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.77&lt;/td&gt;&lt;td char="." align="char"&gt;0.51&lt;/td&gt;&lt;td char="." align="char"&gt;0.33&lt;/td&gt;&lt;td char="." align="char"&gt;0.92&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab3</infon>
+      <infon key="type">table</infon>
+      <offset>23635</offset>
+      <text> pH  pO2 pCO2 pH2 pCO22 pH x pCO2 pH x pO2 R2 Q2 MV RP   qAsp -0.58  -0.2 -0.25 - 0.67 - - 0.96 0.82 0.91 0.91   qGlu -  - -0.76 - 0.39 - - 0.76 0.69 0.90 0.66   qSer -0.45  - -0.47 -0.31 -0.22 0.26 - 0.82 0.58 0.90 0.67   qHis -0.36  -0.37 -0.13 -0.29 - 0.37 - 0.75 0.52 0.75 0.71   qArg -0.67  -0.59 -0.2 - -0.2 - 0.24 0.93 0.72 0.79 0.90   qGly -0.20  -0.58 0.37 - - - 0.42 0.81 0.63 0.52 0.89   qCys -0.31  -0.57 - - - - 0.49 0.78 0.70 0.77 0.78   qVal -0.58  - 0.12 - -0.49 0.32 - 0.94 0.61 0.57 0.95   qIle -0.44  - 0.20 - -0.31 0.47 - 0.77 0.51 0.33 0.92   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab3.xml</infon>
+      <infon key="id">Tab3</infon>
+      <infon key="type">table_foot</infon>
+      <offset>24308</offset>
+      <text> q Gly and q Cys refer to specific amino acid production and all other amino acids to consumption rates. The coefficients according to the individual factors of the DoE are normalized. Coefficients that are shown in italic are not considered as significant regarding the applied significance level</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24606</offset>
+      <text>Additionally to glutamine, 19 other amino acids were analyzed by HPLC. Specific consumption or production rates were calculated during the growth phase and significant models could be derived for nine amino acids (Table 3). Hereby, higher pH values led to a higher consumption of several amino acids (Ser, Asp, Val, Ile, Arg and His). Similar effects were reported from Trummer et al.. Furthermore, significant effects of pO2 and pCO2 on various amino acid consumption rates could be derived indicating higher consumption rates at process conditions that were favorable for cell growth (micro max, micro average). To our knowledge, no effects of pO2 or pCO2 on specific amino acid consumption or production rates in CHO cells have been shown before in the literature. Seven out of nine specific amino acid consumption or production rates were significantly affected by process parameter interactions; this demonstrates that interaction effects of process parameters on cell physiology have to be considered. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25615</offset>
+      <text>Amino acids could be divided into three groups. The first group consisted of amino acids that were only consumed throughout the batch processes (Arg, Val, Phe, Iso, Leu, Pro, Asn, Ser, His, Tyr, Lys, Trp and Met), the second contains amino acids that were only produced over process time (Gly, Cys, Glu) and the last one consists of aspartate and alanine, which were produced and/or consumed during the batch processes (data not shown). In contrast to Trummer et al., aspartate was only produced at lower pH values. Processes were not limited in any amino acid before process harvest except of glutamine for processes at pH 7.0 and 6.8 (Fig. 2b). Similar to effects reported from Zagari et al. and Wahrheit et al. cells reacted to glutamine limitation via uptake of alternative carbon sources as lactate and aspartate, except processes at pH 7.0, pCO2 20 %, pO2 25 % and pH 6.8, pCO2 20 % and pO2 10 % which showed no lactate consumption or very low consumption after glutamine limitation (Fig. 2d).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26621</offset>
+      <text>The average specific IgG production rate q P was significantly affected by process conditions, whereby lowest rates were reduced to around 30 % when compared to the maximum production rates obtained in this study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26836</offset>
+      <text>The model data out of Table 2 indicates that pH strongly affected specific productivity in a way that high pH set points led to high q p values. Furthermore, quadratic effects of pCO2, linear effects of pO2 and an interaction term of pCO2 and pH were identified. Positive effects of pO2 on q p are also reported in Link et al., whereas Trummer et al. found no connections between pO2 and q p. Concerning pCO2 Gray et al. showed optimum levels around 76 mmHg, which is in agreement with our findings. No effects of culture pH on q p could be shown in studies from Trummer et al. and Yoon et al.. However, other authors reported similar results, whereby q p increased with increasing pH between pH 6.8 and 7.2. Contradictions between the stated findings might derive from the different cell lines used in these studies. Additionally, pH and pCO2 interaction effects similar to those already observed for micro average and micro max could be detected for q p. To our knowledge, no interaction effects of pH and pCO2 on cell specific productivity have been reported so far in the literature. The derived model showed similar coefficients to that one obtained for micro max and micro average. This indicates that fermentation conditions that induce high specific growth rates also induce high specific production rates for this cell line.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">449_2016_1693_Fig3_HTML.jpg</infon>
+      <infon key="id">Fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28170</offset>
+      <text>IgG concentration over process time (a) and integral viable cell density (b) for all batch fermentations. (Black symbols represent processes at pH 7.0, blue symbols at pH 6.8, red symbols at pH 7.2; closed symbols represent processes at pCO2 5 %, half-closed at 12.5 % and open symbols at 20 %; triangles represent processes at pO2 25 %, squares at 10 %, circles at 40 %). Highest process titers were obtained for fermentation runs conducted at pH 7.0 and 6.8, mainly due to the highest IVCD values at these process conditions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28703</offset>
+      <text>Overall process titer of batch processes was mostly dependent from the integral viable cell density similar to Trummer et al.. Therefore, highest final product concentrations could be derived at pH 7.0 and 6.8, whereas space-time-yields were higher for processes at pH 7.0 (Fig. 3). </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>28990</offset>
+      <text>Effects on critical quality attributes (CQAs)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>29036</offset>
+      <text>Size exclusion chromatography (SEC) for determination of antibody size heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29121</offset>
+      <text>During manufacturing and storage antibody size variants (e.g., aggregates and fragments) occur. Since size variants can influence immunogenicity, potency and pharmacokinetics their levels are monitored during lot release, stability and characterization.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29375</offset>
+      <text>Data out of SEC analysis show minor variations with overall purity levels between 96 and 98 % relative Area (data not shown). PLS models for sum of aggregates and sum of fragments were conducted. No dependencies of pCO2, pO2 or pH on antibody aggregation or fragmentation were obtained from the gathered model data. Jing et al. observed a significant increase in protein aggregation when changing dissolved oxygen from 50 to 15 % air saturation. Concerning pH, values far away from the isoelectric point of the desired antibody showed better protein solubility. In contrast to Gomes and Hiller, we could not detect any changes in protein aggregation when varying culture conditions in between the DoE settings. The mechanisms leading to product aggregation may be strongly product specific, explaining the differences between the results in the literature.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>30234</offset>
+      <text>Cation exchange chromatography (CEX) for determination of antibody charge heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30322</offset>
+      <text>Charge based antibody characterization is a frequently used tool since it is sensitive to many type of modifications as protein conformation, size, sequence species, glycosylation and posttranslational modifications. Therefore, various antibody variations that occur with changing process conditions were detected.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">449_2016_1693_Fig4_HTML.jpg</infon>
+      <infon key="id">Fig4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30637</offset>
+      <text>Relative area out of cation exchange chromatography (CEX) for various charge variants and one sum parameter at different pH set points for pCO2 12.5 % and pO2 25 %</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab4.xml</infon>
+      <infon key="id">Tab4</infon>
+      <infon key="type">table_caption</infon>
+      <offset>30803</offset>
+      <text>Coefficient table and summary of fit of the models obtained for the mAb charge variants and one glycan variant</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab4.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"/&gt;&lt;th align="left"&gt;pH&lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt;pH&lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;O&lt;sub arrange="stack"&gt;2&lt;/sub&gt;&lt;sup arrange="stack"&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub arrange="stack"&gt;2&lt;/sub&gt;&lt;sup arrange="stack"&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;R&lt;/italic&gt; &lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt; &lt;italic&gt;Q&lt;/italic&gt; &lt;sup&gt;2&lt;/sup&gt; &lt;/th&gt;&lt;th align="left"&gt;MV&lt;/th&gt;&lt;th align="left"&gt;RP&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt;(i) ACV 1&lt;/td&gt;&lt;td char="." align="char"&gt;-0.44&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.37&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.24&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.28&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.22&lt;/italic&gt; &lt;/td&gt;&lt;td char="." align="char"&gt;0.67&lt;/td&gt;&lt;td char="." align="char"&gt;0.57&lt;/td&gt;&lt;td char="." align="char"&gt;0.78&lt;/td&gt;&lt;td char="." align="char"&gt;0.67&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;(ii) ACV 2&lt;/td&gt;&lt;td char="." align="char"&gt;0.94&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.04&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.15&lt;/td&gt;&lt;td char="." align="char"&gt;0.92&lt;/td&gt;&lt;td char="." align="char"&gt;0.84&lt;/td&gt;&lt;td char="." align="char"&gt;0.94&lt;/td&gt;&lt;td char="." align="char"&gt;0.86&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;(iii) BCV 1&lt;/td&gt;&lt;td char="." align="char"&gt;-0.65&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.13&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.17&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.27&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.29&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.87&lt;/td&gt;&lt;td char="." align="char"&gt;0.72&lt;/td&gt;&lt;td char="." align="char"&gt;0.59&lt;/td&gt;&lt;td char="." align="char"&gt;0.90&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;(iv) BCV 2&lt;/td&gt;&lt;td char="." align="char"&gt;0.74&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.58&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.72&lt;/td&gt;&lt;td char="." align="char"&gt;0.60&lt;/td&gt;&lt;td char="." align="char"&gt;0.38&lt;/td&gt;&lt;td char="." align="char"&gt;0.90&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;(v) BCV 3&lt;/td&gt;&lt;td char="." align="char"&gt;-0.88&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.77&lt;/td&gt;&lt;td char="." align="char"&gt;0.73&lt;/td&gt;&lt;td char="." align="char"&gt;0.68&lt;/td&gt;&lt;td char="." align="char"&gt;0.85&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;(vi) BCV 4&lt;/td&gt;&lt;td char="." align="char"&gt;-0.73&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;0.41&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.78&lt;/td&gt;&lt;td char="." align="char"&gt;0.71&lt;/td&gt;&lt;td char="." align="char"&gt;0.78&lt;/td&gt;&lt;td char="." align="char"&gt;0.81&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;sum of basic variants&lt;/td&gt;&lt;td char="." align="char"&gt;-0.64&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.19&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.17&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.22&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt; &lt;italic&gt;0.3&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td char="." align="char"&gt;0.82&lt;/td&gt;&lt;td char="." align="char"&gt;0.59&lt;/td&gt;&lt;td char="." align="char"&gt;0.64&lt;/td&gt;&lt;td char="." align="char"&gt;0.84&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;bG1FSA_2&lt;/td&gt;&lt;td char="." align="char"&gt;-&lt;italic&gt;0.03&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;italic&gt;0.26&lt;/italic&gt; &lt;/td&gt;&lt;td align="left"&gt;0.67&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-&lt;/td&gt;&lt;td align="left"&gt;-0.48&lt;/td&gt;&lt;td char="." align="char"&gt;0.76&lt;/td&gt;&lt;td char="." align="char"&gt;0.53&lt;/td&gt;&lt;td char="." align="char"&gt;0.84&lt;/td&gt;&lt;td char="." align="char"&gt;0.68&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab4</infon>
+      <infon key="type">table</infon>
+      <offset>30914</offset>
+      <text> pH pO2 pCO2 pH2 pO22 pCO22 pH x pCO2 R2 Q2 MV RP   (i) ACV 1 -0.44 - 0.37 0.24 - 0.28 -0.22 0.67 0.57 0.78 0.67   (ii) ACV 2 0.94 - -0.04 - - - -0.15 0.92 0.84 0.94 0.86   (iii) BCV 1 -0.65 0.13 0.17 - 0.27 0.29 - 0.87 0.72 0.59 0.90   (iv) BCV 2 0.74 - - -0.58 - - - 0.72 0.60 0.38 0.90   (v) BCV 3 -0.88 - - - - - - 0.77 0.73 0.68 0.85   (vi) BCV 4 -0.73 - 0.41 - - - - 0.78 0.71 0.78 0.81   sum of basic variants -0.64 0.19 0.17 - 0.22 0.3 - 0.82 0.59 0.64 0.84   bG1FSA_2 -0.03 - -0.26 0.67 - - -0.48 0.76 0.53 0.84 0.68   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab4.xml</infon>
+      <infon key="id">Tab4</infon>
+      <infon key="type">table_foot</infon>
+      <offset>31528</offset>
+      <text>The coefficients according to the individual factors of the DoE are normalized. Coefficients that are shown in italic are not considered as significant regarding the applied significance. Acidic charge variants (ACV), basic charge variants (BCV) and one glycan variant are presented</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31811</offset>
+      <text>In total, we detected 18 different charge variants, whereby significant models could be obtained for six individual variants (i)-(vi) and one sum parameter (Fig. 4; Table 4).  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31992</offset>
+      <text>(i) The content of acidic charge variant 1 (deamidation of asparagine to aspartate on one light chain) was significantly influenced by culture pH (Table 4). Deamidation is an unavoidable alteration reaction that takes place in fermentation broth after secretion of the cell. Deamidation can finally contribute to heterogeneity; affect protein crystallization, stability and efficacy. Therefore, Liu et al. considered Asn deamidation as one of the most important common modifications for mAbs. Deamidation in our batch process data differed significantly, whereas at pH 6.8 the highest protein deamidation could be observed (Fig. 4). In contradiction to the literature, our studies would suggest that lower pH values lead to higher deamidation rates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32744</offset>
+      <text>(ii) Considering acidic species 2 lower pH values led to lower acidic variants (Fig. 4; Table 4). Additionally, a significant interaction term for pH and pCO2 affecting acidic variant 2 was identified.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32948</offset>
+      <text>(iii) Isomerization of Asp on one heavy chain, basic charge variant 1, is congeneric to the deamidation reaction leading to acidic charge variant 1. The isomerization reaction occurs spontaneously in the culture media. Data shows that pH had a significant effect on isomerization whereby at lower pH values, higher amounts of isomerized variants occurred (Fig. 4; Table 4). These findings are in agreement with the literature. Analogous to Asn deamidation, Asp isomerization is considered as one of the most important common modifications for mAbs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33499</offset>
+      <text>(iv, v) The presence of lysine residues on one heavy chain, basic charge variant 2, was significantly affected by culture pH (Fig. 4; Table 4). Moreover, the amount of lysine residues on both heavy chains, basic charge variant 3, was also significantly affected by culture pH but with opposite outcome (Fig. 4; Table 4). For charge variant 2, lower culture pH led to lower amount of lysine residues compared to runs at higher pH values. In contrast, models obtained for charge variant 3 showed the opposite effect. C-terminal lysine residues are a very common modification observed during monoclonal antibody production. After cell lysis, the release of basic carboxypeptidase is supposed to be the reason for lysine heterogeneity, since no spontaneous reactions were found in other studies. Lower cell viabilities and prolonged process time at pH 6.8, therefore, should have led to a better cleavage of lysine residues from the antibody. Interestingly, this is only the case for lysine residue 2 whereas for charge variant 3 the opposite effect is visible. C-terminal lysine residues are considered as a rather less important mAb modification.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34648</offset>
+      <text>(vi) The amount of basic charge variant 4 was significantly influenced by process pH. The higher the pH value, the lower the amount of basic charge variant 4 (Fig. 4; Table 4). Moreover, a significant linear correlation with pCO2 could be conducted out of the PLS model.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>34921</offset>
+      <text>Glycosylation profile analysis for determination of N-glycosylation heterogeneity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35003</offset>
+      <text>Proper glycosylation of mAbs is of upmost importance since it can influence stability, effector functions, immunogenicity and pharmacokinetics of the desired product. 21 different glycosylation patterns could be identified whereby the only significant model concerning data from glycosylation analysis could be obtained for glycosylation pattern bG1FSA_2 (di-N-acetylneuraminic acidylated, mono-galactosylated, biantennary, fucosylated) (Table 4). Significant single effects of process pH and an interaction term with pCO2 on glycosylation variant bG1SA_2 were obtained. Analogous to Zanghi et al., these results would suggest a lower sialylation at higher dissolved carbon dioxide and higher pH values. Around 75 % of the observed glycosylation profiles consisted of bG0F (biantennary, fucosylated) and bG1F (biantennary, mono-galactosylated, fucosylated) independent from process conditions similar to Agarabi et al. and as reported by Raju et al.. Furthermore, galactosylation, sialylation and afucosylation level (GI, SI, aFI) variations stayed in between narrow limits, mostly 25-30 % GI, 0.5-1.5 % SI and 4-8.0 % aFI, for all batch processes. Moreover, GI, aFI and SI variation between center point runs covered most glycosylation variations observed.</text>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:33:05Z</infon>
+        <location offset="35010" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:33:10Z</infon>
+        <location offset="35079" length="9"/>
+        <text>stability</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:33:12Z</infon>
+        <location offset="35090" length="18"/>
+        <text>effector functions</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:33:13Z</infon>
+        <location offset="35110" length="14"/>
+        <text>immunogenicity</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:33:14Z</infon>
+        <location offset="35129" length="16"/>
+        <text>pharmacokinetics</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:29Z</infon>
+        <location offset="35489" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:34:31Z</infon>
+        <location offset="35521" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:34:42Z</infon>
+        <location offset="35529" length="29"/>
+        <text>glycosylation variant bG1SA_2</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:34:47Z</infon>
+        <location offset="35638" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:34:52Z</infon>
+        <location offset="35660" length="24"/>
+        <text>dissolved carbon dioxide</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:34:55Z</infon>
+        <location offset="35696" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:02Z</infon>
+        <location offset="35771" length="4"/>
+        <text>bG0F</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:06Z</infon>
+        <location offset="35777" length="24"/>
+        <text>biantennary, fucosylated</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:03Z</infon>
+        <location offset="35807" length="4"/>
+        <text>bG1F</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:09Z</infon>
+        <location offset="35813" length="45"/>
+        <text>biantennary, mono-galactosylated, fucosylated</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:13Z</infon>
+        <location offset="35877" length="18"/>
+        <text>process conditions</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:43Z</infon>
+        <location offset="35967" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:45Z</infon>
+        <location offset="35984" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:45Z</infon>
+        <location offset="36000" length="13"/>
+        <text>afucosylation</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:38Z</infon>
+        <location offset="36141" length="9"/>
+        <text>processes</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">449_2016_1693_Fig5_HTML.jpg</infon>
+      <infon key="id">Fig5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>36272</offset>
+      <text>Correlations and trends of glycosylation variants. (Black symbols represent processes at pH 7.0, blue symbols at pH 6.8, red symbols at pH 7.2; closed symbols represent processes at pCO2 5 %, half-closed at 12.5 % and open symbols at 20 %; triangles represent processes at pO2 25 %, squares at 10 %, circles at 40 %). Antibody galactosylation level (GI) over a sialylation (SI) and b afucosylation (aFI). Antibody galactosylation seemed to correlate positively with afucosylation and sialylation. A strong correlation between sialylation and mannosylation 8 were derived from C. In D, mannose 8 levels are plotted over mannose 6, it can be derived that highest mannosylation levels only occurred for processes at pH 6.8 and 7.2</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37006</offset>
+      <text>When plotting GI over SI and aFI, GI values correlate positively with aFI and SI values (Fig. 5a linear determination coefficient R 2 = 0.66; Fig. 5b linear determination coefficient R 2 = 0.36). This indicates that afucosylation, sialylation and galactosylation were all influenced likewise by process conditions. Additionally, highest SI levels could be observed mostly for pH values of 7.2. Furthermore, lowest SI levels did not occur for high pO2 values at 40 %. Regarding sialylation and process pH similar trends could be detected from Ivarsson et al.. Moreover, high sialylation correlated with high Mannose 8 (Fig. 5c linear determination coefficient R 2 = 0.82) variants but not with Mannose 6 variants. Finally, highest amounts of mannose 6 and 8 variants could only be observed for pH values at 6.8 and 7.2 (Fig. 5d). A huge amount of process variables affecting protein glycosylation in mammalian cells have been reported as substrate concentrations, media composition, by-product accumulation, temperature, cell viability and shear stress. Literature about the influence of process parameters on mAb glycosylation are partly contradicting and seem to be strongly dependent on the specific cell line, product and cultivation conditions. Concerning pO2 variations different results are reported but consistent glycosylation profiles can be expected for DO between 10 and 100 %. Ivarsson et al. stated a slight increased protein galactosylation and sialylation at low DO 10 % and high DO 90 % compared to 50 % DO. Studies about the influence of pCO2 on glycosylation are less represented. Nevertheless, Zanghi et al. and Kimura and Miller showed decreased polysialylation and N-glycolylneuraminic acid (NGNA) when increasing pCO2. Trummer et al. reported no effect on EPO-FC sialylation when varying DO between 10 and 100 % and pH between 6.8 and 7.3. In contrast, Ivarsson et al. recently showed that galactosylation and sialylation levels slightly increased when pH increased between 6.8 and 7.2. </text>
+      <annotation id="46">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:34Z</infon>
+        <location offset="37222" length="13"/>
+        <text>afucosylation</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:35Z</infon>
+        <location offset="37237" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:36Z</infon>
+        <location offset="37253" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:46Z</infon>
+        <location offset="37301" length="18"/>
+        <text>process conditions</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:54Z</infon>
+        <location offset="37343" length="8"/>
+        <text>SI level</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:32Z</infon>
+        <location offset="37382" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:00Z</infon>
+        <location offset="37420" length="9"/>
+        <text>SI levels</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:42Z</infon>
+        <location offset="37453" length="3"/>
+        <text>pO2</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:06Z</infon>
+        <location offset="37483" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:12Z</infon>
+        <location offset="37507" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:17Z</infon>
+        <location offset="37580" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:07Z</infon>
+        <location offset="37613" length="72"/>
+        <text>Mannose 8 (Fig. 5c linear determination coefficient R 2 = 0.82) variants</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:09Z</infon>
+        <location offset="37699" length="18"/>
+        <text>Mannose 6 variants</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:42Z</infon>
+        <location offset="37747" length="24"/>
+        <text>mannose 6 and 8 variants</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:25Z</infon>
+        <location offset="37799" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:52Z</infon>
+        <location offset="37888" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:57Z</infon>
+        <location offset="37943" length="24"/>
+        <text>substrate concentrations</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:59Z</infon>
+        <location offset="37969" length="17"/>
+        <text>media composition</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:01Z</infon>
+        <location offset="37988" length="23"/>
+        <text>by-product accumulation</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:01Z</infon>
+        <location offset="38013" length="11"/>
+        <text>temperature</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:04Z</infon>
+        <location offset="38026" length="14"/>
+        <text>cell viability</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:06Z</infon>
+        <location offset="38045" length="13"/>
+        <text>shear stress.</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:42:37Z</infon>
+        <location offset="38093" length="18"/>
+        <text>process parameters</text>
+      </annotation>
+      <annotation id="74">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:42:39Z</infon>
+        <location offset="38119" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:42:46Z</infon>
+        <location offset="38266" length="3"/>
+        <text>pO2</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:03Z</infon>
+        <location offset="38327" length="22"/>
+        <text>glycosylation profiles</text>
+      </annotation>
+      <annotation id="77">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:11Z</infon>
+        <location offset="38445" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:11Z</infon>
+        <location offset="38465" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:14Z</infon>
+        <location offset="38484" length="2"/>
+        <text>DO</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:17Z</infon>
+        <location offset="38501" length="2"/>
+        <text>DO</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:18Z</infon>
+        <location offset="38526" length="2"/>
+        <text>DO</text>
+      </annotation>
+      <annotation id="82">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:26Z</infon>
+        <location offset="38561" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="83">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:28Z</infon>
+        <location offset="38569" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:31Z</infon>
+        <location offset="38672" length="15"/>
+        <text>polysialylation</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:43:34Z</infon>
+        <location offset="38692" length="25"/>
+        <text>N-glycolylneuraminic acid</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:16Z</infon>
+        <location offset="38741" length="4"/>
+        <text>pCO2</text>
+      </annotation>
+      <annotation id="87">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:22Z</infon>
+        <location offset="38784" length="18"/>
+        <text>EPO-FC sialylation</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:24Z</infon>
+        <location offset="38816" length="2"/>
+        <text>DO</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:28Z</infon>
+        <location offset="38844" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="90">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:30Z</infon>
+        <location offset="38918" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="91">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:31Z</infon>
+        <location offset="38938" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:44:35Z</infon>
+        <location offset="38981" length="2"/>
+        <text>pH</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab5.xml</infon>
+      <infon key="id">Tab5</infon>
+      <infon key="type">table_caption</infon>
+      <offset>39032</offset>
+      <text>Summary table of key responses affected by process parameter interactions as well as the observed single parameter effects and literature comparison</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab5.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left"/&gt;&lt;th align="left"&gt;Observed single parameter effects&lt;/th&gt;&lt;th align="left"&gt;Process parameter interactions&lt;/th&gt;&lt;th align="left"&gt;Literature&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt;micro&lt;sub&gt;average&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Higher at increased pH, and &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt;; quadratic &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; effects&lt;/td&gt;&lt;td align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Similar single effects &lt;xref ref-type="bibr" rid="CR13"&gt;13&lt;/xref&gt;&lt;xref ref-type="bibr" rid="CR15"&gt;15&lt;/xref&gt;&lt;xref ref-type="bibr" rid="CR18"&gt;18&lt;/xref&gt;&lt;xref ref-type="bibr" rid="CR25"&gt;25&lt;/xref&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;p&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Higher at increased pH, and &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt;; quadratic &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; effects&lt;/td&gt;&lt;td align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Similar single effects&lt;xref ref-type="bibr" rid="CR15"&gt;15&lt;/xref&gt;&lt;xref ref-type="bibr" rid="CR20"&gt;20&lt;/xref&gt;; Contrary single effects &lt;xref ref-type="bibr" rid="CR13"&gt;13&lt;/xref&gt;&lt;xref ref-type="bibr" rid="CR25"&gt;25&lt;/xref&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;italic&gt;q&lt;/italic&gt; &lt;sub&gt;AA&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Higher uptake rates and lower production rates of several amino acids at increased pH and &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt;; contrary effects of &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt;/pH x &lt;italic&gt;p&lt;/italic&gt;O&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Similar single effects of process pH &lt;xref ref-type="bibr" rid="CR13"&gt;13&lt;/xref&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;mAb acidic charge variant (ACV 2)&lt;/td&gt;&lt;td align="left"&gt;Higher at increased process pH&lt;/td&gt;&lt;td align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;No literature available since variant identity is unknown&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;mAb sialylation (bG1FSA_2)&lt;/td&gt;&lt;td align="left"&gt;Quadratic pH effects&lt;/td&gt;&lt;td align="left"&gt;pH x &lt;italic&gt;p&lt;/italic&gt;CO&lt;sub&gt;2&lt;/sub&gt; &lt;/td&gt;&lt;td align="left"&gt;Similar interaction effect &lt;xref ref-type="bibr" rid="CR19"&gt;19&lt;/xref&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab5</infon>
+      <infon key="type">table</infon>
+      <offset>39181</offset>
+      <text> Observed single parameter effects Process parameter interactions Literature   microaverage Higher at increased pH, and pO2; quadratic pCO2 effects pH x pCO2 Similar single effects    qp Higher at increased pH, and pO2; quadratic pCO2 effects pH x pCO2 Similar single effects; Contrary single effects    qAA Higher uptake rates and lower production rates of several amino acids at increased pH and pO2; contrary effects of pCO2 pH x pCO2/pH x pO2 Similar single effects of process pH    mAb acidic charge variant (ACV 2) Higher at increased process pH pH x pCO2 No literature available since variant identity is unknown   mAb sialylation (bG1FSA_2) Quadratic pH effects pH x pCO2 Similar interaction effect    </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab5.xml</infon>
+      <infon key="id">Tab5</infon>
+      <infon key="type">table_foot</infon>
+      <offset>39907</offset>
+      <text>Key responses with process parameter interaction effects: average specific cell growth (micro average), specific productivity (q p), specific amino acid consumption/production rates (q AA), acidic charge variant 2 and mAb sialylation variant bG1FSA_2. Effects are only valid inside of the experimental design space. Contradictions to/in literature may derive from cell line specific effects. More detailed information is presented in the corresponding paragraphs of the "Results and discussion" section</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40411</offset>
+      <text>Finally, through our applied control strategy and experimental design, we could not only detect independent single process parameter effects on cell physiology and product quality but also furthermore derive several new process parameters interaction effects. A short summary of several key responses affected by process parameter interactions is given in Table 5. </text>
+      <annotation id="93">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:45:03Z</infon>
+        <location offset="40526" length="17"/>
+        <text>process parameter</text>
+      </annotation>
+      <annotation id="94">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:45:09Z</infon>
+        <location offset="40575" length="15"/>
+        <text>product quality</text>
+      </annotation>
+      <annotation id="95">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:45:16Z</infon>
+        <location offset="40631" length="18"/>
+        <text>process parameters</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>40778</offset>
+      <text>Conclusions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40790</offset>
+      <text>The goal of this contribution was to assess the interactions of scale dependent process parameters and their independent effects in a multivariate manner. Only, the decoupled control of process pH, pO2 and pCO2, allowed us to execute a design of experiments to investigate the interactions and independent influences of these parameters on CHO cell physiology, process performance and critical product quality attributes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41212</offset>
+      <text>Concerning cell specific growth, glucose consumption, lactate production, amino acid metabolism and specific productivity process pH seemed to provoke the strongest effects. Variations of pO2 and pCO2 exerted influence on cell growth as well as on specific productivity, whereby we found a positive correlation for dissolved oxygen and mostly quadratic interactions for pCO2 with an optimum at around 10 % (90 mmHg). Amino acid metabolism was mainly affected by pH, but the gathered data revealed additional interactions and single effects of pO2 and pCO2.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41771</offset>
+      <text>Besides process performance, final product quality is of upmost importance for pharmaceutical bioprocesses. Therefore, critical quality attributes (CQAs), such as charge and size heterogeneity as well as N-glycosylation pattern were investigated. Concerning mAb aggregation and fragmentation no correlations with process pH, pO2 or pCO2 could be obtained. Significant correlations between process pH or pCO2 with mAb charge modifications as asparagine deamidation and aspartate isomerization could be derived from data out of cation exchange chromatography. The effect of process parameters on N-glycosylation heterogeneity is reported contradictorily in the literature and seems to be strongly dependent from the specific cell line, product and further cultivation conditions. In our study, positive correlations between antibody galactosylation, afucosylation and sialylation were found. Furthermore, highest sialylation levels could mostly be detected at pH 7.2 and highest mannose variants (Man8 and Man6) could only be observed at two distinct pH set points.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42835</offset>
+      <text>In the end, novel interactions that could be derived are pH and pCO2 interaction effects on specific cell growth (micro max, micro average) and specific productivity (q P). Moreover, several interaction effects of pO2 and pCO2 with pH on amino acid metabolism, as well as pCO2 and pH interactions on mAb charge variants and N-glycosylation variants were identified.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43201</offset>
+      <text>The presented results demonstrate the necessity to consider process parameter interactions on cell physiology, overall process performance and product quality. In large-scale processes, heterogeneities and gradients of process pH, pO2 and pCO2 can occur, exposing cells dynamically to changing environments. Therefore, not only the single parameter influences but also their interaction effects vary inside of large-scale processes. Especially process pH and pCO2 are usually coupled in cell culture processes, whereby zones with high pH, as they can appear due to base addition from top, simultaneously lead to low pCO2 values, whereas pCO2 accumulation can lead to zones with lower pH values, respectively. Based on our results, pH variations that might occur due to CO2 accumulation or base addition in large-scale are most probably the dominant factor concerning process parameter induced scale-up effects. CO2 accumulation in large-scale can furthermore reduce specific cell growth, specific productivity and affect amino acid metabolism. In our experiments, pO2 had the lowest effects on cell physiology and product quality. Therefore, temporary pO2 gradients that might occur in large-scale most probably only exert minor effects on process performance and CQAs. Based on the results of this study the consideration of process parameter interactions is recommended for mechanistic and hybrid modeling approaches as well as scale-up tasks.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>44647</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44681</offset>
+      <text>Below is the link to the electronic supplementary material.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>44743</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44764</offset>
+      <text>The authors declare no financial or commercial conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>44833</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Glieder;given-names:A</infon>
+      <infon key="name_2">surname:Krainer;given-names:F</infon>
+      <infon key="name_1">surname:Capone;given-names:S</infon>
+      <infon key="name_0">surname:Spadiut;given-names:O</infon>
+      <infon key="fpage">54</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.tibtech.2013.10.002</infon>
+      <infon key="pub-id_pmid">24183828</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">60</infon>
+      <infon key="name_4">surname:Herwig;given-names:C</infon>
+      <offset>44844</offset>
+      <text>Microbials for the production of monoclonal antibodies and antibody fragments</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lee;given-names:GM</infon>
+      <infon key="name_1">surname:Kim;given-names:YG</infon>
+      <infon key="name_0">surname:Kim;given-names:JY</infon>
+      <infon key="fpage">917</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1007/s00253-011-3758-5</infon>
+      <infon key="pub-id_pmid">22159888</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">93</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">930</infon>
+      <offset>44922</offset>
+      <text>CHO cells in biotechnology for production of recombinant proteins: current state and further potential</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hernandez;given-names:R</infon>
+      <infon key="fpage">24</infon>
+      <infon key="issue">6</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Pharm Technol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">29</infon>
+      <offset>45025</offset>
+      <text>Top trends in biopharmaceutical manufacturing: 2015</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kim;given-names:WD</infon>
+      <infon key="name_1">surname:Onitsuka;given-names:M</infon>
+      <infon key="name_0">surname:Omasa;given-names:T</infon>
+      <infon key="fpage">233</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.2174/138920110791111960</infon>
+      <infon key="pub-id_pmid">20210750</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Curr Pharm Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">240</infon>
+      <offset>45077</offset>
+      <text>Cell engineering and cultivation of chinese hamster ovary (CHO) cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yap;given-names:MGS</infon>
+      <infon key="volume">103</infon>
+      <infon key="name_2">surname:Hu;given-names:W-S</infon>
+      <infon key="name_1">surname:Wlaschin;given-names:KF</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jayapal;given-names:KP</infon>
+      <infon key="fpage">40</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Chem Eng Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">47</infon>
+      <offset>45147</offset>
+      <text>Recombinant protein therapeutics from CHO cells-20 years and counting</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>45218</offset>
+      <text>International Conference of Harmonisation, ICH Harmonised Tripartite Guideline: Q8(R2) Pharmaceutical Development. (2009). http://www.ich.org/fileadmin/Public_Web_Site/ICH_Products/Guidelines/Quality/Q8_R1/Step4/Q8_R2_Guideline.pdf. Accessed 1 May 2016</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Galvanauskas;given-names:V</infon>
+      <infon key="name_2">surname:Francois;given-names:K</infon>
+      <infon key="name_1">surname:Davy;given-names:S</infon>
+      <infon key="name_0">surname:von Stosch;given-names:M</infon>
+      <infon key="fpage">719</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/biot.201300385</infon>
+      <infon key="pub-id_pmid">24806479</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="name_10">surname:Glassey;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Rice;given-names:P</infon>
+      <infon key="name_8">surname:O'Kennedy;given-names:R</infon>
+      <infon key="name_7">surname:Oliveira;given-names:R</infon>
+      <infon key="lpage">726</infon>
+      <infon key="name_6">surname:Mayer;given-names:M</infon>
+      <infon key="name_5">surname:Luebbert;given-names:A</infon>
+      <infon key="name_4">surname:Hamelink;given-names:JM</infon>
+      <offset>45471</offset>
+      <text>Hybrid modeling for quality by design and PAT-benefits and challenges of applications in biopharmaceutical industry</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Palomares;given-names:LA</infon>
+      <infon key="name_2">surname:Ramirez;given-names:OT</infon>
+      <infon key="name_1">surname:Galindo;given-names:E</infon>
+      <infon key="name_0">surname:Lara;given-names:AR</infon>
+      <infon key="fpage">355</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1385/MB:34:3:355</infon>
+      <infon key="pub-id_pmid">17284782</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Mol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">381</infon>
+      <offset>45587</offset>
+      <text>Living with heterogeneities in bioreactors: understanding the effects of environmental gradients on cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Nienow;given-names:AW</infon>
+      <infon key="fpage">9</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1007/s10616-006-9005-8</infon>
+      <infon key="pub-id_pmid">19003068</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">33</infon>
+      <offset>45693</offset>
+      <text>Reactor engineering in large scale animal cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:SS</infon>
+      <infon key="name_2">surname:Li;given-names:ZJ</infon>
+      <infon key="name_1">surname:Kenty;given-names:BM</infon>
+      <infon key="name_0">surname:Xing;given-names:Z</infon>
+      <infon key="fpage">733</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.22287</infon>
+      <infon key="pub-id_pmid">19280669</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">103</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">746</infon>
+      <offset>45748</offset>
+      <text>Scale-up analysis for a CHO cell culture process in large-scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>45824</offset>
+      <text>Rea JC, Wang YJ, Moreno TG, Parikh R, Lou Y, Farnan D (2012) Monoclonal antibody development and physicochemical characterization by high performance ion exchange chromatography. In: Agbo EC (ed) Innovations in biotechnology. InTech, pp 439-464. ISBN: 978-953-51-0096-6, http://www.intechopen.com/books/innovations-in-biotechnology/monoclonal-antibody-development-and-physicochemical-characterization-by-high-performance-ion-exchang</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>46259</offset>
+      <text>Cromwell ME (2006) Formulation, filling and packaging. In: Ozturk SS, Hu W-S (eds) Cell culture technology for pharmaceutical and cell-based therapies, chap 14. Taylor &amp; Francis Group, London, pp 483-522</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Schriebl;given-names:K</infon>
+      <infon key="name_2">surname:Seidinger;given-names:S</infon>
+      <infon key="name_1">surname:Fauland;given-names:K</infon>
+      <infon key="name_0">surname:Trummer;given-names:E</infon>
+      <infon key="fpage">1033</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.21013</infon>
+      <infon key="pub-id_pmid">16736530</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">94</infon>
+      <infon key="name_10">surname:Muller;given-names:D</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Katinger;given-names:H</infon>
+      <infon key="name_8">surname:Borth;given-names:N</infon>
+      <infon key="name_7">surname:Weik;given-names:R</infon>
+      <infon key="lpage">1044</infon>
+      <infon key="name_6">surname:Vorauer-Uhl;given-names:K</infon>
+      <infon key="name_5">surname:Kunert;given-names:R</infon>
+      <infon key="name_4">surname:Lattenmayer;given-names:C</infon>
+      <offset>46465</offset>
+      <text>Process parameter shifting: part I. Effect of DOT, pH, and temperature on the performance of Epo-Fc expressing CHO cells cultivated in controlled batch bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nagashima;given-names:H</infon>
+      <infon key="name_2">surname:Shinoda;given-names:Y</infon>
+      <infon key="name_1">surname:Nishikawa;given-names:T</infon>
+      <infon key="name_0">surname:Kishishita;given-names:S</infon>
+      <infon key="fpage">700</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiosc.2014.10.028</infon>
+      <infon key="pub-id_pmid">25466646</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J Biosci Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">119</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">705</infon>
+      <infon key="name_6">surname:Aoyagi;given-names:H</infon>
+      <infon key="name_5">surname:Takuma;given-names:S</infon>
+      <infon key="name_4">surname:Okamoto;given-names:H</infon>
+      <offset>46629</offset>
+      <text>Effect of temperature shift on levels of acidic charge variants in IgG monoclonal antibodies in Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Essers;given-names:R</infon>
+      <infon key="name_2">surname:Graham;given-names:R</infon>
+      <infon key="name_1">surname:Backstrom;given-names:M</infon>
+      <infon key="name_0">surname:Link;given-names:T</infon>
+      <infon key="fpage">51</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2003.12.008</infon>
+      <infon key="pub-id_pmid">15099905</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Noll;given-names:T</infon>
+      <infon key="name_8">surname:Hansson;given-names:GC</infon>
+      <infon key="name_7">surname:Taylor-Papadimitriou;given-names:J</infon>
+      <infon key="lpage">62</infon>
+      <infon key="name_6">surname:Burchell;given-names:J</infon>
+      <infon key="name_5">surname:Gatgens;given-names:J</infon>
+      <infon key="name_4">surname:Zorner;given-names:K</infon>
+      <offset>46760</offset>
+      <text>Bioprocess development for the production of a recombinant MUC1 fusion protein expressed by CHO-K1 cells in protein-free medium</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kiss;given-names:R</infon>
+      <infon key="name_2">surname:Shen;given-names:AY</infon>
+      <infon key="name_1">surname:Vijayasankaran;given-names:N</infon>
+      <infon key="name_0">surname:Li;given-names:F</infon>
+      <infon key="fpage">466</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.4161/mabs.2.5.12720</infon>
+      <infon key="pub-id_pmid">20622510</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">479</infon>
+      <infon key="name_4">surname:Amanullah;given-names:A</infon>
+      <offset>46888</offset>
+      <text>Cell culture processes for monoclonal antibody production</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Soos;given-names:M</infon>
+      <infon key="volume">188c</infon>
+      <infon key="name_2">surname:Morbidelli;given-names:M</infon>
+      <infon key="name_1">surname:Villiger;given-names:TK</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ivarsson;given-names:M</infon>
+      <infon key="fpage">88</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2014.08.026</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">96</infon>
+      <offset>46946</offset>
+      <text>Evaluating the impact of cell culture process parameters on monoclonal antibody N-glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Miller;given-names:WM</infon>
+      <infon key="name_1">surname:Kimura;given-names:R</infon>
+      <infon key="name_0">surname:Dezengotita;given-names:VM</infon>
+      <infon key="fpage">213</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1023/A:1008010605287</infon>
+      <infon key="pub-id_pmid">19003422</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">227</infon>
+      <offset>47042</offset>
+      <text>Effects of CO2 and osmolality on hybridoma cells: growth, metabolism and monoclonal antibody production</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Knop;given-names:RH</infon>
+      <infon key="name_2">surname:Mendoza;given-names:TP</infon>
+      <infon key="name_1">surname:Schmelzer;given-names:AE</infon>
+      <infon key="name_0">surname:Zanghi;given-names:JA</infon>
+      <infon key="fpage">182</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(19991020)65:2&lt;182::AID-BIT8&gt;3.0.CO;2-D</infon>
+      <infon key="pub-id_pmid">10458739</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">65</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">191</infon>
+      <infon key="name_4">surname:Miller;given-names:WM</infon>
+      <offset>47146</offset>
+      <text>Bicarbonate concentration and osmolality are key determinants in the inhibition of CHO cell polysialylation under elevated pCO(2) or pH</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Inlow;given-names:D</infon>
+      <infon key="name_2">surname:Howarth;given-names:W</infon>
+      <infon key="name_1">surname:Chen;given-names:S</infon>
+      <infon key="name_0">surname:Gray;given-names:DR</infon>
+      <infon key="fpage">65</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1007/BF00353925</infon>
+      <infon key="pub-id_pmid">22358916</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">78</infon>
+      <infon key="name_4">surname:Maiorella;given-names:BL</infon>
+      <offset>47282</offset>
+      <text>CO(2) in large-scale and high-density CHO cell perfusion culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Soos;given-names:M</infon>
+      <infon key="name_2">surname:Morbidelli;given-names:M</infon>
+      <infon key="name_1">surname:Noh;given-names:H</infon>
+      <infon key="name_0">surname:Ivarsson;given-names:M</infon>
+      <infon key="fpage">347</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2043</infon>
+      <infon key="pub-id_pmid">25906421</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">357</infon>
+      <offset>47347</offset>
+      <text>Insights into pH-induced metabolic switch by flux balance analysis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Piret;given-names:JM</infon>
+      <infon key="name_2">surname:Konstantinov;given-names:KB</infon>
+      <infon key="name_1">surname:Biener;given-names:R</infon>
+      <infon key="name_0">surname:Goudar;given-names:CT</infon>
+      <infon key="fpage">986</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.155</infon>
+      <infon key="pub-id_pmid">19551875</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">998</infon>
+      <offset>47414</offset>
+      <text>Error propagation from prime variables into specific rates and metabolic fluxes for mammalian cells in perfusion culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Oelssner;given-names:W</infon>
+      <infon key="name_2">surname:Cornand;given-names:P</infon>
+      <infon key="name_1">surname:Blank;given-names:HC</infon>
+      <infon key="name_0">surname:Frahm;given-names:B</infon>
+      <infon key="fpage">133</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/S0168-1656(02)00180-3</infon>
+      <infon key="pub-id_pmid">12270601</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">99</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Portner;given-names:R</infon>
+      <infon key="name_7">surname:Johannsen;given-names:K</infon>
+      <infon key="lpage">148</infon>
+      <infon key="name_6">surname:Munack;given-names:A</infon>
+      <infon key="name_5">surname:Lane;given-names:P</infon>
+      <infon key="name_4">surname:Guth;given-names:U</infon>
+      <offset>47535</offset>
+      <text>Determination of dissolved CO(2) concentration and CO(2) production rate of mammalian cell suspension culture based on off-gas measurement</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Brunner;given-names:M</infon>
+      <infon key="name_2">surname:Kroll;given-names:P</infon>
+      <infon key="name_1">surname:Heinzel;given-names:N</infon>
+      <infon key="name_0">surname:Klein;given-names:T</infon>
+      <infon key="fpage">67</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.04.021</infon>
+      <infon key="pub-id_pmid">25956245</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">207</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">76</infon>
+      <infon key="name_5">surname:Neutsch;given-names:L</infon>
+      <infon key="name_4">surname:Herwig;given-names:C</infon>
+      <offset>47674</offset>
+      <text>Quantification of cell lysis during CHO bioprocesses: impact on cell count, growth kinetics and productivity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:GM</infon>
+      <infon key="name_2">surname:Song;given-names:JY</infon>
+      <infon key="name_1">surname:Choi;given-names:SL</infon>
+      <infon key="name_0">surname:Yoon;given-names:SK</infon>
+      <infon key="fpage">345</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/bit.20353</infon>
+      <infon key="pub-id_pmid">15625678</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">356</infon>
+      <offset>47783</offset>
+      <text>Effect of culture pH on erythropoietin production by Chinese hamster ovary cells grown in suspension at 32.5 and 37.0  C</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hu;given-names:W-S</infon>
+      <infon key="name_2">surname:Ozturk;given-names:SS</infon>
+      <infon key="name_1">surname:Cairo;given-names:JJ</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Godia;given-names:F</infon>
+      <infon key="fpage">81</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Cell culture technology for pharamceutical and cell-based therapies</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">112</infon>
+      <offset>47906</offset>
+      <text>Cell metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lopez-Pacheco;given-names:F</infon>
+      <infon key="name_2">surname:Araiz-Hernandez;given-names:D</infon>
+      <infon key="name_1">surname:Genel-Rey;given-names:T</infon>
+      <infon key="name_0">surname:Carrillo-Cocom;given-names:LM</infon>
+      <infon key="fpage">809</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1007/s10616-014-9720-5</infon>
+      <infon key="pub-id_pmid">24798809</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">67</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Alvarez;given-names:MM</infon>
+      <infon key="lpage">820</infon>
+      <infon key="name_6">surname:Ramirez-Medrano;given-names:A</infon>
+      <infon key="name_5">surname:Rocha-Pizana;given-names:MR</infon>
+      <infon key="name_4">surname:Lopez-Meza;given-names:J</infon>
+      <offset>47922</offset>
+      <text>Amino acid consumption in naive and recombinant CHO cell cultures: producers of a monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hudson;given-names:T</infon>
+      <infon key="name_2">surname:Vijayasankaran;given-names:N</infon>
+      <infon key="name_1">surname:Wong;given-names:CL</infon>
+      <infon key="name_0">surname:Li;given-names:J</infon>
+      <infon key="fpage">1173</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/bit.24389</infon>
+      <infon key="pub-id_pmid">22124879</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1186</infon>
+      <infon key="name_4">surname:Amanullah;given-names:A</infon>
+      <offset>48024</offset>
+      <text>Feeding lactate for CHO cell culture processes: impact on culture metabolism and performance</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Broly;given-names:H</infon>
+      <infon key="name_2">surname:Stettler;given-names:M</infon>
+      <infon key="name_1">surname:Jordan;given-names:M</infon>
+      <infon key="name_0">surname:Zagari;given-names:F</infon>
+      <infon key="fpage">238</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/j.nbt.2012.05.021</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">New Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">245</infon>
+      <infon key="name_4">surname:Wurm;given-names:FM</infon>
+      <offset>48117</offset>
+      <text>Lactate metabolism shift in CHO cell culture: the role of mitochondrial oxidative activity</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Heinzle;given-names:E</infon>
+      <infon key="name_1">surname:Nicolae;given-names:A</infon>
+      <infon key="name_0">surname:Wahrheit;given-names:J</infon>
+      <infon key="fpage">1771</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1007/s00253-013-5452-2</infon>
+      <infon key="pub-id_pmid">24362913</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">98</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1783</infon>
+      <offset>48208</offset>
+      <text>Dynamics of growth and metabolism controlled by glutamine availability in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="name_1">surname:Lee;given-names:GM</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kim;given-names:HS</infon>
+      <infon key="fpage">712</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">18051290</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">J Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">720</infon>
+      <offset>48310</offset>
+      <text>Differences in optimal pH and temperature for cell growth and antibody production between two Chinese hamster ovary clones derived from the same parental clone</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Motchnik;given-names:P</infon>
+      <infon key="name_2">surname:Liu;given-names:H</infon>
+      <infon key="name_1">surname:Liu;given-names:D</infon>
+      <infon key="name_0">surname:Lu;given-names:C</infon>
+      <infon key="fpage">102</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.4161/mabs.22965</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">113</infon>
+      <offset>48470</offset>
+      <text>Characterization of monoclonal antibody size variants containing extra light chains</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Egan;given-names:S</infon>
+      <infon key="name_2">surname:Nayak;given-names:S</infon>
+      <infon key="name_1">surname:Borys;given-names:M</infon>
+      <infon key="name_0">surname:Jing;given-names:Y</infon>
+      <infon key="fpage">69</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.procbio.2011.10.009</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Process Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">47</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">75</infon>
+      <infon key="name_6">surname:Li;given-names:ZJ</infon>
+      <infon key="name_5">surname:Pan;given-names:S-H</infon>
+      <infon key="name_4">surname:Qian;given-names:Y</infon>
+      <offset>48554</offset>
+      <text>Identification of cell culture conditions to control protein aggregation of IgG fusion proteins expressed in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chumsae;given-names:C</infon>
+      <infon key="name_2">surname:Faldu;given-names:D</infon>
+      <infon key="name_1">surname:Gaza-Bulseco;given-names:G</infon>
+      <infon key="name_0">surname:Liu;given-names:H</infon>
+      <infon key="fpage">2426</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1002/jps.21180</infon>
+      <infon key="pub-id_pmid">17828757</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">J Pharm Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">97</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2447</infon>
+      <infon key="name_4">surname:Sun;given-names:J</infon>
+      <offset>48691</offset>
+      <text>Heterogeneity of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ilaria;given-names:G</infon>
+      <infon key="name_2">surname:Fabrizio;given-names:M</infon>
+      <infon key="name_1">surname:Daniela;given-names:G</infon>
+      <infon key="name_0">surname:Franco;given-names:R</infon>
+      <infon key="fpage">11</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1023/A:1008075423609</infon>
+      <infon key="pub-id_pmid">19003333</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">25</infon>
+      <infon key="name_4">surname:Detlev;given-names:H</infon>
+      <offset>48730</offset>
+      <text>Influence of osmolarity and pH increase to achieve a reduction of monoclonal antibodies aggregates in a production process</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Fujii;given-names:T</infon>
+      <infon key="name_2">surname:Takahama;given-names:S</infon>
+      <infon key="name_1">surname:Ohtsu;given-names:A</infon>
+      <infon key="name_0">surname:Usami;given-names:A</infon>
+      <infon key="fpage">1133</infon>
+      <infon key="issue">8-10</infon>
+      <infon key="pub-id_doi">10.1016/S0731-7085(96)01721-9</infon>
+      <infon key="pub-id_pmid">8818025</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">J Pharm Biomed Anal</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1140</infon>
+      <offset>48853</offset>
+      <text>The effect of pH, hydrogen peroxide and temperature on the stability of human monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>48951</offset>
+      <text>Gomes JM, Hiller GW (2008) Use of low temperature and/or low ph in cell culture. US 2008/0269132 A1</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Nagai;given-names:H</infon>
+      <infon key="name_1">surname:Koga;given-names:A</infon>
+      <infon key="name_0">surname:Terashima;given-names:I</infon>
+      <infon key="fpage">49</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.ab.2007.05.012</infon>
+      <infon key="pub-id_pmid">17617368</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">368</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">60</infon>
+      <offset>49051</offset>
+      <text>Identification of deamidation and isomerization sites on pharmaceutical recombinant antibody using H218O</text>
+    </passage>
+    <passage>
+      <infon key="volume">2013</infon>
+      <infon key="name_1">surname:Wright;given-names:JF</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zhong;given-names:X</infon>
+      <infon key="fpage">19</infon>
+      <infon key="pub-id_doi">10.1155/2013/273086</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Int J Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <offset>49156</offset>
+      <text>Biological insights into therapeutic protein modifications throughout trafficking and their biopharmaceutical applications</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nowak;given-names:C</infon>
+      <infon key="name_2">surname:Zhang;given-names:HM</infon>
+      <infon key="name_1">surname:Ponniah;given-names:G</infon>
+      <infon key="name_0">surname:Liu;given-names:H</infon>
+      <infon key="fpage">1145</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.4161/mabs.29883</infon>
+      <infon key="pub-id_pmid">25517300</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Andrien;given-names:B</infon>
+      <infon key="name_8">surname:Kita;given-names:AZ</infon>
+      <infon key="name_7">surname:Cheng;given-names:G</infon>
+      <infon key="lpage">1154</infon>
+      <infon key="name_6">surname:Patel;given-names:R</infon>
+      <infon key="name_5">surname:Gonzalez-Lopez;given-names:N</infon>
+      <infon key="name_4">surname:Neill;given-names:A</infon>
+      <offset>49279</offset>
+      <text>In vitro and in vivo modifications of recombinant and human IgG antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">308</infon>
+      <infon key="name_1">surname:Janis;given-names:LJ</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zheng;given-names:JY</infon>
+      <infon key="fpage">46</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_doi">10.1016/j.ijpharm.2005.10.024</infon>
+      <infon key="pub-id_pmid">16316730</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Int J Pharm</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">51</infon>
+      <offset>49354</offset>
+      <text>Influence of pH, buffer species, and storage temperature on physicochemical stability of a humanized monoclonal antibody LA298</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Zhang;given-names:J</infon>
+      <infon key="name_2">surname:Gikanga;given-names:B</infon>
+      <infon key="name_1">surname:Beckley;given-names:N</infon>
+      <infon key="name_0">surname:Yi;given-names:L</infon>
+      <infon key="fpage">947</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/jps.23423</infon>
+      <infon key="pub-id_pmid">23280575</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Pharm Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">102</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">959</infon>
+      <infon key="name_6">surname:Sharma;given-names:VK</infon>
+      <infon key="name_5">surname:Chih;given-names:HW</infon>
+      <infon key="name_4">surname:Wang;given-names:YJ</infon>
+      <offset>49481</offset>
+      <text>Isomerization of Asp-Asp motif in model peptides and a monoclonal antibody Fab fragment</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Flynn;given-names:GC</infon>
+      <infon key="name_1">surname:Pan;given-names:H</infon>
+      <infon key="name_0">surname:Cai;given-names:B</infon>
+      <infon key="fpage">404</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/bit.22933</infon>
+      <infon key="pub-id_pmid">20830675</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">412</infon>
+      <offset>49571</offset>
+      <text>C-terminal lysine processing of human immunoglobulin G2 heavy chain in vivo</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Adamo;given-names:M</infon>
+      <infon key="name_2">surname:Mahon;given-names:D</infon>
+      <infon key="name_1">surname:Qiu;given-names:D</infon>
+      <infon key="name_0">surname:Dick;given-names:LW;suffix:Jr</infon>
+      <infon key="fpage">1132</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.21855</infon>
+      <infon key="pub-id_pmid">18553400</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">100</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1143</infon>
+      <infon key="name_4">surname:Cheng;given-names:KC</infon>
+      <offset>49647</offset>
+      <text>C-terminal lysine variants in fully human monoclonal antibodies: investigation of test methods and possible causes</text>
+    </passage>
+    <passage>
+      <infon key="volume">705</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Harris;given-names:RJ</infon>
+      <infon key="fpage">129</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/0021-9673(94)01255-D</infon>
+      <infon key="pub-id_pmid">7620566</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">J Chromatogr A</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">134</infon>
+      <offset>49762</offset>
+      <text>Processing of C-terminal lysine and arginine residues of proteins isolated from mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chavez;given-names:BK</infon>
+      <infon key="name_2">surname:Lute;given-names:SC</infon>
+      <infon key="name_1">surname:Schiel;given-names:JE</infon>
+      <infon key="name_0">surname:Agarabi;given-names:CD</infon>
+      <infon key="fpage">1919</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/jps.24420</infon>
+      <infon key="pub-id_pmid">25762022</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J Pharm Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">104</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Read;given-names:EK</infon>
+      <infon key="lpage">1928</infon>
+      <infon key="name_6">surname:Khan;given-names:M</infon>
+      <infon key="name_5">surname:Brorson;given-names:KA</infon>
+      <infon key="name_4">surname:Boyne;given-names:MT;suffix:II</infon>
+      <offset>49865</offset>
+      <text>Bioreactor process parameter screening utilizing a Plackett-Burman design for a model monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="name_1">surname:Jordan;given-names:RE</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Raju;given-names:TS</infon>
+      <infon key="fpage">385</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.4161/mabs.19868</infon>
+      <infon key="pub-id_pmid">22531450</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">391</infon>
+      <offset>49973</offset>
+      <text>Galactosylation variations in marketed therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Li;given-names:ZJ</infon>
+      <infon key="name_1">surname:Khattak;given-names:SF</infon>
+      <infon key="name_0">surname:Hossler;given-names:P</infon>
+      <infon key="fpage">936</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwp079</infon>
+      <infon key="pub-id_pmid">19494347</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">949</infon>
+      <offset>50035</offset>
+      <text>Optimal and consistent protein glycosylation in mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_1">surname:Miller;given-names:WM</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kimura;given-names:R</infon>
+      <infon key="fpage">311</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1021/bp9700162</infon>
+      <infon key="pub-id_pmid">9190082</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">317</infon>
+      <offset>50106</offset>
+      <text>Glycosylation of CHO-derived recombinant tPA produced under elevated pCO2</text>
+    </passage>
+  </document>
+</collection>

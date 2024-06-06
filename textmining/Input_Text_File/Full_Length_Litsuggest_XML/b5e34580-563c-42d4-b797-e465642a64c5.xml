@@ -1,0 +1,142 @@
+<article article-type="Journal Article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Journal of biotechnology</journal-title>
+      </journal-title-group>
+      <issn>1873-4863</issn>
+      <publisher>
+        <publisher-name>Medline</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">34154738</article-id>
+      <article-id pub-id-type="doi">10.1016/j.btecx.2020.100015</article-id>
+      <article-id pub-id-type="pii">S2590-1559(20)30002-0</article-id>
+      <article-id pub-id-type="wtfid">009586142_0002690_230127230909388905</article-id>
+      <article-id pub-id-type="tdm">medline_TDM-34154738</article-id>
+      <title-group>
+        <article-title>Comparison of two glycoengineering strategies to control the fucosylation of a monoclonal antibody.</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Mishra</surname>
+          <given-names>Neha</given-names>
+          <aff>Department of Microbiology, University of Manitoba, Winnipeg, R3T 2N2, Canada.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Spearman</surname>
+          <given-names>Maureen</given-names>
+          <aff>Department of Microbiology, University of Manitoba, Winnipeg, R3T 2N2, Canada.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Donald</surname>
+          <given-names>Lynda</given-names>
+          <aff>Department of Microbiology, University of Manitoba, Winnipeg, R3T 2N2, Canada.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Perreault</surname>
+          <given-names>Helene</given-names>
+          <aff>Department of Chemistry, University of Manitoba, Winnipeg, R3T 2N2, Canada.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Butler</surname>
+          <given-names>Michael</given-names>
+          <aff>Department of Microbiology, University of Manitoba, Winnipeg, R3T 2N2, Canada; National Institute for Bioprocessing Research &amp; Training (NIBRT), Fosters Avenue, Dublin4, Ireland. Electronic address: michael.butler@nibrt.ie.</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>1</day>
+        <month>1</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>324S</volume>
+      <fpage>100015</fpage>
+      <abstract>
+        <p>Core fucosylation of an Fc N-linked glycan affects antibody effector functions, as the absence of fucose increases the antibody dependent cell cytotoxicity (ADCC) response with increased binding to the Fcγ receptors. The work presented here compares two different approaches to incrementally reduce core fucosylation of a camelid heavy chain antibody, EG2-hFc expressed in CHO cells which targets the EGFR receptor. The first method uses a fucosyltransferase (FUT) inhibitor, 2- fluoro peracetylated fucose (2FF), which was added to cell cultures expressing the EG2-hFc antibody in increasing concentrations up to 50μM. At this concentration there was no observed effect on cell growth. Glycan analysis was performed on antibodies collected from culture samples using HILIC-HPLC. The inhibitor reduced total fucosylation from 80% to 17.5% at 20μM 2FF. The second method involved transfecting the EG2-hFc producing cells with a prokaryotic GDP- 6-deoxy-D-lyxo-4-hexulose reductase (RMD) gene in order to deflect the fucose de novo pathway into producing rhamnose which is not incorporated into a glycan. Stable clones from transfected pools were isolated following flow cytometry using the green fluorescent protein (GFP) marker which was co-expressed with the RMD gene. High expressing RMD clones reduced the fucosylation of the antibody glycan to as low as 16%. The addition of 2FF to cultures of these RMD clones reduced the fucosylation level even further to 3% of the antibody glycan. An incremental increase in fucosylation was obtained by step-wise addition of fucose (up to 1 mM) to the RMD cells, in which the fucosylation level increased to a maximum of 87%. We also used ESI-MS to analyze the fucosylation pattern of EG2-hFc with addition of increasing concentrations of 2FF. This showed that 2FF inhibits the addition of fucose in a concentration- dependent and specific manner with the inhibition of fucose occurring one fucose at a time. Control cultures showed the presence of a predominant peak indicating two fucose moieties per antibody. As the 2FF inhibitor concentration was increased peaks corresponding to one fucose per antibody and non-fucosylated antibody predominated with a gradual decrease of the 2 fucose peak to insignificance at 15 μM 2FF.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ADCC</kwd>
+        <kwd>Camelid heavy chain antibody</kwd>
+        <kwd>Fucosylation</kwd>
+        <kwd>Glycosylation</kwd>
+        <kwd>Monoclonal antibody therapeutics</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Antibodies, Monoclonal</chemical.name>
+          <chemical.ui>D000911</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>28RYY2IV3F</chemical.registryNumber>
+          <chemical.name>Fucose</chemical.name>
+          <chemical.ui>D005643</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Antibodies, Monoclonal</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetinae</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Fucose</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glycosylation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+      </kwd-group>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <back>
+    <ref-list/>
+  </back>
+</article>

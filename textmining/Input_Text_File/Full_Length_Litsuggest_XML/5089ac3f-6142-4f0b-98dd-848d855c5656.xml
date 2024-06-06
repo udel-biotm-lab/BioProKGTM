@@ -1,0 +1,2706 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Biotechnology and Bioengineering</journal-title>
+      </journal-title-group>
+      <issn>0006-3592</issn>
+      <issn>1097-0290</issn>
+      <publisher>
+        <publisher-name>John Wiley &amp; Sons</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1002/bit.23200</article-id>
+      <article-id pub-id-type="pmid">21557201</article-id>
+      <article-id pub-id-type="tdm">wiley_TDM-10.1002/bit.23200</article-id>
+      <title-group>
+        <article-title>Effects of cell culture conditions on antibody N‐linked glycosylation—what affects high mannose 5 glycoform</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Pacis</surname>
+          <given-names>Efren</given-names>
+          <aff>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Yu</surname>
+          <given-names>Marcella</given-names>
+          <aff>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Autsen</surname>
+          <given-names>Jennifer</given-names>
+          <aff>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Bayer</surname>
+          <given-names>Robert</given-names>
+          <aff>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Li</surname>
+          <given-names>Feng</given-names>
+          <aff>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>24</day>
+        <month>5</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>108</volume>
+      <issue>10</issue>
+      <fpage>2348</fpage>
+      <lpage>2358</lpage>
+      <abstract>
+        <p>Abstract
+The glycosylation profile of therapeutic antibodies is routinely analyzed throughout development to monitor the impact of process parameters and to ensure consistency, efficacy, and safety for clinical and commercial batches of therapeutic products. In this study, unusually high levels of the mannose‐5 (Man5) glycoform were observed during the early development of a therapeutic antibody produced from a Chinese hamster ovary (CHO) cell line, model cell line A. Follow up studies indicated that the antibody Man5 level was increased throughout the course of cell culture production as a result of increasing cell culture medium osmolality levels and extending culture duration. With model cell line A, Man5 glycosylation increased more than twofold from 12% to 28% in the fed‐batch process through a combination of high basal and feed media osmolality and increased run duration. The osmolality and culture duration effects were also observed for four other CHO antibody producing cell lines by adding NaCl in both basal and feed media and extending the culture duration of the cell culture process. Moreover, reduction of Man5 level from model cell line A was achieved by supplementing MnCl2 at appropriate concentrations. To further understand the role of glycosyltransferases in Man5 level, N‐acetylglucosaminyltransferase I GnT‐I mRNA levels at different osmolality conditions were measured. It has been hypothesized that specific enzyme activity in the glycosylation pathway could have been altered in this fed‐batch process. Biotechnol. Bioeng. 2011;108: 2348–2358. © 2011 Wiley Periodicals, Inc.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Chinese hamster ovary</kwd>
+        <kwd>culture duration</kwd>
+        <kwd>glycosylation</kwd>
+        <kwd>Man5</kwd>
+        <kwd>manganese chloride</kwd>
+        <kwd>osmolality</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Antibodies, Monoclonal, Murine-Derived</chemical.name>
+          <chemical.ui>D058846</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Culture Media</chemical.name>
+          <chemical.ui>D003470</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Recombinant Proteins</chemical.name>
+          <chemical.ui>D011994</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>PHA4727WTP</chemical.registryNumber>
+          <chemical.name>Mannose</chemical.name>
+          <chemical.ui>D008358</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Antibodies, Monoclonal, Murine-Derived</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>biosynthesis</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000096</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cell Culture Techniques</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetinae</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Culture Media</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>chemistry</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000737</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glycosylation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Mannose</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Mice</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Osmolar Concentration</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Recombinant Proteins</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>biosynthesis</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000096</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+      </kwd-group>
+      <sec sec-type="intro">
+        <p>Introduction The product quality of therapeutic monoclonal antibodies (mAbs) should be closely monitored and assessed throughout product development from cell line and process development, preclinical, and clinical material production to commercial manufacturing (Lubiniecki et al., 2011). During these different stages of development, product quality profiles can vary due to process changes, equipment, and facility differences, raw material lot‐to‐lot variation, and process control deviation. Understanding glycosylation is important because most therapeutic recombinant antibodies on the market or in development are glycoproteins produced in mammalian cells. Chinese hamster ovary (CHO) and mouse myeloma NS0 cell lines are common hosts due to their ability to produce large amounts of antibodies with similar glycosylation profiles to human IgGs (Jefferis, 2005; Raju, 2003). Several elements including cell line characteristics, process control parameters, and cell culture media components could affect glycosylation (Andersen et al., 2000; Butler, 2005) and therefore could impact biological activity, efficacy, stability, immunogenicity, clearance rate, antibody‐dependent cellular cytoxicity (ADCC), and complement‐dependent cytoxicity (CDC) (Burton and Dwek, 2006; Goochee et al., 1991). The impact of various cell culture conditions toward antibody glycosylation should be understood in order to produce monoclonal antibody products with consistent quality attributes. IgG antibodies produced in mammalian cells generally contain low levels of high mannose glycoforms (Man5‐9), typically below 5%, with the most common glycans being the complex glycoforms G0F, G1F, and G2F (van Berkel et al., 2009). These dominant glycoforms of IgGs produced in CHO cells are considered mature glycoforms. To illustrate how high mannose, hybrid, and complex glycoforms are formed, a simplified model of the N‐link glycan pathway is summarized in Figure 1. As glycoproteins pass through the endoplasmic reticulum (ER), the reducing ends of high mannose oligosaccharides are trimmed by multiple enzymes including Mannosidase‐1 to form Man5. The Man5 glycans are then further processed in the Golgi apparatus for the removal of α‐1,3‐mannose and the addition of N‐acetylglucosamine (GlcNAc) to form a hybrid glycan. The hybrid glycan is then further processed to complex glycans. Variability in the degree of completion in the multiple enzymatic steps involved results in a heterogeneous mixture of mostly complex glycans (G0F, G1F, and G2F), with a small amount of high mannose glycans (Kornfeld and Kornfeld, 1985; Kornfeld et al., 1978). 1 Simplified model of the N‐linked oligosaccharide processing pathway, illustrating the primary enzymes responsible for the formation of glycoforms. In general, human IgG has low amount of the Man5 glycoform (Walsh and Jefferis, 2006), and high level of high mannose glycoforms in the therapeutic antibody could be a concern due to uncertainty about its impact on clearance, immunogenicity, and efficacy. Antibodies bearing the Man5 glycoform produced by the glycosylation mutant CHO cell line Lec1 were reported to have deficiency in complement activation, reduced affinity to FcγRI, and reduced in vivo half‐life in a mouse study (Wright and Morrison, 1998; Wright et al., 2000). In another mouse model, the pharmacokinetic profile of antibodies with high mannose glycoforms did not show an early phase reduced half‐life but exhibited increased beta‐phase clearance (Kanda et al., 2007). Another recent study concluded that Man5 and higher mannose glycoforms exhibited comparable clearance in humans to antibodies bearing complex glycans due to high mannose (Man6‐9) conversion to Man5. The result suggested that the presence of a mannosidase in human serum was responsible for glycan cleavage, not differential antibody clearance (Chen et al., 2009). A complete understanding of the clearance of antibodies bearing Man5 or other high mannose glycoforms still remains to be resolved as demonstrated by the conflicting reports. Antibodies with high mannose have become of interest as therapeutics because of potential enhancement of biological activity. A previous study demonstrated the feasibility of producing high mannose antibody by adding glycosylation inhibitor to the cell culture process. As a result, high mannose antibodies that were generated with kifunensine treatment showed higher ADCC activity and greater affinity to FcγRIIIA (Zhou et al., 2008). Binding to the FcγIII receptor is dependent on the fucose content of the Fc glycans where a reduction in fucose can increase effector function. Fucose‐deficient IgG1s have shown a significant enhancement of ADCC up to 100‐fold (Mori et al., 2007; Shields et al., 2002). As afucosyl antibodies have become recognized as having potentially higher therapeutic potency due to enhanced ADCC function, high mannose antibodies, which also lack fucose, could also have therapeutic benefit. In a cell culture process, the factors that can most affect glycosylation include choice of cell lines, process conditions, and media composition. Cell culture process parameters such as temperature, pH, and dissolved oxygen (DO) have also been shown to have significant effects (Ahn et al., 2008; Borys et al., 1993). Culture temperatures below 32°C have resulted in a reduction of branched structures and degree of sialylation. Variations in pH have resulted in more aglycosylated proteins. Other impacts of cell culture parameters have been identified over the last three decades as bioprocess knowledge accumulates. However, most case studies were based on specific cell line(s), and no general trends on how process control impacts antibody glycosylation can be concluded (Calhoun, 2008). Media composition is another important factor that can significantly alter processing of oligosaccharides (Gawlitzek et al., 2000; Schmelzer and Miller, 2002; Zanghi et al., 1999). Legacy products that still use serum or hydrolysate‐containing media can be subject to lot‐to‐lot variability which could impact glycosylation profiles. Trace amounts of metals can modify glycosylation properties when added to cell culture media formulations (Hendrickson and Imperiali, 1995; Kaufman et al., 1994). Addition of copper (II) chloride has shown to increase the sialic acid content (Ryll, 1999). Manganese addition to the rHuEPO production process has shown to increase galactosylation and reduce lower sialyated fractions (Crowell et al., 2007). This study focused on investigating the impact of culture variables on the level of Man5 in antibodies made in CHO cells. Multiple cell culture process conditions and medium components were tested to evaluate their impact on glycosylation profile. By altering the NaCl concentrations of the basal and feed media to increase osmolality and by extending the run duration, general trends in Man5 glycosylation were observed with multiple cell lines. To test whether GlcNAc transferase I (GnT‐I) transcription changes during the course of a cell culture production, mRNA levels were measured among the different osmolality conditions. Although the impact of osmolality is still not fully understood, the increase of ammonia in the culture condition suggests an impact on enzyme activity in the glycosylation pathway. This work provides further insight on the role of osmolality, run duration, and manganese on Man5 glycosylation of recombinant antibody in CHO cell culture.</p>
+      </sec>
+      <sec sec-type="materials|methods">
+        <p>Materials and Methods Cell Lines and Cell Culture Several in‐house CHO antibody producing cell lines derived from a dihydrofolate reductase‐deficient (DHFR‐) CHO DUX‐B11 host (Urlaub and Chasin, 1980) were used as model cell lines in this study. The plasmid construction, gene transfection, and cell line selection methods were described previously (Guo et al., 2010). Cell line A, which produces humanized IgG1 with unusually high levels of Man5 compared to other in‐house cell lines, was used as a primary model cell line. Antibody producing CHO cell lines B, C, D, and E were also selected to demonstrate applicability of various cell culture conditions on Man5 levels. The cell lines were maintained in shake flasks after thaw, adapted for growth in a serum‐free medium and cultivated in the presence of methotrexate to maintain selection pressure for a minimum of 2 weeks. At production, shake flask cultures were seeded at 1.0 × 106 cells/mL in 125 mL flasks with 40 mL working volume under conditions of 37°C, 5% CO2, 150 rpm rotation, 85% humidity in an incubator. The cells were grown initially at 37°C then shifted to lower temperature of 35°C from 48 h post inoculation through the production duration which was up to 22 days in fed‐batch conditions. Cell Culture Medium Preparation Proprietary, in‐house cell culture basal and batch feed media were used during these production studies. The original osmolalities are 300 and 750 mOsm/kg for basal and feed media, respectively. Osmolalities of both basal and feed media were adjusted during media preparation by adding NaCl (Gibco Invitrogen, Grand Island, NY) to meet desired specifications. Upon preparation, osmolality was verified with a micro osmometer (Advanced Instruments, Norwood, MA). To make media with different levels of osmolality, one batch of basal medium was split into four solutions and adjusted to have osmolalities of 300, 330, 360, and 400 mOsm/kg. Similarly, one batch of feed medium was split into two solutions to have 750 and 1,250 mOsm/kg. Production Conditions The first experiment was designed to evaluate the impact of basal and feed osmolality. Suspension cultures were grown in respective shake flasks containing corresponding basal media with osmolalities of 300, 330, 360, and 400 mOsm/kg. The cultures were fed on days 3, 6, and 9, and each feed was 10% (4 mL) of the initial culture volume. For each basal osmolality condition, the culture was fed with the low (750 mOsm/kg) and high (1,250 mOsm/kg) batch feed formulations. In another experiment, a high basal medium osmolality condition of 400 mOsm/kg was used to determine the effects of MnCl2 supplementation. A 1 mM stock solution of MnCl2 (Sigma, Atlanta, GA) was prepared and then titrated into individual cell culture shake flasks on day 3 to achieve final concentrations of 0.25, 0.50, and 1.0 µM. These cultures were fed with 10% of the 750 mOsm/kg feed media on days 3, 6, and 9. A control condition using 300 mOsm/kg normal basal medium, 750 mOsm/kg feed medium, and the same feeding schedule was also tested to determine the benefits of MnCl2. A stock solution of MnCl2 was added directly to shake flask on day 3 to achieve a final concentration of 1.0 µM. Cell, Metabolite and Osmolality Analysis Cell culture samples were taken from each shake flask every 2–3 days for the entire run. Viable cell density, viability, and cell size were determined using a Beckman Coulter Vi‐Cell Viability Analyzer (Beckman Coulter, Fullerton, CA). Lactate, ammonia, glucose, glutamine, glutamate, and pH were monitored using a Nova Biomedical Bioprofile 400 Analyzer (Nova Biomedical, Waltham, MA). Osmolality was measured using a micro osmometer (Advanced Instruments). Supernatant samples were stored at −80°C. At the end of experiments, frozen cell‐free supernatant samples were thawed and collectively submitted for titer and glycan analysis. Protein Titer Analysis Cell culture supernatant samples at five different time points, day 7, 12, 14, 17, and 22 were collected and re‐filtered in a 96 well plate. The samples were injected to a HPLC system (Hewlett Packard 1100) equipped with UV detection at 280 nm using Poros® A/20 2.1 mm D × 30 mm L column (Applied Biosystems, Foster City CA) at a flow rate of 2 mL/min. Gradient method using mobile phase 100 mM sodium phosphate/250 mM sodium chloride and 2% Acetic acid/100 mM glycine were used to elute each protein sample for every 5 min. Protein Glycosylation Analysis Cell culture supernatant samples at five different time points, day 7, 12, 14, 18, and 22, were collected and purified by protein A column using an automated sampling platform, OASIS. After desalting with a Microcon 30 concentrator and treating with Peptide‐N‐Glycosidase F, the samples were spun down multiple times at different speed and duration and digested overnight in a water bath at 37°C. Released carbohydrates are recovered in the supernatant, following precipitation of the protein at 95°C, and as pellet following drying in the evaporator. One molar sodium cyanoborohyde in Tetrahydrofuran was added to dissolve the pellets, which were then incubated at a 55°C prior to injection to capillary electrophoresis with fluorescence detection (Beckman P/ACE MDQ series and PA800). The detailed protocol can be found in Ma et al. (Ma and Nashabeh, 1999). The relative amounts of glycans with major and minor carbohydrate moieties such as G0F, G1F, G2F, and Man5 were quantified in percentile proportions. mRNA Analysis The mRNA level of enzyme GnT‐I was measured for both control and high osmolality conditions. Cell pellets were collected and frozen to −80°C on day 3, 7, 12, and 14. Cell pellets at different sampling times were thawed and used for quantitative PCR (qPCR) analysis to measure the endogenous mRNA level of GnT‐I. The primer used for amplification of the GnT‐I mRNA has the following sequences; GnT‐I forward: CGT TGT CAC TTT CCA GTT CAG, GnT‐I Reverse: CGT TGT CAC TTT CCA GTT CAG, and GnTI probe: ACG TGT CCA CCT GGC ACC CC. The house keeping gene β‐2‐microglobulin (B2M) has the following sequences; B2M forward: TCC TCT CAG TGG TCT GCT TGG, B2M reverse: TGG CGT GTG TAG ACT TGC ACT T, and B2M probe: TGC CAT CCA GCG TCC CCC A. The B2M was chosen to normalize the GnT‐I levels due to its stable transcription level during the entire culture. All mRNA measurements were normalized to B2M as the endogenous control gene. To perform qPCR, mRNA was isolated by RNeasy® 96 well kit (Qiagen) or MagMAX™‐96 total RNA isolation kit (Ambion, Applied Biosystems, Austin, TX) according to manufacturer protocol. A TAQMAN® analysis was performed using ABI RT‐PCR 7900HT (Applied Biosystem) to measure GnT‐I mRNA level. The data was analyzed using software accompanied by the ABI RT‐PCR instrument to compare relative GnT‐I mRNA level to the level on day 3 of the control condition.</p>
+      </sec>
+      <sec sec-type="conclusions">
+        <p>Conclusions While production of consistent and reproducible mAb glycoform profiles still remains a considerable challenge of biopharmaceutical industry, variations in cell culture processes play a role in mAb glycosylation profile. Potential variables in the cell culture physicochemical environment including culture pH, cell culture media composition, raw materials lot‐to‐lot variations, equipment, and process control differences are just a few examples that can potentially alter glycosylation profiles. In this work, we have observed that Man5 level in multiple cell lines is strongly correlated to media osmolality and culture duration. Additionally, MnCl2 supplementation was observed to reduce Man5 level. However, it is still unclear why increasing osmolality led to higher level of Man5. For further investigation of the high Man5 antibody producing mechanism, it may be necessary to take quantitative intracellular pH measurement to better understand if pH influence on key enzyme activity levels could be linked to high media osmolality. Since the cell culture process can potentially impact glycosylation variation on therapeutic antibodies, this work has provided additional knowledge on how media osmolality, culture duration and MnCl2 influence mAb glycosylation patterns.</p>
+      </sec>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <body><![CDATA[<component xmlns="http://www.wiley.com/namespaces/wiley" version="2.0" type="serialArticle"
+                          xml:lang="en">
+
+
+                  <header>
+                     <publicationMeta level="product">
+                        <publisherInfo>
+                           <publisherName>Wiley Subscription Services, Inc., A Wiley Company</publisherName>
+                           <publisherLoc>Hoboken</publisherLoc>
+                        </publisherInfo>
+                        <doi registered="yes">10.1002/(ISSN)1097-0290</doi>
+                        <issn type="print">0006-3592</issn>
+                        <issn type="electronic">1097-0290</issn>
+                        <idGroup>
+                           <id type="product" value="BIT"/>
+                        </idGroup>
+                        <titleGroup>
+                           <title type="main" xml:lang="en" sort="BIOTECHNOLOGY AND BIOENGINEERING">Biotechnology and Bioengineering</title>
+                           <title type="short">Biotechnol. Bioeng.</title>
+                        </titleGroup>
+                     </publicationMeta>
+                     <publicationMeta level="part" position="100">
+                        <doi origin="wiley" registered="yes">10.1002/bit.v108.10</doi>
+                        <numberingGroup>
+                           <numbering type="journalVolume" number="108">108</numbering>
+                           <numbering type="journalIssue">10</numbering>
+                        </numberingGroup>
+                        <coverDate startDate="2011-10">October 2011</coverDate>
+                     </publicationMeta>
+                     <publicationMeta level="unit" type="article" position="150" status="forIssue">
+                        <doi origin="wiley" registered="yes">10.1002/bit.23200</doi>
+                        <idGroup>
+                           <id type="unit" value="BIT23200"/>
+                        </idGroup>
+                        <countGroup>
+                           <count type="pageTotal" number="11"/>
+                        </countGroup>
+                        <titleGroup>
+                           <title type="articleCategory">Article</title>
+                           <title type="tocHeading1">Articles</title>
+                           <title type="tocHeading2">Bioprocess Engineering and Supporting Technologies</title>
+                        </titleGroup>
+                        <copyright ownership="publisher">Copyright © 2011 Wiley Periodicals, Inc.</copyright>
+                        <eventGroup>
+                           <event type="manuscriptReceived" date="2011-01-24"/>
+                           <event type="manuscriptRevised" date="2011-03-28"/>
+                           <event type="manuscriptAccepted" date="2011-04-25"/>
+                           <event type="xmlConverted"
+                                  agent="Converter:JWSART34_TO_WML3G version:2.5.2 mode:FullText mathml2tex"
+                                  date="2011-08-17"/>
+                           <event type="publishedOnlineAccepted" date="2011-05-06"/>
+                           <event type="publishedOnlineEarlyUnpaginated" date="2011-05-24"/>
+                           <event type="publishedOnlineFinalForm" date="2011-08-17"/>
+                           <event type="firstOnline" date="2011-05-24"/>
+                           <event type="xmlConverted" agent="Converter:WILEY_ML3G_TO_WILEY_ML3GV2 version:3.8.8"
+                                  date="2014-01-08"/>
+                           <event type="xmlConverted"
+                                  agent="Converter:WML3G_To_WML3G version:4.4.7 mode:FullText,remove_FC"
+                                  date="2015-06-23"/>
+                        </eventGroup>
+                        <numberingGroup>
+                           <numbering type="pageFirst">2348</numbering>
+                           <numbering type="pageLast">2358</numbering>
+                        </numberingGroup>
+                        <correspondenceTo>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465.</correspondenceTo>
+
+                     </publicationMeta>
+                     <contentMeta>
+                        <countGroup>
+                           <count type="figureTotal" number="9"/>
+                           <count type="tableTotal" number="0"/>
+                           <count type="referenceTotal" number="41"/>
+                           <count type="wordTotal" number="6464"/>
+                        </countGroup>
+                        <titleGroup>
+                           <title type="main" xml:lang="en">Effects of cell culture conditions on antibody <i>N</i>‐linked glycosylation—what affects high mannose 5 glycoform</title>
+                           <title type="short" xml:lang="en">Effects of Cell Culture Conditions</title>
+                        </titleGroup>
+                        <creators>
+                           <creator xml:id="au1" creatorRole="author" affiliationRef="#af1">
+                              <personName>
+                                 <givenNames>Efren</givenNames>
+                                 <familyName>Pacis</familyName>
+                              </personName>
+                           </creator>
+                           <creator xml:id="au2" creatorRole="author" affiliationRef="#af1" currentRef="#curr1">
+                              <personName>
+                                 <givenNames>Marcella</givenNames>
+                                 <familyName>Yu</familyName>
+                              </personName>
+                           </creator>
+                           <creator xml:id="au3" creatorRole="author" affiliationRef="#af1">
+                              <personName>
+                                 <givenNames>Jennifer</givenNames>
+                                 <familyName>Autsen</familyName>
+                              </personName>
+                           </creator>
+                           <creator xml:id="au4" creatorRole="author" affiliationRef="#af1">
+                              <personName>
+                                 <givenNames>Robert</givenNames>
+                                 <familyName>Bayer</familyName>
+                              </personName>
+                           </creator>
+                           <creator xml:id="au5" creatorRole="author" affiliationRef="#af1" corresponding="yes">
+                              <personName>
+                                 <givenNames>Feng</givenNames>
+                                 <familyName>Li</familyName>
+                              </personName>
+                              <contactDetails>
+                                 <email>li.feng@gene.com</email>
+                              </contactDetails>
+                           </creator>
+                        </creators>
+                        <affiliationGroup>
+                           <affiliation xml:id="af1" countryCode="US" type="organization">
+                              <unparsedAffiliation>Oceanside Pharma Technical Development, 1 Antibody Way, Oceanside, CA 92056, US Biologics Pharma Technical Development, Genentech, Inc., telephone: 760‐231‐3046; fax: 760‐231‐2465</unparsedAffiliation>
+                           </affiliation>
+                           <affiliation xml:id="curr1" countryCode="US">
+                              <unparsedAffiliation>Genzyme Corporation, 45 New York Ave. Framingham, MA 01701.</unparsedAffiliation>
+                           </affiliation>
+
+                        </affiliationGroup>
+                        <keywordGroup xml:lang="en" type="author">
+                           <keyword xml:id="kwd1">Chinese hamster ovary</keyword>
+                           <keyword xml:id="kwd2">culture duration</keyword>
+                           <keyword xml:id="kwd3">glycosylation</keyword>
+                           <keyword xml:id="kwd4">Man5</keyword>
+                           <keyword xml:id="kwd5">manganese chloride</keyword>
+                           <keyword xml:id="kwd6">osmolality</keyword>
+                        </keywordGroup>
+                        <abstractGroup>
+                           <abstract type="main" xml:lang="en">
+                              <title type="main">Abstract</title>
+                              <p>The glycosylation profile of therapeutic antibodies is routinely analyzed throughout development to monitor the impact of process parameters and to ensure consistency, efficacy, and safety for clinical and commercial batches of therapeutic products. In this study, unusually high levels of the mannose‐5 (Man5) glycoform were observed during the early development of a therapeutic antibody produced from a Chinese hamster ovary (CHO) cell line, model cell line A. Follow up studies indicated that the antibody Man5 level was increased throughout the course of cell culture production as a result of increasing cell culture medium osmolality levels and extending culture duration. With model cell line A, Man5 glycosylation increased more than twofold from 12% to 28% in the fed‐batch process through a combination of high basal and feed media osmolality and increased run duration. The osmolality and culture duration effects were also observed for four other CHO antibody producing cell lines by adding NaCl in both basal and feed media and extending the culture duration of the cell culture process. Moreover, reduction of Man5 level from model cell line A was achieved by supplementing MnCl<sub>2</sub> at appropriate concentrations. To further understand the role of glycosyltransferases in Man5 level, <i>N</i>‐acetylglucosaminyltransferase I GnT‐I mRNA levels at different osmolality conditions were measured. It has been hypothesized that specific enzyme activity in the glycosylation pathway could have been altered in this fed‐batch process. Biotechnol. Bioeng. 2011;108: 2348–2358. © 2011 Wiley Periodicals, Inc.</p>
+                           </abstract>
+                        </abstractGroup>
+                     </contentMeta>
+                  </header>
+                  <body sectionsNumbered="no">
+                     <section xml:id="sec1-1">
+                        <title type="main">Introduction</title>
+                        <p>The product quality of therapeutic monoclonal antibodies (mAbs) should be closely monitored and assessed throughout product development from cell line and process development, preclinical, and clinical material production to commercial manufacturing (Lubiniecki et al., <link href="#bib24">2011</link>). During these different stages of development, product quality profiles can vary due to process changes, equipment, and facility differences, raw material lot‐to‐lot variation, and process control deviation. Understanding glycosylation is important because most therapeutic recombinant antibodies on the market or in development are glycoproteins produced in mammalian cells. Chinese hamster ovary (CHO) and mouse myeloma NS0 cell lines are common hosts due to their ability to produce large amounts of antibodies with similar glycosylation profiles to human IgGs (Jefferis, <link href="#bib19">2005</link>; Raju, <link href="#bib27">2003</link>). Several elements including cell line characteristics, process control parameters, and cell culture media components could affect glycosylation (Andersen et al., <link href="#bib2">2000</link>; Butler, <link href="#bib6">2005</link>) and therefore could impact biological activity, efficacy, stability, immunogenicity, clearance rate, antibody‐dependent cellular cytoxicity (ADCC), and complement‐dependent cytoxicity (CDC) (Burton and Dwek, <link href="#bib5">2006</link>; Goochee et al., <link href="#bib13">1991</link>). The impact of various cell culture conditions toward antibody glycosylation should be understood in order to produce monoclonal antibody products with consistent quality attributes.</p>
+                        <p>IgG antibodies produced in mammalian cells generally contain low levels of high mannose glycoforms (Man5‐9), typically below 5%, with the most common glycans being the complex glycoforms G0F, G1F, and G2F (van Berkel et al., <link href="#bib35">2009</link>). These dominant glycoforms of IgGs produced in CHO cells are considered mature glycoforms. To illustrate how high mannose, hybrid, and complex glycoforms are formed, a simplified model of the <i>N</i>‐link glycan pathway is summarized in Figure <link href="#fig1">1</link>. As glycoproteins pass through the endoplasmic reticulum (ER), the reducing ends of high mannose oligosaccharides are trimmed by multiple enzymes including Mannosidase‐1 to form Man5. The Man5 glycans are then further processed in the Golgi apparatus for the removal of α‐1,3‐mannose and the addition of <i>N</i>‐acetylglucosamine (GlcNAc) to form a hybrid glycan. The hybrid glycan is then further processed to complex glycans. Variability in the degree of completion in the multiple enzymatic steps involved results in a heterogeneous mixture of mostly complex glycans (G0F, G1F, and G2F), with a small amount of high mannose glycans (Kornfeld and Kornfeld, <link href="#bib22">1985</link>; Kornfeld et al., <link href="#bib23">1978</link>).</p>
+                        <figure xml:id="fig1">
+                           <label>1</label>
+                           <mediaResourceGroup>
+                              <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                             href="urn:x-wiley:00063592:media:BIT23200:fig001"/>
+
+
+
+                           </mediaResourceGroup>
+                           <caption>
+                              <p>Simplified model of the <i>N</i>‐linked oligosaccharide processing pathway, illustrating the primary enzymes responsible for the formation of glycoforms.</p>
+                           </caption>
+                        </figure>
+                        <p>In general, human IgG has low amount of the Man5 glycoform (Walsh and Jefferis, <link href="#bib36">2006</link>), and high level of high mannose glycoforms in the therapeutic antibody could be a concern due to uncertainty about its impact on clearance, immunogenicity, and efficacy. Antibodies bearing the Man5 glycoform produced by the glycosylation mutant CHO cell line Lec1 were reported to have deficiency in complement activation, reduced affinity to FcγRI, and reduced in vivo half‐life in a mouse study (Wright and Morrison, <link href="#bib37">1998</link>; Wright et al., <link href="#bib38">2000</link>). In another mouse model, the pharmacokinetic profile of antibodies with high mannose glycoforms did not show an early phase reduced half‐life but exhibited increased beta‐phase clearance (Kanda et al., <link href="#bib20">2007</link>). Another recent study concluded that Man5 and higher mannose glycoforms exhibited comparable clearance in humans to antibodies bearing complex glycans due to high mannose (Man6‐9) conversion to Man5. The result suggested that the presence of a mannosidase in human serum was responsible for glycan cleavage, not differential antibody clearance (Chen et al., <link href="#bib9">2009</link>). A complete understanding of the clearance of antibodies bearing Man5 or other high mannose glycoforms still remains to be resolved as demonstrated by the conflicting reports.</p>
+                        <p>Antibodies with high mannose have become of interest as therapeutics because of potential enhancement of biological activity. A previous study demonstrated the feasibility of producing high mannose antibody by adding glycosylation inhibitor to the cell culture process. As a result, high mannose antibodies that were generated with kifunensine treatment showed higher ADCC activity and greater affinity to FcγRIIIA (Zhou et al., <link href="#bib41">2008</link>). Binding to the FcγIII receptor is dependent on the fucose content of the Fc glycans where a reduction in fucose can increase effector function. Fucose‐deficient IgG1s have shown a significant enhancement of ADCC up to 100‐fold (Mori et al., <link href="#bib26">2007</link>; Shields et al., <link href="#bib32">2002</link>). As afucosyl antibodies have become recognized as having potentially higher therapeutic potency due to enhanced ADCC function, high mannose antibodies, which also lack fucose, could also have therapeutic benefit.</p>
+                        <p>In a cell culture process, the factors that can most affect glycosylation include choice of cell lines, process conditions, and media composition. Cell culture process parameters such as temperature, pH, and dissolved oxygen (DO) have also been shown to have significant effects (Ahn et al., <link href="#bib1">2008</link>; Borys et al., <link href="#bib4">1993</link>). Culture temperatures below 32°C have resulted in a reduction of branched structures and degree of sialylation. Variations in pH have resulted in more aglycosylated proteins. Other impacts of cell culture parameters have been identified over the last three decades as bioprocess knowledge accumulates. However, most case studies were based on specific cell line(s), and no general trends on how process control impacts antibody glycosylation can be concluded (Calhoun, <link href="#bib7">2008</link>). Media composition is another important factor that can significantly alter processing of oligosaccharides (Gawlitzek et al., <link href="#bib12">2000</link>; Schmelzer and Miller, <link href="#bib30">2002</link>; Zanghi et al., <link href="#bib39">1999</link>). Legacy products that still use serum or hydrolysate‐containing media can be subject to lot‐to‐lot variability which could impact glycosylation profiles. Trace amounts of metals can modify glycosylation properties when added to cell culture media formulations (Hendrickson and Imperiali, <link href="#bib16">1995</link>; Kaufman et al., <link href="#bib21">1994</link>). Addition of copper (II) chloride has shown to increase the sialic acid content (Ryll, <link href="#bib29">1999</link>). Manganese addition to the rHuEPO production process has shown to increase galactosylation and reduce lower sialyated fractions (Crowell et al., <link href="#bib11">2007</link>).</p>
+                        <p>This study focused on investigating the impact of culture variables on the level of Man5 in antibodies made in CHO cells. Multiple cell culture process conditions and medium components were tested to evaluate their impact on glycosylation profile. By altering the NaCl concentrations of the basal and feed media to increase osmolality and by extending the run duration, general trends in Man5 glycosylation were observed with multiple cell lines. To test whether GlcNAc transferase I (GnT‐I) transcription changes during the course of a cell culture production, mRNA levels were measured among the different osmolality conditions. Although the impact of osmolality is still not fully understood, the increase of ammonia in the culture condition suggests an impact on enzyme activity in the glycosylation pathway. This work provides further insight on the role of osmolality, run duration, and manganese on Man5 glycosylation of recombinant antibody in CHO cell culture.</p>
+                     </section>
+                     <section xml:id="sec1-2">
+                        <title type="main">Materials and Methods</title>
+                        <section xml:id="sec2-1">
+                           <title type="main">Cell Lines and Cell Culture</title>
+                           <p>Several in‐house CHO antibody producing cell lines derived from a dihydrofolate reductase‐deficient (DHFR‐) CHO DUX‐B11 host (Urlaub and Chasin, <link href="#bib34">1980</link>) were used as model cell lines in this study. The plasmid construction, gene transfection, and cell line selection methods were described previously (Guo et al., <link href="#bib15">2010</link>). Cell line A, which produces humanized IgG1 with unusually high levels of Man5 compared to other in‐house cell lines, was used as a primary model cell line. Antibody producing CHO cell lines B, C, D, and E were also selected to demonstrate applicability of various cell culture conditions on Man5 levels. The cell lines were maintained in shake flasks after thaw, adapted for growth in a serum‐free medium and cultivated in the presence of methotrexate to maintain selection pressure for a minimum of 2 weeks. At production, shake flask cultures were seeded at 1.0 × 10<sup>6</sup> cells/mL in 125 mL flasks with 40 mL working volume under conditions of 37°C, 5% CO<sub>2</sub>, 150 rpm rotation, 85% humidity in an incubator. The cells were grown initially at 37°C then shifted to lower temperature of 35°C from 48 h post inoculation through the production duration which was up to 22 days in fed‐batch conditions.</p>
+                        </section>
+                        <section xml:id="sec2-2">
+                           <title type="main">Cell Culture Medium Preparation</title>
+                           <p>Proprietary, in‐house cell culture basal and batch feed media were used during these production studies. The original osmolalities are 300 and 750 mOsm/kg for basal and feed media, respectively. Osmolalities of both basal and feed media were adjusted during media preparation by adding NaCl (Gibco Invitrogen, Grand Island, NY) to meet desired specifications. Upon preparation, osmolality was verified with a micro osmometer (Advanced Instruments, Norwood, MA). To make media with different levels of osmolality, one batch of basal medium was split into four solutions and adjusted to have osmolalities of 300, 330, 360, and 400 mOsm/kg. Similarly, one batch of feed medium was split into two solutions to have 750 and 1,250 mOsm/kg.</p>
+                        </section>
+                        <section xml:id="sec2-3">
+                           <title type="main">Production Conditions</title>
+                           <p>The first experiment was designed to evaluate the impact of basal and feed osmolality. Suspension cultures were grown in respective shake flasks containing corresponding basal media with osmolalities of 300, 330, 360, and 400 mOsm/kg. The cultures were fed on days 3, 6, and 9, and each feed was 10% (4 mL) of the initial culture volume. For each basal osmolality condition, the culture was fed with the low (750 mOsm/kg) and high (1,250 mOsm/kg) batch feed formulations.</p>
+                           <p>In another experiment, a high basal medium osmolality condition of 400 mOsm/kg was used to determine the effects of MnCl<sub>2</sub> supplementation. A 1 mM stock solution of MnCl<sub>2</sub> (Sigma, Atlanta, GA) was prepared and then titrated into individual cell culture shake flasks on day 3 to achieve final concentrations of 0.25, 0.50, and 1.0 µM. These cultures were fed with 10% of the 750 mOsm/kg feed media on days 3, 6, and 9. A control condition using 300 mOsm/kg normal basal medium, 750 mOsm/kg feed medium, and the same feeding schedule was also tested to determine the benefits of MnCl<sub>2</sub>. A stock solution of MnCl<sub>2</sub> was added directly to shake flask on day 3 to achieve a final concentration of 1.0 µM.</p>
+                        </section>
+                        <section xml:id="sec2-4">
+                           <title type="main">Cell, Metabolite and Osmolality Analysis</title>
+                           <p>Cell culture samples were taken from each shake flask every 2–3 days for the entire run. Viable cell density, viability, and cell size were determined using a Beckman Coulter Vi‐Cell Viability Analyzer (Beckman Coulter, Fullerton, CA). Lactate, ammonia, glucose, glutamine, glutamate, and pH were monitored using a Nova Biomedical Bioprofile 400 Analyzer (Nova Biomedical, Waltham, MA). Osmolality was measured using a micro osmometer (Advanced Instruments). Supernatant samples were stored at −80°C. At the end of experiments, frozen cell‐free supernatant samples were thawed and collectively submitted for titer and glycan analysis.</p>
+                        </section>
+                        <section xml:id="sec2-5">
+                           <title type="main">Protein Titer Analysis</title>
+                           <p>Cell culture supernatant samples at five different time points, day 7, 12, 14, 17, and 22 were collected and re‐filtered in a 96 well plate. The samples were injected to a HPLC system (Hewlett Packard 1100) equipped with UV detection at 280 nm using Poros® A/20 2.1 mm D × 30 mm L column (Applied Biosystems, Foster City CA) at a flow rate of 2 mL/min. Gradient method using mobile phase 100 mM sodium phosphate/250 mM sodium chloride and 2% Acetic acid/100 mM glycine were used to elute each protein sample for every 5 min.</p>
+                        </section>
+                        <section xml:id="sec2-6">
+                           <title type="main">Protein Glycosylation Analysis</title>
+                           <p>Cell culture supernatant samples at five different time points, day 7, 12, 14, 18, and 22, were collected and purified by protein A column using an automated sampling platform, OASIS. After desalting with a Microcon 30 concentrator and treating with Peptide‐<i>N</i>‐Glycosidase F, the samples were spun down multiple times at different speed and duration and digested overnight in a water bath at 37°C. Released carbohydrates are recovered in the supernatant, following precipitation of the protein at 95°C, and as pellet following drying in the evaporator. One molar sodium cyanoborohyde in Tetrahydrofuran was added to dissolve the pellets, which were then incubated at a 55°C prior to injection to capillary electrophoresis with fluorescence detection (Beckman P/ACE MDQ series and PA800). The detailed protocol can be found in Ma et al. (Ma and Nashabeh, <link href="#bib25">1999</link>). The relative amounts of glycans with major and minor carbohydrate moieties such as G0F, G1F, G2F, and Man5 were quantified in percentile proportions.</p>
+                        </section>
+                        <section xml:id="sec2-7">
+                           <title type="main">mRNA Analysis</title>
+                           <p>The mRNA level of enzyme GnT‐I was measured for both control and high osmolality conditions. Cell pellets were collected and frozen to −80°C on day 3, 7, 12, and 14. Cell pellets at different sampling times were thawed and used for quantitative PCR (qPCR) analysis to measure the endogenous mRNA level of GnT‐I. The primer used for amplification of the GnT‐I mRNA has the following sequences; GnT‐I forward: CGT TGT CAC TTT CCA GTT CAG, GnT‐I Reverse: CGT TGT CAC TTT CCA GTT CAG, and GnTI probe: ACG TGT CCA CCT GGC ACC CC. The house keeping gene β‐2‐microglobulin (B2M) has the following sequences; B2M forward: TCC TCT CAG TGG TCT GCT TGG, B2M reverse: TGG CGT GTG TAG ACT TGC ACT T, and B2M probe: TGC CAT CCA GCG TCC CCC A. The B2M was chosen to normalize the GnT‐I levels due to its stable transcription level during the entire culture. All mRNA measurements were normalized to B2M as the endogenous control gene. To perform qPCR, mRNA was isolated by RNeasy® 96 well kit (Qiagen) or MagMAX™‐96 total RNA isolation kit (Ambion, Applied Biosystems, Austin, TX) according to manufacturer protocol. A TAQMAN® analysis was performed using ABI RT‐PCR 7900HT (Applied Biosystem) to measure GnT‐I mRNA level. The data was analyzed using software accompanied by the ABI RT‐PCR instrument to compare relative GnT‐I mRNA level to the level on day 3 of the control condition.</p>
+                        </section>
+                     </section>
+                     <section xml:id="sec1-3">
+                        <title type="main">Results</title>
+                        <section xml:id="sec2-8">
+                           <title type="main">Effect of Osmolality and Run Duration on Cell Growth, Metabolism, and Antibody Production</title>
+                           <p>The effect of osmolality and run duration on cell growth and antibody production of cell line A was evaluated by testing combinations of basal and feed media osmolalities. Overall, cell growth was higher with lower media osmolality. Within the tested osmolality ranges, cell growth was more sensitive to the high feed medium osmolality than to the basal media osmolalities. Whereas various basal media combined with 750 mOsm/kg feed reached peak viable cell count (VCC) of 6.5–8.5 × 10<sup>6</sup> cells/mL, the high osmolality feed cases only reached 5.0–6.5 × 10<sup>6</sup> cells/mL (Fig. <link href="#fig2">2</link>a). Trending similarly for both osmolality feed conditions, viability profiles at basal osmolalities of 360 and 400 mOsm/kg were higher than 300 and 330 mOsm/kg. The viabilities at the end of run were 50–63% at higher basal osmolalities whereas 32–48% for the lower basal osmolality conditions (Fig. <link href="#fig2">2</link>b). At the end of production at day 22, the titer for the 750 mOsm/kg feed conditions reached 4–5 g/L, compared to 2.5–3.5 g/L of 1,250 mOsm/kg feed conditions (Fig. <link href="#fig2">2</link>c). For cell metabolism, end of run NH<math xmlns="http://www.w3.org/1998/Math/MathML"
+                                    xmlns:wiley="http://www.wiley.com/namespaces/wiley/wiley"
+                                    altimg="urn:x-wiley:00063592:media:BIT23200:tex2gif-stack-1"
+                                    wiley:location="equation/tex2gif-stack-1.gif">
+                                 <msubsup>
+                                    <mtext> </mtext>
+                                    <mrow>
+                                       <mtext>4</mtext>
+                                    </mrow>
+                                    <mrow>
+                                       <mtext>+</mtext>
+                                    </mrow>
+                                 </msubsup>
+                              </math> levels were lower with 750 mOsm/kg feed cases at 4.5–6.5 mM compared to 1,250 mOsm/kg feed cases at 5.5–10 mM (Fig. <link href="#fig3">3</link>a). Due to the lack of pH control in shake flasks, the culture pH decreased in the early stage of culture and then drifted up after day 3. This pH shift correlated with lactate metabolism in culture, where lactate was accumulated in the early stage of the run and was then consumed. The lactate profiles were very similar for all the experimental conditions (data not shown). The overall trend of off‐line pH profiles were similar between the two feed cases, but drifted higher later in the culture for the high feed osmolality (Fig. <link href="#fig3">3</link>b). End of run osmolality levels were lower for the 750 mOsm/kg feed cases at 290–360 mOsm/kg compared to the 1,250 mOsm/kg feed cases at 395–490 mOsm/kg (Fig. <link href="#fig3">3</link>c).</p>
+                           <figure xml:id="fig2">
+                              <label>2</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig002"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Growth profile and titer curves of model cell line A at various basal (300, 330, 360, and 400 mOsm/kg) and feed (750 and 1,250 mOsm/kg) osmolality combinations over a 22‐day cell culture process. <b>a</b>: VCC; (<b>b</b>) % Viable; (<b>c</b>) Titer.</p>
+                              </caption>
+                           </figure>
+                           <figure xml:id="fig3">
+                              <label>3</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig003"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Metabolic and control profiles of model cell line A at various basal (300, 330, 360, and 400 mOsm/kg) and feed (750 and 1,250 mOsm/kg) osmolality combinations over a 22‐day cell culture process. <b>a</b>: NH<math xmlns="http://www.w3.org/1998/Math/MathML"
+                                          xmlns:wiley="http://www.wiley.com/namespaces/wiley/wiley"
+                                          altimg="urn:x-wiley:00063592:media:BIT23200:tex2gif-stack-2"
+                                          wiley:location="equation/tex2gif-stack-2.gif">
+                                       <msubsup>
+                                          <mtext> </mtext>
+                                          <mrow>
+                                             <mtext>4</mtext>
+                                          </mrow>
+                                          <mrow>
+                                             <mtext>+</mtext>
+                                          </mrow>
+                                       </msubsup>
+                                    </math>; (<b>b</b>) Off‐line pH; (<b>c</b>) Osmolality.</p>
+                              </caption>
+                           </figure>
+                        </section>
+                        <section xml:id="sec2-9">
+                           <title type="main">Effect of Osmolality and Run Duration on Man5 and Other Glycoforms</title>
+                           <p>Model cell line A showed an increase in the Man5 glycoform during the course of the cell culture. As run duration was extended to 22 days, the glycan analysis results from a total of five different sampling time points showed continuing increase of Man5 levels from days 7 to 22. Each time‐point represents the cumulative formation of Man5 over the course of the run. The increase in Man5 levels correlated with the increase in media osmolality. The baseline medium osmolality at 300 mOsm/kg in basal and 750 mOsm/kg in feed media represents the control condition. This condition has 15% of Man5 on day 22. Other basal conditions of 330, 360, and 400 mOsm/kg with the same feed have higher Man5 levels up to 18% on day 22. With the 1,250 osmolality feed cases, Man5 levels are significantly higher, in the range of 23–27% (Fig. <link href="#fig4">4</link>a). During the entire culture duration, as the Man5 level increased, the other glycoforms such as G0F and G1F decreased proportionally (Fig. <link href="#fig4">4</link>b and c).</p>
+                           <figure xml:id="fig4">
+                              <label>4</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig004"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Glycoform profiles of model cell line A at various basal (300, 330, 360, and 400 mOsm/kg) and feed (750 and 1,250 mOsm/kg) osmolality combinations over a 22‐day cell culture process. <b>a</b>: Man5; (<b>b</b>) G0F; (<b>c</b>) G1F.</p>
+                              </caption>
+                           </figure>
+                           <p>To further examine the general trend of media osmolality and run duration effects, four other antibody producing CHO cell lines B, C, D, and E were also tested in the 300 and 400 mOsm/kg basal media with the feed medium of 750 mOsm/kg. Although these cell lines had low Man5 levels that are more typically found in mAbs expressed in CHO cells, the general trends of the increase in Man5 level with culture duration and medium osmolality were consistent in all tested cell lines. The control condition of cell line B at 300 mOsm/kg showed 0.36% Man5 on day 7 and 0.84% at the end of run. The observation is consistent with the high osmolality case with higher level of Man5 levels at 0.67% Man5 on day 7 which was increased to 1.85% at the end of run. Other cell lines, C, D, and E followed a similar trend but with different absolute levels of Man5 (Fig. <link href="#fig5">5</link>).</p>
+                           <figure xml:id="fig5">
+                              <label>5</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig005"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Osmolality and run duration effects to multiple cell lines: mAbs B, C, D, and E over a 21‐day cell culture process. Control condition represents basal medium at 300 mOsm/kg. High osmo represents osmolality of 400 mOsm/kg in basal medium.</p>
+                              </caption>
+                           </figure>
+                           <p>The data of cell line A with respect to osmolality and run duration was further analyzed. Statistical analysis showed a significant linear correlation of osmolality with ammonia at each time point. This analysis showed that increasing osmolality correlated with increasing ammonia levels (Fig. <link href="#fig6">6</link>). Cell line B also showed a similar correlation (data not shown).</p>
+                           <figure xml:id="fig6">
+                              <label>6</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig006"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Increase in osmolality of model cell line A shows correlation to increase in ammonia levels which may contribute to higher levels of Man5.</p>
+                              </caption>
+                           </figure>
+                        </section>
+                        <section xml:id="sec2-10">
+                           <title type="main">Effect of Manganese Chloride on Man5</title>
+                           <p>Manganese (Mn), a metal ion co‐factor for a number of glycosyltransferases such as GnT‐I, GnT‐II, and B4GalT‐I, was tested with cell line A to determine the impact on Man5 levels. The original basal medium formulation had very low levels of MnCl<sub>2</sub>. An initial MnCl<sub>2</sub> titration study was conducted to determine a testing range without significant toxic effects to cells after supplementation (data not shown). With appropriate concentrations of MnCl<sub>2</sub> added to cultures, VCC, and titer were comparable to culture without the addition of MnCl<sub>2</sub> (Fig. <link href="#fig7">7</link>a and b). The condition of 400 mOsm/kg in the basal medium that corresponds to high level of Man5 was selected to test the impact of MnCl<sub>2</sub>. Manganese chloride was titrated directly to the shake flasks to achieve final concentrations of 0.25, 0.50, and 1.0 µM. A control condition using 300 mOsm/kg was also tested with and without 1.0 µM MnCl<sub>2</sub>. Upon supplementation of 1.0 µM MnCl<sub>2</sub> to the high osmolality media condition, Man5 decreased significantly from 25% to ∼14% (Fig. <link href="#fig8">8</link>a). Similarly, the control condition of 300 mOsm/kg basal with 12% Man5 decreased to 5% (Fig. <link href="#fig8">8</link>b).</p>
+                           <figure xml:id="fig7">
+                              <label>7</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig007"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Growth profile and titer data points of model cell line A. Basal medium of 400 mOsm/kg and feed medium of 750 mOsm/kg supplemented with increasing concentrations of MnCl2 over a 14‐day cell culture process. <b>a</b>: VCC; (<b>b</b>) titer.</p>
+                              </caption>
+                           </figure>
+                           <figure xml:id="fig8">
+                              <label>8</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig008"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>Effects of MnCl<sub>2</sub> supplementation to shake flask cultures on Man5 levels. <b>a</b>: Man5 (%) reduction in high osmolality conditions; (<b>b</b>) Man5 (%) reduction in control condition.</p>
+                              </caption>
+                           </figure>
+                        </section>
+                        <section xml:id="sec2-11">
+                           <title type="main">Effect of Osmolality to mRNA Levels</title>
+                           <p>Cell pellets from the control and high osmolality conditions were collected on day 3, 7, 12, and 14. The mRNA was isolated for TaqMan analysis. All mRNA measurements were normalized to B2M as the endogenous control gene. In addition to normalization to the endogenous control, the data were further normalized to the mRNA level of GnT‐I on day 3 of the control condition. Therefore, the data shown were calculated using the following equation:
+<displayedItem xml:id="di-ueqn-1" type="mathematics" numbered="no">
+                                 <mediaResourceGroup>
+                                    <mediaResource alt="equation image" href="urn:x-wiley:00063592:media:BIT23200:tex2gif-ueqn-1"/>
+
+                                    <mediaResource alt="TeX code" mimeType="application/x-tex">
+                                       <data>$${{{\left( {{{{\rm mRNA}\,{\rm GNT}1_{{\rm D}(x)} } \mathord{\left/ {\vphantom {{{\rm mRNA}\,{\rm GNT}1_{{\rm D}(x)} } {{\rm mRNA}\,{\rm B2M}_{{\rm D}(x)} }}} \right. \kern-\nulldelimiterspace} {{\rm mRNA}\,{\rm B2M}_{{\rm D}(x)} }}} \right)}} \over {{\left( {{{{\rm mRNA}\,{\rm GNT1}_{{\rm D}3,{\rm Control}} } \mathord{\left/ {\vphantom {{{\rm mRNA}\,{\rm GNT1}_{{\rm D}3,{\rm Control}} } {{\rm mRNA}\,{\rm B2M}_{{\rm D}3,{\rm Control}} }}} \right. \kern-\nulldelimiterspace} {{\rm mRNA}\,{\rm B2M}_{{\rm D}3,{\rm Control}} }}} \right)}}}$$</data>
+                                    </mediaResource>
+                                 </mediaResourceGroup>
+                              </displayedItem>
+                           </p>
+                           <p>The data is illustrated in Figure <link href="#fig9">9</link>. The relative mRNA levels do not appear to vary significantly over the course of the culture in both conditions. The GnT‐I mRNA level between the two conditions also appeared to be similar, suggesting that the transcript level of the GnT‐I enzyme was not affected by different osmolality levels.</p>
+                           <figure xml:id="fig9">
+                              <label>9</label>
+                              <mediaResourceGroup>
+                                 <mediaResource alt="image" eRights="yes" copyright="Wiley Periodicals, Inc."
+                                                href="urn:x-wiley:00063592:media:BIT23200:fig009"/>
+
+
+
+                              </mediaResourceGroup>
+                              <caption>
+                                 <p>mRNA analysis using TAQMAN® normalized with B2M was performed to measure GnT‐I mRNA. Daily level was further normalized to day 3 of control condition over the course of the culture. Control and high osmolality conditions represent basal media at 300 and 400 mOsm/kg, respectively.</p>
+                              </caption>
+                           </figure>
+                        </section>
+                     </section>
+                     <section xml:id="sec1-4">
+                        <title type="main">Discussion</title>
+                        <p>IgG antibodies produced in mammalian cells generally contain low levels of high mannose glycoforms (Man5‐9), typically below 5%, because most glycoproteins are processed to complex glycoforms G0F, G1F, and G2F (van Berkel et al., <link href="#bib35">2009</link>). Even though oligosaccharide formation takes place inside the cell, we have demonstrated that physicochemical environment changes such as culture duration or cell culture media osmolality can alter glycosylation of antibodies. Model cell line A demonstrated the changes of inhibited growth, lower titer, and a higher proportion of the Man5 glycoform when exposed to higher media osmolality (Figs. <link href="#fig2 #fig3 #fig4">2–4</link>). In addition to model cell line A, other mAb cell lines including B, C, D, and E which have diversity in properties such as growth, metabolism, and specific productivity demonstrate similar effects of high osmolality and run duration on Man5 glycosylation even when using a different lot of media. These cell lines have exhibited same response of increase in Man5 level at higher basal osmolality, and the Man5 level steadily increased during a 21‐day culture duration (Fig. <link href="#fig5">5</link>). Since these mAbs have lower starting levels of Man5, the increase of Man5 levels is relatively modest. Nevertheless, an increase of Man5 levels due to osmolality and run duration has been confirmed with multiple cell lines. While we have shown the impact of osmolality and run duration on Man5 production in CHO cells, an increase of high mannose during the course of a run and with extended duration has also been observed in other hosts such as NS0 cells (Bibila and Robinson, <link href="#bib3">1995</link>; Hooker et al., <link href="#bib18">1995</link>; Robinson et al., <link href="#bib28">1994</link>).</p>
+                        <p>Referring back to the simplified glycosylation model (Fig. <link href="#fig1">1</link>), it has been hypothesized that glycosyltransferase enzyme activity in the glycosylation pathway could have been altered in this dynamic fed‐batch process. To test this hypothesis, the GnT‐I mRNA levels of high and low osmolality conditions were measured to determine whether the increased Man5 level with increased culture osmolality correlated with reduced GnT‐I mRNA transcript level. The relative mRNA levels appear to be steady over the course of the culture, and the mRNA level was also similar for both control and high osmolality conditions (Fig. <link href="#fig9">9</link>). This data suggested that the GnT‐I enzyme transcription level was likely unaffected by osmolality, and the increased Man5 level observed for the high osmolality condition could have resulted from decreased enzyme activity of GnT‐I, decreased translation of mRNA, decreased stability of GnT‐I, or varying activity of other enzymes along the glycosylation pathway.</p>
+                        <p>It has also been reported that increased ammonia levels in the cell culture environment can alter intracellular pH and therefore compromise intracellular glycosyltransferases activity due to the pH sensitivity of glycosyltransferases. Ammonia concentrations were found to be higher in increased osmolality conditions (Figs. <link href="#fig3">3</link> and <link href="#fig6">6</link>). Ammonium is a common metabolic waste product accumulated in CHO cells cultures, driven by a major energy source such as glutamine or asparagine. Elevated ammonium levels have shown to inhibit galactosylation and sialylation of TNFR‐IgG <i>N</i>‐glycans by increasing the pH of the <i>trans</i>‐Golgi compartment (Gawlitzek et al., <link href="#bib12">2000</link>). Ammonia effects in the Golgi can modulate many enzyme branching mechanisms that give rise to more heterogeneity (Chen and Harcum, <link href="#bib8">2006</link>). Many mechanisms have been proposed to explain how ammonium toxicity affects glycosylation. We agree with the proposed mechanism suggesting that ammonium inhibits the glycosylation process by increasing the pH within the ER and golgi compartments, resulting in inhibition of pH‐sensitive enzyme activity (Schneider et al., <link href="#bib31">1996</link>). We expect cascading effects of higher osmolality which can lead to increased ammonia levels in the cell culture environment and compromise intracellular pH sensitive glycosyltransferases, therefore resulting in the increase of high mannose glycoforms.</p>
+                        <p>In addition to media osmolality and run duration effects on Man5 levels, we observed that increasing MnCl<sub>2</sub> concentrations reduced Man5 glycoforms for the recombinant antibody produced by model cell line A (Fig. <link href="#fig7">7</link>a). Adding appropriate MnCl<sub>2</sub> in the range of 0.25–1.0 µM into the cell culture media can be an effective approach to reduce Man5 if the level is undesirably high and to maintain typical levels of major glycoforms such GOF, G1F, and G2F. With the supplementation of 1 µM MnCl<sub>2</sub>, Man5 level was effectively reduced from 12% to 5%, which is the typical levels of glycoform found in IgG<sub>1</sub> (Fig. <link href="#fig7">7</link>b). Many attempts to use oligosaccharide precursors and enzyme metal cofactors have been tried to control glycosylation (Clark et al., <link href="#bib10">2005</link>; Hills et al., <link href="#bib17">2001</link>). Several metal ions have been tested to determine impacts on glycosylation. Manganese has been demonstrated to be more effective as a metal co‐factor compared to other co‐factors such as magnesium (Mg<sup>2+</sup>) and calcium (Ca<sup>2+</sup>) (Hendrickson and Imperiali, <link href="#bib16">1995</link>). In recombinant human erythropoietin (rHuEPO), MnCl<sub>2</sub> supplementation increases galactosylation and sialylated fractions. It has increased carbohydrate site‐occupancy and narrowed carbohydrate branching to bi‐antennary structures (Crowell et al., <link href="#bib11">2007</link>). Manganese is involved in oligosaccharide addition within the secretory pathway. The depletion of such metal cation has shown to inhibit the processing of complex <i>N</i>‐linked oligosaccharide (Kaufman et al., <link href="#bib21">1994</link>).</p>
+                        <p>Previous studies have proposed mechanism on the role of manganese in converting high mannose to hybrid and complex oligosaccharides. X‐ray crystallographic structures of catalytic fragments suggested that Mn<sup>2+</sup> ions complexes with UDP‐GlcNAc, which binds to the enzyme GnT‐I and subsequently to the high mannose. The formation of the hybrid glycoform from high mannose takes place by transferring the first GlcNAc residue onto a mannose branch. A similar mechanism activated by Mn<sup>2+</sup> may transfer the second GlcNAc forming complex oligosaccharide G0F, which resulted in two GlcNAc being present at the non‐reducing ends of the biantennary structure. Mn<sup>2+</sup> ions further play a role as a metal cofactor in the conversion of G0F to G1F and G2F glycoforms. Mn<sup>2+</sup> is a required cofactor for the enzyme β‐1,4‐galactosyltransferase (B4Gal‐T1) that transfers galactose to the GlcNAc forming G1F and G2F (Gordon et al., <link href="#bib14">2006</link>; Unligil et al., <link href="#bib33">2000</link>; Zhang et al., <link href="#bib40">2001</link>). We have shown that the addition of appropriate MnCl<sub>2</sub> concentrations can decrease Man5 levels, most likely due to manganese ion's involvement to effectively convert high mannose to complex glycoforms (Fig. <link href="#fig7">7</link>a and b).</p>
+                     </section>
+                     <section xml:id="sec1-5">
+                        <title type="main">Conclusions</title>
+                        <p>While production of consistent and reproducible mAb glycoform profiles still remains a considerable challenge of biopharmaceutical industry, variations in cell culture processes play a role in mAb glycosylation profile. Potential variables in the cell culture physicochemical environment including culture pH, cell culture media composition, raw materials lot‐to‐lot variations, equipment, and process control differences are just a few examples that can potentially alter glycosylation profiles. In this work, we have observed that Man5 level in multiple cell lines is strongly correlated to media osmolality and culture duration. Additionally, MnCl<sub>2</sub> supplementation was observed to reduce Man5 level. However, it is still unclear why increasing osmolality led to higher level of Man5. For further investigation of the high Man5 antibody producing mechanism, it may be necessary to take quantitative intracellular pH measurement to better understand if pH influence on key enzyme activity levels could be linked to high media osmolality. Since the cell culture process can potentially impact glycosylation variation on therapeutic antibodies, this work has provided additional knowledge on how media osmolality, culture duration and MnCl<sub>2</sub> influence mAb glycosylation patterns.</p>
+                     </section>
+                     <section xml:id="sec1-ack-1" type="acknowledgments">
+                        <title type="main">Acknowledgements</title>
+                        <p>The authors are grateful for the valuable contributions and technical discussions by Ashraf Amanullah, Terry Hudson, Darren Brown, Martin Gawlitzek, Steve Meier, and Kara Calhoun.</p>
+                     </section>
+                     <bibliography style="nameDate">
+                        <title type="main">References</title>
+                        <bib xml:id="bib1">
+                           <citation type="journal" xml:id="cit1">
+                              <author>
+                                 <familyName>Ahn</familyName> 
+                                 <givenNames>WS</givenNames>
+                              </author>, <author>
+                                 <familyName>Jeon</familyName> 
+                                 <givenNames>JJ</givenNames>
+                              </author>, <author>
+                                 <familyName>Jeong</familyName> 
+                                 <givenNames>YR</givenNames>
+                              </author>, <author>
+                                 <familyName>Lee</familyName> 
+                                 <givenNames>SJ</givenNames>
+                              </author>, <author>
+                                 <familyName>Yoon</familyName> 
+                                 <givenNames>SK.</givenNames>
+                              </author> 
+                              <pubYear year="2008">2008</pubYear>. <articleTitle>Effect of culture temperature on erythropoietin production and glycosylation in a perfusion culture of recombinant CHO cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>101</vol>(<issue>6</issue>): <pageFirst>1234</pageFirst>–<pageLast>1244</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib2">
+                           <citation type="journal" xml:id="cit2">
+                              <author>
+                                 <familyName>Andersen</familyName> 
+                                 <givenNames>DC</givenNames>
+                              </author>, <author>
+                                 <familyName>Bridges</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>Gawlitzek</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Hoy</familyName> 
+                                 <givenNames>C.</givenNames>
+                              </author> 
+                              <pubYear year="2000">2000</pubYear>. <articleTitle>Multiple cell culture factors can affect the glycosylation of Asn‐184 in CHO‐produced tissue‐type plasminogen activator</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>70</vol>(<issue>1</issue>): <pageFirst>25</pageFirst>–<pageLast>31</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib3">
+                           <citation type="journal" xml:id="cit3">
+                              <author>
+                                 <familyName>Bibila</familyName> 
+                                 <givenNames>TA</givenNames>
+                              </author>, <author>
+                                 <familyName>Robinson</familyName> 
+                                 <givenNames>DK.</givenNames>
+                              </author> 
+                              <pubYear year="1995">1995</pubYear>. <articleTitle>In pursuit of the optimal fed‐batch process for monoclonal antibody production</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle> 
+                              <vol>11</vol>(<issue>1</issue>): <pageFirst>1</pageFirst>–<pageLast>13</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib4">
+                           <citation type="journal" xml:id="cit4">
+                              <author>
+                                 <familyName>Borys</familyName> 
+                                 <givenNames>MC</givenNames>
+                              </author>, <author>
+                                 <familyName>Linzer</familyName> 
+                                 <givenNames>DI</givenNames>
+                              </author>, <author>
+                                 <familyName>Papoutsakis</familyName> 
+                                 <givenNames>ET.</givenNames>
+                              </author> 
+                              <pubYear year="1993">1993</pubYear>. <articleTitle>Culture pH affects expression rates and glycosylation of recombinant mouse placental lactogen proteins by Chinese hamster ovary (CHO) cells</articleTitle>. <journalTitle>Biotechnology (NY)</journalTitle> 
+                              <vol>11</vol>(<issue>6</issue>): <pageFirst>720</pageFirst>–<pageLast>724</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib5">
+                           <citation type="journal" xml:id="cit5">
+                              <author>
+                                 <familyName>Burton</familyName> 
+                                 <givenNames>DR</givenNames>
+                              </author>, <author>
+                                 <familyName>Dwek</familyName> 
+                                 <givenNames>RA.</givenNames>
+                              </author> 
+                              <pubYear year="2006">2006</pubYear>. <articleTitle>Immunology. Sugar determines antibody activity</articleTitle>. <journalTitle>Science</journalTitle> 
+                              <vol>313</vol>(<issue>5787</issue>): <pageFirst>627</pageFirst>–<pageLast>628</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib6">
+                           <citation type="journal" xml:id="cit6">
+                              <author>
+                                 <familyName>Butler</familyName> 
+                                 <givenNames>M.</givenNames>
+                              </author> 
+                              <pubYear year="2005">2005</pubYear>. <articleTitle>Animal cell cultures: Recent achievements and perspectives in the production of biopharmaceuticals</articleTitle>. <journalTitle>Appl Microbiol Biotechnol</journalTitle> 
+                              <vol>68</vol>(<issue>3</issue>): <pageFirst>283</pageFirst>–<pageLast>291</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib7">
+                           <citation type="book" xml:id="cit7">
+                              <author>
+                                 <familyName>Calhoun</familyName> 
+                                 <givenNames>K.</givenNames>
+                              </author> 
+                              <pubYear year="2008">2008</pubYear>. <bookTitle>Process Parameter Impact on Glycosylation in CHO Cell Culture Processes</bookTitle>. <publisherLoc>Vienna, Austria</publisherLoc>: 
+<publisherName>BioProcess International</publisherName>.</citation>
+                        </bib>
+                        <bib xml:id="bib8">
+                           <citation type="journal" xml:id="cit8">
+                              <author>
+                                 <familyName>Chen</familyName> 
+                                 <givenNames>P</givenNames>
+                              </author>, <author>
+                                 <familyName>Harcum</familyName> 
+                                 <givenNames>SW.</givenNames>
+                              </author> 
+                              <pubYear year="2006">2006</pubYear>. <articleTitle>Effects of elevated ammonium on glycosylation gene expression in CHO cells</articleTitle>. <journalTitle>Metab Eng</journalTitle> 
+                              <vol>8</vol>(<issue>2</issue>): <pageFirst>123</pageFirst>–<pageLast>132</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib9">
+                           <citation type="journal" xml:id="cit9">
+                              <author>
+                                 <familyName>Chen</familyName> 
+                                 <givenNames>X</givenNames>
+                              </author>, <author>
+                                 <familyName>Liu</familyName> 
+                                 <givenNames>YD</givenNames>
+                              </author>, <author>
+                                 <familyName>Flynn</familyName> 
+                                 <givenNames>GC.</givenNames>
+                              </author> 
+                              <pubYear year="2009">2009</pubYear>. <articleTitle>The effect of Fc glycan forms on human IgG2 antibody clearance in humans</articleTitle>. <journalTitle>Glycobiology</journalTitle> 
+                              <vol>19</vol>(<issue>3</issue>): <pageFirst>240</pageFirst>–<pageLast>249</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib10">
+                           <citation type="journal" xml:id="cit10">
+                              <author>
+                                 <familyName>Clark</familyName> 
+                                 <givenNames>KJ</givenNames>
+                              </author>, <author>
+                                 <familyName>Griffiths</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Bailey</familyName> 
+                                 <givenNames>KM</givenNames>
+                              </author>, <author>
+                                 <familyName>Harcum</familyName> 
+                                 <givenNames>SW.</givenNames>
+                              </author> 
+                              <pubYear year="2005">2005</pubYear>. <articleTitle>Gene‐expression profiles for five key glycosylation genes for galactose‐fed CHO cells expressing recombinant IL‐4/13 cytokine trap</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>90</vol>(<issue>5</issue>): <pageFirst>568</pageFirst>–<pageLast>577</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib11">
+                           <citation type="journal" xml:id="cit11">
+                              <author>
+                                 <familyName>Crowell</familyName> 
+                                 <givenNames>CK</givenNames>
+                              </author>, <author>
+                                 <familyName>Grampp</familyName> 
+                                 <givenNames>GE</givenNames>
+                              </author>, <author>
+                                 <familyName>Rogers</familyName> 
+                                 <givenNames>GN</givenNames>
+                              </author>, <author>
+                                 <familyName>Miller</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Scheinman</familyName> 
+                                 <givenNames>RI.</givenNames>
+                              </author> 
+                              <pubYear year="2007">2007</pubYear>. <articleTitle>Amino acid and manganese supplementation modulates the glycosylation state of erythropoietin in a CHO culture system</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>96</vol>(<issue>3</issue>): <pageFirst>538</pageFirst>–<pageLast>549</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib12">
+                           <citation type="journal" xml:id="cit12">
+                              <author>
+                                 <familyName>Gawlitzek</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Ryll</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>Lofgren</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Sliwkowski</familyName> 
+                                 <givenNames>MB.</givenNames>
+                              </author> 
+                              <pubYear year="2000">2000</pubYear>. <articleTitle>Ammonium alters <i>N</i>‐glycan structures of recombinant TNFR‐IgG: Degradative versus biosynthetic mechanisms</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>68</vol>(<issue>6</issue>): <pageFirst>637</pageFirst>–<pageLast>646</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib13">
+                           <citation type="journal" xml:id="cit13">
+                              <author>
+                                 <familyName>Goochee</familyName> 
+                                 <givenNames>CF</givenNames>
+                              </author>, <author>
+                                 <familyName>Gramer</familyName> 
+                                 <givenNames>MJ</givenNames>
+                              </author>, <author>
+                                 <familyName>Andersen</familyName> 
+                                 <givenNames>DC</givenNames>
+                              </author>, <author>
+                                 <familyName>Bahr</familyName> 
+                                 <givenNames>JB</givenNames>
+                              </author>, <author>
+                                 <familyName>Rasmussen</familyName> 
+                                 <givenNames>JR.</givenNames>
+                              </author> 
+                              <pubYear year="1991">1991</pubYear>. <articleTitle>The oligosaccharides of glycoproteins: Bioprocess factors affecting oligosaccharide structure and their effect on glycoprotein properties</articleTitle>. <journalTitle>Biotechnology (NY)</journalTitle> 
+                              <vol>9</vol>(<issue>12</issue>): <pageFirst>1347</pageFirst>–<pageLast>1355</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib14">
+                           <citation type="journal" xml:id="cit14">
+                              <author>
+                                 <familyName>Gordon</familyName> 
+                                 <givenNames>RD</givenNames>
+                              </author>, <author>
+                                 <familyName>Sivarajah</familyName> 
+                                 <givenNames>P</givenNames>
+                              </author>, <author>
+                                 <familyName>Satkunarajah</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Ma</familyName> 
+                                 <givenNames>D</givenNames>
+                              </author>, <author>
+                                 <familyName>Tarling</familyName> 
+                                 <givenNames>CA</givenNames>
+                              </author>, <author>
+                                 <familyName>Vizitiu</familyName> 
+                                 <givenNames>D</givenNames>
+                              </author>, <author>
+                                 <familyName>Withers</familyName> 
+                                 <givenNames>SG</givenNames>
+                              </author>, <author>
+                                 <familyName>Rini</familyName> 
+                                 <givenNames>JM.</givenNames>
+                              </author> 
+                              <pubYear year="2006">2006</pubYear>. <articleTitle>X‐ray crystal structures of rabbit <i>N</i>‐acetylglucosaminyltransferase I (GnT I) in complex with donor substrate analogues</articleTitle>. <journalTitle>J Mol Biol</journalTitle> 
+                              <vol>360</vol>(<issue>1</issue>): <pageFirst>67</pageFirst>–<pageLast>79</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib15">
+                           <citation type="journal" xml:id="cit15">
+                              <author>
+                                 <familyName>Guo</familyName> 
+                                 <givenNames>D</givenNames>
+                              </author>, <author>
+                                 <familyName>Gao</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Michels</familyName> 
+                                 <givenNames>DA</givenNames>
+                              </author>, <author>
+                                 <familyName>Feeney</familyName> 
+                                 <givenNames>L</givenNames>
+                              </author>, <author>
+                                 <familyName>Eng</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Chan</familyName> 
+                                 <givenNames>B</givenNames>
+                              </author>, <author>
+                                 <familyName>Laird</familyName> 
+                                 <givenNames>MW</givenNames>
+                              </author>, <author>
+                                 <familyName>Zhang</familyName> 
+                                 <givenNames>B</givenNames>
+                              </author>, <author>
+                                 <familyName>Yu</familyName> 
+                                 <givenNames>XC</givenNames>
+                              </author>, <author>
+                                 <familyName>Joly</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Snedecor</familyName> 
+                                 <givenNames>B</givenNames>
+                              </author>, <author>
+                                 <familyName>Shen</familyName> 
+                                 <givenNames>A.</givenNames>
+                              </author> 
+                              <pubYear year="2010">2010</pubYear>. <articleTitle>Mechanisms of unintended amino acid sequence changes in recombinant monoclonal antibodies expressed in Chinese Hamster Ovary (CHO) cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>107</vol>(<issue>1</issue>): <pageFirst>163</pageFirst>–<pageLast>171</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib16">
+                           <citation type="journal" xml:id="cit16">
+                              <author>
+                                 <familyName>Hendrickson</familyName> 
+                                 <givenNames>TL</givenNames>
+                              </author>, <author>
+                                 <familyName>Imperiali</familyName> 
+                                 <givenNames>B.</givenNames>
+                              </author> 
+                              <pubYear year="1995">1995</pubYear>. <articleTitle>Metal ion dependence of oligosaccharyl transferase: Implications for catalysis</articleTitle>. <journalTitle>Biochemistry</journalTitle> 
+                              <vol>34</vol>(<issue>29</issue>): <pageFirst>9444</pageFirst>–<pageLast>9450</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib17">
+                           <citation type="journal" xml:id="cit17">
+                              <author>
+                                 <familyName>Hills</familyName> 
+                                 <givenNames>AE</givenNames>
+                              </author>, <author>
+                                 <familyName>Patel</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Boyd</familyName> 
+                                 <givenNames>P</givenNames>
+                              </author>, <author>
+                                 <familyName>James</familyName> 
+                                 <givenNames>DC.</givenNames>
+                              </author> 
+                              <pubYear year="2001">2001</pubYear>. <articleTitle>Metabolic control of recombinant monoclonal antibody <i>N</i>‐glycosylation in GS‐NS0cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>75</vol>(<issue>2</issue>): <pageFirst>239</pageFirst>–<pageLast>251</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib18">
+                           <citation type="journal" xml:id="cit18">
+                              <author>
+                                 <familyName>Hooker</familyName> 
+                                 <givenNames>AD</givenNames>
+                              </author>, <author>
+                                 <familyName>Goldman</familyName> 
+                                 <givenNames>MH</givenNames>
+                              </author>, <author>
+                                 <familyName>Markham</familyName> 
+                                 <givenNames>NH</givenNames>
+                              </author>, <author>
+                                 <familyName>James</familyName> 
+                                 <givenNames>DC</givenNames>
+                              </author>, <author>
+                                 <familyName>Ison</familyName> 
+                                 <givenNames>AP</givenNames>
+                              </author>, <author>
+                                 <familyName>Bull</familyName> 
+                                 <givenNames>AT</givenNames>
+                              </author>, <author>
+                                 <familyName>Strange</familyName> 
+                                 <givenNames>PG</givenNames>
+                              </author>, <author>
+                                 <familyName>Salmon</familyName> 
+                                 <givenNames>I</givenNames>
+                              </author>, <author>
+                                 <familyName>Baines</familyName> 
+                                 <givenNames>AJ</givenNames>
+                              </author>, <author>
+                                 <familyName>Jenkins</familyName> 
+                                 <givenNames>N.</givenNames>
+                              </author> 
+                              <pubYear year="1995">1995</pubYear>. <articleTitle>
+                                 <i>N</i>‐glycans of recombinant human interferon‐gamma change during batch culture of Chinese hamster ovary cells</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>48</vol>(<issue>6</issue>): <pageFirst>639</pageFirst>–<pageLast>648</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib19">
+                           <citation type="journal" xml:id="cit19">
+                              <author>
+                                 <familyName>Jefferis</familyName> 
+                                 <givenNames>R.</givenNames>
+                              </author> 
+                              <pubYear year="2005">2005</pubYear>. <articleTitle>Glycosylation of recombinant antibody therapeutics</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle> 
+                              <vol>21</vol>(<issue>1</issue>): <pageFirst>11</pageFirst>–<pageLast>16</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib20">
+                           <citation type="journal" xml:id="cit20">
+                              <author>
+                                 <familyName>Kanda</familyName> 
+                                 <givenNames>Y</givenNames>
+                              </author>, <author>
+                                 <familyName>Yamada</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>Mori</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Okazaki</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Inoue</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Kitajima‐Miyama</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Kuni‐Kamochi</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>Nakano</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>Yano</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Kakita</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Shitara</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Satoh</familyName> 
+                                 <givenNames>M.</givenNames>
+                              </author> 
+                              <pubYear year="2007">2007</pubYear>. <articleTitle>Comparison of biological activity among nonfucosylated therapeutic IgG1 antibodies with three different <i>N</i>‐linked Fc oligosaccharides: The high‐mannose, hybrid, and complex types</articleTitle>. <journalTitle>Glycobiology</journalTitle> 
+                              <vol>17</vol>(<issue>1</issue>): <pageFirst>104</pageFirst>–<pageLast>118</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib21">
+                           <citation type="journal" xml:id="cit21">
+                              <author>
+                                 <familyName>Kaufman</familyName> 
+                                 <givenNames>RJ</givenNames>
+                              </author>, <author>
+                                 <familyName>Swaroop</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Murtha‐Riel</familyName> 
+                                 <givenNames>P.</givenNames>
+                              </author> 
+                              <pubYear year="1994">1994</pubYear>. <articleTitle>Depletion of manganese within the secretory pathway inhibits <i>O</i>‐linked glycosylation in mammalian cells</articleTitle>. <journalTitle>Biochemistry</journalTitle> 
+                              <vol>33</vol>(<issue>33</issue>): <pageFirst>9813</pageFirst>–<pageLast>9819</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib22">
+                           <citation type="journal" xml:id="cit22">
+                              <author>
+                                 <familyName>Kornfeld</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>Kornfeld</familyName> 
+                                 <givenNames>S.</givenNames>
+                              </author> 
+                              <pubYear year="1985">1985</pubYear>. <articleTitle>Assembly of asparagine‐linked oligosaccharides</articleTitle>. <journalTitle>Annu Rev Biochem</journalTitle> 
+                              <vol>54</vol>:<pageFirst>631</pageFirst>–<pageLast>664</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib23">
+                           <citation type="journal" xml:id="cit23">
+                              <author>
+                                 <familyName>Kornfeld</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Li</familyName> 
+                                 <givenNames>E</givenNames>
+                              </author>, <author>
+                                 <familyName>Tabas</familyName> 
+                                 <givenNames>I.</givenNames>
+                              </author> 
+                              <pubYear year="1978">1978</pubYear>. <articleTitle>The synthesis of complex‐type oligosaccharides. II. Characterization of the processing intermediates in the synthesis of the complex oligosaccharide units of the vesicular stomatitis virus G protein</articleTitle>. <journalTitle>J Biol Chem</journalTitle> 
+                              <vol>253</vol>(<issue>21</issue>): <pageFirst>7771</pageFirst>–<pageLast>7778</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib24">
+                           <citation type="journal" xml:id="cit24">
+                              <author>
+                                 <familyName>Lubiniecki</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Volkin</familyName> 
+                                 <givenNames>DB</givenNames>
+                              </author>, <author>
+                                 <familyName>Federici</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Bond</familyName> 
+                                 <givenNames>MD</givenNames>
+                              </author>, <author>
+                                 <familyName>Nedved</familyName> 
+                                 <givenNames>ML</givenNames>
+                              </author>, <author>
+                                 <familyName>Hendricks</familyName> 
+                                 <givenNames>L</givenNames>
+                              </author>, <author>
+                                 <familyName>Mehndiratta</familyName> 
+                                 <givenNames>P</givenNames>
+                              </author>, <author>
+                                 <familyName>Bruner</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Burman</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Dalmonte</familyName> 
+                                 <givenNames>P</givenNames>
+                              </author>, <author>
+                                 <familyName>Kline</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Ni</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Panek</familyName> 
+                                 <givenNames>ME</givenNames>
+                              </author>, <author>
+                                 <familyName>Pikounis</familyName> 
+                                 <givenNames>B</givenNames>
+                              </author>, <author>
+                                 <familyName>Powers</familyName> 
+                                 <givenNames>G</givenNames>
+                              </author>, <author>
+                                 <familyName>Vafa</familyName> 
+                                 <givenNames>O</givenNames>
+                              </author>, <author>
+                                 <familyName>Siegel</familyName> 
+                                 <givenNames>R.</givenNames>
+                              </author> 
+                              <pubYear year="2011">2011</pubYear>. <articleTitle>Comparability assessments of process and product changes made during development of two different monoclonal antibodies</articleTitle>. <journalTitle>Biologicals</journalTitle> 
+                              <vol>39</vol>(<issue>1</issue>): <pageFirst>13</pageFirst>–<pageLast>22</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib25">
+                           <citation type="journal" xml:id="cit25">
+                              <author>
+                                 <familyName>Ma</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Nashabeh</familyName> 
+                                 <givenNames>W.</givenNames>
+                              </author> 
+                              <pubYear year="1999">1999</pubYear>. <articleTitle>Carbohydrate analysis of a chimeric recombinant monoclonal antibody by capillary electrophoresis with laser‐induced fluorescence detection</articleTitle>. <journalTitle>Anal Chem</journalTitle> 
+                              <vol>71</vol>(<issue>22</issue>): <pageFirst>5185</pageFirst>–<pageLast>5192</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib26">
+                           <citation type="journal" xml:id="cit26">
+                              <author>
+                                 <familyName>Mori</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Iida</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Yamane‐Ohnuki</familyName> 
+                                 <givenNames>N</givenNames>
+                              </author>, <author>
+                                 <familyName>Kanda</familyName> 
+                                 <givenNames>Y</givenNames>
+                              </author>, <author>
+                                 <familyName>Kuni‐Kamochi</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>Nakano</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>Imai‐Nishiya</familyName> 
+                                 <givenNames>H</givenNames>
+                              </author>, <author>
+                                 <familyName>Okazaki</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Shinkawa</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>Natsume</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Niwa</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>Shitara</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Satoh</familyName> 
+                                 <givenNames>M.</givenNames>
+                              </author> 
+                              <pubYear year="2007">2007</pubYear>. <articleTitle>Non‐fucosylated therapeutic antibodies: The next generation of therapeutic antibodies</articleTitle>. <journalTitle>Cytotechnology</journalTitle> 
+                              <vol>55</vol>(<issue>2–3</issue>): <pageFirst>109</pageFirst>–<pageLast>114</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib27">
+                           <citation type="journal" xml:id="cit27">
+                              <author>
+                                 <familyName>Raju</familyName> 
+                                 <givenNames>TS.</givenNames>
+                              </author> 
+                              <pubYear year="2003">2003</pubYear>. <articleTitle>Glycosylation variations with expression systems and their impact on biological activity of therapeutic immunoglobulins</articleTitle>. <journalTitle>Bioprocess Tech</journalTitle> 
+                              <vol>1</vol>:<pageFirst>44</pageFirst>–<pageLast>53</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib28">
+                           <citation type="journal" xml:id="cit28">
+                              <author>
+                                 <familyName>Robinson</familyName> 
+                                 <givenNames>DK</givenNames>
+                              </author>, <author>
+                                 <familyName>Chan</familyName> 
+                                 <givenNames>CP</givenNames>
+                              </author>, <author>
+                                 <familyName>Yu Lp</familyName> 
+                                 <givenNames>C</givenNames>
+                              </author>, <author>
+                                 <familyName>Tsai</familyName> 
+                                 <givenNames>PK</givenNames>
+                              </author>, <author>
+                                 <familyName>Tung</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Seamans</familyName> 
+                                 <givenNames>TC</givenNames>
+                              </author>, <author>
+                                 <familyName>Lenny</familyName> 
+                                 <givenNames>AB</givenNames>
+                              </author>, <author>
+                                 <familyName>Lee</familyName> 
+                                 <givenNames>DK</givenNames>
+                              </author>, <author>
+                                 <familyName>Irwin</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Silberklang</familyName> 
+                                 <givenNames>M.</givenNames>
+                              </author> 
+                              <pubYear year="1994">1994</pubYear>. <articleTitle>Characterization of a recombinant antibody produced in the course of a high yield fed‐batch process</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>44</vol>(<issue>6</issue>): <pageFirst>727</pageFirst>–<pageLast>735</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib29">
+                           <citation type="other" xml:id="cit29">
+                              <author>
+                                 <familyName>Ryll</familyName> 
+                                 <givenNames>T.</givenNames>
+                              </author> 
+                              <pubYear year="1999">1999</pubYear>. Mammalian cell culture process for producing glycoproteins. <otherTitle>United States Patent</otherTitle>.</citation>
+                        </bib>
+                        <bib xml:id="bib30">
+                           <citation type="journal" xml:id="cit30">
+                              <author>
+                                 <familyName>Schmelzer</familyName> 
+                                 <givenNames>AE</givenNames>
+                              </author>, <author>
+                                 <familyName>Miller</familyName> 
+                                 <givenNames>WM.</givenNames>
+                              </author> 
+                              <pubYear year="2002">2002</pubYear>. <articleTitle>Hyperosmotic stress and elevated pCO2 alter monoclonal antibody charge distribution and monosaccharide content</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle> 
+                              <vol>18</vol>(<issue>2</issue>): <pageFirst>346</pageFirst>–<pageLast>353</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib31">
+                           <citation type="journal" xml:id="cit31">
+                              <author>
+                                 <familyName>Schneider</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Marison</familyName> 
+                                 <givenNames>IW</givenNames>
+                              </author>, <author>
+                                 <familyName>von Stockar</familyName> 
+                                 <givenNames>U.</givenNames>
+                              </author> 
+                              <pubYear year="1996">1996</pubYear>. <articleTitle>The importance of ammonia in mammalian cell culture</articleTitle>. <journalTitle>J Biotechnol</journalTitle> 
+                              <vol>46</vol>(<issue>3</issue>): <pageFirst>161</pageFirst>–<pageLast>185</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib32">
+                           <citation type="journal" xml:id="cit32">
+                              <author>
+                                 <familyName>Shields</familyName> 
+                                 <givenNames>RL</givenNames>
+                              </author>, <author>
+                                 <familyName>Lai</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Keck</familyName> 
+                                 <givenNames>R</givenNames>
+                              </author>, <author>
+                                 <familyName>O'Connell</familyName> 
+                                 <givenNames>LY</givenNames>
+                              </author>, <author>
+                                 <familyName>Hong</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Meng</familyName> 
+                                 <givenNames>YG</givenNames>
+                              </author>, <author>
+                                 <familyName>Weikert</familyName> 
+                                 <givenNames>SH</givenNames>
+                              </author>, <author>
+                                 <familyName>Presta</familyName> 
+                                 <givenNames>LG.</givenNames>
+                              </author> 
+                              <pubYear year="2002">2002</pubYear>. <articleTitle>Lack of fucose on human IgG1 <i>N</i>‐linked oligosaccharide improves binding to human Fcgamma RIII and antibody‐dependent cellular toxicity</articleTitle>. <journalTitle>J Biol Chem</journalTitle> 
+                              <vol>277</vol>(<issue>30</issue>): <pageFirst>26733</pageFirst>–<pageLast>26740</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib33">
+                           <citation type="journal" xml:id="cit33">
+                              <author>
+                                 <familyName>Unligil</familyName> 
+                                 <givenNames>UM</givenNames>
+                              </author>, <author>
+                                 <familyName>Zhou</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Yuwaraj</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Sarkar</familyName> 
+                                 <givenNames>M</givenNames>
+                              </author>, <author>
+                                 <familyName>Schachter</familyName> 
+                                 <givenNames>H</givenNames>
+                              </author>, <author>
+                                 <familyName>Rini</familyName> 
+                                 <givenNames>JM.</givenNames>
+                              </author> 
+                              <pubYear year="2000">2000</pubYear>. <articleTitle>X‐ray crystal structure of rabbit <i>N</i>‐acetylglucosaminyltransferase I: Catalytic mechanism and a new protein superfamily</articleTitle>. <journalTitle>EMBO J</journalTitle> 
+                              <vol>19</vol>(<issue>20</issue>): <pageFirst>5269</pageFirst>–<pageLast>5280</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib34">
+                           <citation type="journal" xml:id="cit34">
+                              <author>
+                                 <familyName>Urlaub</familyName> 
+                                 <givenNames>G</givenNames>
+                              </author>, <author>
+                                 <familyName>Chasin</familyName> 
+                                 <givenNames>LA.</givenNames>
+                              </author> 
+                              <pubYear year="1980">1980</pubYear>. <articleTitle>Isolation of Chinese hamster cell mutants deficient in dihydrofolate reductase activity</articleTitle>. <journalTitle>Proc Natl Acad Sci USA</journalTitle> 
+                              <vol>77</vol>(<issue>7</issue>): <pageFirst>4216</pageFirst>–<pageLast>4220</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib35">
+                           <citation type="journal" xml:id="cit35">
+                              <author>
+                                 <familyName>van Berkel</familyName> 
+                                 <givenNames>PH</givenNames>
+                              </author>, <author>
+                                 <familyName>Gerritsen</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Perdok</familyName> 
+                                 <givenNames>G</givenNames>
+                              </author>, <author>
+                                 <familyName>Valbjorn</familyName> 
+                                 <givenNames>J</givenNames>
+                              </author>, <author>
+                                 <familyName>Vink</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>van de Winkel</familyName> 
+                                 <givenNames>JG</givenNames>
+                              </author>, <author>
+                                 <familyName>Parren</familyName> 
+                                 <givenNames>PW.</givenNames>
+                              </author> 
+                              <pubYear year="2009">2009</pubYear>. <articleTitle>
+                                 <i>N</i>‐linked glycosylation is an important parameter for optimal selection of cell lines producing biopharmaceutical human IgG</articleTitle>. <journalTitle>Biotechnol Prog</journalTitle> 
+                              <vol>25</vol>(<issue>1</issue>): <pageFirst>244</pageFirst>–<pageLast>251</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib36">
+                           <citation type="journal" xml:id="cit36">
+                              <author>
+                                 <familyName>Walsh</familyName> 
+                                 <givenNames>G</givenNames>
+                              </author>, <author>
+                                 <familyName>Jefferis</familyName> 
+                                 <givenNames>R.</givenNames>
+                              </author> 
+                              <pubYear year="2006">2006</pubYear>. <articleTitle>Post‐translational modifications in the context of therapeutic proteins</articleTitle>. <journalTitle>Nat Biotechnol</journalTitle> 
+                              <vol>24</vol>(<issue>10</issue>): <pageFirst>1241</pageFirst>–<pageLast>1252</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib37">
+                           <citation type="journal" xml:id="cit37">
+                              <author>
+                                 <familyName>Wright</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Morrison</familyName> 
+                                 <givenNames>SL.</givenNames>
+                              </author> 
+                              <pubYear year="1998">1998</pubYear>. <articleTitle>Effect of C2‐associated carbohydrate structure on Ig effector function: Studies with chimeric mouse‐human IgG1 antibodies in glycosylation mutants of Chinese hamster ovary cells</articleTitle>. <journalTitle>J Immunol</journalTitle> 
+                              <vol>160</vol>(<issue>7</issue>): <pageFirst>3393</pageFirst>–<pageLast>3402</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib38">
+                           <citation type="journal" xml:id="cit38">
+                              <author>
+                                 <familyName>Wright</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Sato</familyName> 
+                                 <givenNames>Y</givenNames>
+                              </author>, <author>
+                                 <familyName>Okada</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>Chang</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Endo</familyName> 
+                                 <givenNames>T</givenNames>
+                              </author>, <author>
+                                 <familyName>Morrison</familyName> 
+                                 <givenNames>S.</givenNames>
+                              </author> 
+                              <pubYear year="2000">2000</pubYear>. <articleTitle>In vivo trafficking and catabolism of IgG1 antibodies with Fc associated carbohydrates of differing structure</articleTitle>. <journalTitle>Glycobiology</journalTitle> 
+                              <vol>10</vol>(<issue>12</issue>): <pageFirst>1347</pageFirst>–<pageLast>1355</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib39">
+                           <citation type="journal" xml:id="cit39">
+                              <author>
+                                 <familyName>Zanghi</familyName> 
+                                 <givenNames>JA</givenNames>
+                              </author>, <author>
+                                 <familyName>Schmelzer</familyName> 
+                                 <givenNames>AE</givenNames>
+                              </author>, <author>
+                                 <familyName>Mendoza</familyName> 
+                                 <givenNames>TP</givenNames>
+                              </author>, <author>
+                                 <familyName>Knop</familyName> 
+                                 <givenNames>RH</givenNames>
+                              </author>, <author>
+                                 <familyName>Miller</familyName> 
+                                 <givenNames>WM.</givenNames>
+                              </author> 
+                              <pubYear year="1999">1999</pubYear>. <articleTitle>Bicarbonate concentration and osmolality are key determinants in the inhibition of CHO cell polysialylation under elevated pCO(2) or pH</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>65</vol>(<issue>2</issue>): <pageFirst>182</pageFirst>–<pageLast>191</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib40">
+                           <citation type="journal" xml:id="cit40">
+                              <author>
+                                 <familyName>Zhang</familyName> 
+                                 <givenNames>Y</givenNames>
+                              </author>, <author>
+                                 <familyName>Wang</familyName> 
+                                 <givenNames>PG</givenNames>
+                              </author>, <author>
+                                 <familyName>Brew</familyName> 
+                                 <givenNames>K.</givenNames>
+                              </author> 
+                              <pubYear year="2001">2001</pubYear>. <articleTitle>Specificity and mechanism of metal ion activation in UDP‐galactose/beta‐galactoside‐alpha‐1,3‐galactosyltransferase</articleTitle>. <journalTitle>J Biol Chem</journalTitle> 
+                              <vol>276</vol>(<issue>15</issue>): <pageFirst>11567</pageFirst>–<pageLast>11574</pageLast>.</citation>
+                        </bib>
+                        <bib xml:id="bib41">
+                           <citation type="journal" xml:id="cit41">
+                              <author>
+                                 <familyName>Zhou</familyName> 
+                                 <givenNames>Q</givenNames>
+                              </author>, <author>
+                                 <familyName>Shankara</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>Roy</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Qiu</familyName> 
+                                 <givenNames>H</givenNames>
+                              </author>, <author>
+                                 <familyName>Estes</familyName> 
+                                 <givenNames>S</givenNames>
+                              </author>, <author>
+                                 <familyName>McVie‐Wylie</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Culm‐Merdek</familyName> 
+                                 <givenNames>K</givenNames>
+                              </author>, <author>
+                                 <familyName>Park</familyName> 
+                                 <givenNames>A</givenNames>
+                              </author>, <author>
+                                 <familyName>Pan</familyName> 
+                                 <givenNames>C</givenNames>
+                              </author>, <author>
+                                 <familyName>Edmunds</familyName> 
+                                 <givenNames>T.</givenNames>
+                              </author> 
+                              <pubYear year="2008">2008</pubYear>. <articleTitle>Development of a simple and rapid method for producing non‐fucosylated oligomannose containing antibodies with increased effector function</articleTitle>. <journalTitle>Biotechnol Bioeng</journalTitle> 
+                              <vol>99</vol>(<issue>3</issue>): <pageFirst>652</pageFirst>–<pageLast>665</pageLast>.</citation>
+                        </bib>
+                     </bibliography>
+                  </body>
+               </component>]]></body>
+  <back>
+    <ref-list>
+      <ref id="0">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahn</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Jeon</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>YR</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>SK.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of culture temperature on erythropoietin production and glycosylation in a perfusion culture of recombinant CHO cells</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2008</year>
+          <volume>101</volume>
+          <fpage>1234</fpage>
+          <lpage>1244</lpage>
+        </element-citation>
+      </ref>
+      <ref id="1">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersen</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Bridges</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gawlitzek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hoy</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple cell culture factors can affect the glycosylation of Asn‐184 in CHO‐produced tissue‐type plasminogen activator</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2000</year>
+          <volume>70</volume>
+          <fpage>25</fpage>
+          <lpage>31</lpage>
+        </element-citation>
+      </ref>
+      <ref id="2">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bibila</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>DK.</given-names>
+            </name>
+          </person-group>
+          <article-title>In pursuit of the optimal fed‐batch process for monoclonal antibody production</article-title>
+          <source>Biotechnol Prog</source>
+          <year>1995</year>
+          <volume>11</volume>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+        </element-citation>
+      </ref>
+      <ref id="3">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borys</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Linzer</surname>
+              <given-names>DI</given-names>
+            </name>
+            <name>
+              <surname>Papoutsakis</surname>
+              <given-names>ET.</given-names>
+            </name>
+          </person-group>
+          <article-title>Culture pH affects expression rates and glycosylation of recombinant mouse placental lactogen proteins by Chinese hamster ovary (CHO) cells</article-title>
+          <source>Biotechnology (NY)</source>
+          <year>1993</year>
+          <volume>11</volume>
+          <fpage>720</fpage>
+          <lpage>724</lpage>
+        </element-citation>
+      </ref>
+      <ref id="4">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burton</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>RA.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunology. Sugar determines antibody activity</article-title>
+          <source>Science</source>
+          <year>2006</year>
+          <volume>313</volume>
+          <fpage>627</fpage>
+          <lpage>628</lpage>
+        </element-citation>
+      </ref>
+      <ref id="5">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Butler</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Animal cell cultures: Recent achievements and perspectives in the production of biopharmaceuticals</article-title>
+          <source>Appl Microbiol Biotechnol</source>
+          <year>2005</year>
+          <volume>68</volume>
+          <fpage>283</fpage>
+          <lpage>291</lpage>
+        </element-citation>
+      </ref>
+      <ref id="6">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Calhoun</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="7">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Harcum</surname>
+              <given-names>SW.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of elevated ammonium on glycosylation gene expression in CHO cells</article-title>
+          <source>Metab Eng</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>123</fpage>
+          <lpage>132</lpage>
+        </element-citation>
+      </ref>
+      <ref id="8">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>YD</given-names>
+            </name>
+            <name>
+              <surname>Flynn</surname>
+              <given-names>GC.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of Fc glycan forms on human IgG2 antibody clearance in humans</article-title>
+          <source>Glycobiology</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <fpage>240</fpage>
+          <lpage>249</lpage>
+        </element-citation>
+      </ref>
+      <ref id="9">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clark</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Griffiths</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Harcum</surname>
+              <given-names>SW.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene‐expression profiles for five key glycosylation genes for galactose‐fed CHO cells expressing recombinant IL‐4/13 cytokine trap</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2005</year>
+          <volume>90</volume>
+          <fpage>568</fpage>
+          <lpage>577</lpage>
+        </element-citation>
+      </ref>
+      <ref id="10">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crowell</surname>
+              <given-names>CK</given-names>
+            </name>
+            <name>
+              <surname>Grampp</surname>
+              <given-names>GE</given-names>
+            </name>
+            <name>
+              <surname>Rogers</surname>
+              <given-names>GN</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Scheinman</surname>
+              <given-names>RI.</given-names>
+            </name>
+          </person-group>
+          <article-title>Amino acid and manganese supplementation modulates the glycosylation state of erythropoietin in a CHO culture system</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2007</year>
+          <volume>96</volume>
+          <fpage>538</fpage>
+          <lpage>549</lpage>
+        </element-citation>
+      </ref>
+      <ref id="11">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gawlitzek</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ryll</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Lofgren</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sliwkowski</surname>
+              <given-names>MB.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ammonium alters N‐glycan structures of recombinant TNFR‐IgG: Degradative versus biosynthetic mechanisms</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2000</year>
+          <volume>68</volume>
+          <fpage>637</fpage>
+          <lpage>646</lpage>
+        </element-citation>
+      </ref>
+      <ref id="12">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goochee</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Gramer</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Bahr</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>JR.</given-names>
+            </name>
+          </person-group>
+          <article-title>The oligosaccharides of glycoproteins: Bioprocess factors affecting oligosaccharide structure and their effect on glycoprotein properties</article-title>
+          <source>Biotechnology (NY)</source>
+          <year>1991</year>
+          <volume>9</volume>
+          <fpage>1347</fpage>
+          <lpage>1355</lpage>
+        </element-citation>
+      </ref>
+      <ref id="13">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gordon</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Sivarajah</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Satkunarajah</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Tarling</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Vizitiu</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Withers</surname>
+              <given-names>SG</given-names>
+            </name>
+            <name>
+              <surname>Rini</surname>
+              <given-names>JM.</given-names>
+            </name>
+          </person-group>
+          <article-title>X‐ray crystal structures of rabbit N‐acetylglucosaminyltransferase I (GnT I) in complex with donor substrate analogues</article-title>
+          <source>J Mol Biol</source>
+          <year>2006</year>
+          <volume>360</volume>
+          <fpage>67</fpage>
+          <lpage>79</lpage>
+        </element-citation>
+      </ref>
+      <ref id="14">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Michels</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Feeney</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Eng</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Laird</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>XC</given-names>
+            </name>
+            <name>
+              <surname>Joly</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Snedecor</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of unintended amino acid sequence changes in recombinant monoclonal antibodies expressed in Chinese Hamster Ovary (CHO) cells</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2010</year>
+          <volume>107</volume>
+          <fpage>163</fpage>
+          <lpage>171</lpage>
+        </element-citation>
+      </ref>
+      <ref id="15">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hendrickson</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Imperiali</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metal ion dependence of oligosaccharyl transferase: Implications for catalysis</article-title>
+          <source>Biochemistry</source>
+          <year>1995</year>
+          <volume>34</volume>
+          <fpage>9444</fpage>
+          <lpage>9450</lpage>
+        </element-citation>
+      </ref>
+      <ref id="16">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hills</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Boyd</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>DC.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic control of recombinant monoclonal antibody N‐glycosylation in GS‐NS0cells</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2001</year>
+          <volume>75</volume>
+          <fpage>239</fpage>
+          <lpage>251</lpage>
+        </element-citation>
+      </ref>
+      <ref id="17">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hooker</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Markham</surname>
+              <given-names>NH</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Ison</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Bull</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Strange</surname>
+              <given-names>PG</given-names>
+            </name>
+            <name>
+              <surname>Salmon</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Baines</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Jenkins</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>N‐glycans of recombinant human interferon‐gamma change during batch culture of Chinese hamster ovary cells</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>1995</year>
+          <volume>48</volume>
+          <fpage>639</fpage>
+          <lpage>648</lpage>
+        </element-citation>
+      </ref>
+      <ref id="18">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jefferis</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycosylation of recombinant antibody therapeutics</article-title>
+          <source>Biotechnol Prog</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>11</fpage>
+          <lpage>16</lpage>
+        </element-citation>
+      </ref>
+      <ref id="19">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanda</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Okazaki</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kitajima‐Miyama</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kuni‐Kamochi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yano</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kakita</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Shitara</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Satoh</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of biological activity among nonfucosylated therapeutic IgG1 antibodies with three different N‐linked Fc oligosaccharides: The high‐mannose, hybrid, and complex types</article-title>
+          <source>Glycobiology</source>
+          <year>2007</year>
+          <volume>17</volume>
+          <fpage>104</fpage>
+          <lpage>118</lpage>
+        </element-citation>
+      </ref>
+      <ref id="20">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaufman</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Swaroop</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Murtha‐Riel</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Depletion of manganese within the secretory pathway inhibits O‐linked glycosylation in mammalian cells</article-title>
+          <source>Biochemistry</source>
+          <year>1994</year>
+          <volume>33</volume>
+          <fpage>9813</fpage>
+          <lpage>9819</lpage>
+        </element-citation>
+      </ref>
+      <ref id="21">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kornfeld</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kornfeld</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assembly of asparagine‐linked oligosaccharides</article-title>
+          <source>Annu Rev Biochem</source>
+          <year>1985</year>
+          <volume>54</volume>
+          <fpage>631</fpage>
+          <lpage>664</lpage>
+        </element-citation>
+      </ref>
+      <ref id="22">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kornfeld</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tabas</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>The synthesis of complex‐type oligosaccharides. II. Characterization of the processing intermediates in the synthesis of the complex oligosaccharide units of the vesicular stomatitis virus G protein</article-title>
+          <source>J Biol Chem</source>
+          <year>1978</year>
+          <volume>253</volume>
+          <fpage>7771</fpage>
+          <lpage>7778</lpage>
+        </element-citation>
+      </ref>
+      <ref id="23">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lubiniecki</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Volkin</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Federici</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bond</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Nedved</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Hendricks</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Mehndiratta</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bruner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Burman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Dalmonte</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Kline</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Panek</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Pikounis</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Powers</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Vafa</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparability assessments of process and product changes made during development of two different monoclonal antibodies</article-title>
+          <source>Biologicals</source>
+          <year>2011</year>
+          <volume>39</volume>
+          <fpage>13</fpage>
+          <lpage>22</lpage>
+        </element-citation>
+      </ref>
+      <ref id="24">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nashabeh</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbohydrate analysis of a chimeric recombinant monoclonal antibody by capillary electrophoresis with laser‐induced fluorescence detection</article-title>
+          <source>Anal Chem</source>
+          <year>1999</year>
+          <volume>71</volume>
+          <fpage>5185</fpage>
+          <lpage>5192</lpage>
+        </element-citation>
+      </ref>
+      <ref id="25">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mori</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Iida</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yamane‐Ohnuki</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Kanda</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kuni‐Kamochi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Imai‐Nishiya</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Okazaki</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Shinkawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Natsume</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Niwa</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Shitara</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Satoh</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Non‐fucosylated therapeutic antibodies: The next generation of therapeutic antibodies</article-title>
+          <source>Cytotechnology</source>
+          <year>2007</year>
+          <volume>55</volume>
+          <fpage>109</fpage>
+          <lpage>114</lpage>
+        </element-citation>
+      </ref>
+      <ref id="26">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raju</surname>
+              <given-names>TS.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycosylation variations with expression systems and their impact on biological activity of therapeutic immunoglobulins</article-title>
+          <source>Bioprocess Tech</source>
+          <year>2003</year>
+          <volume>1</volume>
+          <fpage>44</fpage>
+          <lpage>53</lpage>
+        </element-citation>
+      </ref>
+      <ref id="27">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robinson</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>CP</given-names>
+            </name>
+            <name>
+              <surname>Yu Lp</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Tsai</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Tung</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Seamans</surname>
+              <given-names>TC</given-names>
+            </name>
+            <name>
+              <surname>Lenny</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>Irwin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Silberklang</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of a recombinant antibody produced in the course of a high yield fed‐batch process</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>1994</year>
+          <volume>44</volume>
+          <fpage>727</fpage>
+          <lpage>735</lpage>
+        </element-citation>
+      </ref>
+      <ref id="28">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmelzer</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>WM.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hyperosmotic stress and elevated pCO2 alter monoclonal antibody charge distribution and monosaccharide content</article-title>
+          <source>Biotechnol Prog</source>
+          <year>2002</year>
+          <volume>18</volume>
+          <fpage>346</fpage>
+          <lpage>353</lpage>
+        </element-citation>
+      </ref>
+      <ref id="29">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Marison</surname>
+              <given-names>IW</given-names>
+            </name>
+            <name>
+              <surname>von Stockar</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>The importance of ammonia in mammalian cell culture</article-title>
+          <source>J Biotechnol</source>
+          <year>1996</year>
+          <volume>46</volume>
+          <fpage>161</fpage>
+          <lpage>185</lpage>
+        </element-citation>
+      </ref>
+      <ref id="30">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shields</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Keck</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>O&apos;Connell</surname>
+              <given-names>LY</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>YG</given-names>
+            </name>
+            <name>
+              <surname>Weikert</surname>
+              <given-names>SH</given-names>
+            </name>
+            <name>
+              <surname>Presta</surname>
+              <given-names>LG.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lack of fucose on human IgG1 N‐linked oligosaccharide improves binding to human Fcgamma RIII and antibody‐dependent cellular toxicity</article-title>
+          <source>J Biol Chem</source>
+          <year>2002</year>
+          <volume>277</volume>
+          <fpage>26733</fpage>
+          <lpage>26740</lpage>
+        </element-citation>
+      </ref>
+      <ref id="31">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Unligil</surname>
+              <given-names>UM</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yuwaraj</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sarkar</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schachter</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Rini</surname>
+              <given-names>JM.</given-names>
+            </name>
+          </person-group>
+          <article-title>X‐ray crystal structure of rabbit N‐acetylglucosaminyltransferase I: Catalytic mechanism and a new protein superfamily</article-title>
+          <source>EMBO J</source>
+          <year>2000</year>
+          <volume>19</volume>
+          <fpage>5269</fpage>
+          <lpage>5280</lpage>
+        </element-citation>
+      </ref>
+      <ref id="32">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urlaub</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Chasin</surname>
+              <given-names>LA.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of Chinese hamster cell mutants deficient in dihydrofolate reductase activity</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1980</year>
+          <volume>77</volume>
+          <fpage>4216</fpage>
+          <lpage>4220</lpage>
+        </element-citation>
+      </ref>
+      <ref id="33">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Berkel</surname>
+              <given-names>PH</given-names>
+            </name>
+            <name>
+              <surname>Gerritsen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Perdok</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Valbjorn</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vink</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>van de Winkel</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Parren</surname>
+              <given-names>PW.</given-names>
+            </name>
+          </person-group>
+          <article-title>N‐linked glycosylation is an important parameter for optimal selection of cell lines producing biopharmaceutical human IgG</article-title>
+          <source>Biotechnol Prog</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>244</fpage>
+          <lpage>251</lpage>
+        </element-citation>
+      </ref>
+      <ref id="34">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walsh</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Jefferis</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Post‐translational modifications in the context of therapeutic proteins</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2006</year>
+          <volume>24</volume>
+          <fpage>1241</fpage>
+          <lpage>1252</lpage>
+        </element-citation>
+      </ref>
+      <ref id="35">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wright</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Morrison</surname>
+              <given-names>SL.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of C2‐associated carbohydrate structure on Ig effector function: Studies with chimeric mouse‐human IgG1 antibodies in glycosylation mutants of Chinese hamster ovary cells</article-title>
+          <source>J Immunol</source>
+          <year>1998</year>
+          <volume>160</volume>
+          <fpage>3393</fpage>
+          <lpage>3402</lpage>
+        </element-citation>
+      </ref>
+      <ref id="36">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wright</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Endo</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Morrison</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>In vivo trafficking and catabolism of IgG1 antibodies with Fc associated carbohydrates of differing structure</article-title>
+          <source>Glycobiology</source>
+          <year>2000</year>
+          <volume>10</volume>
+          <fpage>1347</fpage>
+          <lpage>1355</lpage>
+        </element-citation>
+      </ref>
+      <ref id="37">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zanghi</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Schmelzer</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Mendoza</surname>
+              <given-names>TP</given-names>
+            </name>
+            <name>
+              <surname>Knop</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>WM.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bicarbonate concentration and osmolality are key determinants in the inhibition of CHO cell polysialylation under elevated pCO(2) or pH</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>1999</year>
+          <volume>65</volume>
+          <fpage>182</fpage>
+          <lpage>191</lpage>
+        </element-citation>
+      </ref>
+      <ref id="38">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>PG</given-names>
+            </name>
+            <name>
+              <surname>Brew</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specificity and mechanism of metal ion activation in UDP‐galactose/beta‐galactoside‐alpha‐1,3‐galactosyltransferase</article-title>
+          <source>J Biol Chem</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <fpage>11567</fpage>
+          <lpage>11574</lpage>
+        </element-citation>
+      </ref>
+      <ref id="39">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Shankara</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Estes</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>McVie‐Wylie</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Culm‐Merdek</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Edmunds</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a simple and rapid method for producing non‐fucosylated oligomannose containing antibodies with increased effector function</article-title>
+          <source>Biotechnol Bioeng</source>
+          <year>2008</year>
+          <volume>99</volume>
+          <fpage>652</fpage>
+          <lpage>665</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

@@ -1,0 +1,254 @@
+<article article-type="Journal Article|Research Support, Non-U.S. Gov&apos;t">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Metabolic engineering</journal-title>
+      </journal-title-group>
+      <issn>1096-7184</issn>
+      <publisher>
+        <publisher-name>Medline</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36152932</article-id>
+      <article-id pub-id-type="doi">10.1016/j.ymben.2022.09.003</article-id>
+      <article-id pub-id-type="pii">S1096-7176(22)00118-5</article-id>
+      <article-id pub-id-type="wtfid">009588355_0021030_230128075021020652</article-id>
+      <article-id pub-id-type="tdm">medline_TDM-36152932</article-id>
+      <title-group>
+        <article-title>Engineering nucleotide sugar synthesis pathways for independent and simultaneous modulation of N-glycan galactosylation and fucosylation in CHO cells.</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Prabhu</surname>
+          <given-names>Anuja</given-names>
+          <aff>Chemical Engineering &amp; Process Development Division, CSIR-National Chemical Laboratory, Pune, 411008, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Shanmugam</surname>
+          <given-names>Dhanasekaran</given-names>
+          <aff>Biochemical Sciences Division, CSIR-National Chemical Laboratory, Pune, 411008, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Gadgil</surname>
+          <given-names>Mugdha</given-names>
+          <aff>Chemical Engineering &amp; Process Development Division, CSIR-National Chemical Laboratory, Pune, 411008, India; Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, 201002, India. Electronic address: mc.gadgil@ncl.res.in.</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>1</day>
+        <month>11</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>74</volume>
+      <fpage>61</fpage>
+      <lpage>71</lpage>
+      <abstract>
+        <p>Glycosylation of recombinant therapeutics like monoclonal antibodies (mAbs) is a critical quality attribute. N-glycans in mAbs are known to affect various effector functions, and thereby therapeutic use of such glycoproteins can depend on a particular glycoform profile to achieve desired efficacy. However, there are currently limited options for modulating the glycoform profile, which depend mainly on over-expression or knock-out of glycosyltransferase enzymes that can introduce or eliminate specific glycans but do not allow predictable glycoform modulation over a range of values. In this study, we demonstrate the ability to predictably modulate the glycoform profile of recombinant IgG. Using CRISPR/Cas9, we have engineered nucleotide sugar synthesis pathways in CHO cells expressing recombinant IgG for combinatorial modulation of galactosylation and fucosylation. Knocking out the enzymes UDP-galactose 4&apos;-epimerase (Gale) and GDP-L-fucose synthase (Fx) resulted in ablation of de novo synthesis of UDP-Gal and GDP-Fuc. With Gale knock-out, the array of N-glycans on recombinantly expressed IgG is narrowed to agalactosylated glycans, mainly A2F glycan (89%). In the Gale and Fx double knock-out cell line, agalactosylated and afucosylated A2 glycan is predominant (88%). In the double knock-out cell line, galactosylation and fucosylation was entirely dependent on the salvage pathway, which allowed for modulation of UDP-Gal and GDP-Fuc synthesis and intracellular nucleotide sugar availability by controlling the availability of extracellular galactose and fucose. We demonstrate that the glycoform profile of recombinant IgG can be modulated from containing predominantly agalactosylated and afucosylated glycans to up to 42% and 96% galactosylation and fucosylation, respectively, by extracellular feeding of sugars in a dose-dependent manner. By simply varying the availability of extracellular galactose and/or fucose, galactosylation and fucosylation levels can be simultaneously and independently modulated. In addition to achieving the production of tailored glycoforms, this engineered CHO host platform can cater to the rapid synthesis of variably glycoengineered proteins for evaluation of biological activity.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Antibody</kwd>
+        <kwd>Cell engineering</kwd>
+        <kwd>Fucosylation</kwd>
+        <kwd>Fx</kwd>
+        <kwd>Galactosylation</kwd>
+        <kwd>Gale</kwd>
+        <kwd>Glycosylation</kwd>
+        <kwd>Nucleotide sugar synthesis</kwd>
+        <kwd>Recombinant therapeutics</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>28RYY2IV3F</chemical.registryNumber>
+          <chemical.name>Fucose</chemical.name>
+          <chemical.ui>D005643</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>X2RN3Q8DNE</chemical.registryNumber>
+          <chemical.name>Galactose</chemical.name>
+          <chemical.ui>D005690</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Polysaccharides</chemical.name>
+          <chemical.ui>D011134</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Antibodies, Monoclonal</chemical.name>
+          <chemical.ui>D000911</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Immunoglobulin G</chemical.name>
+          <chemical.ui>D007074</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Nucleotides</chemical.name>
+          <chemical.ui>D009711</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>58-98-0</chemical.registryNumber>
+          <chemical.name>Uridine Diphosphate</chemical.name>
+          <chemical.ui>D014530</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetinae</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glycosylation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Fucose</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Galactose</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Polysaccharides</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Antibodies, Monoclonal</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>genetics</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000235</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Immunoglobulin G</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Nucleotides</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Uridine Diphosphate</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>N</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+      </kwd-group>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <back>
+    <ref-list/>
+  </back>
+</article>

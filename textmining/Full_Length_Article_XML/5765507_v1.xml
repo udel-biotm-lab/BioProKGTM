@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>5765507</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Polizzi;given-names:Karen M.</infon>
+      <infon key="name_2">surname:Nayyar;given-names:Kalpana</infon>
+      <infon key="name_1">surname:Lee;given-names:Ken</infon>
+      <infon key="article-id_pmid">28921534</infon>
+      <infon key="name_0">surname:Sou;given-names:Si N.</infon>
+      <infon key="notes">  ,  ,  ,  ,  ,  . .  .  ; -. https://doi.org/10.1002/bit.26456  </infon>
+      <infon key="pub-id_pmid">28921534</infon>
+      <infon key="year">2018</infon>
+      <infon key="article-id_pmc">5765507</infon>
+      <infon key="article-id_publisher-id">BIT26456</infon>
+      <infon key="fn">Christopher Sellick and Cleo Kontoravdi are joint last author.</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="article-id_doi">10.1002/bit.26456</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol. Bioeng.; 2018 Feb; 115(2) 512-518. doi:10.1002/bit.26456</infon>
+      <infon key="lpage">518</infon>
+      <infon key="fpage">512</infon>
+      <infon key="issue">2</infon>
+      <infon key="alt-title">SOU et al.</infon>
+      <infon key="volume">115 115:</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="kwd">cell metabolism galactosylation glycosylation monoclonal antibody transient gene expression</infon>
+      <infon key="name_5">surname:Kontoravdi;given-names:Cleo</infon>
+      <infon key="authors">Sou SN, Lee K, Nayyar K, Polizzi KM, Sellick C, Kontoravdi C</infon>
+      <infon key="name_4">surname:Sellick;given-names:Christopher</infon>
+      <offset>0</offset>
+      <text>Exploring cellular behavior under transient gene expression and its impact on mAb productivity and Fc-glycosylation</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:34:17Z</infon>
+        <location offset="34" length="25"/>
+        <text>transient gene expression</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:34:22Z</infon>
+        <location offset="78" length="16"/>
+        <text>mAb productivity</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:34:28Z</infon>
+        <location offset="99" length="16"/>
+        <text>Fc-glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>118</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>127</offset>
+      <text>Transient gene expression (TGE) is a methodology employed in bioprocessing for the fast provision of recombinant protein material. Mild hypothermia is often introduced to overcome the low yield typically achieved with TGE and improve specific protein productivity. It is therefore of interest to examine the impact of mild hypothermic temperatures on both the yield and quality of transiently expressed proteins and the relationship to changes in cellular processes and metabolism. In this study, we focus on the ability of a Chinese hamster ovary cell line to galactosylate a recombinant monoclonal antibody (mAb) product. Through experimentation and flux balance analysis, our results show that TGE in mild hypothermic conditions led to a 76% increase in qP compared to TGE at 36.5 C in our system. This increase is accompanied by increased consumption of nutrients and amino acids, together with increased production of intracellular nucleotide sugar species, and higher rates of mAb galactosylation, despite a reduced rate of cell growth. The reduction in biomass accumulation allowed cells to redistribute their energy and resources toward mAb synthesis and Fc-glycosylation. Interestingly, the higher capacity of cells to galactosylate the recombinant product in TGE at 32 C appears not to have been assisted by the upregulation of galactosyltransferases (GalTs), but by the increased expression of N-acetylglucosaminyltransferase II (GnTII) in this cell line, which facilitated the production of bi-antennary glycan structures for further processing.</text>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:34:50Z</infon>
+        <location offset="258" length="16"/>
+        <text>Mild hypothermia</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:34:53Z</infon>
+        <location offset="345" length="3"/>
+        <text>TGE</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:37:03Z</infon>
+        <location offset="361" length="29"/>
+        <text>specific protein productivity</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:35:10Z</infon>
+        <location offset="445" length="29"/>
+        <text>mild hypothermic temperatures</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:35:17Z</infon>
+        <location offset="487" length="5"/>
+        <text>yield</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:35:23Z</infon>
+        <location offset="497" length="7"/>
+        <text>quality</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:35:38Z</infon>
+        <location offset="574" length="18"/>
+        <text>cellular processes</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:35:40Z</infon>
+        <location offset="597" length="10"/>
+        <text>metabolism</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:36:03Z</infon>
+        <location offset="824" length="33"/>
+        <text>TGE in mild hypothermic condition</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:37:09Z</infon>
+        <location offset="884" length="2"/>
+        <text>qP</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:37:14Z</infon>
+        <location offset="899" length="13"/>
+        <text>TGE at 36.5 C</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:37:37Z</infon>
+        <location offset="970" length="24"/>
+        <text>consumption of nutrients</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:37:42Z</infon>
+        <location offset="999" length="11"/>
+        <text>amino acids</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:37:58Z</infon>
+        <location offset="1036" length="52"/>
+        <text>production of intracellular nucleotide sugar species</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:38:02Z</infon>
+        <location offset="1110" length="19"/>
+        <text>mAb galactosylation</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:38:05Z</infon>
+        <location offset="1157" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:40:16Z</infon>
+        <location offset="1187" length="20"/>
+        <text>biomass accumulation</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:40:21Z</infon>
+        <location offset="1272" length="13"/>
+        <text>mAb synthesis</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:40:25Z</infon>
+        <location offset="1290" length="16"/>
+        <text>Fc-glycosylation</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:40:59Z</infon>
+        <location offset="1334" length="34"/>
+        <text>capacity of cells to galactosylate</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:40:45Z</infon>
+        <location offset="1449" length="46"/>
+        <text>upregulation of galactosyltransferases (GalTs)</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:40:48Z</infon>
+        <location offset="1532" length="42"/>
+        <text>N-acetylglucosaminyltransferase II (GnTII)</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-16T18:41:14Z</infon>
+        <location offset="1616" length="44"/>
+        <text>production of bi-antennary glycan structures</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1693</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1706</offset>
+      <text>Transient gene expression (Wingens et al., 2015) offers an alternative to stable gene expression (SGE) for the rapid production of recombinant proteins required for discovery, early stage development, and pre-clinical studies (Pham, Kamen, &amp; Durocher, 2006). Previous studies have demonstrated that the introduction of mild hypothermic culture temperature in TGE systems can have a positive effect on recombinant protein yield (Galbraith, Tait, Racher, Birch, &amp; James, 2006) by promoting high cell viability, high recombinant transcript expression, and increased mRNA stability (Cain et al., 2013; Marchant, Al-Fageeh, Underhill, Racher, &amp; Smales, 2008; Wulhfard et al., 2008), although the effect is expression vector-dependent (Wulhfard et al., 2008). However, the relationship between cell metabolism, product synthesis, and post-translational modification in the highly dynamic environment of TGE is currently not well described.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2648</offset>
+      <text>In this study, we compare the metabolic behavior, specific monoclonal antibody (mAb) productivity, and glycosylation in a Chinese hamster ovary (CHO) cell line undergoing TGE at physiological temperature (36.5 C) and with a shift to mild hypothermia (32 C). Two bioreactor experiments were carried out: one set of triplicate 14-day fed-batch cultures of the parental CHO cell line at 36.5 C transfected with IgG heavy chain (Starega-Roslan et al., 2011) and light chain (LC) plasmid DNA 24 hr post inoculation and another set of triplicate cultures subjected to a temperature shift from 36.5 to 32 C 24 hr post-transfection.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3289</offset>
+      <text>Upon DNA transfection, there was a decrease in cell viability in response to the mild toxicity of the transfection reagent (polyethyleneimine, PEI) (Figure 1a). The introduction of mild hypothermia at early exponential phase in the second set of experiments further limited rapid cell division; cells enter a prolonged stationary phase with a reduced biomass production rate. This is a common outcome of mild hypothermia in which partial cell cycle arrest is often reported (Marchant et al., 2008). Despite the reduction in the integral of viable cell concentration (IVCC), cells at 32 C had prolonged viability, with 85% viability at harvest as opposed to 70% viability observed in cells cultured at 36.5 C. Figure 1b shows the volumetric and specific mAb productivity at these two temperatures. Despite a slightly higher volumetric yield observed in the TGE system at 36.5 C, average qmAb was higher at 32 C in our system.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-115-512-g002.jpg</infon>
+      <infon key="id">bit26456-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>4218</offset>
+      <text>(a) Viable cell concentration and cell viability profiles and (b) qmAb calculated based on final titre and IVCC, and mAb concentration profile for cultures grown at 36.5 C and with a temperature shift to 32 C. Concentration profiles of heavy (c) and light chain (d) DNA copy number, heavy (e) and light (f) chain mRNA, as well as H2 (g) and H2L (h) intracellular assembly intermediates of IgG molecules in TGE at 36.5 C and TGE at 32 C 24 hr post-transfection. Results are average measurements (n = 3). Error bars represent standard deviation of measurements</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4789</offset>
+      <text>To investigate the difference in mAb productivity, we examined the DNA copy number, mRNA, and polypeptide expression levels at both temperatures. Figures 1c and 1d show that upon plasmid internalization on day 2, cells at 32 C exhibit slightly higher HC and LC DNA copy numbers than at 36.5 C until day 7. Figures 1e and 1f illustrate that both HC and LC mRNA copy numbers are higher during late stage culture at 32 C, with maximum mRNA levels observed on day 10. This is in agreement with the dynamic qmAb profile where mAb production rate at 32 C is increased on day 10 (data not shown). In addition, overall increases in H2 (heavy chain dimer) and H2L (one light chain attached to heavy chain dimer) assembly intermediate concentrations were obtained when cells were cultured at 32 C (Figures 1g and 1h), with a significantly increased amount of H2L species beyond day 10, when qmAb was also substantially higher. This suggests that the addition of LC does not appear to be limiting at 32 C in our cell line under these conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5830</offset>
+      <text>We further examined whether product glycosylation was affected by mild hypothermia by comparing the secreted mAb Fc-glycan profiles at 36.5 C and at 32 C on days 10, 12, and 14. In contrast to the results observed in Sou et al. (2015) for SGE, the induction of mild hypothermia did not result in significant changes in the abundance of individual mAb glycan structures. The only exceptions were Man5 and G0 species, for which there was a slight increase in cultures conducted under mild hypothermic conditions (Figure 2a). However, when the specific production rate of galactosylated mAb (qgal-mab) under each condition was considered, differences between TGE at 36.5 C and 32 C became more pronounced. Results in Figure 2b suggest that qgal-mab was significantly higher when this cell line was cultured at 32 C. Supplementary Table S1 shows increased values for the galactosylation index, that is mole of galactose added per mole of mAb produced, observed at 32 C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-115-512-g003.jpg</infon>
+      <infon key="id">bit26456-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>6808</offset>
+      <text>Glycan profile of the secreted IgG (a); specific production rate of galactosylated mAb (b); intracellular concentrations of UDP-Gal (c) and UDP-GlcNAc (d). Results are average measurements at 36.5 C (n = 3) and 32 C (n = 3). Error bars represent standard deviation. Statistical significance was calculated using a Student t-test and was represented by: p &lt;= 0.05(*), p &lt;= 0.01(**), and p &lt;= 0.001(***). TS, temperature shift</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7264</offset>
+      <text>From a metabolic perspective, the synthesis of nucleotide sugar donors (NSDs) determines the availability of building components for protein glycosylation. Figures 2c and 2d show the net intracellular concentrations of UDP-Gal and UDP-GlcNAc, respectively, for our system at the two temperatures. UDP-Gal availability varied in late stage culture, with higher concentrations observed at 32 C. This variation, which follows closely the profile of UDP-Glc (data not shown), may result from the higher specific glucose and lactate uptake rates observed in late stage culture at 32 C (supplementary Figure S1). The specific glucose consumption rate was approximately 60% higher at 32 C than in those at 36.5 C. In addition, approximately 74% of the lactate secreted during the exponential phase at 32 C was consumed at late stage culture compared to 12% at physiological temperature.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8157</offset>
+      <text>From the experimental data, we calculated the consumption and production rates of each measured species. The rates calculated for the stationary phase at both temperatures (supplementary Table S2) show that at 36.5 C transient transfectants behave very differently from those at 32 C. To further elucidate the effect of temperature on product glycosylation in TGE, intracellular fluxes were calculated using flux balance analysis (FBA). The FBA was constrained with the calculated rates of exometabolites, maximum qmAb and growth rate (mu). Despite not having an obvious stationary phase in the TGE system at 36.5 C, we analyzed carbon fluxes in the decline phase and compared them to those at the same time point for the 32 C system, which was still at stationary stage. The metabolic rates in supplementary Table S2 and the fluxome illustrated in Figure 3 show slower consumption of most amino acids, for example isoleucine, lysine, serine, phenylalanine, and tyrosine at 32 C, but increased flux toward mAb synthesis. There is also increased amino acid flux for higher energy and product generation during the stationary mAb-producing phase at 32 C. Cells cultured at 32 C show higher TCA cycle fluxes when compared to those at 36.5 C, indicating a more efficient metabolic state. This is also evident from the flux of serine for pyruvate generation, which was calculated to be 10 times higher at 36.5 C, with most of it then converted into lactate as metabolic waste. In the case of NSD metabolism, the overall carbon and nitrogen fluxes going toward nucleotide, NSD and lipid syntheses are lower at 36.5 C (Figure 3).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-115-512-g004.jpg</infon>
+      <infon key="id">bit26456-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>9792</offset>
+      <text>Central carbon metabolism of CHO cells at stationary phase in TGE at 32 C and decline phase at 36.5 C. Thickness of arrows indicates the relative magnitude of the carbon flux within the system. This figure is simplified to include carbon converted to glycerol, glycogen, and lactate production, as well as nucleotide, NSD, lipid, and key amino acid syntheses</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10153</offset>
+      <text>In addition to the availability of NSD species, another factor that affects glycan processing is the expression of glycosyltransferases and NSD transporters involved in N-linked glycosylation. Figure 4a shows that the gene expression levels of beta-GalT II (day 14) and III (day 12) and FucT (day 14) were significantly higher at 36.5 C than those at 32 C, suggesting that higher qgal-mAb was not due to an increase in galactosyltransferase expression in this case. Protein expression of beta-GalTIII was also higher at 36.5 C (Figure 4b). However, we also observed an increase in mRNA expression of GnTII under mild hypothermia. This suggests that the addition of UDP-GlcNAc to form bi-antennary glycan structures could, in fact, be the critical step that enables further mAb glycan processing at 32 C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-115-512-g005.jpg</infon>
+      <infon key="id">bit26456-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>10969</offset>
+      <text>mRNA expression levels of six glycosyltransferases, namely GnTI, GnTII, GalTI, GalTII, GalTIII, and FucT (a) and relative difference in galactosyltransferase III (beta-GalTIII) protein expression (b). Results are average measurements at 36.5 C (n = 3) and 32 C (n = 3). Error bars represent standard deviation. Statistical significance was calculated using a Student t-test and was represented by: p &lt;= 0.05(*), p &lt;= 0.01(**), and p &lt;= 0.001(***)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11443</offset>
+      <text>Our study demonstrates the impact of mild hypothermia on CHO cell metabolism and recombinant protein production in transiently transfected CHO cells. In addition to the beneficial effects of mild hypothermia on specific productivity of recombinant mAb that have been widely reported in both SGE and TGE systems (Codamo, Hou, Hughes, Gray, &amp; Munro, 2011; Codamo, Munro, Hughes, Song, &amp; Gray, 2011; Kantardjieff et al., 2010; Nam, Zhang, Ermonval, Linhardt, &amp; Sharfstein, 2008; Wulhfard et al., 2008; Yoon, Kim, Song, &amp; Lee, 2006; Yoon, Song, &amp; Lee, 2003), we observed a re-distribution of nutrients, metabolites, and energy from biomass formation toward recombinant protein synthesis and product glycosylation, in response to mild hypothermia. This resulted in not only increased qmab but also increased fraction of galactosylated structures under mild hypothermia. The comparison of glycosyltransferase mRNA expression and protein levels between the two temperatures examined identifies GnTII as the driving force for enhanced specific rate of mAb galactosylation under mild hypothermia in our system by increasing the bi-antennary glycoforms available for terminal N-linked galactosylation. Although CHO cell lines in academic and industrial settings can vary greatly in their response to mild hypothermia and TGE due to their different origin, adaptation to different media and cultivation conditions, this study highlights the importance of analyzing experimental data on a per cell basis in order to correctly identify intracellular bottlenecks to achieving the desired product quality.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>13040</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13062</offset>
+      <text>Cell line and bioreactor experiments</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13099</offset>
+      <text>A CHO transient host cell line (CHO-T) (MedImmune, Cambridge, UK) was revived and grown in CD-CHO medium (Life Technologies, Paisley, UK) at 36.5 C, in a 5% CO2 humidified incubator. Viable cell density and cell viability were quantified by ViCell  (Beckman Coulter, CA). Experiments were carried out in triplicate 1.5 L stirred tank DASGIP bioreactors (DASGIP Technology, Juelich, Germany) at pH 6.9 +- 0.1 with an initial culture volume of 0.9 L and initial viable cell density of 8 x 105 cells/ml. The temperature was controlled at 36.5 C and was shifted to 32 C for one set of triplicates 24 hr post transfection. On days 2, 4, 6, 8, 10, and 12 the reactors were supplemented with 10% v/v CD EfficientFeed  C AGT  Nutrient supplement (Life Technologies). Foaming was managed by 5 ml additions of 15% antifoam C (Sigma-Aldrich, Dorset, U.K.). Transfection was carried out 24 hr after cell inoculation, at a cell density of 2 x 106 cells/ml following the protocol described in Daramola et al. (2014). Heavy and light chain vectors (MedImmune, Cambridge, U.K.) were co-transfected using linear PEI 25,000 Da (Polysciences Europe GmbH, Germany) at a PEI:DNA ratio of 5:1 and diluted in 150 mM NaCl, with 1 mg total DNA per 1 L of culture volume.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14395</offset>
+      <text>Analytical assays</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14413</offset>
+      <text>The total DNA and RNA content was extracted from cell pellets containing 5 x 106 cells according to the manufacturer's protocols for the All prep DNA/RNA mini purification kit (Qiagen, Manchester, U.K.). A 300 ng of extracted total RNA from each sample was reversed transcribed into cDNA using the QuantiTect Reverse Transcription Kit (Qiagen) and 1 mul of the RT Primer Mix according to the manufacturer's instructions. To determine the DNA copy number and mRNA expression levels of mAb heavy (HC HuG1) and light chains (LC HuKappa) in each sample, polymerase chain reaction (PCR) and quantitative real-time PCR (qRT-PCR) were performed, respectively. Each DNA or cDNA sample was analyzed using triplicate PCR experiments in a 96 well-plate using 5 mul of 2x SYBR Green Supermix (Sigma-Aldrich), 0.64 mul of DNA (or cDNA) and 500 nM of each primer pair and ddH2O to make a total of 10 mul of reaction volume per well. Experiments were initiated with SYBR Green activation at 95 C for 3 min followed by 40 cycles of 95 C for 30 s, 60 C for 75 s, and 72 C for 30 s. DNA melting curve was performed from 65 to 95 C (read every 0.3 C) to verify product integrity. mRNA results were compared to the Ct-number of house-keeping gene beta-actin for relative analysis, while the gene copy number was calculated from a calibration curve of known DNA concentrations. Primer sequences of glycosyltransferases are available on request.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15881</offset>
+      <text>Intracellular mAb polypeptides, assembly intermediates, and galactosyltransferase III (GalTIII) protein expression analyses were performed as discussed in Sou et al. (2015). Intracellular nucleotides and NSDs were successfully extracted using an acetonitrile extraction method based on Dietmair, Timmins, Gray, Nielsen, and Kroemer (2010). Viant, Bundy, Pincetich, de Ropp, and Tjeerdema (2005). HPAEC analysis was conducted based on the method presented in del Val, Kyriakopoulos, Polizzi, and Kontoravdi (2013) using a CarboPac PA-1 column with a PA-1 guard column (Dionex, CA). Samples were eluted using a gradient of E1 (3 mM NaOH) and E2 (1.5 mM sodium acetate in 3 mM NaOH) buffers as mobile phases. All species were detected at two absorbance wavelengths: 271.6 nm for all cysteine-bearing species and 262.1 nm for all other compounds. Extracellular concentrations of ammonia, lactate, and glucose were quantified using the YSI Bioprofiler 800 (Nova Biomedicals, MA). Extracellular amino acid concentrations were determined using a Waters Acquity ultra-performance liquid chromatography (UPLC, Walters, Hertfordshire, U.K.) with the AccQ-tag kit used according to the manufacturer's instructions. A Protein-A affinity chromatography method developed by MedImmune, Cambridge, U.K. was performed to analyze secreted mAb concentration.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>17243</offset>
+      <text>mAb glycan analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17263</offset>
+      <text>mAb samples from crude supernatants were purified to a concentration between 1.25 and 7.5 mg/ml prior to glycan analysis using the ProfilerPro Glycan Profiling Kit (PerkinElmer, MA), which was conducted following the method described in Sou et al. (2015).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>17521</offset>
+      <text>Flux balance analysis (FBA)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17549</offset>
+      <text>FBA was performed in the R workspace (R Development Core Team, 2010) with the Sybil package (Gelius-Dietrich, Desouki, Fritzemeier, &amp; Lercher, 2013). Fluxes were estimated using the metabolic network constructed by Kyriakopoulos and Kontoravdi (2014) based on the network proposed by Carinhas et al. (2013), while the biomass composition used was that proposed by Selvarasu et al. (2012) for CHO cells. The model was optimized by assuming maximum IgG formation at stationary phases in the TGE system. FBA calculations were constrained by experimentally quantified concentrations of extracellular amino acids, glucose, lactate, ammonia, secreted IgG, and viable cell density. One standard deviation was used as the upper and lower limits while the remaining extracellular fluxes were set at +-20% (Carinhas et al., 2013). The model was extended to incorporate fluxes for lipid synthesis by including choline. GlcNAc, GalNAc, Man, Fuc, Gal, and Neu5Gc were added into the biomass equation to examine the glucose fluxes to nucleotide and NSD production for glycosylation. The amount of each NSD necessary for host cell protein glycosylation was estimated based on the results from the MS glycan study in Stanley (2010), as well as the occurring frequency of N- and O-linked glycans based on Apweiler, Hermjakob, and Sharon (1999). These data were then used to calculate the respective stoichiometric coefficients that were incorporated into the biomass equation and used in the FBA analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>19044</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>19067</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">1473</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">10580125</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biochimica et Biophysica Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">8</infon>
+      <offset>19078</offset>
+      <text>On the frequency of protein glycosylation, as deduced from analysis of the SWISS-PROT database</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">697</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">23335490</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">706</infon>
+      <offset>19175</offset>
+      <text>A CHO cell line engineered to express XBP1 and ERO1-Lalpha has increased levels of transient protein expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3244</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">23794452</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3257</infon>
+      <offset>19289</offset>
+      <text>Metabolic signatures of GS-CHO cell clones associated with butyrate treatment and culture phase transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">923</infon>
+      <infon key="issue">7</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Journal of Chemical Technology and Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">934</infon>
+      <offset>19398</offset>
+      <text>Efficient mAb production in CHO cells incorporating PEI-mediated transfection, mild hypothermia and the co-expression of XBP-1</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">109</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">21104043</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Molecular Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">115</infon>
+      <offset>19531</offset>
+      <text>Enhanced CHO Cell-Based Transient Gene Expression with the Epi-CHO Expression System</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">132</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">24106171</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">141</infon>
+      <offset>19620</offset>
+      <text>A high-yielding CHO transient system: Coexpression of genes encoding EBNA-1 and GS enhances transient protein expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">443</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">172</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">24036437</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Analytical Biochemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">180</infon>
+      <offset>19745</offset>
+      <text>An optimized method for extraction and quantification of nucleotides and nucleotide sugars from mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">404</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">155</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">20435011</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Analytical Biochemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">164</infon>
+      <offset>19857</offset>
+      <text>Towards quantitative metabolomics of mammalian cells: Development of a metabolite extraction protocol</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">753</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">16739959</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">762</infon>
+      <offset>19959</offset>
+      <text>Control of culture environment for improved polyethylenimine-mediated transient production of recombinant monoclonal antibodies by CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">125</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">24224957</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">BMC Systems Biology</infon>
+      <infon key="type">ref</infon>
+      <offset>20102</offset>
+      <text>Sybil:efficient constraint-based modelling in R</text>
+    </passage>
+    <passage>
+      <infon key="volume">145</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">143</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">19770009</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">159</infon>
+      <offset>20154</offset>
+      <text>Transcriptome and proteome analysis of Chinese hamster ovary cells under low temperature and butyrate treatment</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2466</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">24975682</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2476</infon>
+      <offset>20266</offset>
+      <text>A framework for the systematic design of fed-batch strategies in mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">69</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">18253867</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Molecular Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">77</infon>
+      <offset>20356</offset>
+      <text>Metabolic rates, growth phase, and mRNA levels influence cell-specific antibody production levels from in vitro-cultured mammalian cells at sub-physiological temperatures</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1178</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">18553404</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1192</infon>
+      <offset>20533</offset>
+      <text>The effects of culture conditions on the glycosylation of secreted human placental alkaline phosphatase produced in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">225</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">17172668</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Molecular Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">237</infon>
+      <offset>20677</offset>
+      <text>Large-scale transfection of mammalian cells for the fast production of recombinant protein</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2010</infon>
+      <infon key="type">ref</infon>
+      <offset>20770</offset>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1415</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">22252269</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1429</infon>
+      <offset>20771</offset>
+      <text>Combined in silico modeling and metabolomics analysis to characterize fed-batch CHO cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1165</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">25545631</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1176</infon>
+      <offset>20870</offset>
+      <text>How does mild hypothermia affect monoclonal antibody glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">16</infon>
+      <infon key="issue">8</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">The Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <offset>20937</offset>
+      <text>Glycomics profiling of chinese hamster ovary cell glycosylation mutants reveals N-glycans of a novel size and complexity</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">257</infon>
+      <infon key="pub-id_pmid">20739353</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nucleic Acids Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">268</infon>
+      <offset>21060</offset>
+      <text>Structural basis of microRNA length variety</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">149</infon>
+      <infon key="issue">2</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Metabolomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">158</infon>
+      <offset>21104</offset>
+      <text>NMR-derived developmental metabolic trajectories: An approach for visualizing the toxic actions of trichloroethylene during embryogenesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">201</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">86</infon>
+      <infon key="pub-id_pmid">25612871</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">97</infon>
+      <offset>21244</offset>
+      <text>2D-DIGE screening of high-productive CHO cells under glucose limitation:Basic changes in the proteome equipment and hints for epigenetic effects</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">458</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">18220408</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">465</infon>
+      <offset>21395</offset>
+      <text>Mild hypothermia improves transient gene expression yields several fold in chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">362</infon>
+      <infon key="issue">3</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Enzyme and Microbial Technology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">365</infon>
+      <offset>21498</offset>
+      <text>Biphasic culture strategy for enhancing volumetric erythropoietin productivity of Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">82</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">289</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">12599255</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">298</infon>
+      <offset>21608</offset>
+      <text>Effect of low culture temperature on specific productivity, transcription level, and heterogeneity of erythropoietin in Chinese hamster ovary cells</text>
+    </passage>
+  </document>
+</collection>

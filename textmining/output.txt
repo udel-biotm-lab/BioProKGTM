@@ -1,0 +1,1784 @@
+{
+    "(fut8) gene knockout cho-s": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "1-ag4-1": [
+        "hybridoma"
+    ],
+    "2-f-peracetyl fucose": [
+        "sugar (subset of carbon source)"
+    ],
+    "2-l glass bioreactor": [
+        "vessel or process parameter or production scale"
+    ],
+    "2-propylpentanoic acid": [
+        "secondary raw materials"
+    ],
+    "24-dwp culture conditions": [
+        "cell culture parameters"
+    ],
+    "5-alkynylfucose": [
+        "sugar (subset of carbon source)"
+    ],
+    "P3x63ag8": [
+        "hybridoma"
+    ],
+    "accumulation of waste products": [
+        "culture condition"
+    ],
+    "acetate": [
+        "carbon source (subset of secondary raw materials)"
+    ],
+    "acetylation": [
+        "PTM"
+    ],
+    "acetylglucosaminyltransferase": [
+        "enzyme"
+    ],
+    "acidic charge variants": [
+        "product quality attributes"
+    ],
+    "acidic golgi ph": [
+        "bioreactor conditions"
+    ],
+    "acidic isoforms": [
+        "acid (subset of secondary raw materials)"
+    ],
+    "acidic variant": [
+        "acid (subset of secondary raw materials)"
+    ],
+    "acidic variants": [
+        "acid (subset of secondary raw materials)"
+    ],
+    "adapted cell line": [
+        "cell line"
+    ],
+    "adcc effector function": [
+        "process parameters or process control"
+    ],
+    "aeration": [
+        "bioreactor conditions"
+    ],
+    "afucosylated n-glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "afucosylation": [
+        "glycosylation"
+    ],
+    "aggregated": [
+        "product quality attributes"
+    ],
+    "aggregates": [
+        "product quality attributes"
+    ],
+    "aggregation": [
+        "process condition"
+    ],
+    "agitation and mixing": [
+        "bioreactor conditions"
+    ],
+    "aglycosylated": [
+        "recombinant protein"
+    ],
+    "aglycosylation": [
+        "product quality attributes"
+    ],
+    "alanine": [
+        "amino acid (subset of substrates)"
+    ],
+    "alanine metabolism": [
+        "biological process"
+    ],
+    "alkynylated forms": [
+        "substitution material"
+    ],
+    "ambr15 cell culture system": [
+        "vessel or process parameter or production scale"
+    ],
+    "amino acid substitutions": [
+        "genotype"
+    ],
+    "aminomethane": [
+        "base (subset of secondary raw materials)"
+    ],
+    "ammonia": [
+        "by-product or waste"
+    ],
+    "ammonium": [
+        "culture condition"
+    ],
+    "ammonium chloride": [
+        "nitrogen sources (subset of secondary raw materials)"
+    ],
+    "ammonium phosphate": [
+        "nitrogen sources (subset of secondary raw materials)"
+    ],
+    "ammonium nitrate": [
+        "nitrogen sources (subset of secondary raw materials)"
+    ],
+    "urea": [
+        "nitrogen sources (subset of secondary raw materials)"
+    ],
+    "ammonium hydroxide": [
+        "nitrogen sources (subset of secondary raw materials)"
+    ],
+    "ammonium sulfate": [
+        "nitrogen sources (subset of secondary raw materials)"
+    ],
+    "antenna": [
+        "sugar (subset of carbon source)"
+    ],
+    "antennarity": [
+        "sugar (subset of carbon source)"
+    ],
+    "anti-inflammatory activity": [
+        "product attributes"
+    ],
+    "anti-inflammatory efficacy": [
+        "clinical outcomes"
+    ],
+    "anti-inflammatory properties": [
+        "product attributes"
+    ],
+    "anti-oxidant activity": [
+        "clinical outcomes"
+    ],
+    "anti-tumor activity": [
+        "clinical outcomes"
+    ],
+    "antibody charge variants": [
+        "product quality profile"
+    ],
+    "antibody conjugate": [
+        "recombinant protein"
+    ],
+    "antibody galactosylation": [
+        "glycosylation"
+    ],
+    "antibody glycoforms": [
+        "recombinant protein"
+    ],
+    "antibody titers": [
+        "overall titer or batch yield"
+    ],
+    "antibody-dependent cell-mediated cytotoxicity": [
+        "clinical outcomes"
+    ],
+    "antibody-dependent cellular cytotoxicity": [
+        "clinical outcomes"
+    ],
+    "apoptosis": [
+        "cellular metabolic state"
+    ],
+    "asparagine": [
+        "amino acid (subset of substrates)"
+    ],
+    "asparagine-linked glycosylation": [
+        "glycosylation"
+    ],
+    "average productivity": [
+        "process condition"
+    ],
+    "balanced salt solutions": [
+        "media"
+    ],
+    "batch": [
+        "process mode"
+    ],
+    "biantennary disialylated glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "bioactivity": [
+        "product quality attributes"
+    ],
+    "bioactivity and potency": [
+        "product attributes"
+    ],
+    "biological activity": [
+        "clinical outcomes"
+    ],
+    "biopotency": [
+        "product attributes"
+    ],
+    "bioreactor operation conditions": [
+        "bioreactor conditions"
+    ],
+    "bioreactor scale": [
+        "vessel or process parameter or production scale"
+    ],
+    "biospecific antibodies": [
+        "sugar (subset of carbon source)"
+    ],
+    "biosynthesis": [
+        "biochemical compound"
+    ],
+    "bolus": [
+        "process parameters or process control"
+    ],
+    "bolus concentrated feed additions with sequential medium replacement": [
+        "process parameters or process control"
+    ],
+    "butyrate": [
+        "secondary raw materials"
+    ],
+    "c-terminal lysine": [
+        "amino acid (subset of substrates)"
+    ],
+    "caesium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "calcium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "carbohydrate constituents": [
+        "sugar (subset of carbon source)"
+    ],
+    "carbohydrate modification": [
+        "PTM"
+    ],
+    "carbon dioxide": [
+        "gases (subset of secondary raw materials)"
+    ],
+    "carbon dioxide partial pressure": [
+        "process condition"
+    ],
+    "carbon sources": [
+        "carbon source (subset of secondary raw materials)"
+    ],
+    "carboxylation": [
+        "PTM"
+    ],
+    "cell concentration": [
+        "process parameters or process control"
+    ],
+    "cell concentrations": [
+        "process parameters or process control"
+    ],
+    "cell culture media additives": [
+        "secondary raw materials"
+    ],
+    "cell culture performance": [
+        "product quality attributes"
+    ],
+    "cell cycle": [
+        "biological process"
+    ],
+    "cell cycle checkpoint": [
+        "cell cycle pathway G0/G1/M/G2"
+    ],
+    "cell cycle g1-checkpoint": [
+        "cell cycle pathway G0/G1/M/G2"
+    ],
+    "cell density": [
+        "cell culture parameters"
+    ],
+    "cell effector function": [
+        "clinical outcomes"
+    ],
+    "cell growth": [
+        "cell culture parameters"
+    ],
+    "cell line": [
+        "cell line"
+    ],
+    "cell line characteristics": [
+        "cell line characteristics"
+    ],
+    "cell morphology": [
+        "cell culture parameters"
+    ],
+    "cell respiration": [
+        "metabolic pathways"
+    ],
+    "cell viability": [
+        "cell culture parameters"
+    ],
+    "cell-specific productivity": [
+        "process condition"
+    ],
+    "cellular processes": [
+        "process parameters or process control"
+    ],
+    "central carbon metabolism": [
+        "biological process"
+    ],
+    "charge heterogeneity": [
+        "product quality attributes"
+    ],
+    "charge variant profiles": [
+        "product quality profile"
+    ],
+    "charge variants": [
+        "product quality profile"
+    ],
+    "charge variation": [
+        "process parameters or process control"
+    ],
+    "chimeric": [
+        "recombinant protein"
+    ],
+    "cho sublime media": [
+        "media"
+    ],
+    "cho-dg44": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-gmt4 cells": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-gs": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-k1": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-k1 media": [
+        "media"
+    ],
+    "cho-lec": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-m": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-s": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "cho-s media": [
+        "media"
+    ],
+    "chromatography resin filtration": [
+        "filtration parameters"
+    ],
+    "chromium": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "clearance rate": [
+        "process parameters or process control"
+    ],
+    "cleavage": [
+        "PTM"
+    ],
+    "clipping": [
+        "product attributes"
+    ],
+    "cobalt": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "combinations of additives": [
+        "secondary raw materials"
+    ],
+    "complement-dependent cytotoxicity": [
+        "clinical outcomes"
+    ],
+    "continuous harvest perfusion": [
+        "process mode"
+    ],
+    "copper": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "core fucose": [
+        "sugar (subset of carbon source)"
+    ],
+    "core fucosylation": [
+        "glycosylation"
+    ],
+    "cross-flow filtration": [
+        "filtration parameters"
+    ],
+    "cultivating ph": [
+        "bioreactor conditions"
+    ],
+    "culture condition": [
+        "culture condition"
+    ],
+    "culture environments": [
+        "process parameters or process control"
+    ],
+    "culture medium": [
+        "media characteristics"
+    ],
+    "culture parameters": [
+        "process parameters or process control"
+    ],
+    "culture perturbation": [
+        "process parameters or process control"
+    ],
+    "culture time": [
+        "process parameters or process control"
+    ],
+    "culture viability": [
+        "process parameters or process control"
+    ],
+    "culture yield": [
+        "process parameters or process control"
+    ],
+    "cyclization": [
+        "PTM"
+    ],
+    "cytidine": [
+        "nucleotide or nucleoside"
+    ],
+    "cytidine monophosphate–sialic acid": [
+        "sugar (subset of carbon source)"
+    ],
+    "cytidine monophosphate–sialic acid synthase": [
+        "enzyme"
+    ],
+    "cytidine monophosphate–sialic acid transporter": [
+        "cell line characteristics"
+    ],
+    "dead-end filtration": [
+        "filtration parameters"
+    ],
+    "deamidated": [
+        "PTM"
+    ],
+    "deamidation": [
+        "PTM"
+    ],
+    "death-resistant cell lines": [
+        "cell line"
+    ],
+    "deep wells": [
+        "vessel or process parameter or production scale"
+    ],
+    "degradation": [
+        "process condition"
+    ],
+    "dehydratase": [
+        "enzyme"
+    ],
+    "deoxymannojirimycin": [
+        "enzyme inhibitor"
+    ],
+    "depth filtration": [
+        "filtration parameters"
+    ],
+    "dexamethasone": [
+        "secondary raw materials"
+    ],
+    "dextrose": [
+        "sugar (subset of carbon source)"
+    ],
+    "dhfr amplified cell line": [
+        "cell line"
+    ],
+    "diafiltration": [
+        "filtration parameters"
+    ],
+    "dichloroacetate": [
+        "secondary raw materials"
+    ],
+    "diethylamine": [
+        "base (subset of secondary raw materials)"
+    ],
+    "dimers": [
+        "product quality attributes"
+    ],
+    "disposable vessels": [
+        "vessel or process parameter or production scale"
+    ],
+    "dissolved oxygen": [
+        "bioreactor conditions"
+    ],
+    "disulfide bond": [
+        "PTM"
+    ],
+    "disulfide linkage glycation": [
+        "glycosylation"
+    ],
+    "dose requirement": [
+        "clinical outcomes"
+    ],
+    "doubling time": [
+        "cell culture parameters"
+    ],
+    "dow corning antifoams": [
+        "antifoams"
+    ],
+    "dulbecco's modified eagle medium": [
+        "media"
+    ],
+    "dynamis": [
+        "media"
+    ],
+    "early protein glycosylation": [
+        "glycosylation"
+    ],
+    "effector mechanism": [
+        "clinical outcomes"
+    ],
+    "efficacy": [
+        "clinical outcomes"
+    ],
+    "efficientfeed": [
+        "media"
+    ],
+    "eight feed additives": [
+        "secondary raw materials"
+    ],
+    "energy source": [
+        "cell nutrient"
+    ],
+    "environmental conditions": [
+        "bioreactor conditions"
+    ],
+    "enzymatic catalysis": [
+        "catalysis"
+    ],
+    "ester-based antifoams": [
+        "antifoams"
+    ],
+    "ethyl acetate": [
+        "antifoams"
+    ],
+    "ex-cell cd cho fusion": [
+        "media"
+    ],
+    "expression level of genes": [
+        "genotype"
+    ],
+    "extracellular environment": [
+        "process parameters or process control"
+    ],
+    "extracellular sialidase": [
+        "enzyme"
+    ],
+    "fatty acid esters": [
+        "antifoams"
+    ],
+    "fatty alcohols": [
+        "antifoams"
+    ],
+    "fc gamma receptor binding": [
+        "clinical outcomes"
+    ],
+    "fed-batch": [
+        "process mode"
+    ],
+    "feed media": [
+        "media characteristics"
+    ],
+    "feed volumes": [
+        "process parameters or process control"
+    ],
+    "feeding profiles": [
+        "process parameters or process control"
+    ],
+    "fetal bovine serum": [
+        "serum or serum replacements"
+    ],
+    "fluctuating culture conditions": [
+        "cell culture parameters"
+    ],
+    "forticho": [
+        "media"
+    ],
+    "fragmentation": [
+        "product attributes"
+    ],
+    "fructose": [
+        "carbon source (subset of secondary raw materials)"
+    ],
+    "fucose": [
+        "sugar (subset of carbon source)"
+    ],
+    "fucose analogue": [
+        "substitution material"
+    ],
+    "fucose analogues": [
+        "substitution material"
+    ],
+    "fucose de novo pathway": [
+        "biological process"
+    ],
+    "fucosylation": [
+        "glycosylation"
+    ],
+    "fucosyltransferase": [
+        "enzyme"
+    ],
+    "function": [
+        "process condition"
+    ],
+    "fusion protein": [
+        "recombinant protein"
+    ],
+    "fut8 gene knockout cho-s": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "g0 and g1 level n-glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "g0/g1 arrest": [
+        "cell cycle pathway G0/G1/M/G2"
+    ],
+    "g2/m phase": [
+        "cell cycle pathway G0/G1/M/G2"
+    ],
+    "galactose": [
+        "sugar (subset of carbon source)"
+    ],
+    "galactosylated glycan": [
+        "sugar (subset of carbon source)"
+    ],
+    "galactosylated glycan profile": [
+        "product quality attributes"
+    ],
+    "galactosylated igg": [
+        "product quality profile"
+    ],
+    "galactosylation": [
+        "glycosylation"
+    ],
+    "galactosylation index": [
+        "product attributes"
+    ],
+    "galactosylation-related glycosyltransferase genes": [
+        "enzyme"
+    ],
+    "galactosyltransferases": [
+        "enzyme"
+    ],
+    "galts": [
+        "enzyme"
+    ],
+    "gassing strategy": [
+        "process parameters or process control"
+    ],
+    "gdp-6-deoxy-d-lyxo-4-hexulose reductase": [
+        "enzyme"
+    ],
+    "gdp-fuc": [
+        "sugar (subset of carbon source)"
+    ],
+    "gdp-mannose biosynthesis": [
+        "biochemical compound"
+    ],
+    "genetic engineering": [
+        "genotype"
+    ],
+    "glcnac": [
+        "substrates"
+    ],
+    "globular protine": [
+        "recombinant protein"
+    ],
+    "gluconoylation": [
+        "glycosylation"
+    ],
+    "glucosamine": [
+        "substrates"
+    ],
+    "glucose": [
+        "sugar (subset of carbon source)"
+    ],
+    "glutamate": [
+        "amino acid (subset of substrates)"
+    ],
+    "glutamine": [
+        "amino acid (subset of substrates)"
+    ],
+    "gluten hydrolysate": [
+        "recombinant protein"
+    ],
+    "glycan": [
+        "sugar (subset of carbon source)"
+    ],
+    "glycan distribution": [
+        "product quality profile"
+    ],
+    "glycan distributions": [
+        "product quality profile"
+    ],
+    "glycan forms": [
+        "sugar (subset of carbon source)"
+    ],
+    "glycan outcomes": [
+        "product attributes"
+    ],
+    "glycan patterns": [
+        "product attributes"
+    ],
+    "glycan profile": [
+        "product quality attributes"
+    ],
+    "glycan profiles": [
+        "product quality attributes"
+    ],
+    "glycan structures": [
+        "sugar (subset of carbon source)"
+    ],
+    "glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "glycans of lower molecular masses": [
+        "sugar (subset of carbon source)"
+    ],
+    "glycated": [
+        "glycosylation"
+    ],
+    "glycation": [
+        "glycosylation"
+    ],
+    "glycerol": [
+        "carbon source (subset of secondary raw materials)"
+    ],
+    "glycine": [
+        "amino acid (subset of substrates)"
+    ],
+    "glycine betaine": [
+        "amino acid (subset of substrates)"
+    ],
+    "glycoform distributions": [
+        "product quality profile"
+    ],
+    "glycoform profile": [
+        "product attributes"
+    ],
+    "glycoforms": [
+        "recombinant protein"
+    ],
+    "glycoprofiles": [
+        "product attributes"
+    ],
+    "glycoproteins": [
+        "product"
+    ],
+    "glycosidase": [
+        "enzyme"
+    ],
+    "glycosidases": [
+        "enzyme"
+    ],
+    "glycosylated forms": [
+        "recombinant protein"
+    ],
+    "glycosylation": [
+        "glycosylation"
+    ],
+    "glycosylation pattern": [
+        "product attributes"
+    ],
+    "glycosylation patterns": [
+        "product attributes"
+    ],
+    "glycosylation precursors": [
+        "biochemical compound"
+    ],
+    "glycosylation profile": [
+        "product attributes"
+    ],
+    "glycosylation profile attributes": [
+        "product attributes"
+    ],
+    "glycosylation profiles": [
+        "product attributes"
+    ],
+    "glycosyltransferases": [
+        "enzyme"
+    ],
+    "gnt i": [
+        "enzyme"
+    ],
+    "gntii": [
+        "enzyme"
+    ],
+    "gof glycan": [
+        "sugar (subset of carbon source)"
+    ],
+    "golgi acidity": [
+        "cellular metabolic state"
+    ],
+    "golgi ph": [
+        "bioreactor conditions"
+    ],
+    "growth": [
+        "cell culture parameters"
+    ],
+    "growth rate": [
+        "cell culture parameters"
+    ],
+    "gs-cho": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "guanosine diphosphate-fucose synthesis": [
+        "metabolic pathways"
+    ],
+    "half life": [
+        "process parameters or process control"
+    ],
+    "half-life": [
+        "process parameters or process control"
+    ],
+    "harvest titer": [
+        "overall titer or batch yield"
+    ],
+    "heptasaccharide": [
+        "saccharides (subset of secondary raw materials)"
+    ],
+    "heterogeneity": [
+        "clinical outcomes"
+    ],
+    "hexose": [
+        "sugar (subset of carbon source)"
+    ],
+    "high mannose": [
+        "sugar (subset of carbon source)"
+    ],
+    "high mannose glycoforms": [
+        "recombinant protein"
+    ],
+    "high mannose n-glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "high mannose type n-glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "high-mannose glycoforms": [
+        "recombinant protein"
+    ],
+    "higher growing cell lines": [
+        "cell line"
+    ],
+    "histone deacetylase (hdac) inhibitors": [
+        "secondary raw materials"
+    ],
+    "horse serum": [
+        "serum or serum replacements"
+    ],
+    "host cell proteins": [
+        "recombinant protein"
+    ],
+    "human serum": [
+        "serum or serum replacements"
+    ],
+    "hycell cho": [
+        "media"
+    ],
+    "hydroxyethyl cellulose": [
+        "cellulosic compounds"
+    ],
+    "hydroxymethyl": [
+        "base (subset of secondary raw materials)"
+    ],
+    "hyperosmolality": [
+        "process parameters or process control"
+    ],
+    "hyperthermia": [
+        "process parameters or process control"
+    ],
+    "hyperthermic culture conditions": [
+        "process parameters or process control"
+    ],
+    "hypoosmotic": [
+        "process parameters or process control"
+    ],
+    "hypothermia": [
+        "process parameters or process control"
+    ],
+    "hypothermic conditions": [
+        "bioreactor conditions"
+    ],
+    "hypothermic culture conditions": [
+        "process parameters or process control"
+    ],
+    "hypothermic temperatures": [
+        "bioreactor conditions"
+    ],
+    "immune response": [
+        "clinical outcomes"
+    ],
+    "immunogenicity": [
+        "clinical outcomes"
+    ],
+    "impurities": [
+        "process condition"
+    ],
+    "incomplete glycan biosynthesis": [
+        "biochemical compound"
+    ],
+    "inhibitor": [
+        "secondary raw materials"
+    ],
+    "inhibitors": [
+        "secondary raw materials"
+    ],
+    "insulin": [
+        "recombinant protein"
+    ],
+    "intensified fed batch": [
+        "process mode"
+    ],
+    "intracellular factors": [
+        "process parameters or process control"
+    ],
+    "intracellular micro-heterogeneties": [
+        "cell line characteristics"
+    ],
+    "intracellular nucleotides and nucleotide sugars": [
+        "sugar (subset of carbon source)"
+    ],
+    "intracellular process": [
+        "process parameters or process control"
+    ],
+    "intracellular processes": [
+        "process parameters or process control"
+    ],
+    "intracellular vesicular trafficking": [
+        "biological process"
+    ],
+    "iron": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "kifunensine": [
+        "secondary raw materials"
+    ],
+    "knockout": [
+        "genotype"
+    ],
+    "lab-scale bioreactors": [
+        "vessel or process parameter or production scale"
+    ],
+    "lactate": [
+        "by-product or waste"
+    ],
+    "lactate metabolic rate": [
+        "flux rate"
+    ],
+    "lactose": [
+        "disaccharides (subset of carbon source)"
+    ],
+    "large aggregated": [
+        "product quality attributes"
+    ],
+    "lec13": [
+        "cell line"
+    ],
+    "light chain isotype": [
+        "product attributes"
+    ],
+    "lipid-linked oligosaccharide": [
+        "saccharides (subset of secondary raw materials)"
+    ],
+    "lithium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "mab production": [
+        "overall titer or batch yield"
+    ],
+    "mab productivity": [
+        "process condition"
+    ],
+    "mab synthesis": [
+        "metabolic pathways"
+    ],
+    "maltose": [
+        "disaccharides (subset of carbon source)"
+    ],
+    "man5": [
+        "sugar (subset of carbon source)"
+    ],
+    "man6": [
+        "sugar (subset of carbon source)"
+    ],
+    "man8/9": [
+        "sugar (subset of carbon source)"
+    ],
+    "manganese": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "mannose": [
+        "sugar (subset of carbon source)"
+    ],
+    "mannose 5 glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "mannose-5": [
+        "sugar (subset of carbon source)"
+    ],
+    "mannose-terminated n-glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "mannosidase": [
+        "enzyme"
+    ],
+    "mannosylation": [
+        "glycosylation"
+    ],
+    "media": [
+        "media characteristics"
+    ],
+    "media additives": [
+        "media characteristics"
+    ],
+    "media characteristics": [
+        "media characteristics"
+    ],
+    "media components": [
+        "media characteristics"
+    ],
+    "media composition": [
+        "media characteristics"
+    ],
+    "media hold duration": [
+        "process parameters or process control"
+    ],
+    "media modification": [
+        "media characteristics"
+    ],
+    "media supplementation": [
+        "secondary raw materials"
+    ],
+    "medium": [
+        "media characteristics"
+    ],
+    "met oxidation": [
+        "PTM"
+    ],
+    "metabolic pathways": [
+        "metabolic pathways"
+    ],
+    "metabolism": [
+        "biological process"
+    ],
+    "metabolite concentration": [
+        "process parameters or process control"
+    ],
+    "metabolite concentrations": [
+        "cell culture parameters"
+    ],
+    "methylation": [
+        "PTM"
+    ],
+    "microfiltration": [
+        "filtration parameters"
+    ],
+    "mncl2": [
+        "secondary raw materials"
+    ],
+    "modified amino acid": [
+        "amino acid (subset of substrates)"
+    ],
+    "molecule stability": [
+        "product attributes"
+    ],
+    "molybdenum": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "mono galactosylated": [
+        "sugar (subset of carbon source)"
+    ],
+    "monoclonal antibody": [
+        "monoclonal antibody"
+    ],
+    "morpholine": [
+        "base (subset of secondary raw materials)"
+    ],
+    "ms704": [
+        "cell line"
+    ],
+    "mutations to allow transferase accessibility": [
+        "genotype"
+    ],
+    "n-acetyl-d-glucosamine": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-acetylgalactosamine": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-acetylglucosamine": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-acetylglucosaminyltransferase": [
+        "enzyme"
+    ],
+    "n-acetylglucosaminyltransferase i": [
+        "enzyme"
+    ],
+    "n-acetylglucosaminyltransferase ii": [
+        "enzyme"
+    ],
+    "n-acetylmannosamine": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-acetylneuraminic acid": [
+        "amino acid (subset of substrates)"
+    ],
+    "n-glycan": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-glycan antennary structure": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-glycan chain extension": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-glycans ratio": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-glycolylneuraminic acid": [
+        "amino acid (subset of substrates)"
+    ],
+    "n-glycosylation": [
+        "glycosylation"
+    ],
+    "n-glycosylation profile": [
+        "product attributes"
+    ],
+    "n-glycosylation profiles": [
+        "product attributes"
+    ],
+    "n-linked complex glycoform": [
+        "recombinant protein"
+    ],
+    "n-linked glycan": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-linked glycan distribution": [
+        "product quality profile"
+    ],
+    "n-linked glycosylation": [
+        "glycosylation"
+    ],
+    "n-linked glycosylation patterns": [
+        "product attributes"
+    ],
+    "n-linked mannose-5": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-linked oligosaccharides": [
+        "sugar (subset of carbon source)"
+    ],
+    "n-terminal glycine": [
+        "product attributes"
+    ],
+    "nanofiltration": [
+        "filtration parameters"
+    ],
+    "newborn calf serum": [
+        "serum or serum replacements"
+    ],
+    "nickel": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "nist cho": [
+        "chinese hamster ovary (CHO)"
+    ],
+    "nitrogen": [
+        "gases (subset of secondary raw materials)"
+    ],
+    "nitrogen sources": [
+        "secondary raw materials"
+    ],
+    "non-core-fucosylation": [
+        "glycosylation"
+    ],
+    "non-fucosylated antibody": [
+        "sugar (subset of carbon source)"
+    ],
+    "nonglycosylated": [
+        "glycosylation"
+    ],
+    "nucleoside": [
+        "nucleotide or nucleoside"
+    ],
+    "nucleotide sugar": [
+        "sugar (subset of carbon source)"
+    ],
+    "nucleotide sugar synthetases": [
+        "enzyme"
+    ],
+    "nucleotide sugar transport proteins": [
+        "recombinant protein"
+    ],
+    "nucleotide-sugar intracellular pools": [
+        "nucleotide or nucleoside"
+    ],
+    "nutrient": [
+        "secondary raw materials"
+    ],
+    "nutrient concentration": [
+        "media parameter or raw material"
+    ],
+    "o-glycan precursor": [
+        "biochemical compound"
+    ],
+    "o-glycan site occupancy": [
+        "product quality attributes"
+    ],
+    "o-glycosylation": [
+        "glycosylation"
+    ],
+    "octanol": [
+        "antifoams"
+    ],
+    "oligomannose-5 glycan": [
+        "sugar (subset of carbon source)"
+    ],
+    "oligosaccharide": [
+        "saccharides (subset of secondary raw materials)"
+    ],
+    "opticho": [
+        "media"
+    ],
+    "optipro sfm": [
+        "media"
+    ],
+    "organic antifoams": [
+        "antifoams"
+    ],
+    "osmolality": [
+        "process parameters or process control"
+    ],
+    "osmoprotectant": [
+        "biochemical compound"
+    ],
+    "osrs": [
+        "vessel or process parameter or production scale"
+    ],
+    "oxidation": [
+        "PTM"
+    ],
+    "oxygen": [
+        "gases (subset of secondary raw materials)"
+    ],
+    "p3": [
+        "hybridoma"
+    ],
+    "partial pressure of carbon dioxide": [
+        "process condition"
+    ],
+    "pathways related to guanosine diphosphate-fucose synthesis and fucosylation": [
+        "metabolic pathways"
+    ],
+    "patient safety": [
+        "clinical outcomes"
+    ],
+    "pco 2": [
+        "process condition"
+    ],
+    "pco2": [
+        "process condition"
+    ],
+    "pegylation": [
+        "PTM"
+    ],
+    "peptide fragment": [
+        "recombinant protein"
+    ],
+    "perfusion": [
+        "process mode"
+    ],
+    "perfusion cultures": [
+        "process mode"
+    ],
+    "ph": [
+        "bioreactor conditions"
+    ],
+    "ph control": [
+        "bioreactor conditions"
+    ],
+    "pharmacokinetics": [
+        "clinical outcomes"
+    ],
+    "phi control": [
+        "bioreactor conditions"
+    ],
+    "phosphorylation": [
+        "PTM"
+    ],
+    "polydimethylsiloxane": [
+        "antifoams"
+    ],
+    "polyether": [
+        "antifoams"
+    ],
+    "polymerization": [
+        "biological process"
+    ],
+    "polysialylation": [
+        "glycosylation"
+    ],
+    "post translational modifications": [
+        "PTM"
+    ],
+    "potassium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "potency": [
+        "clinical outcomes"
+    ],
+    "powercho-2": [
+        "media"
+    ],
+    "powercho-3": [
+        "media"
+    ],
+    "precursor": [
+        "biochemical compound"
+    ],
+    "prenylation": [
+        "PTM"
+    ],
+    "primary raw materials": [
+        "primary raw materials"
+    ],
+    "process condition": [
+        "process condition"
+    ],
+    "process conditions": [
+        "bioreactor conditions"
+    ],
+    "process outcome": [
+        "process outcome"
+    ],
+    "process parameter": [
+        "process parameters or process control"
+    ],
+    "process parameters": [
+        "process parameters or process control"
+    ],
+    "procho4": [
+        "media"
+    ],
+    "procho5": [
+        "media"
+    ],
+    "product concentration": [
+        "product attributes"
+    ],
+    "product concentrations": [
+        "product attributes"
+    ],
+    "product efficacy": [
+        "clinical outcomes"
+    ],
+    "product formation": [
+        "flux rate"
+    ],
+    "product quality": [
+        "product quality attributes"
+    ],
+    "product safety": [
+        "product quality attributes"
+    ],
+    "product stability": [
+        "product attributes"
+    ],
+    "product titer": [
+        "overall titer or batch yield"
+    ],
+    "production bioreactor parameters": [
+        "process parameters or process control"
+    ],
+    "production rate": [
+        "process parameters or process control"
+    ],
+    "production yield": [
+        "overall titer or batch yield"
+    ],
+    "production yields": [
+        "overall titer or batch yield"
+    ],
+    "productivity": [
+        "process condition"
+    ],
+    "productivity of the cell culture process": [
+        "process condition"
+    ],
+    "proline": [
+        "amino acid (subset of substrates)"
+    ],
+    "prolonged viability": [
+        "process parameters or process control"
+    ],
+    "properties of glycoproteins": [
+        "product quality profile"
+    ],
+    "proportion of complex forms": [
+        "process outcome"
+    ],
+    "protein aggregation": [
+        "product attributes"
+    ],
+    "protein degradation": [
+        "degradation"
+    ],
+    "protein engineering": [
+        "recombinant protein"
+    ],
+    "protein expression": [
+        "product attributes"
+    ],
+    "protein glycosylation profiles": [
+        "product attributes"
+    ],
+    "protein purity": [
+        "product attributes"
+    ],
+    "protein quality attributes": [
+        "product quality profile"
+    ],
+    "protein-free media": [
+        "media"
+    ],
+    "proteolytic cleavage": [
+        "PTM"
+    ],
+    "protocol": [
+        "process parameters or process control"
+    ],
+    "pyruvate": [
+        "carbon source (subset of secondary raw materials)"
+    ],
+    "qp": [
+        "flux rate"
+    ],
+    "quality": [
+        "product quality attributes"
+    ],
+    "raffinose": [
+        "sugar (subset of carbon source)"
+    ],
+    "raw material characteristics": [
+        "raw material characteristics"
+    ],
+    "reactor sterility": [
+        "reactor design"
+    ],
+    "recombinant antibody yield": [
+        "overall titer or batch yield"
+    ],
+    "recombinant fusion protein": [
+        "recombinant protein"
+    ],
+    "recombinant protein": [
+        "recombinant protein"
+    ],
+    "recombinant protein production": [
+        "overall titer or batch yield"
+    ],
+    "redox potential": [
+        "cellular metabolic state"
+    ],
+    "relative glycan content": [
+        "product attributes"
+    ],
+    "residance time": [
+        "NYK"
+    ],
+    "response surface model": [
+        "reactor design"
+    ],
+    "rubidium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "run time": [
+        "process parameters or process control"
+    ],
+    "s-sulfocysteine": [
+        "secondary raw materials"
+    ],
+    "safety": [
+        "clinical outcomes"
+    ],
+    "safety and potency of the monoclonal antibody": [
+        "clinical outcomes"
+    ],
+    "salt balance": [
+        "cellular metabolic state"
+    ],
+    "scaled": [
+        "vessel or process parameter or production scale"
+    ],
+    "scales": [
+        "vessel or process parameter or production scale"
+    ],
+    "secretion rate": [
+        "flux rate"
+    ],
+    "selenium": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "serum-free media": [
+        "media"
+    ],
+    "shake flask": [
+        "vessel or process parameter or production scale"
+    ],
+    "shear forces": [
+        "process condition"
+    ],
+    "shearing stress": [
+        "shear forces"
+    ],
+    "sialic acid": [
+        "sugar (subset of carbon source)"
+    ],
+    "sialic acid degradation": [
+        "metabolic pathways"
+    ],
+    "sialidase": [
+        "enzyme"
+    ],
+    "sialylated glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "sialylation": [
+        "glycosylation"
+    ],
+    "sialyltransferase": [
+        "enzyme"
+    ],
+    "silicone-based antifoams": [
+        "antifoams"
+    ],
+    "simethicone": [
+        "antifoams"
+    ],
+    "single use bioreactor": [
+        "vessel or process parameter or production scale"
+    ],
+    "single-use filtration": [
+        "filtration parameters"
+    ],
+    "site occupancy": [
+        "product quality attributes"
+    ],
+    "sodium bicarbonate": [
+        "buffer (subset of secondary raw materials)"
+    ],
+    "sodium carbonate": [
+        "base (subset of secondary raw materials)"
+    ],
+    "sodium chloride": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "sodium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "sodium phosphate": [
+        "base (subset of secondary raw materials)"
+    ],
+    "sorbitol": [
+        "cell line characteristics"
+    ],
+    "specific productivity": [
+        "process condition"
+    ],
+    "st3gal4 gene": [
+        "genotype"
+    ],
+    "stability": [
+        "process condition"
+    ],
+    "steric hindrance": [
+        "process parameters or process control"
+    ],
+    "strs": [
+        "vessel or process parameter or production scale"
+    ],
+    "substrates": [
+        "substrates"
+    ],
+    "sucrose": [
+        "disaccharides (subset of carbon source)"
+    ],
+    "sugar transporter genes": [
+        "cell line characteristics"
+    ],
+    "sulfation": [
+        "PTM"
+    ],
+    "sumoylation": [
+        "PTM"
+    ],
+    "superoxide dismutase": [
+        "enzyme"
+    ],
+    "supplementation": [
+        "secondary raw materials"
+    ],
+    "supplementations": [
+        "secondary raw materials"
+    ],
+    "synthetic or chemically defined media": [
+        "media"
+    ],
+    "tangential flow filtration": [
+        "filtration parameters"
+    ],
+    "temperature": [
+        "bioreactor conditions"
+    ],
+    "terminal galactose β1": [
+        "sugar (subset of carbon source)"
+    ],
+    "tetra-sialylated glycans": [
+        "sugar (subset of carbon source)"
+    ],
+    "tetramethylammonium hydroxide": [
+        "base (subset of secondary raw materials)"
+    ],
+    "therapeutic agent": [
+        "therapeutic agent"
+    ],
+    "therapeutic efficacy": [
+        "clinical outcomes"
+    ],
+    "therapeutic protein quality": [
+        "product quality attributes"
+    ],
+    "threonine": [
+        "amino acid (subset of substrates)"
+    ],
+    "time": [
+        "process parameters or process control"
+    ],
+    "titer": [
+        "overall titer or batch yield"
+    ],
+    "titers": [
+        "overall titer or batch yield"
+    ],
+    "trace metal": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "trace metals": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "trehalose": [
+        "disaccharides (subset of carbon source)"
+    ],
+    "trehalose-containing medium": [
+        "media characteristics"
+    ],
+    "trehaloses": [
+        "disaccharides (subset of carbon source)"
+    ],
+    "tributyl phosphate": [
+        "antifoams"
+    ],
+    "tris": [
+        "base (subset of secondary raw materials)"
+    ],
+    "trisaccharide raffinose": [
+        "sugar (subset of carbon source)"
+    ],
+    "tromethamine": [
+        "base (subset of secondary raw materials)"
+    ],
+    "tyrosine": [
+        "media parameter or raw material"
+    ],
+    "ubiquitination": [
+        "PTM"
+    ],
+    "udp-n-acetylglucosamine biosynthesis": [
+        "biochemical compound"
+    ],
+    "udp-sugars": [
+        "sugar (subset of carbon source)"
+    ],
+    "udp–gal": [
+        "substrates"
+    ],
+    "udp–glcnac": [
+        "substrates"
+    ],
+    "ultrafiltration": [
+        "filtration parameters"
+    ],
+    "undesired glycan forms": [
+        "sugar (subset of carbon source)"
+    ],
+    "unexpected immune response": [
+        "clinical outcomes"
+    ],
+    "unnatural fucose analogues": [
+        "substitution material"
+    ],
+    "uptake rates": [
+        "biological process"
+    ],
+    "uridine": [
+        "nucleotide or nucleoside"
+    ],
+    "uridine diphosphate–galactose": [
+        "substrates"
+    ],
+    "uridine diphosphate–n-acetylglucosamine": [
+        "substrates"
+    ],
+    "valproic acid": [
+        "secondary raw materials"
+    ],
+    "vanadium": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "variable domains": [
+        "product attributes"
+    ],
+    "viability": [
+        "process parameters or process control"
+    ],
+    "viable cell densities": [
+        "cell culture parameters"
+    ],
+    "viable cell density": [
+        "cell culture parameters"
+    ],
+    "volumetric recombinant antibody yields": [
+        "overall titer or batch yield"
+    ],
+    "vpa titrations": [
+        "overall titer or batch yield"
+    ],
+    "waste product": [
+        "by-product or waste"
+    ],
+    "yield": [
+        "overall titer or batch yield"
+    ],
+    "zinc": [
+        "trace metals or minerals (subset of secondary raw materials)"
+    ],
+    "zinc finger nucleases": [
+        "enzyme"
+    ],
+    "α-2,3 linked sialic acid": [
+        "sugar (subset of carbon source)"
+    ],
+    "α-2,3 linked sialic acids": [
+        "sugar (subset of carbon source)"
+    ],
+    "α-2,3 sialyltransferase knockout-α-2,6 sialyltransferase stable clone": [
+        "genotype"
+    ],
+    "α-2,3 sialyltransferases": [
+        "enzyme"
+    ],
+    "α-2,6 and α-2,3 sialylation": [
+        "glycosylation"
+    ],
+    "α-2,6 sialylation": [
+        "glycosylation"
+    ],
+    "α-2,6 sialyltransferase": [
+        "enzyme"
+    ],
+    "β-1,4 galactosyltransferase": [
+        "enzyme"
+    ],
+    "β-1,4 galactosyltransferase activity": [
+        "cellular metabolic state"
+    ],
+    "γ-carboxyglutamate gla": [
+        "amino acid (subset of substrates)"
+    ]
+}

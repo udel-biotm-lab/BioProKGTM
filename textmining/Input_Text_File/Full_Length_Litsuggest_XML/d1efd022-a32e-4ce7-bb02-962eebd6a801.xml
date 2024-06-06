@@ -1,0 +1,175 @@
+<article article-type="Journal Article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Journal of biotechnology</journal-title>
+      </journal-title-group>
+      <issn>1873-4863</issn>
+      <publisher>
+        <publisher-name>Medline</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30423367</article-id>
+      <article-id pub-id-type="doi">10.1016/j.jbiotec.2018.11.004</article-id>
+      <article-id pub-id-type="pii">S0168-1656(18)30679-5</article-id>
+      <article-id pub-id-type="wtfid">009585341_0015625_230127080853704111</article-id>
+      <article-id pub-id-type="tdm">medline_TDM-30423367</article-id>
+      <title-group>
+        <article-title>Combined effects of glycosylation precursors and lactate on the glycoprofile of IgG produced by CHO cells.</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Zhang</surname>
+          <given-names>Liang</given-names>
+          <aff>Department of Industrial Biotechnology, School of Engineering Sciences in Chemistry, Biotechnology and Health, KTH-Royal Institute of Technology, Sweden; AdBIOPRO, VINNOVA Competence Centre for Advanced Bioproduction by Continuous Processing, KTH, Sweden.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Castan</surname>
+          <given-names>Andreas</given-names>
+          <aff>GE Healthcare Bio-Sciences AB, Björkgatan 30, 75184 Uppsala, Sweden.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Stevenson</surname>
+          <given-names>Joanne</given-names>
+          <aff>Cobra Biologics AB, Stockholm, Sweden.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Chatzissavidou</surname>
+          <given-names>Nathalie</given-names>
+          <aff>Cobra Biologics AB, Stockholm, Sweden.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Vilaplana</surname>
+          <given-names>Francisco</given-names>
+          <aff>Division of Glycoscience, Department of Chemistry, School of Engineering Sciences in Chemistry, Biotechnology and Health, KTH-Royal Institute of Technology, Sweden.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Chotteau</surname>
+          <given-names>Veronique</given-names>
+          <aff>Department of Industrial Biotechnology, School of Engineering Sciences in Chemistry, Biotechnology and Health, KTH-Royal Institute of Technology, Sweden; AdBIOPRO, VINNOVA Competence Centre for Advanced Bioproduction by Continuous Processing, KTH, Sweden. Electronic address: veronique.chotteau@biotech.kth.se.</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>10</day>
+        <month>1</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>289</volume>
+      <fpage>71</fpage>
+      <lpage>79</lpage>
+      <abstract>
+        <p>The glycosylation profile of therapeutic monoclonal antibodies (mAbs) is a crucial quality parameter for industrial Immunoglobulin G (IgG) production. Several alternative carbon sources, which function as glycosylation precursors, have been reported to impact the glycosylation pattern. Since the cells give priority to glucose uptake, the presence of this substrate can lower the effects of alternative sugars on the glycosylation. In order to get a better understanding of the influence of alternative sugars on the glycosylation and to investigate how they impact each other, combinations of mannose, fructose, galactose and fucose were fed to Chinese hamster ovary (CHO) cells in batch culture when the glucose became depleted and the lactate, accumulated in the culture, was used as carbon source. Feeding with a feed containing mannose or glucose decreased by 3-7% the percentage of high mannose glycans compared to a feed without mannose or glucose. Feeding with a feed containing galactose led to 8-20% increase of monogalactoglycans (G1) glycans and 2-6% rise of digalactoglycans (G2) glycans compared to feeding without galactose or glucose. The cells fed with fucose exhibited a significantly higher concentration of intracellular GDP-Fucose. This work indicates that a feeding strategy based on non-glucose sugars and potentially lactate, could be adopted to obtain a targeted glycosylation profile.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Chinese hamster ovary cells (CHO cells)</kwd>
+        <kwd>Glycosylation</kwd>
+        <kwd>IgG</kwd>
+        <kwd>Monoclonal antibody</kwd>
+        <kwd>Sugars</kwd>
+        <kwd>mAbs</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Hexoses</chemical.name>
+          <chemical.ui>D006601</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Immunoglobulin G</chemical.name>
+          <chemical.ui>D007074</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>33X04XA5AT</chemical.registryNumber>
+          <chemical.name>Lactic Acid</chemical.name>
+          <chemical.ui>D019344</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Glycosylation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Hexoses</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Immunoglobulin G</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Lactic Acid</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+          <meshHeading.qualifier>
+            <items>
+              <meshHeading.qualifier.name>metabolism</meshHeading.qualifier.name>
+              <meshHeading.qualifier.majorTopic>Y</meshHeading.qualifier.majorTopic>
+              <meshHeading.qualifier.ui>Q000378</meshHeading.qualifier.ui>
+            </items>
+          </meshHeading.qualifier>
+        </items>
+      </kwd-group>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <back>
+    <ref-list/>
+  </back>
+</article>

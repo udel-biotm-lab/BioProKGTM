@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>5656727</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Martens;given-names:Dirk E.</infon>
+      <infon key="name_2">surname:Wijffels;given-names:Rene H.</infon>
+      <infon key="name_1">surname:Dalm;given-names:Ciska</infon>
+      <infon key="article-id_pmid">28951949</infon>
+      <infon key="name_0">surname:Pan;given-names:Xiao</infon>
+      <infon key="fpage">8101</infon>
+      <infon key="issue">22</infon>
+      <infon key="year">2017</infon>
+      <infon key="article-id_pmc">5656727</infon>
+      <infon key="article-id_publisher-id">8531</infon>
+      <infon key="article-id_doi">10.1007/s00253-017-8531-y</infon>
+      <infon key="title">Keywords</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">101</infon>
+      <infon key="license"> Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Appl. Microbiol. Biotechnol.; 2017 Nov; 101(22) 8101-8113. doi:10.1007/s00253-017-8531-y</infon>
+      <infon key="kwd">Chinese hamster ovary (CHO) cell Fed-batch Antibody production Phase transition Metabolic flux analysis Cell size increase</infon>
+      <infon key="lpage">8113</infon>
+      <infon key="authors">Pan X, Dalm C, Wijffels RH, Martens DE</infon>
+      <offset>0</offset>
+      <text>Metabolic characterization of a CHO cell size increase phase in fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>83</offset>
+      <text>Normally, the growth profile of a CHO cell fed-batch process can be divided into two main phases based on changes in cell concentration, being an exponential growth phase and a stationary (non-growth) phase. In this study, an additional phase is observed during which the cell division comes to a halt but the cell growth continues in the form of an increase in cell size. The cell size increase (SI) phase occurs between the exponential proliferation phase (also called the number increase or NI phase) and the stationary phase. During the SI phase, the average volume and dry weight per cell increase threefold linearly with time. The average mAb specific productivity per cell increases linearly with the cell volume and therefore is on average two times higher in the SI phase than in the NI phase. The specific essential amino acids consumption rates per cell remain fairly constant between the NI and the SI phase, which agrees with the similar biomass production rate per cell between these two phases. Accumulation of fatty acids and formation of lipid droplets in the cells are observed during the SI phase, indicating that the fatty acids synthesis rate exceeds the demand for the synthesis of membrane lipids. A metabolic comparison between NI and SI phase shows that the cells with a larger size produce more mAb per unit of O2 and nutrient consumed, which can be used for further process optimization.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>1498</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1532</offset>
+      <text>The online version of this article (10.1007/s00253-017-8531-y) contains supplementary material, which is available to authorized users.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1668</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1681</offset>
+      <text>Chinese Hamster Ovary (CHO) cells are the predominant host for the production of therapeutic monoclonal antibodies (mAbs). At the moment, fed-batch is the most common industrial process for CHO cell cultures, due to its ease of operation and flexibility. Three different culture phases can normally be discerned in a fed-batch culture: an exponential growth phase, a stationary phase, and a death phase (Ahn and Antoniewicz; Sengupta et al.; Carinhas et al.). The transitions between these phases are caused by the changes in culture conditions (e.g., nutrient depletion and/or waste accumulation). The transition from the growth to the stationary phase determines the maximum viable cell density (VCD), whereas the transition from stationary to death phase determines the culture longevity. These collectively determine the integral viable cell density (IVCD) which is positively correlated with the final mAb product titer. A better understanding of the underlying mechanisms causing these transitions can be used to develop cultivation processes in which cells grow to higher densities or to remain viable for a longer period of time, which both will result in an increased mAb volumetric productivity. Many studies have compared the metabolic and physiological states of different CHO cell culture phases. The growth phase is characterized by higher specific rates of glycolysis and glutaminolysis and, as a result, also by a higher lactate production rate. During the stationary phase, the metabolism shifts towards a more efficient use of substrates, represented by a lower metabolic flux through glycolysis, a higher flux through the TCA cycle, and often the consumption of lactate. Martinez et al. showed that a CHO cell line grown in a batch culture had a six times higher energy efficiency when consuming lactate as compared to the situation where lactate was produced. Using isotopic labeling in combination with metabolic flux analysis, Sengupta et al. and Templeton et al. both reported higher metabolic fluxes through the pentose phosphate pathway (PPP) and TCA cycle during the stationary phase as compared to the growth phase of CHO cell cultures. Furthermore, Templeton et al. showed that the high PPP and TCA activities are associated with peak mAb production. Results from Wahrheit et al. suggested that the metabolic shift in different culture phases of CHO cells is controlled by glycolytic regulation which affects the intracellular pyruvate availability. Ahn and Antoniewicz reported a higher fatty acids biosynthesis rate than needed by the cells during the stationary phase of CHO cell cultures. Despite that these studies have contributed to the fundamental understanding of CHO cell metabolism and resulted in improved process performances, the mechanisms underlying the phase transition are not yet fully understood, due to the complexity of media and feeds used and the highly dynamic nature of the current fed-batch processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4639</offset>
+      <text>In a previous study on the selection of basal media and feeds for CHO cell fed-batch cultures (Pan et al.), it was observed that a cell size increase occurred after the exponential growth phase when ActiCHO feed A/B (GE Healthcare) was used but not when Efficient feed A, B, and C (Gibco ) were used. The cell size increase correlated with higher final product titers. The physiological state of the larger cells and the cause of the size increase were not clear. The aim of this paper is to characterize the metabolic changes that occur upon the cell size increase in order to obtain more insight in the underlying mechanisms that cause the cell size increase and identify possible implications for process design. The metabolic changes are characterized in terms of biomass composition, specific consumption and production rates, and overall metabolic flux distributions using flux balance analysis (FBA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5549</offset>
+      <text>Materials and methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5571</offset>
+      <text>Cell line and pre-culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5597</offset>
+      <text>A suspension CHOBC  cell clone (BC-P, provided by Bioceros Holding BV, Utrecht, NL) producing a recombinant immunoglobulin G1 (IgG1) was used in this study. Cells were thawed from a working cell bank and maintained in ActiCHO-P medium (GE Healthcare, France) supplemented with 4 mM glutamine (Gibco , Paisley, Scotland, UK) and 0.5% Anti-clumping agent (Gibco  Paisley, Scotland, UK). 200 mug/mL Zeocin  and 5 mug/mL Blasticidin (both from Gibco , Grand Island, NY, USA) as selection reagents were added during the pre-cultures. Cells were maintained in a 125 mL un-baffled shake flask (Corning, NY, USA) with a 25 mL working volume in a CO2 (8%) and temperature (37  C) controlled incubator. The maintained cultures were sub-cultured every 3 days to 2 x 105 viable cells/mL. The seed train was scaled up through 2 and 20 L rocking bag systems. During the seed train scale-up, the medium described above was used but without the two selection reagents.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6571</offset>
+      <text>Fed-batch process</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6589</offset>
+      <text>Triplicate fed-batch cultures were conducted in 10 L bioreactors (Sartorius Stedim Biotech, France) controlled by BIOSTAT  B-DCU II. Each bioreactor was inoculated with a starting density of 3 x 105 viable cells/mL at a starting volume of 5 L. Culture temperature was controlled at 37  C, dissolved oxygen (DO) was controlled at 40% by enriched O2 flow, pH was controlled at 7.2 by using base and CO2. From day 3 onward, feeds were added to each bioreactor daily. First, the glucose concentration was measured. If the concentration was lower than 18 mM, a 45% (w/w) glucose solution was added as one bolus to reach a glucose concentration of 28 mM in the reactor. Next, 4.5% (v/v) ActiCHO feed A, also containing about 500 mM glucose amongst other nutrients, and 0.45% (v/v) ActiCHO feed B (both from GE Healthcare, USA) per culture volume per day were fed to each reactor. Simethicone antifoam solution was added to each bioreactor prior to inoculation and during the culture when needed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>7590</offset>
+      <text>Sampling and analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7612</offset>
+      <text>For each bioreactor, a 15-mL sample was taken daily before and after the feed addition. Total cell density, viable cell density, and cell diameter were measured using a CedexHiRes  analyzer (Roche, Switzerland). Off-line pH, pCO2, glucose concentration, lactate concentration, ammonium concentration and osmolality were measured by a Nova FLEX analyzer (Nova Biomedical, USA). The remaining sample was spun down at 3345xg for 15 min and stored at -20  C for later analysis. On culture day 4, 7, and 10, biomass samples were taken from each bioreactor containing 300 million cells per sample. The samples were spun down at 500xg for 10 min and re-suspended in PBS solution (Lonza, Switzerland). Next, the viable cell density was measured again, and each sample was aliquoted into six 15-mL centrifuge tubes with each tube containing 50 million viable cells. The tubes were spun down at 500xg for 10 min again after which the PBS supernatant was discarded and the wet cell pellets were stored at -20  C for later biomass analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8656</offset>
+      <text>Total soluble cellular protein was determined using Lowry Bio-Rad DC Protein assay kit (Bio-Rad, NL). Bovine serum albumin (BSA, Sigma-Aldrich) was used as a reference standard. The extraction, separation, and quantification of triacylglyceride (TAG) and polar lipids were performed as described by Breuer et al. using the sample preparation method 2. Lipid droplets in CHO cells were stained with BODIPY 505/515 (Invitrogen Molecular Probes, Carlsbad, CA) and visualized using a confocal laser scanning microscope (LSM510; Carl Zeiss, Jena, Germany), as described by Cooper et al.. Total cellular carbohydrate content was measured according to the DuBois' method (DuBois et al.). A glucose solution (Sigma-Aldrich) was used as a reference standard. Cell dry weight (DW) was calculated based on the difference in weight of the tube with the 50 million freeze-dried cells and the pre-weighed centrifuge tube itself.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9573</offset>
+      <text>Compositions of the spent medium including extracellular amino acids, sugars, and organic acids were quantified using NMR (Spinnovation Biologics BV, Oss, NL). IgG1 titer was quantified by Protein-A Chromatography (Agilent, 5069-3639). The N-glycans were quantified by Hydrophilic Interaction Chromatography (HILIC UPLC). A dextran calibration ladder standard (Waters) solution was used to identify the glucose unit of the measured N-glycans. Both mAb quantification and N-glycan analysis were developed by Bioprocess engineering group of Wageningen University.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10137</offset>
+      <text>Average specific metabolic rates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10170</offset>
+      <text>The average specific metabolic rates were calculated for the NI and the SI phase, respectively. Day 0 and 1 were not considered in calculating the average specific rates for the NI phase, due to a metabolic adaptation period just after inoculation. The average specific production rate of antibody was calculated by averaging the daily specific rates during both the NI and the SI phases. The following equation is used to calculate the specific production rate of a compound x, as described in Pan et al.:where Mx (mg; mmol) is the total amount of compound x in a culture, XVC is the number of viable cells in the reactor, Vf (mm3) is the total volume of feed added, Cf (mM) is the concentration of compound x in the feed, and qx (mg cell-1 day-1; mmol cell-1 day-1) is the cell-specific production rate of the compound x. When the rates are calculated based on cell volume, XVC (mm3) presents the volume of viable cells in a culture and qx (mg mm-3 day-1 or mmol mm-3 day-1) is the cell volume-specific production rate of compound x. The average specific production rates (q) of glucose, amino acids, and organic acids were obtained from a plot of the total amount of production/consumption against the total integral viable cell number (or total integral viable cell volume) using linear regression. Positive values indicate production while negative values indicate consumption. The specific cell growth rate (muNI; day-1) during the NI (exponential growth) phase is given by:where XVC is the total number of viable cells in the reactor. During the SI phase in which the cell concentration is constant and the cell volume increases linearly with time, the cell-specific production rate of biomass (qSI; day-1) is calculated by:where M(te) and M(ts) are the amounts of biomass in a reactor at the end (te) and the start (ts) of the SI phase. In principle, the unit of M is gram dry weight. However, to compare the growth in the SI phase to the exponential growth in the NI phase, the amount of biomass is still expressed in cell number by dividing the dry weight by the dry weight of a cell in the NI phase. In this way, the specific biomass production rate in the SI phase can still be compared to the specific growth rate in the NI phase. The specific growth rate in the NI phase and the specific biomass production rate in the SI phase are used as input values for the subsequent flux balance analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12607</offset>
+      <text>Flux balance analysis (FBA) and flux variability analysis (FVA)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12671</offset>
+      <text>A basic model of CHO cell primary metabolism was developed starting from an earlier published basic model for mammalian cells (Martens and Tramper ). The reactions in the model were cross-checked with the iCHOv1 model (Hefzi et al.). Several modifications were made based on the Kyoto Encyclopedia of Genes and Genomes (KEGG) database, the iCHOv1 model, and the measurements done in this study (ESM 1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13075</offset>
+      <text>A Chi-square test was used to check whether the nitrogen balances closed for both phases. The FBA was conducted using the constraint-based reconstruction and analysis (COBRA 2.0) Toolbox (Schellenberger et al.), using MATLAB software (The MathWorks, Inc.). Geometric FBA (Smallbone and Simeonidis 2009) was performed to find a unique solution for the underdetermined parts of the metabolic model. The growth rate was used as an objective function for the model. The measured cell-specific production rates were used as inputs for FBA. To study the possible range of flux values that results in the same optimal growth rate while still meeting all constraints, flux variability analysis (FVA) was performed using the COBRA Toolbox (ESM 1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>13814</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13822</offset>
+      <text>Cell growth</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig1_HTML.jpg</infon>
+      <infon key="id">Fig1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>13834</offset>
+      <text> a Total number of viable cells (x109, solid lines) and total volume of viable cells (mm3, dotted lines), and (b) average cell diameter (mum, solid lines) and viability (%, dotted lines) of reactor 1 (closed circles), 2 (closed diamonds), and 3 (closed squares). Cultures were divided into a number increase (NI) phase, a size increase (SI) phase, a stationary phase, and a death phase. (c) Cell diameter (mum) distribution during a representative fed-batch culture on day 4 (closed squares), 7 (closed diamonds), and 10 (closed triangles)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14375</offset>
+      <text>Based on cell concentration, the growth curve of CHO cells normally consists of an exponential cell proliferation phase, a stationary phase, and a death phase. In this study, an additional cell size increase phase is reported (Fig. 1), resulting in four phases for this CHO cell fed-batch process being: (i) A phase in which the cell concentration increases exponentially (day 0 to 4) and the volume per cell remains constant (the number increase or NI phase). (ii) A phase in which the cell size increases nearly linear (R 2 = 0.99) in time (day 4 to 8) and the cell concentration stays approximately constant (the size increase or SI phase). (iii) A short stationary phase (day 8 to 10) in which the biomass concentration remains approximately constant and the culture viability is always higher than 80%. (iv) A death phase (day 10 to 12) in which the viability declines and is always lower than 80%. Since the observed change from growth in cell concentration to growth in cell size has not been reported in regular fed-batch processes and can have consequences for process development, this study mainly focuses on the NI phase and the SI phase. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15530</offset>
+      <text>Metabolites profiles</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig2_HTML.jpg</infon>
+      <infon key="id">Fig2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>15551</offset>
+      <text> a Extracellular glucose (solid lines), lactate (dotted lines with closed marks), and ammonium (dotted lines with open marks) concentrations (mM) of reactor 1 (circles), 2 (diamonds), and 3 (squares). (b) Extracellular concentrations of measured organic acids. (c) Extracellular concentrations of essential amino acids. (d) Extracellular concentrations of non-essential amino acids. Feeding started on day 3. For glucose, lactate, and ammonium, samples were taken daily before and after feed addition. For the other organic acids and amino acids, samples were taken daily before feed addition. Error bars for all graphs indicate the standard deviation for the triplicate bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16234</offset>
+      <text>To identify possible limiting or inhibitory compounds and to characterize metabolism in the different phases, extracellular concentrations of substrates and products were measured. Concentrations of extracellular glucose, lactate, and ammonium are shown in Fig. 2a. The 45% glucose solution is added on culture day 3, 7, 8, and 10 when the glucose concentration is lower than 18 mM, as described in materials and methods. Next to this, the ActiCHO feed A&amp;B are added daily. On the days other than 3, 7, 8, and 10, the increases in culture glucose concentrations were caused by the addition of ActiCHO feed A only. Using this feeding strategy, the glucose concentration in each bioreactor stayed above 5 mM throughout the fed-batch cultures. Furthermore, since the ActiCHO feed A also contains glucose, the culture glucose concentration after feeding can be higher than 28 mM. Lactate is produced during the NI phase (day 0-4) until nearly 30 mM and is consumed at a lower rate during the SI phase and stationary phase (day 4-10), followed by production again during the death phase (day 10-12). Ammonium concentrations stay constant at values lower than 5 mM until culture day 7 and start to increase gradually thereafter up to 15 mM on day 12. Production of formic acid (up to 7 mM at day 10) and acetic acid (up to 15 mM at day 10) are observed in the cultures (Fig. 2b). Succinic acid is present in the basal medium and is consumed during the culture (Fig. 2b). None of the essential amino acids is depleted during the fed-batch cultures (Fig. 2c). The gradual increase in their concentrations after day 3 is caused by the feed addition, since these essential amino acids cannot be made by CHO cells from the other compounds. Note that for some of the non-essential amino acids the cell may not be able to synthesize them fast enough to support growth making them essential for a robust process, consequently, they also need to be present in the medium and feed. For some of the non-essential amino acids, asparagine, glutamine, and cyst(e)ine (cysteine is measured in the form of cystine in this study) are consumed during the NI phase and are depleted around day 4 (Fig. 2d). Glutamine, which is not present in the feed, is produced after day 7. Cyst(e)ine concentration increases after day 5. The complete set of raw data for the extracellular compounds and the composition of both feeds can be found in ESM 2. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>18667</offset>
+      <text>Cell-specific rates vs. volume-specific rates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18713</offset>
+      <text>In order to obtain insight into the relationship between cell volume and the specific consumption and production rates of nutrients and products, including mAb, their metabolic rates were calculated and compared in this section. The rates are calculated on a per cell and per cellular volume basis for the NI and the SI phase, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig3_HTML.jpg</infon>
+      <infon key="id">Fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>19054</offset>
+      <text> a Average cell number-specific (pg x cell-1 x day-1) and average cell volume-specific (g x L-1 x day-1) mAb productivity compared between the number increase (NI) and size increase (SI) phase of the cultures. *: significantly different (P &lt; 0.05). b Total mAb produced (g) in reactor 1 (closed circles), 2 (closed diamonds), and 3 (closed squares). c Plot of specific mAb productivity (pg x cell-1 x day-1) against cell volume (mum3). Calculation was done per day from day 2 through day 12. Error bars of graph (a) and (c) show the standard deviation of triplicate fed-batch cultures. Error bars of graph (b) show the standard deviation of triplicate measurements for each fed-batch culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig4_HTML.jpg</infon>
+      <infon key="id">Fig4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>19778</offset>
+      <text>(a) Cell number-based specific rates (mumol x 10-6 cells x day-1) and (b) cell volume-based specific rates (mumol x mm-3 x day-1) of glucose consumption and lactate production/consumption during the number increase (NI) and size increase (SI) phase of the fed-batch cultures. Positive values indicate production and negative values indicate consumption. Error bars show the standard deviation of triplicate fed-batch cultures. *: significantly different (P &lt; 0.05)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig5_HTML.jpg</infon>
+      <infon key="id">Fig5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>20265</offset>
+      <text> a Cell number-specific consumption rates (mumol x 10-6 cells x day-1) and (b) Cell volume-specific consumption rates (mumol x mm-3 x day-1) of essential amino acids during the number increase (NI) and size increase (SI) phase of the fed-batch cultures. Error bars show the standard deviation of triplicate fed-batch cultures. *: significantly different (P &lt; 0.05)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20652</offset>
+      <text>The average specific mAb productivities calculated based on cell-volume and cell-number are shown in Fig. 3a. Average specific productivity expressed per cell is twofold higher (15 compared to 7.5 pg x cell-1 x day-1) in the SI phase compared to the NI phase. When calculated per cell volume, the specific productivities in the two phases are not significantly different, indicating that the mAb productivity of a cell is related to its volume. This becomes clearer when the productivity per cell is plotted against the cellular volume, which results in a linear correlation between average cell volume and specific mAb productivity as shown in Fig. 3c. The specific glucose consumption based on cell number shows only a slight decrease (4.5 to 4.1 mumol x 10-6 cells x day-1) from the NI to the SI phase. The decrease is larger (1.9 to 0.8 mumol x mm-3 x day-1) when the rate is calculated based on cell volume. Thus, the specific glucose consumption rate is related more to the cell number and less to the cell volume. Lactate is produced during the NI phase at a high rate (3 mumol x 10-6 cells x day-1; 1.3 mumol x mm-3 x day-1) and is consumed during the SI phase at a much lower rate (0.25 mumol x 10-6 cells x day-1; 0.05 mumol x mm-3 x day-1) (Fig. 4). The cell number-specific and cell volume-specific consumption rates of ten essential amino acids during the NI and the SI phase are shown in Fig. 5. When the consumption rates are expressed based on cell number, six out of ten essential amino acids do not show a significant difference between the two phases. However, as the cell volume increases in the SI phase, the cell volume-specific consumption rates of all the essential amino acids show significant drops. This implies that the consumption of the essential amino acids is more related to the cell number than to the cell volume.   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>22584</offset>
+      <text>Biomass composition</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table</infon>
+      <offset>22604</offset>
+      <text>All percentage values are in w/w %</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table</infon>
+      <offset>22639</offset>
+      <text> aNot measured in this study, data were calculated by assuming a constant DNA content per cell and a constant ratio of RNA to protein</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table</infon>
+      <offset>22773</offset>
+      <text> bValues for lipid including glycerol</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table</infon>
+      <offset>22811</offset>
+      <text>+- Standard deviation for biological triplicates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="type">table</infon>
+      <offset>22860</offset>
+      <text>N/R not reported</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab1.xml</infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table_caption</infon>
+      <offset>22877</offset>
+      <text>CHO cell biomass composition during the fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Biomass composition&lt;/th&gt;&lt;th&gt;Day 4&lt;/th&gt;&lt;th&gt;Day 7&lt;/th&gt;&lt;th&gt;Day 10&lt;/th&gt;&lt;th&gt;Hybridoma (Xie and Wang&lt;xref ref-type="bibr" rid="CR42"&gt;1994&lt;/xref&gt;)&lt;/th&gt;&lt;th&gt;Hybridoma (Bonarius et al.&lt;xref ref-type="bibr" rid="CR7"&gt;1996&lt;/xref&gt;)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Protein (%)&lt;/td&gt;&lt;td&gt;74.5 +- 1.0&lt;/td&gt;&lt;td&gt;70.0 +- 1.2&lt;/td&gt;&lt;td&gt;67.0 +- 1.0&lt;/td&gt;&lt;td&gt;72.9&lt;/td&gt;&lt;td&gt;70.6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fatty acids (%)&lt;/td&gt;&lt;td&gt;7.2 +- 0.2&lt;/td&gt;&lt;td&gt;8.4 +- 0.3&lt;/td&gt;&lt;td&gt;10.3 +- 0.1&lt;/td&gt;&lt;td&gt;13.5 &lt;sup&gt;b&lt;/sup&gt; &lt;/td&gt;&lt;td&gt;9.7 &lt;sup&gt;b&lt;/sup&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Carbohydrate (%)&lt;/td&gt;&lt;td&gt;4.0 +- 0.1&lt;/td&gt;&lt;td&gt;3.8 +- 0.2&lt;/td&gt;&lt;td&gt;4.1 +- 0.1&lt;/td&gt;&lt;td&gt;3.5&lt;/td&gt;&lt;td&gt;7.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;RNA &lt;sup&gt;a&lt;/sup&gt; (%)&lt;/td&gt;&lt;td&gt;6.0&lt;/td&gt;&lt;td&gt;5.6&lt;/td&gt;&lt;td&gt;5.4&lt;/td&gt;&lt;td&gt;3.8&lt;/td&gt;&lt;td&gt;5.8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DNA &lt;sup&gt;a&lt;/sup&gt; (%)&lt;/td&gt;&lt;td&gt;1.6&lt;/td&gt;&lt;td&gt;0.8&lt;/td&gt;&lt;td&gt;0.6&lt;/td&gt;&lt;td&gt;1.4&lt;/td&gt;&lt;td&gt;1.4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Total (%)&lt;/td&gt;&lt;td&gt;93.1 +- 1.4&lt;/td&gt;&lt;td&gt;88.6 +- 1.7&lt;/td&gt;&lt;td&gt;87.4 +- 1.2&lt;/td&gt;&lt;td&gt;95.1&lt;/td&gt;&lt;td&gt;94.6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Cell dry weight (pg/cell)&lt;/td&gt;&lt;td&gt;770 +- 47&lt;/td&gt;&lt;td&gt;1530 +- 77&lt;/td&gt;&lt;td&gt;2440 +- 86&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;td&gt;470&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Cell volume (mm&lt;sup&gt;3&lt;/sup&gt;/10&lt;sup&gt;6&lt;/sup&gt; cells)&lt;/td&gt;&lt;td&gt;2.7 +- 0.02&lt;/td&gt;&lt;td&gt;5.5 +- 0.16&lt;/td&gt;&lt;td&gt;6.9 +- 0.14&lt;/td&gt;&lt;td&gt;N/R&lt;/td&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table</infon>
+      <infon key="File">Tab1.xml</infon>
+      <offset>22936</offset>
+      <text>Biomass composition Day 4 Day 7 Day 10 Hybridoma (Xie and Wang) Hybridoma (Bonarius et al.) Protein (%) 74.5 +- 1.0 70.0 +- 1.2 67.0 +- 1.0 72.9 70.6 Fatty acids (%) 7.2 +- 0.2 8.4 +- 0.3 10.3 +- 0.1 13.5 b  9.7 b  Carbohydrate (%) 4.0 +- 0.1 3.8 +- 0.2 4.1 +- 0.1 3.5 7.1 RNA a (%) 6.0 5.6 5.4 3.8 5.8 DNA a (%) 1.6 0.8 0.6 1.4 1.4 Total (%) 93.1 +- 1.4 88.6 +- 1.7 87.4 +- 1.2 95.1 94.6 Cell dry weight (pg/cell) 770 +- 47 1530 +- 77 2440 +- 86 250 470 Cell volume (mm3/106 cells) 2.7 +- 0.02 5.5 +- 0.16 6.9 +- 0.14 N/R 1.8 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig6_HTML.jpg</infon>
+      <infon key="id">Fig6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>23500</offset>
+      <text>Lipid droplets stained with BODIPY 505/515 (green) during the CHO cell fed-batch on culture day 3 (a) and culture day 6 (b)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23624</offset>
+      <text>The composition of biomass with respect to protein, fatty acids, carbohydrate, RNA, and DNA is shown in Table 1 as a percentage of the cell dry weight (DW). The amino acid composition of the cellular protein and the fatty acids composition of the lipids stayed constant during the fed-batch culture (the average values are given in ESM 3 Table S1 and S2). The cell DW increased linearly with the cell volume over the culture time, from 770 pg/cell on day 4 to 2440 pg/cell on day 10 (Table 1). Furthermore, the relative composition of the biomass shifted during the cultures. The protein content in the biomass decreased from 74.5 to 67% whereas the fatty acid content increased from 7.2 to 10.3% from culture day 4 until culture day 10. A microscopic image (Fig. 6) shows a clear accumulation of lipid droplets during the SI phase. These droplets are not composed of triacylglyceride (TAG) (data not shown). The sum of all biomass components adds up to around 90% of the cell DW.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>24610</offset>
+      <text>Flux balance analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig7_HTML.jpg</infon>
+      <infon key="id">Fig7</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>24632</offset>
+      <text>Major metabolic flux changes between (a) the number increase (NI) and size increase (SI) phase during the fed-batch cultures. The line thickness indicates the relative flux changes between the two presented phases. The average flux of the TCA cycle is represented by the average fluxes between the flux from citrate (CIT) to alpha-ketoglutarate (AKG) and the flux from succinate (SUC) to fumarate (FUM). The colors of the flux values indicate the flux variability result between the two phases. The green values show no overlap of the variable flux values between the two phases whereas the red values show there is overlap. The unit for flux values is mmol x 10-9 cells x day-1 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25319</offset>
+      <text>Geometric flux balance analysis (FBA) is carried out to further investigate the shift of the overall metabolic flux distribution from the NI phase to the SI phase. The FBA results for both phases are summarized in Fig. 7. The metabolic fluxes are expressed per cell because the uptake rates of essential amino acids and glucose and the biomass formation rate are constant on a per cell basis in the NI and SI phase. On a per volume basis rates are continuously decreasing during the SI phase due to the increase in cell volume. During the SI phase, the change in biomass content per cell and in biomass composition is considered in the biomass equation in the FBA model. The flux variability analysis (FVA) shows that the flux variability results in overlapping flux values with respect to the two different phases for the PPP as well as for the TCA cycle, as indicated by the red numbers in Fig. 7. This means the value of these fluxes cannot be identified as being different between the two phases, which is further addressed in the discussion. During the NI phase, high fluxes through lactate and alanine production are calculated. During the SI phase, lactate metabolic flux shifts to a consumption and the flux from pyruvate to alanine decreases. Higher O2 consumption and CO2 production fluxes (~1.5-fold higher) are calculated for the SI phase, which agrees with the higher ATP generation flux in the mitochondria. The ATP is transported to the cytosol through ATP/ADP translocases and used for biomass and product synthesis, and for cell maintenance. The cellular protein formation rate decreases by 25% whereas the mAb formation increases by 250% during the SI phase. In the NI phase, mAb production is about 1.5% of the total protein synthesized, whereas in the SI phase this becomes 5%. In the SI phase, the fatty acids synthesis flux is slightly higher and the flux from AcCoA to acetic acid is also higher than in the NI phase. For the complete result of FBA and FVA, see ESM 1. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>27313</offset>
+      <text>mAb N-glycan composition</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">253_2017_8531_Fig8_HTML.jpg</infon>
+      <infon key="id">Fig8</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>27338</offset>
+      <text>Relative mAb N-glycan composition (%) of the 10 L cultures. N-glycans with different numbers of terminal residuals (G: galactose, F: fucose, S: sialic acid) are shown. Error bars show the standard deviation of the triplicate runs. *: significantly different (P &lt; 0.05)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27610</offset>
+      <text>The glycosylation profile of a mAb is routinely analyzed throughout process development to ensure process consistency. In order to investigate whether or not the mAb glycosylation changes as cell size increases, the N-glycan composition of the produced mAb is measured on culture day 5, 8 and 12 (Fig. 8). The relative composition of N-glycans does not show differences between culture day 5 and 8, indicating that the mAb glycosylation does not change as cell size increases. Differences on day 12 are observed which is most likely related to cell death and release of degradative enzymes, since the culture viability drops to 60% on day 12. </text>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:07:44Z</infon>
+        <location offset="27944" length="9"/>
+        <text>N-glycans</text>
+      </annotation>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:07:39Z</infon>
+        <location offset="28066" length="19"/>
+        <text>cell size increases</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:11:33Z</infon>
+        <location offset="28154" length="10"/>
+        <text>cell death</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:09:55Z</infon>
+        <location offset="28180" length="19"/>
+        <text>degradative enzymes</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:11:54Z</infon>
+        <location offset="28219" length="9"/>
+        <text>viability</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>28255</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28266</offset>
+      <text>In this study using ActiCHO medium as basal medium and Actifeed A and B as feeds, a cell size increase phase was observed during which the cell concentration remained approximately constant, while the cell volume increased almost three times. A previous study (Pan et al.) showed that the cell size increase in CHO fed-batch processes is clone and medium/feed dependent. Furthermore, an experiment with the same process and medium system but with a lower feed addition rate, the same extent of cell size increase was observed (data not shown), implying that the cell size increase is not merely caused by nutrient oversupply. However, several non-essential amino acids were depleted around day 4 (Fig. 2d), which might play a role in the metabolic transition from the NI to the SI phase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29054</offset>
+      <text>The cell diameter distribution during the fed-batch cultures (Fig. 1c) showed that the increase in cell diameter occurred for the whole cell population instead of only a sub-population. It was also established in this study that the cell size increase is due to a proportional increase in biomass content (Table 1), rather than due to a cell swelling effect through the uptake of water and salts. The cell DW measurement resulted in higher values (770 pg/cell or higher) than commonly reported for CHO cells (300-400 pg/cell) (Altamirano et al.; Niklas et al.; Martinez et al.). This can be explained by the larger cell size (17 mum diameter on day 4) of the CHO cell line used in this study, compared to those reported (12-14 mum diameter) (Martinez et al.). We applied the same DW measurement for another cell line with an average cell diameter of 14 mum at a viability higher than 90%, which resulted in ~330 pg/cell (data not shown). Furthermore, the amino acid composition of the cellular protein and the fatty acids composition of the lipids analyzed in this study (ESM 3 Table S1 and S2) are comparable to those reported for other CHO cells (Berlin et al.; Selvarasu et al.). With respect to the content of protein, lipids, carbohydrates DNA, and RNA, such data could not be found in or derived from CHO cell studies and therefore, a comparison to the biomass composition of hybridoma cells (Xie and Wang; Bonarius et al.) is shown (Table 1). As can be seen, the compositions are more or less comparable.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30578</offset>
+      <text>The results for the CHO cell line used in this study show that the mAb specific productivity is directly proportional to the cell volume (Fig. 3a, c), and further confirm that the mAb glycosylation profile does not change as the cell size increases (Fig. 8). This is in agreement with Lloyd et al. who argued that the cell size is the major cellular determinant of productivity rather than the cell cycle phase. In addition to this, Edros et al. and Khoo and Al-Rubeai showed that the increase in specific productivity is directly related to the increase in cell volume due to increase in transcription, translation, and secretion machinery. Kim et al. reported that the enhancement of the specific thrombopoietin productivity is linearly correlated with the increase in cell size for nine CHO cell clones generated using the same transfection process. In a number of studies the relation between cell size and specific productivity was used to enhance mAb productivity, by directly or indirectly increasing the cell size, for example, through cell cycle arrest (Carvalhal et al.; Bi et al.), hyperosmotic pressure (Sun et al.; Kiehl et al.), and mild hypothermia (Tait et al.; Martinez et al.).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31775</offset>
+      <text>Acetic acid and formic acid accumulation were observed during the cultures (Fig. 2b and ESM 3 Fig. S1). Possibly the acetic acid is formed from acetyl-CoA by one of the thioesterases that may be present in CHO cells (Bernson). This is further supported by the formation of isovaleric acid during the SI phase (Fig. 2b), which is formed from isovaleric acid-CoA as a breakdown product of leucine (Tanaka et al.) and also requires the activity of an esterase. The formic acid concentration in this experiment reached 4 mM on day 5 (Fig. 2b), which concentration was shown to inhibit CHO cell growth (Ihrig et al.). Formic acid is considered a breakdown product of serine (Carinhas et al.; Duarte et al.). In the present study, formic acid is mainly produced by the breakdown of serine through folate metabolism (ESM 1), which is also reported by Carinhas et al. and Duarte et al. and a small fraction is generated in the breakdown of tryptophan and during synthesis of cholesterol (ESM 1). The high breakdown rates for some amino acids are likely caused by the overfeeding of these nutrients after the NI phase as can be seen in Fig. 2. In addition, lactate concentration showed a peak at 30 mM at around the point where the transition from the NI to SI phase occurred (Fig. 2). However, the lactate concentration in this study is not expected to be the trigger of the phase transition, since the cell clone used in this study was observed to be able to grow in cell concentration at a lactate concentration up to 40 mM (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33314</offset>
+      <text>During the SI phase, the slightly higher fatty acids synthesis fluxes (Fig. 7) occurred together with the formation of lipid droplets (Fig. 6). Formation of lipid droplets has been reported in CHO cells (Liu et al.). In addition, high fatty acids synthesis rate during stationary phase was previously reported in a CHO cell study using 13C isotopic tracers (Ahn and Antoniewicz). However, the fate of the excessive fatty acids was unclear in that study. We hypothesize that the accumulation of lipids in the present study is mainly caused by a maintained fatty acids synthesis rate in combination with a decreased membrane lipid demand during the SI phase. A slight increase in the fatty acid synthesis flux from the NI (0.07) to the SI (0.09) phase (Fig. 7) is observed. The amount of extra NAD(P)H needed for this is negligibly small compared to the total NAD(P)H oxidation flux. The slight increase in the fatty acid synthesis flux, therefore, is not expected to largely affect the overall redox rearrangement and through this play a role in the change in lactate metabolism.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_2</infon>
+      <offset>34393</offset>
+      <text>Metabolic patterns of cell size increase</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34434</offset>
+      <text>Based on FVA, higher O2 consumption and oxidative phosphorylation fluxes were calculated in the SI phase as compared to the NI phase. This results in a higher ATP synthesis flux during the NI phase, which is reflected in the higher ATP translocation flux from mitochondria to cytosol in the SI phase (Fig. 7). The higher flux through oxidative phosphorylation means that more NADH is generated in the SI phase. The NADH can be generated in glycolysis and the TCA cycle or by the combined activity of the PPP and transhydrogenase systems. However, the fluxes in these pathways cannot be independently calculated (shown by the red flux values in Fig. 7) and thus it remains unknown whether the increased O2 consumption and oxidative phosphorylation activity are due to an increase in TCA flux or an increased flux through the PPP or both. Bi et al. reported a significant increase in mitochondrial activity (1.6-fold) and mitochondrial mass (twofold) for a CHO cell line with a similar cell volume increase (three- to fourfold). Furthermore, Zagari et al. showed that the lactate metabolism shift from production to consumption was correlated with higher mitochondrial activity. The same lactate metabolic shift also occurred in the SI phase of our study, which also may point to an increase in TCA cycle activity during the SI phase. These studies support that the increased NADH generation flux during the SI phase is mainly generated from a higher flux through the TCA cycle. However, Sengupta et al. and Templeton et al. showed by using isotopic labeling that the flux through both the oxidative PPP as well as through the TCA cycle increased during the non-growth phase. In addition, Ahn and Antoniewicz reported a significant increase in oxidative PPP together with a constant TCA flux from the growth phase to the stationary phase. However, in these last three studies, the increase in cell size was not reported and thus the metabolic condition of the non-growth phase in their studies may not be fully illustrative for the SI phase of this study. In conclusion, increased O2 consumption and oxidative phosphorylation fluxes are calculated and it seems most likely that an increased TCA cycle flux is the cause for the faster NADH generation in the SI phase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36699</offset>
+      <text>The increased NADH demand and likely higher TCA cycle activity to generate this NADH could result in a lower NADH/NAD ratio and a lower pyruvate concentration in the cell. This might be related to the metabolic switch from lactate production to consumption, since the conversion of lactate to pyruvate generates NADH and the pyruvate that is generated can support the higher TCA flux. The higher flux through oxidative phosphorylation may have two causes: (i) a higher energy demand of cells in the SI phase for maintenance and/or growth. This may be directly related to cell size, but may also be related to other factors that change over time like for example the ammonium concentration. The energy requirement for maintenance can increase when cells are exposed to ammonium due to its competitive inward transport over potassium ions via the Na+/K+-ATPase and the Na+K+2C1- cotransporter (Martinelle and Haggstrom). However, the ammonium is not likely to cause an increase in energy demand since its concentration remains reasonably constant between the NI and SI phase. (ii). A decrease in mitochondrial efficiency by uncoupling of the oxidative phosphorylation. An "uncoupler" (i.e., leaky membrane) enables protons to flow back without passing through the ATP synthase, therefore, less ATP is generated from the same amount of NADH and FADH2 (i.e., a lower P/O ratio) (Terada). If the demand for ATP stays the same, a higher flux through oxidative phosphorylation and a higher O2 consumption rate are needed to meet this demand. The thioesterases responsible for the production of acetic acid and isovaleric acid as mentioned before may also be responsible for the release of free fatty acids that are known to uncouple the oxidative phosphorylation (Pressman and Lardy; Skulachev). The slightly higher fatty acids synthesis fluxes during the SI phase could be related to this.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_2</infon>
+      <offset>38591</offset>
+      <text>Implications of cell size increase during a culture process</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38651</offset>
+      <text>The results of this study stress that cell size and the amount of biomass per cell should be taken into account during the process characterization. Based on cell density measurement alone, the threefold increase in biomass observed in this work would not have been captured (Fig. 1), and the cell size increase phase would have been mistakenly identified as part of the stationary phase. In fact, a two-micron increase in cell diameter, for instance, from 14 to 16 mum, may already lead to a 50% increase in total cell volume or biomass. Furthermore, it can skew the process interpretation such as final biomass concentration reached, mAb productivity, and cellular metabolism. Similarly, skewed biological interpretation of a transcriptomic study due to cell size changes was reported by Fomina-Yadlin et al.. The occurrence of cell size increase is also important for feed development. Since biomass continues to grow after the exponential cell concentration increase phase, the nutrients provided to the culture should contain not only nutrients assigned for maintenance and mAb production reactions, but also all the precursors and building blocks for biomass growth. In this specific culture process, a simple feeding concept would be to keep the feeding rate of essential amino acids at a per cell level the same during the SI phase and the NI phase, since the cell number-specific consumption rates remain fairly constant (Fig. 5a).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40093</offset>
+      <text>The present study further shows that during the SI phase the average mAb production per cell increased by a factor 2 (Fig. 3), while the average O2 consumption and CO2 production increased only by a factor 1.5 (Fig. 7). In addition, compared to the NI phase, during the SI phase a higher proportion of the amino acids taken up from the medium is used for mAb synthesis (Fig. 7). Collectively, the amount of mAb production per mol of oxygen and amino acid consumed increases for larger cells, which can be used for further process optimization. Especially for high-density perfusion processes where O2 and/or CO2 transfer may be limiting, it may be favorable to have larger cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40773</offset>
+      <text>This study demonstrates that cell size is an important factor for characterizing and optimizing a cell culture process. Correlations between the cell size increase and metabolic changes were found. However, further research is needed to understand the relationship between changes in cell size and changes in metabolism. In addition, studies on the cellular pathways that control cell size, such as the mammalian target of rapamycin (mTOR) pathway (Rohde et al.; Fingar et al.), and the extracellular stimuli involved could promote mechanistic understandings for the cell size increase, and enable controlled cell size manipulation during a culture process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>41431</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>41465</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>41499</offset>
+      <text>The online version of this article (10.1007/s00253-017-8531-y) contains supplementary material, which is available to authorized users.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title</infon>
+      <offset>41635</offset>
+      <text>Compliance with ethical standards</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41669</offset>
+      <text>This article does not contain any studies with human participants or animals performed by any of the authors.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>41779</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41800</offset>
+      <text>The authors declare that they do not have any conflicts of interest.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>41869</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_1">surname:Antoniewicz;given-names:MR</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ahn;given-names:WS</infon>
+      <infon key="fpage">598</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2011.07.002</infon>
+      <infon key="pub-id_pmid">21821143</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">609</infon>
+      <offset>41880</offset>
+      <text>Metabolic flux analysis of CHO cells at growth and non-growth phases using isotopic tracers and mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="name_1">surname:Antoniewicz;given-names:MR</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ahn;given-names:WS</infon>
+      <infon key="fpage">34</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2012.10.001</infon>
+      <infon key="pub-id_pmid">23111062</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">47</infon>
+      <offset>41994</offset>
+      <text>Parallel labeling experiments with [1,2-13C]glucose and [U-13C]glutamine provide new insights into CHO cell metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gamez;given-names:X</infon>
+      <infon key="name_2">surname:Casablancas;given-names:A</infon>
+      <infon key="name_1">surname:Illanes;given-names:A</infon>
+      <infon key="name_0">surname:Altamirano;given-names:C</infon>
+      <infon key="fpage">1032</infon>
+      <infon key="pub-id_doi">10.1021/bp0100981</infon>
+      <infon key="pub-id_pmid">11735437</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1041</infon>
+      <infon key="name_5">surname:Godia;given-names:C</infon>
+      <infon key="name_4">surname:Cairo;given-names:JJ</infon>
+      <offset>42113</offset>
+      <text>Analysis of CHO cells metabolic redistribution in a glutamate-based defined medium in continuous culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Peters;given-names:RC</infon>
+      <infon key="name_2">surname:Yamane;given-names:K</infon>
+      <infon key="name_1">surname:Hannah;given-names:JS</infon>
+      <infon key="name_0">surname:Berlin;given-names:E</infon>
+      <infon key="fpage">1131</infon>
+      <infon key="pub-id_doi">10.1016/1357-2725(96)00063-5</infon>
+      <infon key="pub-id_pmid">8930137</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Int J Biochem Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1139</infon>
+      <infon key="name_4">surname:Howard;given-names:BV</infon>
+      <offset>42218</offset>
+      <text>Fatty acid modification of membrane fluidity in Chinese hamster ovary (TR715-19) cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bernson;given-names:VSM</infon>
+      <infon key="fpage">403</infon>
+      <infon key="pub-id_doi">10.1111/j.1432-1033.1976.tb10705.x</infon>
+      <infon key="pub-id_pmid">964251</infon>
+      <infon key="year">1976</infon>
+      <infon key="source">Eur J Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">410</infon>
+      <offset>42305</offset>
+      <text>Acetyl-CoA hydrolase; activity, regulation and physiological, significance of the enzyme in Brown adipose tissue from hamster</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="name_2">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="name_1">surname:Shuttleworth;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bi;given-names:JX</infon>
+      <infon key="fpage">741</infon>
+      <infon key="pub-id_doi">10.1002/bit.20025</infon>
+      <infon key="pub-id_pmid">14991652</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">749</infon>
+      <offset>42431</offset>
+      <text>Uncoupling of cell growth and proliferation results in enhancement of productivity in p21CIP1-arrested CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:de Gooijer;given-names:CD</infon>
+      <infon key="name_2">surname:Meesters;given-names:KP</infon>
+      <infon key="name_1">surname:Hatzimanikatis;given-names:V</infon>
+      <infon key="name_0">surname:Bonarius;given-names:HP</infon>
+      <infon key="fpage">299</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(19960505)50:3&lt;299::AID-BIT9&gt;3.0.CO;2-B</infon>
+      <infon key="pub-id_pmid">18626958</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">50</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">318</infon>
+      <infon key="name_5">surname:Tramper;given-names:J</infon>
+      <infon key="name_4">surname:Schmid;given-names:G</infon>
+      <offset>42544</offset>
+      <text>Metabolic flux analysis of hybridoma cells in different culture media using mass balances</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kleinegris;given-names:DMM</infon>
+      <infon key="name_2">surname:de Vree;given-names:JH</infon>
+      <infon key="name_1">surname:Evers;given-names:WAC</infon>
+      <infon key="name_0">surname:Breuer;given-names:G</infon>
+      <infon key="fpage">e50628</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Vis Exp</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">80</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_6">surname:Lamers;given-names:PP</infon>
+      <infon key="name_5">surname:Wijffels;given-names:RH</infon>
+      <infon key="name_4">surname:Martens;given-names:DE</infon>
+      <offset>42634</offset>
+      <text>Analysis of fatty acid content and composition in microalgae</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Carrondo;given-names:MJT</infon>
+      <infon key="name_2">surname:Barreiro;given-names:LC</infon>
+      <infon key="name_1">surname:Duarte;given-names:TM</infon>
+      <infon key="name_0">surname:Carinhas;given-names:N</infon>
+      <infon key="fpage">3244</infon>
+      <infon key="pub-id_doi">10.1002/bit.24983</infon>
+      <infon key="pub-id_pmid">23794452</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3257</infon>
+      <infon key="name_5">surname:Teixeira;given-names:AP</infon>
+      <infon key="name_4">surname:Alves;given-names:PM</infon>
+      <offset>42695</offset>
+      <text>Metabolic signatures of GS-CHO cell clones associated with butyrate treatment and culture phase transition</text>
+    </passage>
+    <passage>
+      <infon key="volume">63</infon>
+      <infon key="name_2">surname:Carrondo;given-names:MJT</infon>
+      <infon key="name_1">surname:Marcelino;given-names:I</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Carvalhal;given-names:AV</infon>
+      <infon key="fpage">164</infon>
+      <infon key="pub-id_doi">10.1007/s00253-003-1385-5</infon>
+      <infon key="pub-id_pmid">12856162</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">173</infon>
+      <offset>42802</offset>
+      <text>Metabolic changes during cell growth inhibition by p27 overexpression</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Cattolico;given-names:RA</infon>
+      <infon key="name_2">surname:Petersen;given-names:TW</infon>
+      <infon key="name_1">surname:Hardin;given-names:WR</infon>
+      <infon key="name_0">surname:Cooper;given-names:MS</infon>
+      <infon key="fpage">198</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiosc.2009.08.004</infon>
+      <infon key="pub-id_pmid">20129108</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Biosci Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">201</infon>
+      <offset>42872</offset>
+      <text>Visualizing "green oil" in live algal cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Carrondo;given-names:MJT</infon>
+      <infon key="name_2">surname:Barreiro;given-names:LC</infon>
+      <infon key="name_1">surname:Carinhas;given-names:N</infon>
+      <infon key="name_0">surname:Duarte;given-names:TM</infon>
+      <infon key="fpage">2095</infon>
+      <infon key="pub-id_doi">10.1002/bit.25266</infon>
+      <infon key="pub-id_pmid">24771076</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">111</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2106</infon>
+      <infon key="name_5">surname:Teixeira;given-names:AP</infon>
+      <infon key="name_4">surname:Alves;given-names:PM</infon>
+      <offset>42920</offset>
+      <text>Metabolic responses of CHO cells to limitation of key amino acids</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Rebers;given-names:PA</infon>
+      <infon key="name_2">surname:Hamilton;given-names:JK</infon>
+      <infon key="name_1">surname:Gilles;given-names:KA</infon>
+      <infon key="name_0">surname:DuBois;given-names:M</infon>
+      <infon key="fpage">350</infon>
+      <infon key="pub-id_doi">10.1021/ac60111a017</infon>
+      <infon key="year">1956</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">356</infon>
+      <infon key="name_4">surname:Smith;given-names:F</infon>
+      <offset>42986</offset>
+      <text>Colorimetric method for determination of sugars and related substances</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="name_2">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="name_1">surname:McDonnell;given-names:S</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Edros;given-names:R</infon>
+      <infon key="fpage">15</infon>
+      <infon key="pub-id_doi">10.1186/1472-6750-14-15</infon>
+      <infon key="pub-id_pmid">24533650</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">BMC Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <offset>43057</offset>
+      <text>The relationship between mTOR signalling pathway and recombinant antibody productivity in CHO cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Harlow;given-names:E</infon>
+      <infon key="name_2">surname:Tsou;given-names:C</infon>
+      <infon key="name_1">surname:Salama;given-names:S</infon>
+      <infon key="name_0">surname:Fingar;given-names:DC</infon>
+      <infon key="fpage">1472</infon>
+      <infon key="pub-id_doi">10.1101/gad.995802</infon>
+      <infon key="pub-id_pmid">12080086</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">16</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1487</infon>
+      <infon key="name_4">surname:Blenis;given-names:J</infon>
+      <offset>43162</offset>
+      <text>Mammalian cell size is controlled by mTOR and its downstream targets S6K1 and 4EBP1/eIF4E</text>
+    </passage>
+    <passage>
+      <infon key="volume">189</infon>
+      <infon key="name_2">surname:McGrew;given-names:JT</infon>
+      <infon key="name_1">surname:Du;given-names:Z</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Fomina-Yadlin;given-names:D</infon>
+      <infon key="fpage">58</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2014.08.037</infon>
+      <infon key="pub-id_pmid">25194670</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">69</infon>
+      <offset>43252</offset>
+      <text>Gene expression measurements normalized to cell number reveal large scale differences due to cell size changes, transcriptional amplification and transcriptional repression in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="pub-id_doi">10.1016/j.cels.2016.10.020</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Cell Syst</infon>
+      <infon key="type">ref</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">434</infon>
+      <infon key="name_31">surname:Voldborg;given-names:BG</infon>
+      <infon key="volume">3</infon>
+      <infon key="name_32">surname:Gerdtzen;given-names:ZP</infon>
+      <infon key="name_30">surname:Kildegaard;given-names:HF</infon>
+      <infon key="name_35">surname:Andersen;given-names:MR</infon>
+      <infon key="name_36">surname:Nielsen;given-names:LK</infon>
+      <infon key="name_33">surname:Betenbaugh;given-names:MJ</infon>
+      <infon key="name_34">surname:Palsson;given-names:BO</infon>
+      <infon key="name_39">surname:Lewis;given-names:NE</infon>
+      <infon key="name_37">surname:Borth;given-names:N</infon>
+      <infon key="name_9">surname:Ley;given-names:D</infon>
+      <infon key="name_38">surname:Lee;given-names:D-Y</infon>
+      <infon key="name_8">surname:Huang;given-names:Y</infon>
+      <infon key="name_7">surname:Baycin-Hizal;given-names:D</infon>
+      <infon key="name_6">surname:Orellana;given-names:CA</infon>
+      <infon key="name_5">surname:Lakshmanan;given-names:M</infon>
+      <infon key="name_4">surname:Ruckerbauer;given-names:D</infon>
+      <infon key="name_3">surname:Bordbar;given-names:A</infon>
+      <infon key="name_2">surname:Hanscho;given-names:M</infon>
+      <infon key="name_1">surname:Ang;given-names:KS</infon>
+      <infon key="name_0">surname:Hefzi;given-names:H</infon>
+      <infon key="pub-id_pmid">27883890</infon>
+      <infon key="name_20">surname:Loira;given-names:N</infon>
+      <infon key="name_21">surname:Spahn;given-names:PN</infon>
+      <infon key="name_24">surname:King;given-names:ZA</infon>
+      <infon key="name_25">surname:Lund;given-names:AM</infon>
+      <infon key="name_22">surname:Pedersen;given-names:LE</infon>
+      <infon key="name_23">surname:Gutierrez;given-names:JM</infon>
+      <infon key="name_28">surname:Abdel-Haleem;given-names:AM</infon>
+      <infon key="name_29">surname:Zanghellini;given-names:J</infon>
+      <infon key="name_26">surname:Nagarajan;given-names:H</infon>
+      <infon key="name_27">surname:Thomas;given-names:A</infon>
+      <infon key="lpage">443.e8</infon>
+      <infon key="name_10">surname:Martinez;given-names:VS</infon>
+      <infon key="name_13">surname:Zielinski;given-names:DC</infon>
+      <infon key="name_14">surname:Quek;given-names:L-E</infon>
+      <infon key="name_11">surname:Kyriakopoulos;given-names:S</infon>
+      <infon key="name_12">surname:Jimenez;given-names:NE</infon>
+      <infon key="name_17">surname:Li;given-names:S</infon>
+      <infon key="name_18">surname:Lee;given-names:JS</infon>
+      <infon key="name_15">surname:Wulff;given-names:T</infon>
+      <infon key="name_16">surname:Arnsdorf;given-names:J</infon>
+      <infon key="name_19">surname:Paglia;given-names:G</infon>
+      <offset>43438</offset>
+      <text>A consensus genome-scale reconstruction of Chinese hamster ovary cell metabolism</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>43519</offset>
+      <text>Ihrig TJ, Maulawizada MA, Thomas BD, Jacobson FS (1995) Formate production by Cho cells: biosynthetic mechanism and potential cytotoxicity. In: animal cell technology: developments towards the 21st century. Springer, pp 193-197</text>
+    </passage>
+    <passage>
+      <infon key="volume">102</infon>
+      <infon key="name_1">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Khoo;given-names:SHG</infon>
+      <infon key="fpage">188</infon>
+      <infon key="pub-id_doi">10.1002/bit.22041</infon>
+      <infon key="pub-id_pmid">18683250</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">199</infon>
+      <offset>43749</offset>
+      <text>Detailed understanding of enhanced specific antibody productivity in NS0 myeloma cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Jian Li;given-names:Z</infon>
+      <infon key="name_2">surname:Khattak;given-names:SF</infon>
+      <infon key="name_1">surname:Shen;given-names:D</infon>
+      <infon key="name_0">surname:Kiehl;given-names:TR</infon>
+      <infon key="fpage">560</infon>
+      <infon key="issue">A</infon>
+      <infon key="pub-id_doi">10.1002/cyto.a.21076</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Cytom Part A</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">79</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">569</infon>
+      <infon key="name_4">surname:Sharfstein;given-names:ST</infon>
+      <offset>43836</offset>
+      <text>Observations of cell size dynamics under osmotic stress</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:GM</infon>
+      <infon key="volume">6</infon>
+      <infon key="name_2">surname:Sung;given-names:YH</infon>
+      <infon key="name_1">surname:Chung;given-names:JY</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kim;given-names:TK</infon>
+      <infon key="fpage">332</infon>
+      <infon key="pub-id_doi">10.1007/BF02933001</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol Bioprocess Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">336</infon>
+      <offset>43892</offset>
+      <text>Relationship between cell size and specific Thrombopoietin productivity in Chinese hamster ovary cells during Dihydrofolate Reductase-mediated gene amplification</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mundy;given-names:DI</infon>
+      <infon key="name_2">surname:Zhao;given-names:Y</infon>
+      <infon key="name_1">surname:Ying;given-names:Y</infon>
+      <infon key="name_0">surname:Liu;given-names:P</infon>
+      <infon key="fpage">3787</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M311945200</infon>
+      <infon key="pub-id_pmid">14597625</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">279</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3792</infon>
+      <infon key="name_5">surname:Anderson;given-names:RGW</infon>
+      <infon key="name_4">surname:Zhu;given-names:M</infon>
+      <offset>44054</offset>
+      <text>Chinese hamster ovary K2 cell lipid droplets appear to be metabolic organelles involved in membrane traffic</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Emery;given-names:AN</infon>
+      <infon key="name_2">surname:Jackson;given-names:LP</infon>
+      <infon key="name_1">surname:Holmes;given-names:P</infon>
+      <infon key="name_0">surname:Lloyd;given-names:DR</infon>
+      <infon key="fpage">59</infon>
+      <infon key="pub-id_doi">10.1023/A:1008103730027</infon>
+      <infon key="pub-id_pmid">19003381</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">70</infon>
+      <infon key="name_4">surname:Al-Rubeai;given-names:M</infon>
+      <offset>44162</offset>
+      <text>Relationship between cell size, cell cycle and specific recombinant protein productivity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>44251</offset>
+      <text>Martens DE, Tramper J (2010) Flux analysis of mammalian cell culture. Encyclopedia of industrial biotechnology. In: Flickinger MC (ed) Encyclopedia of industrial biotechnology: bioprocess, bioseparation, and cell technology. John Wiley &amp; Sons, Inc., Hoboken, pp 2491-2520</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_1">surname:Haggstrom;given-names:L</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Martinelle;given-names:K</infon>
+      <infon key="fpage">339</infon>
+      <infon key="pub-id_doi">10.1016/0168-1656(93)90148-G</infon>
+      <infon key="pub-id_pmid">7764110</infon>
+      <infon key="year">1993</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">350</infon>
+      <offset>44525</offset>
+      <text>Mechanisms of ammonia and ammonium ion toxicity in animal cells: transport across cell membranes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nielsen;given-names:LK</infon>
+      <infon key="name_2">surname:Gray;given-names:P</infon>
+      <infon key="name_1">surname:Buchsteiner;given-names:M</infon>
+      <infon key="name_0">surname:Martinez;given-names:VS</infon>
+      <infon key="fpage">46</infon>
+      <infon key="pub-id_doi">10.1016/j.meteno.2015.06.001</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Metab Eng Commun</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">57</infon>
+      <infon key="name_4">surname:Quek;given-names:L-E</infon>
+      <offset>44622</offset>
+      <text>Dynamic metabolic flux analysis using B-splines to study the effects of temperature shift on CHO cell metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hodson;given-names:MP</infon>
+      <infon key="name_2">surname:Quek;given-names:L-E</infon>
+      <infon key="name_1">surname:Dietmair;given-names:S</infon>
+      <infon key="name_0">surname:Martinez;given-names:VS</infon>
+      <infon key="fpage">660</infon>
+      <infon key="pub-id_doi">10.1002/bit.24728</infon>
+      <infon key="pub-id_pmid">22991240</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">666</infon>
+      <infon key="name_5">surname:Nielsen;given-names:LK</infon>
+      <infon key="name_4">surname:Gray;given-names:P</infon>
+      <offset>44735</offset>
+      <text>Flux balance analysis of CHO cells before and after a metabolic switch from lactate production to consumption</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Noll;given-names:T</infon>
+      <infon key="name_2">surname:Sandig;given-names:V</infon>
+      <infon key="name_1">surname:Schrader;given-names:E</infon>
+      <infon key="name_0">surname:Niklas;given-names:J</infon>
+      <infon key="fpage">533</infon>
+      <infon key="pub-id_doi">10.1007/s00449-010-0502-y</infon>
+      <infon key="pub-id_pmid">21188421</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Bioprocess Biosyst Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">545</infon>
+      <infon key="name_4">surname:Heinzle;given-names:E</infon>
+      <offset>44845</offset>
+      <text>Quantitative characterization of metabolism and metabolic shifts during growth of the new human cell line AGE1.HN using time resolved metabolic flux analysis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wijffels;given-names:RH</infon>
+      <infon key="name_2">surname:Dalm;given-names:C</infon>
+      <infon key="name_1">surname:Streefland;given-names:M</infon>
+      <infon key="name_0">surname:Pan;given-names:X</infon>
+      <infon key="fpage">39</infon>
+      <infon key="pub-id_doi">10.1007/s10616-016-0036-5</infon>
+      <infon key="pub-id_pmid">27900626</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">69</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">56</infon>
+      <infon key="name_4">surname:Martens;given-names:DE</infon>
+      <offset>45003</offset>
+      <text>Selection of chemically defined media for CHO cell fed-batch culture processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="name_1">surname:Lardy;given-names:HA</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pressman;given-names:BC</infon>
+      <infon key="fpage">458</infon>
+      <infon key="pub-id_doi">10.1016/0006-3002(56)90182-2</infon>
+      <infon key="pub-id_pmid">13363952</infon>
+      <infon key="year">1956</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">466</infon>
+      <offset>45082</offset>
+      <text>Effect of surface active agents on the latent ATPASE of mitochondira</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="name_2">surname:Cardenas;given-names:ME</infon>
+      <infon key="name_1">surname:Heitman;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Rohde;given-names:J</infon>
+      <infon key="fpage">9583</infon>
+      <infon key="pub-id_doi">10.1074/jbc.R000034200</infon>
+      <infon key="pub-id_pmid">11266435</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">9586</infon>
+      <offset>45151</offset>
+      <text>The TOR kinases link nutrient sensing to cell growth</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Thiele;given-names:I</infon>
+      <infon key="name_2">surname:Fleming;given-names:RMT</infon>
+      <infon key="name_1">surname:Que;given-names:R</infon>
+      <infon key="name_0">surname:Schellenberger;given-names:J</infon>
+      <infon key="fpage">727</infon>
+      <infon key="pub-id_doi">10.1038/nprot.2007.99</infon>
+      <infon key="pub-id_pmid">17406635</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Nat Protoc</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="name_10">surname:Kang;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_11">surname:Hyduke;given-names:DR</infon>
+      <infon key="name_12">surname:Palsson;given-names:BO</infon>
+      <infon key="name_9">surname:Rahmanian;given-names:S</infon>
+      <infon key="name_8">surname:Lewis;given-names:NE</infon>
+      <infon key="name_7">surname:Bordbar;given-names:A</infon>
+      <infon key="lpage">738</infon>
+      <infon key="name_6">surname:Zielinski;given-names:DC</infon>
+      <infon key="name_5">surname:Feist;given-names:AM</infon>
+      <infon key="name_4">surname:Orth;given-names:JD</infon>
+      <offset>45204</offset>
+      <text>Quantitative prediction of cellular metabolism with constraint-based models: the COBRA toolbox</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wong;given-names:NSC</infon>
+      <infon key="name_2">surname:Chong;given-names:WPK</infon>
+      <infon key="name_1">surname:Ho;given-names:YS</infon>
+      <infon key="name_0">surname:Selvarasu;given-names:S</infon>
+      <infon key="fpage">1415</infon>
+      <infon key="pub-id_doi">10.1002/bit.24445</infon>
+      <infon key="pub-id_pmid">22252269</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Lee;given-names:D-Y</infon>
+      <infon key="lpage">1429</infon>
+      <infon key="name_6">surname:Yap;given-names:MGS</infon>
+      <infon key="name_5">surname:Lee;given-names:YY</infon>
+      <infon key="name_4">surname:Yusufi;given-names:FNK</infon>
+      <offset>45299</offset>
+      <text>Combined in silico modeling and metabolomics analysis to characterize fed-batch CHO cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="name_2">surname:Morgan;given-names:JA</infon>
+      <infon key="name_1">surname:Rose;given-names:ST</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sengupta;given-names:N</infon>
+      <infon key="fpage">82</infon>
+      <infon key="pub-id_doi">10.1002/bit.22890</infon>
+      <infon key="pub-id_pmid">20672285</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">92</infon>
+      <offset>45396</offset>
+      <text>Metabolic flux analysis of CHO cell metabolism in the late non-growth phase</text>
+    </passage>
+    <passage>
+      <infon key="volume">294</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Skulachev;given-names:VP</infon>
+      <infon key="fpage">158</infon>
+      <infon key="pub-id_doi">10.1016/0014-5793(91)80658-P</infon>
+      <infon key="pub-id_pmid">1756853</infon>
+      <infon key="year">1991</infon>
+      <infon key="source">FEBS Lett</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">162</infon>
+      <offset>45472</offset>
+      <text>Fatty acid circuit as a physiological mechanism of uncoupling of oxidative phosphorylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>45563</offset>
+      <text>Sun Z, Zhou R, Liang S, McNeeley KM, Sharfstein ST (2004) Hyperosmotic stress in murine Hybridoma cells: effects on antibody transcription, translation, posttranslational processing, and the cell cycle. Biotechnol Prog 20:576-589</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Spencer;given-names:DIR</infon>
+      <infon key="name_2">surname:Velez-Suberbie;given-names:ML</infon>
+      <infon key="name_1">surname:Tarrant;given-names:RDR</infon>
+      <infon key="name_0">surname:Tait;given-names:AS</infon>
+      <infon key="fpage">688</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1726</infon>
+      <infon key="pub-id_pmid">23636936</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">696</infon>
+      <infon key="name_4">surname:Bracewell;given-names:DG</infon>
+      <offset>45795</offset>
+      <text>Differential response in downstream processing of CHO cells grown under mild hypothermic conditions</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Isselbacher;given-names:KJ</infon>
+      <infon key="name_2">surname:Efron;given-names:ML</infon>
+      <infon key="name_1">surname:Budd;given-names:MA</infon>
+      <infon key="name_0">surname:Tanaka;given-names:K</infon>
+      <infon key="fpage">236</infon>
+      <infon key="pub-id_doi">10.1073/pnas.56.1.236</infon>
+      <infon key="pub-id_pmid">5229850</infon>
+      <infon key="year">1966</infon>
+      <infon key="source">Proc Natl Acad Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">56</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">242</infon>
+      <offset>45895</offset>
+      <text>Isovaleric acidemia: a new genetic defect of leucine metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Young;given-names:JD</infon>
+      <infon key="name_2">surname:Reddy;given-names:P</infon>
+      <infon key="name_1">surname:Dean;given-names:J</infon>
+      <infon key="name_0">surname:Templeton;given-names:N</infon>
+      <infon key="fpage">2013</infon>
+      <infon key="pub-id_doi">10.1002/bit.24858</infon>
+      <infon key="pub-id_pmid">23381838</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2024</infon>
+      <offset>45959</offset>
+      <text>Peak antibody production is associated with increased oxidative metabolism in an industrially relevant fed-batch CHO cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Terada;given-names:H</infon>
+      <infon key="fpage">213</infon>
+      <infon key="pub-id_doi">10.1289/ehp.9087213</infon>
+      <infon key="pub-id_pmid">2176586</infon>
+      <infon key="year">1990</infon>
+      <infon key="source">Environ Health Perspect</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">218</infon>
+      <offset>46089</offset>
+      <text>Uncouplers of oxidative phosphorylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="name_2">surname:Heinzle;given-names:E</infon>
+      <infon key="name_1">surname:Niklas;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wahrheit;given-names:J</infon>
+      <infon key="fpage">9</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2014.02.001</infon>
+      <infon key="pub-id_pmid">24525334</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">21</infon>
+      <offset>46129</offset>
+      <text>Metabolic control at the cytosol-mitochondria interface in different growth phases of CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="name_1">surname:Wang;given-names:DIC</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Xie;given-names:L</infon>
+      <infon key="fpage">17</infon>
+      <infon key="pub-id_doi">10.1007/BF00762376</infon>
+      <infon key="pub-id_pmid">7765929</infon>
+      <infon key="year">1994</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">29</infon>
+      <offset>46225</offset>
+      <text>Applications of improved stoichiometric model in medium design and fed-batch cultivation of animal cells in bioreactor</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Broly;given-names:H</infon>
+      <infon key="name_2">surname:Stettler;given-names:M</infon>
+      <infon key="name_1">surname:Jordan;given-names:M</infon>
+      <infon key="name_0">surname:Zagari;given-names:F</infon>
+      <infon key="fpage">238</infon>
+      <infon key="pub-id_doi">10.1016/j.nbt.2012.05.021</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">New Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">245</infon>
+      <infon key="name_4">surname:Wurm;given-names:FM</infon>
+      <offset>46344</offset>
+      <text>Lactate metabolism shift in CHO cell culture: the role of mitochondrial oxidative activity</text>
+    </passage>
+  </document>
+</collection>

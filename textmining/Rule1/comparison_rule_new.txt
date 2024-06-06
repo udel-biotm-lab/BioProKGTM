@@ -1,0 +1,1172 @@
+###PREPOCESSING RULES START######
+
+#########COPY nmod:in when xcomp from FOUND_IN to higher/lower#######
+
+####Copy xcomp: In Y, X was found be higher than Z#####
+RuleID : copy_xcomp_1
+Cond_1 : {word:/(higher|lower|high|low)/}=N0
+Cond_2 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N1
+Cond_3 : {}=N1 >xcomp {}=N0
+Cond_4 : {}=N1 >/nmod:in/ {}=N3
+Action_1 : N0 >> nmod:in >> N3
+
+####Copy xcomp: In Y, X was found be increased than Z#####
+RuleID : copy_xcomp_1
+Cond_1 : {pos:VBN;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N1
+Cond_3 : {}=N1 >xcomp {}=N0
+Cond_4 : {}=N1 >/nmod:in/ {}=N3
+Action_1 : N0 >> nmod:in >> N3
+
+####Copy xcomp: X was expressed X-fold lower#####
+RuleID : copy_xcomp_2
+Cond_1 : {pos:VBN;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {tag:JJR}=N1
+Cond_3 : {}=N0 >xcomp {}=N1
+Cond_4 : {}=N1 >/nmod:in/ {}=N3
+Action_1 : N0 >> nmod:in >> N3
+
+####nmod:in->acl=> nmod_acl:in
+####let-7c expression is higher in clinical PCa specimens compared to normal.
+RuleID : fix_cmp_1
+Cond_1 : {}=N0 >/nmod:in/ {}=N1
+Cond_2 : {}=N1 >acl {word:compared}=N2
+Action_1 : N0 >> nmod_acl:in >> N2
+
+
+####nmod:in->nmod:(in|than) => nmod:than_added (if case to than) 
+####mir-21 was upregulated in bladder cancer specimens than control.
+RuleID : fix_cmp_2
+Cond_1 : {}=N0 >/nmod:in/ {}=N1
+Cond_2 : {}=N1 >/(nmod:in|nmod:than)/ {}=N2
+Cond_3 : {}=N2 >/case/ {word:than}
+#Action_1 : N0 >> nmod:than_added >> N2
+Action_1 : N0 >> nmod:than >> N2
+
+
+#####VB > advcl > VBG > mark > than => VB >> nmod:than
+RuleID : fix_comp_3
+Cond_1 : {}=N0 >advcl {tag:/VB.*/}=N1
+Cond_2 : {}=N1 >mark {word:than}
+Action_1 : N0 >> nmod:than >> N1
+
+#####nmod:to/with -> X ->case > comparison => nmod:compared_to/with#####
+RuleID : fix_in_comp_1
+Cond_1 : {tag:/(JJ|JJR|RBR)/}=N0
+Cond_2 : {}=N0 >/nmod:to/ {}=N1
+Cond_3 : {}=N1 >case {word:/(compare|comparison|compared)/}=N2
+Action_1 : N0 >> nmod:compared_to >> N1
+
+RuleID : fix_in_comp_2
+Cond_1 : {tag:/(JJ|JJR|RBR)/}=N0
+Cond_2 : {}=N0 >/nmod:with/ {word:/(compare|comparison|compared)/}=N1
+Cond_3 : {}=N1 >case {}=N2
+Action_1 : N0 >> nmod:compared_with >> N1
+
+####X >acl > compared > nmod:to|with > Y => X >> nmod:compared_with|to
+RuleID : fix_in_comp_3
+Cond_1 : {word:/(compared|compared)/}=N0
+Cond_2 : {}=N0 >/nmod:to/ {}=N1
+Cond_3 : {}=N2 >acl {}=N0
+Action_1 : N2 >> nmod:compared_to >> N1
+
+RuleID : fix_in_comp_4
+Cond_1 : {word:/(compared|compared)/}=N0
+Cond_2 : {}=N0 >/nmod:with/ {}=N1
+Cond_3 : {}=N2 >acl {}=N0
+Action_1 : N2 >> nmod:compared_with >> N1
+
+####nmod:with_respect_to >> nmod:compared_to####
+RuleID : fix_respect_1
+Cond_1 : {}=N0 >/nmod:with_respect_to/ {}=N1
+Action_1 : N0 >> nmod:compared_to >> N1
+  
+RuleID : fix_respect_1
+Cond_1 : {}=N0 >/nmod:with_respect_with/ {}=N1
+Action_1 : N0 >> nmod:compared_with >> N1
+
+####RBR<advmod<JJ<amod<X prop####
+RuleID : advmod_prop_1
+Cond_1 : {}=N0 >amod {tag:JJ}=N1
+Cond_2 : {}=N1 >advmod {tag:RBR}=N2
+Action_1 : N0 >> advmod >> N2
+
+
+####convert relative to nmod:compared_to####
+RuleID : relative_fix_1
+Cond_1 : {lemma:relative}=N0
+Cond_2 : {}=N1 >/nmod:(to|with)/ {}=N2
+Cond_3 : {}=N2 >case {}=N0
+Action_1 : N1 >> nmod:compared_with >> N2
+
+####convert in relation to nmod:compared_to####
+RuleID : relative_fix_2
+Cond_1 : {word:relation}=N0
+Cond_2 : {}=N0 >/nmod:(to|with)/ {}=N1
+Cond_3 : {}=N2 >/nmod:in/ {}=N0
+Action_1 : N2 >> nmod:compared_with >> N1
+
+####convert JJ_relative to nmod:compared_to####
+RuleID : relative_fix_3
+Cond_1 : {lemma:relative;tag:JJ}=N0
+Cond_2 : {}=N1 >/amod/ {}=N0
+Cond_3 : {}=N0 >/nmod:(to|with)/ {}=N2
+Action_1 : N1 >> nmod:compared_with >> N2
+
+####advcl->compared fix####
+RuleID : advcl_comp_fix_1
+Cond_1 : {word:compared}=N0
+Cond_2 : {}=N1 >/advcl|dep/ {}=N0
+Cond_3 : {}=N0 >/nmod:(with|to)/ {}=N3
+Action_1 : N1 >> advcl:compared_with >> N3
+
+
+###PREPOCESSING RULES END######
+
+###COMPARISON PATTERNS START#####
+####arg0_cmo points to the aspect 
+####arg1/2_cmp points to the entities
+####governor of arg edges is the scale
+
+###Non-Equal Gradable Patterns START######
+
+##########X of Y higher than that of Z; Y's Z..####
+RuleID : cmp0_than_1
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N1 >/nmod:(of|poss)/ {}=N2
+Cond_4 : {}=N0 >/nmod:than/ {word:/(that|those)/}=N3
+Cond_5 : {}=N3 >/nmod:of/ {}=N4
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+
+##########X of Y higher than that of Z; Y's Z..####
+RuleID : cmp0_than_1-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N1 >/nmod:(of|poss)/ {}=N2
+Cond_4 : {}=N0 >/nmod:than/ {word:/(that|those)/}=N3
+Cond_5 : {}=N3 >/nmod:of/ {}=N4
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N4
+
+##########We found higher X of Y higher than that of Z; Y's Z..####
+RuleID : cmp0_than_2
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >dobj {}=N1
+Cond_3 : {}=N1 >/nmod:(of|poss)/ {}=N2
+Cond_4 : {}=N0 >/nmod:than/ {word:/(that|those)/}=N3
+Cond_5 : {}=N3 >/nmod:of/ {}=N4
+Cond_6 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N5
+Action_1 : N5 >> arg0_cmp >> N1
+Action_2 : N5 >> arg1_cmp >> N2
+
+##########We found higher X of Y higher than that of Z; Y's Z..####
+RuleID : cmp0_than_2-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >dobj {}=N1
+Cond_3 : {}=N1 >/nmod:(of|poss)/ {}=N2
+Cond_4 : {}=N0 >/nmod:than/ {word:/(that|those)/}=N3
+Cond_5 : {}=N3 >/nmod:of/ {}=N4
+Cond_6 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N5
+Action_1 : N5 >> arg0_cmp >> N1
+Action_3 : N5 >> arg1_cmp >> N4
+
+##########X higher/lower in Y CMP Z###############
+
+####Comparison 1: X higher/lower in Y than in Z;  X in Y higher/lower than in Z####
+RuleID : cmp1_than_1
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /case/ {word:than}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /case/ {word:than})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 1: X higher/lower in Y than in Z;  X in Y higher/lower than in Z####
+RuleID : cmp1_than_1-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /case/ {word:than}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /case/ {word:than})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 1_1: X higher/lower in Y versus Z;  X in Y higher/lower versus Z####
+RuleID : cmp1_vs_1
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /cc/ {word:/(versus|vs.)/}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /cc/ {word:/(versus|vs.)/})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N3
+
+####Comparison 1_1: X higher/lower in Y versus Z;  X in Y higher/lower versus Z####
+RuleID : cmp1_vs_1-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /cc/ {word:/(versus|vs.)/}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /cc/ {word:/(versus|vs.)/})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N2
+
+####Comparison 2: X higher/lower in Y than Z; X in Y higher/lower than Z####
+RuleID : cmp1_than_2
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+#Cond_1 : {word:/(higher|lower|high|low)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 >/(nmod:than|nmod:than_added|conj:vs.|conj:versus)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 2: X higher/lower in Y than Z; X in Y higher/lower than Z####
+RuleID : cmp1_than_2-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+#Cond_1 : {word:/(higher|lower|high|low)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 >/(nmod:than|nmod:than_added|conj:vs.|conj:versus)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 3: X higher/lower in Y compared with|to Z; X in Y ..####
+RuleID : cmp1_compare_1
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|at)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2] >/(advcl|nmod):(compared_to|compared_with)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 3: X higher/lower in Y compared with|to Z; X in Y ..####
+RuleID : cmp1_compare_1-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|at)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2] >/(advcl|nmod):(compared_to|compared_with)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 4: X higher/lower in Y compared with|to in Z; X in Y ..####
+RuleID : cmp1_compare_2
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 > /advcl:compared/ {word:/(to|with)/}
+Cond_9 : {}=N2 $++ {}=N3
+Cond_10 :  [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 4: X higher/lower in Y compared with|to in Z; X in Y ..####
+RuleID : cmp1_compare_2-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 > /advcl:compared/ {word:/(to|with)/}
+Cond_9 : {}=N2 $++ {}=N3
+Cond_10 :  [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N3
+
+####Comparison 5: X higher/lower in Y when compared with|to Z; X in Y ..####
+RuleID : cmp1_compare_3
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/(advcl|dep|nmod:(in|for|after|before|at|during|with|among)|nmod_acl:in)/ {word:/(compared|comparison)/}=N4
+Cond_5 : {}=N4 >/(nmod:(in|for|after|before|at|during|with|among)|nmod:with|nmod:to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 5: X higher/lower in Y when compared with|to Z; X in Y ..####
+RuleID : cmp1_compare_3-NEW
+Cond_1 : {tag:/(JJR|JJ)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/(advcl|dep|nmod:(in|for|after|before|at|during|with|among)|nmod_acl:in)/ {word:/(compared|comparison)/}=N4
+Cond_5 : {}=N4 >/(nmod:(in|for|after|before|at|during|with|among)|nmod:with|nmod:to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+########X [DIFF_EXPRESSED_IN] Y CMP Z##############
+
+####Comparison 1': X increased in Y than in Z;  X in Y increased than in Z####
+RuleID : cmp2_than_1
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:in/ {}=N2
+Cond_4 : {}=N2 !> /case/ {word:than}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /case/ {word:than})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 1': X increased in Y than in Z;  X in Y increased than in Z####
+RuleID : cmp2_than_1-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:in/ {}=N2
+Cond_4 : {}=N2 !> /case/ {word:than}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /case/ {word:than})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 1'_1: X increased in Y versus Z;  X in Y increased versus Z####
+RuleID : cmp2_vs_1
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:in/ {}=N2
+Cond_4 : {}=N2 !> /cc/ {word:/(versus|vs.)/}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /cc/ {word:/(versus|vs.)/})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N3
+
+####Comparison 1'_1: X increased in Y versus Z;  X in Y increased versus Z####
+RuleID : cmp2_vs_1-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:in/ {}=N2
+Cond_4 : {}=N2 !> /cc/ {word:/(versus|vs.)/}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /cc/ {word:/(versus|vs.)/})
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N2
+
+####Comparison 2': X increased in Y than Z; X in Y increased than Z####
+RuleID : cmp2_than_2
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 >/(nmod:than|nmod:than_added|conj:vs.|conj:versus)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 2': X increased in Y than Z; X in Y increased than Z####
+RuleID : cmp2_than_2-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 >/(nmod:than|nmod:than_added|conj:vs.|conj:versus)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 3': X increased in Y compared with|to Z; X in Y ..####
+RuleID : cmp2_compare_1
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2] >/(advcl|nmod):(compared_to|compared_with)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 3': X increased in Y compared with|to Z; X in Y ..####
+RuleID : cmp2_compare_1-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2] >/(advcl|nmod):(compared_to|compared_with)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 4': X increased in Y compared with|to in Z; X in Y ..####
+RuleID : cmp2_compare_2
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 > /advcl:compared/ {word:/(to|with)/}
+Cond_9 : {}=N2 $++ {}=N3
+Cond_10 :  [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 4': X increased in Y compared with|to in Z; X in Y ..####
+RuleID : cmp2_compare_2-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 > /advcl:compared/ {word:/(to|with)/}
+Cond_9 : {}=N2 $++ {}=N3
+Cond_10 :  [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N3
+
+####Comparison 5': X increased in Y when compared with|to Z; X in Y ..; X increased in Y in cmp to Z####
+RuleID : cmp2_compare_3
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/(advcl|dep|nmod:(in|for|after|before|at|during|with|among)|nmod_acl:in)/ {word:/(compared|comparison)/}=N4
+Cond_5 : {}=N4 >/(nmod:in|nmod:with|nmod:to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 5': X increased in Y when compared with|to Z; X in Y ..; X increased in Y in cmp to Z####
+RuleID : cmp2_compare_3-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/(advcl|dep|nmod:(in|for|after|before|at|during|with|among)|nmod_acl:in)/ {word:/(compared|comparison)/}=N4
+Cond_5 : {}=N4 >/(nmod:in|nmod:with|nmod:to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 6': X in Y increased in cmp to Z####
+RuleID : cmp2_compare_3
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/nmod:(to|with)/ {}=N3
+Cond_5 : {}=N3 >dep {word:comparison}=N4
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison 6': X in Y increased in cmp to Z####
+RuleID : cmp2_compare_3-NEW
+Cond_1 : {pos:/(VBN|VBD)/;lemma:/.*(increase|decrease|express|silence|reduce|elevate|change|regulate)/}=N0
+Cond_2 : {}=N0 >/nsubjpass|nsubj/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/nmod:(to|with)/ {}=N3
+Cond_5 : {}=N3 >dep {word:comparison}=N4
+Action_1 : N0 >> arg0_cmp >> N1
+Action_3 : N0 >> arg1_cmp >> N3
+
+
+###########Higher/Lower of X [FOUND IN] Y CMP Z
+
+####Comparison 1'': Higher of X found in Y than in Z;  Higher of X in Y found than in Z####
+RuleID : cmp3_than_1
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /case/ {word:than}
+Cond_5 : [{}=N0 | {}=N2] >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /case/ {word:than})
+Cond_6 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_2 : N4 >> arg1_cmp >> N2
+
+####Comparison 1'': Higher of X found in Y than in Z;  Higher of X in Y found than in Z####
+RuleID : cmp3_than_1-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /case/ {word:than}
+Cond_5 : [{}=N0 | {}=N2] >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /case/ {word:than})
+Cond_6 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_3 : N4 >> arg1_cmp >> N3
+
+####Comparison 2'': Higher of X found in Y than  Z;  Higher of X in Y found than Z####
+RuleID : cmp3_than_2
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2]  >/nmod:than|conj:vs.|conj:versus/ {}=N3
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_2 : N4 >> arg1_cmp >> N2
+
+####Comparison 2'': Higher of X found in Y than  Z;  Higher of X in Y found than Z####
+RuleID : cmp3_than_2-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2]  >/nmod:than|conj:vs.|conj:versus/ {}=N3
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_3 : N4 >> arg1_cmp >> N3
+
+####Comparison 2''_1: Higher of X found in Y versus Z;  Higher of X in Y found versus Z####
+RuleID : cmp3_vs_1
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /cc/ {word:/(versus|vs.)/}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /cc/ {word:/(versus|vs.)/})
+Cond_6 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_2 : N4 >> arg1_cmp >> N3
+
+####Comparison 2''_1: Higher of X found in Y versus Z;  Higher of X in Y found versus Z####
+RuleID : cmp3_vs_1-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N2 !> /cc/ {word:/(versus|vs.)/}
+Cond_5 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ ({}=N3 > /cc/ {word:/(versus|vs.)/})
+Cond_6 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_3 : N4 >> arg1_cmp >> N2
+
+####Comparison 3'': Higher of X found in Y compared with|to Z; X in Y ..####
+RuleID : cmp3_compare_1
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2] >/(advcl|nmod):(compared_to|compared_with)/ {}=N3
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_2 : N4 >> arg1_cmp >> N2
+
+####Comparison 3'': Higher of X found in Y compared with|to Z; X in Y ..####
+RuleID : cmp3_compare_1-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : [{}=N0 | {}=N2] >/(advcl|nmod):(compared_to|compared_with)/ {}=N3
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N4
+Action_1 : N4 >> arg0_cmp >> N1
+Action_3 : N4 >> arg1_cmp >> N3
+
+####Comparison 4'': Higher of X found  in Y compared with|to in Z; X in Y ..####
+RuleID : cmp3_compare_2
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 > /advcl:compared/ {word:/(to|with)/}
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N3
+Cond_9 : {}=N2 $++ {}=N4
+Cond_10 :  [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N1
+Action_2 : N3 >> arg1_cmp >> N2
+
+####Comparison 4'': Higher of X found  in Y compared with|to in Z; X in Y ..####
+RuleID : cmp3_compare_2-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N2
+Cond_4 : {}=N0 > /advcl:compared/ {word:/(to|with)/}
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N3
+Cond_9 : {}=N2 $++ {}=N4
+Cond_10 :  [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N1
+Action_2 : N3 >> arg1_cmp >> N4
+
+####Comparison 5'': Higher of X found in Y when compared with|to Z; X in Y ..; Higher of X found in Y in cmp to Z####
+RuleID : cmp3_compare_3
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0 
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/(advcl|dep|nmod:(in|for|after|before|at|during|with|among)|nmod_acl:in)/ {word:/(compared|comparison)/}=N4
+Cond_5 : {}=N4 >/(nmod:in|nmod:with|nmod:to)/ {}=N3
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N5
+Action_1 : N5 >> arg0_cmp >> N1
+Action_2 : N5 >> arg1_cmp >> N2
+
+####Comparison 5'': Higher of X found in Y when compared with|to Z; X in Y ..; Higher of X found in Y in cmp to Z####
+RuleID : cmp3_compare_3-NEW
+Cond_1 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N0 
+Cond_2 : {}=N0 >/(nsubjpass|dobj)/ {}=N1
+Cond_3 : [{}=N0 | {}=N1] >/nmod:(in|for|after|before|at|during|with|among)/ !{word:/(compared|comparison)/}=N2 
+Cond_4 : {}=N0 >/(advcl|dep|nmod:(in|for|after|before|at|during|with|among)|nmod_acl:in)/ {word:/(compared|comparison)/}=N4
+Cond_5 : {}=N4 >/(nmod:in|nmod:with|nmod:to)/ {}=N3
+Cond_5 : {}=N1 >amod {tag:/(JJ|JJR|VBN)/}=N5
+Action_1 : N5 >> arg0_cmp >> N1
+Action_3 : N5 >> arg1_cmp >> N3
+
+####arg_cmp that/those propagation####
+RuleID : comparisonPropagation1
+Cond_1 : {}=N0 >/arg.*_cmp/=R1 {word:/(that|those)/}=N1
+Cond_2 : {}=N1 >/nmod:in/ {}=N2
+Action_1 : N0 >> R1_prop >> N2
+
+
+###change nmod:in ==> nmod:than####
+RuleID : nmod_than_fix_1
+Cond_1 : {}=N0 >/nmod:(in|for|at|during|before|after)/ {}=N1
+Cond_2 : {}=N1 >case {word:than}
+Action_1 : N0 >> nmod:than >> N1
+
+####Comparison 1.1: Y does X RBR than Z
+RuleID : cmp_RBR_1
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >dobj {}=N2
+Cond_4 : {}=N0 >advmod {tag:RBR}=N3
+Cond_5 : {}=N3 >/nmod:than/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 1.1: Y does X RBR than Z
+RuleID : cmp_RBR_1-NEW
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >dobj {}=N2
+Cond_4 : {}=N0 >advmod {tag:RBR}=N3
+Cond_5 : {}=N3 >/nmod:than/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+
+####Comparison 1.2: Y does X RBR compared to/with Z
+RuleID : cmp_RBR_2
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >dobj {}=N2
+Cond_4 : [{}=N0 | {}=N2]  >advmod {tag:/(RBR|RB)/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 1.2: Y does X RBR compared to/with Z
+RuleID : cmp_RBR_2-NEW
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >dobj {}=N2
+Cond_4 : [{}=N0 | {}=N2]  >advmod {tag:/(RBR|RB)/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 1.3: Y does prep X RBR compared to/with Z
+RuleID : cmp_RBR_2
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:in/ {}=N2
+Cond_4 : [{}=N0 | {}=N2]  >advmod {tag:/(RBR|RB)/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 1.3: Y does prep X RBR compared to/with Z
+RuleID : cmp_RBR_2-NEW
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:in/ {}=N2
+Cond_4 : [{}=N0 | {}=N2]  >advmod {tag:/(RBR|RB)/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+
+
+####Comparison 2.0: Y JJR than Z prep X
+RuleID : cmp_JJR_0
+Cond_0 : {word:than}=N4
+Cond_1 : {tag:/JJR/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_4 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N3
+Cond_5 : {}=N0.{}=N4 
+Action_1 : N0 >> arg0_cmp >> N2
+Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 2.0: Y JJR than Z prep X
+RuleID : cmp_JJR_0-NEW
+Cond_0 : {word:than}=N4
+Cond_1 : {tag:/JJR/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_4 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N3
+Cond_5 : {}=N0.{}=N4 
+Action_1 : N0 >> arg0_cmp >> N2
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 2.0: Y RBR JJ than Z prep X
+RuleID : cmp_JJR_0_1
+Cond_1 : {tag:/JJ/}=N0
+Cond_2 : {}=N0 >/advmod|neg/ {tag:/(RBR|RB)/}=N4
+Cond_3 : {}=N0 >nsubj {}=N1
+Cond_4 : {}=N0 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N2
+Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 2.0: Y RBR JJ than Z prep X
+RuleID : cmp_JJR_0_1-NEW
+Cond_1 : {tag:/JJ/}=N0
+Cond_2 : {}=N0 >/advmod|neg/ {tag:/(RBR|RB)/}=N4
+Cond_3 : {}=N0 >nsubj {}=N1
+Cond_4 : {}=N0 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N2
+Action_3 : N0 >> arg1_cmp >> N3
+
+####Comparison 2.0_alt: Y JJR than Z prep X
+RuleID : cmp_JJR_0_alt
+Cond_1 : {tag:/JJR/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ !{word:/that|those/}=N2
+Cond_4 : {}=N2 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 2.0_alt: Y JJR than Z prep X
+RuleID : cmp_JJR_0_alt-NEW
+Cond_1 : {tag:/JJR/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ !{word:/that|those/}=N2
+Cond_4 : {}=N2 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_3 : N0 >> arg1_cmp >> N2
+
+####Comparison 2.0_alt: Y RBR JJ than Z prep X
+RuleID : cmp_JJR_0_1_alt
+Cond_1 : {tag:/JJ/}=N0
+Cond_2 : {}=N0 >/advmod|neg/ {tag:/(RBR|RB)/}=N4
+Cond_3 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ !{word:/that|those/}=N2 
+Cond_4 : {}=N2 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 2.0_alt: Y RBR JJ than Z prep X
+RuleID : cmp_JJR_0_1_alt-NEW
+Cond_1 : {tag:/JJ/}=N0
+Cond_2 : {}=N0 >/advmod|neg/ {tag:/(RBR|RB)/}=N4
+Cond_3 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ !{word:/that|those/}=N2 
+Cond_4 : {}=N2 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_3 : N0 >> arg1_cmp >> N2
+
+####Comparison 2.0: Y VBD RBR JJ than Z prep X
+RuleID : cmp_JJR_0_2
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {tag:/JJ/}=N1
+Cond_3 : {}=N0 >xcomp {}=N1
+Cond_2 : {}=N1 >/advmod|neg/ {tag:/(RBR|RB)/}=N4
+Cond_3 : {}=N0 >nsubj {}=N5
+Cond_4 : {}=N1 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_5 : [{}=N2 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N3
+Action_1 : N1 >> arg0_cmp >> N2
+Action_2 : N1 >> arg1_cmp >> N5
+
+####Comparison 2.0: Y VBD RBR JJ than Z prep X
+RuleID : cmp_JJR_0_2-NEW
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {tag:/JJ/}=N1
+Cond_3 : {}=N0 >xcomp {}=N1
+Cond_2 : {}=N1 >/advmod|neg/ {tag:/(RBR|RB)/}=N4
+Cond_3 : {}=N0 >nsubj {}=N5
+Cond_4 : {}=N1 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_5 : [{}=N2 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N3
+Action_1 : N1 >> arg0_cmp >> N2
+Action_3 : N1 >> arg1_cmp >> N3
+
+####Comparison 2.1: Y VB.* JJR X than/compared Z
+RuleID : cmp_JJR_1
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/dobj|nmod:in/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJR}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 2.1: Y VB.* JJR X than/compared Z
+RuleID : cmp_JJR_1-NEW
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/dobj|nmod:in/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJR}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 2.1_1:there was JJR X prep Ythan/compared Z
+RuleID : cmp_JJR_1
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N1 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_4 : {}=N1 >amod {tag:/JJR|VBN|VBD/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N1
+Action_2 : N3 >> arg1_cmp >> N2
+
+####Comparison 2.1_1:there was JJR X prep Ythan/compared Z
+RuleID : cmp_JJR_1-NEW
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N1 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_4 : {}=N1 >amod {tag:/JJR|VBN|VBD/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N1
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 2.2: Y VBN prep JJR X than/compared Z
+RuleID : cmp_JJR_2
+Cond_1 : {tag:/VBN/}=N0
+Cond_2 : {}=N0 >nsubjpass {}=N1
+Cond_3 : {}=N0 >/nmod:(in|at|during|after|before)/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJR}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 2.2: Y VBN prep JJR X than/compared Z
+RuleID : cmp_JJR_2
+Cond_1 : {tag:/VBN/}=N0
+Cond_2 : {}=N0 >nsubjpass {}=N1
+Cond_3 : {}=N0 >/nmod:(in|at|during|after|before)/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJR}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 2.1: Y VB.* sig X than/compared Z
+RuleID : cmp_JJR_1_sig
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/dobj|nmod:in/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJ;word:/significant/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 2.1: Y VB.* sig X than/compared Z
+RuleID : cmp_JJR_1_sig-NEW
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/dobj|nmod:in/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJ;word:/significant/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 2.1_1:there was sig X prep Ythan/compared Z
+RuleID : cmp_JJR_1_sig
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N1 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJ;word:/significant/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N1
+Action_2 : N3 >> arg1_cmp >> N2
+
+####Comparison 2.1_1:there was sig X prep Ythan/compared Z
+RuleID : cmp_JJR_1_sig-NEW
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N1 >/nmod:(in|for|after|before|at|during|with|to)/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJ;word:/significant/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N1
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 2.2: Y VBN prep sig X than/compared Z
+RuleID : cmp_JJR_2
+Cond_1 : {tag:/VBN/}=N0
+Cond_2 : {}=N0 >nsubjpass {}=N1
+Cond_3 : {}=N0 >/nmod:(in|at|during|after|before)/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJ;word:/significant/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_2 : N3 >> arg1_cmp >> N1
+
+####Comparison 2.2: Y VBN prep sig X than/compared Z
+RuleID : cmp_JJR_2-NEW
+Cond_1 : {tag:/VBN/}=N0
+Cond_2 : {}=N0 >nsubjpass {}=N1
+Cond_3 : {}=N0 >/nmod:(in|at|during|after|before)/ {}=N2
+Cond_4 : {}=N2 >amod {tag:JJ;word:/significant/}=N3
+Cond_5 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Action_1 : N3 >> arg0_cmp >> N2
+Action_3 : N3 >> arg1_cmp >> N4
+
+####Comparison 2.3: Y JJR  than/compared Z  VBG X 
+RuleID : cmp_JJR_3
+Cond_1 : {tag:/(JJ|JJR)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N2
+Cond_4 : {}=N0 >advcl {tag:VBG}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 2.3: Y JJR  than/compared Z  VBG X 
+RuleID : cmp_JJR_3-NEW
+Cond_1 : {tag:/(JJ|JJR)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N2
+Cond_4 : {}=N0 >advcl {tag:VBG}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_3 : N0 >> arg1_cmp >> N2
+
+####Comparison 3.1: Y VB.* X than/compared Z
+RuleID : cmp_VB_1
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Cond_4 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Cond_5 : {}=N0 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+Cond_6 : {}=N2 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+Action_1 : N0 >> arg0_cmp >> N2
+Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 3.1: Y VB.* X than/compared Z
+RuleID : cmp_VB_1-NEW
+Cond_1 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Cond_4 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Cond_5 : {}=N0 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+Cond_6 : {}=N2 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+Action_1 : N0 >> arg0_cmp >> N2
+Action_3 : N0 >> arg1_cmp >> N4
+
+####Comparison 3.2: Y VBN prep X than/compared Z
+RuleID : cmp_VB_2
+Cond_1 : {tag:/VBN/}=N0
+Cond_2 : {}=N0 >nsubjpass {}=N1
+Cond_3 : {}=N0 >/nmod:(in|at|during|after|before)/ {}=N2
+Cond_4 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Cond_5 : {}=N0 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+Cond_6 : {}=N2 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+#Action_1 : N0 >> arg0_cmp >> N2
+#Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison 3.2: Y VBN prep X than/compared Z
+RuleID : cmp_VB_2-NEW
+Cond_1 : {tag:/VBN/}=N0
+Cond_2 : {}=N0 >nsubjpass {}=N1
+Cond_3 : {}=N0 >/nmod:(in|at|during|after|before)/ {}=N2
+Cond_4 : [{}=N2 | {}=N0 | {}=N1] >/nmod:than|(advcl|acl|nmod):compared_(to|with)/ {}=N4
+Cond_5 : {}=N0 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+Cond_6 : {}=N2 !>/amod|advmod/ {tag:/(JJR|RBR|RB)/}
+#Action_1 : N0 >> arg0_cmp >> N2
+#Action_3 : N0 >> arg1_cmp >> N4
+
+
+
+####Equative Patterns START #####
+
+
+####CompSimDiffaclProp:X similar between VBG####
+RuleID : cmp_acl_between_add
+Cond_1 : {lemma:/(similar|difference|same|change)/}=N0
+Cond_2 : {}=N0 >acl {tag:VBG}=N1
+Cond_3 : {}=N1 >/mark/ {lemma:between}=N2
+Action_1 : N0 >> nmod:between >> N1
+
+####ComparisonSimilar 1.1: X similar in/between Ys
+RuleID : cmp_sim_1
+Cond_1 : {tag:JJ;lemma:similar}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:(in|for|between)/ {}=N2
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+
+####CompSame 1.1 : X was same for Y and Z
+RuleID : cmp_same_1
+Cond_1 : {tag:JJ;lemma:/same|similar|equal|equivalent/}=N0
+Cond_2 : {}=N0 >nsubj {}=N1
+Cond_3 : {}=N0 >/nmod:(in|for|with)/ {}=N2
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####ComparisonDifference 1.1: no difference in X between Ys
+RuleID : cmp_btwn_1
+Cond_1 : {lemma:/difference|change/}=N0
+Cond_2 : {}=N0 >/nmod:(between|among)/ {}=N2
+Cond_3 : [{}=N0 | {}=N2] >/nmod:(in|for)/ {}=N1
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####ComparisonDifference 1.2: no difference between Ys
+###RuleID : cmp_btwn_2
+###Cond_1 : {lemma:/difference|change/}=N0
+###Cond_2 : {}=N0 >/nmod:(between|among)/ {}=N2
+###Cond_3 : [{}=N0 | {}=N2] !>/nmod:(in|for)/ {}
+###Action_1 : N0 >> arg1_cmp >> N2
+
+####ComparisonDifference 1.3: X differ between Ys
+RuleID : cmp_btwn_3
+Cond_1 : {lemma:/(differ|different|change)/}=N0
+Cond_2 : {}=N0 >/nmod:(between|among)/ {}=N2
+Cond_3 : {}=N0 >/nsubj/ {}=N1
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+####ComparisonDifference 1.4: No difference between Ys observed in Ys
+RuleID : cmp_btwn_4
+Cond_1 : {lemma:/(differ|different|difference|change)/}=N0
+Cond_2 : {word:/(found|noted|detected|observed|discovered|occurred|occur|occurs)/}=N1 
+Cond_3 : [{}=N0 | {}=N1]>/nmod:(between|among)/ {}=N2
+Cond_4 : {}=N1 >/nsubjpass/ {}=N0
+Cond_5 : [{}=N0 | {}=N1] >/nmod:(in|for)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_2 : N0 >> arg1_cmp >> N2
+
+####ComparisonJJas 1.1 Y JJ as Z prep Z
+RuleID : cmp_same_1
+Cond_1 : {tag:JJ}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:as/ {}=N2
+Cond_4 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_2 : N0 >> arg1_cmp >> N1
+
+####ComparisonJJas 1.1 Y JJ as Z prep Z
+RuleID : cmp_same_1-NEW
+Cond_1 : {tag:JJ}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:as/ {}=N2
+Cond_4 : {}=N0 >/nmod:(in|for|after|before|at|during|with|among)/ {}=N3
+Action_1 : N0 >> arg0_cmp >> N3
+Action_2 : N0 >> arg1_cmp >> N2
+
+####ComparisonJJas 1.2 Y had similar X as Z 
+RuleID : cmp_same_2
+Cond_0 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0 
+Cond_1 : {}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/dobj/ {}=N2
+Cond_3 : {}=N0 >/nmod:as/ {}=N3
+Cond_4 : {}=N2 >/amod|advmod/ {tag:/JJ/}=N4
+Action_1 : N4 >> arg0_cmp >> N2
+Action_2 : N4 >> arg1_cmp >> N1
+
+####ComparisonJJas 1.2 Y had similar X as Z 
+RuleID : cmp_same_2-NEW
+Cond_0 : {tag:/(VB|VBD|VBG|VBZ|VBP)/}=N0 
+Cond_1 : {}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/dobj/ {}=N2
+Cond_3 : {}=N0 >/nmod:as/ {}=N3
+Cond_4 : {}=N2 >/amod|advmod/ {tag:/JJ/}=N4
+Action_1 : N4 >> arg0_cmp >> N2
+Action_2 : N4 >> arg1_cmp >> N3
+
+
+
+###############X but not Y#############
+####Comparison but_not 1:  X1 but not X2 VB Z
+###RuleID : cmp_but_not_1
+###Cond_2 : {word:but}=N0
+###Cond_2 : {}=N1 >/conj:negcc/ {}=N2
+###Cond_3 : [{}=N1 | {} {}=N2] <nsubj {}=N3
+###Action_1 : N0 >> arg0_cmp >> N3
+###Action_2 : N0 >> arg1_cmp >> N1
+
+####Comparison but_not 1:  X1 but not X2 VB Z
+###RuleID : cmp_but_not_1-NEW
+###Cond_2 : {word:but}=N0
+###Cond_2 : {}=N1 >/conj:negcc/ {}=N2
+###Cond_3 : [{}=N1 | {} {}=N2] <nsubj {}=N3
+###Action_1 : N0 >> arg0_cmp >> N3
+###Action_2 : N0 >> arg1_cmp >> N2
+
+####Comparison but_not 2: X prep on Y1 but not prep Y2
+###RuleID : cmp_but_not_1
+###Cond_1 : {word:but}=N0
+###Cond_2 : {}=N1 >/cc/ {}=N0
+###Cond_3 : {}=N1 >/nmod:(in|for|on|after|with|before|during)/ {}=N2
+###Action_1 : N0 >> arg0_cmp >> N1
+###Action_2 : N0 >> arg1_cmp >> N2
+
+#####new rules from here#####
+###X is times greater than Y###
+RuleID : X is times greater than Y
+Cond_1 : {word:/times/}=N1 >/amod/ {pos:JJR}=N0
+Cond_2 : {}=N1 >/nsubj/ {}=N2
+Cond_3 : {}=N2 >/(nmod:in|nmod:to)/ {}=N3
+Cond_4 : {}=N0 >/(nmod:than|nmod:in)/ {}=N4
+Action_1 : N0 >> arg0_cmp >> N2
+Action_2 : N0 >> arg1_cmp >> N3
+
+#####new rules from here#####
+###X is times greater than Y###
+RuleID : X is times greater than Y-NEW
+Cond_1 : {word:/times/}=N1 >/amod/ {pos:JJR}=N0
+Cond_2 : {}=N1 >/nsubj/ {}=N2
+Cond_3 : {}=N2 >/(nmod:in|nmod:to)/ {}=N3
+Cond_4 : {}=N0 >/(nmod:than|nmod:in)/ {}=N4
+Action_1 : N0 >> arg0_cmp >> N2
+Action_3 : N0 >> arg1_cmp >> N4
+
+###X has greater Y###
+RuleID : X is times greater than Y
+Cond_1 : {word:/times/}=N1 >/amod/ {pos:JJR}=N0
+Cond_2 : {}=N1 >/nsubj/ {}=N2
+Cond_3 : {}=N2 >/(nmod:in|nmod:to)/ {}=N3
+Cond_4 : {}=N0 >/(nmod:than|nmod:in)/ {}=N4
+Action_1 : N0 >> arg0_cmp >> N2
+Action_2 : N0 >> arg1_cmp >> N3
+
+###X has greater Y###
+RuleID : X is times greater than Y-NEW
+Cond_1 : {word:/times/}=N1 >/amod/ {pos:JJR}=N0
+Cond_2 : {}=N1 >/nsubj/ {}=N2
+Cond_3 : {}=N2 >/(nmod:in|nmod:to)/ {}=N3
+Cond_4 : {}=N0 >/(nmod:than|nmod:in)/ {}=N4
+Action_1 : N0 >> arg0_cmp >> N2
+Action_3 : N0 >> arg1_cmp >> N4
+
+###X is similar across Y###
+RuleID : X is similar across Y
+Cond_1 : {word:/(similar)/}=N0  >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/(nmod:across|nmod:in)/ {}=N2
+Action_1 : N0 >> arg0_cmp >> N1
+Action_2 : N0 >> arg1_cmp >> N2
+
+###higher compared to###
+RuleID : higher_compared_to_1
+Cond_1 : {pos:/(JJR)/}=N0 
+Cond_2 : {}=N0 >/(advcl:compared_to| advcl:compared_with)/ {}=N2
+Cond_3 : {}=N0 >/nsubj/ {}=N1
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N2
+
+###led to compared to###
+RuleID : led_compared_to_1
+Cond_1 : {pos:/(VB|VBD|VBP|VBZ)/;lemma:/(lead|result)/}=N0 
+Cond_2 : {}=N0 >/(advcl:compared_to| advcl:compared_with)/ {}=N2
+Cond_3 : {}=N0 >/(nmod:to|nmod:in)/ {}=N1
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N2
+
+###VB advcl compared to###
+RuleID : VB_advcl_word_compared_to-1
+Cond_1 : {pos:/(VB|VBD|VBP|VBZ)/}=N0 
+Cond_2 : {}=N0 >/(advcl)/ {word:/compared/}=N2
+Cond_3 : {}=N0 >/dobj/ {}=N1
+Cond_4 : {}=N2 >/(nmod:to|nmod:with)/ {}=N3
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N3
+
+###VB without dobj advcl compared to###
+RuleID : VB_advcl_word_compared_to-2
+Cond_1 : {pos:/(VB|VBD|VBP|VBZ)/}=N0 
+Cond_2 : {}=N0 >/dep/ {word:/compared/}=N2
+Cond_3 : {}=N0 !>/dobj/ {}
+Cond_4 : {}=N0 >/nsubj/ {}=N1
+Cond_5 : {}=N2 >/(nmod:to|nmod:with)/ {}=N3
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N3
+
+
+###VBN advcl compared to###
+RuleID : VB_advcl_word_compared_to-1
+Cond_1 : {pos:/(VBN)/}=N0 
+Cond_2 : {}=N0 >/(advcl)/ {word:/compared/}=N2
+Cond_3 : {}=N0 >/nsubjpass/ {}=N1
+Cond_4 : {}=N2 >/(nmod:to|nmod:with)/ {}=N3
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N3
+
+###arg1 nsubj VBD nmod:to arg0 case relative###
+RuleID : subj_VBD_nmod:to relative
+Cond_1 : {}=N0 >/nmod_to/ {}=N2
+Cond_2 : {}=N2 >/case/ {word:/relative/}=N3
+Cond_3 : {pos:/(JJR|VBD|VBP|VBZ|VB)/}=N0 >/nsubj/ {}=N1
+Action_1 : N3 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N2
+
+
+###arg1 nsubpass VBN nmod:to arg0 case relative###
+RuleID : subjpass_VBN_nmod:to relative
+Cond_1 : {pos:/(VBN)/}=N0 >/nsubjpass/ {}=N1
+Cond_2 : {}=N0 >/nmod_to/ {}=N2
+Cond_3 : {}=N2 >/case/ {word:/relative/}=N3
+Action_1 : N3 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N2
+
+###arg1 amod relative nmod:to arg0
+RuleID : amod_relative_to
+Cond_1 : {}=N1 >/amod/ {word:/relative/}=N0
+Cond_2 : {}=N0 >/nmod_to/ {}=N2
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N2

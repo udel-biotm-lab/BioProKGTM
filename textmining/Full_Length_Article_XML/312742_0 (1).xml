@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>6640710</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">0</infon>
+    <infon key="tt_round">0</infon>
+    <passage>
+      <infon key="name_3">surname:Zimmer;given-names:Aline</infon>
+      <infon key="name_2">surname:Kolmar;given-names:Harald</infon>
+      <infon key="name_1">surname:Ehret;given-names:Janike</infon>
+      <infon key="article-id_pmid">31544815</infon>
+      <infon key="name_0">surname:Zimmermann;given-names:Martina</infon>
+      <infon key="issue">1</infon>
+      <infon key="year">2019</infon>
+      <infon key="article-id_pmc">6640710</infon>
+      <infon key="article-id_publisher-id">antibodies-08-00009</infon>
+      <infon key="article-id_doi">10.3390/antib8010009</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">9</infon>
+      <infon key="volume">8</infon>
+      <infon key="license">Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Antibodies (Basel). 2019 Jan 10;8(1). pii: antib8010009. doi:</infon>
+      <infon key="kwd">acetylation CHO cell culture fucose analogues IgG fucosylation incorporation</infon>
+      <infon key="authors">Zimmermann M, Ehret J, Kolmar H, Zimmer A</infon>
+      <offset>0</offset>
+      <text>Impact of Acetylated and Non-Acetylated Fucose Analogues on IgG Glycosylation</text>
+      <annotation id="1">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T19:13:23Z</infon>
+        <location offset="10" length="46"/>
+        <text>Acetylated and Non-Acetylated Fucose Analogues</text>
+      </annotation>
+      <annotation id="1305">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:20Z</infon>
+        <location offset="64" length="13"/>
+        <text>Glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>78</offset>
+      <text>The biological activity of therapeutic antibodies is highly influenced by their glycosylation profile. A valuable method for increasing the cytotoxic efficacy of antibodies, which are used, for example, in cancer treatment, is the reduction of core fucosylation, as this enhances the elimination of target cells through antibody-dependent cell-mediated cytotoxicity. Development of fucose analogues is currently the most promising strategy to reduce core fucosylation without cell line engineering. Since peracetylated sugars display enhanced cell permeability over the highly polar free hydroxy sugars, this work sought to compare the efficacy of peracetylated sugars to their unprotected forms. Two potent fucose analogues, 2-deoxy-2-fluorofucose and 5-alkynylfucose, and their acetylated forms were compared for their effects on fucosylation. 5-alkynylfucose proved to be more potent than 2-deoxy-2-fluorofucose at reducing core fucosylation but was associated with a significant higher incorporation of the alkynylated fucose analogue. Acetylation of the sugar yielded only slightly lower fucosylation levels suggesting that acetylation has a minor impact on cellular entry. Even though the efficacy of all tested components was confirmed, results presented in this study also show a significant incorporation of unnatural fucose analogues into the glycosylation pattern of the produced IgG, with unknown effect on safety and potency of the monoclonal antibody.</text>
+      <annotation id="1009">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:23Z</infon>
+        <location offset="82" length="19"/>
+        <text>biological activity</text>
+      </annotation>
+      <annotation id="1010">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:26Z</infon>
+        <location offset="158" length="21"/>
+        <text>glycosylation profile</text>
+      </annotation>
+      <annotation id="1035">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:28Z</infon>
+        <location offset="218" length="18"/>
+        <text>cytotoxic efficacy</text>
+      </annotation>
+      <annotation id="1172">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:37Z</infon>
+        <location offset="322" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="1173">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:34Z</infon>
+        <location offset="398" length="45"/>
+        <text>antibody-dependent cell-mediated cytotoxicity</text>
+      </annotation>
+      <annotation id="1054">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:18Z</infon>
+        <location offset="460" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1055">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:52Z</infon>
+        <location offset="528" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="1056">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:45Z</infon>
+        <location offset="583" length="20"/>
+        <text>peracetylated sugars</text>
+      </annotation>
+      <annotation id="1026">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:04Z</infon>
+        <location offset="621" length="17"/>
+        <text>cell permeability</text>
+      </annotation>
+      <annotation id="1057">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:06Z</infon>
+        <location offset="661" length="19"/>
+        <text>free hydroxy sugars</text>
+      </annotation>
+      <annotation id="1036">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:47Z</infon>
+        <location offset="726" length="20"/>
+        <text>peracetylated sugars</text>
+      </annotation>
+      <annotation id="1022">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:12Z</infon>
+        <location offset="756" length="17"/>
+        <text>unprotected forms</text>
+      </annotation>
+      <annotation id="1176">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:20Z</infon>
+        <location offset="786" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1058">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:17Z</infon>
+        <location offset="804" length="70"/>
+        <text>2-deoxy-2-fluorofucose and 5-alkynylfucose, and their acetylated forms</text>
+      </annotation>
+      <annotation id="1059">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:24Z</infon>
+        <location offset="910" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1037">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:56Z</infon>
+        <location offset="924" length="15"/>
+        <text>5-alkynylfucose</text>
+      </annotation>
+      <annotation id="1038">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:58Z</infon>
+        <location offset="970" length="22"/>
+        <text>2-deoxy-2-fluorofucose</text>
+      </annotation>
+      <annotation id="1060">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:56Z</infon>
+        <location offset="1005" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="1061">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:02Z</infon>
+        <location offset="1089" length="27"/>
+        <text>alkynylated fucose analogue</text>
+      </annotation>
+      <annotation id="1027">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:04Z</infon>
+        <location offset="1118" length="24"/>
+        <text>Acetylation of the sugar</text>
+      </annotation>
+      <annotation id="1063">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:43Z</infon>
+        <location offset="1171" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1039">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:08Z</infon>
+        <location offset="1207" length="11"/>
+        <text>acetylation</text>
+      </annotation>
+      <annotation id="1040">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:27Z</infon>
+        <location offset="1241" length="14"/>
+        <text>cellular entry</text>
+      </annotation>
+      <annotation id="1041">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:29Z</infon>
+        <location offset="1395" length="26"/>
+        <text>unnatural fucose analogues</text>
+      </annotation>
+      <annotation id="1012">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:34Z</infon>
+        <location offset="1431" length="21"/>
+        <text>glycosylation pattern</text>
+      </annotation>
+      <annotation id="1064">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T19:17:35Z</infon>
+        <location offset="1497" length="18"/>
+        <text>safety and potency</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1544</offset>
+      <text>1. Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1560</offset>
+      <text>Recombinant monoclonal antibodies (mAbs) are commonly produced using suspension cultures of Chinese hamster ovary (CHO) cells. The mammalian CHO cell line can produce bioactive therapeutics, which are mostly non-immunogenic in humans. Along with aggregate formation, low molecular weight species, charge variants and misincorporation of amino acids in the protein backbone, the glycosylation of recombinant produced antibodies is a main critical quality attribute (cQA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2031</offset>
+      <text>Changes to the glycosylation profile of mAbs can have a strong impact on various aspects of their biological activity as summarized in several reviews. This is particularly relevant for therapeutic antibodies engineered for cancer treatment, for which the mechanism of action implicates binding to the target cancer cell and endogenous natural killer (NK) cells that are responsible for the effector function through antibody-dependent cell-mediated cytotoxicity (ADCC). Therapeutic antibodies lacking core fucose in the Fc-linked glycan display enhanced ADCC activity compared to highly-fucosylated variants, through significant higher binding affinity of afucosylated IgG to the respective FcgammaRIIIalpha of NK cells. Several fucose deficient antibodies are currently in clinical studies as reported recently.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2845</offset>
+      <text>The enzyme fucosyltransferase 8 (FUT8) catalyzes the transfer of fucose residues onto the glycan core structure from guanosine diphosphate fucose (GDP-fucose). Protein fucosylation was shown to be reduced by addition of fluorinated fucose analogues, via their actions as inhibitors of FUTs. In cell-free assays, initial experiments showed family-specific inhibition of FUT with GDP-2-deoxy-2-fluorofucose (GDP-2F-Fuc) and GDP-6-fluorofucose (GDP-6F-Fuc). Rillahan et al. later reported the specific reduction of FUT8-mediated core fucosylation through addition of fucose analogues to cell culture. They demonstrated that the fluorinated fucose analogues are cell permeable and are converted via the salvage pathway into the corresponding donor substrates (GDP-2F-Fuc and GDP-6F-Fuc), which can compete with the actual FUT substrate GDP-Fuc. Intracellular accumulation of the fluorinated nucleotide sugars was shown to inhibit the de novo synthesis of GDP-Fuc by acting as a feedback inhibitor. Peracetylated analogues were developed to further improve cell permeability and were shown to be deacetylated in the cell cytoplasm through the action of non-specific esterases. Altogether, 2F-Peracetyl-fucose (2F-PerAcFuc) acts as a potent inhibitor due to the feedback inhibition and the high KM value of GDP-2F-Fuc to FUT8. 5-alkynylfucose (5-AlkFuc) is another fucose analogue that has been shown to mediate a strong inhibition of FUT8 (&gt;80%). Kizuka et al. proposed a mechanism of action involving the inhibition of GDP-4-keto-6-deoxymannose 3,5-epimerase-4-reductase (FX), an enzyme required for de novo synthesis of GDP-Fuc from GDP-mannose. Incorporation of 5-AlkFuc in the glycan structure of the produced recombinant protein was observed by Hsu et al..</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4602</offset>
+      <text>In this study, we performed a side-by-side comparison of the usage of 2F-Fuc, 5-AlkFuc and their acetylated forms (Figure 1) in fed-batch experiments using CHO cells producing an IgG1. The efficacy of the compounds in reducing the fucosylation was evaluated based on common cell culture data like viable cell density (VCD) and specific productivity as well as the glycosylation profile, including an estimation of the incorporation of the modified sugars into the oligosaccharides of the recombinant proteins.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5112</offset>
+      <text>2. Materials and Methods </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5138</offset>
+      <text>2.1. Reagents and Cell Line</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5166</offset>
+      <text>5-alkynylfucose was purchased from Carbosynth (Compton, UK), 5-alkynylfucose peracetate from Thermo Fisher scientific (Waltham, MA, USA), 2-deoxy-2-fluorofucose from Cayman Chemical (Ann Arbor, MI, USA) and Dimethyl sulfoxide (DMSO) as well as 2F-peracetyl-fucose were purchased from Merck (Darmstadt, Germany). A CHOK1 cell line producing a recombinant IgG1 was used in this study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5549</offset>
+      <text>2.2. Cell Culture Media and Process Conditions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5596</offset>
+      <text>Cells were cultivated in Cellvento  4CHO (Merck), a chemically defined CHO cell culture medium that contains all essential components for optimal cell growth and protein production. Cellvento  4Feed (Merck), a highly concentrated and neutral pH feed was used as a feeding medium, providing essential components for extended culture duration and productivity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5957</offset>
+      <text>The fed-batch process was performed in 50 mL spin tubes with vented cap at 37  C, 5% CO2, 80% humidity and a rotation speed of 320 rpm. 3% (v/v) of the starting volume was added on day three and 6% (v/v) of the total volume was added on day 5, 7 and 10. The glucose level was maintained by adding a specific amount of a 400 g/L glucose stock solution on demand to up to 6 g/L during the week and up to 12 g/L over the weekend. The non-supplemented feed served as a control condition and was compared to conditions containing the fucose analogues in the feed, and a DMSO-only condition. Concentrated stock solutions of the fucose analogues were prepared in DMSO due to reported water insolubility. The stock solution with 34.2 mM PerAcFuc was prepared according to the maximal solubility reported by the manufacturer leading to a total amount of 2.33% (v/v) DMSO in the feed. Stock solutions of 150 mM 2F-Fuc, 50 mM 5-AlkFuc and 50 mM 5-AlkFucPerAc were prepared similarly in DMSO. All inhibitor conditions and the DMSO control condition were adjusted to have a uniform DMSO concentration of 2.33% in the feed. Following inhibitor supplementation, the pH of all feeds was adjusted to neutral (pH 7.0 +- 0.2). Osmolality was measured by a cryoscopic osmometer (Gonotec, Berlin, Germany) and both cell culture media and feeds were sterile-filtered (0.22 microm) and stored at 4  C, protected from light until usage.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7370</offset>
+      <text>Cell counts and viability were measured with a Vi-CELL  XR 2.04 cell counter (Beckman Coulter, Fullerton, CA, USA). The inoculation density was 3.5 x 105 cells/mL in 30 mL starting volume. Experimental conditions were performed with six replicates, whereby four replicates were used for spent media analysis and two additional replicates were used for glycosylation analysis. Spent media analysis including glucose, IgG, lactate dehydrogenase, ammonia, iron, lactate, phosphate and pyruvate was performed with the bioprocess analyzer CEDEX Bio HT (Roche, Mannheim, Germany) after centrifugation of the sample for 5 min at 4500 rpm (2287x g).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8016</offset>
+      <text>2.3. Antibody Purification and Analysis of the Glycosylation Pattern</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8085</offset>
+      <text>The antibody was purified from the cell culture supernatant by protein A PhyTips  with the semi-automated system Pure Speed (PhyNexus Inc., San Jose, CA, USA). The relative quantitative analysis of the N-linked glycans was performed after glycan cleavage from the antibody and derivatization using the GlycoWorks  RapiFluor-MS  N-Glycan Kit (Waters, Milford, MA, USA) and with ultra-performance liquid chromatography coupled to a mass spectrometer (UPLC-MS). UPLC analysis was performed according to the manufacturer protocol using an ACQUITY UPLC Glycan BEH Amide Column (300 A, 1.7 microm, 2.1 x 150 mm) coupled to an ACQUITY UPLC  FLR Detector (Ex: 265 nm, Em: 425 nm) from Waters. Identification of the glycan structures was performed using glycan standards to detect the specific retention time and MS spectra by calculating the mass to charge ratio with an electrospray ionization source in positive mode (Synapt G1 HDMS, Waters). A sample volume of 18 microL was injected into the system using a column temperature of 45  C. Separation of the glycans was achieved using 50 mM ammonium formate (pH 4.4) and acetonitrile as solvents. The ratio of 50 mM ammonium formate to acetonitrile was increased during the UPLC from an initial 20:80 ratio (0 min) to 27:73 (3 min) and 37:63 (35 min) at a flowrate of 0.5 mL/min. 100% of 50 mM ammonium formate was reached between 36.5 min and 39.5 min at a reduced flowrate of 0.2 mL/min. A similar flowrate was used to shift again to the initial 20:80 ratio (43.1 min) and in the end, the flowrate was increased again to 0.5 mL/min using the same solvent ratio. The following settings were used to detect the fragment masses between 100 Da and 2250 Da within one second: 2.5 kV capillary, 30 V sample cone, 3 V extraction cone, 100  C source temperature, 350  C desolvation temperature, 50 L/h cone gas and 750 L/h desolvation gas in the MSe-, positive-, V-mode.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9997</offset>
+      <text>The resulting retention time in combination with the obtained mass was used to identify the distinct glycan structures, when the intensity was over the detection limit of 0.2%. Almost all peaks were assigned to common glycan structures according to their mass. Incorporation of fucose analogues was detected through a mass shift in the MS spectra by +9.99 Da for the 5-alkynylfucose derivative and +1.99 Da for the 2-fluorofucose derivative. The highest detected mass error within all experiments was +-3.53 ppm. Some undefined structures remained due to an inconclusive mass. For quantification of the glycan content, the relative peak area was determined using a fluorescence detector. Thus, the percentage of each glycoform was quantified by calculating the ratio of the peak area of each glycan to the sum of all peak areas. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10827</offset>
+      <text>2.4. Statistical Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10853</offset>
+      <text>Statistical analysis was performed using GraphPad Prism 6 (GraphPad Software Inc., San Diego, CA, USA). More precisely, the non-parametric Kruskal-Wallis test for multiple-group comparison with subsequent Dunn's tests was performed. The comparison of two groups was realized by the Mann-Whitney test. p-values smaller than 0.05 were considered as significant.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>11215</offset>
+      <text>3. Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11226</offset>
+      <text>The reduction of core fucosylation in the Fc-part of antibodies leads to enhanced ADCC and is therefore the aim of several investigations in the literature. Supplementation of small molecules as additive to cell culture media is one possibility to achieve a reduction in fucosylation without further cell line engineering.</text>
+      <annotation id="1318">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:07Z</infon>
+        <location offset="11243" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:40Z</infon>
+        <location offset="11308" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="1043">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:45Z</infon>
+        <location offset="11402" length="15"/>
+        <text>small molecules</text>
+      </annotation>
+      <annotation id="1067">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:31Z</infon>
+        <location offset="11497" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11549</offset>
+      <text>3.1. Cell Performance</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11571</offset>
+      <text>Fed-batch cell culture experiments on a CHO clone producing an IgG1 were performed to assess the efficacy of the 2F- and 5-Alk fucose analogues on reducing fucosylation of the recombinant IgG1. For manufacture of therapeutic mAbs, it is critical to ensure that the inhibitors do not negatively impact cellular performance, such as lowering the viable cell density (VCD), the viability of the cultured cells or the volumetric titer (amount of IgG produced). Several metabolites and other parameters like LDH were monitored in the supernatant of the cell culture to study the physiological state of the cells. A control condition containing DMSO only was incorporated into the study to distinguish between the effect of DMSO and the impact of the fucose analogues, as the fucose analogues were dissolved in DMSO for addition to cell culture.</text>
+      <annotation id="1044">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:47Z</infon>
+        <location offset="11611" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="1045">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:55Z</infon>
+        <location offset="11684" length="30"/>
+        <text>2F- and 5-Alk fucose analogues</text>
+      </annotation>
+      <annotation id="1068">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:48Z</infon>
+        <location offset="11727" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1046">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:57Z</infon>
+        <location offset="11836" length="10"/>
+        <text>inhibitors</text>
+      </annotation>
+      <annotation id="1047">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:06Z</infon>
+        <location offset="11996" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="1048">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:11Z</infon>
+        <location offset="12003" length="22"/>
+        <text>amount of IgG produced</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12411</offset>
+      <text>As visualized in Figure 2, supplementation of a feed containing 2.33% DMSO led to a reduction of the VCD (calculated as area under the curve) of about 11% compared to the control condition (n = 8). Independently of the applied concentration of 2F-Fuc and 5-AlkFuc, all conditions had a similar VCD compared to the DMSO-treated condition. The reduction was in a range between 5% and 15% and was suggested to be within the biological variability of fed-batch bioprocesses. Quantification of the IgG production showed a similar positive effect in all conditions containing 2.33% DMSO. The titer was about 6% to 10% higher and resulted in an increased specific productivity of about 25 +- 1% in all conditions containing DMSO. As VCD, IgG and the resulting specific productivity of fucose analogues were in a similar range than the DMSO control, they were thought to have no impact on cell parameters chosen in this study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13330</offset>
+      <text>3.2. Glycosylation Profile</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13357</offset>
+      <text>The glycosylation profile has an impact on efficacy and safety of therapeutic antibodies and is one of the main critical quality attributes. The impact of fucose analogues on the glycosylation profile of two biological replicates was investigated on day 7, 10 and 12.</text>
+      <annotation id="1014">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:45Z</infon>
+        <location offset="13361" length="21"/>
+        <text>glycosylation profile</text>
+      </annotation>
+      <annotation id="1072">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T19:28:14Z</infon>
+        <location offset="13400" length="19"/>
+        <text>efficacy and safety</text>
+      </annotation>
+      <annotation id="1073">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:23Z</infon>
+        <location offset="13512" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1212">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:47Z</infon>
+        <location offset="13536" length="21"/>
+        <text>glycosylation profile</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13625</offset>
+      <text>The Fc-glycosylation profile of the IgG produced in untreated CHO cells (control) on day 12 consisted of 80.1% terminal N-acetylglucosamine (GlcNAc), 16.8% galactosylated structures and 3.0% high mannose glycans. 95.6% of the glycans were core fucosylated whereas terminal sialylation was mostly under the detection limit and is therefore considered as negligible (Figure 3). The main fucosylated forms were biantennary species with no galactose (G0F) with 77.0% as visualized in Table 1. The second most prevalent glycan structure was G1F with 15.5% relative abundance. Galactosylation of the second branch led to the di-galactosylated glycan G2F, which was detected in 0.9% of the glycans. Other fucosylated structures like G0F-N (1.8%) and G1F-N (0.4%) were less frequent. The smaller amount of afucosylated structures in the control condition were composed of Man5 (3.0%), G0 (0.8%) and G0-N (0.5%), while the galactosylated glycan structures G1 and G2 were below the detection limit. </text>
+      <annotation id="1001">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:52Z</infon>
+        <location offset="13687" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="1086">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:15Z</infon>
+        <location offset="14196" length="36"/>
+        <text>Galactosylation of the second branch</text>
+      </annotation>
+      <annotation id="1224">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:05:51Z</infon>
+        <location offset="14244" length="28"/>
+        <text>di-galactosylated glycan G2F</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14615</offset>
+      <text>To assess the impact of fucose analogues on the glycosylation profile, the impact of the solvent used to dissolve the compounds needed to be excluded first. The applied DMSO concentration was 2.33% and showed no detectable changes of the glycosylation pattern compared to the control (Table 1). Total fucosylation was examined on days 7, 10 and 12, and all inhibitors tested were able to decrease IgG core fucosylation significantly. In general, a higher reduction of the fucosylation was achieved with both 5-Alk fucose analogues compared to the 2F-Fuc analogues. The most important decrease in core fucosylation was observed for the 800 microM peracetylated 5-AlkFuc condition with a final IgG core fucosylation of 8.6% (Figure 3, day 12). Comparison of acetylated versus the free-hydroxy fucose analogues showed that acetylation led to a larger decrease in core fucosylation, for both inhibitor types, at all concentrations tested (Figure 3). Interestingly, the effect of the acetylation was generally less important for increasing concentrations of the inhibitors. For example, acetylation for the 5-AlkFuc inhibitor (on day 12) led to 11.2%, 3.8% and 1.6% lower total fucosylated species at 200, 400 and 800 microM respectively, showing that acetylation is not necessary for higher amounts of derivatives. The only exception to this pattern was for the 2F-Fuc analogues measured on day 7, in which the opposite trend was observed. As the concentration of 2F-Fuc increased, acetylation lead to more pronounced reduction in core fucosylation (3.4% at 200 microM, 5.8% at 400 microM and 6.6% at 800 microM). </text>
+      <annotation id="1232">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:27Z</infon>
+        <location offset="14639" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1233">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:10:40Z</infon>
+        <location offset="14663" length="21"/>
+        <text>glycosylation profile</text>
+      </annotation>
+      <annotation id="1015">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:21Z</infon>
+        <location offset="14784" length="18"/>
+        <text>DMSO concentration</text>
+      </annotation>
+      <annotation id="1007">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:32Z</infon>
+        <location offset="14853" length="21"/>
+        <text>glycosylation pattern</text>
+      </annotation>
+      <annotation id="1008">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:26Z</infon>
+        <location offset="14916" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1098">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:00Z</infon>
+        <location offset="14972" length="10"/>
+        <text>inhibitors</text>
+      </annotation>
+      <annotation id="1099">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:24Z</infon>
+        <location offset="15012" length="21"/>
+        <text>IgG core fucosylation</text>
+      </annotation>
+      <annotation id="1100">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:33Z</infon>
+        <location offset="15087" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1101">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:30Z</infon>
+        <location offset="15123" length="22"/>
+        <text>5-Alk fucose analogues</text>
+      </annotation>
+      <annotation id="1102">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:32Z</infon>
+        <location offset="15162" length="16"/>
+        <text>2F-Fuc analogues</text>
+      </annotation>
+      <annotation id="1103">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:00Z</infon>
+        <location offset="15211" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="1104">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:34Z</infon>
+        <location offset="15261" length="22"/>
+        <text>peracetylated 5-AlkFuc</text>
+      </annotation>
+      <annotation id="1105">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:27Z</infon>
+        <location offset="15307" length="21"/>
+        <text>IgG core fucosylation</text>
+      </annotation>
+      <annotation id="1108">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:11Z</infon>
+        <location offset="15435" length="11"/>
+        <text>acetylation</text>
+      </annotation>
+      <annotation id="1109">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:11Z</infon>
+        <location offset="15475" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="1110">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:13Z</infon>
+        <location offset="15594" length="11"/>
+        <text>acetylation</text>
+      </annotation>
+      <annotation id="1111">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:02Z</infon>
+        <location offset="15672" length="10"/>
+        <text>inhibitors</text>
+      </annotation>
+      <annotation id="1331">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:39Z</infon>
+        <location offset="15697" length="38"/>
+        <text>acetylation for the 5-AlkFuc inhibitor</text>
+      </annotation>
+      <annotation id="1017">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:40Z</infon>
+        <location offset="15788" length="19"/>
+        <text>fucosylated species</text>
+      </annotation>
+      <annotation id="1250">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:15Z</infon>
+        <location offset="15862" length="11"/>
+        <text>acetylation</text>
+      </annotation>
+      <annotation id="1120">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:43Z</infon>
+        <location offset="16075" length="6"/>
+        <text>2F-Fuc</text>
+      </annotation>
+      <annotation id="1121">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:13:19Z</infon>
+        <location offset="16093" length="11"/>
+        <text>acetylation</text>
+      </annotation>
+      <annotation id="1122">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:04Z</infon>
+        <location offset="16142" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16226</offset>
+      <text>Altogether, these results indicate that all fucose analogues can reduce total fucosylation, peracetylation improves the impact of the fucose analogues and increasing inhibitor concentrations reduces the impact of peracetylation. </text>
+      <annotation id="1018">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:30Z</infon>
+        <location offset="16270" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1124">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:50Z</infon>
+        <location offset="16304" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1125">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:02Z</infon>
+        <location offset="16318" length="14"/>
+        <text>peracetylation</text>
+      </annotation>
+      <annotation id="1126">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:32Z</infon>
+        <location offset="16360" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1127">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:08Z</infon>
+        <location offset="16392" length="9"/>
+        <text>inhibitor</text>
+      </annotation>
+      <annotation id="1128">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:06Z</infon>
+        <location offset="16439" length="14"/>
+        <text>peracetylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16456</offset>
+      <text>3.3. Incorporation of Fucose Analogues</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16495</offset>
+      <text>Mass spectrometry data revealed that both fucose analogues are also incorporated into the antibody (this is henceforth indicated with an * after the respective glycan structure abbreviation). For simplicity, all fucosylation values provided so far have also included any incorporated fucose analogues. The fluorinated fucose was detected in the released glycans by a mass shift of +1.99 Da, while the alkylated fucose was recognized by a +9.99 Da shift. The detected mass shift of the fucose analogues is visualized in the supplementary data in Figure S1 and Figure S2 exemplarily for the G0F species. 5-AlkFuc led to higher incorporation of the fucose analogue compared to 2F-Fuc. 5% of the glycans showed 5-AlkFuc incorporation and 0.8% of the glycans showed 2F-Fuc incorporation, independently of the applied concentration. Due to higher total fucosylation for lower derivative concentrations, the relative values for incorporation varied, while absolute values were consistent. To visualize the concentration dependency, the relative incorporation of fucose analogues to the respective total fucosylation was calculated (Figure 4). For example, only 10% of the glycans remained core-fucosylated in the 800 microM 5-AlkFuc condition on day 12 (Figure 3), and 50% of these forms were chemically modified (Figure 4). The lower 5-AlkFuc concentrations 400 microM and 200 microM led to 37% and 20% relative incorporation, respectively. These results indicate a linear correlation between incorporation and the applied inhibitor concentration. Thus, higher 5-AlkFuc concentrations may lead to more undesired incorporation. </text>
+      <annotation id="100">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:36Z</infon>
+        <location offset="16707" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1262">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:35Z</infon>
+        <location offset="16779" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="1263">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:33Z</infon>
+        <location offset="16801" length="18"/>
+        <text>fluorinated fucose</text>
+      </annotation>
+      <annotation id="1130">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:28Z</infon>
+        <location offset="16849" length="7"/>
+        <text>glycans</text>
+      </annotation>
+      <annotation id="1266">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:37Z</infon>
+        <location offset="16980" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="102">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:26Z</infon>
+        <location offset="17084" length="3"/>
+        <text>G0F</text>
+      </annotation>
+      <annotation id="103">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:53Z</infon>
+        <location offset="17097" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+      <annotation id="1335">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:30Z</infon>
+        <location offset="17187" length="7"/>
+        <text>glycans</text>
+      </annotation>
+      <annotation id="1271">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:37Z</infon>
+        <location offset="17202" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+      <annotation id="1272">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:50Z</infon>
+        <location offset="17256" length="6"/>
+        <text>2F-Fuc</text>
+      </annotation>
+      <annotation id="108">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:38Z</infon>
+        <location offset="17342" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="1050">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:22Z</infon>
+        <location offset="17365" length="10"/>
+        <text>derivative</text>
+      </annotation>
+      <annotation id="109">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:39Z</infon>
+        <location offset="17550" length="16"/>
+        <text>fucose analogues</text>
+      </annotation>
+      <annotation id="110">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:12:40Z</infon>
+        <location offset="17591" length="12"/>
+        <text>fucosylation</text>
+      </annotation>
+      <annotation id="111">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:27Z</infon>
+        <location offset="17677" length="16"/>
+        <text>core-fucosylated</text>
+      </annotation>
+      <annotation id="112">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:51Z</infon>
+        <location offset="17712" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+      <annotation id="113">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:46Z</infon>
+        <location offset="17823" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+      <annotation id="114">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:30Z</infon>
+        <location offset="17901" length="13"/>
+        <text>incorporation</text>
+      </annotation>
+      <annotation id="1147">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:33Z</infon>
+        <location offset="17982" length="13"/>
+        <text>incorporation</text>
+      </annotation>
+      <annotation id="1148">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:12Z</infon>
+        <location offset="18012" length="9"/>
+        <text>inhibitor</text>
+      </annotation>
+      <annotation id="1149">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:44Z</infon>
+        <location offset="18050" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+      <annotation id="1150">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:35Z</infon>
+        <location offset="18101" length="13"/>
+        <text>incorporation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18117</offset>
+      <text>No incorporation of 2F-Fuc was detected in the 200 microM treated condition on all days, when using a threshold of 0.2% of the peak area in the glycan analysis setting. The UPLC-MS data revealed low incorporation when reducing this threshold (data not shown). The highest incorporation of fluorinated fucose relative to the total fucosylation was detected on day 12 with 4.7%, when 800 microM 2F-PerAcFuc was applied. Altogether, a more effective reduction of the IgG fucosylation by 5-AlkFuc compared to 2F-Fuc was associated with a significant higher incorporation of the alkynylated fucose analogue. Therefore, higher 2F-Fuc concentrations may be more favorable compared to 5-AlkFuc.</text>
+      <annotation id="1152">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:01:51Z</infon>
+        <location offset="18389" length="35"/>
+        <text>incorporation of fluorinated fucose</text>
+      </annotation>
+      <annotation id="1154">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:43Z</infon>
+        <location offset="18510" length="11"/>
+        <text>2F-PerAcFuc</text>
+      </annotation>
+      <annotation id="1013">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:45Z</infon>
+        <location offset="18581" length="16"/>
+        <text>IgG fucosylation</text>
+      </annotation>
+      <annotation id="1156">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:42Z</infon>
+        <location offset="18601" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+      <annotation id="1157">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:45Z</infon>
+        <location offset="18622" length="6"/>
+        <text>2F-Fuc</text>
+      </annotation>
+      <annotation id="1158">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:47Z</infon>
+        <location offset="18670" length="48"/>
+        <text>incorporation of the alkynylated fucose analogue</text>
+      </annotation>
+      <annotation id="1159">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:14:47Z</infon>
+        <location offset="18738" length="6"/>
+        <text>2F-Fuc</text>
+      </annotation>
+      <annotation id="1160">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:39Z</infon>
+        <location offset="18794" length="8"/>
+        <text>5-AlkFuc</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18804</offset>
+      <text>The 5-AlkFuc analogue was detected in three different glycan structures, which have been identified as biantennary complex containing either zero or one galactose as listed in Table 2. The main detected specie was G0F* with a relative abundance of 4.6% on day 12. The second glycan that showed incorporation was G1F* with 0.8% and lastly G0F*-N. This trend indicates that incorporation of the analogues is not influenced by a preference of the FUT8 for an acceptor glycan. </text>
+      <annotation id="1290">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:56Z</infon>
+        <location offset="18808" length="17"/>
+        <text>5-AlkFuc analogue</text>
+      </annotation>
+      <annotation id="1291">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:16:58Z</infon>
+        <location offset="18858" length="17"/>
+        <text>glycan structures</text>
+      </annotation>
+      <annotation id="1292">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:17:03Z</infon>
+        <location offset="18907" length="59"/>
+        <text>biantennary complex containing either zero or one galactose</text>
+      </annotation>
+      <annotation id="1293">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:23Z</infon>
+        <location offset="19018" length="3"/>
+        <text>G0F</text>
+      </annotation>
+      <annotation id="1294">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:17:01Z</infon>
+        <location offset="19116" length="3"/>
+        <text>G1F</text>
+      </annotation>
+      <annotation id="1164">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T19:57:41Z</infon>
+        <location offset="19142" length="6"/>
+        <text>G0F*-N</text>
+      </annotation>
+      <annotation id="1337">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T19:59:59Z</infon>
+        <location offset="19176" length="30"/>
+        <text>incorporation of the analogues</text>
+      </annotation>
+      <annotation id="1336">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:00:06Z</infon>
+        <location offset="19248" length="27"/>
+        <text>FUT8 for an acceptor glycan</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19278</offset>
+      <text>Incorporation of monosaccharide analogues may be desired e.g., in the context of antibody drug conjugation to define a specific conjugation position. In case of biosimilar development, the incorporation of analogues is rather undesired. These data highlight the importance of a proper glycan analytic enabling the detection of undesired incorporation. Additionally, the selection of an appropriate inhibitor as well as the applied concentration have to be selected carefully to achieve the intended final amount of core fucosylation.</text>
+      <annotation id="1167">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:15:15Z</infon>
+        <location offset="19676" length="9"/>
+        <text>inhibitor</text>
+      </annotation>
+      <annotation id="1168">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">ceciliaarighi@gmail.com</infon>
+        <infon key="updated_at">2023-12-01T20:11:09Z</infon>
+        <location offset="19793" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>19812</offset>
+      <text>4. Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19826</offset>
+      <text>Acetylation of monosaccharides was reported to improve cell permeability by increasing hydrophobicity. Therefore, modulation of the glycosylation pattern is often performed with acetylated derivatives of monosaccharides. For instance, acetylated fucose analogues were reported as highly potent compounds to reduce IgG core fucosylation. The data of Okeley et al. indicate that fucose analogues without acetylation might be applicable but were not investigated further. Therefore, the impact of acetylation on the efficacy of the fucose analogues to reduce core fucosylation was analyzed in this work by comparing 2-fluorofucose and 5-alkynylfucose with and without acetylation. Increasing inhibitor concentrations and consecutive timepoints showed a reduced effect of acetylation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20607</offset>
+      <text>The effect of acetylation on cellular entry has never been studied for fucose derivatives but was studied in the literature for N-acetylmannosamine (ManNAc) and several ManNAc analogues, commonly used as precursors for sialic acid and thereby sialylation. Results show that more ManNAc is present intracellularly when a fully acetylated form is added to the cell culture media, leading to up to 900-fold improved sialic acid production in cells. This study shows furthermore that the ManNAc concentration correlates linearly with sialic acid production for concentrations up to 25 mM whereas a non-linear relationship is described for fully acetylated ManNAc above 100 microM. In contrast to the linear correlation observed for ManNAc and sialic acid, our results indicate a non-linear correlation between fucosylation and both the peracetylated and non-acetylated fucose analogues. The non-linear correlation may indicate either the usage of excessive fucose-analogue concentrations or non-linear uptake rates of the respective derivatives. This effect might be studied in detail by monitoring the intracellular concentrations of fucose analogues in combination with resulting GDP-fucose analogues but was beyond the scope of this study. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21847</offset>
+      <text>The general low impact of acetylation detected in this study may be explained by differences in the mechanism of cellular transport when comparing fucose, mannosamine derivatives and other carbohydrates. In the literature, no ManNAc transporter has been described so far and such a transporter might not be essential for cells since ManNAc is endogenously produced using glucose as precursor. Therefore, supplemented ManNAc is suggested to enter cells via passive diffusion. Similarly, peracetylation of 1-deoxy-N-pentynyl glucosamine was reported to improve the uptake of the glucosamine derivative due to enhanced passive diffusion. In contrast, fucose as well as the analogues may be transported in cells via a transporter. The sodium/myo-inositol transporter slc5a3 is expressed in CHO cells and was reported to transport L-Fucose due to the high structural similarity to myo-inositol. The hypothesis that fucose derivatives can be recognized by the transporter is further supported by the fact that fucose analogues are also recognized by other key enzymes in the fucosylation pathway such as fucokinases and GDP-L-fucose pyrophosphorylases. Both enzymes are converting the analogues into actual GDP-fucose-analogue inhibitors. Moreover, GDP-2F-Fuc was described as an inhibitor of GDP-mannose 4,6-dehydratase (GMD), and GDP-5-AlkFuc as an inhibitor of FX, both required for the de novo synthesis of fucose.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23260</offset>
+      <text>In this study, the reduction of fucosylation was more efficient using 5-AlkFuc, a known inhibitor of FX compared to 2F-Fuc, which is known to inhibit GMD. The high efficiency of 5-Alk-Fuc may result from the competitive FX inhibition by GDP-5-AlkFuc with a Ki of 2.9 microM. In comparison, Kizuka et al. reported a rather low FUT8 inhibition by the activated sugar with a Ki of 91 microM but a KM of 691 microM, allowing the incorporation of 5-AlkFuc into the glycan structure. This higher incorporation in the glycan structure indicates that 5-AlkFuc is more likely to be tolerated by enzymes involved in the salvage pathway leading to higher intracellular GDP-5-AlkFuc concentrations. A higher intracellular GDP-5-AlkFuc pool is likely to result in enhanced feedback inhibition, compared to the feedback inhibition generated by 2F-Fuc, leading to a faster reduction of the native substrate pool and thereby reduced fucosylation. This trend of a lower GDP-Fuc pool was also suggested by the results of Okeley et al.. Finally, the observed incorporation of 5-Alk-Fuc in the glycan structure confirms the tolerance of both, GDP-fucose transporter and FUT8 for the GDP-fucose analogue. In addition to a likely competitive FUT8 inhibition, the activated sugar can thus also be utilized as slow substrate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24562</offset>
+      <text>According to literature data, differences in the frequency of incorporation may be due to the relative position of the modification, the nature of the modification, or more likely the interplay of both. Modifications of fucose at carbon positions C-2, C-5 and C-6 have been frequently reported in the literature, while modifications at other carbon positions are likely undesirable, as these may be required for enzyme binding. By comparing the incorporation data of 6F-fucose obtained by Okeley et al., to our data on 2F-fucose, we can gain an insight into the binding modality of some enzymes in the fucosylation pathway. Our results showed a 0.8% incorporation of 2F-fucose whereas 6F-fucose resulted in &gt;90% incorporation. This suggest that the C-6 hydroxy is less critical in substrate recognition for the enzymes in this pathway than the C-2 hydroxy group. The importance of the hydroxyl group at carbon position C-2 for enzyme recognition was also suggested by McKenzie et al.. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25548</offset>
+      <text>Regarding the nature of the chemical modification, the 5-ethyl analogue led to more than 90% incorporation, whereby 5-AlkFuc showed only 5% incorporation. Moving the alkynyl moiety further from the carbohydrate ring via insertion of a methylene group (producing 6-AlkFuc) led to a considerably higher incorporation of the fucose analogue into the antibody, which allows the application as biomarker. Another factor likely to impact the extent of incorporation of the derivative into the glycan structure are the changes in electronegativity imparted by the modification. Replacing a hydrogen on the C-6 of fucose with chlorine or sulphur led to 80% and 70% incorporation of these analogues, respectively. Along with the electronegativity, altered size of the respective residue may have an additional impact. Allen et al. reported decreasing incorporation of all glycans from 70% with 6-fluorofucose to about 11% using 6,6-difluorofucose and about 1% when 6,6,6-trifluorofucose was applied. The group suggested a destabilization of the oxocarbenium ion-like transition state within the FUT8 enzyme when using the trifluorofucose as reason for the low incorporation. Altogether this data suggests that bulkier modifications on position 6 might reduce incorporation. An efficient reduction of core-fucosylation using 6,6,6-trifluorofucose was also reported by McKenzie et al. using a murine hybridoma cell line instead of the commonly used CHO cell line. Still, different cell lines may respond differently to the derivatives due to slight changes in enzyme structure, changed affinity toward substrates or as a result of different amounts and structure of fucosyltransferases. No incorporation of 2F-Fuc was reported on the cell surface of HL-60 cells, whereby low incorporation was detected when using transfected CHO Lec13 cells, similar to our results using CHOK1 cells. Therefore, it was suggested that a slightly changed FUT8 activity or selectivity between cell lines may lead to different amounts of incorporation. Additionally, Lec13 cells are lacking the de novo GDP-fucose synthesis, thus the ratio between native FUT8 substrate and GDP-fucose-analogue may have an impact on the incorporation. Investigation of the GDP-fucose ratio to the respective analogue may give further insight into this dependency. In addition, substrate ratio may depend on the occurence of other fucosyltransferase subtypes, since they use the same activated sugar nucleotide GDP-Fuc as substrate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28031</offset>
+      <text>Ultimately, the extent of fucose analogue incorporation may depend on the cell line, substrate specificity and efficacy of the enzymes (especially FUT8) in the fucosylation pathway, different transport rates or different inhibition of either GMD or FX by changing the ratio of natural/modified substrate. Therefore, the incorporation of fucose analogues is complex and multifactorial and may not be easily predicted.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28448</offset>
+      <text>Overall, chemical modification of the fucose structure is a powerful method to reduce core fucosylation without cell engineering, but a careful analysis of potential analogue incorporation is required. Furthermore, an investigation of the effect of the fucose modification on the binding affinity to the respective Fc-receptor is important. These tests go beyond the scope of this work and will be part of future studies. As long as the impact of modified monosaccharides within antibodies is uncertain, incorporation of any non-native sugar has to be prevented, especially if the resulting antibodies are applied as therapeutic drugs. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title</infon>
+      <offset>29085</offset>
+      <text>Supplementary Materials</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29109</offset>
+      <text>The following are available online at , Figure S1: MSe spectra overlay obtained at RT 14.50 min for G0F (black) and RT 13.89 min for G0F * with 5-alkynylfucose incorporated (blue) highlighting a 9.99 Da mass shift, Figure S2 MSe spectra overlay obtained at RT 14.50 min for G0F (black) and RT 12.50 min for G0F * with 2-fluorofucose incorporated (red) highlighting a 1.99 Da mass shift.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title</infon>
+      <offset>29496</offset>
+      <text>Author Contributions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29517</offset>
+      <text>M.Z. performed all spin tube experiments along with the offline analysis, designed the study and wrote the manuscript. H.K. reviewed the manuscript. J.E. and A.Z. supervised the study and reviewed the manuscript. All authors approved the final article.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title</infon>
+      <offset>29770</offset>
+      <text>Funding</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29778</offset>
+      <text>This work was entirely funded by Merck KGaA, Darmstadt, Germany.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title</infon>
+      <offset>29843</offset>
+      <text>Conflicts of Interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29865</offset>
+      <text>The authors declare no conflict of interest. Harald Kolmar is an employee at TU Darmstadt. Aline Zimmer, Janike Ehret and Martina Zimmerman are employees of Merck KGaA. Merck KGaA as funder had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title</infon>
+      <offset>30228</offset>
+      <text>Nomenclature</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30241</offset>
+      <text>  2-deoxy-2-fluorofucose 2F-Fuc  2F-Peracetyl-fucose  2F-PerAcFuc  5-alkynylfucose 5-AlkFuc  5-alkynylfucose peracetylated 5-AlkFuc PerAc  6-fluorofucose 6F-Fuc  antibody-dependent cellular cytotoxicity ADCC  chinese hamster ovary cells CHO cells  critical quality attribute  cQA  dimethyl sulfoxide DMSO  Fucosyltransferase 8 FUT8  Guanosine diphosphate GDP  GDP-4-keto-6-deoxymannose 3,5-epimerase-4-reductase FX  GDP-mannose 4,6-dehydratase GMD  monoclonal antibodies mAbs  N-acetylglucosamine GlcNAc  N-acetylmannosamine  ManNAc  standard error of the mean SEM  ultra-performance liquid chromatography coupled to a mass spectrometer UPLC-MS  viable cell density  VCD</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>30912</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yap;given-names:M.G.S.</infon>
+      <infon key="volume">103</infon>
+      <infon key="name_2">surname:Hu;given-names:W.S.</infon>
+      <infon key="name_1">surname:Wlaschin;given-names:K.F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jayapal;given-names:K.P.</infon>
+      <infon key="fpage">40</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Chem. Eng. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">47</infon>
+      <offset>30923</offset>
+      <text>Recombinant protein therapeutics from CHO Cells:20 years and counting</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Jitendra Joshi;given-names:H.</infon>
+      <infon key="name_2">surname:Narimatsu;given-names:Y.</infon>
+      <infon key="name_1">surname:Halim;given-names:A.</infon>
+      <infon key="name_0">surname:Yang;given-names:Z.</infon>
+      <infon key="fpage">3224</infon>
+      <infon key="pub-id_doi">10.1074/mcp.M114.041541</infon>
+      <infon key="pub-id_pmid">25092905</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Mol. Cell. Proteomics</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Paul Bennett;given-names:E.</infon>
+      <infon key="name_8">surname:Kayser;given-names:K.J.</infon>
+      <infon key="name_7">surname:Sealover;given-names:N.R.</infon>
+      <infon key="lpage">3235</infon>
+      <infon key="name_6">surname:Alder Schulz;given-names:M.</infon>
+      <infon key="name_5">surname:Schjoldager;given-names:K.T.</infon>
+      <infon key="name_4">surname:Steentoft;given-names:C.</infon>
+      <offset>30995</offset>
+      <text>The GalNAc-type O-Glycoproteome of CHO cells characterized by the SimpleCell strategy</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="name_1">surname:Teillaud;given-names:J.-L.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Abes;given-names:R.</infon>
+      <infon key="fpage">146</infon>
+      <infon key="pub-id_doi">10.3390/ph3010146</infon>
+      <infon key="pub-id_pmid">27713246</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Pharmaceuticals</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">157</infon>
+      <offset>31081</offset>
+      <text>Impact of Glycosylation on Effector Functions of Therapeutic IgG</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_1">surname:Wu;given-names:D.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Saxena;given-names:A.</infon>
+      <infon key="fpage">580</infon>
+      <infon key="pub-id_doi">10.3389/fimmu.2016.00580</infon>
+      <infon key="pub-id_pmid">28018347</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Front. Immunol.</infon>
+      <infon key="type">ref</infon>
+      <offset>31146</offset>
+      <text>Advances in Therapeutic Fc Engineering:Modulation of IgG-Associated Effector Functions and Serum Half-life</text>
+    </passage>
+    <passage>
+      <infon key="volume">38</infon>
+      <infon key="name_1">surname:Alter;given-names:G.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jennewein;given-names:M.F.</infon>
+      <infon key="fpage">358</infon>
+      <infon key="pub-id_doi">10.1016/j.it.2017.02.004</infon>
+      <infon key="pub-id_pmid">28385520</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Trends Immunol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">372</infon>
+      <offset>31255</offset>
+      <text>The Immunoregulatory Roles of Antibody Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="name_1">surname:Butler;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Durocher;given-names:Y.</infon>
+      <infon key="fpage">700</infon>
+      <infon key="pub-id_doi">10.1016/j.copbio.2009.10.008</infon>
+      <infon key="pub-id_pmid">19889531</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Curr. Opin. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">707</infon>
+      <offset>31308</offset>
+      <text>Expression systems for therapeutic glycoprotein production</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="name_2">surname:Satoh;given-names:M.</infon>
+      <infon key="name_1">surname:Niwa;given-names:R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Natsume;given-names:A.</infon>
+      <infon key="fpage">7</infon>
+      <infon key="pub-id_doi">10.2147/DDDT.S4378</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Drug Des. Dev. Ther.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">16</infon>
+      <offset>31367</offset>
+      <text>Improving effector functions of antibodies for cancer treatment: Enhancing ADCC and CDC</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Visser;given-names:R.</infon>
+      <infon key="name_2">surname:Koeleman;given-names:C.A.M.</infon>
+      <infon key="name_1">surname:Plomp;given-names:R.</infon>
+      <infon key="name_0">surname:Dekkers;given-names:G.</infon>
+      <infon key="fpage">36964</infon>
+      <infon key="pub-id_doi">10.1038/srep36964</infon>
+      <infon key="pub-id_pmid">27872474</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Vidarsson;given-names:G.</infon>
+      <infon key="name_7">surname:Wuhrer;given-names:M.</infon>
+      <infon key="name_6">surname:Rispens;given-names:T.</infon>
+      <infon key="name_5">surname:Sandig;given-names:V.</infon>
+      <infon key="name_4">surname:von Horsten;given-names:H.H.</infon>
+      <offset>31455</offset>
+      <text>Multi-level glyco-engineering techniques to generate IgG with defined Fc-glycans</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:O'Flaherty;given-names:R.</infon>
+      <infon key="name_2">surname:Saldova;given-names:R.</infon>
+      <infon key="name_1">surname:Katoh;given-names:T.</infon>
+      <infon key="name_0">surname:Mimura;given-names:Y.</infon>
+      <infon key="fpage">47</infon>
+      <infon key="pub-id_doi">10.1007/s13238-017-0433-3</infon>
+      <infon key="pub-id_pmid">28597152</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Protein Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Matsumoto;given-names:T.</infon>
+      <infon key="name_8">surname:Yamamoto;given-names:K.</infon>
+      <infon key="name_7">surname:Mizukami;given-names:Y.</infon>
+      <infon key="lpage">62</infon>
+      <infon key="name_6">surname:Utsunomiya;given-names:T.</infon>
+      <infon key="name_5">surname:Mimura-Kimura;given-names:Y.</infon>
+      <infon key="name_4">surname:Izumi;given-names:T.</infon>
+      <offset>31536</offset>
+      <text>Glycosylation engineering of therapeutic IgG antibodies: Challenges for the safety, functionality and efficacy</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sonon;given-names:R.</infon>
+      <infon key="name_2">surname:Lefort;given-names:C.T.</infon>
+      <infon key="name_1">surname:Antonopoulos;given-names:A.</infon>
+      <infon key="name_0">surname:Rillahan;given-names:C.D.</infon>
+      <infon key="fpage">661</infon>
+      <infon key="pub-id_doi">10.1038/nchembio.999</infon>
+      <infon key="pub-id_pmid">22683610</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Nat. Chem. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Paulson;given-names:J.C.</infon>
+      <infon key="name_7">surname:Haslam;given-names:S.M.</infon>
+      <infon key="lpage">668</infon>
+      <infon key="name_6">surname:Dell;given-names:A.</infon>
+      <infon key="name_5">surname:Ley;given-names:K.</infon>
+      <infon key="name_4">surname:Azadi;given-names:P.</infon>
+      <offset>31647</offset>
+      <text>Global metabolic inhibitors of sialyl- and fucosyltransferases remodel the glycome</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Murray;given-names:B.W.</infon>
+      <infon key="name_2">surname:Duffels;given-names:A.</infon>
+      <infon key="name_1">surname:Vincent;given-names:S.P.</infon>
+      <infon key="name_0">surname:Burkart;given-names:M.D.</infon>
+      <infon key="fpage">1937</infon>
+      <infon key="pub-id_doi">10.1016/S0968-0896(00)00139-5</infon>
+      <infon key="pub-id_pmid">11003139</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Bioorg. Med. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1946</infon>
+      <infon key="name_5">surname:Wong;given-names:C.H.</infon>
+      <infon key="name_4">surname:Ley;given-names:S.V.</infon>
+      <offset>31730</offset>
+      <text>Chemo-enzymatic synthesis of fluorinated sugar nucleotide: Useful mechanistic probes for glycosyltransferases</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Esko;given-names:J.D.</infon>
+      <infon key="name_2">surname:Taylor;given-names:W.H.</infon>
+      <infon key="name_1">surname:Fritz;given-names:T.A.</infon>
+      <infon key="name_0">surname:Sarkar;given-names:A.K.</infon>
+      <infon key="fpage">3323</infon>
+      <infon key="pub-id_doi">10.1073/pnas.92.8.3323</infon>
+      <infon key="pub-id_pmid">7724561</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">92</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3327</infon>
+      <offset>31840</offset>
+      <text>Disaccharide uptake and priming in animal cells: Inhibition of sialyl Lewis X by acetylated Gal beta 1 4GlcNAc beta-O-naphthalenemethanol</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Benjamin;given-names:D.R.</infon>
+      <infon key="name_2">surname:Sussman;given-names:D.</infon>
+      <infon key="name_1">surname:Jeffrey;given-names:S.C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Alley;given-names:S.C.</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Patent</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_5">surname:Burke;given-names:P.J.</infon>
+      <infon key="name_4">surname:Toki;given-names:B.</infon>
+      <offset>31980</offset>
+      <text>Methods and Compositions for Making Antibodies and Antibody Derivatives with Reduced Core Fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Boursalian;given-names:T.E.</infon>
+      <infon key="name_2">surname:Anderson;given-names:M.E.</infon>
+      <infon key="name_1">surname:Alley;given-names:S.C.</infon>
+      <infon key="name_0">surname:Okeley;given-names:N.M.</infon>
+      <infon key="fpage">5404</infon>
+      <infon key="pub-id_doi">10.1073/pnas.1222263110</infon>
+      <infon key="pub-id_pmid">23493549</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Sussman;given-names:D.</infon>
+      <infon key="name_8">surname:Law;given-names:C.L.</infon>
+      <infon key="name_7">surname:Klussman;given-names:K.</infon>
+      <infon key="lpage">5409</infon>
+      <infon key="name_6">surname:Jeffrey;given-names:S.C.</infon>
+      <infon key="name_5">surname:Emmerton;given-names:K.M.</infon>
+      <infon key="name_4">surname:Burke;given-names:P.J.</infon>
+      <offset>32083</offset>
+      <text>Development of orally active inhibitors of protein and cellular fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nakajima;given-names:K.</infon>
+      <infon key="name_2">surname:Yamaguchi;given-names:Y.</infon>
+      <infon key="name_1">surname:Nakano;given-names:M.</infon>
+      <infon key="name_0">surname:Kizuka;given-names:Y.</infon>
+      <infon key="fpage">1467</infon>
+      <infon key="pub-id_doi">10.1016/j.chembiol.2017.08.023</infon>
+      <infon key="pub-id_pmid">29033318</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Cell Chem. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Taniguchi;given-names:N.</infon>
+      <infon key="name_8">surname:Wong;given-names:C.H.</infon>
+      <infon key="name_7">surname:Hsu;given-names:T.L.</infon>
+      <infon key="lpage">1478</infon>
+      <infon key="name_6">surname:Ren;given-names:C.T.</infon>
+      <infon key="name_5">surname:Sato;given-names:K.</infon>
+      <infon key="name_4">surname:Oka;given-names:R.</infon>
+      <offset>32160</offset>
+      <text>An Alkynyl-Fucose Halts Hepatoma Cell Migration and Invasion by Inhibiting GDP-Fucose-Synthesizing Enzyme FX, TSTA3</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wang;given-names:S.K.</infon>
+      <infon key="name_2">surname:Kishikawa;given-names:K.</infon>
+      <infon key="name_1">surname:Hanson;given-names:S.R.</infon>
+      <infon key="name_0">surname:Hsu;given-names:T.L.</infon>
+      <infon key="fpage">2614</infon>
+      <infon key="pub-id_doi">10.1073/pnas.0611307104</infon>
+      <infon key="pub-id_pmid">17296930</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">104</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2619</infon>
+      <infon key="name_5">surname:Wong;given-names:C.H.</infon>
+      <infon key="name_4">surname:Sawa;given-names:M.</infon>
+      <offset>32276</offset>
+      <text>Alkynyl sugar analogs for the labeling and visualization of glycoconjugates in cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="name_2">surname:Fey;given-names:N.J.</infon>
+      <infon key="name_1">surname:Blake;given-names:F.S.R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ramsden;given-names:M.J.</infon>
+      <infon key="fpage">97</infon>
+      <infon key="pub-id_doi">10.1007/BF00705925</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Wood Sci. Technol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">104</infon>
+      <offset>32361</offset>
+      <text>The effect of acetylation on the mechanical properties, hydrophobicity, and dimensional stability ofPinus sylvestris</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Zipursky;given-names:S.L.</infon>
+      <infon key="name_1">surname:Berk;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lodish;given-names:H.</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Molecular Cell Biology</infon>
+      <infon key="type">ref</infon>
+      <offset>32478</offset>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Xue;given-names:J.</infon>
+      <infon key="name_2">surname:Chandrasekaran;given-names:E.V.</infon>
+      <infon key="name_1">surname:Buffone;given-names:A.</infon>
+      <infon key="name_0">surname:Marathe;given-names:D.D.</infon>
+      <infon key="fpage">1303</infon>
+      <infon key="pub-id_doi">10.1182/blood-2009-07-231480</infon>
+      <infon key="pub-id_pmid">19996411</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Blood</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Neelamegham;given-names:S.</infon>
+      <infon key="name_7">surname:Matta;given-names:K.L.</infon>
+      <infon key="lpage">1312</infon>
+      <infon key="name_6">surname:Lau;given-names:J.T.Y.</infon>
+      <infon key="name_5">surname:Nasirikenari;given-names:M.</infon>
+      <infon key="name_4">surname:Locke;given-names:R.D.</infon>
+      <offset>32479</offset>
+      <text>Fluorinated per-acetylated GalNAc metabolically alters glycan structures on leukocyte PSGL-1 and reduces cell binding to selectins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Goto;given-names:Y.</infon>
+      <infon key="name_2">surname:Tokutomi;given-names:T.</infon>
+      <infon key="name_1">surname:Noguchi;given-names:S.</infon>
+      <infon key="name_0">surname:Malicdan;given-names:M.C.</infon>
+      <infon key="fpage">2689</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M111.297051</infon>
+      <infon key="pub-id_pmid">22157763</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">287</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2705</infon>
+      <infon key="name_6">surname:Nishino;given-names:I.</infon>
+      <infon key="name_5">surname:Hayashi;given-names:Y.K.</infon>
+      <infon key="name_4">surname:Nonaka;given-names:I.</infon>
+      <offset>32610</offset>
+      <text>Peracetylated N-acetylmannosamine, a synthetic sugar molecule, efficiently rescues muscle phenotype and biochemical defects in mouse model of sialic acid-deficient myopathy</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Jeffrey;given-names:S.C.</infon>
+      <infon key="name_2">surname:Zhang;given-names:X.</infon>
+      <infon key="name_1">surname:Toki;given-names:B.E.</infon>
+      <infon key="name_0">surname:Okeley;given-names:N.M.</infon>
+      <infon key="fpage">1650</infon>
+      <infon key="pub-id_doi">10.1021/bc4002695</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Bioconj. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1655</infon>
+      <infon key="name_6">surname:Senter;given-names:P.D.</infon>
+      <infon key="name_5">surname:Alley;given-names:S.C.</infon>
+      <infon key="name_4">surname:Burke;given-names:P.J.</infon>
+      <offset>32783</offset>
+      <text>Metabolic Engineering of Monoclonal Antibody Carbohydrates for Antibody-Drug Conjugation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lahar;given-names:N.</infon>
+      <infon key="name_2">surname:Rhee;given-names:J.K.</infon>
+      <infon key="name_1">surname:Teng;given-names:H.</infon>
+      <infon key="name_0">surname:Jones;given-names:M.B.</infon>
+      <infon key="fpage">394</infon>
+      <infon key="pub-id_doi">10.1002/bit.10901</infon>
+      <infon key="pub-id_pmid">14755557</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">85</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">405</infon>
+      <infon key="name_5">surname:Yarema;given-names:K.J.</infon>
+      <infon key="name_4">surname:Baskaran;given-names:G.</infon>
+      <offset>32874</offset>
+      <text>Characterization of the cellular uptake and metabolic conversion of acetylated N-acetylmannosamine (ManNAc) analogues to sialic acids</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Levade;given-names:T.</infon>
+      <infon key="name_2">surname:Vicogne;given-names:D.</infon>
+      <infon key="name_1">surname:Lion;given-names:C.</infon>
+      <infon key="name_0">surname:Gilormini;given-names:P.A.</infon>
+      <infon key="fpage">2318</infon>
+      <infon key="pub-id_doi">10.1039/C5CC08838K</infon>
+      <infon key="pub-id_pmid">26727964</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Chem. Commun.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">52</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Foulquier;given-names:F.</infon>
+      <infon key="name_7">surname:Biot;given-names:C.</infon>
+      <infon key="lpage">2321</infon>
+      <infon key="name_6">surname:Guerardel;given-names:Y.</infon>
+      <infon key="name_5">surname:Mariller;given-names:C.</infon>
+      <infon key="name_4">surname:Potelle;given-names:S.</infon>
+      <offset>33008</offset>
+      <text>A sequential bioorthogonal dual strategy: ManNAl and SiaNAl as distinct tools to unravel sialic acid metabolic pathways</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="name_2">surname:Pratt;given-names:M.R.</infon>
+      <infon key="name_1">surname:Chuh;given-names:K.N.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zaro;given-names:B.W.</infon>
+      <infon key="fpage">1991</infon>
+      <infon key="pub-id_doi">10.1021/cb5005564</infon>
+      <infon key="pub-id_pmid">25062036</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">ACS Chem. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1996</infon>
+      <offset>33128</offset>
+      <text>Chemical reporter for visualizing metabolic cross-talk between carbohydrate metabolism and protein modification</text>
+    </passage>
+    <passage>
+      <infon key="volume">589</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Schneider;given-names:S.</infon>
+      <infon key="fpage">1049</infon>
+      <infon key="pub-id_doi">10.1016/j.febslet.2015.03.012</infon>
+      <infon key="pub-id_pmid">25819438</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">FEBS Lett.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1058</infon>
+      <offset>33240</offset>
+      <text>Inositol transport proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Loo;given-names:D.D.F.</infon>
+      <infon key="name_2">surname:Kwon;given-names:H.M.</infon>
+      <infon key="name_1">surname:Hazama;given-names:A.</infon>
+      <infon key="name_0">surname:Hager;given-names:K.</infon>
+      <infon key="fpage">103</infon>
+      <infon key="pub-id_doi">10.1007/BF00234656</infon>
+      <infon key="pub-id_pmid">7537337</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">J. Membr. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">143</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">113</infon>
+      <infon key="name_5">surname:Wright;given-names:E.M.</infon>
+      <infon key="name_4">surname:Handler;given-names:J.S.</infon>
+      <offset>33268</offset>
+      <text>Kinetics and specificity of the renal Na+/myo-inositol cotransporter expressed in Xenopus Oocytes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="comment">Available online: http://www.chogenome.org</infon>
+      <infon key="type">ref</infon>
+      <offset>33366</offset>
+      <text>Chinese Hamster Genome Database</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ouellette;given-names:D.</infon>
+      <infon key="name_2">surname:Racicot;given-names:C.</infon>
+      <infon key="name_1">surname:Chumsae;given-names:C.</infon>
+      <infon key="name_0">surname:Hossler;given-names:P.</infon>
+      <infon key="fpage">715</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2017.1294295</infon>
+      <infon key="pub-id_pmid">28375048</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Scesney;given-names:S.</infon>
+      <infon key="name_8">surname:Labkovsky;given-names:B.</infon>
+      <infon key="name_7">surname:McDermott;given-names:S.</infon>
+      <infon key="lpage">734</infon>
+      <infon key="name_6">surname:Mora;given-names:A.</infon>
+      <infon key="name_5">surname:Serna;given-names:D.</infon>
+      <infon key="name_4">surname:Ibraghimov;given-names:A.</infon>
+      <offset>33398</offset>
+      <text>Arabinosylation of recombinant human immunoglobulin-based protein therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:White;given-names:J.M.</infon>
+      <infon key="name_2">surname:John;given-names:A.</infon>
+      <infon key="name_1">surname:Scott;given-names:N.E.</infon>
+      <infon key="name_0">surname:McKenzie;given-names:N.C.</infon>
+      <infon key="fpage">4</infon>
+      <infon key="pub-id_doi">10.1016/j.carres.2018.05.008</infon>
+      <infon key="pub-id_pmid">29874559</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Carbohydr. Res.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">465</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">9</infon>
+      <infon key="name_4">surname:Goddard-Borger;given-names:E.D.</infon>
+      <offset>33477</offset>
+      <text>Synthesis and use of 6,6,6-trifluoro-L-fucose to block core-fucosylation in hybridoma cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nakano;given-names:M.</infon>
+      <infon key="name_2">surname:Shogomori;given-names:H.</infon>
+      <infon key="name_1">surname:Funayama;given-names:S.</infon>
+      <infon key="name_0">surname:Kizuka;given-names:Y.</infon>
+      <infon key="fpage">782</infon>
+      <infon key="pub-id_doi">10.1016/j.chembiol.2016.06.010</infon>
+      <infon key="pub-id_pmid">27447047</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Cell Chem. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">23</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Korekane;given-names:H.</infon>
+      <infon key="name_8">surname:Sano;given-names:M.</infon>
+      <infon key="name_7">surname:Yamaguchi;given-names:Y.</infon>
+      <infon key="lpage">792</infon>
+      <infon key="name_6">surname:Kitazume;given-names:S.</infon>
+      <infon key="name_5">surname:Oka;given-names:R.</infon>
+      <infon key="name_4">surname:Nakajima;given-names:K.</infon>
+      <offset>33574</offset>
+      <text>High-Sensitivity and Low-Toxicity Fucose Probe for Glycan Imaging and Biomarker Discovery</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Pickrell;given-names:A.J.</infon>
+      <infon key="name_2">surname:Frohn;given-names:M.J.</infon>
+      <infon key="name_1">surname:Mujacic;given-names:M.</infon>
+      <infon key="name_0">surname:Allen;given-names:J.G.</infon>
+      <infon key="fpage">2734</infon>
+      <infon key="pub-id_doi">10.1021/acschembio.6b00460</infon>
+      <infon key="pub-id_pmid">27434622</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">ACS Chem. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Swietlow;given-names:A.</infon>
+      <infon key="name_8">surname:Osgood;given-names:S.</infon>
+      <infon key="name_7">surname:Sickmier;given-names:E.A.</infon>
+      <infon key="lpage">2743</infon>
+      <infon key="name_6">surname:San Miguel;given-names:T.</infon>
+      <infon key="name_5">surname:Bagal;given-names:D.</infon>
+      <infon key="name_4">surname:Kodama;given-names:P.</infon>
+      <offset>33664</offset>
+      <text>Facile Modulation of Antibody Fucosylation with Small Molecule Fucostatin Inhibitors and Cocrystal Structure with GDP-Mannose 4,6-Dehydratase</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="name_2">surname:Lin;given-names:C.H.</infon>
+      <infon key="name_1">surname:Lin;given-names:Y.N.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Tu;given-names:Z.</infon>
+      <infon key="fpage">4459</infon>
+      <infon key="pub-id_doi">10.1039/c3cs60056d</infon>
+      <infon key="pub-id_pmid">23588106</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Chem. Soc. Rev.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">4475</infon>
+      <offset>33806</offset>
+      <text>Development of fucosyltransferase and fucosidase inhibitors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">antibodies-08-00009-g001.jpg</infon>
+      <infon key="id">antibodies-08-00009-f001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>33866</offset>
+      <text>L-Fucose and its monosaccharide analogues used in this study. The key structural modifications are highlighted in red.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">antibodies-08-00009-g002.jpg</infon>
+      <infon key="id">antibodies-08-00009-f002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>33985</offset>
+      <text>Viable cell density (VCD) and titer of Chinese hamster ovary (CHO) cells treated with fucose analogues. Four biological replicates were performed for each condition. The VCD is visualized as squares with a solid line and similar colors were used for the titer indicated with circles and a dashed line. Data are expressed as mean values +- standard error of the mean (SEM).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">antibodies-08-00009-g003.jpg</infon>
+      <infon key="id">antibodies-08-00009-f003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>34358</offset>
+      <text>IgG fucosylation using two fucose analogues and the respective acetylated compounds. Feed was adjusted to 2.33% Dimethyl sulfoxide (DMSO) (except for the control) and added on day 3 (3%; v/v), day 5, 7 and 10 (6%; v/v). Fucosylation analysis on (A) day 7, (B) day 10 and (C) day 12 was obtained by UPLC-MS. Data are expressed as mean values +- SEM of two biological replicates. Statistical analysis was performed with all tested concentrations with and without peracetylation including data of additional experiments using various concentrations (data not shown). The data indicates a significant reduction of the IgG fucosylation compared to the control with a p-value &lt; 0.0001 (n = 19) for 5-AlkFuc analogues and a p-value of 0.0050 (n = 19) for 2F-Fuc analogues.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">antibodies-08-00009-g004.jpg</infon>
+      <infon key="id">antibodies-08-00009-f004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>35124</offset>
+      <text>Relative incorporation of fucose analogues. Feed supplemented with fucose analogues was adjusted to 2.33% DMSO (except for the control) and added on day 3 (3%; v/v) day 5, 7 and 10 (6%; v/v). Glycosylation analysis on (A) day 7, (B) day 10 and (C) day 12 was obtained by UPLC-MS and incorporation was detected by a distinct mass-shift. The incorporation of the fucose analogues was calculated as sum of all glycan structures with incorporated fucose analogues relative to the amount of the fucosylation. Data are expressed as mean values +- SEM of two biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">antibodies-08-00009-t001.xml</infon>
+      <infon key="id">antibodies-08-00009-t001</infon>
+      <infon key="type">table</infon>
+      <offset>35699</offset>
+      <text>  Control 2.33% DMSO 200 microM 2F-Fuc 200 microM 2F-Fuc PerAc 400 microM 2F-Fuc 400 microM 2F-Fuc PerAc 800 microM 2F-Fuc 800 microM 2F-Fuc PerAc Name   Structure   D7(n = 5) D10(n = 6) D12(n = 6) D7(n = 3) D10(n = 3) D12(n = 3) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 4) D10(n = 2) D12(n = 5) G0F  80.4 +- 2.1 77.5 +- 1.0 77.0 +- 0.9 81.8 +- 1.6 78.8 +- 1.1 77.1 +- 0.1 80.9 +- 0.7 57.7 +- 0.2 49.0 +- 0.2 78.5 +- 0.4 52.1 +- 0.3 42.0 +- 1.9 65.7 +- 0.1 33.1+- 0.04 26.3 +- 0.1 59.2 +- 1.1 29.7 +- 0.3 23.7 +- 0.5 46.4 +- 0.1 20.5 +- 0.5 15.6 +- 0.7 38.6 +- 2.8 17.9 +- 0.5 13.1 +- 1.5 G0F *  - - - - - - - - - - - - - 0.9 +- 0.03 0.9 +- 0.03 - 0.9 +- 0.05 0.9 +- 0.01 0.8 +- 0.01 0.8 +- 0.06 0.8 +- 0.01 0.8 +- 0.02 0.8 +- 0.03 0.8 +- 0.1 G1F  15.6 +- 2.5 16.4 +- 1.4 15.5 +- 1.2 14.2 +- 2.0 14.9 +- 1.3 14.9 +- 0.8 12.3 +- 0.5 10.5 +- 0.1 8.7 +- 0.6 11.5 +- 0.8 9.3 +- 0.1 7.4 +- 0.8 9.9 +- 0.4 5.7 +- 0.2 4.4 +- 0.4 9.2 +- 0.6 5.3 +- 0.2 4.3 +- 0.4 7.4 +- 0.1 3.2 +- 0.7 2.8 +- 0.3 7.4 +- 1.0 3.0 +- 0.4 2.7 +- 0.8 G1F *  - - - - - - - - - - - - - - - - - - - - - - - - G0F-N  0.9 +- 0.1 1.4 +- 0.3 1.8 +- 0.2 0.8 +- 0.2 1.5 +- 0.4 2.1 +- 0.2 0.7 +- 0.02 1.2 +- 0.01 1.3 +- 0.01 0.7 +- 0.2 1.1 +- 0.1 1.2 +- 0.01 0.8 +- 0.1 - - 0.8 - - - - - - - - G0F *-N  - - - - - - - - - - - - - - - - - - - - - - - - G1F-N  - 0.3 +- 0.1 0.4 +- 0.04 - 0.3 +- 0.1 0.4 +- 0.1 - - - - - - - - - - - - - - - - - - G2F  0.8 +- 0.2 0.9 +- 0.1 0.9 +- 0.1 0.7 +- 0.1 0.8 +- 0.2 0.9 +- 0.03 0.6 +- 0.1 0.7 +- 0.01 0.6 +- 0.01 0.5 +- 0.1 0.6 +- 0.1 0.4 +- 0.02 0.5 +- 0.03 0.4 +- 0.02 0.3 +- 0.02 0.5 +- 0.01 0.4 +- 0.01 0.3 +- 0.01 0.4 +- 0.04 0.3 +- 0.02 - 0.4 +- 0.1 0.3 +- 0.02 - G0  0.7 +- 0.1 0.8 +- 0.1 0.8 +- 0.1 0.8 +- 0.04 0.7 +- 0.1 0.8 +- 0.1 3.8 +- 0.1 23.4 +- 0.5 30.8 +- 0.6 6.0 +- 0.05 29.1 +- 0.1 36.3 +- 0.7 20.2 +- 0.5 48.7 +- 0.6 54.6 +- 0.7 25.5 +- 0.6 52.1 +- 1.4 56.9 +- 1.2 39.4 +- 0.03 62.1 +- 0.4 64.0 +- 1.3 46.0 +- 1.0 64.0 +- 0.8 68.0 +- 2.5 G1  - - - - - - 0.3 +- 0.01 2.6 +- 0.03 3.4 +- 0.1 0.4 +- 0.02 3.3 +- 0.1 3.9 +- 0.4 1.6 +- 0.02 5.6 +- 0.04 6.2 +- 0.3 2.2 +- 0.1 6.1 +- 0.04 6.6 +- 0.3 3.6 +- 0.04 6.9 +- 0.1 7.4 +- 0.5 5.0 +- 0.9 7.4 +- 0.08 8.8 +- 1.1 G2  - - - - - - - - - - - - - - - - - 0.21 - 0.2 +- 0.01 0.2 +- 0.03 - 0.2 +- 0.01 0.2 +- 0.1 Man5  0.7 +- 0.2 1.8 +- 0.4 3.0 +- 0.3 0.7 +- 0.1 2.1 +- 0.4 3.2 +- 0.3 0.8 +- 0.1 2.3 +- 0.1 3.4 +- 0.1 0.8 +- 0.01 2.3 +- 0.1 3.4 +- 0.3 0.8 +- 0.05 2.4 +- 0.1 3.6 +- 0.2 0.9 +- 0.01 2.4 +- 0.05 3.6 +- 0.2 0.9 +- 0.02 2.5 +- 0.01 3.4 +- 0.2 0.9 +- 0.04 2.5 +- 0.04 3.5 +- 0.2 G0-N  0.2 +- 0.03 0.2 +- 0.2 0.5 +- 0.1 0.3 0.3 +- 0.3 0.4 +- 0.1 0.3 1.2 +- 0.05 2.1 +- 0.3 0.3 +- 0.2 1.4 +- 0.2 3.4 +- 1.7 0.4 +- 0.2 2.0 +- 0.1 2.9 +- 0.3 0.5 +- 0.03 2.1 +- 0.01 2.9 +- 0.4 0.8 +- 0.1 2.4 +- 0.04 3.7 +- 1.0 0.8 +- 0.1 2.5 +- 0.1 2.8 +- 0.5 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">antibodies-08-00009-t001.xml</infon>
+      <infon key="id">antibodies-08-00009-t001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>38635</offset>
+      <text>Glycan structures of 2-fluorofucose with and without acetylation (200, 400 and 800 microM) compared to both control conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">antibodies-08-00009-t001.xml</infon>
+      <infon key="id">antibodies-08-00009-t001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>38763</offset>
+      <text>   represents N-acetylglucosamine (GlcNAc);  represents mannose;  represents fucose;  represents fucose analogues;  represents galactose.   respective fucose-analogue is indicated with *. The Glycan species were identified through the mass. The percentages of various glycans were calculated according to the relative area of each glycan species as detected using RapiFluor  (Waters) as labelling reagent. Data are presented as mean values +- SEM and without SEM means that the peaks were only detected in one replicate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">antibodies-08-00009-t002.xml</infon>
+      <infon key="id">antibodies-08-00009-t002</infon>
+      <infon key="type">table</infon>
+      <offset>39290</offset>
+      <text>  Control 2.33% DMSO 200 microM 5-AlkFuc 200 microM 5-AlkFuc PerAc 400 microM 5-AlkFuc 400 microM 5-AlkFuc PerAc 800 microM 5-AlkFuc 800 microM 5-AlkFuc PerAc Name   Structure   D7(n = 5) D10(n = 6) D12(n = 6) D7(n = 3) D10(n = 3) D12(n = 3) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n = 2) D10(n = 2) D12(n = 2) D7(n =2) D10(n = 2) D12(n =2) G0F  80.4 +- 2.1 77.5 +- 1.0 77.0 +- 0.9 81.8 +- 1.6 78.8 +- 1.1 77.1 +- 0.1 37.9 +- 0.02 21.8 +- 0.5 17.8 +- 1.3 19.4 +- 0.2 11.2 +- 0.2 9.4 +- 0.3 19.4 +- 0.1 9.4 +- 0.2 7.6 +- 0.1 11.4 +- 0.1 5.8 +- 0.1 4.8 +- 0.1 11.5 +- 0.01 5.2 +- 0.2 4.1 +- 0.1 8.0 +- 0.1 3.7 +- 0.1 3.0 +- 0.01 G0F *  - - - - - - 4.9 +- 0.1 4.7 +- 0.01 4.7 +- 0.2 5.0 +- 0.01 4.5 +- 0.02 4.6 +- 0.1 5.0 +- 0.03 4.4 +- 0.01 4.6 +- 0.02 4.5 +- 0.02 4.1 +- 0.05 4.3 +- 0.01 4.5 +- 0.01 4.0 +- 0.03 4.3 +- 0.04 4.1 +- 0.03 3.8 +- 0.03 4.1 +- 0.04 G1F  15.6 +- 2.5 16.4 +- 1.4 15.5 +- 1.2 14.2 +- 2.0 14.9 +- 1.3 14.9 +- 0.8 7.2 +- 0.2 4.9 +- 0.1 4.1 +- 0.7 3.5 +- 0.6 2.3 +- 0.1 2.0 +- 0.2 3.5 +- 0.4 2.0 +- 0.01 1.6 +- 0.2 2.7 +- 0.1 1.3 +- 0.01 1.1 +- 0.03 2.4 +- 0.34 1.2 +- 0.02 1.0 +- 0.1 2.0 +- 0.3 0.9 +- 0.03 0.8 +- 0.1 G1F *  - - - - - - 0.9 +- 0.04 0.9 +- 0.01 0.9 +- 0.1 0.7 +- 0.04 0.7 +- 0.01 0.8 +- 0.1 0.7 +- 0.02 0.7 +- 0.01 0.7 +- 0.04 0.7 +- 0.2 0.7 +- 0.01 0.7 +- 0.1 0.6 +- 0.04 0.8 +- 0.04 0.8 +- 0.2 0.6 +- 0.2 0.7 +- 0.03 0.7 +- 0.02 G0F-N  0.9 +- 0.1 1.4 +- 0.3 1.8 +- 0.2 0.8 +- 0.2 1.5 +- 0.4 2.1 +- 0.2 0.7 +- 0.1 0.6 +- 0.03 0.7 +- 0.02 0.3 +- 0.02 0.3 +- 0.01 0.3 0.3 +- 0.1 - 0.2 +- 0.01 - - - - - - - - - G0F *-N  - - - - - - - - 0.3 +- 0.2 - - 0.2 - - 0.2 +- 0.01 - - - - - - - - - G1F-N  - 0.3 +- 0.1 0.4 +- 0.04 - 0.3 +- 0.1 0.4 +- 0.1 - - - - - - - - - - - - - - - - - - G2F  0.8 +- 0.2 0.9 +- 0.1 0.9 +- 0.1 0.7 +- 0.1 0.8 +- 0.2 0.9 +- 0.03 0.3 +- 0.02 0.3 +- 0.02 0.2 +- 0.03 0.2 - - 0.2 - - - - - - 0.29 - - - - G0  0.7 +- 0.1 0.8 +- 0.1 0.8 +- 0.1 0.8 +- 0.04 0.7 +- 0.1 0.8 +- 0.1 41.8 +- 0.4 53.7 +- 0.3 54.2 +- 2.2 62.8 +- 0.9 66.6 +- 0.2 66.9 +- 0.2 63.1 +- 0.6 69.2 +- 0.3 70.0 +- 0.6 70.6 +- 1.0 73.8 +- 0.2 73.7 +- 0.2 71.7 +- 0.7 73.6 +- 0.6 74.1 +- 0.9 74.7 +- 0.5 75.9 +- 0.7 75.6 +- 0.4 G1  - - - - - - 4.3 +- 0.1 6.7 +- 0.1 6.5 +- 0.7 6.1 +- 0.1 7.7 +- 0.1 7.6 +- 0.6 5.9 +- 0.03 8.2 +- 0.03 7.9 +- 0.6 6.9 +- 0.1 8.4 +- 0.1 8.1 +- 0.3 7.0 +- 0.1 8.7 +- 0.2 8.6 +- 0.5 7.2 +- 0.4 8.7 +- 0.3 8.4 +- 0.5 G2  - - - - - - - - 0.2 0.2 0.3 +- 0.01 0.3 +- 0.03 - 0.3 +- 0.01 0.3 +- 0.1 0.2 0.3 +- 0.01 0.3 +- 0.01 - 0.3 +- 0.02 0.3 +- 0.1 0.2 +- 0.01 0.3 +- 0.01 0.3 +- 0.03 Man5  0.7 +- 0.2 1.8 +- 0.4 3.0 +- 0.3 0.7 +- 0.1 2.1 +- 0.4 3.2 +- 0.3 0.8 +- 0.04 2.2 +- 0.1 3.1 +- 0.4 0.9 +- 0.04 2.3 +- 0.1 3.4 +- 0.3 0.8 +- 0.01 2.3 +- 0.01 3.4 +- 0.2 1.0 +- 0.03 2.4 +- 0.01 3.4 +- 0.2 0.9 +- 0.01 2.5 +- 0.04 3.5 +- 0.2 1.0 +- 0.03 2.5 +- 0.02 3.6 +- 0.2 G0-N  0.2 +- 0.03 0.2 +- 0.2 0.5 +- 0.1 0.3 0.3 +- 0.3 0.4 +- 0.1 0.9 +- 0.1 2.2 +- 0.1 3.5 +- 1.5 1.0 +- 0.01 2.4 +- 0.1 1.0 +- 0.01 1.0 +- 0.1 2.4 +- 0.04 3.2 +- 0.4 1.0 +- 0.1 2.5 +- 0.02 3.2 +- 0.3 1.0 +- 0.02 2.4 +- 0.03 3.2 +- 0.4 3.3 +- 0.6 2.6 +- 0.1 3.3 +- 0.3 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">antibodies-08-00009-t002.xml</infon>
+      <infon key="id">antibodies-08-00009-t002</infon>
+      <infon key="type">table_caption</infon>
+      <offset>42464</offset>
+      <text>Glycan structures of 5-alkynylfucose with and without acetylation (200, 400 and 800 microM) compared to both control conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">antibodies-08-00009-t002.xml</infon>
+      <infon key="id">antibodies-08-00009-t002</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>42593</offset>
+      <text>   represents GlcNAc;  represents mannose;  represents fucose;  represents fucose analogues;  represents galactose.   respective fucose-analogue is indicated with *. The Glycan species were identified through the mass. The percentages of various glycans were calculated according to the relative area of each glycan species as detected using RapiFluor  as labelling reagent. Data are presented as mean values +- SEM and without SEM means that the peaks were only detected in one replicate.</text>
+    </passage>
+  </document>
+</collection>

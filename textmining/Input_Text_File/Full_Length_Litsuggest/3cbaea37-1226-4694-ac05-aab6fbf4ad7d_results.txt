@@ -1,0 +1,127 @@
+Immunoglobulin G, or IgG, produced in mammalian cells remains the largest segment of protein therapeutics. The market size reached 100 billion dollars in 2017 and continued to grow to over 130 therapeutic products approved or under review by the end of 2021.
+
+Protein N‐glycosylation is a post‐translational modification under enzymatic regulation. Within cells, glucose is metabolized into uridine diphosphate‐N‐acetylglucosamine (UDP‐GlcNAc), a precursor that is further modified and attached to the Asn 297 residue of IgG.
+
+Currently, most published reports have characterized antibody glycosylation through the relative distribution of identified glycoforms.
+
+Tunicamycin is a potent inhibitor of protein N‐glycosylation
+
+Although many tools are available for analyzing glycan microheterogeneity,
+
+In this study, we demonstrate a simple yet robust method to simultaneously analyze antibody micro‐ and macroheterogeneity using a high‐throughput LabChip GXII platform (Figure
+
+Sodium oxamate (SOD) was purchased from Cayman Chemicals (Ann Arbor, MI), and SBI‐797812 (SBI) was purchased from Selleck Chemicals (Houston, TX). All other chemicals were purchased from Sigma‐Aldrich (St. Louis, MO) unless stated otherwise. The G0F glycan standard (NIST SRM 3655) and NIST mAb (NIST RM 8671) were provided from NIST (Gaithersburg, MD) through NIIMBL‐supported collaborations.
+
+LabChip glycan analysis was performed with the Glycan Release and Labeling Kit and Glycan Screening Reagent Kit on a High‐Resolution LabChip (Perkin Elmer, Waltham, MA), according to the manufacturer's protocol. Briefly, 1 mg/mL purified antibody sample was prepared from the NIST mAb stock, and 8 μL of the sample was added to a microcentrifuge tube. A total of 4 μL denaturation buffer was added to the sample and incubated at 70°C for 10 min. The sample was cooled for at least 3 min at room temperature, and 5 μL PNGase F was added and incubated at 37°C for 1 h. In parallel, 8 μL of the sample was added to another microcentrifuge tube, and 5 μL of a glycan‐specific fluorescent dye was added. The sample was incubated open to air at 55°C for 2 h or until the sample was completely dry. Finally, the sample was reconstituted in 100 μL deionized water and prepared for analysis in a LabChip GXII Touch instrument (Perkin Elmer, Waltham, MA). The percentage of glycoform and the absolute area were measured by integrating the relative fluorescent units (RFU) of respective glycan peaks, and were analyzed with the LabChip GXII software. Glycoforms were identified with unlabeled glycan standards (Agilent, Santa Clara, CA) and compared with the expected glycan distributions of antibodies analyzed with ultra‐high‐performance liquid chromatography (U/HPLC)
+
+Antibody was purified with a Pierce Protein A Coated Plate (Thermo Fisher Scientific, Waltham, MA). Briefly, the 96‐well plate was washed three times with 400 μL phosphate‐buffered saline (PBS) and centrifuged for 2 min at 300
+
+SPE was performed with a HILIC SPE kit (Waters Corp., Milford, MA) according to the manufacturer's instructions. The SPE plate was first conditioned with deionized water followed by 15:85 (v/v) water:acetonitrile. Then, 10 μL of the G0F standard diluted in acetonitrile was separated with the SPE plate. The plate was washed twice with 1:9:90 (v/v/v) formic acid: water: acetonitrile and the purified glycan was eluted with 200 mM ammonium acetate in 5% acetonitrile. The purified glycan was analyzed identically to purified IgG samples for LabChip glycan analysis.
+
+An antibody‐producing CHO cell line (CHOZN)
+
+To identify appropriate concentrations for the study, we first determined the potential concentration range of SOD and SBI based on concentrations used in the literature.
+
+At predefined days, approximately 600 μL of cell culture fluid was collected, and cells were separated from the spent media by centrifuging at 5000
+
+On predefined days, cells were counted, and 0.5 × 10
+
+Oxygen consumption was measured with an Oxygen Consumption Rate (OCR) Assay Kit (Cayman Chemicals, Ann Arbor, MI) as per the manufacturer's instructions. At predefined days, 0.5 × 10
+
+All assay results were converted to cell‐specific rates using the following formula:
+
+The relative concentration of UDP‐GlcNAc was analyzed as reported previously.
+
+Sodium oxamate (SOD) was purchased from Cayman Chemicals (Ann Arbor, MI), and SBI‐797812 (SBI) was purchased from Selleck Chemicals (Houston, TX). All other chemicals were purchased from Sigma‐Aldrich (St. Louis, MO) unless stated otherwise. The G0F glycan standard (NIST SRM 3655) and NIST mAb (NIST RM 8671) were provided from NIST (Gaithersburg, MD) through NIIMBL‐supported collaborations.
+
+LabChip glycan analysis was performed with the Glycan Release and Labeling Kit and Glycan Screening Reagent Kit on a High‐Resolution LabChip (Perkin Elmer, Waltham, MA), according to the manufacturer's protocol. Briefly, 1 mg/mL purified antibody sample was prepared from the NIST mAb stock, and 8 μL of the sample was added to a microcentrifuge tube. A total of 4 μL denaturation buffer was added to the sample and incubated at 70°C for 10 min. The sample was cooled for at least 3 min at room temperature, and 5 μL PNGase F was added and incubated at 37°C for 1 h. In parallel, 8 μL of the sample was added to another microcentrifuge tube, and 5 μL of a glycan‐specific fluorescent dye was added. The sample was incubated open to air at 55°C for 2 h or until the sample was completely dry. Finally, the sample was reconstituted in 100 μL deionized water and prepared for analysis in a LabChip GXII Touch instrument (Perkin Elmer, Waltham, MA). The percentage of glycoform and the absolute area were measured by integrating the relative fluorescent units (RFU) of respective glycan peaks, and were analyzed with the LabChip GXII software. Glycoforms were identified with unlabeled glycan standards (Agilent, Santa Clara, CA) and compared with the expected glycan distributions of antibodies analyzed with ultra‐high‐performance liquid chromatography (U/HPLC)
+
+Antibody was purified with a Pierce Protein A Coated Plate (Thermo Fisher Scientific, Waltham, MA). Briefly, the 96‐well plate was washed three times with 400 μL phosphate‐buffered saline (PBS) and centrifuged for 2 min at 300
+
+SPE was performed with a HILIC SPE kit (Waters Corp., Milford, MA) according to the manufacturer's instructions. The SPE plate was first conditioned with deionized water followed by 15:85 (v/v) water:acetonitrile. Then, 10 μL of the G0F standard diluted in acetonitrile was separated with the SPE plate. The plate was washed twice with 1:9:90 (v/v/v) formic acid: water: acetonitrile and the purified glycan was eluted with 200 mM ammonium acetate in 5% acetonitrile. The purified glycan was analyzed identically to purified IgG samples for LabChip glycan analysis.
+
+An antibody‐producing CHO cell line (CHOZN)
+
+To identify appropriate concentrations for the study, we first determined the potential concentration range of SOD and SBI based on concentrations used in the literature.
+
+At predefined days, approximately 600 μL of cell culture fluid was collected, and cells were separated from the spent media by centrifuging at 5000
+
+At predefined days, approximately 600 μL of cell culture fluid was collected, and cells were separated from the spent media by centrifuging at 5000
+
+On predefined days, cells were counted, and 0.5 × 10
+
+Oxygen consumption was measured with an Oxygen Consumption Rate (OCR) Assay Kit (Cayman Chemicals, Ann Arbor, MI) as per the manufacturer's instructions. At predefined days, 0.5 × 10
+
+All assay results were converted to cell‐specific rates using the following formula:
+
+The relative concentration of UDP‐GlcNAc was analyzed as reported previously.
+
+To develop a simple yet robust method to analyze simultaneously antibody micro‐ and macroheterogeneity, we first implemented a simple step of normalizing purified antibody concentrations to 1 mg/mL before downstream analysis. Samples retain released glycans without losses since no glycan purification step is needed in the analysis protocol. Thus, the sum of absolute glycan peak areas represents the total concentration of glycan released from a known amount of antibody. The presence of macroheterogeneity, or a loss in glycosylation, will therefore result in a reduced released glycan concentration and a lower absolute peak area (Figure
+
+To validate the reproducibility of our proposed method, we used a NIST mAb reference standard to test the consistency of interday analyses via the LabChip platform. We note that we primarily focus on the analysis of the G0, G0F, G1Fa, G1Fb, and G2F glycoforms due to their relevance to the resulting antibody potency, and because these glycoforms are the primary glycoforms identified in the NIST mAb standard
+
+Next, we aimed to analyze glycan macroheterogeneity by distinguishing the analysis of the incompletely glycosylated and fully glycosylated protein. To date, the absolute quantitation of glycoprotein has been limited by a lack of glycan and glycopeptide standards.
+
+To ensure the amount of incompletely glycosylated protein could be identified, we deglycosylated an in‐house purified antibody sample. We first deglycosylated the sample for 48 h with PNGase F, as described in Section
+
+The LabChip analysis involves microfluidic separation of protein and released glycans in a gel matrix.
+
+Finally, we compared the glycan separation efficiency of solid‐phase separation (SPE) to that of the LabChip. SPE is the most frequently used technique for released glycan separation from protein and salt before downstream analysis by mass spectrometry or U/HPLC.
+
+Up to this point, we have shown that glycosylation macroheterogeneity can be incorporated easily into the analysis pipeline with a simple step of standardizing purified antibody concentration before denaturation and release. The LabChip platform is extremely well‐suited for such analysis due to its separation‐free nature and low requirement for user manipulation and liquid handling. Therefore, we used the developed method to analyze antibody glycosylation micro‐ and macroheterogeneity during antibody production under different media conditions.
+
+Glucose is a major nutrient necessary for cell growth and proliferation. Glucose is first metabolized to pyruvate and then to lactate through glycolysis or acetyl‐CoA through the citric acid cycle. The citric acid cycle is also involved in the nucleotide synthesis process for protein and ATP production, resulting in oxidative phosphorylation (OXPHOS). Often overlooked is that glucose is a necessary component in the hexosamine biosynthesis pathway (HBP) to synthesize glycan building blocks, namely, UDP‐GlcNAc. This precursor resides in the endoplasmic reticulum and enables glycoconjugate formation in the Golgi apparatus, such that low glucose levels could reduce glycan addition. The specific fate of glucose is thus determined by the utilization efficiency of these pathways.
+
+As a result, we hypothesized that by controlling the flux to specific metabolic pathways, we could observe changes in glycosylation, either through glycan micro‐ or macroheterogeneity. This phenomenon was first studied by Nyberg et al.,
+
+Towards the end of the culture, cell death can signal proteasomal or lysosomal glycoprotein degradation.
+
+The selected chemicals, SBI (5 μM) and SOD (10 mM) did not impose any negative effects on CHO cell growth or viability (Figure
+
+The fed‐batch cultures were harvested on Day 8 and analyzed for glycan heterogeneity. Here the G0, G0F, G1Fa, G1Fb, and G2F glycoforms are the primary glycan species produced in our production cell line, and high‐mannose or sialylated glycans were not produced at detectable amounts.
+
+However, the G1Fb glycoform was reduced in both SOD‐ and SBI‐supplemented cultures, while the overall change in % galactosylation was not significantly different (galactosylation index
+
+The complete set of measurements from the experiment (Figure
+
+Abbreviation: ND, not determined.
+
+We next determined glycan macroheterogeneity, as opposed to the distribution of the relative glycoforms. The quantified glycan amount in unsupplemented cultures (8.8 μg/mL) was comparable to 9.17 μg/mL that was previously reported in a mAb with a similar glycosylation profile.
+
+To determine why the addition of SOD reduced overall antibody glycosylation, we next analyzed the reduction in available glycans in SOD‐supplemented cultures. First, we analyzed the UDP‐GlcNAc pool of SOD‐supplemented culture. Consistent with reduced overall glycosylation, a reduction in UDP‐GlcNAc concentration was observed, which would reduce the glycan precursors available to develop the mature glycoform (Figure
+
+To develop a simple yet robust method to analyze simultaneously antibody micro‐ and macroheterogeneity, we first implemented a simple step of normalizing purified antibody concentrations to 1 mg/mL before downstream analysis. Samples retain released glycans without losses since no glycan purification step is needed in the analysis protocol. Thus, the sum of absolute glycan peak areas represents the total concentration of glycan released from a known amount of antibody. The presence of macroheterogeneity, or a loss in glycosylation, will therefore result in a reduced released glycan concentration and a lower absolute peak area (Figure
+
+To validate the reproducibility of our proposed method, we used a NIST mAb reference standard to test the consistency of interday analyses via the LabChip platform. We note that we primarily focus on the analysis of the G0, G0F, G1Fa, G1Fb, and G2F glycoforms due to their relevance to the resulting antibody potency, and because these glycoforms are the primary glycoforms identified in the NIST mAb standard
+
+Next, we aimed to analyze glycan macroheterogeneity by distinguishing the analysis of the incompletely glycosylated and fully glycosylated protein. To date, the absolute quantitation of glycoprotein has been limited by a lack of glycan and glycopeptide standards.
+
+To ensure the amount of incompletely glycosylated protein could be identified, we deglycosylated an in‐house purified antibody sample. We first deglycosylated the sample for 48 h with PNGase F, as described in Section
+
+The LabChip analysis involves microfluidic separation of protein and released glycans in a gel matrix.
+
+Finally, we compared the glycan separation efficiency of solid‐phase separation (SPE) to that of the LabChip. SPE is the most frequently used technique for released glycan separation from protein and salt before downstream analysis by mass spectrometry or U/HPLC.
+
+Up to this point, we have shown that glycosylation macroheterogeneity can be incorporated easily into the analysis pipeline with a simple step of standardizing purified antibody concentration before denaturation and release. The LabChip platform is extremely well‐suited for such analysis due to its separation‐free nature and low requirement for user manipulation and liquid handling. Therefore, we used the developed method to analyze antibody glycosylation micro‐ and macroheterogeneity during antibody production under different media conditions.
+
+Glucose is a major nutrient necessary for cell growth and proliferation. Glucose is first metabolized to pyruvate and then to lactate through glycolysis or acetyl‐CoA through the citric acid cycle. The citric acid cycle is also involved in the nucleotide synthesis process for protein and ATP production, resulting in oxidative phosphorylation (OXPHOS). Often overlooked is that glucose is a necessary component in the hexosamine biosynthesis pathway (HBP) to synthesize glycan building blocks, namely, UDP‐GlcNAc. This precursor resides in the endoplasmic reticulum and enables glycoconjugate formation in the Golgi apparatus, such that low glucose levels could reduce glycan addition. The specific fate of glucose is thus determined by the utilization efficiency of these pathways.
+
+As a result, we hypothesized that by controlling the flux to specific metabolic pathways, we could observe changes in glycosylation, either through glycan micro‐ or macroheterogeneity. This phenomenon was first studied by Nyberg et al.,
+
+Towards the end of the culture, cell death can signal proteasomal or lysosomal glycoprotein degradation.
+
+The selected chemicals, SBI (5 μM) and SOD (10 mM) did not impose any negative effects on CHO cell growth or viability (Figure
+
+The fed‐batch cultures were harvested on Day 8 and analyzed for glycan heterogeneity. Here the G0, G0F, G1Fa, G1Fb, and G2F glycoforms are the primary glycan species produced in our production cell line, and high‐mannose or sialylated glycans were not produced at detectable amounts.
+
+However, the G1Fb glycoform was reduced in both SOD‐ and SBI‐supplemented cultures, while the overall change in % galactosylation was not significantly different (galactosylation index
+
+The complete set of measurements from the experiment (Figure
+
+Abbreviation: ND, not determined.
+
+We next determined glycan macroheterogeneity, as opposed to the distribution of the relative glycoforms. The quantified glycan amount in unsupplemented cultures (8.8 μg/mL) was comparable to 9.17 μg/mL that was previously reported in a mAb with a similar glycosylation profile.
+
+To determine why the addition of SOD reduced overall antibody glycosylation, we next analyzed the reduction in available glycans in SOD‐supplemented cultures. First, we analyzed the UDP‐GlcNAc pool of SOD‐supplemented culture. Consistent with reduced overall glycosylation, a reduction in UDP‐GlcNAc concentration was observed, which would reduce the glycan precursors available to develop the mature glycoform (Figure
+
+Overall, the method we propose here shows good performance, precision, and consistency in quantifying both the absolute and relative amount of glycan released from the glycoprotein, as a robust metric for analysis of both antibody glycan micro‐ and macroheterogeneity. Through our case study, we also show SOD strongly regulated CHO cell metabolism and altered the glycosylation efficiency of the resulting IgG produced. Importantly, our result suggests elevated ROS and ER stress levels may disrupt glycan processing in the ER and Golgi apparatus, resulting in under‐glycosylated antibodies. Thus, we recommend analyzing antibody macroheterogeneity as a part of the antibody analysis pipeline to select conditions that improve antibody production and glycosylation without compromising glycan occupancy. Although our analysis is less sensitive compared to MS, it is straightforward and rapid, and thus can be easily incorporated for screening experiments before scale‐up and will save significant time and expense during process development.

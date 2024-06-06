@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>7946005</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Izadi;given-names:Saeed</infon>
+      <infon key="name_2">surname:Cadang;given-names:Lance</infon>
+      <infon key="name_1">surname:Gao;given-names:Xuan</infon>
+      <infon key="article-id_pmid">33682619</infon>
+      <infon key="name_0">surname:Wei;given-names:Bingchuan</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">7946005</infon>
+      <infon key="article-id_publisher-id">1893427</infon>
+      <infon key="article-id_doi">10.1080/19420862.2021.1893427</infon>
+      <infon key="title">KEYWORDS</infon>
+      <infon key="type">front</infon>
+      <infon key="name_20">surname:Zhang;given-names:Yonghua Taylor</infon>
+      <infon key="name_21">surname:Jiang;given-names:Guoying</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="issue">1</infon>
+      <infon key="alt-title">B. WEI ET AL. MABS</infon>
+      <infon key="elocation-id">1893427</infon>
+      <infon key="volume">13</infon>
+      <infon key="license">This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/4.0/), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_10">surname:Dai;given-names:Lu</infon>
+      <infon key="name_13">surname:Wang;given-names:Christopher</infon>
+      <infon key="name_14">surname:Whang;given-names:Kevin</infon>
+      <infon key="name_11">surname:Phung;given-names:Wilson</infon>
+      <infon key="name_12">surname:Lin;given-names:Elaine</infon>
+      <infon key="name_17">surname:Camperi;given-names:Julien</infon>
+      <infon key="kwd">monoclona antibody; IgG1 galactosylation CDC; CHO Cell Culture CQA; mass Spectrometry kinetics</infon>
+      <infon key="name_18">surname:Zhang;given-names:Jennifer</infon>
+      <infon key="name_15">surname:Sanchez;given-names:Sean</infon>
+      <infon key="name_9">surname:Pabon;given-names:Juan Rincon</infon>
+      <infon key="name_16">surname:Oropeza Jr;given-names:Jose</infon>
+      <infon key="name_8">surname:Magill;given-names:Gordon</infon>
+      <infon key="name_7">surname:Shim;given-names:Jeongsup</infon>
+      <infon key="name_6">surname:Hecht;given-names:Elizabeth</infon>
+      <infon key="name_19">surname:Sandoval;given-names:Wendy</infon>
+      <infon key="name_5">surname:Zhang;given-names:Hui-Min</infon>
+      <infon key="name_4">surname:Liu;given-names:Peilu</infon>
+      <offset>0</offset>
+      <text>Fc galactosylation follows consecutive reaction kinetics and enhances immunoglobulin G hexamerization for complement activation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>128</offset>
+      <text>ABSTRACT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>137</offset>
+      <text>Fc galactosylation is a critical quality attribute for anti-tumor recombinant immunoglobulin G (IgG)-based monoclonal antibody (mAb) therapeutics with complement-dependent cytotoxicity (CDC) as the mechanism of action. Although the correlation between galactosylation and CDC has been known, the underlying structure-function relationship is unclear. Heterogeneity of the Fc N-glycosylation produced by Chinese hamster ovary (CHO) cell culture biomanufacturing process leads to variable CDC potency. Here, we derived a kinetic model of galactose transfer reaction in the Golgi apparatus and used this model to determine the correlation between differently galactosylated species from CHO cell culture process. The model was validated by a retrospective data analysis of more than 800 historical samples from small-scale and large-scale CHO cell cultures. Furthermore, using various analytical technologies, we discovered the molecular basis for Fc glycan terminal galactosylation changing the three-dimensional conformation of the Fc, which facilitates the IgG1 hexamerization, thus enhancing C1q avidity and subsequent complement activation. Our study offers insight into the formation of galactosylated species, as well as a novel three-dimensional understanding of the structure-function relationship of terminal galactose to complement activation in mAb therapeutics.</text>
+      <annotation id="1">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:56:38Z</infon>
+        <location offset="137" length="18"/>
+        <text>Fc galactosylation</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:57:05Z</infon>
+        <location offset="288" length="33"/>
+        <text>complement-dependent cytotoxicity</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:57:19Z</infon>
+        <location offset="389" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:57:27Z</infon>
+        <location offset="409" length="3"/>
+        <text>CDC</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:57:42Z</infon>
+        <location offset="488" length="39"/>
+        <text>Heterogeneity of the Fc N-glycosylation</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:57:55Z</infon>
+        <location offset="624" length="11"/>
+        <text>CDC potency</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:58:30Z</infon>
+        <location offset="673" length="27"/>
+        <text>galactose transfer reaction</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:58:36Z</infon>
+        <location offset="793" length="22"/>
+        <text>galactosylated species</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:59:13Z</infon>
+        <location offset="1082" length="34"/>
+        <text>Fc glycan terminal galactosylation</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:59:23Z</infon>
+        <location offset="1194" length="19"/>
+        <text>IgG1 hexamerization</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:59:36Z</infon>
+        <location offset="1230" length="11"/>
+        <text>C1q avidity</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T19:59:45Z</infon>
+        <location offset="1257" length="21"/>
+        <text>complement activation</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:00:03Z</infon>
+        <location offset="1444" length="18"/>
+        <text>terminal galactose</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:00:10Z</infon>
+        <location offset="1466" length="21"/>
+        <text>complement activation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1513</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_1893427_F0001_PB.jpg</infon>
+      <infon key="id">f0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>1526</offset>
+      <text>N-Glycan synthesis pathway and correlation between different galactosylation species. (a) IgG1 N-glycan synthesis pathway in Golgi apparatus. The IgG enters the Golgi apparatus from the endoplasmic reticulum (ER) with the Man9 glycan on Fc. The glycan is further modified with the pathway shown in the figure. alpha-Man I and II: alpha-mannosidase I and II; GnT I, II, III and IV: GlcNAc-transferase I, II, III and IV; Gal-T: beta-1,4 galactosyltransferases; alpha2,3 Sialyl-T: alpha-2,3 sialyltransferase; alpha-2,6 Sialyl-T: alpha-2,6 sialyltransferase; (b) Correlation between G1 and G0(left), G2 and G0 (right) with 12,000 L drug substance batches data (N = 410). Each point represents one 12,000 L batch data. Each IgG molecule is represented by a different color. Solid lines represents the theoretical derived curve based on the consecutive kinetic model</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2388</offset>
+      <text>Recombinant monoclonal antibodies (mAbs) are the largest and fastest-growing segment of the biologic therapeutic market., Immunoglobulin G (IgG) is the dominant form of mAb drugs among all five classes of human antibodies. Chinese hamster ovary (CHO) cell fed-batch processes are the most commonly used expression system for full-length antibodies. The IgG mAbs manufactured by CHO cell culture undergo N-linked glycosylation in the CH2 domain, typically at N297. Fc glycosylation is a critical quality attribute because it influences the mechanism of action (MOA) involving effector functions, such as complement-dependent cytotoxicity (CDC) and antibody-dependent cell-mediated cytotoxicity (ADCC), as well as immunogenicity and pharmacokinetics. During the CHO cell culture process, the Fc glycans of the IgG are pre-modified in the endoplasmic reticulum and finally formed in the Golgi apparatus through various pathways (Figure 1a). Despite a tremendous number of experimental and modeling efforts on understand N-glycan formation in CHO cell culture process, the heterogeneity and manufacturing inconsistency of N-glycans remain the fundamental challenges for CHO cell culture processes. Terminal galactose is one of the major contributors of IgG glycan variation, such as in the case of rituximab, but the kinetic and mechanistic understanding of terminal galactose formation during CHO cell culture process is still lacking.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3821</offset>
+      <text>CDC, an effector function of IgG from the classical complement pathway, plays a critical role in the MOA of several US Food and Drug Administration-approved mAb therapeutics, including rituximab, ofatumumab, and I-tositumomAb. When IgGs bind to the antigen on the surface of the target cell, the classical complement pathway is triggered by binding protein Complement component 1q (C1q) to the antibody, forming a membrane attack complex and leading to tumor cell lysis. Diebolder et al. discovered IgG1s hexamerize orderly through Fc interaction after antigen binding at the cell surface, and then bind to C1q, which leads to effective complement activation. The binding sites between IgG1 hexamer and C1q in the structure complex were identified recently. Van den Bremer et al. demonstrated charge variants at the C terminus, such as C-terminal lysine, may hinder hexamer formation. Wang et al. found the presence of asparagine (N)-linked glycans affect hexamerization, which implies the conformation of the Fc plays a key role in hexamerization. The post-translational modifications of IgG1s, especially the modifications on Fc, could affect the formation of IgG1 hexamerization, and hence affect C1q binding and CDC potency. As an important part of the Fc glycan, terminal galactose was found to affect protein conformation and promote the activation of the complement system by increasing C1q binding affinities. However, the structural and functional correlations between Fc galactosylation and CDC potency remain unclear.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5350</offset>
+      <text>In this study, we investigated the kinetics of terminal galactose formation during CHO cell culture process, galactosylation-mediated protein conformation, and CDC potency variation to understand the structural, functional and mechanistic aspect of Fc galactosylation and CDC potency. We derived a novel kinetic model for galactosylation in CHO cell culture process with the assumption of the galactose transfer reactions following a two-step consecutive reaction hypothesis and validated the model with small-scale and large-scale cell culture batches across five years manufacturing experiences and 11 different molecules. Various analytical and biological tools were used to characterize the glycoengineered IgGs to unveil the structural and functional impact of Fc galactosylation on CDC potency.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>6151</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6159</offset>
+      <text>The Fc glycan distribution of the IgG was measured by applying hydrophilic interaction chromatography (HILIC) to enzymatically released glycans. In a typical HILIC chromatogram of CHO-derived mAbs, high mannose (Man5 - Man9), sialylated (G1S1, G2S2 and G2S1) and bisecting N-acetylglucosamine (TriG0) species are present at relatively low levels (&lt;2%). The majority of the Fc glycans belong to three categories: zero (G0), one (G1) and two (G2) terminal galactoses (Figure S1). The galactose transfer reaction (Box in Figure 1a) is the major rate-limiting step during the Fc glycosylation. The extent of mAb A galactosylation were measured with both HILIC released glycan method at the released glycan level and time-of-flight mass spectrometry (TOF-MS) at the intact protein level. As shown in Figure S2, the intact protein level Fc galactosylation distribution reconstructed by the released glycan data following binominal distribution agrees well with the experimental results of TOF-MS. The results demonstrate the galactose transfer reaction is independent on the glycan structure on the other arm. Based on these observations, we hypothesize that: 1) the galactose transfer reaction in the Golgi apparatus follows consecutive reaction kinetics, and 2) the reaction rate constant of the galactose transfer reaction for G0 is twice that of G1 based on number of reactions sites (Box in Figure 1a). With the hypothesis, the equation of the time dependence of the concentration of each galactosylation species is derived as follows: </text>
+      <annotation id="15">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:02:22Z</infon>
+        <location offset="6641" length="27"/>
+        <text>galactose transfer reaction</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:02:26Z</infon>
+        <location offset="6731" length="16"/>
+        <text>Fc glycosylation</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:03:01Z</infon>
+        <location offset="7451" length="27"/>
+        <text>galactose transfer reaction</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:03:04Z</infon>
+        <location offset="7483" length="2"/>
+        <text>G0</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:03:11Z</infon>
+        <location offset="7503" length="2"/>
+        <text>G1</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7697</offset>
+      <text>In these equations, the k is the rate constant of the galactosylation reaction, t is the reaction time and [G0]0 is the starting concentration of G0. Using these formulas, we can derive the correlations between the relative abundance of different galactosylated species (see supplemental information for the detailed derivation process).  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8037</offset>
+      <text>In this equation, %G0, %G1 and %G2 are the relative abundance of the particular galactosylation species relative to the total number of mAb measured by HILIC. These correlations between various galactosylation species are independent from the rate constant and cultural time, and should apply to any type of CHO cell culture process based on the derivation process. To test this hypothesized correlation, a retrospective analysis on the batch release data of 410 historical drug substance batches manufactured at 12,000 L scale under the Good Manufacturing Practice (GMP) environment, including six different IgG1s, one IgG4 (Figure 1b and 1c) and the process validation data of 426 historical small-scale cell culture research and development (R&amp;D) samples at 2 L scale, including four different IgG1s and three different IgG4s (Figure S3) were performed. All the IgG1s with various levels of galactosylation under both GMP and R&amp;D environments show good fit with the hypothesized correlations, but the IgG4s show some deviations from the model.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_1893427_F0002_B.jpg</infon>
+      <infon key="id">f0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>9086</offset>
+      <text>(a) The linear regression analysis of total %G0 correlation and reaction time with rate-controlled galactose transfer reaction of mAb A; (b) The linear regression analysis of the CDC potency of mAb A and moles of galactose per heavy chain</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9325</offset>
+      <text>To establish the correlation between the CDC potency and Fc galactosylation, a glycoengineering method was developed to generate IgG galactosylation variants predictively. Compared with the previous method, the new method controls the rate of the reaction with a lower enzyme concentration, manganese concentration, and temperature, and includes a quench step using ethylenediaminetetraacetic acid (EDTA) to chelate the manganese cofactor in the solution. The level of Fc galactosylation is well controlled by the reaction time (Figure 2a). A comprehensive library of mAb A galactosylation variants were produced using this glycoengineering method. In addition, a linear correlation was found between the CDC potency and total galactose per heavy chain using this set of galactosylation variants, which aligns well with the previous studies. (Figure 2b)</text>
+      <annotation id="20">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:04:22Z</infon>
+        <location offset="9794" length="18"/>
+        <text>Fc galactosylation</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:04:34Z</infon>
+        <location offset="9839" length="13"/>
+        <text>reaction time</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:04:53Z</infon>
+        <location offset="10030" length="11"/>
+        <text>CDC potency</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:04:57Z</infon>
+        <location offset="10046" length="31"/>
+        <text>total galactose per heavy chain</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_1893427_F0003_PB.jpg</infon>
+      <infon key="id">f0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>10179</offset>
+      <text>Characterization of hypogalactosylated and hypergalactosylated mAb A. (a) C1q binding and CDC potency of hypogalactosylated mAb A and hypergalactosylated mAb A; (b) Time-course of deuterium incorporation results (including ARDD) for HC CH2 Domain peptide segment 246-256; (c) The Fc region of a single hypogalactosylated mAb A joined by the disulfide bonds at the hinge region. The glycans and the proteins are shown using space-filling and cartoon representations, respectively. The peptide with different hydrogen/deuterium exchange rate between hypogalactosylated and hypergalactosylated mAb A is colored in orange; (d) Top view and front view of representative Fc structures of mAb A with and without terminal galactose obtained from 10 mus explicit solvent Molecular Dynamics simulations. The glycans and the proteins are shown using space-filling and cartoon representations, respectively. The terminal galactose in the hypergalactosylated structure are colored in orange</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11160</offset>
+      <text>We further investigated the mechanism by which terminal galactose affects CDC potency. The hypogalactosylated mAb A (mAb A with a low level of galactosylation (&gt;85% G0)) and hypergalactosylated mAb A (mAb A with a high level of galactosylation (&gt;85% G2)) were generated through enzymatic reactions. The CDC potency of these two samples was tested with a cell-based potency assay and the relative binding activity of C1q was evaluated through surface plasma resonance (SPR). The C1q binding activity of hypergalactosylated mAb A was 20% higher than that of the hypogalactosylated mAb A. The relative CDC potency of hypergalactosylated mAb A was approximately double that of the hypogalactosylated mAb A (Figure 3a).</text>
+      <annotation id="25">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:06:32Z</infon>
+        <location offset="11638" length="20"/>
+        <text>C1q binding activity</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:06:22Z</infon>
+        <location offset="11662" length="23"/>
+        <text>hypergalactosylated mAb</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:06:43Z</infon>
+        <location offset="11720" length="22"/>
+        <text>hypogalactosylated mAb</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:06:58Z</infon>
+        <location offset="11759" length="11"/>
+        <text>CDC potency</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:07:10Z</infon>
+        <location offset="11774" length="23"/>
+        <text>hypergalactosylated mAb</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:07:16Z</infon>
+        <location offset="11837" length="22"/>
+        <text>hypogalactosylated mAb</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11875</offset>
+      <text>Since the hexamer of IgG1 forms through Fc-Fc interaction on the cell surface, Fc galactosylation may affect hexamer formation by altering the Fc conformation. To probe the Fc conformational change from galactosylation, we analyzed the hypogalactosylated and hypergalactosylated mAb A with hydrogen/deuterium exchange mass spectrometry (HDX-MS). No significant differences in hydrogen/deuterium (H/D) exchange uptake were found in the variable heavy chain, light chain, CH1 and CH3 domains between the two samples, including the C1q binding sites (D270, K322, P329 and P33124,), meaning that the galactosylation does not directly alter the conformation of the C1q binding sites. The only peptide segment with a different H/D exchange uptake between hypogalactosylated and hypergalactosylated mAb (Figure 3b) is peptide 246-257 located in the CH2 domain, which agrees well with the previous study. This specific region was found to be a critical site for hexamer formation (orange cluster in Figure 3c).</text>
+      <annotation id="30">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:08:04Z</infon>
+        <location offset="11954" length="18"/>
+        <text>Fc galactosylation</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:08:16Z</infon>
+        <location offset="11984" length="17"/>
+        <text>hexamer formation</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:08:40Z</infon>
+        <location offset="12471" length="14"/>
+        <text>galactosylatio</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:08:49Z</infon>
+        <location offset="12515" length="37"/>
+        <text>conformation of the C1q binding sites</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12880</offset>
+      <text>To better understand the effect of galactosylation on the Fc conformation, we performed 10  explicit solvent Molecular Dynamics (MD) simulation of the Fc with and without the terminal galactose. The simulation results show that the conformations of the Fc domain with and without galactose are dramatically different. The representative conformational structures obtained from a clustering analysis of the combined MD trajectories show that the entire glycan structures are buried within the Fc for hypogalactosylated species whereas glycans extend outside for hypergalactosylated Fc (Figure 3d, Video S1 and S2). The glycans are further apart in the hypergalactosylated species than in the hypogalactosylated species, as observed by the histogram calculation of the distances between center of mass of the two glycans (Figure S4). The hypergalactosylated Fc dimer also has less backbone fluctuation than the hypogalactosylated Fc dimer (Figure S5). These MD results show when the glycans are buried inside the Fc core in the hypogalactosylated Fc dimer, the glycans tend to interact more strongly with each other and that results in a more compact structure. On the other hand, the glycans are extended outside the Fc core in the hypergalactosylated Fc dimer and solvates in water. Glycans are more flexible and spaced further apart.</text>
+      <annotation id="34">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:09:31Z</infon>
+        <location offset="13112" length="30"/>
+        <text>conformations of the Fc domain</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:09:35Z</infon>
+        <location offset="13160" length="9"/>
+        <text>galactose</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_1893427_F0004_PB.jpg</infon>
+      <infon key="id">f0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14215</offset>
+      <text>Characterization of hypogalactosylated and hypergalactosylated mAb B RGY mutants. (a) Reconstructed native mass spectra of hypogalactosylated and hypergalactosylated mAb B hexamer showing the mass to charge ratio (m/z) distribution shift from the galactosylation level difference; (b) Size exclusion chromatogram of hypogalactosylated and hypergalactosylated mAb B RGY mutants showing the Fc galactosylation enhance the hexamer formation; (c) Time-course of deuterium incorporation results for same HC CH2 Domain peptide in Figure 3</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14748</offset>
+      <text>Diebolder et al. discovered that combining E345R, E430G and S440Y (RGY) mutations stabilizes IgG1 hexamer in solution. The RGY mutant of mAb B, an IgG1 with the same Fc as mAb A was produced to study the terminal galactose impact on the IgG1 hexamer. Native MS shows the existence of monomer, dimer, and hexamer of the RGY mutant of mAb B in solution (Figure S6A). The pentamer was generated from in-source fragmentation of the hexamer during electrospray ionization, which is confirmed by isolation of the hexamer ions (Figure S6B). The RGY mutant was glycoengineered under 40C to prevent thermally induced hexamer dissociation. The native MS spectra (Figure 4a) shows the shifted m/z spectrum resulting from the addition of terminal galactose hypergalactose hexamers are expected to have stronger Fc interaction, which could potentially mask solvent-exposed amino acids with high proton affinities. Compared to the hypo- species, the hypergalactose species was observed with significantly lower charge states, supporting this change in structure.</text>
+      <annotation id="36">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:15:04Z</infon>
+        <location offset="15474" length="42"/>
+        <text>terminal galactose hypergalactose hexamers</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:15:26Z</infon>
+        <location offset="15547" length="14"/>
+        <text>Fc interaction</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15799</offset>
+      <text>Size exclusion chromatography (SEC) was used to analyze the size distribution of both RGY mutants of mAb B and multi-angle light scattering (MALS) was used for peak attribution. All three mAb B mutants were separated into two peaks. (Figure 4b) The MALS characterization results (Figure S7, Table S1) shows the front peak has a molar mass around 900 kDa and the back peak has a molar mass around 150 kDa. The MALS results confirm the front peak is mAb B hexamer and the back peak is mAb B monomer. The overlaid chromatogram (Figure 4b) shows that the hypergalactosylated RGY mutant of mAb B has near twice as much hexamer in free solution as the hypogalactosylated RGY mutant of mAb B. The SEC result and glycan distribution is shown in Table S2. The glycan distribution and native MS data on hexamer show the hypergalactosylated variants are enriched in the hexamer. The HDX-MS results of hypergalactosylated and hypogalactosylated mAb B RGY mutants show the decreased deuterium uptake in the same segment on the CH2 domain in mAb A (Figure 4c), consistent with the mAb A HDX result. This result confirms conformational change induced by Fc galactosylation stabilizes the hexamer. H/D exchange results also demonstrate the hypergalactosylated mutant offered more solvent protection of the CH3 domain 432-446 region (Figure S8A), which is also a critical site in Fc dimer formation (Figure S8B). The characterization results of glycoengineered mAb B RGY mutants proved that the presence of a terminal galactose enhances the IgG hexamer formation for complement activation.</text>
+      <annotation id="38">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:18:08Z</infon>
+        <location offset="16350" length="19"/>
+        <text>hypergalactosylated</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:18:16Z</infon>
+        <location offset="16413" length="7"/>
+        <text>hexamer</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:18:29Z</infon>
+        <location offset="16609" length="19"/>
+        <text>hypergalactosylated</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:18:39Z</infon>
+        <location offset="16658" length="7"/>
+        <text>hexamer</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:19:08Z</infon>
+        <location offset="16938" length="18"/>
+        <text>Fc galactosylation</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:19:22Z</infon>
+        <location offset="16972" length="7"/>
+        <text>hexamer</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:19:32Z</infon>
+        <location offset="17291" length="18"/>
+        <text>terminal galactose</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:19:57Z</infon>
+        <location offset="17323" length="47"/>
+        <text>IgG hexamer formation for complement activation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>17374</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17385</offset>
+      <text>We first proposed a consecutive model based on the glycosylation pathway shown in Figure 1a to describe the kinetics of galactosylation reaction of IgG1 in the Golgi apparatus of the CHO cell. The model was then validated by the good fit with large-scale manufacturing and small-scale R&amp;D data. The data from small-scale R&amp;D studies show slightly larger deviation, which might come from the higher heterogeneity between a small-scale bioreactors and different mixing mode, or even intentionally deviated cell culture conditions for R&amp;D purposes. The IgG4s in this study are observed to deviate from the correlation by having less G1 and more G2 since the %G0 is below 70%. In this case, the second hypothesis is invalid. The galactose transfer reaction for IgG4 is relatively faster on G1 than on G0. The reason remains unclear, but might potentially link to the unique Fc conformation of IgG4. Although validating this correlation still requires more biological and physicochemical studies to reveal the entire process of galactose transfer in CHO cell culture under various conditions, the correlation derived from the consecutive reaction model could be used as tool to estimate the levels of each galactosylation species. The total galactose vs. %G0 plot from the model (Figure S9) is close to linear in the typical manufacturing region with the %G0 between 40% and 100%. Therefore, %G0 is a suitable surrogate for the inverse of total galactose to monitor for the purposes of quality control and process monitoring because %G0 is typically the most abundant glycoform and easier to measure precisely.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18991</offset>
+      <text>Although the Fc galactosylation could significantly enhance CDC potency, the mechanism is not very well understood. We first characterized the hypogalactosylated and hypergalactosylated IgG1 monomer with C1q binding in an SPR assay and a cell-based CDC potency assay. The difference in CDC potency between hypogalactosylated and hypergalactosylated variants is significantly higher than the increase of C1q binding affinity. A previous report showed that differences in C1q binding affinity for mAb galactosylation variants were similar to the difference of CDC potency, while the C1q binding was measured by immobilizing the mAb on the cell surface. Combining the results of both studies, one possible explanation of this unexpected mismatch in the results could be that Fc galactosylation elevates complement activation mainly through enhancing hexamerization on the cell surface because mAb only forms hexamers on the cell surface, but not on the gold surface because of differences in immobilization. The explanation is based on the hypothesis that CDC potency is enhanced by terminal galactose mainly because of increased mAb hexamerization.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20138</offset>
+      <text>To test this hypothesis, we investigated potential factors that could influence hexamerization in mAbs. The HDX-MS shows the hypergalactosylated mAb A has less deuterium uptake in the CH2 domain 246-257 region. This result demonstrates Fc galactosylation decreased the local solvent accessibility in this region and potentially disturbed the local hydrogen bonding; in other words, it increases the local hydrophobicity in the CH2 domain. Diebolder et al. showed IgG1-7D8 and its three mutants (I253A, I253Y and I253D) with descending order of CDC potency corresponding to the decreasing hydrophobicity of the mutated amino acid, as well as the increasing solvent accessibility in the same region in the CH2 domain (Table S3). In summary, both studies show the changes at the CH2 domain 246-257 region related to solvent-related interaction elevates the CDC potency of the mAb without directly affecting the C1q binding site to the mAb monomer. After we understood the galactosylation impact on the conformation of the mAb monomer, MD studies were used to understand the impact of galactosylation on Fc-Fc interaction. From the MD results, the Fc-Fc complexes are more stable with the terminal galactose with less steric effect and between solvation of the hydrophilic glycan groups. The MD data indicates that the galactosylation might affect the Fc-Fc interaction in the dimer, which is one important step of hexamer formation. Based on the HDX and MD results, we therefore hypothesize that Fc galactosylation affects Fc conformation and Fc-Fc interaction, which leads to the enhancement of hexamer formation and subsequently CDC potency. However, to test this hypothesis, more direct experimental evidence is required to demonstrate that terminal galactosylation enhances the IgG hexamer formation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21944</offset>
+      <text>Typically, IgG hexamers only form on the cell surface after antigen binding and are not detectable in solution. We used the RGY-mutated mAb B to study the IgG1 hexamer structure because the hexamer of RGY mutant is stable in solution. Native MS has previously been used to analyze antibody hexamers, and was used in our study to confirm the existence of stable IgG hexamer in solution. Since Heck's seminal work, other groups have applied this method to look at noncovalent lipids, stoichiometry questions, and the incorporation of backbone mutations. In this study, we observed that the MS conditions to release the monomer from the hexamer caused some backbone fragmentation of the glycans. The addition of a galactose to the hexamer at a charge of 66 would correspond to mass shift of 2.45 m/z units, requiring a resolution of 35000 @ 200 m/z, compared to a mass shift of ~8 Da if the released monomer was analyzed. Traditionally, lower resolution is used for large, unstable ions to limit signal decay, creating challenges for the MS tuning of this sample. Using post-signal processing and smoothing in Unidec 4.1, a mass shift of approximately 1650 Da was determined between the two species, which is equivalent to the mass of ~10 galactose. The HDX-MS on mAb B hexamer galactosylation variants shows the same results on the CH2 domain as monomer and increased protection in CH3 domain, which is the hexamer binding site. The SEC-MALS results on glycoengineering of mAb B RGY mutant provide clear proof that Fc galactosylation enhances IgG hexamerization.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23509</offset>
+      <text>In conclusion, we performed a systematic study on the formation and structure-function relationship of recombinant mAb Fc galactosylation and related biological activities. The galactosylation reaction of IgG1 in the Golgi apparatus of the CHO cell was described by a consecutive kinetic model and validated by hundreds of GMP manufacturing and R&amp;D data points. The structural and functional studies reveal a molecular basis for Fc galactosylation-enhanced antibody hexamer formation, which is the primary source of increased complement activation through changes in the three-dimensional conformation of the mAb Fc region. These important new findings offer in-depth structural and functional insights into the Fc galactosylation and will help future mAb therapeutics development.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>24291</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>24313</offset>
+      <text>Materials</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24323</offset>
+      <text>MAb A, a humanized monoclonal antibody IgG1 with CDC potency, was produced and purified at Genentech Inc. (South San Francisco, CA, USA). MAb B with E345R, E430G and S440Y (RGY) mutant was produced in Wuxi AppTec (Shanghai, China). The sialidase A, beta-1,4-galactosidase and PNGase F were purchased from New England Biolabs (Ipswich, MA, USA). All other chemicals and reagents were purchased from Millipore-Sigma (St. Louis, MO, USA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>24759</offset>
+      <text>Glycoengineering of mAb A</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24785</offset>
+      <text>The hypogalactosylated mAb A variant was prepared by incubating 100 muL 30 mg/mL mAb A drug substance with sialidase A (10 milliunits/mg protein) and beta-1,4-galactosidase (10 milliunits/mg protein) in the buffer of 20 mM sodium acetate, 4% trehalose at pH 5.3 at 370C for 24 hours. After 24 hours, another aliquot of each enzyme (10 milliunits/mg protein) was added and incubated at 370C for 24 hours. The hypergalactosylated mAb A variant was prepared by incubating 100 muL mAb A 30 mg/mL with galactosyltransferase (90 milliunits/mg protein) at 370C for 48 hours in the same sodium acetate buffer containing 20 mM uridine diphosphate galactose (UDP-Gal), and 25 mM MnCl2. Both variants were purified by Protein A chromatography using TSKgel Protein A-5PW column (Tosoh Bioscience LLC, King of Prussia, PA, USA) and buffer exchanged into the formulation buffer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25661</offset>
+      <text>The rate controlled galactosylation of mAb A was performed by incubating 100 muL 30 mg/mL hypogalactosylated mAb A with galactosyltransferase (16 milliunits/mg protein) at 250C in sodium acetate buffer at pH 5.3 containing 20 mM UDP-Gal and 1.25 mM MnCl2. The reaction was then quenched by 15 microL of 500 mM EDTA pH 8.0. The galactosylation variants were purified by Protein A chromatography using TSKgel Protein A-5PW column (Tosoh Bioscience LLC, King of Prussia, PA, USA) and buffer exchanged into the formulation buffer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26191</offset>
+      <text>All the glycoengineering reactions described here could be scaled up and down by varying the amounts of the reagents proportionally.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>26324</offset>
+      <text>RGY-mutated mAb B Galactosylation Variants Preparation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26379</offset>
+      <text>The hypogalactosylated RGY-mutated mAb B variant was prepared by incubating 5 mg/mL mAb B with sialidase A (10 milliunits/mg protein) and beta-1,4-galactosidase (20 milliunits/mg protein) in sodium acetate buffer at pH 5.3 at 40C for 7 days. The hypergalactosylated RGY-mutated mAb B variant was prepared by incubating mAb B with galactosyltransferase (90 milliunits/mg protein) at 40C for 7 days in sodium acetate buffer at pH 5.3 containing 20 mM uridine diphosphate galactose (UDP-Gal), and 25 mM MnCl2. Both variants were purified by a 10 K Amicon Filter and reconstituted in the formulation buffer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>26990</offset>
+      <text>High Throughput Hydrophilic Interaction Chromatography For Relative Glycan Distribution Measurement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27090</offset>
+      <text>The protein samples were diluted to 1 mg/mL and treated with PNGase F in ammonium acetate buffer at pH 8.6 at 450C for one hour. Released glycans were collected and labeled with 2-aminobenzamide (2-AB) using Signal  2-AB Labeling Kit (Agilent Technologies, Santa Clara, CA). Labeled glycans were analyzed on a UPLC ACQUITY H-Class system (Waters Corp., Milford, MA) using a ACQUITY UPLC Glycan BEH Amide 130 A column (Waters Corp., Milford, MA). The mobile phase A was 100 mM ammonium formate at pH 4.5 and mobile phase B was acetonitrile. The gradient is 75% B to 63% B in 16.5 minutes. The 2-AB labeled glycans were detected by fluorescence at the excitation wavelength of 330 nm and the emission wavelength of 420 nm.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>27821</offset>
+      <text>Hydrogen/Deuterium Exchange - Mass Spectrometry Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27880</offset>
+      <text>H/DX MS was used to compare the conformational differences between the hypogalactosylated and hypergalactosylated mAbs. H/DX MS were performed with a fully automated LEAP RTC system (Leap Technologies, Carr, NC) coupled with an Orbitrap Elite mass spectrometer (Thermo Fisher Scientific, San Jose, CA), as shown in the two previous reports from our group. Samples were incubated in deuterium buffer at 20 C for labeling, followed by an in-line pepsin and protease XIII digestion and LC-MS analysis. Peptide identifications were based on accurate masses together with MS/MS fragmentation by Mascot search. Deuterium incorporation was determined by EXMS, followed by a python script. Averaged deuterium uptake difference (ARDD) was calculated by a modified python script.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>28651</offset>
+      <text>Native Mass Spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28676</offset>
+      <text>Sample was buffer exchanged, according to the manufacturer's protocol, into 50 mM ammonium acetate using a Micro Bio-Spin 6 column (Bio-Rad Laboratories, Hercules, CA). Approximately 2 microL was loaded into a borosilicate glass tip (1.2 mm OD, 0.69 mm ID) that was pulled in-house on a P-1000 instrument (Sutter Instrument, Novato, CA) and sputter coated to 6 nm with Au-Pt (Leica Microsystems, DE). Static spray at a voltage of 1.2-1.3 kV was performed on a Q Exactive UHMR (Thermo Fisher Scientific, Waltham, MA). The mass spectrometry parameters were manually tuned per sample, with the most critical parameters including using the highest HCD pressure setting, operating the in-source trapping at -100 (reference) or -20 V (high galactose), a 100 ms injection time, and a resolving power of 8750. Data was processed in MetaUniDec v4.1.043 using a peak width of 90 m/z.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>29560</offset>
+      <text>Complement-Dependent Cytotoxicity Assay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29600</offset>
+      <text>The method is performed in 96-well tissue culture microtiter plates. In this assay, varying concentrations of mAb A reference material, control, or samples are incubated with WIL2-S cells (50,000 cells/well) in the presence of a fixed amount of human complement. The plates are then incubated at 37 C/5% CO2 in a humidified incubator for 1-2 hours, during which time the Fab region of the antibody binds to the CD20 receptor on the WIL2-S cells, and the Fc region binds to the complement, leading to cell lysis. At the end of the incubation, the relative number of viable cells is quantitated indirectly by adding 50 WL of the redox dye, alamarBlueTM, to each well and the plate is incubated at 37 C/5% CO2 in a humidified incubator for 15 to 26 hours. The fluorescence is read using a 96-well fluorometer with excitation at 530 nm and emission at 590 nm. AlamarBlueTM is blue and nonfluorescent in its oxidized state, but is reduced by the intracellular environment to a pink form that is highly fluorescent. The changes in color and fluorescence are proportional to the number of viable cells. The results, expressed in relative fluorescence units (RFU), are plotted against the mAb A concentrations, and a parallel line analysis program was used to estimate the relative potency of the antibody samples.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>30915</offset>
+      <text>Surface Plasmon Resonance-based C1q binding assay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30965</offset>
+      <text>A Biacore T200 instrument (GE healthcare, Chicago, IL, USA) was used for SPR analysis. Biacore sensor S series chip SA (BR-1005-32, GE healthcare, Chicago, IL, USA) was washed with 1 M NaCl in 50 mM NaOH. Biotinylated anti-LC-kappa antibody (Catalog # 7103272100 Thermo scientific, San Jose, CA, USA) was diluted to 50 microg/mL and immobilized at the saturation level. Samples prepared at 10 microg/mL antibody concentration in assay running buffer (phosphate-buffered saline with 0.05% Tween 20) were captured for 100 seconds at 10 microL/min. Subsequently, C1q protein (Catalog # A400, Quidel, San Diego, CA, USA) were injected for 4 min at 30 microL/min. The dissociation phase was achieved by passing the same assay running buffer through the chamber for 100 seconds. The regeneration was performed with a single injection of 10 mM Glycine-HCl, pH 2.0 for 30 seconds at 30 microL/min. All experiments were performed at 25 C. Duplicate injections of each sample and a buffer blank were flowed over the two surfaces (a reference flow cell and a testing flow cell). Data were collected at a rate of 1 Hz. Readout was the maximum binding response during association phase, five seconds before the end of the C1q injection. A reference flow cell was run in conjunction to the testing flow cell to negate the effects of nonspecific binding. In addition, injections of blank running buffer were included on experimental flow cells. Signals from the reference flow cell and blank buffer injections were subtracted from the absolute response of sample injections on experimental flow cells (double subtraction method). Data were analyzed using Biacore T200 evaluation software and JMP software.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>32656</offset>
+      <text>Size Exclusion Chromatography coupled with Multi-angle Light Scattering Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32737</offset>
+      <text>The size variants distribution was analyzed using a UPLC ACQUITY H-Class system (Waters, Milford, MA) using a Tosoh TSKgel G3000SWXL column (7.8 mm X 300 mm, 5 mum). Samples (20 mug) were injected and isocratic eluted at 0.5 mL/min using 40 mM sodium phosphate, 60 mM sodium dibasic, 100 mM sodium sulfate at pH 6.8. The UV detection was at 280 nm. The molecular weights of the peaks were measured by a Wyatt muDAWN MALS detector and a Wyatt Optilab UT-rEX differential refractive index (dRI) detector.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>33245</offset>
+      <text>Molecular Dynamics Simulation Protocol and Computational Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33311</offset>
+      <text>The Fc structure of mAb A was obtained from the crystal structure. G0 and G2 glycans were built and attached to the Fc using the Glycan Reader &amp; Modeler module in CHARMM-GUI (http://www.charmm-gui.org/input/glycan). CHARMM-GUI was used to prepare Molecular Dynamics input files. We used CHARMM36m force field for protein and the CHARMM36 force field for carbohydrates, and TIP3P water model for explicit solvation. Counter ions of Na+ and Cl- with the concentration of 0.15 M were added to neutralize the system.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33828</offset>
+      <text>The GPU implementation of Amber 2016 MD software package with the SPFP precision model was used for the MD simulation using the following protocol. First, the structure was relaxed with 2000 steps of conjugate-gradient energy minimization, using harmonic restraining potential with the force constant of 10 kcal/mol/A to restrain the solute to the initial structure. Then, the solvent molecules were allowed to move using NPT ensemble with a temperature of 300 K. Another step of conjugate-gradient energy minimization was performed with 2000 steps while removing all the restrains. Next, the pressure was maintained at 1 atm and the thermostat temperature increased to 300 K over the course of 500 ps, while Harmonic positional restraints of strength 10 kcal/mol/A was applied to the solute. The system was then equilibrated for 1 ns with a restraint force constant of 1 kcal/mol/A All restraints were removed for the production stage. The hydrogen mass repartition option of Amber was used allowing a time step of 4 fs. The simulation time step was 4 fs. A 10 A cutoff radius was used for range limited interactions, with Particle Mesh Ewald electrostatics for long-range interactions. The production simulation was carried out using NPT conditions. Langevin dynamics was used to maintain the temperature at 300 K with a collision frequency of 3 ps-1. The production stage of the MD simulation was performed for 500 ns. During dynamics the SHAKE algorithm was applied to constrain all bonds involving hydrogen atoms. Default values were used for all other simulation parameters.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35423</offset>
+      <text>The protocol described above was repeated to generate 20 independent replicates of 500 ns trajectories, adding up to 10-microsecond trajectories for each structure. We used the CPPTRAJ tool available in AmberTools 201553 to calculate the center of mass distances and root mean square fluctuations. To obtained the representative structures shown in Figure 3d, clustering of trajectories was performed with CPPTRAJ using the DBSCAN clustering algorithm with the minimum number of points set to 15 and epsilon set to 7. The distance metric was the root mean square deviation using atoms in the glycans, as well as the atoms involved in the five disulfide bonds in the Fc region, representative of the overall of conformation of the Fc.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>36157</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">title_1</infon>
+      <offset>36180</offset>
+      <text>Abbreviations:</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36195</offset>
+      <text>ADCC: Antibody-dependent cell-mediated cytotoxicity; C1q: Complement component 1q; CDC: complement-dependent cytotoxicity; CHO:Chinese Hamster Ovary; CQA: critical quality attribute, GMP: Good Manufacturing Practice; HDX: hydrogen/deuterium exchange; HILIC: hydrophilic interaction chromatography; IgG: immunoglobulin G; mAb: monoclonal antibodies; MALS: multi-angle light scattering; MD: Molecular Dynamics; MOA: mechanism of action; MS: mass spectrometry; RGY: E345R, E430G and S440Y; R&amp;D: research and development; SEC: Size exclusion chromatography; SPR: surface plasma resonance; TOF-MS: time-of-flight mass spectrometry; UDP-Gal: uridine diphosphate galactose</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>36861</offset>
+      <text>Supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36884</offset>
+      <text>Supplemental data for this article can be accessed on the publisher's website.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>36965</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.tibtech.2018.05.014</infon>
+      <infon key="pub-id_pmid">29945725</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">10</infon>
+      <offset>36976</offset>
+      <text>The increasingly human and profitable monoclonal antibody market</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.3390/molecules24040809</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Molecules</infon>
+      <infon key="type">ref</infon>
+      <offset>37041</offset>
+      <text>The pharmaceutical industry in 2018. an analysis of fda drug approvals from the perspective of molecules</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">992</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1038/nbt.3040</infon>
+      <infon key="pub-id_pmid">25299917</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1000</infon>
+      <offset>37146</offset>
+      <text>Biopharmaceutical benchmarks 2014</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1325</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwv065</infon>
+      <infon key="pub-id_pmid">26263923</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">34</infon>
+      <offset>37180</offset>
+      <text>Fc glycans of therapeutic antibodies as critical quality attributes</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">291</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1016/j.biologicals.2016.06.005</infon>
+      <infon key="pub-id_pmid">27461239</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biologicals</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">305</infon>
+      <offset>37248</offset>
+      <text>Determination of critical quality attributes for monoclonal antibodies using quality by design principles</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">102</infon>
+      <infon key="pub-id_doi">10.1016/j.isci.2019.01.006</infon>
+      <infon key="pub-id_pmid">30682623</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">iScience</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">20</infon>
+      <offset>37354</offset>
+      <text>Glycosylation dynamics in chinese hamster ovary cells fed-batch cultures using time course omics analyses</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1505</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/btpr.470</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Progr</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">27</infon>
+      <offset>37460</offset>
+      <text>Towards the Implementation of Quality by Design to the Production of Therapeutic Monoclonal Antibodies with Desired Glycosylation Patterns</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">608</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1548</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol Progr</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">22</infon>
+      <offset>37599</offset>
+      <text>Quality attributes of recombinant therapeutic proteins: An assessment of impact on safety and efficacy as part of a quality by design development approach</text>
+    </passage>
+    <passage>
+      <infon key="volume">127</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">187</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Adv Biochem Eng Biot</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">219</infon>
+      <offset>37754</offset>
+      <text>Protein glycosylation control in mammalian cell culture: past precedents and contemporary prospects</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1164</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.22348</infon>
+      <infon key="pub-id_pmid">19418565</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">75</infon>
+      <offset>37854</offset>
+      <text>Identification of cell culture conditions to control n-glycosylation site-occupancy of recombinant glycoproteins expressed in cho cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">2011</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">6</infon>
+      <infon key="year">1730-1743</infon>
+      <infon key="source">Biotechnol Progr</infon>
+      <infon key="type">ref</infon>
+      <offset>37990</offset>
+      <text>A dynamic mathematical model for monoclonal antibody N-linked glycosylation and nucleotide sugar donor transport within a maturing Golgi apparatus</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2970</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1002/bit.24959</infon>
+      <infon key="pub-id_pmid">23737295</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">83</infon>
+      <offset>38137</offset>
+      <text>Specific Prediction and Control of Recombinant Monoclonal Antibody N-Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4492</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.3390/ijms15034492</infon>
+      <infon key="pub-id_pmid">24637934</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Int J Mol Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">522</infon>
+      <offset>38220</offset>
+      <text>Towards controlling the glycoform: a model framework linking extracellular metabolites to antibody glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">167</infon>
+      <infon key="pub-id_doi">10.1016/j.coche.2018.10.002</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Curr Opin Chem Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">76</infon>
+      <offset>38333</offset>
+      <text>Impact of nucleotide sugar metabolism on protein N-glycosylation in Chinese Hamster Ovary (CHO) cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">310</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1038/nbt.1839</infon>
+      <infon key="pub-id_pmid">21478841</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12</infon>
+      <offset>38442</offset>
+      <text>Acceptable changes in quality attributes of glycosylated biopharmaceuticals</text>
+    </passage>
+    <passage>
+      <infon key="volume">2005</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">6</infon>
+      <infon key="year">1644-1652</infon>
+      <infon key="source">Biotechnol Progr</infon>
+      <infon key="type">ref</infon>
+      <offset>38518</offset>
+      <text>Control of recombinant monoclonal antibody effector functions by Fc N-glycan remodeling in vitro</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">385</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.4161/mabs.19868</infon>
+      <infon key="pub-id_pmid">22531450</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Mabs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">91</infon>
+      <offset>38615</offset>
+      <text>Galactosylation variations in marketed therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1133</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.4161/mabs.29670</infon>
+      <infon key="pub-id_pmid">25517299</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">44</infon>
+      <offset>38677</offset>
+      <text>Regulation of complement and modulation of its activity in monoclonal antibody therapy of cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">203</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1007/s12026-014-8542-z</infon>
+      <infon key="pub-id_pmid">24906530</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Immunol Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">10</infon>
+      <offset>38774</offset>
+      <text>Complement in monoclonal antibody therapy of cancer</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">446</infon>
+      <infon key="pub-id_doi">10.1016/j.biopha.2017.04.101</infon>
+      <infon key="pub-id_pmid">28477461</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biomed Pharmacother</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">56</infon>
+      <offset>38826</offset>
+      <text>Recent progress in the understanding of complement activation and its role in tumor growth and anti-tumor therapy</text>
+    </passage>
+    <passage>
+      <infon key="volume">343</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1260</infon>
+      <infon key="issue">6176</infon>
+      <infon key="pub-id_doi">10.1126/science.1248943</infon>
+      <infon key="pub-id_pmid">24626930</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">63</infon>
+      <offset>38940</offset>
+      <text>Complement is activated by IgG hexamers assembled at the cell surface</text>
+    </passage>
+    <passage>
+      <infon key="volume">2016</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5</infon>
+      <infon key="year">1762-1775</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="type">ref</infon>
+      <offset>39010</offset>
+      <text>Antibodies That Efficiently Form Hexamers upon Antigen Binding Can Induce Complement-Dependent Cytotoxicity under Complement-Limiting Conditions</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1371/journal.pbio.1002344</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Plos Biol</infon>
+      <infon key="type">ref</infon>
+      <offset>39155</offset>
+      <text>Platform for the Potentiation of Therapeutic Antibodies Based on Antigen-Dependent Formation of IgG Hexamers at the Cell Surface</text>
+    </passage>
+    <passage>
+      <infon key="volume">359</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">794</infon>
+      <infon key="issue">6377</infon>
+      <infon key="pub-id_doi">10.1126/science.aao4988</infon>
+      <infon key="pub-id_pmid">29449492</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">97</infon>
+      <offset>39284</offset>
+      <text>Structures of C1-IgG1 provide insights into how danger pattern recognition activates complement</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">672</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2015.1046665</infon>
+      <infon key="pub-id_pmid">26037225</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">80</infon>
+      <offset>39380</offset>
+      <text>Human IgG is produced in a pro-form that requires clipping of C-terminal lysines for maximal complement activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">63</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">135</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.molcel.2016.05.016</infon>
+      <infon key="pub-id_pmid">27320199</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">45</infon>
+      <offset>39495</offset>
+      <text>Molecular Basis of Assembly and Activation of Complement Component C1 in Complex with Immunoglobulin G1 and Antigen</text>
+    </passage>
+    <passage>
+      <infon key="volume">2010</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">8</infon>
+      <infon key="year">1716-1728</infon>
+      <infon key="source">Mol Cell Proteomics</infon>
+      <infon key="type">ref</infon>
+      <offset>39611</offset>
+      <text>Post-translational Modifications Differentially Affect IgG1 Conformation and Receptor Binding</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">471</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1016/j.coi.2008.06.007</infon>
+      <infon key="pub-id_pmid">18606225</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Curr Opin Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">78</infon>
+      <offset>39705</offset>
+      <text>Terminal sugars of Fc glycans influence antibody effector functions of IgGs</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">646</infon>
+      <infon key="pub-id_doi">10.3389/fimmu.2017.00646</infon>
+      <infon key="pub-id_pmid">28634480</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Front Immunol</infon>
+      <infon key="type">ref</infon>
+      <offset>39781</offset>
+      <text>Fc-Galactosylation of Human Immunoglobulin Gamma Isotypes Improves C1q Binding and Enhances Complement-Dependent Cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e0134949</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0134949</infon>
+      <infon key="pub-id_pmid">26266936</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <offset>39907</offset>
+      <text>In vitro glycoengineering of IgG1 and its effect on Fc receptor binding and ADCC activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">164</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4178</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.4049/jimmunol.164.8.4178</infon>
+      <infon key="pub-id_pmid">10754313</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">84</infon>
+      <offset>39997</offset>
+      <text>Mapping of the C1q binding site on rituxan, a chimeric antibody with a human IgG1 Fc</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">826</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2019.1608143</infon>
+      <infon key="pub-id_pmid">30990348</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">36</infon>
+      <offset>40082</offset>
+      <text>Effects of terminal galactose residues in mannose alpha1-6 arm of Fc-glycan on the effector functions of therapeutic monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">241</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1385/MB:14:3:241</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">49</infon>
+      <offset>40221</offset>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4787</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1021/acs.nanolett.9b02220</infon>
+      <infon key="pub-id_pmid">31184907</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Nano Lett</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">96</infon>
+      <offset>40222</offset>
+      <text>Unraveling the macromolecular pathways of igg oligomerization and complement activation on antigenic surfaces</text>
+    </passage>
+    <passage>
+      <infon key="volume">2016</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4</infon>
+      <infon key="year">1817-25</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <offset>40332</offset>
+      <text>Conformational Destabilization of Immunoglobulin G Increases the Low pH Binding Affinity with the Neonatal Fc Receptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">426</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">630</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1016/j.jmb.2013.10.039</infon>
+      <infon key="pub-id_pmid">24211234</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">44</infon>
+      <offset>40451</offset>
+      <text>Structural determinants of unique properties of human IgG4-Fc</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">6095</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.5b00788</infon>
+      <infon key="pub-id_pmid">25978613</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">102</infon>
+      <offset>40513</offset>
+      <text>Tandem native mass-spectrometry on antibody-drug conjugates and submillion da antibody-antigen protein assemblies on an orbitrap emr equipped with a high-mass quadrupole mass selector</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">447</infon>
+      <infon key="pub-id_doi">10.1016/j.ijms.2019.116240</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Int J Mass Spectrom</infon>
+      <infon key="type">ref</infon>
+      <offset>40697</offset>
+      <text>Further insights from structural mass spectrometry into endocytosis adaptor protein assemblies</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">13494</infon>
+      <infon key="issue">24</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.7b03830</infon>
+      <infon key="pub-id_pmid">29129068</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">501</infon>
+      <offset>40792</offset>
+      <text>Structural and functional characterization of a hole-hole homodimer variant in a "Knob-Into-Hole" bispecific antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1582</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.9b04855</infon>
+      <infon key="pub-id_pmid">31815436</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">88</infon>
+      <offset>40914</offset>
+      <text>Probing the impact of the knob-into-hole mutations on the structure and function of a therapeutic antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">2011</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">11</infon>
+      <infon key="year">1906-1915</infon>
+      <infon key="source">J Am Soc Mass Spectr</infon>
+      <infon key="type">ref</infon>
+      <offset>41021</offset>
+      <text>ExMS: Data analysis for HX-MS experiments</text>
+    </passage>
+    <passage>
+      <infon key="volume">83</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">7129</infon>
+      <infon key="issue">18</infon>
+      <infon key="pub-id_doi">10.1021/ac201501z</infon>
+      <infon key="pub-id_pmid">21861454</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">36</infon>
+      <offset>41063</offset>
+      <text>Epitope mapping of a 95 kda antigen in complex with antibody by solution-phase amide backbone hydrogen/deuterium exchange monitored by fourier transform ion cyclotron resonance mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4370</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.5b00140</infon>
+      <infon key="pub-id_pmid">25799115</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">76</infon>
+      <offset>41258</offset>
+      <text>Bayesian deconvolution of mass and ion mobility spectra: from binary interactions to polydisperse ensembles</text>
+    </passage>
+    <passage>
+      <infon key="volume">2008</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">11</infon>
+      <infon key="year">1859-65</infon>
+      <infon key="source">J Comput Chem</infon>
+      <infon key="type">ref</infon>
+      <offset>41366</offset>
+      <text>CHARMM-GUI: a web-based graphical user interface for CHARMM</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">405</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1021/acs.jctc.5b00935</infon>
+      <infon key="pub-id_pmid">26631602</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">J Chem Theory Comput</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">13</infon>
+      <offset>41426</offset>
+      <text>Generator for NAMD, GROMACS, AMBER, openMM, and CHARMM/openMM simulations using the CHARMM36 additive force field</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">71</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/nmeth.4067</infon>
+      <infon key="pub-id_pmid">27819658</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">73</infon>
+      <offset>41540</offset>
+      <text>CHARMM36m: an improved force field for folded and intrinsically disordered proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2543</infon>
+      <infon key="issue">15</infon>
+      <infon key="pub-id_doi">10.1002/jcc.21004</infon>
+      <infon key="pub-id_pmid">18470966</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">J Comput Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">64</infon>
+      <offset>41624</offset>
+      <text>Additive empirical force field for hexopyranose monosaccharides</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">926</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1063/1.445869</infon>
+      <infon key="year">1983</infon>
+      <infon key="source">J Chem Phys</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">35</infon>
+      <offset>41688</offset>
+      <text>Comparison of Simple Potential Functions for Simulating Liquid Water</text>
+    </passage>
+    <passage>
+      <infon key="volume">184</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">374</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/j.cpc.2012.09.022</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Comput Phys Commun</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">80</infon>
+      <offset>41757</offset>
+      <text>SPFP: speed without compromise-A mixed precision model for GPU accelerated molecular dynamics simulations</text>
+    </passage>
+    <passage>
+      <infon key="volume">2015</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4</infon>
+      <infon key="year">1864-1874</infon>
+      <infon key="source">J Chem Theory Comput</infon>
+      <infon key="type">ref</infon>
+      <offset>41863</offset>
+      <text>Long-time-step molecular dynamics through hydrogen mass repartitioning</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1409</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1080/00268978800101881</infon>
+      <infon key="year">1988</infon>
+      <infon key="source">Mol Phys</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">19</infon>
+      <offset>41934</offset>
+      <text>An analysis of the accuracy of langevin and molecular-dynamics algorithms</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">327</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1016/0021-9991(77)90098-5</infon>
+      <infon key="year">1977</infon>
+      <infon key="source">J Comput Phys</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>42008</offset>
+      <text>Numerical-integration of cartesian equations of motion of a system with constraints - molecular-dynamics of n-alkanes</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3084</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1021/ct400341p</infon>
+      <infon key="pub-id_pmid">26583988</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Chem Theory Comput</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">95</infon>
+      <offset>42126</offset>
+      <text>PTRAJ and CPPTRAJ: Software for processing and analysis of molecular dynamics trajectory data</text>
+    </passage>
+  </document>
+</collection>

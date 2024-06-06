@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>8037477</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">3</infon>
+    <infon key="tt_round">3</infon>
+    <passage>
+      <infon key="name_3">surname:Ruvo;given-names:Menotti</infon>
+      <infon key="name_2">surname:Kontoravdi;given-names:Cleo</infon>
+      <infon key="name_1">surname:Kotidis;given-names:Pavlos</infon>
+      <infon key="article-id_pmid">33804825</infon>
+      <infon key="name_0">surname:Alhuthali;given-names:Sakhr</infon>
+      <infon key="issue">7</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">8037477</infon>
+      <infon key="article-id_publisher-id">ijms-22-03290</infon>
+      <infon key="article-id_doi">10.3390/ijms22073290</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">3290</infon>
+      <infon key="volume">22</infon>
+      <infon key="license">Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Int J Mol Sci; 2021 Mar 24 ; 22 (7) . doi:10.3390/ijms22073290</infon>
+      <infon key="kwd">Chinese hamster ovary cells monoclonal antibody hyperosmolality cell volume antibody glycosylation</infon>
+      <infon key="authors">Alhuthali S, Kotidis P, Kontoravdi C, </infon>
+      <offset>0</offset>
+      <text>Osmolality Effects on CHO Cell Growth, Cell Volume, Antibody Productivity and Glycosylation</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:48:01Z</infon>
+        <location offset="0" length="10"/>
+        <text>Osmolality</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:48:09Z</infon>
+        <location offset="22" length="69"/>
+        <text>CHO Cell Growth, Cell Volume, Antibody Productivity and Glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>92</offset>
+      <text>The addition of nutrients and accumulation of metabolites in a fed-batch culture of Chinese hamster ovary (CHO) cells leads to an increase in extracellular osmolality in late stage culture. Herein, we explore the effect of osmolality on CHO cell growth, specific monoclonal antibody (mAb) productivity and glycosylation achieved with the addition of NaCl or the supplementation of a commercial feed. Although both methods lead to an increase in specific antibody productivity, they have different effects on cell growth and antibody production. Osmolality modulation using NaCl up to 470 mOsm kg-1 had a consistently positive effect on specific antibody productivity and titre. The addition of the commercial feed achieved variable results: specific mAb productivity was increased, yet cell growth rate was significantly compromised at high osmolality values. As a result, Feed C addition to 410 mOsm kg-1 was the only condition that achieved a significantly higher mAb titre compared to the control. Additionally, Feed C supplementation resulted in a significant reduction in galactosylated antibody structures. Cell volume was found to be positively correlated to osmolality; however, osmolality alone could not account for observed changes in average cell diameter without considering cell cycle variations. These results help delineate the overall effect of osmolality on titre and highlight the potentially negative effect of overfeeding on cell growth.</text>
+      <annotation id="3">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:48:20Z</infon>
+        <location offset="199" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="129">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-23T18:09:51Z</infon>
+        <location offset="315" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:49:10Z</infon>
+        <location offset="329" length="82"/>
+        <text>CHO cell growth, specific monoclonal antibody (mAb) productivity and glycosylation</text>
+      </annotation>
+      <annotation id="130">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T18:09:56Z</infon>
+        <location offset="329" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="131">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T18:10:02Z</infon>
+        <location offset="398" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="132">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:08:46Z</infon>
+        <location offset="442" length="4"/>
+        <text>NaCl</text>
+      </annotation>
+      <annotation id="133">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:09:46Z</infon>
+        <location offset="1107" length="22"/>
+        <text>Feed C supplementation</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:51:35Z</infon>
+        <location offset="1169" length="34"/>
+        <text>galactosylated antibody structures</text>
+      </annotation>
+      <annotation id="176">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:24:15Z</infon>
+        <location offset="1169" length="14"/>
+        <text>galactosylated</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1555</offset>
+      <text>1. Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1571</offset>
+      <text>Culture osmolality, cell cycle distribution and cell volume of Chinese hamster ovary (CHO) cells have all been shown to correlate with specific recombinant protein productivity, as well as with one another. The measurement of cell size is typically obtained as part of a cell density and culture viability assessment, and its value often used to calculate the metabolic flux across the cell membrane. Biosynthetic capacity and nutrient exchange depend on cell size, which, in turn, is influenced by culture osmolality, with hyperosmolar conditions known to lead to increased cell size. The nucleus, mitochondria, endoplasmic reticulum size and protein production and gene expression levels scale with cell size in human and yeast cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2308</offset>
+      <text>Lloyd et al. have previously shown that cell size is a determinant of specific protein productivity in four industrially relevant CHO cell lines. Although cells in every cell cycle phase were productive, it was cells in G2/M that displayed the highest productivity. Their findings suggest that this was mainly due to the larger cell size in that phase and less because of their cell cycle position. The same observation was made by researchers who expressed human mTOR in CHO cells to enhance manufacturability. However, other studies have reported that cell volume alone is not always sufficient to account for an increase in recombinant protein expression, and other factors such as cell culture phase and medium composition strongly affect specific productivity. Volume homeostasis is achieved by a balance between the production and consumption of molecules. Each cell is meant to produce or degrade macromolecules at a specific rate to uphold biological functions and either maintain homeostasis or respond to a stimulus. The type and amount of biosynthetic activity may vary significantly between cells, i.e., rapidly dividing versus non-dividing. Cell size is determined by the rate of synthesis and uptake of molecules and their loss by secretion and degradation, which all together can vary with the level of growth factor signalling and gene expression.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3672</offset>
+      <text>In the context of recombinant protein production, the stationary phase and late stage culture is often considered to be the main production phase. It is accompanied by an increase in the fraction of cells in the G1 phase and an increase in the average cell diameter. Attempts have been made to enhance productivity by arresting cells in the cell cycle phase that has the highest productivity through starvation or addition of a small molecule regulator. However, late stage culture is also associated with an accumulation of extracellular metabolites, contributing to osmolality increase, which can be exacerbated by overfeeding.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4302</offset>
+      <text>Osmolality has been linked to both cell volume regulation and recombinant protein productivity. Typically, hyperosmotic conditions lead to an increase in cell size. There have been several studies in which, for example, hyperosmolar conditions were introduced to increase recombinant protein titre. Interestingly, this occurs despite the negative effect of hyperosmotic conditions on the cell proliferation rate. Nasseri et al. found that both hyperosmolality and 3-methyl adenine treatment were equally effective in increasing the specific productivity of therapeutic protein in different CHO cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4908</offset>
+      <text>In certain studies, the increase in titre was accompanied by varying protein quality, particularly with respect to glycosylation patterns, while others reported no impact in this regard. Specifically, hyperosmolality has been found to reduce the proportion of acidic isoforms and sialic acid content in N-linked glycans of a Fc-fusion protein, which can be avoided by betaine addition. Similarly, osmolality increases by 60-120 mOsm kg-1 at the stationary phase of a fed-batch culture have been found to lead to the secretion of under-processed glycans. Overall, the effect on recombinant protein glycosylation appears to be dependent on the cell line and extent of osmolality increase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5599</offset>
+      <text>Herein, we investigate the effect of hyperosmolality on CHO cell growth rate, cell volume, specific monoclonal antibody (mAb) productivity and the N-linked glycosylation profile. We use two different additives, a commercial culture feed and NaCl, to increase the level of osmolality, to understand whether variations in cellular behaviour are due to the increase in osmolality alone, the repeated addition of nutrients to the culture and resulting metabolite accumulation, or differences in cell cycle distribution throughout cell culture duration.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>6148</offset>
+      <text>2. Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6174</offset>
+      <text>2.1. Effect of Hyperosmolality on Cell Growth and Metabolism</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6235</offset>
+      <text>We first evaluated the effect of hyperosmolality on the specific cell growth rate and metabolic activity in cultures grown in flasks. Hyperosmolality is typically caused by the repeated addition of feeds and the accumulation of metabolic by-products in fed-batch cultures. The effect of hyperosmolality has previously been studied by adding NaCl to the culture medium. However, comparing the NaCl method of osmolality increase to nutrient spiking has not been explored in the literature. Herein, we added either NaCl or Feed C to the culture medium before inoculation to achieve a range of initial osmolality values between 320 and 500 mOsm kg-1. As shown in Figure 1, increased osmolality caused a considerable reduction in the maximum specific cell growth rate in both cases. The difference in maximum growth rate under the two types of treatment was not statistically significant (p &gt; 0.05).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7132</offset>
+      <text>Equation (1) represents the line of best fit for the growth rate from the average Feed C and NaCl dataset presented in Figure 1. This osmolality change is responsible for a 50% reduction in the maximum proliferation rate. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7355</offset>
+      <text>This function is only linear in the examined range of osmolality, as decreasing the osmolality below 320 mOsm kg-1 may lead to a reduced specific growth rate as a result of lower nutrient abundance. The linear relationship is in line with other NaCl-spiked CHO cell cultures, where a slope of -9.3 x 10-5 was observed in comparison to -1.1 x 10-4 in this study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7729</offset>
+      <text>The viable cell density profiles corresponding to these experiments are shown in Figure 2A. There is a clear reduction in growth rate as osmolality increases by either salt or feed addition. These findings show how the addition of unnecessary feed can severely inhibit cell growth, as seen clearly in the case of 500 mOsm kg-1 (Feed C addition). The particular feed used in this study is typically added at 10% v/v in every other day of culture, starting on day 2 (based on the manufacturer's instructions), but herein the feed was added on day 0. The maximum cell density is higher for the control in Figure 2A, which contradicts other published works about the effect of a spiked medium on a batch CHO cell culture's performance. The discrepancy in maximum cell density might be because the added feed in these published experiments is less than our minimum Feed C addition, i.e., 9% and 12% (v/v), respectively. Moreover, Feed C is commonly used in fed-batch cultures to prolong culture viability, whereas some of the previously reported spiked medium experiments were designed to boost productivity in batch cultures. The osmolality value increases during culture (Figure 2B) mainly due to the accumulation of extracellular lactate, Na+ and K+ (Figure 2, panels E, G and H, respectively).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9028</offset>
+      <text>The average cell diameter is positively correlated to osmolality up to day 5 (Figure 2C), with its value increasing sharply 24 h post-inoculation, particularly for the Feed C-supplemented cultures beyond 410 mOsm kg-1. This phenomenon is known as Regulatory Volume Increase and is noticeable when compared to the control. However, the trend changes from day 6 onwards, when key nutrients such as glucose and glutamate begin to be depleted from the control and NaCl-supplemented cultures (Figure 2F,I).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9532</offset>
+      <text>The ammonia concentration (Figure 2D) shows a gradual increase, but only three conditions exceed the 5 mM threshold, beyond which there is significant growth inhibition in this cell line. However, in all cases, this threshold was reached during the stationary phase or late stage culture and was likely not detrimental to achieving peak cell density. Figure 2E,F show the extracellular lactate and glucose profiles, respectively, where the shift from production to consumption of the former is only observed for the control and 320 mOsm kg-1 conditions. The remaining cultures exhibited sustained lactate production throughout the culture, which, in some cases of NaCl-supplemented cultures, appears to be coming from sources other than glucose. The shift from lactate production to consumption is believed to be dependent on culture pH and the intracellular redox state, which was not measured herein.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10437</offset>
+      <text>The concentrations of Na+ and K+ remain constant for most cases except the two higher osmolality cases of NaCl addition, which show a further increase in the last days of culture. This increase in K+ is in alignment with the steep cell size decrease of the 420 and 470 mOsm kg-1 cases, which could mean that the cells are undergoing apoptosis. Apoptotic shrinkage is associated with isosmotic cell shrinkage as a result of K+ loss. It has also been reported that elevated osmolality is associated with an increased apoptosis rate, although early apoptosis markers were not examined in this study. Glutamate (Figure 2I) was taken up by the cells, and some of it is hypothesised to have been channelled towards glutamine production (Figure 2J).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11182</offset>
+      <text>Proline and glycine betaine are known to act as osmoprotectants in mammalian cell culture. Spent media analysis has indicated that residual proline concentrations are at least 60% of the initial concentration in CD CHO basal medium (data not shown). Proline was therefore in abundance until harvest in all cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11498</offset>
+      <text>Figure 3 shows the specific production and consumption rates of key metabolites for the exponential growth phase (i.e., calculated based on data from day 0 to day 6), during which we observed constant osmolality values. All cultures had higher specific glucose consumption rates compared to the control despite exhibiting lower specific cell growth rates. Regardless of the hyperosmolality treatment followed, the yield of lactate on glucose is higher as osmolality increases, pointing to inefficient carbon metabolism regardless of the induction method. It has been previously reported that the yield of lactate on glucose is increased at higher residual glucose concentrations. Indeed, our experimental results point to the same phenotype. Comparing the residual glucose concentrations among cultures with the same induction method (Figure 2F), we see that the higher the glucose concentration, the higher the production rate of lactate (Figure 3E) during the cell growth period (initial adaptation period of two days followed by exponential cell growth). This behaviour continues during late stage culture, with the two cultures under normal osmolality conditions (control and 370 mOsm kg-1 NaCl) exhibiting a rapid decline in lactate concentration due to a reinternalisation of the metabolite by the cells as a carbon source (Figure 2E). In the case of the highest osmolality culture to which NaCl was added, a proportion of produced lactate appears to be coming from sources other than glycolysis. It has been previously reported that glutaminolysis can supply carbon and nitrogen in cancer cells, which are known to share similar metabolic features with CHO cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13171</offset>
+      <text>Interestingly, at osmolality values in the 410-420 mOsm kg-1 range, there is no significant difference in the ammonia production rate under the two hyperosmolality induction strategies. However, this changes in the 460-470 mOsm kg-1 range, in which NaCl cultures exhibit a significantly higher ammonia production rate (p &lt; 0.05). Specifically, NaCl-supplemented cultures secrete more ammonia (Figure 3A) than Feed C-supplemented experiments. This is in line with the respective glutamine production rates, with the latter cultures using ammonia to synthesise and secrete glutamine at a higher rate than the former (Figure 3D). However, glutamate uptake/production rates do not follow the same pattern, with NaCl-supplemented cultures in the 460-470 mOsm kg-1 range consuming glutamate and Feed C-supplemented cultures secreting glutamate. Given that Feed C is rich in amino acids, we hypothesise that these cultures convert other amino acids to glutamate, which is then used to synthesise glutamine. Interestingly, the cultures at 500 mOsm kg-1 behave differently, showing increased ammonia and glutamate productivity and reduced glutamine secretion, pointing to different metabolic wiring under these high osmolality, nutrient-rich conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14430</offset>
+      <text>2.2. Effect of Hyperosmolality on Titre and Specific Antibody Productivity and Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14523</offset>
+      <text>Figure 4 shows the mAb titre at harvest for all cultures and the respective integral viable cell density (IVCD) values. The highest titre was obtained at 410 mOsm kg-1, achieved with Feed C addition, which also displayed the highest IVCD, although the latter was not significantly different from that of the control cultures. At the other end, the 500 mOsm kg-1 Feed C cultures had the lowest IVCD and mAb titre. Overall, the titre broadly follows the same trend as the IVCD, with the 470 mOsm kg-1 NaCl cultures being the exception. Looking at the specific mAb productivity values in Figure 5, we can see that the 470 mOsm kg-1 NaCl cultures had the highest rate of mAb secretion out of all conditions. This is not only higher with respect to the control cultures, but also significantly higher than for all Feed C-supplemented cultures. Interestingly, cultures supplemented with NaCl show an increase in specific mAb productivity that is positively correlated with the value of osmolality, whereas the Feed C-supplemented cultures show no statistically significant difference among the three different osmolality values. This potentially stems from the fact that the latter cultures utilised nutrients less efficiently due to the high levels of glucose abundance. Additionally, the 470 mOsm kg-1 NaCl and 410 mOsm kg-1 Feed C cultures exhibited a noticeably larger cell diameter after day 6, as seen in Figure 2C. This observation could point to expanded organelles supporting mAb synthesis (e.g., ER and Golgi apparatus), which is manifested, in turn, with a higher specific productivity. Overall, our findings are in broad agreement with the approaches that were reviewed by O'Callaghan and James to enhance mAb production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16265</offset>
+      <text>The effect of the two hyperosmolality induction methods on mAb glycosylation at harvest is illustrated in Figure 6. In the cultures supplemented with NaCl, there is no statistically significant difference in the glycan distribution (p &gt; 0.05). However, cultures supplemented with increased amounts of Feed C showed a decline in G0F with increased osmolality values (18% difference between 410 and 500 mOsm kg-1). This was accompanied by an increase in G0 species (10% difference between 410 and 500 mOsm kg-1) and smaller increases in the percentage of galactosylated structures (G1F, G1'F and G2F). Lower levels of core-fucosylation and increased galactosylation, achieved either through genetic modifications or alternative feeding regimes, are desired attributes in mAb-glycosylation that have been found to enhance the activity and efficacy of the glycoprotein. Given that changes are manifested in both under-processed (G0) and more mature (G1F, G1'F and G2F) structures, it is difficult to pinpoint an underlying mechanism. However, it is unsurprising that the cultures exhibiting the highest specific productivity (410 mOsm kg-1 Feed C) also show an increased percentage of non-galactosylated structures. Given the high availability of nutrients in these cultures, it is likely that the intracellular availability of nucleotide sugars, the co-substrates for glycosylation, was not limiting. The high rate of antibody synthesis and secretion, on the other hand, may have limited antibody residence time in the Golgi, therefore reducing the extent of further glycan processing by b-1,4-galactosyltransferase (b4GalT), which is responsible for mAb galactosylation. In contrast to the expected elevated distribution of non-galactosylated structures, core-fucosylation shows an unexpected behaviour among the cultures that include the addition of Feed C for osmolality regulation. As shown in Figure 6, the highest osmolality condition (500 mOsm kg-1 Feed C) has significantly lower levels of core fucosylation than the 410 mOsm kg-1 Feed C samples (p &lt; 0.05), despite having a lower specific antibody productivity. The aforementioned observation could indicate the inhibition of a-1,6-fucosyltransferase (FucT) enzymatic activity or reduced gene (Fut8) expression due to higher osmolality levels, assuming that the levels of GDP-fucose, the co-substrate of core fucosylation, are unaffected by the osmolality changes.</text>
+      <annotation id="134">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:29:10Z</infon>
+        <location offset="16287" length="15"/>
+        <text>hyperosmolality</text>
+      </annotation>
+      <annotation id="135">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:29:16Z</infon>
+        <location offset="16328" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="100">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:55:48Z</infon>
+        <location offset="16415" length="4"/>
+        <text>NaCl</text>
+      </annotation>
+      <annotation id="101">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T12:55:37Z</infon>
+        <location offset="16477" length="19"/>
+        <text>glycan distribution</text>
+      </annotation>
+      <annotation id="138">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:29:39Z</infon>
+        <location offset="16566" length="6"/>
+        <text>Feed C</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T13:01:12Z</infon>
+        <location offset="16593" length="3"/>
+        <text>G0F</text>
+      </annotation>
+      <annotation id="103">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T13:03:18Z</infon>
+        <location offset="16612" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="104">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T13:26:30Z</infon>
+        <location offset="16717" length="10"/>
+        <text>G0 species</text>
+      </annotation>
+      <annotation id="105">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T13:26:37Z</infon>
+        <location offset="16818" length="45"/>
+        <text>galactosylated structures (G1F, G1'F and G2F)</text>
+      </annotation>
+      <annotation id="142">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:33:47Z</infon>
+        <location offset="16818" length="25"/>
+        <text>galactosylated structures</text>
+      </annotation>
+      <annotation id="143">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:33:51Z</infon>
+        <location offset="16845" length="3"/>
+        <text>G1F</text>
+      </annotation>
+      <annotation id="144">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:33:55Z</infon>
+        <location offset="16850" length="4"/>
+        <text>G1'F</text>
+      </annotation>
+      <annotation id="145">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:33:58Z</infon>
+        <location offset="16859" length="3"/>
+        <text>G2F</text>
+      </annotation>
+      <annotation id="106">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T13:27:40Z</infon>
+        <location offset="16865" length="63"/>
+        <text>Lower levels of core-fucosylation and increased galactosylation</text>
+      </annotation>
+      <annotation id="146">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:34:09Z</infon>
+        <location offset="16881" length="17"/>
+        <text>core-fucosylation</text>
+      </annotation>
+      <annotation id="147">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:34:13Z</infon>
+        <location offset="16913" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="148">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:34:26Z</infon>
+        <location offset="17038" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="107">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-16T13:28:14Z</infon>
+        <location offset="17088" length="41"/>
+        <text>activity and efficacy of the glycoprotein</text>
+      </annotation>
+      <annotation id="149">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:34:42Z</infon>
+        <location offset="17088" length="21"/>
+        <text>activity and efficacy</text>
+      </annotation>
+      <annotation id="108">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:46:19Z</infon>
+        <location offset="17356" length="29"/>
+        <text>highest specific productivity</text>
+      </annotation>
+      <annotation id="177">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:25:47Z</infon>
+        <location offset="17401" length="6"/>
+        <text>Feed C</text>
+      </annotation>
+      <annotation id="109">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:46:25Z</infon>
+        <location offset="17446" length="29"/>
+        <text>non-galactosylated structures</text>
+      </annotation>
+      <annotation id="150">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:35:55Z</infon>
+        <location offset="17446" length="18"/>
+        <text>non-galactosylated</text>
+      </annotation>
+      <annotation id="110">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:46:59Z</infon>
+        <location offset="17742" length="44"/>
+        <text>limited antibody residence time in the Golgi</text>
+      </annotation>
+      <annotation id="113">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:49:19Z</infon>
+        <location offset="17829" length="17"/>
+        <text>glycan processing</text>
+      </annotation>
+      <annotation id="152">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:38:41Z</infon>
+        <location offset="17829" length="6"/>
+        <text>glycan</text>
+      </annotation>
+      <annotation id="151">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:38:34Z</infon>
+        <location offset="17850" length="27"/>
+        <text>b-1,4-galactosyltransferase</text>
+      </annotation>
+      <annotation id="153">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:38:47Z</infon>
+        <location offset="17917" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="154">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:38:56Z</infon>
+        <location offset="17991" length="14"/>
+        <text>galactosylated</text>
+      </annotation>
+      <annotation id="111">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:48:34Z</infon>
+        <location offset="18018" length="17"/>
+        <text>core-fucosylation</text>
+      </annotation>
+      <annotation id="156">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:39:06Z</infon>
+        <location offset="18114" length="6"/>
+        <text>Feed C</text>
+      </annotation>
+      <annotation id="112">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:48:51Z</infon>
+        <location offset="18125" length="21"/>
+        <text>osmolality regulation</text>
+      </annotation>
+      <annotation id="157">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:39:22Z</infon>
+        <location offset="18125" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="114">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:50:08Z</infon>
+        <location offset="18182" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="115">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:50:12Z</infon>
+        <location offset="18260" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="180">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:28:55Z</infon>
+        <location offset="18301" length="6"/>
+        <text>Feed C</text>
+      </annotation>
+      <annotation id="158">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:40:41Z</infon>
+        <location offset="18447" length="31"/>
+        <text>a-1,6-fucosyltransferase (FucT)</text>
+      </annotation>
+      <annotation id="159">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:40:52Z</infon>
+        <location offset="18509" length="11"/>
+        <text>gene (Fut8)</text>
+      </annotation>
+      <annotation id="160">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:40:58Z</infon>
+        <location offset="18546" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="116">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:51:46Z</infon>
+        <location offset="18593" length="10"/>
+        <text>GDP-fucose</text>
+      </annotation>
+      <annotation id="117">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:51:50Z</infon>
+        <location offset="18625" length="17"/>
+        <text>core fucosylation</text>
+      </annotation>
+      <annotation id="163">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:41:51Z</infon>
+        <location offset="18666" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18700</offset>
+      <text>Several process parameters, such as culture pH, temperature and ammonia levels, have been found to considerably affect recombinant protein glycosylation. In principle, elevated ammonia levels result in increased intracellular pH conditions that inhibit b4GalT activity and expression, and consequently lead to reduced protein galactosylation. However, the cultures with osmolality levels of 320 mOsm kg-1, 420 mOsm kg-1 and 470 mOsm kg-1 that presented the highest ammonia concentrations at harvest (Figure 2) did not collectively demonstrate any significant reduction in IgG galactosylation (Figure 6). It is important to note that harvest samples correspond to different culture days, which is known to influence the glycan structures obtained. Typically, the glycosomal shifts to a higher abundance of under-processed structures as the culture progresses, which could partly explain the differences between the 500 mOsm kg-1 Feed C cultures, harvested on day 10, and the 410 mOsm kg-1 Feed C cultures, harvested on day 12. As the cultures were all harvested at 80% culture viability, the observed differences are not attributable to an accumulation of intracellular material from lysed cells. Interestingly, the results for the 500 mOsm kg-1 Feed C cultures are broadly aligned with the control culture data (harvested on day 8).</text>
+      <annotation id="118">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:27Z</infon>
+        <location offset="18736" length="42"/>
+        <text>culture pH, temperature and ammonia levels</text>
+      </annotation>
+      <annotation id="164">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:42:04Z</infon>
+        <location offset="18744" length="27"/>
+        <text>pH, temperature and ammonia</text>
+      </annotation>
+      <annotation id="119">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:33Z</infon>
+        <location offset="18831" length="21"/>
+        <text>protein glycosylation</text>
+      </annotation>
+      <annotation id="165">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:42:11Z</infon>
+        <location offset="18839" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="120">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:46Z</infon>
+        <location offset="18877" length="14"/>
+        <text>ammonia levels</text>
+      </annotation>
+      <annotation id="166">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:42:30Z</infon>
+        <location offset="18877" length="7"/>
+        <text>ammonia</text>
+      </annotation>
+      <annotation id="167">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:42:39Z</infon>
+        <location offset="18926" length="2"/>
+        <text>pH</text>
+      </annotation>
+      <annotation id="168">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:42:45Z</infon>
+        <location offset="18953" length="6"/>
+        <text>b4GalT</text>
+      </annotation>
+      <annotation id="121">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:52:51Z</infon>
+        <location offset="19018" length="23"/>
+        <text>protein galactosylation</text>
+      </annotation>
+      <annotation id="169">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:42:49Z</infon>
+        <location offset="19026" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="122">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:53:23Z</infon>
+        <location offset="19070" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="123">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:53:30Z</infon>
+        <location offset="19165" length="7"/>
+        <text>ammonia</text>
+      </annotation>
+      <annotation id="124">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T12:53:35Z</infon>
+        <location offset="19272" length="19"/>
+        <text>IgG galactosylation</text>
+      </annotation>
+      <annotation id="172">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:44:01Z</infon>
+        <location offset="19276" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="125">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T13:09:17Z</infon>
+        <location offset="19373" length="12"/>
+        <text>culture days</text>
+      </annotation>
+      <annotation id="126">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com,mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T13:09:11Z</infon>
+        <location offset="19419" length="17"/>
+        <text>glycan structures</text>
+      </annotation>
+      <annotation id="127">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T13:09:28Z</infon>
+        <location offset="19462" length="17"/>
+        <text>glycosomal shifts</text>
+      </annotation>
+      <annotation id="128">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-11-17T13:09:57Z</infon>
+        <location offset="19539" length="18"/>
+        <text>culture progresses</text>
+      </annotation>
+      <annotation id="181">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:31:43Z</infon>
+        <location offset="19628" length="6"/>
+        <text>Feed C</text>
+      </annotation>
+      <annotation id="183">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:32:02Z</infon>
+        <location offset="19658" length="6"/>
+        <text>day 10</text>
+      </annotation>
+      <annotation id="182">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:31:58Z</infon>
+        <location offset="19688" length="15"/>
+        <text>Feed C cultures</text>
+      </annotation>
+      <annotation id="184">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-29T21:32:05Z</infon>
+        <location offset="19718" length="6"/>
+        <text>day 12</text>
+      </annotation>
+      <annotation id="175">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-11-23T19:46:54Z</infon>
+        <location offset="19945" length="6"/>
+        <text>Feed C</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20045</offset>
+      <text>The two culture conditions under which cells exhibited the largest cell size increase, i.e., 410 mOsm kg-1 (Feed C) and 470 mOsm kg-1 (NaCl), had a relatively high specific productivity, but the former also had a higher proliferation rate. It is obvious that not all larger cells are high producers, but some of the high producers show a large volume phenotype (i.e., 15.7 mum and 14 pg/cell/day, in comparison to less than 14.3 mum and 3.2 pg/cell/day for low producing cells). The larger cell volume could indicate an increase in the volume of cellular organelles such as the ER, which would indicate an increased protein synthesis and folding capacity and, thus, a higher protein secretion rate under hyperosmolar conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20782</offset>
+      <text>2.3. Effect of Hyperosmolality on Cell Volume</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20828</offset>
+      <text>Having explored the effect of hyperosmolality induced by feed and salt addition in the beginning of the CHO cell cultivation in flasks, we then looked at a set of typical fed-batch CHO cell cultures in bioreactors. The latter are better representatives of the typical production conditions, under which extracellular osmolality increases up to 70% above the initial value because of the feeding and excretion of metabolites, which has been previously reported to lead to an increase of up to four times in cell volume. Additionally, in the bioreactor environment we could effectively control the culture's pH, but also explore the effect of shifting the temperature to mild hypothermic conditions during exponential growth, which is a commonly employed strategy to prolong culture duration and achieve increased product titre.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21657</offset>
+      <text>In our bioreactor study, metabolism was more active at 36.5  C, with both glucose and lactate being consumed more readily than under mild hypothermia. This led to a slower increase in osmolality at 36.5  C for the same feeding schedule (Figure 7a). Plotting the average cell size as a function of osmolality illustrates the effect of osmolality on cell volume (Figure 7b). Outliers in cell size, such as the cell aggregates and fragments observed particularly in late stage culture, were removed from the data, limiting the diameter range to between 10 and 20 microm based on previous observations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22256</offset>
+      <text>Although there appears to be a correlation between osmolality and cell volume, this is not sufficient to fully describe the data presented herein. For example, even though the largest cell size is observed at the end of culture, this did not correspond to the highest osmolality value, pointing to a potential threshold for the osmolality effect on cell volume. A secondary factor that could impact cell volume is cell cycle distribution, which also changes during culture. Two samples from the exponential phase (day 4) and stationary phase (day 9) from the bioreactors run at 36.5  C were analysed by flow cytometry, as shown in Figure 8. An increase in the proportion of cells in the G2/M phase was observed as the culture progressed, in parallel to an increase of the cells in the G1 phase (RNA content results are shown in Appendix A Figure A2).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23108</offset>
+      <text>The percentage of cells in G0/G1 is known to be the highest throughout the culture duration and usually increases in late stage culture. This has led to the assumption that cells are quiescent, arrested in G0. Distinguishing cells in G1 from those in G0 is important, as the former is more metabolically active than the latter.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23436</offset>
+      <text>The shift in cell volume in the bioreactor was also shown by analysing two samples from days 2 and 14 of the bioreactor samples (Figure A3). These figures show the difference in cell size of early and late days of cell culture. The increase in cell size is clearly shown where the smallest cell population in Q4 dropped from 74% to 56% and caused an increase in larger cell quarters Q2 and Q3. More importantly, the cell cycle distribution and increase in the G2/M phase at the later stage of culture likely contributes to the increase in average cell volume during the bioreactor runs beside the effect of osmolality.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24055</offset>
+      <text>In late stage culture we see a decrease in the average cell diameter. Regulatory Volume Decrease (RVD) is an adaptive mechanism achieved by the extrusion of intracellular osmotically active solutes up to reach the water balance imposed by the new condition. The osmolytes involved are the main intracellular ions K+ and Cl- and several small molecules, including amino acids, polyalcohol and amines. Another contributing factor is expected to be the increase in apoptotic cells, which would lead to cell shrinkage. Cell cycle distribution also contributes to the overall cell volume increase during culture based on the increase in the cell subpopulation in the G2/M phase seen in late stage culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24758</offset>
+      <text>Takagi et al. evaluated the effect of osmolarity on CHO cell growth rate, glucose consumption, lactate production and tepa productivity in adhesion and suspension cell culture. The critical osmolality value was 450 mOsm kg-1 for suspension culture and lower for adhesive cell culture. Their average reported cell diameter varies from 7.25 to 9.14 microm, which is smaller than the typical diameter values for CHO cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>25178</offset>
+      <text>3. Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>25203</offset>
+      <text>3.1. Cell Line Maintenance</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25230</offset>
+      <text>CHO GS46 producing a chimeric IgG4 antibody (Lonza Biologics) was revived and cultured in shake flasks (Corning, NY, USA) in CD CHO medium (Life Technologies, Paisley, UK) and shaken at 140 RPM. The cells were subcultured in fresh medium on day 3 after revival and every four days, subsequently, at a seeding density of 2 x 105 cells mL-1. The first and the second passages were supplemented with the selection agent L-Methionine Sulfoximine (MSX, Sigma-Aldrich, Dorset, UK) at a concentration of 25 microM.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>25738</offset>
+      <text>3.2. Bioreactor Experiments</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25766</offset>
+      <text>The bioreactor osmolality data presented herein were obtained from four bioreactor experiments, described in Goey et al. (2017). Briefly, the bioreactors (Applikon Biotechnology, Schiedam, the Netherlands) were inoculated at a seeding density of 3  x  105 cells mL-1 with an initial cell culture volume of 1.2 L. The temperature, pH and dissolved oxygen were controlled at 36.5  C, 7.0 and 50%, respectively. All vessels were supplemented with CD EfficientFeed  C AGT  at 10% v/v on alternate days, starting on day 2. In two of the four vessels, the temperature was reduced to 32  C on day 5 of culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>26385</offset>
+      <text>3.3. Flask-Based Osmolality Experiments</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26425</offset>
+      <text>A total of 14 cultures with a working volume of 55 mL in 250 mL Erlenmeyer flasks were carried out using CD CHO medium (ThermoFisher Scientific, Paisley, UK). Two of these were not supplemented with any osmolyte and used as a control. The osmolality of the culture medium was increased before inoculation from 320 (control condition) to three values up to 500 mOsm kg-1 by addition of 5 M of NaCl (9200 mOsm kg-1) or CD EfficientFeed  C AGT  (1130 mOsm kg-1) (ThermoFisher Scientific, Paisley, UK). The added volume to increase osmolality is always less than 4% of the initial volume, making any dilution effect negligible. Cultures were seeded at 2 x 105 cells mL-1. Duplicate flasks for each condition were placed at 37  C and 5% CO2 and shaken at 140 RPM. Samples were withdrawn daily for further analysis. Cultures were harvested when culture viability dropped below 80%.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>27315</offset>
+      <text>3.4. Analytical Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27339</offset>
+      <text>All analyses were carried out for two biological replicates and two technical replicates. Cell volume, cell density and culture viability were measured daily with a Nucleocounter NC-250 (ChemoMetec, Lillerod, Denmark). BioProfile FLEX (Nova Biomedical, Waltham, MA, USA) was used to perform automated enzymatic assays to determine the extracellular concentrations of glucose, lactate, glutamine and glutamate, while the ammonia concentration was measured by electrochemical means with a phosphate assay.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27844</offset>
+      <text>The antibody titre was measured on the last day of the culture by biolayer interferometry using the Blitz system (Pall ForteBio Europe, Westborough, MA, USA). The osmolality of supernatant samples was measured by Osmomat 3000 (Gonotec, Berlin, Germany). The equipment was calibrated with 0, 300 and 800 mOsm kg-1 solutions, and sample sizes were 50 microL in 500 microL measuring vessels (Gonotec, Berlin, Germany).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>28260</offset>
+      <text>3.5. Flow Cytometry</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28280</offset>
+      <text>Flow cytometry analysis was carried out on two bioreactor samples to determine the cell cycle distribution. In this experiment, a double staining procedure was followed. Hoechst 33342 and Pyronin Y were used to stain the DNA and RNA, respectively, of two samples. The first one represents the day 4 population, and the second represents the day 9 population of the bioreactor operated at physiological temperature. This choice is based on our previous knowledge of the cell cycle distribution of the CHO cell culture, which differs in between these two days. PBS buffer was supplemented with 0.5% (w/v) bovine serum albumin and 1 mM EDTA. Hoechst 33342 and Pyronin Y were added to the fluorescence-activated cell sorting, FACS, at a concentration of 2 and 4 microg/mL, respectively, and kept at 4  C in the dark before use.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29104</offset>
+      <text>1 x 106 cells were harvested by centrifugation for 5 min at 200x g at room temperature and washed with 10 mL PBS. Cells were then resuspended in 0.5 mL PBS and fixed by dropwise addition of 4.5 mL pre-chilled 70% ethanol at -20  C. The sample was vortexed and kept at -20  C for 2 h. The ethanol was removed by centrifugation at 300x g for 3 min at room temperature. Cells were then washed twice with 5 mL FACS buffer with a centrifugation step for 5 min at 200x g each time. 0.5 mL of the prepared staining solution was added to the cells and incubated for 20 min at room temperature. Fluorescence was analysed by BD LSR Fortessa (BD Biosciences, San Jose, CA, USA). UV (355 nm) and blue (488 nm) lasers were set to analyse the samples. 450/50-nm and 575/26-nm band passes were chosen for Hoechst 33342 and Pyronin Y, respectively, with linear acquisition. Debris and doublets were excluded by gating on forward scatter and side scatter plots. The removal of cell fragments and clumps was performed as the first step in the flow cytometry sample. This was achieved by using a pulse geometry gate such as FSC-H against FSC-A to focus on a single cell population.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>30277</offset>
+      <text>3.6. Glycan Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30298</offset>
+      <text>Prior to glycan analysis, 0.5 mL of cell culture supernatant was filtered with 0.22 mum microcentrifuge filters (Sigma Aldrich, Dorset, UK) and incubated with Protein A agarose beads (Sigma Aldrich, Dorset, UK) for 2 h at room temperature. After the incubation was complete, the IgG4 was eluted using 0.2 M Glycine pH 2.5 solution. Following elution, the IgG4 was transferred to 1x PBS (Gibco, Thermo Fisher Scientific, Waltham, MA, USA) through buffer exchange, using 30 KDa cut-off micro-centrifuge filters (ThermoFisher Scientific, Paisley, UK). For glycan analysis, the C100HT Glycan analysis kit was used (SCIEX, Brea, CA, USA). Briefly, 100 mug IgG4 was denaturated at 60  C for 8 min, using the kit's denaturation solution. Following denaturation, the glycans were digested using 500 units, per sample, of the PNGase F enzyme (New England Biolabs, Hertfordshire, UK) for 20 min and at 60  C. Released glycans were labelled with APTS-solution at 60 C and for 20 min. Labelled glycans were washed three times with acetonitrile (Sigma Aldrich, Dorset, UK), subsequently eluted in water and loaded to a C100HT Glycan analysis-capillary electrophoresis (SCIEX, Brea, CA, USA) instrument for glycans analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>31518</offset>
+      <text>3.7. Statistical Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31544</offset>
+      <text>Uptake and secretion rates were calculated for each replicate before calculating reported average values. A student t-test was used to determine the hyperosmolality significance on reducing the growth rate and the significance of the difference between the NaCl and Feed C treatments. Two sample t-tests (p &lt; 0.05) with equal variance for each variable were employed for the evaluation of the glycan analysis. Origin 2020 (OriginLab, Northampton, MA, USA) was used for the statistical analysis of IgG glycosylation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>32060</offset>
+      <text>4. Conclusions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32075</offset>
+      <text>In this study we examined the effect of hyperosmolar conditions on CHO cell growth, cell volume and antibody production. We compared two methods for inducing hyperosmolality, addition of NaCl and supplementation of Feed C, a commercial feed designed to extend cell growth. The extent to which osmolality affects cell growth and antibody titre varied significantly and depended on the value of osmolality as well as the method used to increase it. This is because, although hyperosmolar conditions increased the specific antibody productivity across all conditions, they also adversely affected growth, meaning that the total titre was lower than the control in certain cases. Surprisingly, cultures supplemented with NaCl exhibited a more consistent behaviour compared to those supplemented with Feed C, pointing to the negative effect of overfeeding on growth rate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32942</offset>
+      <text>Increased osmolality led to an increase in specific antibody productivity, although not as high as reported in previous studies. The supplementation of NaCl did not alter the antibody glycosylation profile significantly. In contrast, hyperosmolar conditions induced by Feed addition resulted in a desirable shift from G0F to both non-cacodylate (G0) and cacodylate-galactosylated (G1F, G1'F and G2F) structures, with the extent of the shift appearing to correlate with the osmolality value.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33435</offset>
+      <text>At high osmolality values, cell metabolism appears to be less efficient. Hyperosmolality slowed down growth, which is useful for prolonging cell culture duration. Undoubtedly, the osmolality upshift would yield a better titre if the addition took place at a later culture stage, when the viable cell density had already reached a plateau, but process optimisation was not the aim of this study. Osmolality was also shown to be a significant determinant of cell volume, even though the largest cell size at the end of culture did not correspond to the highest initial osmolality value. This could point to a threshold for the osmolality effect on cell volume.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34094</offset>
+      <text>Overall, the effect of osmolality due to the addition of nutrient-rich feed supplements appears to be multifaceted. Although feed addition usually prolongs culture longevity and increases the specific productivity, and therefore the total antibody yield, it is associated with wasteful metabolism and may, in fact, hinder growth when leading to hyperosmolar conditions in early-stage culture. Under such conditions, it also led to a deterioration of the glycan distribution profile in this study. Platform antibody processes typically employ pre-formulated media and feeds, which undoubtedly speed up process development. However, our results indicate that overfeeding may, in fact, result in lower productive cell time (indicated by IVCD). Taken together with other recent studies, our findings point to the need for tailoring feed formulation and addition to the particular cell line and product at hand. Additionally, they point to the need for expanding the range of in-process analytics to amino acids, with a view to informing the feeding strategy in near real-time.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">footnote</infon>
+      <offset>35167</offset>
+      <text>Publisher's Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title</infon>
+      <offset>35293</offset>
+      <text>Author Contributions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35314</offset>
+      <text>Conceptualisation, S.A. and C.K.; methodology, S.A. and C.K.; formal analysis, S.A.; investigation, S.A. and P.K. (the IgG glycan analysis); resources, S.A. and C.K.; data curation, S.A.; writing:original draft preparation, S.A.; writing:review and editing, C.K. and P.K.; supervision, C.K.; funding acquisition, S.A. and C.K. All authors have read and agreed to the published version of the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title</infon>
+      <offset>35722</offset>
+      <text>Funding</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35730</offset>
+      <text>S.A. would like to thank King Abdelaziz University for his scholarship. P.K. thanks the Department of Chemical Engineering, Imperial College London, for his scholarship.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title</infon>
+      <offset>35900</offset>
+      <text>Data Availability Statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35928</offset>
+      <text>Data can be made available upon request.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title</infon>
+      <offset>35969</offset>
+      <text>Conflicts of Interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35991</offset>
+      <text>The authors declare no conflict of interest. The funder had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">title</infon>
+      <offset>36220</offset>
+      <text>Appendix A</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36231</offset>
+      <text>Growth and uptake/secretion rate calculation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36277</offset>
+      <text> (h-1) is growth rate in</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36304</offset>
+      <text> (106 cell mL-1) is viable cell density at time </text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36355</offset>
+      <text>To calculate the growth rate: </text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36386</offset>
+      <text> (mumol day-1 10-6 cell) is the metabolite (or mAb) uptake/secretion rate</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36464</offset>
+      <text> (mM) is the initial substrate (or mAb) concentration and  (mM) the concentration at  (day 6)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36558</offset>
+      <text> (106 cell day mL-1) is the integral viable cell density at  (day 6)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">APPENDIX</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36629</offset>
+      <text>To calculate the specific substrate/metabolite uptake/production rate:  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g0A1.jpg</infon>
+      <infon key="id">ijms-22-03290-f0A1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>36702</offset>
+      <text>Culture viability profile across different osmolality values. The cultures were harvested on the day after the final measurement reported herein, when the viability in one of the biological duplicates dropped below 80%.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g0A2.jpg</infon>
+      <infon key="id">ijms-22-03290-f0A2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>36922</offset>
+      <text>RNA (y axis) and DNA (x axis) distribution on days 4 and 9 of the bioreactor run at physiological temperature.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g0A3.jpg</infon>
+      <infon key="id">ijms-22-03290-f0A3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>37033</offset>
+      <text>Forward scatter height versus area for single cells on days 2 and 14 from the bioreactor run at physiological temperature.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>37156</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Vandeputte;given-names:O.</infon>
+      <infon key="name_2">surname:Abdelkafi;given-names:C.</infon>
+      <infon key="name_1">surname:Winnepenninckx;given-names:P.</infon>
+      <infon key="name_0">surname:Hendrick;given-names:V.</infon>
+      <infon key="fpage">71</infon>
+      <infon key="pub-id_doi">10.1023/A:1014088919546</infon>
+      <infon key="pub-id_pmid">19003317</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">36</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Werenne;given-names:J.</infon>
+      <infon key="name_8">surname:Kretzmer;given-names:G.</infon>
+      <infon key="name_7">surname:Loa;given-names:A.</infon>
+      <infon key="lpage">83</infon>
+      <infon key="name_6">surname:Renemann;given-names:G.</infon>
+      <infon key="name_5">surname:Marique;given-names:T.</infon>
+      <infon key="name_4">surname:Cherlet;given-names:M.</infon>
+      <offset>37167</offset>
+      <text>Increased productivity of re-combinant tissular plasminogen activator (t-PA) by butyrate and shift of temperature: A cell cycle phases analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="name_2">surname:Al-Rubeai;given-names:M.</infon>
+      <infon key="name_1">surname:Shuttleworth;given-names:J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bi;given-names:J.X.</infon>
+      <infon key="fpage">741</infon>
+      <infon key="pub-id_doi">10.1002/bit.20025</infon>
+      <infon key="pub-id_pmid">14991652</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">749</infon>
+      <offset>37311</offset>
+      <text>Uncoupling of cell growth and proliferation results in enhancement of productivity in p21CIP1-arrested CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Martens;given-names:D.E.</infon>
+      <infon key="name_2">surname:Wijffels;given-names:R.H.</infon>
+      <infon key="name_1">surname:Dalm;given-names:C.</infon>
+      <infon key="name_0">surname:Pan;given-names:X.</infon>
+      <infon key="fpage">8101</infon>
+      <infon key="pub-id_doi">10.1007/s00253-017-8531-y</infon>
+      <infon key="pub-id_pmid">28951949</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Appl. Microbiol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">101</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">8113</infon>
+      <offset>37424</offset>
+      <text>Metabolic characterization of a CHO cell size increase phase in fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hageman;given-names:J.A.</infon>
+      <infon key="name_2">surname:Dalm;given-names:C.</infon>
+      <infon key="name_1">surname:Alsayyari;given-names:A.A.</infon>
+      <infon key="name_0">surname:Pan;given-names:X.</infon>
+      <infon key="fpage">1800156</infon>
+      <infon key="pub-id_doi">10.1002/biot.201800156</infon>
+      <infon key="pub-id_pmid">30024106</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_5">surname:Martens;given-names:D.E.</infon>
+      <infon key="name_4">surname:Wijffels;given-names:R.H.</infon>
+      <offset>37507</offset>
+      <text>Transcriptome Analysis of CHO Cell Size Increase During a Fed-Batch Process</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Portner;given-names:R.</infon>
+      <infon key="name_2">surname:Riecken;given-names:K.</infon>
+      <infon key="name_1">surname:Bhat;given-names:K.</infon>
+      <infon key="name_0">surname:Moller;given-names:J.</infon>
+      <infon key="fpage">2931</infon>
+      <infon key="pub-id_doi">10.1002/bit.27124</infon>
+      <infon key="pub-id_pmid">31342512</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">116</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2943</infon>
+      <infon key="name_5">surname:Jandt;given-names:U.</infon>
+      <infon key="name_4">surname:Zeng;given-names:A.P.</infon>
+      <offset>37583</offset>
+      <text>Process-induced cell cycle oscillations in CHO cultures: Online monitoring and model-based investigation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Altamirano;given-names:C.</infon>
+      <infon key="volume">60</infon>
+      <infon key="name_2">surname:Osses;given-names:N.</infon>
+      <infon key="name_1">surname:Berrios;given-names:J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Becerra;given-names:S.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2011.10.003</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biochem. Eng. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">8</infon>
+      <offset>37688</offset>
+      <text>Exploring the effect of mild hypothermia on CHO cell productivity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wood;given-names:E.</infon>
+      <infon key="name_2">surname:Swaffer;given-names:M.</infon>
+      <infon key="name_1">surname:Young;given-names:K.D.</infon>
+      <infon key="name_0">surname:Marshall;given-names:W.F.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1186/1741-7007-10-101</infon>
+      <infon key="pub-id_pmid">22214525</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">BMC Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Qu;given-names:X.</infon>
+      <infon key="name_8">surname:Walbot;given-names:V.</infon>
+      <infon key="name_7">surname:Wallingford;given-names:J.</infon>
+      <infon key="lpage">22</infon>
+      <infon key="name_6">surname:Frankel;given-names:J.</infon>
+      <infon key="name_5">surname:Kimura;given-names:A.</infon>
+      <infon key="name_4">surname:Nurse;given-names:P.</infon>
+      <offset>37754</offset>
+      <text>What determines cell size?</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="name_2">surname:Lee;given-names:G.M.</infon>
+      <infon key="name_1">surname:Lee;given-names:M.S.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ryu;given-names:J.S.</infon>
+      <infon key="fpage">993</infon>
+      <infon key="pub-id_doi">10.1021/bp010116e</infon>
+      <infon key="pub-id_pmid">11735431</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">999</infon>
+      <offset>37781</offset>
+      <text>Effects of cloned gene dosage on the response of recombinant CHO cells to hyperosmotic pressure in regard to cell growth and antibody production</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bonney;given-names:M.</infon>
+      <infon key="name_2">surname:Lengefeld;given-names:J.</infon>
+      <infon key="name_1">surname:Terry;given-names:R.L.</infon>
+      <infon key="name_0">surname:Neurohr;given-names:G.E.</infon>
+      <infon key="fpage">1083</infon>
+      <infon key="pub-id_doi">10.1016/j.cell.2019.01.018</infon>
+      <infon key="pub-id_pmid">30739799</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">176</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Paulo;given-names:J.A.</infon>
+      <infon key="name_8">surname:Soares;given-names:L.M.</infon>
+      <infon key="name_7">surname:Vaites;given-names:L.P.</infon>
+      <infon key="lpage">1097.e18</infon>
+      <infon key="name_6">surname:Miettinen;given-names:T.P.</infon>
+      <infon key="name_5">surname:Moretto;given-names:F.</infon>
+      <infon key="name_4">surname:Brittingham;given-names:G.P.</infon>
+      <offset>37926</offset>
+      <text>Excessive Cell Growth Causes Cytoplasm Dilution And Contributes to Senescence</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="name_1">surname:Heald;given-names:R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Levy;given-names:D.L.</infon>
+      <infon key="fpage">113</infon>
+      <infon key="pub-id_doi">10.1146/annurev-cellbio-092910-154158</infon>
+      <infon key="pub-id_pmid">22804576</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Annu. Rev. Cell Dev. Biol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">135</infon>
+      <offset>38004</offset>
+      <text>Mechanisms of Intracellular Scaling</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Barkai;given-names:N.</infon>
+      <infon key="name_2">surname:Jona;given-names:G.</infon>
+      <infon key="name_1">surname:Metzl-Raz;given-names:E.</infon>
+      <infon key="name_0">surname:Kafri;given-names:M.</infon>
+      <infon key="fpage">22</infon>
+      <infon key="pub-id_doi">10.1016/j.celrep.2015.12.015</infon>
+      <infon key="pub-id_pmid">26725116</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Cell Rep.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">31</infon>
+      <offset>38040</offset>
+      <text>The Cost of Protein Production</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Emery;given-names:A.N.</infon>
+      <infon key="name_2">surname:Jackson;given-names:L.P.</infon>
+      <infon key="name_1">surname:Holmes;given-names:P.</infon>
+      <infon key="name_0">surname:Lloyd;given-names:D.R.</infon>
+      <infon key="fpage">59</infon>
+      <infon key="pub-id_doi">10.1023/A:1008103730027</infon>
+      <infon key="pub-id_pmid">19003381</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">70</infon>
+      <infon key="name_4">surname:Al-Rubeai;given-names:M.</infon>
+      <offset>38071</offset>
+      <text>Relationship between cell size, cell cycle and specific recom-binant protein productivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="name_1">surname:Fussenegger;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Dreesen;given-names:I.A.</infon>
+      <infon key="fpage">853</infon>
+      <infon key="pub-id_doi">10.1002/bit.22990</infon>
+      <infon key="pub-id_pmid">21404259</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">866</infon>
+      <offset>38161</offset>
+      <text>Ectopic expression of human mTOR increases viability, robustness, cell size, proliferation, and antibody production of chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="name_2">surname:Gray;given-names:P.</infon>
+      <infon key="name_1">surname:Munro;given-names:T.P.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pilbrough;given-names:W.</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0008432</infon>
+      <infon key="pub-id_pmid">20037651</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e8432</infon>
+      <offset>38308</offset>
+      <text>Intraclonal protein expression heterogeneity in recombinant CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Al-Rubeai;given-names:M.</infon>
+      <infon key="name_2">surname:Emery;given-names:A.N.</infon>
+      <infon key="name_1">surname:Leelavatcharamas;given-names:V.</infon>
+      <infon key="name_0">surname:Lloyd;given-names:D.R.</infon>
+      <infon key="fpage">49</infon>
+      <infon key="pub-id_doi">10.1023/A:1008093404237</infon>
+      <infon key="pub-id_pmid">19003355</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">57</infon>
+      <offset>38378</offset>
+      <text>The role of the cell cycle in determining gene expression and productivity in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_1">surname:Shrivastava;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Tripathi;given-names:N.K.</infon>
+      <infon key="fpage">420</infon>
+      <infon key="pub-id_doi">10.3389/fbioe.2019.00420</infon>
+      <infon key="pub-id_pmid">31921823</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Front. Bioeng. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <offset>38466</offset>
+      <text>Recent Developments in Bioprocessing of Recombinant Proteins: Expression Hosts and Process Development</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lloyd;given-names:A.C.</infon>
+      <infon key="fpage">1194</infon>
+      <infon key="pub-id_doi">10.1016/j.cell.2013.08.053</infon>
+      <infon key="pub-id_pmid">24034244</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1205</infon>
+      <offset>38569</offset>
+      <text>The Regulation of Cell Size</text>
+    </passage>
+    <passage>
+      <infon key="volume">251</infon>
+      <infon key="name_1">surname:Durocher;given-names:Y.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lalonde;given-names:M.E.</infon>
+      <infon key="fpage">128</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2017.04.028</infon>
+      <infon key="pub-id_pmid">28465209</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">140</infon>
+      <offset>38597</offset>
+      <text>Therapeutic glycoprotein production in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:G.M.</infon>
+      <infon key="volume">6</infon>
+      <infon key="name_2">surname:Sung;given-names:Y.H.</infon>
+      <infon key="name_1">surname:Chung;given-names:J.Y.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kim;given-names:T.K.</infon>
+      <infon key="fpage">332</infon>
+      <infon key="pub-id_doi">10.1007/BF02933001</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol. Bioprocess Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">336</infon>
+      <offset>38652</offset>
+      <text>Relationship between cell size and specific thrombopoietin productivity in Chinese hamster ovary cells during dihydrofolate reductase-mediated gene amplification</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Carrondo;given-names:M.J.T.</infon>
+      <infon key="name_2">surname:Barreiro;given-names:L.C.</infon>
+      <infon key="name_1">surname:Carinhas;given-names:N.</infon>
+      <infon key="name_0">surname:Duarte;given-names:T.M.</infon>
+      <infon key="fpage">2095</infon>
+      <infon key="pub-id_doi">10.1002/bit.25266</infon>
+      <infon key="pub-id_pmid">24771076</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">111</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2106</infon>
+      <infon key="name_5">surname:Teixeira;given-names:A.P.</infon>
+      <infon key="name_4">surname:Alves;given-names:P.M.</infon>
+      <offset>38814</offset>
+      <text>Metabolic Responses of CHO Cells to Limi-tation of Key Amino Acids</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="name_1">surname:Ollis;given-names:D.F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Suzuki;given-names:E.</infon>
+      <infon key="fpage">1398</infon>
+      <infon key="pub-id_doi">10.1002/bit.260341109</infon>
+      <infon key="pub-id_pmid">18588084</infon>
+      <infon key="year">1989</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1402</infon>
+      <offset>38881</offset>
+      <text>Cell-Cycle Model for Antibody-Production Kinetics</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hacker;given-names:D.L.</infon>
+      <infon key="name_2">surname:Baldi;given-names:L.</infon>
+      <infon key="name_1">surname:Garcia;given-names:I.F.</infon>
+      <infon key="name_0">surname:Zhang;given-names:X.W.</infon>
+      <infon key="fpage">1587</infon>
+      <infon key="pub-id_doi">10.1007/s10529-010-0331-8</infon>
+      <infon key="pub-id_pmid">20574835</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol. Lett.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1592</infon>
+      <infon key="name_4">surname:Wurm;given-names:F.M.</infon>
+      <offset>38931</offset>
+      <text>Hyperosmolarity enhances transient recombinant protein yield in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Huang;given-names:Z.</infon>
+      <infon key="name_2">surname:Xia;given-names:Z.G.</infon>
+      <infon key="name_1">surname:Wu;given-names:X.</infon>
+      <infon key="name_0">surname:Qin;given-names:J.Y.</infon>
+      <infon key="fpage">1217</infon>
+      <infon key="pub-id_doi">10.1007/s00253-018-9555-7</infon>
+      <infon key="pub-id_pmid">30554388</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Appl. Microbiol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">103</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Zheng;given-names:C.</infon>
+      <infon key="lpage">1229</infon>
+      <infon key="name_6">surname:Fu;given-names:Q.</infon>
+      <infon key="name_5">surname:Wang;given-names:Y.C.</infon>
+      <infon key="name_4">surname:Zhang;given-names:Y.</infon>
+      <offset>39023</offset>
+      <text>The effect of hyperosmolality application time on production, quality, and biopotency of monoclonal antibodies produced in CHO cell fed-batch and perfusion cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:G.M.</infon>
+      <infon key="volume">38</infon>
+      <infon key="name_2">surname:Sung;given-names:Y.H.</infon>
+      <infon key="name_1">surname:Kim;given-names:N.S.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kim;given-names:M.S.</infon>
+      <infon key="fpage">314</infon>
+      <infon key="pub-id_doi">10.1290/1071-2690(2002)038&lt;0314:BCSBOH&gt;2.0.CO;2</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Vitr. Cell Dev. Biol. Anim.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">319</infon>
+      <offset>39188</offset>
+      <text>Biphasic culture strategy based on hyperosmotic pressure for improved humanized antibody production in Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gupta;given-names:S.K.</infon>
+      <infon key="name_2">surname:Rank;given-names:D.L.</infon>
+      <infon key="name_1">surname:Goyal;given-names:A.</infon>
+      <infon key="name_0">surname:Zhu;given-names:M.M.</infon>
+      <infon key="fpage">70</infon>
+      <infon key="pub-id_doi">10.1021/bp049815s</infon>
+      <infon key="pub-id_pmid">15903242</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">77</infon>
+      <infon key="name_5">surname:Lee;given-names:S.S.</infon>
+      <infon key="name_4">surname:Vanden Boom;given-names:T.</infon>
+      <offset>39326</offset>
+      <text>Effects of elevated pCO2 and osmolality on growth of CHO cells and production of antibody-fusion protein B1: A case study</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Jardon;given-names:M.A.</infon>
+      <infon key="name_2">surname:Braasch;given-names:K.</infon>
+      <infon key="name_1">surname:Ghaffari;given-names:N.</infon>
+      <infon key="name_0">surname:Nasseri;given-names:S.S.</infon>
+      <infon key="fpage">37</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2014.06.027</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biochem. Eng. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">91</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Piret;given-names:J.M.</infon>
+      <infon key="lpage">45</infon>
+      <infon key="name_6">surname:Gopaluni;given-names:B.</infon>
+      <infon key="name_5">surname:Kennard;given-names:M.</infon>
+      <infon key="name_4">surname:Butler;given-names:M.</infon>
+      <offset>39448</offset>
+      <text>Increased CHO cell fed-batch monoclonal an-tibody production using the autophagy inhibitor 3-MA or gradually increasing osmolality</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Takahashi;given-names:E.</infon>
+      <infon key="name_2">surname:Takahashi;given-names:K.</infon>
+      <infon key="name_1">surname:Kobayashi;given-names:Y.</infon>
+      <infon key="name_0">surname:Konno;given-names:Y.</infon>
+      <infon key="fpage">249</infon>
+      <infon key="pub-id_doi">10.1007/s10616-011-9377-2</infon>
+      <infon key="pub-id_pmid">21870215</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">64</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Ohta;given-names:T.</infon>
+      <infon key="name_8">surname:Yano;given-names:K.</infon>
+      <infon key="name_7">surname:Suzawa;given-names:T.</infon>
+      <infon key="lpage">265</infon>
+      <infon key="name_6">surname:Yamano;given-names:K.</infon>
+      <infon key="name_5">surname:Wakitani;given-names:M.</infon>
+      <infon key="name_4">surname:Sakae;given-names:S.</infon>
+      <offset>39579</offset>
+      <text>Fucose content of monoclonal antibodies can be controlled by culture medium osmolality for high antibody-dependent cellular cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:G.M.</infon>
+      <infon key="name_2">surname:Kim;given-names:Y.G.</infon>
+      <infon key="name_1">surname:Jeong;given-names:Y.R.</infon>
+      <infon key="name_0">surname:Lee;given-names:J.H.</infon>
+      <infon key="fpage">1721</infon>
+      <infon key="pub-id_doi">10.1002/bit.26284</infon>
+      <infon key="pub-id_pmid">28266015</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1732</infon>
+      <offset>39716</offset>
+      <text>Understanding of decreased sialylation of Fc-fusion protein in hyperosmotic recom-binant Chinese hamster ovary cell culture: N-glycosylation gene expression and N-linked glycan antennary profile</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="name_2">surname:Takors;given-names:R.</infon>
+      <infon key="name_1">surname:Matuszczyk;given-names:J.C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pfizenmaier;given-names:J.</infon>
+      <infon key="fpage">1212</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2143</infon>
+      <infon key="pub-id_pmid">26146937</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1216</infon>
+      <offset>39911</offset>
+      <text>Changes in intracellular ATP-content of CHO cells as response to hyperosmolality</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="name_1">surname:Koo;given-names:J.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Min Lee;given-names:G.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Encycl. Ind. Biotechnol. Bioprocess Biosep.Cell Technol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">8</infon>
+      <offset>39992</offset>
+      <text>Osmolarity effects, Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="name_2">surname:Yoshida;given-names:T.</infon>
+      <infon key="name_1">surname:Hayashi;given-names:H.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Takagi;given-names:M.</infon>
+      <infon key="fpage">171</infon>
+      <infon key="pub-id_doi">10.1023/A:1008171921282</infon>
+      <infon key="pub-id_pmid">19002978</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">179</infon>
+      <offset>40047</offset>
+      <text>The effect of osmolarity on metabolism and morphology in adhesion and suspension chinese hamster ovary cells producing tissue plasminogen activator</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Valdez-Cruz;given-names:N.A.</infon>
+      <infon key="name_2">surname:Trujillo-Roldan;given-names:M.A.</infon>
+      <infon key="name_1">surname:Ramirez-Lira;given-names:M.J.</infon>
+      <infon key="name_0">surname:Perez-Rodriguez;given-names:S.</infon>
+      <infon key="fpage">463</infon>
+      <infon key="pub-id_doi">10.1080/21655979.2020.1744266</infon>
+      <infon key="pub-id_pmid">32223359</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Bioengineered</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">471</infon>
+      <offset>40195</offset>
+      <text>Nutrient supplementation strategy improves cell concentration and longevity, monoclonal antibody production and lactate metabolism of Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ernst;given-names:W.</infon>
+      <infon key="name_2">surname:Castan;given-names:A.</infon>
+      <infon key="name_1">surname:Damjanovic;given-names:L.</infon>
+      <infon key="name_0">surname:Reinhart;given-names:D.</infon>
+      <infon key="fpage">23</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2018.08.013</infon>
+      <infon key="pub-id_pmid">30157452</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">285</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">37</infon>
+      <infon key="name_4">surname:Kunert;given-names:R.</infon>
+      <offset>40357</offset>
+      <text>Differential gene expression of a feed-spiked super-producing CHO cell line</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wijffels;given-names:R.H.</infon>
+      <infon key="name_2">surname:Dalm;given-names:C.</infon>
+      <infon key="name_1">surname:Streefland;given-names:M.</infon>
+      <infon key="name_0">surname:Pan;given-names:X.</infon>
+      <infon key="fpage">39</infon>
+      <infon key="pub-id_doi">10.1007/s10616-016-0036-5</infon>
+      <infon key="pub-id_pmid">27900626</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">69</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">56</infon>
+      <infon key="name_4">surname:Martens;given-names:D.E.</infon>
+      <offset>40433</offset>
+      <text>Selection of chemically defined media for CHO cell fed-batch culture processes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Dezaki;given-names:K.</infon>
+      <infon key="name_2">surname:Shimizu;given-names:T.</infon>
+      <infon key="name_1">surname:Maeno;given-names:E.</infon>
+      <infon key="name_0">surname:Okada;given-names:Y.</infon>
+      <infon key="fpage">3</infon>
+      <infon key="pub-id_doi">10.1111/j.1469-7793.2001.0003g.x</infon>
+      <infon key="pub-id_pmid">11283221</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">J. Physiol. Lond.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">532</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">16</infon>
+      <infon key="name_5">surname:Morishima;given-names:S.</infon>
+      <infon key="name_4">surname:Wang;given-names:J.</infon>
+      <offset>40512</offset>
+      <text>Receptor-mediated control of regulatory volume decrease (RVD) and apoptotic volume decrease (AVD)</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="name_1">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kyriakopoulos;given-names:S.</infon>
+      <infon key="fpage">2466</infon>
+      <infon key="pub-id_doi">10.1002/bit.25319</infon>
+      <infon key="pub-id_pmid">24975682</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2476</infon>
+      <offset>40610</offset>
+      <text>A framework for the systematic design of fed-batch strategies in mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Morten;given-names:K.</infon>
+      <infon key="name_2">surname:Chung;given-names:V.</infon>
+      <infon key="name_1">surname:Walker;given-names:T.</infon>
+      <infon key="name_0">surname:Hartley;given-names:F.</infon>
+      <infon key="fpage">1890</infon>
+      <infon key="pub-id_doi">10.1002/bit.26603</infon>
+      <infon key="pub-id_pmid">29603726</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1903</infon>
+      <offset>40698</offset>
+      <text>Mechanisms driving the lactate switch in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">462</infon>
+      <infon key="name_1">surname:Cidlowski;given-names:J.A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bortner;given-names:C.D.</infon>
+      <infon key="fpage">176</infon>
+      <infon key="pub-id_doi">10.1016/j.abb.2007.01.020</infon>
+      <infon key="pub-id_pmid">17321483</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Arch. Biochem. Biophys.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">188</infon>
+      <offset>40767</offset>
+      <text>Cell shrinkage and monovalent cation fluxes: Role in apoptosis. ell shrinkage and monovalent cation fluxes: Role in apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">77</infon>
+      <infon key="name_2">surname:Miller;given-names:W.M.</infon>
+      <infon key="name_1">surname:Schmelzer;given-names:A.E.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:deZengotita;given-names:V.M.</infon>
+      <infon key="fpage">369</infon>
+      <infon key="pub-id_doi">10.1002/bit.10176</infon>
+      <infon key="pub-id_pmid">11787010</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">380</infon>
+      <offset>40893</offset>
+      <text>Characterization of hybridoma cell responses to elevated pCO(2) and osmo-lality: Intracellular pH, cell size, apoptosis, and metabolism</text>
+    </passage>
+    <passage>
+      <infon key="volume">99</infon>
+      <infon key="name_1">surname:Lee;given-names:G.M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hwang;given-names:S.O.</infon>
+      <infon key="fpage">678</infon>
+      <infon key="pub-id_doi">10.1002/bit.21589</infon>
+      <infon key="pub-id_pmid">17680685</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">685</infon>
+      <offset>41029</offset>
+      <text>Nutrient deprivation induces autophagy as well as apoptosis in Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">77</infon>
+      <infon key="name_1">surname:Miller;given-names:W.M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Schmelzer;given-names:A.E.</infon>
+      <infon key="fpage">359</infon>
+      <infon key="pub-id_doi">10.1002/bit.10175</infon>
+      <infon key="pub-id_pmid">11787009</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">368</infon>
+      <offset>41127</offset>
+      <text>Effects of osmoprotectant compounds on NCAM polysialylation under hyperosmotic stress and elevated pCO(2)</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="name_2">surname:Deckwer;given-names:W.D.</infon>
+      <infon key="name_1">surname:Hu;given-names:W.S.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zeng;given-names:A.P.</infon>
+      <infon key="fpage">434</infon>
+      <infon key="pub-id_doi">10.1021/bp9800337</infon>
+      <infon key="pub-id_pmid">9622524</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">441</infon>
+      <offset>41233</offset>
+      <text>Variation of stoichiometric ratios and their correlation for monitoring and control of animal cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Li;given-names:P.P.</infon>
+      <infon key="name_2">surname:Guo;given-names:L.Y.</infon>
+      <infon key="name_1">surname:Li;given-names:J.J.</infon>
+      <infon key="name_0">surname:Wang;given-names:L.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1038/s41389-018-0036-8</infon>
+      <infon key="pub-id_pmid">29367650</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Oncogenesis</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">10</infon>
+      <infon key="name_6">surname:Di;given-names:L.-J.</infon>
+      <infon key="name_5">surname:Zhou;given-names:H.S.</infon>
+      <infon key="name_4">surname:Zhao;given-names:Z.Q.</infon>
+      <offset>41341</offset>
+      <text>Molecular link between glucose and glutamine consumption in cancer cells mediated by CtBP and SIRT4</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_1">surname:James;given-names:D.C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:O'Callaghan;given-names:P.M.</infon>
+      <infon key="fpage">95</infon>
+      <infon key="pub-id_doi">10.1093/bfgp/eln012</infon>
+      <infon key="pub-id_pmid">18326543</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Brief. Funct. Genom. Proteom.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">110</infon>
+      <offset>41441</offset>
+      <text>Systems biotechnology of mammalian cell factories</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wakitani;given-names:M.</infon>
+      <infon key="name_2">surname:Inoue;given-names:M.</infon>
+      <infon key="name_1">surname:Mori;given-names:K.</infon>
+      <infon key="name_0">surname:Imai-Nishiya;given-names:H.</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1186/1472-6750-7-84</infon>
+      <infon key="pub-id_pmid">17199888</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">BMC Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">13</infon>
+      <infon key="name_6">surname:Satoh;given-names:M.</infon>
+      <infon key="name_5">surname:Shitara;given-names:K.</infon>
+      <infon key="name_4">surname:Iida;given-names:S.</infon>
+      <offset>41491</offset>
+      <text>Double knockdown of alpha1,6-fucosyltransferase (FUT8) and GDP-mannose 4,6-dehydratase (GMD) in antibody-producing cells: A new strategy for generating fully non-fucosylated therapeutic antibodies with enhanced ADCC</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Luo;given-names:Y.</infon>
+      <infon key="name_2">surname:Greer;given-names:M.</infon>
+      <infon key="name_1">surname:Song;given-names:L.</infon>
+      <infon key="name_0">surname:Wells;given-names:E.</infon>
+      <infon key="fpage">3310</infon>
+      <infon key="pub-id_doi">10.1002/bit.27496</infon>
+      <infon key="pub-id_pmid">32662879</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">117</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3321</infon>
+      <infon key="name_6">surname:Robinson;given-names:S.A.</infon>
+      <infon key="name_5">surname:Ogunnaike;given-names:B.</infon>
+      <infon key="name_4">surname:Kurian;given-names:V.</infon>
+      <offset>41707</offset>
+      <text>Media supplementation for targeted manipulation of monoclonal antibody galactosylation and fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Brown;given-names:J.</infon>
+      <infon key="name_2">surname:Donahue;given-names:R.</infon>
+      <infon key="name_1">surname:Eckblad;given-names:J.J.</infon>
+      <infon key="name_0">surname:Gramer;given-names:M.J.</infon>
+      <infon key="fpage">1591</infon>
+      <infon key="pub-id_doi">10.1002/bit.23075</infon>
+      <infon key="pub-id_pmid">21328321</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:van Berkel;given-names:P.H.C.</infon>
+      <infon key="name_8">surname:Gerritsen;given-names:J.</infon>
+      <infon key="name_7">surname:van den Bremer;given-names:E.T.J.</infon>
+      <infon key="lpage">1602</infon>
+      <infon key="name_6">surname:Priem;given-names:P.</infon>
+      <infon key="name_5">surname:Vickerman;given-names:K.</infon>
+      <infon key="name_4">surname:Shultz;given-names:C.</infon>
+      <offset>41811</offset>
+      <text>Modulation of antibody galactosylation through feeding of uridine, manganese chloride, and galactose</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sellick;given-names:C.</infon>
+      <infon key="name_2">surname:Sou;given-names:S.N.</infon>
+      <infon key="name_1">surname:Jedrzejewski;given-names:P.</infon>
+      <infon key="name_0">surname:Kotidis;given-names:P.</infon>
+      <infon key="fpage">1612</infon>
+      <infon key="pub-id_doi">10.1002/bit.26960</infon>
+      <infon key="pub-id_pmid">30802295</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">116</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1626</infon>
+      <infon key="name_6">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_5">surname:del Val;given-names:I.J.</infon>
+      <infon key="name_4">surname:Polizzi;given-names:K.</infon>
+      <offset>41912</offset>
+      <text>Model-based optimization of antibody galactosylation in CHO cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Prasser;given-names:J.</infon>
+      <infon key="name_2">surname:Reusch;given-names:D.</infon>
+      <infon key="name_1">surname:Reckermann;given-names:K.</infon>
+      <infon key="name_0">surname:Thomann;given-names:M.</infon>
+      <infon key="fpage">69</infon>
+      <infon key="pub-id_doi">10.1016/j.molimm.2016.03.002</infon>
+      <infon key="pub-id_pmid">27058641</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Mol. Immunol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">73</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">75</infon>
+      <infon key="name_4">surname:Tejada;given-names:M.L.</infon>
+      <offset>41985</offset>
+      <text>Fc-galactosylation modulates antibody-dependent cellular cytotoxicity of therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_2">surname:Weilguny;given-names:D.</infon>
+      <infon key="name_1">surname:Fan;given-names:Y.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jimenez del Val;given-names:I.</infon>
+      <infon key="fpage">610</infon>
+      <infon key="pub-id_doi">10.1002/biot.201400663</infon>
+      <infon key="pub-id_pmid">26743760</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">623</infon>
+      <offset>42081</offset>
+      <text>Dynamics of immature mAb glycoform secretion during CHO cell culture: An in-tegrated modelling framework</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Krahn;given-names:N.</infon>
+      <infon key="name_2">surname:Spearman;given-names:M.</infon>
+      <infon key="name_1">surname:Ohadi;given-names:K.</infon>
+      <infon key="name_0">surname:Aghamohseni;given-names:H.</infon>
+      <infon key="fpage">98</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2014.05.024</infon>
+      <infon key="pub-id_pmid">25014402</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">186</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Budman;given-names:H.M.</infon>
+      <infon key="lpage">109</infon>
+      <infon key="name_6">surname:Butler;given-names:M.</infon>
+      <infon key="name_5">surname:Scharer;given-names:J.M.</infon>
+      <infon key="name_4">surname:Moo-Young;given-names:M.</infon>
+      <offset>42186</offset>
+      <text>Effects of nutrient levels and average culture pH on the glycosylation pattern of camelid-humanized monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mason;given-names:A.</infon>
+      <infon key="name_2">surname:Lee;given-names:K.</infon>
+      <infon key="name_1">surname:Sellick;given-names:C.</infon>
+      <infon key="name_0">surname:Sou;given-names:S.N.</infon>
+      <infon key="fpage">1165</infon>
+      <infon key="pub-id_doi">10.1002/bit.25524</infon>
+      <infon key="pub-id_pmid">25545631</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1176</infon>
+      <infon key="name_6">surname:Kontoravd;given-names:C.</infon>
+      <infon key="name_5">surname:Polizzi;given-names:K.M.</infon>
+      <infon key="name_4">surname:Kyriakopoulos;given-names:S.</infon>
+      <offset>42306</offset>
+      <text>How does mild hypothermia affect monoclonal antibody glycosylation?</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="name_1">surname:Butler;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Yang;given-names:M.</infon>
+      <infon key="fpage">370</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(20000520)68:4&lt;370::AID-BIT2&gt;3.0.CO;2-K</infon>
+      <infon key="pub-id_pmid">10745205</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">380</infon>
+      <offset>42374</offset>
+      <text>Effects of ammonia on CHO cell growth, erythropoietin production, and glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Zimmer;given-names:A.</infon>
+      <infon key="volume">116</infon>
+      <infon key="name_2">surname:Eichhorn;given-names:T.</infon>
+      <infon key="name_1">surname:Zimmermann;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ehret;given-names:J.</infon>
+      <infon key="fpage">816</infon>
+      <infon key="pub-id_pmid">30552760</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">830</infon>
+      <offset>42458</offset>
+      <text>Impact of cell culture media additives on IgG glycosylation produced in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Stettler;given-names:M.</infon>
+      <infon key="name_2">surname:Perilleux;given-names:A.</infon>
+      <infon key="name_1">surname:Roulet;given-names:A.</infon>
+      <infon key="name_0">surname:Villiger;given-names:T.K.</infon>
+      <infon key="fpage">1123</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2305</infon>
+      <infon key="pub-id_pmid">27254475</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1134</infon>
+      <infon key="name_6">surname:Soos;given-names:M.</infon>
+      <infon key="name_5">surname:Morbidelli;given-names:M.</infon>
+      <infon key="name_4">surname:Broly;given-names:H.</infon>
+      <offset>42558</offset>
+      <text>Controlling the time evolution of mAb N-linked glycosylation, Part I: Microbioreactor experiments</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sliwkowski;given-names:M.B.</infon>
+      <infon key="name_2">surname:Lofgren;given-names:J.</infon>
+      <infon key="name_1">surname:Ryll;given-names:T.</infon>
+      <infon key="name_0">surname:Gawlitzek;given-names:M.</infon>
+      <infon key="fpage">637</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(20000620)68:6&lt;637::AID-BIT6&gt;3.0.CO;2-C</infon>
+      <infon key="pub-id_pmid">10799988</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">68</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">646</infon>
+      <offset>42656</offset>
+      <text>Ammonium alters N-glycan structures of recombinant TNFR-IgG: Deg-radative versus biosynthetic mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_2">surname:Ouyang;given-names:A.</infon>
+      <infon key="name_1">surname:Kowle;given-names:R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:McCracken;given-names:N.A.</infon>
+      <infon key="fpage">547</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1906</infon>
+      <infon key="pub-id_pmid">24692242</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">553</infon>
+      <offset>42761</offset>
+      <text>Control of galactosylated glycoforms distribution in cell culture system</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="name_1">surname:Harcum;given-names:S.W.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Chen;given-names:P.</infon>
+      <infon key="fpage">123</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2005.10.002</infon>
+      <infon key="pub-id_pmid">16380282</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Metab. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">132</infon>
+      <offset>42834</offset>
+      <text>Effects of elevated ammonium on glycosylation gene expression in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Cote;given-names:K.</infon>
+      <infon key="name_2">surname:Chu;given-names:A.-H.A.</infon>
+      <infon key="name_1">surname:Dolatshahi;given-names:S.</infon>
+      <infon key="name_0">surname:Sumit;given-names:M.</infon>
+      <infon key="fpage">102</infon>
+      <infon key="pub-id_doi">10.1016/j.isci.2019.01.006</infon>
+      <infon key="pub-id_pmid">30682623</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">iScience</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Mulukutla;given-names:B.C.</infon>
+      <infon key="name_8">surname:Lauffenburger;given-names:D.A.</infon>
+      <infon key="name_7">surname:Weiss;given-names:R.</infon>
+      <infon key="lpage">120</infon>
+      <infon key="name_6">surname:Cornell;given-names:R.J.</infon>
+      <infon key="name_5">surname:Marshall;given-names:J.K.</infon>
+      <infon key="name_4">surname:Scarcelli;given-names:J.J.</infon>
+      <offset>42909</offset>
+      <text>Dissecting N-Glycosylation Dynamics in Chinese Hamster Ovary Cells Fed-batch Cultures using Time Course Omics Analyses</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sommeregger;given-names:W.</infon>
+      <infon key="name_2">surname:Kaisermayer;given-names:C.</infon>
+      <infon key="name_1">surname:Damjanovic;given-names:L.</infon>
+      <infon key="name_0">surname:Reinhart;given-names:D.</infon>
+      <infon key="fpage">1700686</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700686</infon>
+      <infon key="pub-id_pmid">29701329</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Kunert;given-names:R.</infon>
+      <infon key="name_8">surname:Grunwald-Gruber;given-names:C.</infon>
+      <infon key="name_7">surname:Mayrhofer;given-names:P.</infon>
+      <infon key="name_6">surname:Castan;given-names:A.</infon>
+      <infon key="name_5">surname:Gasselhuber;given-names:B.</infon>
+      <infon key="name_4">surname:Gili;given-names:A.</infon>
+      <offset>43028</offset>
+      <text>Bioprocessing of Recombinant CHO-K1, CHO-DG44, and CHO-S: CHO Expression Hosts Favor Either mAb Production or Biomass Synthesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="name_1">surname:Croughan;given-names:M.S.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Freund;given-names:N.W.</infon>
+      <infon key="pub-id_doi">10.3390/ijms19020385</infon>
+      <infon key="pub-id_pmid">29382079</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Int. J. Mol. Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">385</infon>
+      <offset>43156</offset>
+      <text>A Simple Method to Reduce both Lactic Acid and Ammonium Production in Industrial Animal Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_2">surname:Bell;given-names:D.</infon>
+      <infon key="name_1">surname:Tsang;given-names:J.M.H.</infon>
+      <infon key="name_0">surname:Goey;given-names:C.H.</infon>
+      <infon key="fpage">2771</infon>
+      <infon key="pub-id_doi">10.1002/bit.26437</infon>
+      <infon key="pub-id_pmid">28843000</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2781</infon>
+      <offset>43257</offset>
+      <text>Cascading effect in bioprocessing-The impact of mild hypothermia on CHO cell behavior and host cell protein composition</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Jian Li;given-names:Z.</infon>
+      <infon key="name_2">surname:Khattak;given-names:S.F.</infon>
+      <infon key="name_1">surname:Shen;given-names:D.</infon>
+      <infon key="name_0">surname:Kiehl;given-names:T.R.</infon>
+      <infon key="fpage">560</infon>
+      <infon key="pub-id_doi">10.1002/cyto.a.21076</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Cytom. Part A</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">79</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">569</infon>
+      <infon key="name_4">surname:Sharfstein;given-names:S.T.</infon>
+      <offset>43377</offset>
+      <text>Observations of cell size dynamics under osmotic stress</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Cooper;given-names:S.</infon>
+      <infon key="fpage">333</infon>
+      <infon key="pub-id_doi">10.1096/fj.02-0352rev</infon>
+      <infon key="pub-id_pmid">12631573</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">FASEB J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">340</infon>
+      <offset>43433</offset>
+      <text>Reappraisal of serum starvation, the restriction point, G0, and G1 phase arrest points</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Beuvery;given-names:E.C.</infon>
+      <infon key="name_2">surname:Vanderveldendegroot;given-names:C.A.M.</infon>
+      <infon key="name_1">surname:Degooijer;given-names:C.D.</infon>
+      <infon key="name_0">surname:Martens;given-names:D.E.</infon>
+      <infon key="fpage">429</infon>
+      <infon key="pub-id_doi">10.1002/bit.260410406</infon>
+      <infon key="pub-id_pmid">18609571</infon>
+      <infon key="year">1993</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">41</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">439</infon>
+      <infon key="name_4">surname:Tramper;given-names:J.</infon>
+      <offset>43520</offset>
+      <text>Effect of Dilution Rate on Growth, Productivity, Cell-Cycle and Size, and Shear Sensitivity of a Hybridoma Cell in a Continuous Culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Yao;given-names:G.</infon>
+      <infon key="fpage">20130074</infon>
+      <infon key="pub-id_doi">10.1098/rsfs.2013.0074</infon>
+      <infon key="pub-id_pmid">24904737</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Interface Focus</infon>
+      <infon key="type">ref</infon>
+      <offset>43656</offset>
+      <text>Modelling mammalian cellular quiescence</text>
+    </passage>
+    <passage>
+      <infon key="volume">90</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pasantes-Morales;given-names:H.</infon>
+      <infon key="fpage">358</infon>
+      <infon key="pub-id_doi">10.1124/mol.116.104158</infon>
+      <infon key="pub-id_pmid">27358231</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Mol. Pharmacol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">370</infon>
+      <offset>43696</offset>
+      <text>Channels and Volume Changes in the Life and Death of the Cell</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g001.jpg</infon>
+      <infon key="id">ijms-22-03290-f001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>43758</offset>
+      <text>Maximum growth rate of Chinese hamster ovary (CHO) cells as a function of extracellular osmolality. The first point at 320 mOsm kg-1 represents the control condition.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g002b.jpg</infon>
+      <infon key="id">ijms-22-03290-f002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>43927</offset>
+      <text>Time evolution of cell culture parameters under different osmolality conditions. (A) Viable cell density; (B) Osmolality value; (C) Average cell diameter; (D) Extracellular ammonia concentration; (E) Extracellular lactate concentration; (F) Extracellular glucose concentration; (G) Extracellular Na+ concentration; (H) Extracellular K+ concentration; (I) Extracellular glutamate concentration; (J) Extracellular glutamine concentration. Error bars represent the standard deviation of two biological replicates, except for the average cell diameter, which shows standard errors.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g003.jpg</infon>
+      <infon key="id">ijms-22-03290-f003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>44505</offset>
+      <text>Specific uptake/production rates of (A) ammonia, (B) glucose, (C) glutamate, (D) glutamine and (E) lactate under different osmolality conditions. The control cultures produced no detectable levels of glutamine. Error bars represent the standard deviation of two biological replicates. For the analysis of significance (* p &lt; 0.05), equal variance of each variable between different experiments was assumed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g004.jpg</infon>
+      <infon key="id">ijms-22-03290-f004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>44912</offset>
+      <text>Final mAb titre (bars) and integral viable cell density (green points) for control, NaCl and Feed C experiments. Error bars represent the standard deviation of two biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g005.jpg</infon>
+      <infon key="id">ijms-22-03290-f005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>45099</offset>
+      <text>Specific antibody productivity for control, NaCl and Feed C experiments. Error bars represent the standard deviation of two biological replicates. For the analysis of significance (* p &lt; 0.05), equal variance of each variable between different experiments was assumed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g006.jpg</infon>
+      <infon key="id">ijms-22-03290-f006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>45368</offset>
+      <text>Glycosylation profile for control, NaCl and Feed C experiments at harvest. Error bars represent the standard deviation of two biological replicates. For the analysis of significance (* p &lt; 0.05), equal variance of each variable between different experiments was assumed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g007.jpg</infon>
+      <infon key="id">ijms-22-03290-f007</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>45639</offset>
+      <text>(a) Osmolality profile for the bioreactor runs at 36.5  C (blue) and with a temperature shift to 32  C on day 5; (b) Average cell volume against culture osmolality for both bioreactor datasets.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">ijms-22-03290-g008.jpg</infon>
+      <infon key="id">ijms-22-03290-f008</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>45835</offset>
+      <text>(a) Cell cycle distribution on day 4 of culture; (b) Cell cycle distribution on day 9 of culture as determined by a Flowtop multicycle DNA analysis.</text>
+    </passage>
+  </document>
+</collection>

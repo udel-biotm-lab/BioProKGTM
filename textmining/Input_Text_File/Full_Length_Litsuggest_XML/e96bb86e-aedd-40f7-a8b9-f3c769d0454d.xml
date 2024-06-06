@@ -1,0 +1,147 @@
+<article article-type="Journal Article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher"/>
+      <journal-title-group>
+        <journal-title>Applied microbiology and biotechnology</journal-title>
+      </journal-title-group>
+      <issn>1432-0614</issn>
+      <publisher>
+        <publisher-name>Medline</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33796891</article-id>
+      <article-id pub-id-type="doi">10.1007/s00253-021-11244-8</article-id>
+      <article-id pub-id-type="pii">10.1007/s00253-021-11244-8</article-id>
+      <article-id pub-id-type="wtfid">009586097_0012753_230127223031707949</article-id>
+      <article-id pub-id-type="tdm">medline_TDM-33796891</article-id>
+      <title-group>
+        <article-title>The role of protein hydrolysates in prolonging viability and enhancing antibody production of CHO cells.</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <surname>Obaidi</surname>
+          <given-names>Ismael</given-names>
+          <aff>Cell Technology Group, National Institute for Bioprocessing, Research and Training (NIBRT), Fosters Avenue, Mount Merrion, Blackrock, Dublin, A94 X099, Ireland.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Mota</surname>
+          <given-names>Letícia Martins</given-names>
+          <aff>Cell Technology Group, National Institute for Bioprocessing, Research and Training (NIBRT), Fosters Avenue, Mount Merrion, Blackrock, Dublin, A94 X099, Ireland.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Quigley</surname>
+          <given-names>Andrew</given-names>
+          <aff>Cell Technology Group, National Institute for Bioprocessing, Research and Training (NIBRT), Fosters Avenue, Mount Merrion, Blackrock, Dublin, A94 X099, Ireland.</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <surname>Butler</surname>
+          <given-names>Michael</given-names>
+          <aff>Cell Technology Group, National Institute for Bioprocessing, Research and Training (NIBRT), Fosters Avenue, Mount Merrion, Blackrock, Dublin, A94 X099, Ireland. michael.butler@nibrt.ie.</aff>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="pub">
+        <day>1</day>
+        <month>4</month>
+        <year>2021</year>
+      </pub-date>
+      <volume>105</volume>
+      <issue>8</issue>
+      <fpage>3115</fpage>
+      <lpage>3129</lpage>
+      <abstract>
+        <p>Four independent mAb-producing CHO cell lines were grown in media supplemented with one of seven protein hydrolysates of animal and plant origin. This generated a 7x4 matrix of replicate cultures which was analysed for viable cell density and mAb productivity. In all cultures, a consistent growth rate was shown in batch culture up to 4 to 5 days. Differences between cultures appeared in the decline phase which was followed up to 7 days beyond the start of the cultures. There was a marginal but significant overall increase (x1.1) in the integral viable cell density (IVCD) in the presence of hydrolysate but a more substantial increase in the cell-specific mAb (qMab) productivity (x1.5). There were individual differences between hydrolysates in terms of enhancement of mAb productivity, the highest being a 166% increase of mAb titre (to 117 mg/L) in batch cultures of CHO-EG2 supplemented with UPcotton hydrolysate. The effect of one of the most active hydrolysates (HP7504) on antibody glycosylation was investigated. This showed no change in the predominant seven glycans produced but a significant increase in the galactosylation and sialylation of some but not all the antibodies. Overall, the animal hydrolysate, Primatone and two cotton-derived hydrolysates provided the most substantial benefit for enhanced productivity. The cotton-based hydrolysates can be viewed as valuable supplements for animal-derived component-free (ADCF) media and as a source for the investigation of chemically defined bioactive components. KEY POINTS: • Protein hydrolysates enhanced both IVCD &amp; qMab; the effect on qMab being consistently greater. • Cotton-based hydrolysates showed high bioactivity and potential for use in serum-free media. • Enhanced galactosylation and sialylation was shown for some of the Mabs tested.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>CHO cells</kwd>
+        <kwd>Glycosylation</kwd>
+        <kwd>Monoclonal antibodies</kwd>
+        <kwd>Protein hydrolysates</kwd>
+        <kwd>Serum-free media</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Chemical">
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Culture Media</chemical.name>
+          <chemical.ui>D003470</chemical.ui>
+        </items>
+        <items>
+          <chemical.registryNumber>0</chemical.registryNumber>
+          <chemical.name>Protein Hydrolysates</chemical.name>
+          <chemical.ui>D011492</chemical.ui>
+        </items>
+      </kwd-group>
+      <kwd-group kwd-group-type="MESH Subject Heading">
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Animals</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Antibody Formation</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>CHO Cells</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cell Culture Techniques</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetinae</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Cricetulus</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Culture Media</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>N</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+        <items>
+          <meshHeading.descriptor>
+            <items>
+              <meshHeading.descriptor.name>Protein Hydrolysates</meshHeading.descriptor.name>
+              <meshHeading.descriptor.majorTopic>Y</meshHeading.descriptor.majorTopic>
+            </items>
+          </meshHeading.descriptor>
+        </items>
+      </kwd-group>
+      <self-uri xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </article-meta>
+  </front>
+  <back>
+    <ref-list/>
+  </back>
+</article>

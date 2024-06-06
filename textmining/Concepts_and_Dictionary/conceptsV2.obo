@@ -1,0 +1,5412 @@
+format-version: 1.0
+date: 2024-02-21
+auto-generated-by: Shovan
+
+[Term]
+ConceptName: (fut8) gene knockout cho-s_COID438040
+Id: COID438040
+CanonicalName: (fut8) gene knockout cho-s
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: fut8 gene knockout cho-s
+
+[Term]
+ConceptName: 1-ag4-1_COID898401
+Id: COID898401
+CanonicalName: 1-ag4-1
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: 2-f-peracetyl fucose_COID847827
+Id: COID847827
+CanonicalName: 2-f-peracetyl fucose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: FA2G1_COID847899
+Id: COID847899
+CanonicalName: FA2G1
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: FUC8_COID847828
+Id: COID847828
+CanonicalName: FUC8
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: G0F_COID847830
+Id: COID847830
+CanonicalName: G0F
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: g0f glycan
+AlternativeNames: glycan g0f
+AlternativeNames: g0f glycans
+AlternativeNames: glycans g0f
+
+
+[Term]
+ConceptName: G1F_COID847930
+Id: COID847930
+CanonicalName: G1F
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: g1f glycan
+AlternativeNames: g1f glycans
+AlternativeNames: glycans g1f
+AlternativeNames: glycan g1f
+AlternativeNames: g1fs1 glycans
+
+[Term]
+ConceptName: G2F_COID847130
+Id: COID847130
+CanonicalName: G2F
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: g2f glycan
+AlternativeNames: g2f glycans
+AlternativeNames: glycan g2f
+AlternativeNames: glycans g2f
+AlternativeNames: di-galactosylated glycan g2f
+
+[Term]
+ConceptName: 2-l glass bioreactor_COID536478
+Id: COID536478
+CanonicalName: 2-l glass bioreactor
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: 2-l glass bioreactors
+
+[Term]
+ConceptName: 2-propylpentanoic acid_COID178679
+Id: COID178679
+CanonicalName: 2-propylpentanoic acid
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: 
+
+[Term]
+ConceptName: 24-dwp culture conditions_COID534425
+Id: COID534425
+CanonicalName: 24-dwp culture conditions
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: 24-dwp culture condition
+
+[Term]
+ConceptName: 5-alkynylfucose_COID256307
+Id: COID256307
+CanonicalName: 5-alkynylfucose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 5-alkfuc
+
+[Term]
+ConceptName: FO_COID634480
+Id: COID634480
+CanonicalName: F0
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: J558L_COID644480
+Id: COID644480
+CanonicalName: J558L
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: SP2/0_COID644479
+Id: COID644479
+CanonicalName: SP2/0
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: U266_COID644450
+Id: COID644450
+CanonicalName: U266
+Type: hybridoma
+TypeId: C57
+AlternativeNames: U-266
+
+[Term]
+ConceptName: NS1_COID644380
+Id: COID644380
+CanonicalName: NS1
+Type: hybridoma
+TypeId: C57
+AlternativeNames: NS-1
+
+[Term]
+ConceptName: p3x63ag8_COID624480
+Id: COID624480
+CanonicalName: p3x63ag8
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: accumulation of waste products_COID802986
+Id: COID802986
+CanonicalName: accumulation of waste products
+Type: culture condition
+TypeId: C20
+AlternativeNames: accumulation of waste product
+AlternativeNames: waste product accumulation
+
+[Term]
+ConceptName: acetate_COID725612
+Id: COID725612
+CanonicalName: acetate
+Type: carbon source (subset of secondary raw materials)
+TypeId: C26
+AlternativeNames: 
+
+[Term]
+ConceptName: acetylation_COID878689
+Id: COID878689
+CanonicalName: acetylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: acetylglucosaminyltransferase_COID400948
+Id: COID400948
+CanonicalName: acetylglucosaminyltransferase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: cyclin dependent kinases_COID401949
+Id: COID401949
+CanonicalName: cyclin dependent kinases
+Type: enzyme
+TypeId: C10
+AlternativeNames: CDK
+
+[Term]
+ConceptName: GMD_COID401999
+Id: COID401999
+CanonicalName: GMD
+Type: enzyme
+TypeId: C10
+AlternativeNames:
+
+[Term]
+ConceptName: histone deacetylase_COID400949
+Id: COID400949
+CanonicalName: histone deacetylase
+Type: enzyme
+TypeId: C10
+AlternativeNames: HDAC
+
+[Term]
+ConceptName: dihydrofolate reductase_COID400950
+Id: COID400950
+CanonicalName: dihydrofolate reductase
+Type: enzyme
+TypeId: C10
+AlternativeNames: DHFR
+
+[Term]
+ConceptName: acidic charge variants_COID086024
+Id: COID086024
+CanonicalName: acidic charge variants
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: acidic charge variant
+
+[Term]
+ConceptName: FA2_COID087024
+Id: COID087024
+CanonicalName: FA2
+Type: product quality attributes
+TypeId: C51
+AlternativeNames:
+
+[Term]
+ConceptName: A2_COID087025
+Id: COID087025
+CanonicalName: A2
+Type: product quality attributes
+TypeId: C51
+AlternativeNames:
+
+[Term]
+ConceptName: M51_COID088024
+Id: COID088024
+CanonicalName: M51
+Type: product quality attributes
+TypeId: C51
+AlternativeNames:
+
+[Term]
+ConceptName: acidic isoforms_COID780920
+Id: COID780920
+CanonicalName: acidic isoforms
+Type: acid (subset of secondary raw materials)
+TypeId: C37
+AlternativeNames: acidic isoform
+
+[Term]
+ConceptName: tricarboxylic acid_COID780120
+Id: COID780120
+CanonicalName: tricarboxylic acid
+Type: acid (subset of secondary raw materials)
+TypeId: C37
+AlternativeNames: TCA
+AlternativeNames: tricarboxylic citric acid (tca)
+AlternativeNames: tricarboxylic citric acid
+
+
+[Term]
+ConceptName: acidic variant_COID106814
+Id: COID106814
+CanonicalName: acidic variant
+Type: acid (subset of secondary raw materials)
+TypeId: C37
+AlternativeNames: acidic variants
+
+[Term]
+ConceptName: adapted cell line_COID969985
+Id: COID969985
+CanonicalName: adapted cell line
+Type: cell line
+TypeId: C56
+AlternativeNames: adapted cell lines
+
+[Term]
+ConceptName: YB2/0_COID969855
+Id: COID969855
+CanonicalName: YB2/0
+Type: cell line
+TypeId: C56
+AlternativeNames:
+
+[Term]
+ConceptName: adcc effector function_COID107267
+Id: COID107267
+CanonicalName: adcc effector function
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: antibody-dependent cellular cytotoxicity effector function
+AlternativeNames: antibody-dependent cell-mediated cytotoxicity effector function
+AlternativeNames: adcc effector functions
+AlternativeNames: adcc function
+AlternativeNames: adcc functions
+
+[Term]
+ConceptName: aeration_COID371755
+Id: COID371755
+CanonicalName: aeration
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: 
+
+[Term]
+ConceptName: afucosylated n-glycans_COID239021
+Id: COID239021
+CanonicalName: afucosylated n-glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: afucosylated n-glycan
+AlternativeNames: afucosylated glycans
+
+[Term]
+ConceptName: afucosylation_COID653555
+Id: COID653555
+CanonicalName: afucosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames:
+
+[Term]
+ConceptName: core fucosylation_COID663555
+Id: COID663555
+CanonicalName: core fucosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames:
+
+[Term]
+ConceptName: aggregates_COID879651
+Id: COID879651
+CanonicalName: aggregates
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: aggregated
+AlternativeNames: large aggregated
+
+[Term]
+ConceptName: aggregation_COID720685
+Id: COID720685
+CanonicalName: aggregation
+Type: process condition
+TypeId: C19
+AlternativeNames: 
+
+[Term]
+ConceptName: cd platform_COID720695
+Id: COID720695
+CanonicalName: cd platform
+Type: process condition
+TypeId: C19
+AlternativeNames: 
+
+[Term]
+ConceptName: agitation and mixing_COID890976
+Id: COID890976
+CanonicalName: agitation and mixing
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: 
+
+[Term]
+ConceptName: aglycosylated_COID678822
+Id: COID678822
+CanonicalName: aglycosylated
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: aglycosylation_COID076549
+Id: COID076549
+CanonicalName: aglycosylation
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: alanine_COID060748
+Id: COID060748
+CanonicalName: alanine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: alanine metabolism_COID957120
+Id: COID957120
+CanonicalName: alanine metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: alkynylated forms_COID422332
+Id: COID422332
+CanonicalName: alkynylated forms
+Type: substitution material
+TypeId: C30
+AlternativeNames: alkynylated form
+
+[Term]
+ConceptName: ambr15 cell culture system_COID929817
+Id: COID929817
+CanonicalName: ambr15 cell culture system
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: ambr15 cell culture systems
+
+[Term]
+ConceptName: amino acid substitutions_COID828360
+Id: COID828360
+CanonicalName: amino acid substitutions
+Type: genotype
+TypeId: C42
+AlternativeNames: amino acid substitution
+
+[Term]
+ConceptName: aminomethane_COID280686
+Id: COID280686
+CanonicalName: aminomethane
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: ammonia_COID714278
+Id: COID714278
+CanonicalName: ammonia
+Type: by-product or waste
+TypeId: C9
+AlternativeNames: 
+
+[Term]
+ConceptName: ammonium_COID714150
+Id: COID714150
+CanonicalName: ammonium
+Type: culture condition
+TypeId: C20
+AlternativeNames: NH4+
+
+[Term]
+ConceptName: ammonium chloride_COID969984
+Id: COID969984
+CanonicalName: ammonium chloride
+Type: nitrogen sources (subset of secondary raw materials)
+TypeId: C39
+AlternativeNames: 
+
+[Term]
+ConceptName: ammonium phosphate_COID654997
+Id: COID654997
+CanonicalName: ammonium phosphate
+Type: nitrogen sources (subset of secondary raw materials)
+TypeId: C39
+AlternativeNames: 
+
+[Term]
+ConceptName: ammonium nitrate_COID975318
+Id: COID975318
+CanonicalName: ammonium nitrate
+Type: nitrogen sources (subset of secondary raw materials)
+TypeId: C39
+AlternativeNames: 
+
+[Term]
+ConceptName: urea_COID337032
+Id: COID337032
+CanonicalName: urea
+Type: nitrogen sources (subset of secondary raw materials)
+TypeId: C39
+AlternativeNames: 
+
+[Term]
+ConceptName: ammonium hydroxide_COID298811
+Id: COID298811
+CanonicalName: ammonium hydroxide
+Type: nitrogen sources (subset of secondary raw materials)
+TypeId: C39
+AlternativeNames: 
+
+[Term]
+ConceptName: ammonium sulfate_COID836400
+Id: COID836400
+CanonicalName: ammonium sulfate
+Type: nitrogen sources (subset of secondary raw materials)
+TypeId: C39
+AlternativeNames: 
+
+[Term]
+ConceptName: antenna_COID708105
+Id: COID708105
+CanonicalName: antenna
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: antennarity_COID676312
+Id: COID676312
+CanonicalName: antennarity
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: anti-inflammatory activity_COID628775
+Id: COID628775
+CanonicalName: anti-inflammatory activity
+Type: product attributes
+TypeId: C53
+AlternativeNames: anti-inflammatory activities
+
+[Term]
+ConceptName: anti-inflammatory efficacy_COID334262
+Id: COID334262
+CanonicalName: anti-inflammatory efficacy
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: anti inflammatory efficacy
+
+[Term]
+ConceptName: anti-inflammatory properties_COID592241
+Id: COID592241
+CanonicalName: anti-inflammatory properties
+Type: product attributes
+TypeId: C53
+AlternativeNames: anti-inflammatory property
+
+[Term]
+ConceptName: anti-oxidant activity_COID997424
+Id: COID997424
+CanonicalName: anti-oxidant activity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: anti oxidant activity
+
+[Term]
+ConceptName: anti-tumor activity_COID117042
+Id: COID117042
+CanonicalName: anti-tumor activity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: anti tumor activity
+AlternativeNames: anti tumor activities
+AlternativeNames: anti-tumor activities
+
+[Term]
+ConceptName: antibody charge variants_COID361180
+Id: COID361180
+CanonicalName: antibody charge variants
+Type: product quality profile
+TypeId: C50
+AlternativeNames: antibody charge variant
+
+[Term]
+ConceptName: antibody conjugate_COID646320
+Id: COID646320
+CanonicalName: antibody conjugate
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: antibody galactosylation_COID740922
+Id: COID740922
+CanonicalName: antibody galactosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: antibody glycoforms_COID173858
+Id: COID173858
+CanonicalName: antibody glycoforms
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: antibody titers_COID307661
+Id: COID307661
+CanonicalName: antibody titers
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: antibody titer
+
+[Term]
+ConceptName: antibody-dependent cell-mediated cytotoxicity_COID386333
+Id: COID386333
+CanonicalName: antibody-dependent cell-mediated cytotoxicity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: antibody-dependent cellular cytotoxicity
+AlternativeNames: antibody-dependent cellular cytotoxicities
+AlternativeNames: ADCC
+AlternativeNames: antibody-dependent cell-mediated cytotoxicity (adcc)
+AlternativeNames: antibody dependent cellular cytotoxicity
+AlternativeNames: antibody dependent cellular cytotoxicities
+AlternativeNames: antibody dependent cell-mediated cytotoxicity
+AlternativeNames: antibody dependent cell-mediated cytotoxicities
+AlternativeNames: antibody dependent cell mediated cytotoxicity
+AlternativeNames: antibody dependent cell mediated cytotoxicities
+AlternativeNames: antibody-dependent cell mediated cytotoxicity
+AlternativeNames: antibody-dependent cell mediated cytotoxicities
+
+[Term]
+ConceptName: apoptosis_COID850789
+Id: COID850789
+CanonicalName: apoptosis
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: 
+
+[Term]
+ConceptName: asparagine_COID698257
+Id: COID698257
+CanonicalName: asparagine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: asparagine-linked glycosylation_COID652506
+Id: COID652506
+CanonicalName: asparagine-linked glycosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: balanced salt solutions_COID770081
+Id: COID770081
+CanonicalName: balanced salt solutions
+Type: media
+TypeId: C59
+AlternativeNames: BSS
+
+[Term]
+ConceptName: CD-CHO_COID780081
+Id: COID780081
+CanonicalName: CD-CHO
+Type: media
+TypeId: C59
+AlternativeNames:
+
+[Term]
+ConceptName: DMEM_COID880081
+Id: COID880081
+CanonicalName: DMEM
+Type: media
+TypeId: C59
+AlternativeNames:
+
+[Term]
+ConceptName: batch_COID285438
+Id: COID285438
+CanonicalName: batch
+Type: process mode
+TypeId: C44
+AlternativeNames: 
+
+[Term]
+ConceptName: biantennary disialylated glycans_COID144537
+Id: COID144537
+CanonicalName: biantennary disialylated glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: biantennary disialylated glycan
+
+[Term]
+ConceptName: bioactivity_COID046028
+Id: COID046028
+CanonicalName: bioactivity
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: bioactivity and potency_COID795973
+Id: COID795973
+CanonicalName: bioactivity and potency
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: biological activity_COID518861
+Id: COID518861
+CanonicalName: biological activity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: biological activities
+
+[Term]
+ConceptName: biopotency_COID405601
+Id: COID405601
+CanonicalName: biopotency
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: bioreactor operation conditions_COID538546
+Id: COID538546
+CanonicalName: bioreactor operation conditions
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: bioreactor operation condition
+
+[Term]
+ConceptName: bioreactor scale_COID368907
+Id: COID368907
+CanonicalName: bioreactor scale
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: 
+
+[Term]
+ConceptName: bispecific antibodies_COID544547
+Id: COID544547
+CanonicalName: bispecific antibodies
+Type: bispecific antibody
+TypeId: C64
+AlternativeNames: bispecific antibody
+
+[Term]
+ConceptName: biosynthesis_COID479844
+Id: COID479844
+CanonicalName: biosynthesis
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: 
+
+[Term]
+ConceptName: bolus_COID693522
+Id: COID693522
+CanonicalName: bolus
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: bolus concentrated feed additions with sequential medium replacement_COID146294
+Id: COID146294
+CanonicalName: bolus concentrated feed additions with sequential medium replacement
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: bolus concentrated feed additions with sequential medium replacements
+
+[Term]
+ConceptName: butyrate_COID702790
+Id: COID702790
+CanonicalName: butyrate
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: 
+
+[Term]
+ConceptName: c-terminal lysine_COID549534
+Id: COID549534
+CanonicalName: c-terminal lysine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: caesium hydroxide_COID354152
+Id: COID354152
+CanonicalName: caesium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: calcium hydroxide_COID504169
+Id: COID504169
+CanonicalName: calcium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: carbohydrate constituents_COID605040
+Id: COID605040
+CanonicalName: carbohydrate constituents
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: carbohydrate constituent
+
+[Term]
+ConceptName: carbohydrate modification_COID721251
+Id: COID721251
+CanonicalName: carbohydrate modification
+Type: PTM
+TypeId: C8
+AlternativeNames: carbohydrate modifications
+
+[Term]
+ConceptName: carbon dioxide_COID132568
+Id: COID132568
+CanonicalName: carbon dioxide
+Type: gases (subset of secondary raw materials)
+TypeId: C35
+AlternativeNames: co2
+AlternativeNames: CO2
+
+[Term]
+ConceptName: carbon dioxide partial pressure_COID255565
+Id: COID255565
+CanonicalName: carbon dioxide partial pressure
+Type: process condition
+TypeId: C19
+AlternativeNames: partial pressure of carbon dioxide
+AlternativeNames: pco2
+AlternativeNames: pco 2
+AlternativeNames: partial pressure carbon dioxide
+AlternativeNames: partial pressure of co2
+AlternativeNames: partial pressure of co 2
+
+[Term]
+ConceptName: carboxylation_COID487379
+Id: COID487379
+CanonicalName: carboxylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: carbon sources_COID571637
+Id: COID571637
+CanonicalName: carbon sources
+Type: carbon source (subset of secondary raw materials)
+TypeId: C26
+AlternativeNames: carbon source
+
+[Term]
+ConceptName: cell concentration_COID623648
+Id: COID623648
+CanonicalName: cell concentration
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: cell concentrations
+
+[Term]
+ConceptName: cell culture media additives_COID247877
+Id: COID247877
+CanonicalName: cell culture media additives
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: cell culture media additive
+
+[Term]
+ConceptName: cell culture performance_COID284912
+Id: COID284912
+CanonicalName: cell culture performance
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: cell cycle_COID780295
+Id: COID780295
+CanonicalName: cell cycle
+Type: biological process
+TypeId: C6
+AlternativeNames: cell cycles
+
+[Term]
+ConceptName: cell cycle checkpoint_COID456465
+Id: COID456465
+CanonicalName: cell cycle checkpoint
+Type: cell cycle pathway G0/G1/M/G2
+TypeId: C2
+AlternativeNames: cell cycle checkpoints
+
+[Term]
+ConceptName: cell cycle g1-checkpoint_COID762989
+Id: COID762989
+CanonicalName: cell cycle g1-checkpoint
+Type: cell cycle pathway G0/G1/M/G2
+TypeId: C2
+AlternativeNames: cell cycle g1-checkpoints
+
+[Term]
+ConceptName: cell density_COID283414
+Id: COID283414
+CanonicalName: cell density
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: cell densities
+AlternativeNames: high cell densities
+AlternativeNames: high cell density
+AlternativeNames: HCD
+
+[Term]
+ConceptName: cell culture_COID293414
+Id: COID293414
+CanonicalName: cell culture
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: cell cultures
+
+
+[Term]
+ConceptName: cell effector function_COID337167
+Id: COID337167
+CanonicalName: cell effector function
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: cell effector functions
+
+[Term]
+ConceptName: cell growth_COID093598
+Id: COID093598
+CanonicalName: cell growth
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: 
+
+[Term]
+ConceptName: cell line_COID702829
+Id: COID702829
+CanonicalName: cell line
+Type: cell line
+TypeId: C56
+AlternativeNames: cell lines
+AlternativeNames: host cell lines
+AlternativeNames: host cell line
+
+
+[Term]
+ConceptName: cell line characteristics_COID431893
+Id: COID431893
+CanonicalName: cell line characteristics
+Type: cell line characteristics
+TypeId: 
+AlternativeNames: cell line characteristic
+
+[Term]
+ConceptName: cell morphology_COID468996
+Id: COID468996
+CanonicalName: cell morphology
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: cell morphologies
+AlternativeNames: morphology of cells
+AlternativeNames: morphology of cell
+AlternativeNames: morphology of a cell
+
+[Term]
+ConceptName: cell respiration_COID898929
+Id: COID898929
+CanonicalName: cell respiration
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: cell respirations
+AlternativeNames: respiration of cells
+AlternativeNames: respiration of cell
+AlternativeNames: respiration of a cell
+
+[Term]
+ConceptName: cell viability_COID547964
+Id: COID547964
+CanonicalName: cell viability
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: cell viabilities
+AlternativeNames: viability of cell
+AlternativeNames: viability of a cell
+AlternativeNames: viability of cells
+
+[Term]
+ConceptName: cell-specific productivity_COID637897
+Id: COID637897
+CanonicalName: cell-specific productivity
+Type: process condition
+TypeId: C19
+AlternativeNames: cell specific productivity
+AlternativeNames: productivity of a cell
+AlternativeNames: productivity of cells
+
+[Term]
+ConceptName: cellular processes_COID386352
+Id: COID386352
+CanonicalName: cellular processes
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: cellular process
+
+[Term]
+ConceptName: central carbon metabolism_COID399873
+Id: COID399873
+CanonicalName: central carbon metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: charge heterogeneity_COID995406
+Id: COID995406
+CanonicalName: charge heterogeneity
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: charge variant profiles_COID820771
+Id: COID820771
+CanonicalName: charge variant profiles
+Type: product quality profile
+TypeId: C50
+AlternativeNames: charge variant profile
+
+[Term]
+ConceptName: charge variants_COID817650
+Id: COID817650
+CanonicalName: charge variants
+Type: product quality profile
+TypeId: C50
+AlternativeNames: charge variant
+
+[Term]
+ConceptName: charge variation_COID858115
+Id: COID858115
+CanonicalName: charge variation
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: charge variations
+
+[Term]
+ConceptName: chimeric_COID551578
+Id: COID551578
+CanonicalName: chimeric
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: cho sublime media_COID217450
+Id: COID217450
+CanonicalName: cho sublime media
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: cho-dg44_COID939621
+Id: COID939621
+CanonicalName: cho-dg44
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho dg44
+AlternativeNames: cho dg44 cell line
+AlternativeNames: CHO-DG44
+AlternativeNames: CHO DG44
+
+[Term]
+ConceptName: cho-gmt4 cells_COID585656
+Id: COID585656
+CanonicalName: cho-gmt4 cells
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho-gmt4 cell line
+AlternativeNames: cho gmt4 cell line
+AlternativeNames: cho-gmt4
+AlternativeNames: cho gmt4
+
+[Term]
+ConceptName: cho-gs_COID991056
+Id: COID991056
+CanonicalName: cho-gs
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho gs
+
+[Term]
+ConceptName: chinese-hamster ovary k1_COID324081
+Id: COID324081
+CanonicalName: chinese-hamster ovary k1
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho-k1
+AlternativeNames: CHO-K1
+AlternativeNames: cho k1
+AlternativeNames: cho-k1 cell line
+
+
+[Term]
+ConceptName: cho-k1 media_COID613537
+Id: COID613537
+CanonicalName: cho-k1 media
+Type: media
+TypeId: C59
+AlternativeNames: cho k1 media
+
+[Term]
+ConceptName: cho-lec_COID362254
+Id: COID362254
+CanonicalName: cho-lec
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho lec
+
+[Term]
+ConceptName: cho-m_COID467503
+Id: COID467503
+CanonicalName: cho-m
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho m
+
+[Term]
+ConceptName: cho-s_COID669791
+Id: COID669791
+CanonicalName: cho-s
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: cho s
+
+[Term]
+ConceptName: cho-s media_COID626143
+Id: COID626143
+CanonicalName: cho-s media
+Type: media
+TypeId: C59
+AlternativeNames: cho s media
+
+[Term]
+ConceptName: chromatography resin filtration_COID249381
+Id: COID249381
+CanonicalName: chromatography resin filtration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: chromatography resin filtrations
+AlternativeNames: chromatographic resin filtrations
+AlternativeNames: chromatographic resin filtration
+
+[Term]
+ConceptName: chromium_COID266551
+Id: COID266551
+CanonicalName: chromium
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: UMG_COID267551
+Id: COID267551
+CanonicalName: UMG
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: clearance rate_COID187126
+Id: COID187126
+CanonicalName: clearance rate
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: clearance rates
+
+[Term]
+ConceptName: cleavage_COID846179
+Id: COID846179
+CanonicalName: cleavage
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: clipping_COID668086
+Id: COID668086
+CanonicalName: clipping
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: cobalt_COID584412
+Id: COID584412
+CanonicalName: cobalt
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: combinations of additives_COID382945
+Id: COID382945
+CanonicalName: combinations of additives
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: combination of additives
+
+[Term]
+ConceptName: complement-dependent cytotoxicity_COID455860
+Id: COID455860
+CanonicalName: complement-dependent cytotoxicity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: complement dependent cytotoxicity
+AlternativeNames: complement-dependent cytotoxicities
+AlternativeNames: complement dependent cytotoxicities
+AlternativeNames: CDC
+
+[Term]
+ConceptName: continuous harvest perfusion_COID753316
+Id: COID753316
+CanonicalName: continuous harvest perfusion
+Type: process mode
+TypeId: C44
+AlternativeNames: CHP
+
+[Term]
+ConceptName: copper_COID395059
+Id: COID395059
+CanonicalName: copper
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: core fucose_COID067033
+Id: COID067033
+CanonicalName: core fucose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames:  
+
+[Term]
+ConceptName: cross-flow filtration_COID192382
+Id: COID192382
+CanonicalName: cross-flow filtration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: cross-flow filtrations
+
+[Term]
+ConceptName: cultivating ph_COID890185
+Id: COID890185
+CanonicalName: cultivating ph
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: ph in cultivation
+
+[Term]
+ConceptName: culture condition_COID626277
+Id: COID626277
+CanonicalName: culture condition
+Type: culture condition
+TypeId: C20
+AlternativeNames: culture conditions
+AlternativeNames: cultural conditions
+AlternativeNames: cultural condition
+
+
+[Term]
+ConceptName: culture environments_COID998785
+Id: COID998785
+CanonicalName: culture environments
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: culture environment
+
+[Term]
+ConceptName: culture medium_COID180560
+Id: COID180560
+CanonicalName: culture medium
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: culture parameters_COID160285
+Id: COID160285
+CanonicalName: culture parameters
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: culture parameter
+
+[Term]
+ConceptName: culture perturbation_COID502157
+Id: COID502157
+CanonicalName: culture perturbation
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: culture perturbations
+
+[Term]
+ConceptName: culture time_COID763032
+Id: COID763032
+CanonicalName: culture time
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: culture viability_COID640988
+Id: COID640988
+CanonicalName: culture viability
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: culture viabilities
+
+
+[Term]
+ConceptName: culture yield_COID989942
+Id: COID989942
+CanonicalName: culture yield
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: culture yields
+
+[Term]
+ConceptName: cyclization_COID653391
+Id: COID653391
+CanonicalName: cyclization
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: cytidine_COID172930
+Id: COID172930
+CanonicalName: cytidine
+Type: nucleotide or nucleoside
+TypeId: C4
+AlternativeNames: 
+
+[Term]
+ConceptName: cytidine monophosphate–sialic acid_COID230810
+Id: COID230810
+CanonicalName: cytidine monophosphate–sialic acid
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: cytidine monophosphate–sialic acids
+AlternativeNames: CMP–SA
+
+[Term]
+ConceptName: cytidine monophosphate–sialic acid synthase_COID653356
+Id: COID653356
+CanonicalName: cytidine monophosphate–sialic acid synthase
+Type: enzyme
+TypeId: C10
+AlternativeNames: CMP–SAS 
+
+[Term]
+ConceptName: cytidine monophosphate–sialic acid transporter_COID743836
+Id: COID743836
+CanonicalName: cytidine monophosphate–sialic acid transporter
+Type: cell line characteristics
+TypeId: 
+AlternativeNames: CMP–SAT
+
+[Term]
+ConceptName: dead-end filtration_COID256832
+Id: COID256832
+CanonicalName: dead-end filtration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: dead-end filtrations
+
+[Term]
+ConceptName: deamidation_COID565107
+Id: COID565107
+CanonicalName: deamidation
+Type: PTM
+TypeId: C8
+AlternativeNames: deamidated
+
+[Term]
+ConceptName: death-resistant cell lines_COID434844
+Id: COID434844
+CanonicalName: death-resistant cell lines
+Type: cell line
+TypeId: C56
+AlternativeNames: death-resistant cell line
+
+[Term]
+ConceptName: deep wells_COID423775
+Id: COID423775
+CanonicalName: deep wells
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: 
+
+[Term]
+ConceptName: degradation_COID049441
+Id: COID049441
+CanonicalName: degradation
+Type: degradation
+TypeId: C22
+AlternativeNames: 
+
+[Term]
+ConceptName: dehydratase_COID251243
+Id: COID251243
+CanonicalName: dehydratase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: deoxymannojirimycin_COID109253
+Id: COID109253
+CanonicalName: deoxymannojirimycin
+Type: enzyme inhibitor
+TypeId: C60
+AlternativeNames: DMJ
+AlternativeNames: deoxymannojirimycin (dmj)
+
+[Term]
+ConceptName: depth filtration_COID366611
+Id: COID366611
+CanonicalName: depth filtration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: depth filtrations
+
+[Term]
+ConceptName: dexamethasone_COID895485
+Id: COID895485
+CanonicalName: dexamethasone
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: 
+
+[Term]
+ConceptName: dextrose_COID691820
+Id: COID691820
+CanonicalName: dextrose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: dhfr amplified cell line_COID749839
+Id: COID749839
+CanonicalName: dhfr amplified cell line
+Type: cell line
+TypeId: C56
+AlternativeNames: dhfr amplified cell lines
+
+[Term]
+ConceptName: diafiltration_COID146544
+Id: COID146544
+CanonicalName: diafiltration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: diafiltrations
+AlternativeNames: DF
+
+[Term]
+ConceptName: dichloroacetate_COID715212
+Id: COID715212
+CanonicalName: dichloroacetate
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: DCA
+
+[Term]
+ConceptName: diethylamine_COID803499
+Id: COID803499
+CanonicalName: diethylamine
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: dimers_COID438141
+Id: COID438141
+CanonicalName: dimers
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: dimer
+
+[Term]
+ConceptName: disposable vessels_COID795419
+Id: COID795419
+CanonicalName: disposable vessels
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: disposable vessel
+
+[Term]
+ConceptName: dissolved oxygen_COID661988
+Id: COID661988
+CanonicalName: dissolved oxygen
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: dissolved o2
+AlternativeNames: dissolving of oxygen
+AlternativeNames: DO
+AlternativeNames: dissolved oxygen (do)
+
+[Term]
+ConceptName: disulfide bond_COID467614
+Id: COID467614
+CanonicalName: disulfide bond
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: disulfide linkage glycation_COID371365
+Id: COID371365
+CanonicalName: disulfide linkage glycation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: dose requirement_COID550661
+Id: COID550661
+CanonicalName: dose requirement
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: dose requirements
+
+[Term]
+ConceptName: doubling time_COID640482
+Id: COID640482
+CanonicalName: doubling time
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: 
+
+[Term]
+ConceptName: dow corning antifoams_COID466987
+Id: COID466987
+CanonicalName: dow corning antifoams
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: dulbecco's modified eagle medium_COID932445
+Id: COID932445
+CanonicalName: dulbecco's modified eagle medium
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: dynamis_COID624994
+Id: COID624994
+CanonicalName: dynamis
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+
+
+[Term]
+ConceptName: effector mechanism_COID990948
+Id: COID990948
+CanonicalName: effector mechanism
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: 
+
+[Term]
+ConceptName: efficacy_COID912630
+Id: COID912630
+CanonicalName: efficacy
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: 
+
+[Term]
+ConceptName: efficientfeed_COID452825
+Id: COID452825
+CanonicalName: efficientfeed
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: eight feed additives_COID064405
+Id: COID064405
+CanonicalName: eight feed additives
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: eight feed additive
+
+[Term]
+ConceptName: energy source_COID713213
+Id: COID713213
+CanonicalName: energy source
+Type: cell nutrient
+TypeId: C32
+AlternativeNames: energy sources
+
+[Term]
+ConceptName: environmental conditions_COID618432
+Id: COID618432
+CanonicalName: environmental conditions
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: environmental condition
+
+[Term]
+ConceptName: enzymatic catalysis_COID240637
+Id: COID240637
+CanonicalName: enzymatic catalysis
+Type: catalysis
+TypeId: C7
+AlternativeNames: 
+
+[Term]
+ConceptName: ester-based antifoams_COID634169
+Id: COID634169
+CanonicalName: ester-based antifoams
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: ethyl acetate_COID331001
+Id: COID331001
+CanonicalName: ethyl acetate
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: ex-cell cd cho fusion_COID972819
+Id: COID972819
+CanonicalName: ex-cell cd cho fusion
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: expression level of genes_COID011952
+Id: COID011952
+CanonicalName: expression level of genes
+Type: genotype
+TypeId: C42
+AlternativeNames: expression level of gene
+
+[Term]
+ConceptName: extracellular environment_COID244043
+Id: COID244043
+CanonicalName: extracellular environment
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: extracellular environments
+
+[Term]
+ConceptName: extracellular sialidase_COID727665
+Id: COID727665
+CanonicalName: extracellular sialidase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: fatty acid esters_COID944590
+Id: COID944590
+CanonicalName: fatty acid esters
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: fatty alcohols_COID085309
+Id: COID085309
+CanonicalName: fatty alcohols
+Type: antifoams
+TypeId: C29
+AlternativeNames: fatty alcohol
+
+[Term]
+ConceptName: fc gamma receptor binding_COID960943
+Id: COID960943
+CanonicalName: fc gamma receptor binding
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: fc gamma receptor bindings
+
+[Term]
+ConceptName: fed-batch_COID529446
+Id: COID529446
+CanonicalName: fed-batch
+Type: process mode
+TypeId: C44
+AlternativeNames: fed batch
+
+[Term]
+ConceptName: feed media_COID589634
+Id: COID589634
+CanonicalName: feed media
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: feed volumes_COID336983
+Id: COID336983
+CanonicalName: feed volumes
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: feed volume
+
+[Term]
+ConceptName: feeding profiles_COID997163
+Id: COID997163
+CanonicalName: feeding profiles
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: feeding profile
+
+[Term]
+ConceptName: fetal bovine serum_COID234436
+Id: COID234436
+CanonicalName: fetal bovine serum
+Type: serum or serum replacements
+TypeId: C31
+AlternativeNames: FBS
+
+[Term]
+ConceptName: fluctuating culture conditions_COID754846
+Id: COID754846
+CanonicalName: fluctuating culture conditions
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: fluctuating culture condition
+
+[Term]
+ConceptName: forticho_COID801569
+Id: COID801569
+CanonicalName: forticho
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: fragmentation_COID753666
+Id: COID753666
+CanonicalName: fragmentation
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: fructose_COID532749
+Id: COID532749
+CanonicalName: fructose
+Type: carbon source (subset of secondary raw materials)
+TypeId: C26
+AlternativeNames: 
+
+[Term]
+ConceptName: fucose_COID275575
+Id: COID275575
+CanonicalName: fucose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames:
+
+[Term]
+ConceptName: fucose analogue_COID400862
+Id: COID400862
+CanonicalName: fucose analogue
+Type: substitution material
+TypeId: C30
+AlternativeNames: fucose analogues
+
+[Term]
+ConceptName: fucose de novo pathway_COID327903
+Id: COID327903
+CanonicalName: fucose de novo pathway
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: fucosylation_COID810570
+Id: COID810570
+CanonicalName: fucosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: fucosyltransferase_COID212341
+Id: COID212341
+CanonicalName: fucosyltransferase
+Type: enzyme
+TypeId: C10
+AlternativeNames: fucosyltransferases
+AlternativeNames: FUT8
+AlternativeNames: fut8
+AlternativeNames: fucosyltransferase 8
+
+
+[Term]
+ConceptName: function_COID532355
+Id: COID532355
+CanonicalName: function
+Type: process condition
+TypeId: C19
+AlternativeNames: functions
+
+[Term]
+ConceptName: fusion protein_COID506208
+Id: COID506208
+CanonicalName: fusion protein
+Type: recombinant protein
+TypeId: C46
+AlternativeNames:  
+
+[Term]
+ConceptName: g0 and g1 level n-glycans_COID970118
+Id: COID970118
+CanonicalName: g0 and g1 level n-glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames:  g0 and g1 level n-glycan
+
+[Term]
+ConceptName: g0/g1 arrest_COID007895
+Id: COID007895
+CanonicalName: g0/g1 arrest
+Type: cell cycle pathway G0/G1/M/G2
+TypeId: C2
+AlternativeNames: g0/g1 arrests
+
+[Term]
+ConceptName: g2/m phase_COID055784
+Id: COID055784
+CanonicalName: g2/m phase
+Type: cell cycle pathway G0/G1/M/G2
+TypeId: C2
+AlternativeNames: g2/m phases
+
+[Term]
+ConceptName: galactose_COID770311
+Id: COID770311
+CanonicalName: galactose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: galactosylated glycan_COID107534
+Id: COID107534
+CanonicalName: galactosylated glycan
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: galactosylated glycans
+
+[Term]
+ConceptName: galactosylated glycan profile_COID142990
+Id: COID142990
+CanonicalName: galactosylated glycan profile
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: galactosylated igg_COID983193
+Id: COID983193
+CanonicalName: galactosylated igg
+Type: product quality profile
+TypeId: C50
+AlternativeNames: igg galactosylation
+
+[Term]
+ConceptName: galactosylation_COID475750
+Id: COID475750
+CanonicalName: galactosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: early protein galactosylation
+
+[Term]
+ConceptName: galactosylation index_COID293764
+Id: COID293764
+CanonicalName: galactosylation index
+Type: product attributes
+TypeId: C53
+AlternativeNames: GI
+
+[Term]
+ConceptName: sialylation index_COID283454
+Id: COID283454
+CanonicalName: sialylation index
+Type: product attributes
+TypeId: C53
+AlternativeNames: SI
+
+[Term]
+ConceptName: galactosylation-related glycosyltransferase genes_COID444666
+Id: COID444666
+CanonicalName: galactosylation-related glycosyltransferase genes
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: galactosyltransferases_COID703629
+Id: COID703629
+CanonicalName: galactosyltransferases
+Type: enzyme
+TypeId: C10
+AlternativeNames: galactosyltransferase
+AlternativeNames: galts
+
+[Term]
+ConceptName: gassing strategy_COID018240
+Id: COID018240
+CanonicalName: gassing strategy
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: gassing strategies
+
+[Term]
+ConceptName: gdp-6-deoxy-d-lyxo-4-hexulose reductase_COID569267
+Id: COID569267
+CanonicalName: gdp-6-deoxy-d-lyxo-4-hexulose reductase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: gdp-fuc_COID766661
+Id: COID766661
+CanonicalName: gdp-fuc
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: gdp-fucose
+
+[Term]
+ConceptName: gdp-mannose biosynthesis_COID073869
+Id: COID073869
+CanonicalName: gdp-mannose biosynthesis
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: 
+
+[Term]
+ConceptName: genetic engineering_COID939654
+Id: COID939654
+CanonicalName: genetic engineering
+Type: genotype
+TypeId: C42
+AlternativeNames: 
+
+[Term]
+ConceptName: fut8 expression_COID939656
+Id: COID939656
+CanonicalName: fut8 expression
+Type: genotype
+TypeId: C42
+AlternativeNames: 
+
+[Term]
+ConceptName: n-acetylglucosamine_COID510815
+Id: COID510815
+CanonicalName: n-acetylglucosamine
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: glcnac
+AlternativeNames: glcnac6p
+AlternativeNames: n-acetyl-d-glucosamine
+AlternativeNames: n-acetyl-d-glucosamine (glcnac)
+
+[Term]
+ConceptName: udp–glcnac_COID510816
+Id: COID510816
+CanonicalName: udp–glcnac
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: udp-n-acetyl-d-glucosamine
+AlternativeNames: udp-n-acetyl-d-glucosamine (udp-glcnac)
+AlternativeNames: uridine diphosphate–n-acetylglucosamine
+
+[Term]
+ConceptName: globular protine_COID893662
+Id: COID893662
+CanonicalName: globular protine
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: gluconoylation_COID890451
+Id: COID890451
+CanonicalName: gluconoylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: glucosamine_COID850039
+Id: COID850039
+CanonicalName: glucosamine
+Type: substrates
+TypeId: C3
+AlternativeNames: 
+
+[Term]
+ConceptName: glucose_COID367406
+Id: COID367406
+CanonicalName: glucose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: q gluc
+AlternativeNames: qgluc
+AlternativeNames: q-gluc
+
+[Term]
+ConceptName: glutamate_COID485387
+Id: COID485387
+CanonicalName: glutamate
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: glutamine_COID962935
+Id: COID962935
+CanonicalName: glutamine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: gluten hydrolysate_COID405569
+Id: COID405569
+CanonicalName: gluten hydrolysate
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: glycan_COID626759
+Id: COID626759
+CanonicalName: glycan
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: glycans
+
+[Term]
+ConceptName: glycan distribution_COID651165
+Id: COID651165
+CanonicalName: glycan distribution
+Type: product quality profile
+TypeId: C50
+AlternativeNames: glycan distributions
+
+[Term]
+ConceptName: glycan forms_COID671420
+Id: COID671420
+CanonicalName: glycan forms
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: glycan form
+
+[Term]
+ConceptName: glycan outcomes_COID339685
+Id: COID339685
+CanonicalName: glycan outcomes
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycan outcome
+
+[Term]
+ConceptName: glycan patterns_COID336775
+Id: COID336775
+CanonicalName: glycan patterns
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycan pattern
+
+[Term]
+ConceptName: glycan profile_COID521331
+Id: COID521331
+CanonicalName: glycan profile
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: glycan profiles
+AlternativeNames: n-glycan profiles
+AlternativeNames: n-glycan profile
+
+
+[Term]
+ConceptName: glycan structures_COID684992
+Id: COID684992
+CanonicalName: glycan structures
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: glycan structure
+
+[Term]
+ConceptName: glycans of lower molecular masses_COID129671
+Id: COID129671
+CanonicalName: glycans of lower molecular masses
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: glycation_COID274291
+Id: COID274291
+CanonicalName: glycation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: glycerol_COID217249
+Id: COID217249
+CanonicalName: glycerol
+Type: carbon source (subset of secondary raw materials)
+TypeId: C26
+AlternativeNames: 
+
+[Term]
+ConceptName: glycine_COID351597
+Id: COID351597
+CanonicalName: glycine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: glycine betaine_COID346560
+Id: COID346560
+CanonicalName: glycine betaine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: glycoform distributions_COID259199
+Id: COID259199
+CanonicalName: glycoform distributions
+Type: product quality profile
+TypeId: C50
+AlternativeNames: glycoform distribution
+
+[Term]
+ConceptName: glycoform profile_COID912805
+Id: COID912805
+CanonicalName: glycoform profile
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycoform profiles
+
+[Term]
+ConceptName: glycoforms_COID288767
+Id: COID288767
+CanonicalName: glycoforms
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: glycoform
+AlternativeNames: hm glycoform
+AlternativeNames: hm glycoforms
+
+[Term]
+ConceptName: glycoprofiles_COID135698
+Id: COID135698
+CanonicalName: glycoprofiles
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycoprofile
+
+[Term]
+ConceptName: glycoproteins_COID866322
+Id: COID866322
+CanonicalName: glycoproteins
+Type: product
+TypeId: C52
+AlternativeNames: glycoprotein
+
+[Term]
+ConceptName: glycosidase_COID469765
+Id: COID469765
+CanonicalName: glycosidase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: glycosidases_COID984933
+Id: COID984933
+CanonicalName: glycosidases
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: glycosylated forms_COID326314
+Id: COID326314
+CanonicalName: glycosylated forms
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: glycosylation_COID119643
+Id: COID119643
+CanonicalName: glycosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: glycated
+AlternativeNames: early protein glycosylation
+
+[Term]
+ConceptName: glycosylation pattern_COID857544
+Id: COID857544
+CanonicalName: glycosylation pattern
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycosylation patterns
+
+[Term]
+ConceptName: glycosylation precursors_COID638294
+Id: COID638294
+CanonicalName: glycosylation precursors
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: glycosylation precursor
+
+[Term]
+ConceptName: glycosylation profile_COID103232
+Id: COID103232
+CanonicalName: glycosylation profile
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycosylation profiles
+
+[Term]
+ConceptName: glycosylation profile attributes_COID165167
+Id: COID165167
+CanonicalName: glycosylation profile attributes
+Type: product attributes
+TypeId: C53
+AlternativeNames: glycosylation profile attribute
+
+[Term]
+ConceptName: glycosyltransferases_COID225633
+Id: COID225633
+CanonicalName: glycosyltransferases
+Type: enzyme
+TypeId: C10
+AlternativeNames: glycosyltransferase
+
+[Term]
+ConceptName: gnt i_COID947151
+Id: COID947151
+CanonicalName: gnt i
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: gntii_COID731801
+Id: COID731801
+CanonicalName: gntii
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: gof glycan_COID802526
+Id: COID802526
+CanonicalName: gof glycan
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: gof glycans
+
+[Term]
+ConceptName: golgi acidity_COID752340
+Id: COID752340
+CanonicalName: golgi acidity
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: 
+
+[Term]
+ConceptName: golgi ph_COID995227
+Id: COID995227
+CanonicalName: golgi ph
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: acidic golgi ph
+
+[Term]
+ConceptName: growth_COID203666
+Id: COID203666
+CanonicalName: growth
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: 
+
+[Term]
+ConceptName: growth rate_COID957002
+Id: COID957002
+CanonicalName: growth rate
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: growth rates
+
+[Term]
+ConceptName: gs-cho_COID432711
+Id: COID432711
+CanonicalName: gs-cho
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: 
+
+[Term]
+ConceptName: guanosine diphosphate-fucose synthesis_COID983511
+Id: COID983511
+CanonicalName: guanosine diphosphate-fucose synthesis
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: pathways related to guanosine diphosphate-fucose synthesis and fucosylation
+AlternativeNames: pathway related to guanosine diphosphate-fucose synthesis and fucosylation
+
+[Term]
+ConceptName: half life_COID125212
+Id: COID125212
+CanonicalName: half life
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: half-life
+
+
+[Term]
+ConceptName: harvest titer_COID815209
+Id: COID815209
+CanonicalName: harvest titer
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: harvest titers
+
+[Term]
+ConceptName: heptasaccharide_COID475381
+Id: COID475381
+CanonicalName: heptasaccharide
+Type: saccharides (subset of secondary raw materials)
+TypeId: C33
+AlternativeNames: heptasaccharides
+
+[Term]
+ConceptName: heterogeneity_COID021590
+Id: COID021590
+CanonicalName: heterogeneity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: heterogeneities
+AlternativeNames: micro-heterogeneity
+AlternativeNames: microheterogeneity
+AlternativeNames: microheterogeneities
+
+[Term]
+ConceptName: hexose_COID807273
+Id: COID807273
+CanonicalName: hexose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: high mannose_COID981337
+Id: COID981337
+CanonicalName: high mannose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: HM
+AlternativeNames: high-mannose
+
+[Term]
+ConceptName: high mannose n-glycans_COID826720
+Id: COID826720
+CanonicalName: high mannose n-glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: high mannose n-glycan
+
+[Term]
+ConceptName: high mannose type n-glycans_COID932230
+Id: COID932230
+CanonicalName: high mannose type n-glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: high mannose type n-glycan
+
+[Term]
+ConceptName: high-mannose glycoforms_COID965734
+Id: COID965734
+CanonicalName: high-mannose glycoforms
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: high mannose glycoforms
+AlternativeNames: high mannose glycoform
+AlternativeNames: high-mannose glycoform
+
+[Term]
+ConceptName: higher growing cell lines_COID379160
+Id: COID379160
+CanonicalName: higher growing cell lines
+Type: cell line
+TypeId: C56
+AlternativeNames: 
+
+[Term]
+ConceptName: histone deacetylase (hdac) inhibitors_COID367046
+Id: COID367046
+CanonicalName: histone deacetylase (hdac) inhibitors
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: histone deacetylase inhibitors
+AlternativeNames: histone deacetylase inhibitor
+AlternativeNames: hdac inhibitors
+
+[Term]
+ConceptName: horse serum_COID506028
+Id: COID506028
+CanonicalName: horse serum
+Type: serum or serum replacements
+TypeId: C31
+AlternativeNames: 
+
+[Term]
+ConceptName: host cell proteins_COID169903
+Id: COID169903
+CanonicalName: host cell proteins
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: HCP
+AlternativeNames: host cell protein
+
+[Term]
+ConceptName: human serum_COID211221
+Id: COID211221
+CanonicalName: human serum
+Type: serum or serum replacements
+TypeId: C31
+AlternativeNames: 
+
+[Term]
+ConceptName: hycell cho_COID785180
+Id: COID785180
+CanonicalName: hycell cho
+Type: media
+TypeId: C59
+AlternativeNames: hycell-cho
+
+[Term]
+ConceptName: hydroxyethyl cellulose_COID352629
+Id: COID352629
+CanonicalName: hydroxyethyl cellulose
+Type: cellulosic compounds
+TypeId: C62
+AlternativeNames: 
+
+[Term]
+ConceptName: hydroxymethyl_COID950892
+Id: COID950892
+CanonicalName: hydroxymethyl
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: hyperosmolality_COID710478
+Id: COID710478
+CanonicalName: hyperosmolality
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: hyperthermia_COID692231
+Id: COID692231
+CanonicalName: hyperthermia
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: hyperthermic culture conditions_COID228883
+Id: COID228883
+CanonicalName: hyperthermic culture conditions
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: hyperthermic culture condition
+
+[Term]
+ConceptName: hypoosmotic_COID688141
+Id: COID688141
+CanonicalName: hypoosmotic
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: hypothermia_COID361582
+Id: COID361582
+CanonicalName: hypothermia
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: hypothermic conditions_COID718157
+Id: COID718157
+CanonicalName: hypothermic conditions
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: hypothermic condition
+
+[Term]
+ConceptName: hypothermic culture conditions_COID259987
+Id: COID259987
+CanonicalName: hypothermic culture conditions
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: hypothermic culture condition
+
+[Term]
+ConceptName: hypothermic temperatures_COID331219
+Id: COID331219
+CanonicalName: hypothermic temperatures
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: hypothermic temperature
+
+[Term]
+ConceptName: immune response_COID806124
+Id: COID806124
+CanonicalName: immune response
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: immune responses
+AlternativeNames: unexpected immune response
+AlternativeNames: unexpected immune responses
+
+
+[Term]
+ConceptName: immunogenicity_COID444425
+Id: COID444425
+CanonicalName: immunogenicity
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: immunogenicities
+
+[Term]
+ConceptName: impurities_COID901557
+Id: COID901557
+CanonicalName: impurities
+Type: process condition
+TypeId: C19
+AlternativeNames: impurity
+
+[Term]
+ConceptName: incomplete glycan biosynthesis_COID724816
+Id: COID724816
+CanonicalName: incomplete glycan biosynthesis
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: 
+
+[Term]
+ConceptName: inhibitors_COID760391
+Id: COID760391
+CanonicalName: inhibitors
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: inhibitor
+
+[Term]
+ConceptName: insulin_COID453872
+Id: COID453872
+CanonicalName: insulin
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: intensified fed batch_COID504685
+Id: COID504685
+CanonicalName: intensified fed batch
+Type: process mode
+TypeId: C44
+AlternativeNames: IFB
+AlternativeNames: ifb
+AlternativeNames: ifb_5
+
+
+[Term]
+ConceptName: intracellular factors_COID386307
+Id: COID386307
+CanonicalName: intracellular factors
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: intracellular factor
+
+[Term]
+ConceptName: intracellular micro-heterogeneties_COID164502
+Id: COID164502
+CanonicalName: intracellular micro-heterogeneties
+Type: cell line characteristics
+TypeId: 
+AlternativeNames: intracellular micro-heterogeneity
+
+[Term]
+ConceptName: intracellular nucleotides and nucleotide sugars_COID456570
+Id: COID456570
+CanonicalName: intracellular nucleotides and nucleotide sugars
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: intracellular nucleotides and nucleotide sugar
+
+[Term]
+ConceptName: intracellular process_COID933982
+Id: COID933982
+CanonicalName: intracellular process
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: intracellular processes
+
+[Term]
+ConceptName: intracellular vesicular trafficking_COID573417
+Id: COID573417
+CanonicalName: intracellular vesicular trafficking
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: iron_COID094956
+Id: COID094956
+CanonicalName: iron
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: kifunensine_COID287309
+Id: COID287309
+CanonicalName: kifunensine
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: 
+
+[Term]
+ConceptName: knockout_COID494346
+Id: COID494346
+CanonicalName: knockout
+Type: genotype
+TypeId: C42
+AlternativeNames: 
+
+[Term]
+ConceptName: lab-scale bioreactors_COID558952
+Id: COID558952
+CanonicalName: lab-scale bioreactors
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: 
+
+[Term]
+ConceptName: lactate_COID250920
+Id: COID250920
+CanonicalName: lactate
+Type: by-product or waste
+TypeId: C9
+AlternativeNames: lactates
+
+[Term]
+ConceptName: lactate metabolic rate_COID490412
+Id: COID490412
+CanonicalName: lactate metabolic rate
+Type: flux rate
+TypeId: C49
+AlternativeNames: 
+
+[Term]
+ConceptName: lactose_COID629875
+Id: COID629875
+CanonicalName: lactose
+Type: disaccharides (subset of carbon source)
+TypeId: C28
+AlternativeNames: 
+
+[Term]
+ConceptName: lec13_COID415606
+Id: COID415606
+CanonicalName: lec13
+Type: cell line
+TypeId: C56
+AlternativeNames: 
+
+[Term]
+ConceptName: light chain isotype_COID790740
+Id: COID790740
+CanonicalName: light chain isotype
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: lipid-linked oligosaccharide_COID151174
+Id: COID151174
+CanonicalName: lipid-linked oligosaccharide
+Type: saccharides (subset of secondary raw materials)
+TypeId: C33
+AlternativeNames: LLO
+
+[Term]
+ConceptName: lithium hydroxide_COID428317
+Id: COID428317
+CanonicalName: lithium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: mab production_COID022887
+Id: COID022887
+CanonicalName: mab production
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: 
+
+[Term]
+ConceptName: mab productivity_COID842515
+Id: COID842515
+CanonicalName: mab productivity
+Type: process condition
+TypeId: C19
+AlternativeNames: 
+
+[Term]
+ConceptName: mab synthesis_COID609300
+Id: COID609300
+CanonicalName: mab synthesis
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: 
+
+[Term]
+ConceptName: maltose_COID396206
+Id: COID396206
+CanonicalName: maltose
+Type: disaccharides (subset of carbon source)
+TypeId: C28
+AlternativeNames: 
+
+[Term]
+ConceptName: man5_COID568402
+Id: COID568402
+CanonicalName: man5
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: n-linked mannose-5 glycan
+AlternativeNames: n-linked mannose-5 glycans
+AlternativeNames: mannose-5 glycan
+AlternativeNames: mannose-5 glycans
+
+[Term]
+ConceptName: man6_COID521642
+Id: COID521642
+CanonicalName: man6
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: oligomannose-6
+
+[Term]
+ConceptName: man8/9_COID436880
+Id: COID436880
+CanonicalName: man8/9
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: man9
+AlternativeNames: man8
+AlternativeNames: man8 and man9
+AlternativeNames: man8 or man9
+AlternativeNames: man8/man9
+
+[Term]
+ConceptName: manganese_COID333220
+Id: COID333220
+CanonicalName: manganese
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: mn2+
+
+[Term]
+ConceptName: mannose_COID906305
+Id: COID906305
+CanonicalName: mannose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: mannose 5 glycans_COID667485
+Id: COID667485
+CanonicalName: mannose 5 glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: mannose 5 glycan
+
+[Term]
+ConceptName: mannose-5_COID593975
+Id: COID593975
+CanonicalName: mannose-5
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: mannose-terminated n-glycans_COID789192
+Id: COID789192
+CanonicalName: mannose-terminated n-glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: mannose-terminated n-glycan
+
+[Term]
+ConceptName: mannosidase_COID020739
+Id: COID020739
+CanonicalName: mannosidase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: mannosylation_COID543580
+Id: COID543580
+CanonicalName: mannosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: media_COID913636
+Id: COID913636
+CanonicalName: media
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: media additives_COID816450
+Id: COID816450
+CanonicalName: media additives
+Type: media characteristics
+TypeId: C43
+AlternativeNames: media additive
+
+[Term]
+ConceptName: media characteristics_COID753086
+Id: COID753086
+CanonicalName: media characteristics
+Type: media characteristics
+TypeId: C43
+AlternativeNames: media characteristic
+
+[Term]
+ConceptName: media components_COID256991
+Id: COID256991
+CanonicalName: media components
+Type: media characteristics
+TypeId: C43
+AlternativeNames: media component
+
+[Term]
+ConceptName: media composition_COID162890
+Id: COID162890
+CanonicalName: media composition
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: media hold duration_COID555925
+Id: COID555925
+CanonicalName: media hold duration
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: media hold durations
+
+[Term]
+ConceptName: media modification_COID193034
+Id: COID193034
+CanonicalName: media modification
+Type: media characteristics
+TypeId: C43
+AlternativeNames: media modifications
+
+[Term]
+ConceptName: media supplementation_COID689497
+Id: COID689497
+CanonicalName: media supplementation
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: media supplementations
+AlternativeNames: ba supplementation
+
+[Term]
+ConceptName: medium_COID921897
+Id: COID921897
+CanonicalName: medium
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: metabolic pathways_COID588672
+Id: COID588672
+CanonicalName: metabolic pathways
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: metabolic pathway
+
+[Term]
+ConceptName: metabolism_COID291079
+Id: COID291079
+CanonicalName: metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: metabolities
+
+[Term]
+ConceptName: metabolite concentration_COID364859
+Id: COID364859
+CanonicalName: metabolite concentration
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: metabolite concentrations
+AlternativeNames: metabolic concentration
+AlternativeNames: metabolic concentrations
+
+[Term]
+ConceptName: methylation_COID776387
+Id: COID776387
+CanonicalName: methylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: microfiltration_COID128781
+Id: COID128781
+CanonicalName: microfiltration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: microfiltrations
+AlternativeNames: MF
+
+
+[Term]
+ConceptName: mncl2_COID426404
+Id: COID426404
+CanonicalName: mncl2
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: 
+
+[Term]
+ConceptName: modified amino acid_COID754629
+Id: COID754629
+CanonicalName: modified amino acid
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: modified amino acids
+
+[Term]
+ConceptName: molecule stability_COID793994
+Id: COID793994
+CanonicalName: molecule stability
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: molybdenum_COID562561
+Id: COID562561
+CanonicalName: molybdenum
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: mono galactosylated_COID592818
+Id: COID592818
+CanonicalName: mono galactosylated
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: monoclonal antibody_COID242255
+Id: COID242255
+CanonicalName: monoclonal antibody
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: monoclonal antibodies
+AlternativeNames: mab
+AlternativeNames: mabs
+AlternativeNames: mabs carrying n-glycans
+
+
+[Term]
+ConceptName: morpholine_COID998656
+Id: COID998656
+CanonicalName: morpholine
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: ms704_COID153804
+Id: COID153804
+CanonicalName: ms704
+Type: cell line
+TypeId: C56
+AlternativeNames: 
+
+[Term]
+ConceptName: mutations to allow transferase accessibility_COID357556
+Id: COID357556
+CanonicalName: mutations to allow transferase accessibility
+Type: genotype
+TypeId: C42
+AlternativeNames: mutation to allow transferase accessibility
+
+[Term]
+ConceptName: n-acetylgalactosamine_COID449126
+Id: COID449126
+CanonicalName: n-acetylgalactosamine
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: n-acetylglucosaminyltransferase_COID039686
+Id: COID039686
+CanonicalName: n-acetylglucosaminyltransferase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: n-acetylglucosaminyltransferase i_COID931034
+Id: COID931034
+CanonicalName: n-acetylglucosaminyltransferase i
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: n-acetylglucosaminyltransferase ii_COID298225
+Id: COID298225
+CanonicalName: n-acetylglucosaminyltransferase ii
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: n-acetylmannosamine_COID135789
+Id: COID135789
+CanonicalName: n-acetylmannosamine
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: mannac
+
+[Term]
+ConceptName: n-acetylneuraminic acid_COID042583
+Id: COID042583
+CanonicalName: n-acetylneuraminic acid
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: NANA
+AlternativeNames: n-acetylneuraminic acids
+
+
+[Term]
+ConceptName: n-glycan_COID216687
+Id: COID216687
+CanonicalName: n-glycan
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: n-glycans
+
+[Term]
+ConceptName: n-glycan antennary structure_COID675025
+Id: COID675025
+CanonicalName: n-glycan antennary structure
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: n-glycan antennary structures
+
+[Term]
+ConceptName: n-glycan chain extension_COID795392
+Id: COID795392
+CanonicalName: n-glycan chain extension
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: n-glycan chain extensions
+
+[Term]
+ConceptName: n-glycans ratio_COID525588
+Id: COID525588
+CanonicalName: n-glycans ratio
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: n-glycolylneuraminic acid_COID390231
+Id: COID390231
+CanonicalName: n-glycolylneuraminic acid
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: NGNA
+AlternativeNames: n-glycolylneuraminic acids
+
+[Term]
+ConceptName: n-glycosylation_COID293911
+Id: COID293911
+CanonicalName: n-glycosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: n-glycosylation profile_COID683283
+Id: COID683283
+CanonicalName: n-glycosylation profile
+Type: product attributes
+TypeId: C53
+AlternativeNames: n-glycosylation profiles
+
+[Term]
+ConceptName: n-linked complex glycoform_COID210842
+Id: COID210842
+CanonicalName: n-linked complex glycoform
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: n-linked glycan_COID297037
+Id: COID297037
+CanonicalName: n-linked glycan
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: n-linked glycans
+
+[Term]
+ConceptName: n-linked glycan distribution_COID235212
+Id: COID235212
+CanonicalName: n-linked glycan distribution
+Type: product quality profile
+TypeId: C50
+AlternativeNames: n-linked glycan distributions
+
+[Term]
+ConceptName: n-linked glycosylation_COID005169
+Id: COID005169
+CanonicalName: n-linked glycosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: n-linked glycosylation patterns_COID545748
+Id: COID545748
+CanonicalName: n-linked glycosylation patterns
+Type: product attributes
+TypeId: C53
+AlternativeNames: n-linked glycosylation pattern
+
+[Term]
+ConceptName: n-linked mannose-5_COID500013
+Id: COID500013
+CanonicalName: n-linked mannose-5
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: n-linked oligosaccharides_COID832083
+Id: COID832083
+CanonicalName: n-linked oligosaccharides
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames:  n-linked oligosaccharide
+
+[Term]
+ConceptName: n-terminal glycine_COID640703
+Id: COID640703
+CanonicalName: n-terminal glycine
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: nanofiltration_COID399082
+Id: COID399082
+CanonicalName: nanofiltration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: nanofiltrations
+AlternativeNames: NF
+
+[Term]
+ConceptName: newborn calf serum_COID830185
+Id: COID830185
+CanonicalName: newborn calf serum
+Type: serum or serum replacements
+TypeId: C31
+AlternativeNames: NCS
+
+[Term]
+ConceptName: nickel_COID232036
+Id: COID232036
+CanonicalName: nickel
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: nist cho_COID964757
+Id: COID964757
+CanonicalName: nist cho
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: nist-cho
+
+[Term]
+ConceptName: nitrogen_COID546348
+Id: COID546348
+CanonicalName: nitrogen
+Type: gases (subset of secondary raw materials)
+TypeId: C35
+AlternativeNames: 
+
+[Term]
+ConceptName: nitrogen sources_COID144540
+Id: COID144540
+CanonicalName: nitrogen sources
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: nitrogen source
+
+[Term]
+ConceptName: non-core-fucosylation_COID101427
+Id: COID101427
+CanonicalName: non-core-fucosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: non-fucosylated antibody_COID842930
+Id: COID842930
+CanonicalName: non-fucosylated antibody
+Type: non-fucosylated antibody
+TypeId: C65
+AlternativeNames: non fucosylated antibody
+AlternativeNames: non-fucosylated antibodies
+AlternativeNames: non fucosylated antibodies
+AlternativeNames: fucose-negative therapeutic antibodies
+AlternativeNames: fucose-negative therapeutic antibody
+AlternativeNames: fucose negative therapeutic antibodies
+AlternativeNames: fucose negative therapeutic antibody
+AlternativeNames: fucose-negative antibody
+AlternativeNames: fucose negative antibodies
+AlternativeNames: non fucosylated therapeutic antibody
+AlternativeNames: non-fucosylated therapeutic antibodies
+AlternativeNames: non-fucosylated therapeutic antibody
+AlternativeNames: non fucosylated therapeutic antibodies
+
+[Term]
+ConceptName: nonglycosylated_COID862110
+Id: COID862110
+CanonicalName: nonglycosylated
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: nucleoside_COID718935
+Id: COID718935
+CanonicalName: nucleoside
+Type: nucleotide or nucleoside
+TypeId: C4
+AlternativeNames: nucleosides
+
+[Term]
+ConceptName: nucleotide sugar_COID937318
+Id: COID937318
+CanonicalName: nucleotide sugar
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: nucleotide sugars
+
+[Term]
+ConceptName: nucleotide sugar synthetases_COID861834
+Id: COID861834
+CanonicalName: nucleotide sugar synthetases
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: nucleotide sugar transport proteins_COID043128
+Id: COID043128
+CanonicalName: nucleotide sugar transport proteins
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: nucleotide-sugar intracellular pools_COID982927
+Id: COID982927
+CanonicalName: nucleotide-sugar intracellular pools
+Type: nucleotide or nucleoside
+TypeId: C4
+AlternativeNames: nucleotide-sugar intracellular pool
+
+[Term]
+ConceptName: nutrient_COID423902
+Id: COID423902
+CanonicalName: nutrient
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: nutrients
+
+[Term]
+ConceptName: nutrient concentration_COID287635
+Id: COID287635
+CanonicalName: nutrient concentration
+Type: media parameter or raw material
+TypeId: C13
+AlternativeNames: nutrient concentrations
+
+[Term]
+ConceptName: o-glycan precursor_COID559670
+Id: COID559670
+CanonicalName: o-glycan precursor
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: o-glycan precursors
+
+[Term]
+ConceptName: o-glycan site occupancy_COID183234
+Id: COID183234
+CanonicalName: o-glycan site occupancy
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: o-glycosylation_COID233146
+Id: COID233146
+CanonicalName: o-glycosylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: octanol_COID189410
+Id: COID189410
+CanonicalName: octanol
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: oligomannose-5 glycan_COID986471
+Id: COID986471
+CanonicalName: oligomannose-5 glycan
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: oligomannose-5 glycans
+
+[Term]
+ConceptName: oligosaccharide_COID163264
+Id: COID163264
+CanonicalName: oligosaccharide
+Type: saccharides (subset of secondary raw materials)
+TypeId: C33
+AlternativeNames: oligosaccharides
+
+[Term]
+ConceptName: opticho_COID017929
+Id: COID017929
+CanonicalName: opticho
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: opti cho
+AlternativeNames: opti-cho
+
+[Term]
+ConceptName: optipro sfm_COID598380
+Id: COID598380
+CanonicalName: optipro sfm
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: organic antifoams_COID003111
+Id: COID003111
+CanonicalName: organic antifoams
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: osmolality_COID710653
+Id: COID710653
+CanonicalName: osmolality
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: osmoprotectant_COID571290
+Id: COID571290
+CanonicalName: osmoprotectant
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: osmoprotectants
+
+[Term]
+ConceptName: orbitally shaken bioreactors_COID030179
+Id: COID030179
+CanonicalName: orbitally shaken bioreactors
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: osrs
+AlternativeNames: OSR
+AlternativeNames: orbitally shaken bioreactor
+
+
+[Term]
+ConceptName: oxidation_COID907585
+Id: COID907585
+CanonicalName: oxidation
+Type: PTM
+TypeId: C8
+AlternativeNames:
+
+[Term]
+ConceptName: met oxidation_COID907685
+Id: COID907685
+CanonicalName: met oxidation
+Type: PTM
+TypeId: C8
+AlternativeNames:
+
+[Term]
+ConceptName: oxygen_COID472476
+Id: COID472476
+CanonicalName: oxygen
+Type: gases (subset of secondary raw materials)
+TypeId: C35
+AlternativeNames: o2
+AlternativeNames: O2
+
+[Term]
+ConceptName: p3_COID845585
+Id: COID845585
+CanonicalName: p3
+Type: hybridoma
+TypeId: C57
+AlternativeNames: 
+
+[Term]
+ConceptName: patient safety_COID227083
+Id: COID227083
+CanonicalName: patient safety
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: 
+
+
+
+[Term]
+ConceptName: pegylation_COID449295
+Id: COID449295
+CanonicalName: pegylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: peptide fragment_COID579814
+Id: COID579814
+CanonicalName: peptide fragment
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: perfusion_COID329168
+Id: COID329168
+CanonicalName: perfusion
+Type: process mode
+TypeId: C44
+AlternativeNames: 
+
+[Term]
+ConceptName: perfusion cultures_COID368508
+Id: COID368508
+CanonicalName: perfusion cultures
+Type: process mode
+TypeId: C44
+AlternativeNames: perfusion culture
+
+[Term]
+ConceptName: ph_COID893209
+Id: COID893209
+CanonicalName: ph
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: phi
+
+[Term]
+ConceptName: ph control_COID492476
+Id: COID492476
+CanonicalName: ph control
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: 
+
+[Term]
+ConceptName: pharmacokinetics_COID373370
+Id: COID373370
+CanonicalName: pharmacokinetics
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: pharmacokinetic
+
+[Term]
+ConceptName: phi control_COID698824
+Id: COID698824
+CanonicalName: phi control
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: 
+
+[Term]
+ConceptName: phosphorylation_COID850093
+Id: COID850093
+CanonicalName: phosphorylation
+Type: PTM
+TypeId: C8
+AlternativeNames: oxidative phosphorylation
+
+[Term]
+ConceptName: polydimethylsiloxane_COID685265
+Id: COID685265
+CanonicalName: polydimethylsiloxane
+Type: antifoams
+TypeId: C29
+AlternativeNames: PDMS
+
+[Term]
+ConceptName: polyether_COID585837
+Id: COID585837
+CanonicalName: polyether
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: polymerization_COID253452
+Id: COID253452
+CanonicalName: polymerization
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: polysialylation_COID426194
+Id: COID426194
+CanonicalName: polysialylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: post translational modifications_COID479596
+Id: COID479596
+CanonicalName: post translational modifications
+Type: PTM
+TypeId: C8
+AlternativeNames: post translational modification
+
+[Term]
+ConceptName: potassium hydroxide_COID887610
+Id: COID887610
+CanonicalName: potassium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: potency_COID969445
+Id: COID969445
+CanonicalName: potency
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: 
+
+[Term]
+ConceptName: powercho-2_COID158043
+Id: COID158043
+CanonicalName: powercho-2
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: powercho-3_COID786009
+Id: COID786009
+CanonicalName: powercho-3
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: precursor_COID871085
+Id: COID871085
+CanonicalName: precursor
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: precursors
+
+[Term]
+ConceptName: prenylation_COID103961
+Id: COID103961
+CanonicalName: prenylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: primary raw materials_COID615478
+Id: COID615478
+CanonicalName: primary raw materials
+Type: primary raw materials
+TypeId: C55
+AlternativeNames: primary raw material
+
+[Term]
+ConceptName: process condition_COID106153
+Id: COID106153
+CanonicalName: process condition
+Type: process condition
+TypeId: C19
+AlternativeNames: process conditions
+
+
+[Term]
+ConceptName: process outcome_COID078408
+Id: COID078408
+CanonicalName: process outcome
+Type: process outcome
+TypeId: C47
+AlternativeNames: process outcomes
+
+[Term]
+ConceptName: process parameter_COID163282
+Id: COID163282
+CanonicalName: process parameter
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: process parameters
+AlternativeNames: parameters of processes
+AlternativeNames: parameters of a process
+AlternativeNames: parameter of a process
+AlternativeNames: parameter of the process
+AlternativeNames: parameters of the process
+AlternativeNames: parameter of processes
+
+[Term]
+ConceptName: procho4_COID741978
+Id: COID741978
+CanonicalName: procho4
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: procho5_COID988111
+Id: COID988111
+CanonicalName: procho5
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: product concentration_COID189862
+Id: COID189862
+CanonicalName: product concentration
+Type: product attributes
+TypeId: C53
+AlternativeNames: product concentrations
+
+[Term]
+ConceptName: product efficacy_COID793672
+Id: COID793672
+CanonicalName: product efficacy
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: product efficacies
+
+[Term]
+ConceptName: product formation_COID187355
+Id: COID187355
+CanonicalName: product formation
+Type: flux rate
+TypeId: C49
+AlternativeNames: 
+
+[Term]
+ConceptName: product quality_COID111751
+Id: COID111751
+CanonicalName: product quality
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: quality of a product
+AlternativeNames: product qualities
+AlternativeNames: quality of products
+
+[Term]
+ConceptName: product safety_COID232216
+Id: COID232216
+CanonicalName: product safety
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: safety of a product
+AlternativeNames: safety of products
+
+[Term]
+ConceptName: product stability_COID313713
+Id: COID313713
+CanonicalName: product stability
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: product titer_COID382077
+Id: COID382077
+CanonicalName: product titer
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: product titers
+
+[Term]
+ConceptName: production bioreactor parameters_COID641378
+Id: COID641378
+CanonicalName: production bioreactor parameters
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: production bioreactor parameter
+AlternativeNames: parameters of production bioreactor
+
+[Term]
+ConceptName: production rate_COID014362
+Id: COID014362
+CanonicalName: production rate
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: production rates
+AlternativeNames: specific production rate
+AlternativeNames: SPR
+
+
+[Term]
+ConceptName: production yield_COID711358
+Id: COID711358
+CanonicalName: production yield
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: production yields
+AlternativeNames: antibody production yields
+AlternativeNames: antibody production yield
+
+[Term]
+ConceptName: productivity_COID731421
+Id: COID731421
+CanonicalName: productivity
+Type: process condition
+TypeId: C19
+AlternativeNames: average productivity
+AlternativeNames: specific productivity
+
+[Term]
+ConceptName: productivity of the cell culture process_COID192960
+Id: COID192960
+CanonicalName: productivity of the cell culture process
+Type: process condition
+TypeId: C19
+AlternativeNames: culture process productivity of a cell
+AlternativeNames: culture process productivity of cells
+
+[Term]
+ConceptName: proline_COID708113
+Id: COID708113
+CanonicalName: proline
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: prolonged viability_COID937191
+Id: COID937191
+CanonicalName: prolonged viability
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: prolonged viabilities
+
+[Term]
+ConceptName: properties of glycoproteins_COID445665
+Id: COID445665
+CanonicalName: properties of glycoproteins
+Type: product quality profile
+TypeId: C50
+AlternativeNames: property of glycoprotein
+
+[Term]
+ConceptName: proportion of complex forms_COID157309
+Id: COID157309
+CanonicalName: proportion of complex forms
+Type: process outcome
+TypeId: C47
+AlternativeNames: proportion of complex form
+
+[Term]
+ConceptName: protein aggregation_COID100331
+Id: COID100331
+CanonicalName: protein aggregation
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: protein degradation_COID960950
+Id: COID960950
+CanonicalName: protein degradation
+Type: degradation
+TypeId: C22
+AlternativeNames: protein degradations
+
+[Term]
+ConceptName: protein engineering_COID847029
+Id: COID847029
+CanonicalName: protein engineering
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: protein expression_COID124678
+Id: COID124678
+CanonicalName: protein expression
+Type: product attributes
+TypeId: C53
+AlternativeNames: protein expressions
+
+[Term]
+ConceptName: protein glycosylation profiles_COID614376
+Id: COID614376
+CanonicalName: protein glycosylation profiles
+Type: product attributes
+TypeId: C53
+AlternativeNames: protein glycosylation profile
+
+[Term]
+ConceptName: protein purity_COID523503
+Id: COID523503
+CanonicalName: protein purity
+Type: product attributes
+TypeId: C53
+AlternativeNames: 
+
+[Term]
+ConceptName: protein quality attributes_COID846170
+Id: COID846170
+CanonicalName: protein quality attributes
+Type: product quality profile
+TypeId: C50
+AlternativeNames: protein quality attribute
+
+[Term]
+ConceptName: protein-free media_COID927727
+Id: COID927727
+CanonicalName: protein-free media
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: proteolytic cleavage_COID789633
+Id: COID789633
+CanonicalName: proteolytic cleavage
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: protocol_COID625051
+Id: COID625051
+CanonicalName: protocol
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: protocols
+
+[Term]
+ConceptName: pyruvate_COID727438
+Id: COID727438
+CanonicalName: pyruvate
+Type: carbon source (subset of secondary raw materials)
+TypeId: C26
+AlternativeNames: 
+
+[Term]
+ConceptName: qp_COID599783
+Id: COID599783
+CanonicalName: qp
+Type: flux rate
+TypeId: C49
+AlternativeNames: q p
+
+[Term]
+ConceptName: quality_COID109463
+Id: COID109463
+CanonicalName: quality
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: raffinose_COID985703
+Id: COID985703
+CanonicalName: raffinose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: raw material characteristics_COID900595
+Id: COID900595
+CanonicalName: raw material characteristics
+Type: raw material characteristics
+TypeId: C40
+AlternativeNames: raw material characteristic
+
+[Term]
+ConceptName: reactor sterility_COID587134
+Id: COID587134
+CanonicalName: reactor sterility
+Type: reactor design
+TypeId: C16
+AlternativeNames: 
+
+[Term]
+ConceptName: recombinant antibody yield_COID518563
+Id: COID518563
+CanonicalName: recombinant antibody yield
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: 
+
+[Term]
+ConceptName: recombinant fusion protein_COID676940
+Id: COID676940
+CanonicalName: recombinant fusion protein
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: 
+
+[Term]
+ConceptName: recombinant protein_COID593158
+Id: COID593158
+CanonicalName: recombinant protein
+Type: recombinant protein
+TypeId: C46
+AlternativeNames: recombinant proteins
+
+[Term]
+ConceptName: recombinant protein production_COID708316
+Id: COID708316
+CanonicalName: recombinant protein production
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: 
+
+[Term]
+ConceptName: redox potential_COID680210
+Id: COID680210
+CanonicalName: redox potential
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: redox potentials
+
+[Term]
+ConceptName: relative glycan content_COID604263
+Id: COID604263
+CanonicalName: relative glycan content
+Type: product attributes
+TypeId: C53
+AlternativeNames: relative glycan contents
+
+[Term]
+ConceptName: residance time_COID945033
+Id: COID945033
+CanonicalName: residance time
+Type: NYK
+TypeId: 
+AlternativeNames: 
+
+[Term]
+ConceptName: response surface model_COID906970
+Id: COID906970
+CanonicalName: response surface model
+Type: reactor design
+TypeId: C16
+AlternativeNames: response surface models
+AlternativeNames: RSM
+
+[Term]
+ConceptName: rubidium hydroxide_COID977744
+Id: COID977744
+CanonicalName: rubidium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: run time_COID945441
+Id: COID945441
+CanonicalName: run time
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: s-sulfocysteine_COID617511
+Id: COID617511
+CanonicalName: s-sulfocysteine
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: 
+
+[Term]
+ConceptName: safety_COID635261
+Id: COID635261
+CanonicalName: safety
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames:
+
+[Term]
+ConceptName: safety and potency of the monoclonal antibody_COID685464
+Id: COID685464
+CanonicalName: safety and potency of the monoclonal antibody
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: 
+
+[Term]
+ConceptName: salt balance_COID092325
+Id: COID092325
+CanonicalName: salt balance
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: 
+
+[Term]
+ConceptName: scales_COID586187
+Id: COID586187
+CanonicalName: scales
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: scaled
+AlternativeNames: scale
+
+[Term]
+ConceptName: secretion rate_COID916779
+Id: COID916779
+CanonicalName: secretion rate
+Type: flux rate
+TypeId: C49
+AlternativeNames: 
+
+[Term]
+ConceptName: selenium_COID808285
+Id: COID808285
+CanonicalName: selenium
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: serum-free media_COID688586
+Id: COID688586
+CanonicalName: serum-free media
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: shake flask_COID796805
+Id: COID796805
+CanonicalName: shake flask
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: shake flasks
+
+[Term]
+ConceptName: shear forces_COID215539
+Id: COID215539
+CanonicalName: shear forces
+Type: process condition
+TypeId: C19
+AlternativeNames: shear force
+
+[Term]
+ConceptName: shearing stress_COID617140
+Id: COID617140
+CanonicalName: shearing stress
+Type: shear forces
+TypeId: C23
+AlternativeNames: shearing stresses
+
+[Term]
+ConceptName: sialic acid_COID148212
+Id: COID148212
+CanonicalName: sialic acid
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: SA
+
+[Term]
+ConceptName: sialic acid degradation_COID371714
+Id: COID371714
+CanonicalName: sialic acid degradation
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: degradation of sialic acid
+
+[Term]
+ConceptName: sialidase_COID839818
+Id: COID839818
+CanonicalName: sialidase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: sialylated glycans_COID113402
+Id: COID113402
+CanonicalName: sialylated glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: sialylated glycan
+
+[Term]
+ConceptName: sialylation_COID543327
+Id: COID543327
+CanonicalName: sialylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: sialyltransferase_COID191824
+Id: COID191824
+CanonicalName: sialyltransferase
+Type: enzyme
+TypeId: C10
+AlternativeNames: sialyl-transferases
+AlternativeNames: sialyltransferases
+
+[Term]
+ConceptName: silicone-based antifoams_COID404088
+Id: COID404088
+CanonicalName: silicone-based antifoams
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: simethicone_COID829840
+Id: COID829840
+CanonicalName: simethicone
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: single use bioreactor_COID917715
+Id: COID917715
+CanonicalName: single use bioreactor
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: 
+
+[Term]
+ConceptName: single-use filtration_COID146256
+Id: COID146256
+CanonicalName: single-use filtration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: single use filtration
+AlternativeNames: single-use filtrations
+AlternativeNames: single use filtrations
+
+[Term]
+ConceptName: site occupancy_COID402550
+Id: COID402550
+CanonicalName: site occupancy
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: sodium bicarbonate_COID760948
+Id: COID760948
+CanonicalName: sodium bicarbonate
+Type: buffer (subset of secondary raw materials)
+TypeId: C36
+AlternativeNames: 
+
+[Term]
+ConceptName: sodium carbonate_COID693101
+Id: COID693101
+CanonicalName: sodium carbonate
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: sodium chloride_COID277511
+Id: COID277511
+CanonicalName: sodium chloride
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: sodium hydroxide_COID574267
+Id: COID574267
+CanonicalName: sodium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: sodium phosphate_COID599868
+Id: COID599868
+CanonicalName: sodium phosphate
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: sorbitol_COID857879
+Id: COID857879
+CanonicalName: sorbitol
+Type: cell line characteristics
+TypeId: 
+AlternativeNames: 
+
+[Term]
+ConceptName: st3gal4 gene_COID302607
+Id: COID302607
+CanonicalName: st3gal4 gene
+Type: genotype
+TypeId: C42
+AlternativeNames: st3gal4 genes
+
+[Term]
+ConceptName: stability_COID548988
+Id: COID548988
+CanonicalName: stability
+Type: process condition
+TypeId: C19
+AlternativeNames: 
+
+[Term]
+ConceptName: steric hindrance_COID398974
+Id: COID398974
+CanonicalName: steric hindrance
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: stirred-tank bioreactors_COID383436
+Id: COID383436
+CanonicalName: stirred-tank bioreactors
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: strs
+AlternativeNames: STR
+AlternativeNames: stirred-tank bioreactor
+
+[Term]
+ConceptName: bioreactors_COID345693
+Id: COID345693
+CanonicalName: bioreactors
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: bioreactor
+AlternativeNames: BR
+
+
+[Term]
+ConceptName: substrates_COID265919
+Id: COID265919
+CanonicalName: substrates
+Type: substrates
+TypeId: C3
+AlternativeNames: substrate
+
+[Term]
+ConceptName: sucrose_COID945298
+Id: COID945298
+CanonicalName: sucrose
+Type: disaccharides (subset of carbon source)
+TypeId: C28
+AlternativeNames: 
+
+[Term]
+ConceptName: sugar transporter genes_COID403797
+Id: COID403797
+CanonicalName: sugar transporter genes
+Type: cell line characteristics
+TypeId: 
+AlternativeNames: sugar transporter gene
+
+[Term]
+ConceptName: sulfation_COID777322
+Id: COID777322
+CanonicalName: sulfation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: sumoylation_COID899198
+Id: COID899198
+CanonicalName: sumoylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: superoxide dismutase_COID501351
+Id: COID501351
+CanonicalName: superoxide dismutase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: supplementation_COID566710
+Id: COID566710
+CanonicalName: supplementation
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: supplementations
+
+
+[Term]
+ConceptName: synthetic or chemically defined media_COID198035
+Id: COID198035
+CanonicalName: synthetic or chemically defined media
+Type: media
+TypeId: C59
+AlternativeNames: 
+
+[Term]
+ConceptName: tangential flow filtration_COID208659
+Id: COID208659
+CanonicalName: tangential flow filtration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: tangential flow filtrations
+AlternativeNames: TFF
+
+[Term]
+ConceptName: temperature_COID692615
+Id: COID692615
+CanonicalName: temperature
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: temperatures
+
+[Term]
+ConceptName: terminal galactose β1_COID528317
+Id: COID528317
+CanonicalName: terminal galactose β1
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: tetra-sialylated glycans_COID697788
+Id: COID697788
+CanonicalName: tetra-sialylated glycans
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: tetra-sialylated glycan
+
+[Term]
+ConceptName: tetramethylammonium hydroxide_COID237556
+Id: COID237556
+CanonicalName: tetramethylammonium hydroxide
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: therapeutic agent_COID276899
+Id: COID276899
+CanonicalName: therapeutic agent
+Type: therapeutic agent
+TypeId: C45
+AlternativeNames: therapeutic agents
+
+[Term]
+ConceptName: therapeutic efficacy_COID151356
+Id: COID151356
+CanonicalName: therapeutic efficacy
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: 
+
+[Term]
+ConceptName: therapeutic protein quality_COID845607
+Id: COID845607
+CanonicalName: therapeutic protein quality
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: 
+
+[Term]
+ConceptName: threonine_COID905902
+Id: COID905902
+CanonicalName: threonine
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: time_COID742277
+Id: COID742277
+CanonicalName: time
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: titer_COID732378
+Id: COID732378
+CanonicalName: titer
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: titers
+AlternativeNames: mab titers
+AlternativeNames: mab1 titers
+
+[Term]
+ConceptName: trace metal_COID221517
+Id: COID221517
+CanonicalName: trace metal
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: trace metals
+
+[Term]
+ConceptName: trehalose_COID264187
+Id: COID264187
+CanonicalName: trehalose
+Type: disaccharides (subset of carbon source)
+TypeId: C28
+AlternativeNames: trehaloses
+
+[Term]
+ConceptName: trehalose-containing medium_COID087692
+Id: COID087692
+CanonicalName: trehalose-containing medium
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: tributyl phosphate_COID957770
+Id: COID957770
+CanonicalName: tributyl phosphate
+Type: antifoams
+TypeId: C29
+AlternativeNames: 
+
+[Term]
+ConceptName: tris_COID522855
+Id: COID522855
+CanonicalName: tris
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: trisaccharide raffinose_COID864970
+Id: COID864970
+CanonicalName: trisaccharide raffinose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: tromethamine_COID801576
+Id: COID801576
+CanonicalName: tromethamine
+Type: base (subset of secondary raw materials)
+TypeId: C34
+AlternativeNames: 
+
+[Term]
+ConceptName: tyrosine_COID500516
+Id: COID500516
+CanonicalName: tyrosine
+Type: media parameter or raw material
+TypeId: C13
+AlternativeNames: 
+
+[Term]
+ConceptName: ubiquitination_COID966920
+Id: COID966920
+CanonicalName: ubiquitination
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: udp-n-acetylglucosamine biosynthesis_COID929438
+Id: COID929438
+CanonicalName: udp-n-acetylglucosamine biosynthesis
+Type: biochemical compound
+TypeId: C18
+AlternativeNames: 
+
+[Term]
+ConceptName: udp-sugars_COID346911
+Id: COID346911
+CanonicalName: udp-sugars
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: udp–gal_COID756664
+Id: COID756664
+CanonicalName: udp–gal
+Type: substrates
+TypeId: C3
+AlternativeNames: udp-galnac
+
+[Term]
+ConceptName: ultrafiltration_COID277807
+Id: COID277807
+CanonicalName: ultrafiltration
+Type: filtration parameters
+TypeId: C17
+AlternativeNames: ultrafiltrations
+AlternativeNames: UF
+
+[Term]
+ConceptName: undesired glycan forms_COID853412
+Id: COID853412
+CanonicalName: undesired glycan forms
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: undesired glycan form
+
+[Term]
+ConceptName: unnatural fucose analogues_COID154124
+Id: COID154124
+CanonicalName: unnatural fucose analogues
+Type: substitution material
+TypeId: C30
+AlternativeNames: unnatural fucose analogue
+
+[Term]
+ConceptName: uptake rates_COID844360
+Id: COID844360
+CanonicalName: uptake rates
+Type: biological process
+TypeId: C6
+AlternativeNames: uptake rate
+
+[Term]
+ConceptName: oxygen uptake rate_COID844361
+Id: COID844361
+CanonicalName: oxygen uptake rate
+Type: biological process
+TypeId: C6
+AlternativeNames: OUR
+AlternativeNames: oxygen uptake rates
+
+
+[Term]
+ConceptName: uridine_COID485269
+Id: COID485269
+CanonicalName: uridine
+Type: nucleotide or nucleoside
+TypeId: C4
+AlternativeNames: 
+
+[Term]
+ConceptName: uridine diphosphate–galactose_COID990972
+Id: COID990972
+CanonicalName: uridine diphosphate–galactose
+Type: substrates
+TypeId: C3
+AlternativeNames: udp–gal
+AlternativeNames: udp–galactose
+
+[Term]
+ConceptName: valproic acid_COID953809
+Id: COID953809
+CanonicalName: valproic acid
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: VPA
+
+[Term]
+ConceptName: vanadium_COID504836
+Id: COID504836
+CanonicalName: vanadium
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: variable domains_COID284730
+Id: COID284730
+CanonicalName: variable domains
+Type: product attributes
+TypeId: C53
+AlternativeNames: variable domain
+
+[Term]
+ConceptName: viability_COID222142
+Id: COID222142
+CanonicalName: viability
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: viabilities
+
+[Term]
+ConceptName: viable cell density_COID384695
+Id: COID384695
+CanonicalName: viable cell density
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: viable cell densities
+AlternativeNames: VCD
+AlternativeNames: vcds
+
+
+[Term]
+ConceptName: volumetric recombinant antibody yields_COID088953
+Id: COID088953
+CanonicalName: volumetric recombinant antibody yields
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: volumetric recombinant antibody yield
+
+[Term]
+ConceptName: vpa titrations_COID479988
+Id: COID479988
+CanonicalName: vpa titrations
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: vpa titration
+AlternativeNames: valproic acid titration
+AlternativeNames: valproic acid titrations
+
+
+
+[Term]
+ConceptName: waste product_COID007191
+Id: COID007191
+CanonicalName: waste product
+Type: by-product or waste
+TypeId: C9
+AlternativeNames: waste products
+AlternativeNames: product wastes
+
+[Term]
+ConceptName: yield_COID809703
+Id: COID809703
+CanonicalName: yield
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: 
+
+[Term]
+ConceptName: zinc_COID532261
+Id: COID532261
+CanonicalName: zinc
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: 
+
+[Term]
+ConceptName: zinc finger nucleases_COID138449
+Id: COID138449
+CanonicalName: zinc finger nucleases
+Type: enzyme
+TypeId: C10
+AlternativeNames: ZFN
+
+[Term]
+ConceptName: α-2,3 linked sialic acid_COID449367
+Id: COID449367
+CanonicalName: α-2,3 linked sialic acid
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: α-2,3 linked sialic acids
+
+[Term]
+ConceptName: α-2,3 sialyltransferase knockout-α-2,6 sialyltransferase stable clone_COID226938
+Id: COID226938
+CanonicalName: α-2,3 sialyltransferase knockout-α-2,6 sialyltransferase stable clone
+Type: genotype
+TypeId: C42
+AlternativeNames: 
+
+[Term]
+ConceptName: α-2,3 sialyltransferases_COID229977
+Id: COID229977
+CanonicalName: α-2,3 sialyltransferases
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: α-2,6 and α-2,3 sialylation_COID698284
+Id: COID698284
+CanonicalName: α-2,6 and α-2,3 sialylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: α-2,6 sialylation_COID995015
+Id: COID995015
+CanonicalName: α-2,6 sialylation
+Type: glycosylation
+TypeId: C61
+AlternativeNames: 
+
+[Term]
+ConceptName: α-2,6 sialyltransferase_COID465059
+Id: COID465059
+CanonicalName: α-2,6 sialyltransferase
+Type: enzyme
+TypeId: C10
+AlternativeNames: 
+
+[Term]
+ConceptName: β-1,4 galactosyltransferase_COID856080
+Id: COID856080
+CanonicalName: β-1,4 galactosyltransferase
+Type: enzyme
+TypeId: C10
+AlternativeNames: β-1,4-galactosyltransferase
+AlternativeNames: B4GALT
+AlternativeNames: b4galt
+
+[Term]
+ConceptName: β-1,4 galactosyltransferase activity_COID893155
+Id: COID893155
+CanonicalName: β-1,4 galactosyltransferase activity
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: 
+
+[Term]
+ConceptName: γ-carboxyglutamate gla_COID854639
+Id: COID854639
+CanonicalName: γ-carboxyglutamate gla
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: 
+
+[Term]
+ConceptName: antibody_COID278523
+Id: COID278523
+CanonicalName: antibody
+Type: antibody
+TypeId: C63
+AlternativeNames: antibodies
+
+[Term]
+ConceptName: CHO_COID806780
+Id: COID806780
+CanonicalName: CHO
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: chinese hamster ovary
+AlternativeNames: chinese hamster ovary (cho)
+AlternativeNames: cho cells
+AlternativeNames: chinese hamster ovary cells
+
+[Term]
+ConceptName: culture ph_COID689332
+Id: COID689332
+CanonicalName: culture ph
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: ph of culture
+
+[Term]
+ConceptName: monoclonal antibody-1_COID268135
+Id: COID268135
+CanonicalName: monoclonal antibody-1
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: monoclonal antibody 1
+AlternativeNames: monoclonal antibody1
+AlternativeNames: mab1
+AlternativeNames: mab-1
+
+[Term]
+ConceptName: monoclonal antibody-2_COID770105
+Id: COID770105
+CanonicalName: monoclonal antibody-2
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: monoclonal antibody 2
+AlternativeNames: monoclonal antibody2
+AlternativeNames: mab2
+AlternativeNames: mab-2
+
+[Term]
+ConceptName: oxygen partial pressure_COID790678
+Id: COID790678
+CanonicalName: oxygen partial pressure
+Type: process condition
+TypeId: C19
+AlternativeNames: partial pressure of oxygen
+AlternativeNames: po2
+AlternativeNames: po 2
+AlternativeNames: partial pressure oxygen
+AlternativeNames: partial pressure of o2
+
+[Term]
+ConceptName: critical quality attributes_COID162607
+Id: COID162607
+CanonicalName: critical quality attributes
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: CQA
+AlternativeNames: cqas
+AlternativeNames: critical quality attribute
+
+[Term]
+ConceptName: serene_COID865161
+Id: COID865161
+CanonicalName: serene
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: ser
+AlternativeNames: serenes
+
+[Term]
+ConceptName: sialidases_COID070440
+Id: COID070440
+CanonicalName: sialidases
+Type: enzyme
+TypeId: C10
+AlternativeNames: sialidase
+
+[Term]
+ConceptName: glucosidase_COID809485
+Id: COID809485
+CanonicalName: glucosidase
+Type: enzyme
+TypeId: C10
+AlternativeNames: glucosidases
+
+[Term]
+ConceptName: glucosidase inhibitor_COID600034
+Id: COID600034
+CanonicalName: glucosidase inhibitor
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: glucosidase inhibitors
+
+[Term]
+ConceptName: glycosylation gene_COID471026
+Id: COID471026
+CanonicalName: glycosylation gene
+Type: genotype
+TypeId: C42
+AlternativeNames: glycosylation genes
+
+[Term]
+ConceptName: immunogenic response_COID740397
+Id: COID740397
+CanonicalName: immunogenic response
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: immunogenic responses
+
+[Term]
+ConceptName: cell clone_COID964819
+Id: COID964819
+CanonicalName: cell clone
+Type: cell line
+TypeId: C56
+AlternativeNames: cell clones
+AlternativeNames: particular cell clones
+AlternativeNames: particular cell clone
+
+[Term]
+ConceptName: metabolic state_COID500182
+Id: COID500182
+CanonicalName: metabolic state
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: cellular metabolic state
+AlternativeNames: cellular metabolic states
+AlternativeNames: metabolic states
+
+[Term]
+ConceptName: mannose feed_COID729034
+Id: COID729034
+CanonicalName: mannose feed
+Type: NYK
+TypeId: C70
+AlternativeNames: 
+
+[Term]
+ConceptName: cultivation process_COID699462
+Id: COID699462
+CanonicalName: cultivation process
+Type: media characteristics
+TypeId: C43
+AlternativeNames: cultivation processes
+AlternativeNames: cultivation mode
+AlternativeNames: cultivation modes
+AlternativeNames: cultivation condition
+AlternativeNames: cultivation conditions
+
+[Term]
+ConceptName: copper chloride_COID901856
+Id: COID901856
+CanonicalName: copper chloride
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: cucl2
+AlternativeNames: cucl
+AlternativeNames: copper(ii) chloride
+AlternativeNames: copper chlorides
+
+[Term]
+ConceptName: mycophenolic acid_COID265438
+Id: COID265438
+CanonicalName: mycophenolic acid
+Type: NYK
+TypeId: C70
+AlternativeNames: MPA
+AlternativeNames: mycophenolic acids
+
+[Term]
+ConceptName: dimethyl sulfoxide_COID418525
+Id: COID418525
+CanonicalName: dimethyl sulfoxide
+Type: NYK
+TypeId: C70
+AlternativeNames: DMSO
+AlternativeNames: dimethyl sulfoxides
+
+[Term]
+ConceptName: integral of the viable cells_COID204694
+Id: COID204694
+CanonicalName: integral of the viable cells
+Type: NYK
+TypeId: C70
+AlternativeNames: integral of the viable cell
+AlternativeNames: IVC
+
+[Term]
+ConceptName: sirna_COID416464
+Id: COID416464
+CanonicalName: sirna
+Type: NYK
+TypeId: C70
+AlternativeNames: sirna treated cultures
+AlternativeNames: sirna treated culture
+AlternativeNames: sirna treated bioreactors
+AlternativeNames: sirna treated bioreactor
+
+[Term]
+ConceptName: mannostatin_COID631700
+Id: COID631700
+CanonicalName: mannostatin
+Type: NYK
+TypeId: C70
+AlternativeNames: mannostatin a
+
+[Term]
+ConceptName: gdp-mannose 4,6-dehydratase_COID390450
+Id: COID390450
+CanonicalName: gdp-mannose 4,6-dehydratase
+Type: enzyme
+TypeId: C10
+AlternativeNames: GMDS
+AlternativeNames: gdp mannose 4,6 dehydratase
+AlternativeNames: gdp-mannose 4,6 dehydratase
+AlternativeNames: gdp-mannose 4,6-dehydratases
+
+[Term]
+ConceptName: peracetylation_COID113739
+Id: COID113739
+CanonicalName: peracetylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: monosaccharide_COID882808
+Id: COID882808
+CanonicalName: monosaccharide
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: monosaccharides
+
+[Term]
+ConceptName: tagatose_COID779095
+Id: COID779095
+CanonicalName: tagatose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: 2-deoxy-2,3-didehydro-n-acetylneuraminic acid_COID084256
+Id: COID084256
+CanonicalName: 2-deoxy-2,3-didehydro-n-acetylneuraminic acid
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: DANA
+AlternativeNames: 2-deoxy-2,3-didehydro-n-acetylneuraminic acids
+
+[Term]
+ConceptName: glycosylated igg_COID286158
+Id: COID286158
+CanonicalName: glycosylated igg
+Type: product quality profile
+TypeId: C50
+AlternativeNames: igg glycosylation
+AlternativeNames: igg-glycosylation
+
+[Term]
+ConceptName: monensin_COID766386
+Id: COID766386
+CanonicalName: monensin
+Type: NYK
+TypeId: C70
+AlternativeNames: 
+
+[Term]
+ConceptName: beta-galactoside alpha-2,6-sialyltransferase 1_COID749247
+Id: COID749247
+CanonicalName: beta-galactoside alpha-2,6-sialyltransferase 1
+Type: enzyme
+TypeId: C10
+AlternativeNames: ST6GAL1
+AlternativeNames: st6gal1
+AlternativeNames: ST6GAL1_OE_31
+
+[Term]
+ConceptName: chimeric anti-gd2 antibody_COID593142
+Id: COID593142
+CanonicalName: chimeric anti-gd2 antibody
+Type: antibody
+TypeId: C63
+AlternativeNames: 
+
+[Term]
+ConceptName: glycerolipid metabolism_COID675248
+Id: COID675248
+CanonicalName: glycerolipid metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: aminoglycan metabolism_COID274429
+Id: COID274429
+CanonicalName: aminoglycan metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: sphingolipid metabolism_COID520329
+Id: COID520329
+CanonicalName: sphingolipid metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: pentose phosphate pathway_COID233901
+Id: COID233901
+CanonicalName: pentose phosphate pathway
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: pentose phosphate pathways
+AlternativeNames: pentose phosphate pathway (ppp)
+AlternativeNames: PPP
+
+[Term]
+ConceptName: amino acid_COID693703
+Id: COID693703
+CanonicalName: amino acid
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: amino acids
+
+[Term]
+ConceptName: cellular metabolism_COID903943
+Id: COID903943
+CanonicalName: cellular metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: procho5 medium_COID781761
+Id: COID781761
+CanonicalName: procho5 medium
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: powercho2_COID568973
+Id: COID568973
+CanonicalName: powercho2
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: power-cho 2
+AlternativeNames: power cho 2
+AlternativeNames: power cho
+AlternativeNames: powercho
+
+[Term]
+ConceptName: glycolysis_COID345655
+Id: COID345655
+CanonicalName: glycolysis
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: 
+
+[Term]
+ConceptName: fc galactosylation_COID097777
+Id: COID097777
+CanonicalName: fc galactosylation
+Type: product quality profile
+TypeId: C50
+AlternativeNames: fc-galactosylation
+AlternativeNames: galactosylated fc
+
+[Term]
+ConceptName: osmolarity_COID052118
+Id: COID052118
+CanonicalName: osmolarity
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: monoclonal antibody-3_COID545724
+Id: COID545724
+CanonicalName: monoclonal antibody-3
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: mab3
+AlternativeNames: mab-3
+AlternativeNames: monoclonal antibody 3
+AlternativeNames: monoclonal antibody3
+
+[Term]
+ConceptName: monoclonal antibody-4_COID488138
+Id: COID488138
+CanonicalName: monoclonal antibody-4
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: mab4
+AlternativeNames: mab-4
+AlternativeNames: monoclonal antibody 4
+AlternativeNames: monoclonal antibody4
+
+[Term]
+ConceptName: butyric acid_COID365093
+Id: COID365093
+CanonicalName: butyric acid
+Type: acid (subset of secondary raw materials)
+TypeId: C37
+AlternativeNames: butyric acids
+AlternativeNames: BA
+
+[Term]
+ConceptName: gene_COID185502
+Id: COID185502
+CanonicalName: gene
+Type: genotype
+TypeId: C42
+AlternativeNames: genes
+
+[Term]
+ConceptName: secreted igg4 antibody_COID339494
+Id: COID339494
+CanonicalName: secreted igg4 antibody
+Type: antibody
+TypeId: C63
+AlternativeNames: secreted igg4 antibodies
+
+[Term]
+ConceptName: dot fluctuation_COID332196
+Id: COID332196
+CanonicalName: dot fluctuation
+Type: NYK
+TypeId: C70
+AlternativeNames: dot fluctuations
+
+[Term]
+ConceptName: ph and dissolved oxygen heterogeneities_COID571696
+Id: COID571696
+CanonicalName: ph and dissolved oxygen heterogeneities
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: ph and dissolved oxygen heterogeneity
+AlternativeNames: ph and do heterogeneity
+
+[Term]
+ConceptName: DOT_COID003597
+Id: COID003597
+CanonicalName: DOT
+Type: NYK
+TypeId: C70
+AlternativeNames: 
+
+[Term]
+ConceptName: dot-fluctuated vessels_COID853468
+Id: COID853468
+CanonicalName: dot-fluctuated vessels
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: dot fluctuated vessels
+AlternativeNames: dot fluctuated vessel
+AlternativeNames: dot-fluctuated vessel
+
+
+[Term]
+ConceptName: metabolic byproducts_COID531384
+Id: COID531384
+CanonicalName: metabolic byproducts
+Type: by-product or waste
+TypeId: C9
+AlternativeNames: metabolic by-products
+AlternativeNames: metabolic by-product
+AlternativeNames: metabolic byproduct
+
+[Term]
+ConceptName: cgntiii_COID316428
+Id: COID316428
+CanonicalName: cgntiii
+Type: genotype
+TypeId: C42
+AlternativeNames: gnt iii
+AlternativeNames: gntiii
+AlternativeNames: CGNT III
+AlternativeNames: cgntiii gene
+AlternativeNames: cgntiii genes
+AlternativeNames: cgntiii expression
+
+[Term]
+ConceptName: vessels_COID322748
+Id: COID322748
+CanonicalName: vessels
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: vessel
+AlternativeNames: fluctuated vessel
+AlternativeNames: fluctuated vessels
+AlternativeNames: do-fluctuated vessels
+AlternativeNames: do fluctuated vessels
+AlternativeNames: do-fluctuated vessel
+AlternativeNames: do fluctuated vessel
+AlternativeNames: ph-fluctuated vessels
+AlternativeNames: ph fluctuated vessels
+AlternativeNames: ph-fluctuated vessel
+AlternativeNames: ph fluctuated vessel
+
+[Term]
+ConceptName: deoxynojirimycin_COID003598
+Id: COID003598
+CanonicalName: deoxynojirimycin
+Type: enzyme inhibitor
+TypeId: C60
+AlternativeNames: glucosidase inhibitor deoxynojirimycin
+[Term]
+ConceptName: st3 beta-galactoside alpha-2,3-sialyltransferase 6_COID373234
+Id: COID373234
+CanonicalName: st3 beta-galactoside alpha-2,3-sialyltransferase 6
+Type: enzyme
+TypeId: C10
+AlternativeNames: st3gal6
+AlternativeNames: ST3GAL6
+
+[Term]
+ConceptName: glycan heterogeneity_COID262061
+Id: COID262061
+CanonicalName: glycan heterogeneity
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: glycan heterogeneities
+AlternativeNames: heterogeneity of glycans
+AlternativeNames: n-glycan heterogeneity
+AlternativeNames: heterogeneity of n-glycans
+
+[Term]
+ConceptName: pyroglutamate_COID083886
+Id: COID083886
+CanonicalName: pyroglutamate
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: pyroglutamic acid
+AlternativeNames: 5-oxoproline
+AlternativeNames: pglu
+AlternativeNames: n-terminal pyroglutamate
+AlternativeNames: n-terminal pyroglutamic acid
+
+[Term]
+ConceptName: immunoglobulin_COID713543
+Id: COID713543
+CanonicalName: immunoglobulin
+Type: antibody
+TypeId: C63
+AlternativeNames: immunoglobulin g
+AlternativeNames: igg
+AlternativeNames: igg1
+AlternativeNames: immunoglobulins
+
+[Term]
+ConceptName: igg titers_COID814559
+Id: COID814559
+CanonicalName: igg titers
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: immunoglobulin titers
+AlternativeNames: igg titer
+AlternativeNames: immunoglobulin titer
+
+[Term]
+ConceptName: cellular metabolic state_COID934077
+Id: COID934077
+CanonicalName: cellular metabolic state
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: cellular metabolic states
+AlternativeNames: cell metabolic state
+AlternativeNames: cell metabolic states
+AlternativeNames: metabolic state
+AlternativeNames: metabolic states
+AlternativeNames: cells' metabolic state
+AlternativeNames: cells' metabolic states

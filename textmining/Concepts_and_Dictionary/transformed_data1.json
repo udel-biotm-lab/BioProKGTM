@@ -1,0 +1,4994 @@
+{
+    "(fut8) gene knockout cho-s": [
+        "chinese hamster ovary (CHO)",
+        "COID438040"
+    ],
+    "fut8 gene knockout cho-s": [
+        "chinese hamster ovary (CHO)",
+        "COID438040"
+    ],
+    "1-ag4-1": [
+        "hybridoma",
+        "COID898401"
+    ],
+    "2-f-peracetyl fucose": [
+        "sugar (subset of carbon source)",
+        "COID847827"
+    ],
+    "FA2G1": [
+        "sugar (subset of carbon source)",
+        "COID847899"
+    ],
+    "FUC8": [
+        "sugar (subset of carbon source)",
+        "COID847828"
+    ],
+    "G0F": [
+        "sugar (subset of carbon source)",
+        "COID847830"
+    ],
+    "g0f glycan": [
+        "sugar (subset of carbon source)",
+        "COID847830"
+    ],
+    "glycan g0f": [
+        "sugar (subset of carbon source)",
+        "COID847830"
+    ],
+    "g0f glycans": [
+        "sugar (subset of carbon source)",
+        "COID847830"
+    ],
+    "glycans g0f": [
+        "sugar (subset of carbon source)",
+        "COID847830"
+    ],
+    "G1F": [
+        "sugar (subset of carbon source)",
+        "COID847930"
+    ],
+    "g1f glycan": [
+        "sugar (subset of carbon source)",
+        "COID847930"
+    ],
+    "g1f glycans": [
+        "sugar (subset of carbon source)",
+        "COID847930"
+    ],
+    "glycans g1f": [
+        "sugar (subset of carbon source)",
+        "COID847930"
+    ],
+    "glycan g1f": [
+        "sugar (subset of carbon source)",
+        "COID847930"
+    ],
+    "g1fs1 glycans": [
+        "sugar (subset of carbon source)",
+        "COID847930"
+    ],
+    "G2F": [
+        "sugar (subset of carbon source)",
+        "COID847130"
+    ],
+    "g2f glycan": [
+        "sugar (subset of carbon source)",
+        "COID847130"
+    ],
+    "g2f glycans": [
+        "sugar (subset of carbon source)",
+        "COID847130"
+    ],
+    "glycan g2f": [
+        "sugar (subset of carbon source)",
+        "COID847130"
+    ],
+    "glycans g2f": [
+        "sugar (subset of carbon source)",
+        "COID847130"
+    ],
+    "di-galactosylated glycan g2f": [
+        "sugar (subset of carbon source)",
+        "COID847130"
+    ],
+    "2-l glass bioreactor": [
+        "vessel or process parameter or production scale",
+        "COID536478"
+    ],
+    "2-l glass bioreactors": [
+        "vessel or process parameter or production scale",
+        "COID536478"
+    ],
+    "2-propylpentanoic acid": [
+        "secondary raw materials",
+        "COID178679"
+    ],
+    "24-dwp culture conditions": [
+        "cell culture parameters",
+        "COID534425"
+    ],
+    "24-dwp culture condition": [
+        "cell culture parameters",
+        "COID534425"
+    ],
+    "5-alkynylfucose": [
+        "sugar (subset of carbon source)",
+        "COID256307"
+    ],
+    "5-alkfuc": [
+        "sugar (subset of carbon source)",
+        "COID256307"
+    ],
+    "F0": [
+        "hybridoma",
+        "COID634480"
+    ],
+    "J558L": [
+        "hybridoma",
+        "COID644480"
+    ],
+    "SP2/0": [
+        "hybridoma",
+        "COID644479"
+    ],
+    "U266": [
+        "hybridoma",
+        "COID644450"
+    ],
+    "U-266": [
+        "hybridoma",
+        "COID644450"
+    ],
+    "NS1": [
+        "hybridoma",
+        "COID644380"
+    ],
+    "NS-1": [
+        "hybridoma",
+        "COID644380"
+    ],
+    "p3x63ag8": [
+        "hybridoma",
+        "COID624480"
+    ],
+    "accumulation of waste products": [
+        "culture condition",
+        "COID802986"
+    ],
+    "accumulation of waste product": [
+        "culture condition",
+        "COID802986"
+    ],
+    "waste product accumulation": [
+        "culture condition",
+        "COID802986"
+    ],
+    "acetate": [
+        "carbon source (subset of secondary raw materials)",
+        "COID725612"
+    ],
+    "acetylation": [
+        "PTM",
+        "COID878689"
+    ],
+    "acetylglucosaminyltransferase": [
+        "enzyme",
+        "COID400948"
+    ],
+    "cyclin dependent kinases": [
+        "enzyme",
+        "COID401949"
+    ],
+    "CDK": [
+        "enzyme",
+        "COID401949"
+    ],
+    "GMD": [
+        "enzyme",
+        "COID401999"
+    ],
+    "histone deacetylase": [
+        "enzyme",
+        "COID400949"
+    ],
+    "HDAC": [
+        "enzyme",
+        "COID400949"
+    ],
+    "dihydrofolate reductase": [
+        "enzyme",
+        "COID400950"
+    ],
+    "DHFR": [
+        "enzyme",
+        "COID400950"
+    ],
+    "acidic charge variants": [
+        "product quality attributes",
+        "COID086024"
+    ],
+    "acidic charge variant": [
+        "product quality attributes",
+        "COID086024"
+    ],
+    "FA2": [
+        "product quality attributes",
+        "COID087024"
+    ],
+    "A2": [
+        "product quality attributes",
+        "COID087025"
+    ],
+    "M51": [
+        "product quality attributes",
+        "COID088024"
+    ],
+    "acidic isoforms": [
+        "acid (subset of secondary raw materials)",
+        "COID780920"
+    ],
+    "acidic isoform": [
+        "acid (subset of secondary raw materials)",
+        "COID780920"
+    ],
+    "tricarboxylic acid": [
+        "acid (subset of secondary raw materials)",
+        "COID780120"
+    ],
+    "TCA": [
+        "acid (subset of secondary raw materials)",
+        "COID780120"
+    ],
+    "tricarboxylic citric acid (tca)": [
+        "acid (subset of secondary raw materials)",
+        "COID780120"
+    ],
+    "tricarboxylic citric acid": [
+        "acid (subset of secondary raw materials)",
+        "COID780120"
+    ],
+    "acidic variant": [
+        "acid (subset of secondary raw materials)",
+        "COID106814"
+    ],
+    "acidic variants": [
+        "acid (subset of secondary raw materials)",
+        "COID106814"
+    ],
+    "adapted cell line": [
+        "cell line",
+        "COID969985"
+    ],
+    "adapted cell lines": [
+        "cell line",
+        "COID969985"
+    ],
+    "YB2/0": [
+        "cell line",
+        "COID969855"
+    ],
+    "adcc effector function": [
+        "process parameters or process control",
+        "COID107267"
+    ],
+    "antibody-dependent cellular cytotoxicity effector function": [
+        "process parameters or process control",
+        "COID107267"
+    ],
+    "antibody-dependent cell-mediated cytotoxicity effector function": [
+        "process parameters or process control",
+        "COID107267"
+    ],
+    "adcc effector functions": [
+        "process parameters or process control",
+        "COID107267"
+    ],
+    "adcc function": [
+        "process parameters or process control",
+        "COID107267"
+    ],
+    "adcc functions": [
+        "process parameters or process control",
+        "COID107267"
+    ],
+    "aeration": [
+        "bioreactor conditions",
+        "COID371755"
+    ],
+    "afucosylated n-glycans": [
+        "sugar (subset of carbon source)",
+        "COID239021"
+    ],
+    "afucosylated n-glycan": [
+        "sugar (subset of carbon source)",
+        "COID239021"
+    ],
+    "afucosylated glycans": [
+        "sugar (subset of carbon source)",
+        "COID239021"
+    ],
+    "afucosylation": [
+        "glycosylation",
+        "COID653555"
+    ],
+    "core fucosylation": [
+        "glycosylation",
+        "COID663555"
+    ],
+    "aggregates": [
+        "product quality attributes",
+        "COID879651"
+    ],
+    "aggregated": [
+        "product quality attributes",
+        "COID879651"
+    ],
+    "large aggregated": [
+        "product quality attributes",
+        "COID879651"
+    ],
+    "aggregation": [
+        "process condition",
+        "COID720685"
+    ],
+    "cd platform": [
+        "process condition",
+        "COID720695"
+    ],
+    "agitation and mixing": [
+        "bioreactor conditions",
+        "COID890976"
+    ],
+    "aglycosylated": [
+        "recombinant protein",
+        "COID678822"
+    ],
+    "aglycosylation": [
+        "product quality attributes",
+        "COID076549"
+    ],
+    "alanine": [
+        "amino acid (subset of substrates)",
+        "COID060748"
+    ],
+    "alanine metabolism": [
+        "biological process",
+        "COID957120"
+    ],
+    "alkynylated forms": [
+        "substitution material",
+        "COID422332"
+    ],
+    "alkynylated form": [
+        "substitution material",
+        "COID422332"
+    ],
+    "ambr15 cell culture system": [
+        "vessel or process parameter or production scale",
+        "COID929817"
+    ],
+    "ambr15 cell culture systems": [
+        "vessel or process parameter or production scale",
+        "COID929817"
+    ],
+    "amino acid substitutions": [
+        "genotype",
+        "COID828360"
+    ],
+    "amino acid substitution": [
+        "genotype",
+        "COID828360"
+    ],
+    "aminomethane": [
+        "base (subset of secondary raw materials)",
+        "COID280686"
+    ],
+    "ammonia": [
+        "by-product or waste",
+        "COID714278"
+    ],
+    "ammonium": [
+        "culture condition",
+        "COID714150"
+    ],
+    "NH4+": [
+        "culture condition",
+        "COID714150"
+    ],
+    "ammonium chloride": [
+        "nitrogen sources (subset of secondary raw materials)",
+        "COID969984"
+    ],
+    "ammonium phosphate": [
+        "nitrogen sources (subset of secondary raw materials)",
+        "COID654997"
+    ],
+    "ammonium nitrate": [
+        "nitrogen sources (subset of secondary raw materials)",
+        "COID975318"
+    ],
+    "urea": [
+        "nitrogen sources (subset of secondary raw materials)",
+        "COID337032"
+    ],
+    "ammonium hydroxide": [
+        "nitrogen sources (subset of secondary raw materials)",
+        "COID298811"
+    ],
+    "ammonium sulfate": [
+        "nitrogen sources (subset of secondary raw materials)",
+        "COID836400"
+    ],
+    "antenna": [
+        "sugar (subset of carbon source)",
+        "COID708105"
+    ],
+    "antennarity": [
+        "sugar (subset of carbon source)",
+        "COID676312"
+    ],
+    "anti-inflammatory activity": [
+        "product attributes",
+        "COID628775"
+    ],
+    "anti-inflammatory activities": [
+        "product attributes",
+        "COID628775"
+    ],
+    "anti-inflammatory efficacy": [
+        "clinical outcomes",
+        "COID334262"
+    ],
+    "anti inflammatory efficacy": [
+        "clinical outcomes",
+        "COID334262"
+    ],
+    "anti-inflammatory properties": [
+        "product attributes",
+        "COID592241"
+    ],
+    "anti-inflammatory property": [
+        "product attributes",
+        "COID592241"
+    ],
+    "anti-oxidant activity": [
+        "clinical outcomes",
+        "COID997424"
+    ],
+    "anti oxidant activity": [
+        "clinical outcomes",
+        "COID997424"
+    ],
+    "anti-tumor activity": [
+        "clinical outcomes",
+        "COID117042"
+    ],
+    "anti tumor activity": [
+        "clinical outcomes",
+        "COID117042"
+    ],
+    "anti tumor activities": [
+        "clinical outcomes",
+        "COID117042"
+    ],
+    "anti-tumor activities": [
+        "clinical outcomes",
+        "COID117042"
+    ],
+    "antibody charge variants": [
+        "product quality profile",
+        "COID361180"
+    ],
+    "antibody charge variant": [
+        "product quality profile",
+        "COID361180"
+    ],
+    "antibody conjugate": [
+        "recombinant protein",
+        "COID646320"
+    ],
+    "antibody galactosylation": [
+        "glycosylation",
+        "COID740922"
+    ],
+    "antibody glycoforms": [
+        "recombinant protein",
+        "COID173858"
+    ],
+    "antibody titers": [
+        "overall titer or batch yield",
+        "COID307661"
+    ],
+    "antibody titer": [
+        "overall titer or batch yield",
+        "COID307661"
+    ],
+    "antibody-dependent cell-mediated cytotoxicity": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody-dependent cellular cytotoxicity": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody-dependent cellular cytotoxicities": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "ADCC": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody-dependent cell-mediated cytotoxicity (adcc)": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody dependent cellular cytotoxicity": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody dependent cellular cytotoxicities": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody dependent cell-mediated cytotoxicity": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody dependent cell-mediated cytotoxicities": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody dependent cell mediated cytotoxicity": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody dependent cell mediated cytotoxicities": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody-dependent cell mediated cytotoxicity": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "antibody-dependent cell mediated cytotoxicities": [
+        "clinical outcomes",
+        "COID386333"
+    ],
+    "apoptosis": [
+        "cellular metabolic state",
+        "COID850789"
+    ],
+    "asparagine": [
+        "amino acid (subset of substrates)",
+        "COID698257"
+    ],
+    "asparagine-linked glycosylation": [
+        "glycosylation",
+        "COID652506"
+    ],
+    "balanced salt solutions": [
+        "media",
+        "COID770081"
+    ],
+    "BSS": [
+        "media",
+        "COID770081"
+    ],
+    "CD-CHO": [
+        "media",
+        "COID780081"
+    ],
+    "DMEM": [
+        "media",
+        "COID880081"
+    ],
+    "batch": [
+        "process mode",
+        "COID285438"
+    ],
+    "biantennary disialylated glycans": [
+        "sugar (subset of carbon source)",
+        "COID144537"
+    ],
+    "biantennary disialylated glycan": [
+        "sugar (subset of carbon source)",
+        "COID144537"
+    ],
+    "bioactivity": [
+        "product quality attributes",
+        "COID046028"
+    ],
+    "bioactivity and potency": [
+        "product attributes",
+        "COID795973"
+    ],
+    "biological activity": [
+        "clinical outcomes",
+        "COID518861"
+    ],
+    "biological activities": [
+        "clinical outcomes",
+        "COID518861"
+    ],
+    "biopotency": [
+        "product attributes",
+        "COID405601"
+    ],
+    "bioreactor operation conditions": [
+        "bioreactor conditions",
+        "COID538546"
+    ],
+    "bioreactor operation condition": [
+        "bioreactor conditions",
+        "COID538546"
+    ],
+    "bioreactor scale": [
+        "vessel or process parameter or production scale",
+        "COID368907"
+    ],
+    "bispecific antibodies": [
+        "bispecific antibody",
+        "COID544547"
+    ],
+    "bispecific antibody": [
+        "bispecific antibody",
+        "COID544547"
+    ],
+    "biosynthesis": [
+        "biochemical compound",
+        "COID479844"
+    ],
+    "bolus": [
+        "process parameters or process control",
+        "COID693522"
+    ],
+    "bolus concentrated feed additions with sequential medium replacement": [
+        "process parameters or process control",
+        "COID146294"
+    ],
+    "bolus concentrated feed additions with sequential medium replacements": [
+        "process parameters or process control",
+        "COID146294"
+    ],
+    "butyrate": [
+        "secondary raw materials",
+        "COID702790"
+    ],
+    "c-terminal lysine": [
+        "amino acid (subset of substrates)",
+        "COID549534"
+    ],
+    "caesium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID354152"
+    ],
+    "calcium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID504169"
+    ],
+    "carbohydrate constituents": [
+        "sugar (subset of carbon source)",
+        "COID605040"
+    ],
+    "carbohydrate constituent": [
+        "sugar (subset of carbon source)",
+        "COID605040"
+    ],
+    "carbohydrate modification": [
+        "PTM",
+        "COID721251"
+    ],
+    "carbohydrate modifications": [
+        "PTM",
+        "COID721251"
+    ],
+    "carbon dioxide": [
+        "gases (subset of secondary raw materials)",
+        "COID132568"
+    ],
+    "co2": [
+        "gases (subset of secondary raw materials)",
+        "COID132568"
+    ],
+    "CO2": [
+        "gases (subset of secondary raw materials)",
+        "COID132568"
+    ],
+    "carbon dioxide partial pressure": [
+        "process condition",
+        "COID255565"
+    ],
+    "partial pressure of carbon dioxide": [
+        "process condition",
+        "COID255565"
+    ],
+    "pco2": [
+        "process condition",
+        "COID255565"
+    ],
+    "pco 2": [
+        "process condition",
+        "COID255565"
+    ],
+    "partial pressure carbon dioxide": [
+        "process condition",
+        "COID255565"
+    ],
+    "partial pressure of co2": [
+        "process condition",
+        "COID255565"
+    ],
+    "partial pressure of co 2": [
+        "process condition",
+        "COID255565"
+    ],
+    "carboxylation": [
+        "PTM",
+        "COID487379"
+    ],
+    "carbon sources": [
+        "carbon source (subset of secondary raw materials)",
+        "COID571637"
+    ],
+    "carbon source": [
+        "carbon source (subset of secondary raw materials)",
+        "COID571637"
+    ],
+    "cell concentration": [
+        "process parameters or process control",
+        "COID623648"
+    ],
+    "cell concentrations": [
+        "process parameters or process control",
+        "COID623648"
+    ],
+    "cell culture media additives": [
+        "secondary raw materials",
+        "COID247877"
+    ],
+    "cell culture media additive": [
+        "secondary raw materials",
+        "COID247877"
+    ],
+    "cell culture performance": [
+        "product quality attributes",
+        "COID284912"
+    ],
+    "cell cycle": [
+        "biological process",
+        "COID780295"
+    ],
+    "cell cycles": [
+        "biological process",
+        "COID780295"
+    ],
+    "cell cycle checkpoint": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID456465"
+    ],
+    "cell cycle checkpoints": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID456465"
+    ],
+    "cell cycle g1-checkpoint": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID762989"
+    ],
+    "cell cycle g1-checkpoints": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID762989"
+    ],
+    "cell density": [
+        "cell culture parameters",
+        "COID283414"
+    ],
+    "cell densities": [
+        "cell culture parameters",
+        "COID283414"
+    ],
+    "high cell densities": [
+        "cell culture parameters",
+        "COID283414"
+    ],
+    "high cell density": [
+        "cell culture parameters",
+        "COID283414"
+    ],
+    "HCD": [
+        "cell culture parameters",
+        "COID283414"
+    ],
+    "cell effector function": [
+        "clinical outcomes",
+        "COID337167"
+    ],
+    "cell effector functions": [
+        "clinical outcomes",
+        "COID337167"
+    ],
+    "cell growth": [
+        "cell culture parameters",
+        "COID093598"
+    ],
+    "cell line": [
+        "cell line",
+        "COID702829"
+    ],
+    "cell lines": [
+        "cell line",
+        "COID702829"
+    ],
+    "host cell lines": [
+        "cell line",
+        "COID702829"
+    ],
+    "host cell line": [
+        "cell line",
+        "COID702829"
+    ],
+    "cell line characteristics": [
+        "cell line characteristics",
+        "COID431893"
+    ],
+    "cell line characteristic": [
+        "cell line characteristics",
+        "COID431893"
+    ],
+    "cell morphology": [
+        "cell culture parameters",
+        "COID468996"
+    ],
+    "cell morphologies": [
+        "cell culture parameters",
+        "COID468996"
+    ],
+    "morphology of cells": [
+        "cell culture parameters",
+        "COID468996"
+    ],
+    "morphology of cell": [
+        "cell culture parameters",
+        "COID468996"
+    ],
+    "morphology of a cell": [
+        "cell culture parameters",
+        "COID468996"
+    ],
+    "cell respiration": [
+        "metabolic pathways",
+        "COID898929"
+    ],
+    "cell respirations": [
+        "metabolic pathways",
+        "COID898929"
+    ],
+    "respiration of cells": [
+        "metabolic pathways",
+        "COID898929"
+    ],
+    "respiration of cell": [
+        "metabolic pathways",
+        "COID898929"
+    ],
+    "respiration of a cell": [
+        "metabolic pathways",
+        "COID898929"
+    ],
+    "cell viability": [
+        "cell culture parameters",
+        "COID547964"
+    ],
+    "cell viabilities": [
+        "cell culture parameters",
+        "COID547964"
+    ],
+    "viability of cell": [
+        "cell culture parameters",
+        "COID547964"
+    ],
+    "viability of a cell": [
+        "cell culture parameters",
+        "COID547964"
+    ],
+    "viability of cells": [
+        "cell culture parameters",
+        "COID547964"
+    ],
+    "cell-specific productivity": [
+        "process condition",
+        "COID637897"
+    ],
+    "cell specific productivity": [
+        "process condition",
+        "COID637897"
+    ],
+    "productivity of a cell": [
+        "process condition",
+        "COID637897"
+    ],
+    "productivity of cells": [
+        "process condition",
+        "COID637897"
+    ],
+    "cellular processes": [
+        "process parameters or process control",
+        "COID386352"
+    ],
+    "cellular process": [
+        "process parameters or process control",
+        "COID386352"
+    ],
+    "central carbon metabolism": [
+        "biological process",
+        "COID399873"
+    ],
+    "charge heterogeneity": [
+        "product quality attributes",
+        "COID995406"
+    ],
+    "charge variant profiles": [
+        "product quality profile",
+        "COID820771"
+    ],
+    "charge variant profile": [
+        "product quality profile",
+        "COID820771"
+    ],
+    "charge variants": [
+        "product quality profile",
+        "COID817650"
+    ],
+    "charge variant": [
+        "product quality profile",
+        "COID817650"
+    ],
+    "charge variation": [
+        "process parameters or process control",
+        "COID858115"
+    ],
+    "charge variations": [
+        "process parameters or process control",
+        "COID858115"
+    ],
+    "chimeric": [
+        "recombinant protein",
+        "COID551578"
+    ],
+    "cho sublime media": [
+        "media",
+        "COID217450"
+    ],
+    "cho-dg44": [
+        "chinese hamster ovary (CHO)",
+        "COID939621"
+    ],
+    "cho dg44": [
+        "chinese hamster ovary (CHO)",
+        "COID939621"
+    ],
+    "cho dg44 cell line": [
+        "chinese hamster ovary (CHO)",
+        "COID939621"
+    ],
+    "CHO-DG44": [
+        "chinese hamster ovary (CHO)",
+        "COID939621"
+    ],
+    "CHO DG44": [
+        "chinese hamster ovary (CHO)",
+        "COID939621"
+    ],
+    "cho-gmt4 cells": [
+        "chinese hamster ovary (CHO)",
+        "COID585656"
+    ],
+    "cho-gmt4 cell line": [
+        "chinese hamster ovary (CHO)",
+        "COID585656"
+    ],
+    "cho gmt4 cell line": [
+        "chinese hamster ovary (CHO)",
+        "COID585656"
+    ],
+    "cho-gmt4": [
+        "chinese hamster ovary (CHO)",
+        "COID585656"
+    ],
+    "cho gmt4": [
+        "chinese hamster ovary (CHO)",
+        "COID585656"
+    ],
+    "cho-gs": [
+        "chinese hamster ovary (CHO)",
+        "COID991056"
+    ],
+    "cho gs": [
+        "chinese hamster ovary (CHO)",
+        "COID991056"
+    ],
+    "chinese-hamster ovary k1": [
+        "chinese hamster ovary (CHO)",
+        "COID324081"
+    ],
+    "cho-k1": [
+        "chinese hamster ovary (CHO)",
+        "COID324081"
+    ],
+    "CHO-K1": [
+        "chinese hamster ovary (CHO)",
+        "COID324081"
+    ],
+    "cho k1": [
+        "chinese hamster ovary (CHO)",
+        "COID324081"
+    ],
+    "cho-k1 cell line": [
+        "chinese hamster ovary (CHO)",
+        "COID324081"
+    ],
+    "cho-k1 media": [
+        "media",
+        "COID613537"
+    ],
+    "cho k1 media": [
+        "media",
+        "COID613537"
+    ],
+    "cho-lec": [
+        "chinese hamster ovary (CHO)",
+        "COID362254"
+    ],
+    "cho lec": [
+        "chinese hamster ovary (CHO)",
+        "COID362254"
+    ],
+    "cho-m": [
+        "chinese hamster ovary (CHO)",
+        "COID467503"
+    ],
+    "cho m": [
+        "chinese hamster ovary (CHO)",
+        "COID467503"
+    ],
+    "cho-s": [
+        "chinese hamster ovary (CHO)",
+        "COID669791"
+    ],
+    "cho s": [
+        "chinese hamster ovary (CHO)",
+        "COID669791"
+    ],
+    "cho-s media": [
+        "media",
+        "COID626143"
+    ],
+    "cho s media": [
+        "media",
+        "COID626143"
+    ],
+    "chromatography resin filtration": [
+        "filtration parameters",
+        "COID249381"
+    ],
+    "chromatography resin filtrations": [
+        "filtration parameters",
+        "COID249381"
+    ],
+    "chromatographic resin filtrations": [
+        "filtration parameters",
+        "COID249381"
+    ],
+    "chromatographic resin filtration": [
+        "filtration parameters",
+        "COID249381"
+    ],
+    "chromium": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID266551"
+    ],
+    "UMG": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID267551"
+    ],
+    "clearance rate": [
+        "process parameters or process control",
+        "COID187126"
+    ],
+    "clearance rates": [
+        "process parameters or process control",
+        "COID187126"
+    ],
+    "cleavage": [
+        "PTM",
+        "COID846179"
+    ],
+    "clipping": [
+        "product attributes",
+        "COID668086"
+    ],
+    "cobalt": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID584412"
+    ],
+    "combinations of additives": [
+        "secondary raw materials",
+        "COID382945"
+    ],
+    "combination of additives": [
+        "secondary raw materials",
+        "COID382945"
+    ],
+    "complement-dependent cytotoxicity": [
+        "clinical outcomes",
+        "COID455860"
+    ],
+    "complement dependent cytotoxicity": [
+        "clinical outcomes",
+        "COID455860"
+    ],
+    "complement-dependent cytotoxicities": [
+        "clinical outcomes",
+        "COID455860"
+    ],
+    "complement dependent cytotoxicities": [
+        "clinical outcomes",
+        "COID455860"
+    ],
+    "CDC": [
+        "clinical outcomes",
+        "COID455860"
+    ],
+    "continuous harvest perfusion": [
+        "process mode",
+        "COID753316"
+    ],
+    "CHP": [
+        "process mode",
+        "COID753316"
+    ],
+    "copper": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID395059"
+    ],
+    "core fucose": [
+        "sugar (subset of carbon source)",
+        "COID067033"
+    ],
+    "cross-flow filtration": [
+        "filtration parameters",
+        "COID192382"
+    ],
+    "cross-flow filtrations": [
+        "filtration parameters",
+        "COID192382"
+    ],
+    "cultivating ph": [
+        "bioreactor conditions",
+        "COID890185"
+    ],
+    "ph in cultivation": [
+        "bioreactor conditions",
+        "COID890185"
+    ],
+    "culture condition": [
+        "culture condition",
+        "COID626277"
+    ],
+    "culture conditions": [
+        "culture condition",
+        "COID626277"
+    ],
+    "cultural conditions": [
+        "culture condition",
+        "COID626277"
+    ],
+    "cultural condition": [
+        "culture condition",
+        "COID626277"
+    ],
+    "culture environments": [
+        "process parameters or process control",
+        "COID998785"
+    ],
+    "culture environment": [
+        "process parameters or process control",
+        "COID998785"
+    ],
+    "culture medium": [
+        "media characteristics",
+        "COID180560"
+    ],
+    "culture parameters": [
+        "process parameters or process control",
+        "COID160285"
+    ],
+    "culture parameter": [
+        "process parameters or process control",
+        "COID160285"
+    ],
+    "culture perturbation": [
+        "process parameters or process control",
+        "COID502157"
+    ],
+    "culture perturbations": [
+        "process parameters or process control",
+        "COID502157"
+    ],
+    "culture time": [
+        "process parameters or process control",
+        "COID763032"
+    ],
+    "culture viability": [
+        "process parameters or process control",
+        "COID640988"
+    ],
+    "culture viabilities": [
+        "process parameters or process control",
+        "COID640988"
+    ],
+    "culture yield": [
+        "process parameters or process control",
+        "COID989942"
+    ],
+    "culture yields": [
+        "process parameters or process control",
+        "COID989942"
+    ],
+    "cyclization": [
+        "PTM",
+        "COID653391"
+    ],
+    "cytidine": [
+        "nucleotide or nucleoside",
+        "COID172930"
+    ],
+    "cytidine monophosphate–sialic acid": [
+        "sugar (subset of carbon source)",
+        "COID230810"
+    ],
+    "cytidine monophosphate–sialic acids": [
+        "sugar (subset of carbon source)",
+        "COID230810"
+    ],
+    "CMP–SA": [
+        "sugar (subset of carbon source)",
+        "COID230810"
+    ],
+    "cytidine monophosphate–sialic acid synthase": [
+        "enzyme",
+        "COID653356"
+    ],
+    "CMP–SAS": [
+        "enzyme",
+        "COID653356"
+    ],
+    "cytidine monophosphate–sialic acid transporter": [
+        "cell line characteristics",
+        "COID743836"
+    ],
+    "CMP–SAT": [
+        "cell line characteristics",
+        "COID743836"
+    ],
+    "dead-end filtration": [
+        "filtration parameters",
+        "COID256832"
+    ],
+    "dead-end filtrations": [
+        "filtration parameters",
+        "COID256832"
+    ],
+    "deamidation": [
+        "PTM",
+        "COID565107"
+    ],
+    "deamidated": [
+        "PTM",
+        "COID565107"
+    ],
+    "death-resistant cell lines": [
+        "cell line",
+        "COID434844"
+    ],
+    "death-resistant cell line": [
+        "cell line",
+        "COID434844"
+    ],
+    "deep wells": [
+        "vessel or process parameter or production scale",
+        "COID423775"
+    ],
+    "degradation": [
+        "degradation",
+        "COID049441"
+    ],
+    "dehydratase": [
+        "enzyme",
+        "COID251243"
+    ],
+    "deoxymannojirimycin": [
+        "enzyme inhibitor",
+        "COID109253"
+    ],
+    "DMJ": [
+        "enzyme inhibitor",
+        "COID109253"
+    ],
+    "deoxymannojirimycin (dmj)": [
+        "enzyme inhibitor",
+        "COID109253"
+    ],
+    "depth filtration": [
+        "filtration parameters",
+        "COID366611"
+    ],
+    "depth filtrations": [
+        "filtration parameters",
+        "COID366611"
+    ],
+    "dexamethasone": [
+        "secondary raw materials",
+        "COID895485"
+    ],
+    "dextrose": [
+        "sugar (subset of carbon source)",
+        "COID691820"
+    ],
+    "dhfr amplified cell line": [
+        "cell line",
+        "COID749839"
+    ],
+    "dhfr amplified cell lines": [
+        "cell line",
+        "COID749839"
+    ],
+    "diafiltration": [
+        "filtration parameters",
+        "COID146544"
+    ],
+    "diafiltrations": [
+        "filtration parameters",
+        "COID146544"
+    ],
+    "DF": [
+        "filtration parameters",
+        "COID146544"
+    ],
+    "dichloroacetate": [
+        "secondary raw materials",
+        "COID715212"
+    ],
+    "DCA": [
+        "secondary raw materials",
+        "COID715212"
+    ],
+    "diethylamine": [
+        "base (subset of secondary raw materials)",
+        "COID803499"
+    ],
+    "dimers": [
+        "product quality attributes",
+        "COID438141"
+    ],
+    "dimer": [
+        "product quality attributes",
+        "COID438141"
+    ],
+    "disposable vessels": [
+        "vessel or process parameter or production scale",
+        "COID795419"
+    ],
+    "disposable vessel": [
+        "vessel or process parameter or production scale",
+        "COID795419"
+    ],
+    "dissolved oxygen": [
+        "bioreactor conditions",
+        "COID661988"
+    ],
+    "dissolved o2": [
+        "bioreactor conditions",
+        "COID661988"
+    ],
+    "dissolving of oxygen": [
+        "bioreactor conditions",
+        "COID661988"
+    ],
+    "DO": [
+        "bioreactor conditions",
+        "COID661988"
+    ],
+    "dissolved oxygen (do)": [
+        "bioreactor conditions",
+        "COID661988"
+    ],
+    "disulfide bond": [
+        "PTM",
+        "COID467614"
+    ],
+    "disulfide linkage glycation": [
+        "glycosylation",
+        "COID371365"
+    ],
+    "dose requirement": [
+        "clinical outcomes",
+        "COID550661"
+    ],
+    "dose requirements": [
+        "clinical outcomes",
+        "COID550661"
+    ],
+    "doubling time": [
+        "cell culture parameters",
+        "COID640482"
+    ],
+    "dow corning antifoams": [
+        "antifoams",
+        "COID466987"
+    ],
+    "dulbecco's modified eagle medium": [
+        "media",
+        "COID932445"
+    ],
+    "dynamis": [
+        "media",
+        "COID624994"
+    ],
+    "effector mechanism": [
+        "clinical outcomes",
+        "COID990948"
+    ],
+    "efficacy": [
+        "clinical outcomes",
+        "COID912630"
+    ],
+    "efficientfeed": [
+        "media",
+        "COID452825"
+    ],
+    "eight feed additives": [
+        "secondary raw materials",
+        "COID064405"
+    ],
+    "eight feed additive": [
+        "secondary raw materials",
+        "COID064405"
+    ],
+    "energy source": [
+        "cell nutrient",
+        "COID713213"
+    ],
+    "energy sources": [
+        "cell nutrient",
+        "COID713213"
+    ],
+    "environmental conditions": [
+        "bioreactor conditions",
+        "COID618432"
+    ],
+    "environmental condition": [
+        "bioreactor conditions",
+        "COID618432"
+    ],
+    "enzymatic catalysis": [
+        "catalysis",
+        "COID240637"
+    ],
+    "ester-based antifoams": [
+        "antifoams",
+        "COID634169"
+    ],
+    "ethyl acetate": [
+        "antifoams",
+        "COID331001"
+    ],
+    "ex-cell cd cho fusion": [
+        "media",
+        "COID972819"
+    ],
+    "expression level of genes": [
+        "genotype",
+        "COID011952"
+    ],
+    "expression level of gene": [
+        "genotype",
+        "COID011952"
+    ],
+    "extracellular environment": [
+        "process parameters or process control",
+        "COID244043"
+    ],
+    "extracellular environments": [
+        "process parameters or process control",
+        "COID244043"
+    ],
+    "extracellular sialidase": [
+        "enzyme",
+        "COID727665"
+    ],
+    "fatty acid esters": [
+        "antifoams",
+        "COID944590"
+    ],
+    "fatty alcohols": [
+        "antifoams",
+        "COID085309"
+    ],
+    "fatty alcohol": [
+        "antifoams",
+        "COID085309"
+    ],
+    "fc gamma receptor binding": [
+        "clinical outcomes",
+        "COID960943"
+    ],
+    "fc gamma receptor bindings": [
+        "clinical outcomes",
+        "COID960943"
+    ],
+    "fed-batch": [
+        "process mode",
+        "COID529446"
+    ],
+    "fed batch": [
+        "process mode",
+        "COID529446"
+    ],
+    "feed media": [
+        "media characteristics",
+        "COID589634"
+    ],
+    "feed volumes": [
+        "process parameters or process control",
+        "COID336983"
+    ],
+    "feed volume": [
+        "process parameters or process control",
+        "COID336983"
+    ],
+    "feeding profiles": [
+        "process parameters or process control",
+        "COID997163"
+    ],
+    "feeding profile": [
+        "process parameters or process control",
+        "COID997163"
+    ],
+    "fetal bovine serum": [
+        "serum or serum replacements",
+        "COID234436"
+    ],
+    "FBS": [
+        "serum or serum replacements",
+        "COID234436"
+    ],
+    "fluctuating culture conditions": [
+        "cell culture parameters",
+        "COID754846"
+    ],
+    "fluctuating culture condition": [
+        "cell culture parameters",
+        "COID754846"
+    ],
+    "forticho": [
+        "media",
+        "COID801569"
+    ],
+    "fragmentation": [
+        "product attributes",
+        "COID753666"
+    ],
+    "fructose": [
+        "carbon source (subset of secondary raw materials)",
+        "COID532749"
+    ],
+    "fucose": [
+        "sugar (subset of carbon source)",
+        "COID275575"
+    ],
+    "fucose analogue": [
+        "substitution material",
+        "COID400862"
+    ],
+    "fucose analogues": [
+        "substitution material",
+        "COID400862"
+    ],
+    "fucose de novo pathway": [
+        "biological process",
+        "COID327903"
+    ],
+    "fucosylation": [
+        "glycosylation",
+        "COID810570"
+    ],
+    "fucosyltransferase": [
+        "enzyme",
+        "COID212341"
+    ],
+    "fucosyltransferases": [
+        "enzyme",
+        "COID212341"
+    ],
+    "FUT8": [
+        "enzyme",
+        "COID212341"
+    ],
+    "fut8": [
+        "enzyme",
+        "COID212341"
+    ],
+    "fucosyltransferase 8": [
+        "enzyme",
+        "COID212341"
+    ],
+    "function": [
+        "process condition",
+        "COID532355"
+    ],
+    "functions": [
+        "process condition",
+        "COID532355"
+    ],
+    "fusion protein": [
+        "recombinant protein",
+        "COID506208"
+    ],
+    "g0 and g1 level n-glycans": [
+        "sugar (subset of carbon source)",
+        "COID970118"
+    ],
+    " g0 and g1 level n-glycan": [
+        "sugar (subset of carbon source)",
+        "COID970118"
+    ],
+    "g0/g1 arrest": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID007895"
+    ],
+    "g0/g1 arrests": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID007895"
+    ],
+    "g2/m phase": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID055784"
+    ],
+    "g2/m phases": [
+        "cell cycle pathway G0/G1/M/G2",
+        "COID055784"
+    ],
+    "galactose": [
+        "sugar (subset of carbon source)",
+        "COID770311"
+    ],
+    "galactosylated glycan": [
+        "sugar (subset of carbon source)",
+        "COID107534"
+    ],
+    "galactosylated glycans": [
+        "sugar (subset of carbon source)",
+        "COID107534"
+    ],
+    "galactosylated glycan profile": [
+        "product quality attributes",
+        "COID142990"
+    ],
+    "galactosylated igg": [
+        "product quality profile",
+        "COID983193"
+    ],
+    "igg galactosylation": [
+        "product quality profile",
+        "COID983193"
+    ],
+    "galactosylation": [
+        "glycosylation",
+        "COID475750"
+    ],
+    "early protein galactosylation": [
+        "glycosylation",
+        "COID475750"
+    ],
+    "galactosylation index": [
+        "product attributes",
+        "COID293764"
+    ],
+    "GI": [
+        "product attributes",
+        "COID293764"
+    ],
+    "sialylation index": [
+        "product attributes",
+        "COID283454"
+    ],
+    "SI": [
+        "product attributes",
+        "COID283454"
+    ],
+    "galactosylation-related glycosyltransferase genes": [
+        "enzyme",
+        "COID444666"
+    ],
+    "galactosyltransferases": [
+        "enzyme",
+        "COID703629"
+    ],
+    "galactosyltransferase": [
+        "enzyme",
+        "COID703629"
+    ],
+    "galts": [
+        "enzyme",
+        "COID703629"
+    ],
+    "gassing strategy": [
+        "process parameters or process control",
+        "COID018240"
+    ],
+    "gassing strategies": [
+        "process parameters or process control",
+        "COID018240"
+    ],
+    "gdp-6-deoxy-d-lyxo-4-hexulose reductase": [
+        "enzyme",
+        "COID569267"
+    ],
+    "gdp-fuc": [
+        "sugar (subset of carbon source)",
+        "COID766661"
+    ],
+    "gdp-fucose": [
+        "sugar (subset of carbon source)",
+        "COID766661"
+    ],
+    "gdp-mannose biosynthesis": [
+        "biochemical compound",
+        "COID073869"
+    ],
+    "genetic engineering": [
+        "genotype",
+        "COID939654"
+    ],
+    "fut8 expression": [
+        "genotype",
+        "COID939656"
+    ],
+    "n-acetylglucosamine": [
+        "sugar (subset of carbon source)",
+        "COID510815"
+    ],
+    "glcnac": [
+        "sugar (subset of carbon source)",
+        "COID510815"
+    ],
+    "glcnac6p": [
+        "sugar (subset of carbon source)",
+        "COID510815"
+    ],
+    "n-acetyl-d-glucosamine": [
+        "sugar (subset of carbon source)",
+        "COID510815"
+    ],
+    "n-acetyl-d-glucosamine (glcnac)": [
+        "sugar (subset of carbon source)",
+        "COID510815"
+    ],
+    "udp–glcnac": [
+        "sugar (subset of carbon source)",
+        "COID510816"
+    ],
+    "udp-n-acetyl-d-glucosamine": [
+        "sugar (subset of carbon source)",
+        "COID510816"
+    ],
+    "udp-n-acetyl-d-glucosamine (udp-glcnac)": [
+        "sugar (subset of carbon source)",
+        "COID510816"
+    ],
+    "uridine diphosphate–n-acetylglucosamine": [
+        "sugar (subset of carbon source)",
+        "COID510816"
+    ],
+    "globular protine": [
+        "recombinant protein",
+        "COID893662"
+    ],
+    "gluconoylation": [
+        "glycosylation",
+        "COID890451"
+    ],
+    "glucosamine": [
+        "substrates",
+        "COID850039"
+    ],
+    "glucose": [
+        "sugar (subset of carbon source)",
+        "COID367406"
+    ],
+    "q gluc": [
+        "sugar (subset of carbon source)",
+        "COID367406"
+    ],
+    "qgluc": [
+        "sugar (subset of carbon source)",
+        "COID367406"
+    ],
+    "q-gluc": [
+        "sugar (subset of carbon source)",
+        "COID367406"
+    ],
+    "glutamate": [
+        "amino acid (subset of substrates)",
+        "COID485387"
+    ],
+    "glutamine": [
+        "amino acid (subset of substrates)",
+        "COID962935"
+    ],
+    "gluten hydrolysate": [
+        "recombinant protein",
+        "COID405569"
+    ],
+    "glycan": [
+        "sugar (subset of carbon source)",
+        "COID626759"
+    ],
+    "glycans": [
+        "sugar (subset of carbon source)",
+        "COID626759"
+    ],
+    "glycan distribution": [
+        "product quality profile",
+        "COID651165"
+    ],
+    "glycan distributions": [
+        "product quality profile",
+        "COID651165"
+    ],
+    "glycan forms": [
+        "sugar (subset of carbon source)",
+        "COID671420"
+    ],
+    "glycan form": [
+        "sugar (subset of carbon source)",
+        "COID671420"
+    ],
+    "glycan outcomes": [
+        "product attributes",
+        "COID339685"
+    ],
+    "glycan outcome": [
+        "product attributes",
+        "COID339685"
+    ],
+    "glycan patterns": [
+        "product attributes",
+        "COID336775"
+    ],
+    "glycan pattern": [
+        "product attributes",
+        "COID336775"
+    ],
+    "glycan profile": [
+        "product quality attributes",
+        "COID521331"
+    ],
+    "glycan profiles": [
+        "product quality attributes",
+        "COID521331"
+    ],
+    "n-glycan profiles": [
+        "product quality attributes",
+        "COID521331"
+    ],
+    "n-glycan profile": [
+        "product quality attributes",
+        "COID521331"
+    ],
+    "glycan structures": [
+        "sugar (subset of carbon source)",
+        "COID684992"
+    ],
+    "glycan structure": [
+        "sugar (subset of carbon source)",
+        "COID684992"
+    ],
+    "glycans of lower molecular masses": [
+        "sugar (subset of carbon source)",
+        "COID129671"
+    ],
+    "glycation": [
+        "glycosylation",
+        "COID274291"
+    ],
+    "glycerol": [
+        "carbon source (subset of secondary raw materials)",
+        "COID217249"
+    ],
+    "glycine": [
+        "amino acid (subset of substrates)",
+        "COID351597"
+    ],
+    "glycine betaine": [
+        "amino acid (subset of substrates)",
+        "COID346560"
+    ],
+    "glycoform distributions": [
+        "product quality profile",
+        "COID259199"
+    ],
+    "glycoform distribution": [
+        "product quality profile",
+        "COID259199"
+    ],
+    "glycoform profile": [
+        "product attributes",
+        "COID912805"
+    ],
+    "glycoform profiles": [
+        "product attributes",
+        "COID912805"
+    ],
+    "glycoforms": [
+        "recombinant protein",
+        "COID288767"
+    ],
+    "glycoform": [
+        "recombinant protein",
+        "COID288767"
+    ],
+    "hm glycoform": [
+        "recombinant protein",
+        "COID288767"
+    ],
+    "hm glycoforms": [
+        "recombinant protein",
+        "COID288767"
+    ],
+    "glycoprofiles": [
+        "product attributes",
+        "COID135698"
+    ],
+    "glycoprofile": [
+        "product attributes",
+        "COID135698"
+    ],
+    "glycoproteins": [
+        "product",
+        "COID866322"
+    ],
+    "glycoprotein": [
+        "product",
+        "COID866322"
+    ],
+    "glycosidase": [
+        "enzyme",
+        "COID469765"
+    ],
+    "glycosidases": [
+        "enzyme",
+        "COID984933"
+    ],
+    "glycosylated forms": [
+        "recombinant protein",
+        "COID326314"
+    ],
+    "glycosylation": [
+        "glycosylation",
+        "COID119643"
+    ],
+    "glycated": [
+        "glycosylation",
+        "COID119643"
+    ],
+    "early protein glycosylation": [
+        "glycosylation",
+        "COID119643"
+    ],
+    "glycosylation pattern": [
+        "product attributes",
+        "COID857544"
+    ],
+    "glycosylation patterns": [
+        "product attributes",
+        "COID857544"
+    ],
+    "glycosylation precursors": [
+        "biochemical compound",
+        "COID638294"
+    ],
+    "glycosylation precursor": [
+        "biochemical compound",
+        "COID638294"
+    ],
+    "glycosylation profile": [
+        "product attributes",
+        "COID103232"
+    ],
+    "glycosylation profiles": [
+        "product attributes",
+        "COID103232"
+    ],
+    "glycosylation profile attributes": [
+        "product attributes",
+        "COID165167"
+    ],
+    "glycosylation profile attribute": [
+        "product attributes",
+        "COID165167"
+    ],
+    "glycosyltransferases": [
+        "enzyme",
+        "COID225633"
+    ],
+    "glycosyltransferase": [
+        "enzyme",
+        "COID225633"
+    ],
+    "gnt i": [
+        "enzyme",
+        "COID947151"
+    ],
+    "gntii": [
+        "enzyme",
+        "COID731801"
+    ],
+    "gof glycan": [
+        "sugar (subset of carbon source)",
+        "COID802526"
+    ],
+    "gof glycans": [
+        "sugar (subset of carbon source)",
+        "COID802526"
+    ],
+    "golgi acidity": [
+        "cellular metabolic state",
+        "COID752340"
+    ],
+    "golgi ph": [
+        "bioreactor conditions",
+        "COID995227"
+    ],
+    "acidic golgi ph": [
+        "bioreactor conditions",
+        "COID995227"
+    ],
+    "growth": [
+        "cell culture parameters",
+        "COID203666"
+    ],
+    "growth rate": [
+        "cell culture parameters",
+        "COID957002"
+    ],
+    "growth rates": [
+        "cell culture parameters",
+        "COID957002"
+    ],
+    "gs-cho": [
+        "chinese hamster ovary (CHO)",
+        "COID432711"
+    ],
+    "guanosine diphosphate-fucose synthesis": [
+        "metabolic pathways",
+        "COID983511"
+    ],
+    "pathways related to guanosine diphosphate-fucose synthesis and fucosylation": [
+        "metabolic pathways",
+        "COID983511"
+    ],
+    "pathway related to guanosine diphosphate-fucose synthesis and fucosylation": [
+        "metabolic pathways",
+        "COID983511"
+    ],
+    "half life": [
+        "process parameters or process control",
+        "COID125212"
+    ],
+    "half-life": [
+        "process parameters or process control",
+        "COID125212"
+    ],
+    "harvest titer": [
+        "overall titer or batch yield",
+        "COID815209"
+    ],
+    "harvest titers": [
+        "overall titer or batch yield",
+        "COID815209"
+    ],
+    "heptasaccharide": [
+        "saccharides (subset of secondary raw materials)",
+        "COID475381"
+    ],
+    "heptasaccharides": [
+        "saccharides (subset of secondary raw materials)",
+        "COID475381"
+    ],
+    "heterogeneity": [
+        "clinical outcomes",
+        "COID021590"
+    ],
+    "heterogeneities": [
+        "clinical outcomes",
+        "COID021590"
+    ],
+    "micro-heterogeneity": [
+        "clinical outcomes",
+        "COID021590"
+    ],
+    "microheterogeneity": [
+        "clinical outcomes",
+        "COID021590"
+    ],
+    "microheterogeneities": [
+        "clinical outcomes",
+        "COID021590"
+    ],
+    "hexose": [
+        "sugar (subset of carbon source)",
+        "COID807273"
+    ],
+    "high mannose": [
+        "sugar (subset of carbon source)",
+        "COID981337"
+    ],
+    "HM": [
+        "sugar (subset of carbon source)",
+        "COID981337"
+    ],
+    "high-mannose": [
+        "sugar (subset of carbon source)",
+        "COID981337"
+    ],
+    "high mannose n-glycans": [
+        "sugar (subset of carbon source)",
+        "COID826720"
+    ],
+    "high mannose n-glycan": [
+        "sugar (subset of carbon source)",
+        "COID826720"
+    ],
+    "high mannose type n-glycans": [
+        "sugar (subset of carbon source)",
+        "COID932230"
+    ],
+    "high mannose type n-glycan": [
+        "sugar (subset of carbon source)",
+        "COID932230"
+    ],
+    "high-mannose glycoforms": [
+        "recombinant protein",
+        "COID965734"
+    ],
+    "high mannose glycoforms": [
+        "recombinant protein",
+        "COID965734"
+    ],
+    "high mannose glycoform": [
+        "recombinant protein",
+        "COID965734"
+    ],
+    "high-mannose glycoform": [
+        "recombinant protein",
+        "COID965734"
+    ],
+    "higher growing cell lines": [
+        "cell line",
+        "COID379160"
+    ],
+    "histone deacetylase (hdac) inhibitors": [
+        "secondary raw materials",
+        "COID367046"
+    ],
+    "histone deacetylase inhibitors": [
+        "secondary raw materials",
+        "COID367046"
+    ],
+    "histone deacetylase inhibitor": [
+        "secondary raw materials",
+        "COID367046"
+    ],
+    "hdac inhibitors": [
+        "secondary raw materials",
+        "COID367046"
+    ],
+    "horse serum": [
+        "serum or serum replacements",
+        "COID506028"
+    ],
+    "host cell proteins": [
+        "recombinant protein",
+        "COID169903"
+    ],
+    "HCP": [
+        "recombinant protein",
+        "COID169903"
+    ],
+    "host cell protein": [
+        "recombinant protein",
+        "COID169903"
+    ],
+    "human serum": [
+        "serum or serum replacements",
+        "COID211221"
+    ],
+    "hycell cho": [
+        "media",
+        "COID785180"
+    ],
+    "hycell-cho": [
+        "media",
+        "COID785180"
+    ],
+    "hydroxyethyl cellulose": [
+        "cellulosic compounds",
+        "COID352629"
+    ],
+    "hydroxymethyl": [
+        "base (subset of secondary raw materials)",
+        "COID950892"
+    ],
+    "hyperosmolality": [
+        "process parameters or process control",
+        "COID710478"
+    ],
+    "hyperthermia": [
+        "process parameters or process control",
+        "COID692231"
+    ],
+    "hyperthermic culture conditions": [
+        "process parameters or process control",
+        "COID228883"
+    ],
+    "hyperthermic culture condition": [
+        "process parameters or process control",
+        "COID228883"
+    ],
+    "hypoosmotic": [
+        "process parameters or process control",
+        "COID688141"
+    ],
+    "hypothermia": [
+        "process parameters or process control",
+        "COID361582"
+    ],
+    "hypothermic conditions": [
+        "bioreactor conditions",
+        "COID718157"
+    ],
+    "hypothermic condition": [
+        "bioreactor conditions",
+        "COID718157"
+    ],
+    "hypothermic culture conditions": [
+        "process parameters or process control",
+        "COID259987"
+    ],
+    "hypothermic culture condition": [
+        "process parameters or process control",
+        "COID259987"
+    ],
+    "hypothermic temperatures": [
+        "bioreactor conditions",
+        "COID331219"
+    ],
+    "hypothermic temperature": [
+        "bioreactor conditions",
+        "COID331219"
+    ],
+    "immune response": [
+        "clinical outcomes",
+        "COID806124"
+    ],
+    "immune responses": [
+        "clinical outcomes",
+        "COID806124"
+    ],
+    "unexpected immune response": [
+        "clinical outcomes",
+        "COID806124"
+    ],
+    "unexpected immune responses": [
+        "clinical outcomes",
+        "COID806124"
+    ],
+    "immunogenicity": [
+        "clinical outcomes",
+        "COID444425"
+    ],
+    "immunogenicities": [
+        "clinical outcomes",
+        "COID444425"
+    ],
+    "impurities": [
+        "process condition",
+        "COID901557"
+    ],
+    "impurity": [
+        "process condition",
+        "COID901557"
+    ],
+    "incomplete glycan biosynthesis": [
+        "biochemical compound",
+        "COID724816"
+    ],
+    "inhibitors": [
+        "secondary raw materials",
+        "COID760391"
+    ],
+    "inhibitor": [
+        "secondary raw materials",
+        "COID760391"
+    ],
+    "insulin": [
+        "recombinant protein",
+        "COID453872"
+    ],
+    "intensified fed batch": [
+        "process mode",
+        "COID504685"
+    ],
+    "IFB": [
+        "process mode",
+        "COID504685"
+    ],
+    "ifb": [
+        "process mode",
+        "COID504685"
+    ],
+    "ifb_5": [
+        "process mode",
+        "COID504685"
+    ],
+    "intracellular factors": [
+        "process parameters or process control",
+        "COID386307"
+    ],
+    "intracellular factor": [
+        "process parameters or process control",
+        "COID386307"
+    ],
+    "intracellular micro-heterogeneties": [
+        "cell line characteristics",
+        "COID164502"
+    ],
+    "intracellular micro-heterogeneity": [
+        "cell line characteristics",
+        "COID164502"
+    ],
+    "intracellular nucleotides and nucleotide sugars": [
+        "sugar (subset of carbon source)",
+        "COID456570"
+    ],
+    "intracellular nucleotides and nucleotide sugar": [
+        "sugar (subset of carbon source)",
+        "COID456570"
+    ],
+    "intracellular process": [
+        "process parameters or process control",
+        "COID933982"
+    ],
+    "intracellular processes": [
+        "process parameters or process control",
+        "COID933982"
+    ],
+    "intracellular vesicular trafficking": [
+        "biological process",
+        "COID573417"
+    ],
+    "iron": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID094956"
+    ],
+    "kifunensine": [
+        "secondary raw materials",
+        "COID287309"
+    ],
+    "knockout": [
+        "genotype",
+        "COID494346"
+    ],
+    "lab-scale bioreactors": [
+        "vessel or process parameter or production scale",
+        "COID558952"
+    ],
+    "lactate": [
+        "by-product or waste",
+        "COID250920"
+    ],
+    "lactates": [
+        "by-product or waste",
+        "COID250920"
+    ],
+    "lactate metabolic rate": [
+        "flux rate",
+        "COID490412"
+    ],
+    "lactose": [
+        "disaccharides (subset of carbon source)",
+        "COID629875"
+    ],
+    "lec13": [
+        "cell line",
+        "COID415606"
+    ],
+    "light chain isotype": [
+        "product attributes",
+        "COID790740"
+    ],
+    "lipid-linked oligosaccharide": [
+        "saccharides (subset of secondary raw materials)",
+        "COID151174"
+    ],
+    "LLO": [
+        "saccharides (subset of secondary raw materials)",
+        "COID151174"
+    ],
+    "lithium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID428317"
+    ],
+    "mab production": [
+        "overall titer or batch yield",
+        "COID022887"
+    ],
+    "mab productivity": [
+        "process condition",
+        "COID842515"
+    ],
+    "mab synthesis": [
+        "metabolic pathways",
+        "COID609300"
+    ],
+    "maltose": [
+        "disaccharides (subset of carbon source)",
+        "COID396206"
+    ],
+    "man5": [
+        "sugar (subset of carbon source)",
+        "COID568402"
+    ],
+    "n-linked mannose-5 glycan": [
+        "sugar (subset of carbon source)",
+        "COID568402"
+    ],
+    "n-linked mannose-5 glycans": [
+        "sugar (subset of carbon source)",
+        "COID568402"
+    ],
+    "mannose-5 glycan": [
+        "sugar (subset of carbon source)",
+        "COID568402"
+    ],
+    "mannose-5 glycans": [
+        "sugar (subset of carbon source)",
+        "COID568402"
+    ],
+    "man6": [
+        "sugar (subset of carbon source)",
+        "COID521642"
+    ],
+    "oligomannose-6": [
+        "sugar (subset of carbon source)",
+        "COID521642"
+    ],
+    "man8/9": [
+        "sugar (subset of carbon source)",
+        "COID436880"
+    ],
+    "man9": [
+        "sugar (subset of carbon source)",
+        "COID436880"
+    ],
+    "man8": [
+        "sugar (subset of carbon source)",
+        "COID436880"
+    ],
+    "man8 and man9": [
+        "sugar (subset of carbon source)",
+        "COID436880"
+    ],
+    "man8 or man9": [
+        "sugar (subset of carbon source)",
+        "COID436880"
+    ],
+    "man8/man9": [
+        "sugar (subset of carbon source)",
+        "COID436880"
+    ],
+    "manganese": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID333220"
+    ],
+    "mn2+": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID333220"
+    ],
+    "mannose": [
+        "sugar (subset of carbon source)",
+        "COID906305"
+    ],
+    "mannose 5 glycans": [
+        "sugar (subset of carbon source)",
+        "COID667485"
+    ],
+    "mannose 5 glycan": [
+        "sugar (subset of carbon source)",
+        "COID667485"
+    ],
+    "mannose-5": [
+        "sugar (subset of carbon source)",
+        "COID593975"
+    ],
+    "mannose-terminated n-glycans": [
+        "sugar (subset of carbon source)",
+        "COID789192"
+    ],
+    "mannose-terminated n-glycan": [
+        "sugar (subset of carbon source)",
+        "COID789192"
+    ],
+    "mannosidase": [
+        "enzyme",
+        "COID020739"
+    ],
+    "mannosylation": [
+        "glycosylation",
+        "COID543580"
+    ],
+    "media": [
+        "media characteristics",
+        "COID913636"
+    ],
+    "media additives": [
+        "media characteristics",
+        "COID816450"
+    ],
+    "media additive": [
+        "media characteristics",
+        "COID816450"
+    ],
+    "media characteristics": [
+        "media characteristics",
+        "COID753086"
+    ],
+    "media characteristic": [
+        "media characteristics",
+        "COID753086"
+    ],
+    "media components": [
+        "media characteristics",
+        "COID256991"
+    ],
+    "media component": [
+        "media characteristics",
+        "COID256991"
+    ],
+    "media composition": [
+        "media characteristics",
+        "COID162890"
+    ],
+    "media hold duration": [
+        "process parameters or process control",
+        "COID555925"
+    ],
+    "media hold durations": [
+        "process parameters or process control",
+        "COID555925"
+    ],
+    "media modification": [
+        "media characteristics",
+        "COID193034"
+    ],
+    "media modifications": [
+        "media characteristics",
+        "COID193034"
+    ],
+    "media supplementation": [
+        "secondary raw materials",
+        "COID689497"
+    ],
+    "media supplementations": [
+        "secondary raw materials",
+        "COID689497"
+    ],
+    "ba supplementation": [
+        "secondary raw materials",
+        "COID689497"
+    ],
+    "medium": [
+        "media characteristics",
+        "COID921897"
+    ],
+    "metabolic pathways": [
+        "metabolic pathways",
+        "COID588672"
+    ],
+    "metabolic pathway": [
+        "metabolic pathways",
+        "COID588672"
+    ],
+    "metabolism": [
+        "biological process",
+        "COID291079"
+    ],
+    "metabolities": [
+        "biological process",
+        "COID291079"
+    ],
+    "metabolite concentration": [
+        "process parameters or process control",
+        "COID364859"
+    ],
+    "metabolite concentrations": [
+        "process parameters or process control",
+        "COID364859"
+    ],
+    "metabolic concentration": [
+        "process parameters or process control",
+        "COID364859"
+    ],
+    "metabolic concentrations": [
+        "process parameters or process control",
+        "COID364859"
+    ],
+    "methylation": [
+        "PTM",
+        "COID776387"
+    ],
+    "microfiltration": [
+        "filtration parameters",
+        "COID128781"
+    ],
+    "microfiltrations": [
+        "filtration parameters",
+        "COID128781"
+    ],
+    "MF": [
+        "filtration parameters",
+        "COID128781"
+    ],
+    "mncl2": [
+        "secondary raw materials",
+        "COID426404"
+    ],
+    "modified amino acid": [
+        "amino acid (subset of substrates)",
+        "COID754629"
+    ],
+    "modified amino acids": [
+        "amino acid (subset of substrates)",
+        "COID754629"
+    ],
+    "molecule stability": [
+        "product attributes",
+        "COID793994"
+    ],
+    "molybdenum": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID562561"
+    ],
+    "mono galactosylated": [
+        "sugar (subset of carbon source)",
+        "COID592818"
+    ],
+    "monoclonal antibody": [
+        "monoclonal antibody",
+        "COID242255"
+    ],
+    "monoclonal antibodies": [
+        "monoclonal antibody",
+        "COID242255"
+    ],
+    "mab": [
+        "monoclonal antibody",
+        "COID242255"
+    ],
+    "mabs": [
+        "monoclonal antibody",
+        "COID242255"
+    ],
+    "mabs carrying n-glycans": [
+        "monoclonal antibody",
+        "COID242255"
+    ],
+    "morpholine": [
+        "base (subset of secondary raw materials)",
+        "COID998656"
+    ],
+    "ms704": [
+        "cell line",
+        "COID153804"
+    ],
+    "mutations to allow transferase accessibility": [
+        "genotype",
+        "COID357556"
+    ],
+    "mutation to allow transferase accessibility": [
+        "genotype",
+        "COID357556"
+    ],
+    "n-acetylgalactosamine": [
+        "sugar (subset of carbon source)",
+        "COID449126"
+    ],
+    "n-acetylglucosaminyltransferase": [
+        "enzyme",
+        "COID039686"
+    ],
+    "n-acetylglucosaminyltransferase i": [
+        "enzyme",
+        "COID931034"
+    ],
+    "n-acetylglucosaminyltransferase ii": [
+        "enzyme",
+        "COID298225"
+    ],
+    "n-acetylmannosamine": [
+        "sugar (subset of carbon source)",
+        "COID135789"
+    ],
+    "mannac": [
+        "sugar (subset of carbon source)",
+        "COID135789"
+    ],
+    "n-acetylneuraminic acid": [
+        "amino acid (subset of substrates)",
+        "COID042583"
+    ],
+    "NANA": [
+        "amino acid (subset of substrates)",
+        "COID042583"
+    ],
+    "n-acetylneuraminic acids": [
+        "amino acid (subset of substrates)",
+        "COID042583"
+    ],
+    "n-glycan": [
+        "sugar (subset of carbon source)",
+        "COID216687"
+    ],
+    "n-glycans": [
+        "sugar (subset of carbon source)",
+        "COID216687"
+    ],
+    "n-glycan antennary structure": [
+        "sugar (subset of carbon source)",
+        "COID675025"
+    ],
+    "n-glycan antennary structures": [
+        "sugar (subset of carbon source)",
+        "COID675025"
+    ],
+    "n-glycan chain extension": [
+        "sugar (subset of carbon source)",
+        "COID795392"
+    ],
+    "n-glycan chain extensions": [
+        "sugar (subset of carbon source)",
+        "COID795392"
+    ],
+    "n-glycans ratio": [
+        "sugar (subset of carbon source)",
+        "COID525588"
+    ],
+    "n-glycolylneuraminic acid": [
+        "amino acid (subset of substrates)",
+        "COID390231"
+    ],
+    "NGNA": [
+        "amino acid (subset of substrates)",
+        "COID390231"
+    ],
+    "n-glycolylneuraminic acids": [
+        "amino acid (subset of substrates)",
+        "COID390231"
+    ],
+    "n-glycosylation": [
+        "glycosylation",
+        "COID293911"
+    ],
+    "n-glycosylation profile": [
+        "product attributes",
+        "COID683283"
+    ],
+    "n-glycosylation profiles": [
+        "product attributes",
+        "COID683283"
+    ],
+    "n-linked complex glycoform": [
+        "recombinant protein",
+        "COID210842"
+    ],
+    "n-linked glycan": [
+        "sugar (subset of carbon source)",
+        "COID297037"
+    ],
+    "n-linked glycans": [
+        "sugar (subset of carbon source)",
+        "COID297037"
+    ],
+    "n-linked glycan distribution": [
+        "product quality profile",
+        "COID235212"
+    ],
+    "n-linked glycan distributions": [
+        "product quality profile",
+        "COID235212"
+    ],
+    "n-linked glycosylation": [
+        "glycosylation",
+        "COID005169"
+    ],
+    "n-linked glycosylation patterns": [
+        "product attributes",
+        "COID545748"
+    ],
+    "n-linked glycosylation pattern": [
+        "product attributes",
+        "COID545748"
+    ],
+    "n-linked mannose-5": [
+        "sugar (subset of carbon source)",
+        "COID500013"
+    ],
+    "n-linked oligosaccharides": [
+        "sugar (subset of carbon source)",
+        "COID832083"
+    ],
+    " n-linked oligosaccharide": [
+        "sugar (subset of carbon source)",
+        "COID832083"
+    ],
+    "n-terminal glycine": [
+        "product attributes",
+        "COID640703"
+    ],
+    "nanofiltration": [
+        "filtration parameters",
+        "COID399082"
+    ],
+    "nanofiltrations": [
+        "filtration parameters",
+        "COID399082"
+    ],
+    "NF": [
+        "filtration parameters",
+        "COID399082"
+    ],
+    "newborn calf serum": [
+        "serum or serum replacements",
+        "COID830185"
+    ],
+    "NCS": [
+        "serum or serum replacements",
+        "COID830185"
+    ],
+    "nickel": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID232036"
+    ],
+    "nist cho": [
+        "chinese hamster ovary (CHO)",
+        "COID964757"
+    ],
+    "nist-cho": [
+        "chinese hamster ovary (CHO)",
+        "COID964757"
+    ],
+    "nitrogen": [
+        "gases (subset of secondary raw materials)",
+        "COID546348"
+    ],
+    "nitrogen sources": [
+        "secondary raw materials",
+        "COID144540"
+    ],
+    "nitrogen source": [
+        "secondary raw materials",
+        "COID144540"
+    ],
+    "non-core-fucosylation": [
+        "glycosylation",
+        "COID101427"
+    ],
+    "non-fucosylated antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non fucosylated antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non-fucosylated antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non fucosylated antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "fucose-negative therapeutic antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "fucose-negative therapeutic antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "fucose negative therapeutic antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "fucose negative therapeutic antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "fucose-negative antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "fucose negative antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non fucosylated therapeutic antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non-fucosylated therapeutic antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non-fucosylated therapeutic antibody": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "non fucosylated therapeutic antibodies": [
+        "non-fucosylated antibody",
+        "COID842930"
+    ],
+    "nonglycosylated": [
+        "glycosylation",
+        "COID862110"
+    ],
+    "nucleoside": [
+        "nucleotide or nucleoside",
+        "COID718935"
+    ],
+    "nucleosides": [
+        "nucleotide or nucleoside",
+        "COID718935"
+    ],
+    "nucleotide sugar": [
+        "sugar (subset of carbon source)",
+        "COID937318"
+    ],
+    "nucleotide sugars": [
+        "sugar (subset of carbon source)",
+        "COID937318"
+    ],
+    "nucleotide sugar synthetases": [
+        "enzyme",
+        "COID861834"
+    ],
+    "nucleotide sugar transport proteins": [
+        "recombinant protein",
+        "COID043128"
+    ],
+    "nucleotide-sugar intracellular pools": [
+        "nucleotide or nucleoside",
+        "COID982927"
+    ],
+    "nucleotide-sugar intracellular pool": [
+        "nucleotide or nucleoside",
+        "COID982927"
+    ],
+    "nutrient": [
+        "secondary raw materials",
+        "COID423902"
+    ],
+    "nutrients": [
+        "secondary raw materials",
+        "COID423902"
+    ],
+    "nutrient concentration": [
+        "media parameter or raw material",
+        "COID287635"
+    ],
+    "nutrient concentrations": [
+        "media parameter or raw material",
+        "COID287635"
+    ],
+    "o-glycan precursor": [
+        "biochemical compound",
+        "COID559670"
+    ],
+    "o-glycan precursors": [
+        "biochemical compound",
+        "COID559670"
+    ],
+    "o-glycan site occupancy": [
+        "product quality attributes",
+        "COID183234"
+    ],
+    "o-glycosylation": [
+        "glycosylation",
+        "COID233146"
+    ],
+    "octanol": [
+        "antifoams",
+        "COID189410"
+    ],
+    "oligomannose-5 glycan": [
+        "sugar (subset of carbon source)",
+        "COID986471"
+    ],
+    "oligomannose-5 glycans": [
+        "sugar (subset of carbon source)",
+        "COID986471"
+    ],
+    "oligosaccharide": [
+        "saccharides (subset of secondary raw materials)",
+        "COID163264"
+    ],
+    "oligosaccharides": [
+        "saccharides (subset of secondary raw materials)",
+        "COID163264"
+    ],
+    "opticho": [
+        "chinese hamster ovary (CHO)",
+        "COID017929"
+    ],
+    "opti cho": [
+        "chinese hamster ovary (CHO)",
+        "COID017929"
+    ],
+    "opti-cho": [
+        "chinese hamster ovary (CHO)",
+        "COID017929"
+    ],
+    "optipro sfm": [
+        "media",
+        "COID598380"
+    ],
+    "organic antifoams": [
+        "antifoams",
+        "COID003111"
+    ],
+    "osmolality": [
+        "process parameters or process control",
+        "COID710653"
+    ],
+    "osmoprotectant": [
+        "biochemical compound",
+        "COID571290"
+    ],
+    "osmoprotectants": [
+        "biochemical compound",
+        "COID571290"
+    ],
+    "orbitally shaken bioreactors": [
+        "vessel or process parameter or production scale",
+        "COID030179"
+    ],
+    "osrs": [
+        "vessel or process parameter or production scale",
+        "COID030179"
+    ],
+    "OSR": [
+        "vessel or process parameter or production scale",
+        "COID030179"
+    ],
+    "orbitally shaken bioreactor": [
+        "vessel or process parameter or production scale",
+        "COID030179"
+    ],
+    "oxidation": [
+        "PTM",
+        "COID907585"
+    ],
+    "met oxidation": [
+        "PTM",
+        "COID907685"
+    ],
+    "oxygen": [
+        "gases (subset of secondary raw materials)",
+        "COID472476"
+    ],
+    "o2": [
+        "gases (subset of secondary raw materials)",
+        "COID472476"
+    ],
+    "O2": [
+        "gases (subset of secondary raw materials)",
+        "COID472476"
+    ],
+    "p3": [
+        "hybridoma",
+        "COID845585"
+    ],
+    "patient safety": [
+        "clinical outcomes",
+        "COID227083"
+    ],
+    "pegylation": [
+        "PTM",
+        "COID449295"
+    ],
+    "peptide fragment": [
+        "recombinant protein",
+        "COID579814"
+    ],
+    "perfusion": [
+        "process mode",
+        "COID329168"
+    ],
+    "perfusion cultures": [
+        "process mode",
+        "COID368508"
+    ],
+    "perfusion culture": [
+        "process mode",
+        "COID368508"
+    ],
+    "ph": [
+        "bioreactor conditions",
+        "COID893209"
+    ],
+    "phi": [
+        "bioreactor conditions",
+        "COID893209"
+    ],
+    "ph control": [
+        "bioreactor conditions",
+        "COID492476"
+    ],
+    "pharmacokinetics": [
+        "clinical outcomes",
+        "COID373370"
+    ],
+    "pharmacokinetic": [
+        "clinical outcomes",
+        "COID373370"
+    ],
+    "phi control": [
+        "bioreactor conditions",
+        "COID698824"
+    ],
+    "phosphorylation": [
+        "PTM",
+        "COID850093"
+    ],
+    "oxidative phosphorylation": [
+        "PTM",
+        "COID850093"
+    ],
+    "polydimethylsiloxane": [
+        "antifoams",
+        "COID685265"
+    ],
+    "PDMS": [
+        "antifoams",
+        "COID685265"
+    ],
+    "polyether": [
+        "antifoams",
+        "COID585837"
+    ],
+    "polymerization": [
+        "biological process",
+        "COID253452"
+    ],
+    "polysialylation": [
+        "glycosylation",
+        "COID426194"
+    ],
+    "post translational modifications": [
+        "PTM",
+        "COID479596"
+    ],
+    "post translational modification": [
+        "PTM",
+        "COID479596"
+    ],
+    "potassium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID887610"
+    ],
+    "potency": [
+        "clinical outcomes",
+        "COID969445"
+    ],
+    "powercho-2": [
+        "media",
+        "COID158043"
+    ],
+    "powercho-3": [
+        "media",
+        "COID786009"
+    ],
+    "precursor": [
+        "biochemical compound",
+        "COID871085"
+    ],
+    "precursors": [
+        "biochemical compound",
+        "COID871085"
+    ],
+    "prenylation": [
+        "PTM",
+        "COID103961"
+    ],
+    "primary raw materials": [
+        "primary raw materials",
+        "COID615478"
+    ],
+    "primary raw material": [
+        "primary raw materials",
+        "COID615478"
+    ],
+    "process condition": [
+        "process condition",
+        "COID106153"
+    ],
+    "process conditions": [
+        "process condition",
+        "COID106153"
+    ],
+    "process outcome": [
+        "process outcome",
+        "COID078408"
+    ],
+    "process outcomes": [
+        "process outcome",
+        "COID078408"
+    ],
+    "process parameter": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "process parameters": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "parameters of processes": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "parameters of a process": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "parameter of a process": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "parameter of the process": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "parameters of the process": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "parameter of processes": [
+        "process parameters or process control",
+        "COID163282"
+    ],
+    "procho4": [
+        "media",
+        "COID741978"
+    ],
+    "procho5": [
+        "media",
+        "COID988111"
+    ],
+    "product concentration": [
+        "product attributes",
+        "COID189862"
+    ],
+    "product concentrations": [
+        "product attributes",
+        "COID189862"
+    ],
+    "product efficacy": [
+        "clinical outcomes",
+        "COID793672"
+    ],
+    "product efficacies": [
+        "clinical outcomes",
+        "COID793672"
+    ],
+    "product formation": [
+        "flux rate",
+        "COID187355"
+    ],
+    "product quality": [
+        "product quality attributes",
+        "COID111751"
+    ],
+    "quality of a product": [
+        "product quality attributes",
+        "COID111751"
+    ],
+    "product qualities": [
+        "product quality attributes",
+        "COID111751"
+    ],
+    "quality of products": [
+        "product quality attributes",
+        "COID111751"
+    ],
+    "product safety": [
+        "product quality attributes",
+        "COID232216"
+    ],
+    "safety of a product": [
+        "product quality attributes",
+        "COID232216"
+    ],
+    "safety of products": [
+        "product quality attributes",
+        "COID232216"
+    ],
+    "product stability": [
+        "product attributes",
+        "COID313713"
+    ],
+    "product titer": [
+        "overall titer or batch yield",
+        "COID382077"
+    ],
+    "product titers": [
+        "overall titer or batch yield",
+        "COID382077"
+    ],
+    "production bioreactor parameters": [
+        "process parameters or process control",
+        "COID641378"
+    ],
+    "production bioreactor parameter": [
+        "process parameters or process control",
+        "COID641378"
+    ],
+    "parameters of production bioreactor": [
+        "process parameters or process control",
+        "COID641378"
+    ],
+    "production rate": [
+        "process parameters or process control",
+        "COID014362"
+    ],
+    "production rates": [
+        "process parameters or process control",
+        "COID014362"
+    ],
+    "specific production rate": [
+        "process parameters or process control",
+        "COID014362"
+    ],
+    "SPR": [
+        "process parameters or process control",
+        "COID014362"
+    ],
+    "production yield": [
+        "overall titer or batch yield",
+        "COID711358"
+    ],
+    "production yields": [
+        "overall titer or batch yield",
+        "COID711358"
+    ],
+    "antibody production yields": [
+        "overall titer or batch yield",
+        "COID711358"
+    ],
+    "antibody production yield": [
+        "overall titer or batch yield",
+        "COID711358"
+    ],
+    "productivity": [
+        "process condition",
+        "COID731421"
+    ],
+    "average productivity": [
+        "process condition",
+        "COID731421"
+    ],
+    "specific productivity": [
+        "process condition",
+        "COID731421"
+    ],
+    "productivity of the cell culture process": [
+        "process condition",
+        "COID192960"
+    ],
+    "culture process productivity of a cell": [
+        "process condition",
+        "COID192960"
+    ],
+    "culture process productivity of cells": [
+        "process condition",
+        "COID192960"
+    ],
+    "proline": [
+        "amino acid (subset of substrates)",
+        "COID708113"
+    ],
+    "prolonged viability": [
+        "process parameters or process control",
+        "COID937191"
+    ],
+    "prolonged viabilities": [
+        "process parameters or process control",
+        "COID937191"
+    ],
+    "properties of glycoproteins": [
+        "product quality profile",
+        "COID445665"
+    ],
+    "property of glycoprotein": [
+        "product quality profile",
+        "COID445665"
+    ],
+    "proportion of complex forms": [
+        "process outcome",
+        "COID157309"
+    ],
+    "proportion of complex form": [
+        "process outcome",
+        "COID157309"
+    ],
+    "protein aggregation": [
+        "product attributes",
+        "COID100331"
+    ],
+    "protein degradation": [
+        "degradation",
+        "COID960950"
+    ],
+    "protein degradations": [
+        "degradation",
+        "COID960950"
+    ],
+    "protein engineering": [
+        "recombinant protein",
+        "COID847029"
+    ],
+    "protein expression": [
+        "product attributes",
+        "COID124678"
+    ],
+    "protein expressions": [
+        "product attributes",
+        "COID124678"
+    ],
+    "protein glycosylation profiles": [
+        "product attributes",
+        "COID614376"
+    ],
+    "protein glycosylation profile": [
+        "product attributes",
+        "COID614376"
+    ],
+    "protein purity": [
+        "product attributes",
+        "COID523503"
+    ],
+    "protein quality attributes": [
+        "product quality profile",
+        "COID846170"
+    ],
+    "protein quality attribute": [
+        "product quality profile",
+        "COID846170"
+    ],
+    "protein-free media": [
+        "media",
+        "COID927727"
+    ],
+    "proteolytic cleavage": [
+        "PTM",
+        "COID789633"
+    ],
+    "protocol": [
+        "process parameters or process control",
+        "COID625051"
+    ],
+    "protocols": [
+        "process parameters or process control",
+        "COID625051"
+    ],
+    "pyruvate": [
+        "carbon source (subset of secondary raw materials)",
+        "COID727438"
+    ],
+    "qp": [
+        "flux rate",
+        "COID599783"
+    ],
+    "q p": [
+        "flux rate",
+        "COID599783"
+    ],
+    "quality": [
+        "product quality attributes",
+        "COID109463"
+    ],
+    "raffinose": [
+        "sugar (subset of carbon source)",
+        "COID985703"
+    ],
+    "raw material characteristics": [
+        "raw material characteristics",
+        "COID900595"
+    ],
+    "raw material characteristic": [
+        "raw material characteristics",
+        "COID900595"
+    ],
+    "reactor sterility": [
+        "reactor design",
+        "COID587134"
+    ],
+    "recombinant antibody yield": [
+        "overall titer or batch yield",
+        "COID518563"
+    ],
+    "recombinant fusion protein": [
+        "recombinant protein",
+        "COID676940"
+    ],
+    "recombinant protein": [
+        "recombinant protein",
+        "COID593158"
+    ],
+    "recombinant proteins": [
+        "recombinant protein",
+        "COID593158"
+    ],
+    "recombinant protein production": [
+        "overall titer or batch yield",
+        "COID708316"
+    ],
+    "redox potential": [
+        "cellular metabolic state",
+        "COID680210"
+    ],
+    "redox potentials": [
+        "cellular metabolic state",
+        "COID680210"
+    ],
+    "relative glycan content": [
+        "product attributes",
+        "COID604263"
+    ],
+    "relative glycan contents": [
+        "product attributes",
+        "COID604263"
+    ],
+    "residance time": [
+        "NYK",
+        "COID945033"
+    ],
+    "response surface model": [
+        "reactor design",
+        "COID906970"
+    ],
+    "response surface models": [
+        "reactor design",
+        "COID906970"
+    ],
+    "RSM": [
+        "reactor design",
+        "COID906970"
+    ],
+    "rubidium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID977744"
+    ],
+    "run time": [
+        "process parameters or process control",
+        "COID945441"
+    ],
+    "s-sulfocysteine": [
+        "secondary raw materials",
+        "COID617511"
+    ],
+    "safety": [
+        "clinical outcomes",
+        "COID635261"
+    ],
+    "safety and potency of the monoclonal antibody": [
+        "clinical outcomes",
+        "COID685464"
+    ],
+    "salt balance": [
+        "cellular metabolic state",
+        "COID092325"
+    ],
+    "scales": [
+        "vessel or process parameter or production scale",
+        "COID586187"
+    ],
+    "scaled": [
+        "vessel or process parameter or production scale",
+        "COID586187"
+    ],
+    "scale": [
+        "vessel or process parameter or production scale",
+        "COID586187"
+    ],
+    "secretion rate": [
+        "flux rate",
+        "COID916779"
+    ],
+    "selenium": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID808285"
+    ],
+    "serum-free media": [
+        "media",
+        "COID688586"
+    ],
+    "shake flask": [
+        "vessel or process parameter or production scale",
+        "COID796805"
+    ],
+    "shake flasks": [
+        "vessel or process parameter or production scale",
+        "COID796805"
+    ],
+    "shear forces": [
+        "process condition",
+        "COID215539"
+    ],
+    "shear force": [
+        "process condition",
+        "COID215539"
+    ],
+    "shearing stress": [
+        "shear forces",
+        "COID617140"
+    ],
+    "shearing stresses": [
+        "shear forces",
+        "COID617140"
+    ],
+    "sialic acid": [
+        "sugar (subset of carbon source)",
+        "COID148212"
+    ],
+    "SA": [
+        "sugar (subset of carbon source)",
+        "COID148212"
+    ],
+    "sialic acid degradation": [
+        "metabolic pathways",
+        "COID371714"
+    ],
+    "degradation of sialic acid": [
+        "metabolic pathways",
+        "COID371714"
+    ],
+    "sialidase": [
+        "enzyme",
+        "COID070440"
+    ],
+    "sialylated glycans": [
+        "sugar (subset of carbon source)",
+        "COID113402"
+    ],
+    "sialylated glycan": [
+        "sugar (subset of carbon source)",
+        "COID113402"
+    ],
+    "sialylation": [
+        "glycosylation",
+        "COID543327"
+    ],
+    "sialyltransferase": [
+        "enzyme",
+        "COID191824"
+    ],
+    "sialyl-transferases": [
+        "enzyme",
+        "COID191824"
+    ],
+    "sialyltransferases": [
+        "enzyme",
+        "COID191824"
+    ],
+    "silicone-based antifoams": [
+        "antifoams",
+        "COID404088"
+    ],
+    "simethicone": [
+        "antifoams",
+        "COID829840"
+    ],
+    "single use bioreactor": [
+        "vessel or process parameter or production scale",
+        "COID917715"
+    ],
+    "single-use filtration": [
+        "filtration parameters",
+        "COID146256"
+    ],
+    "single use filtration": [
+        "filtration parameters",
+        "COID146256"
+    ],
+    "single-use filtrations": [
+        "filtration parameters",
+        "COID146256"
+    ],
+    "single use filtrations": [
+        "filtration parameters",
+        "COID146256"
+    ],
+    "site occupancy": [
+        "product quality attributes",
+        "COID402550"
+    ],
+    "sodium bicarbonate": [
+        "buffer (subset of secondary raw materials)",
+        "COID760948"
+    ],
+    "sodium carbonate": [
+        "base (subset of secondary raw materials)",
+        "COID693101"
+    ],
+    "sodium chloride": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID277511"
+    ],
+    "sodium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID574267"
+    ],
+    "sodium phosphate": [
+        "base (subset of secondary raw materials)",
+        "COID599868"
+    ],
+    "sorbitol": [
+        "cell line characteristics",
+        "COID857879"
+    ],
+    "st3gal4 gene": [
+        "genotype",
+        "COID302607"
+    ],
+    "st3gal4 genes": [
+        "genotype",
+        "COID302607"
+    ],
+    "stability": [
+        "process condition",
+        "COID548988"
+    ],
+    "steric hindrance": [
+        "process parameters or process control",
+        "COID398974"
+    ],
+    "stirred-tank bioreactors": [
+        "vessel or process parameter or production scale",
+        "COID383436"
+    ],
+    "strs": [
+        "vessel or process parameter or production scale",
+        "COID383436"
+    ],
+    "STR": [
+        "vessel or process parameter or production scale",
+        "COID383436"
+    ],
+    "stirred-tank bioreactor": [
+        "vessel or process parameter or production scale",
+        "COID383436"
+    ],
+    "bioreactors": [
+        "vessel or process parameter or production scale",
+        "COID345693"
+    ],
+    "bioreactor": [
+        "vessel or process parameter or production scale",
+        "COID345693"
+    ],
+    "BR": [
+        "vessel or process parameter or production scale",
+        "COID345693"
+    ],
+    "substrates": [
+        "substrates",
+        "COID265919"
+    ],
+    "substrate": [
+        "substrates",
+        "COID265919"
+    ],
+    "sucrose": [
+        "disaccharides (subset of carbon source)",
+        "COID945298"
+    ],
+    "sugar transporter genes": [
+        "cell line characteristics",
+        "COID403797"
+    ],
+    "sugar transporter gene": [
+        "cell line characteristics",
+        "COID403797"
+    ],
+    "sulfation": [
+        "PTM",
+        "COID777322"
+    ],
+    "sumoylation": [
+        "PTM",
+        "COID899198"
+    ],
+    "superoxide dismutase": [
+        "enzyme",
+        "COID501351"
+    ],
+    "supplementation": [
+        "secondary raw materials",
+        "COID566710"
+    ],
+    "supplementations": [
+        "secondary raw materials",
+        "COID566710"
+    ],
+    "synthetic or chemically defined media": [
+        "media",
+        "COID198035"
+    ],
+    "tangential flow filtration": [
+        "filtration parameters",
+        "COID208659"
+    ],
+    "tangential flow filtrations": [
+        "filtration parameters",
+        "COID208659"
+    ],
+    "TFF": [
+        "filtration parameters",
+        "COID208659"
+    ],
+    "temperature": [
+        "bioreactor conditions",
+        "COID692615"
+    ],
+    "temperatures": [
+        "bioreactor conditions",
+        "COID692615"
+    ],
+    "terminal galactose β1": [
+        "sugar (subset of carbon source)",
+        "COID528317"
+    ],
+    "tetra-sialylated glycans": [
+        "sugar (subset of carbon source)",
+        "COID697788"
+    ],
+    "tetra-sialylated glycan": [
+        "sugar (subset of carbon source)",
+        "COID697788"
+    ],
+    "tetramethylammonium hydroxide": [
+        "base (subset of secondary raw materials)",
+        "COID237556"
+    ],
+    "therapeutic agent": [
+        "therapeutic agent",
+        "COID276899"
+    ],
+    "therapeutic agents": [
+        "therapeutic agent",
+        "COID276899"
+    ],
+    "therapeutic efficacy": [
+        "clinical outcomes",
+        "COID151356"
+    ],
+    "therapeutic protein quality": [
+        "product quality attributes",
+        "COID845607"
+    ],
+    "threonine": [
+        "amino acid (subset of substrates)",
+        "COID905902"
+    ],
+    "time": [
+        "process parameters or process control",
+        "COID742277"
+    ],
+    "titer": [
+        "overall titer or batch yield",
+        "COID732378"
+    ],
+    "titers": [
+        "overall titer or batch yield",
+        "COID732378"
+    ],
+    "mab titers": [
+        "overall titer or batch yield",
+        "COID732378"
+    ],
+    "mab1 titers": [
+        "overall titer or batch yield",
+        "COID732378"
+    ],
+    "trace metal": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID221517"
+    ],
+    "trace metals": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID221517"
+    ],
+    "trehalose": [
+        "disaccharides (subset of carbon source)",
+        "COID264187"
+    ],
+    "trehaloses": [
+        "disaccharides (subset of carbon source)",
+        "COID264187"
+    ],
+    "trehalose-containing medium": [
+        "media characteristics",
+        "COID087692"
+    ],
+    "tributyl phosphate": [
+        "antifoams",
+        "COID957770"
+    ],
+    "tris": [
+        "base (subset of secondary raw materials)",
+        "COID522855"
+    ],
+    "trisaccharide raffinose": [
+        "sugar (subset of carbon source)",
+        "COID864970"
+    ],
+    "tromethamine": [
+        "base (subset of secondary raw materials)",
+        "COID801576"
+    ],
+    "tyrosine": [
+        "media parameter or raw material",
+        "COID500516"
+    ],
+    "ubiquitination": [
+        "PTM",
+        "COID966920"
+    ],
+    "udp-n-acetylglucosamine biosynthesis": [
+        "biochemical compound",
+        "COID929438"
+    ],
+    "udp-sugars": [
+        "sugar (subset of carbon source)",
+        "COID346911"
+    ],
+    "udp–gal": [
+        "substrates",
+        "COID990972"
+    ],
+    "udp-galnac": [
+        "substrates",
+        "COID756664"
+    ],
+    "ultrafiltration": [
+        "filtration parameters",
+        "COID277807"
+    ],
+    "ultrafiltrations": [
+        "filtration parameters",
+        "COID277807"
+    ],
+    "UF": [
+        "filtration parameters",
+        "COID277807"
+    ],
+    "undesired glycan forms": [
+        "sugar (subset of carbon source)",
+        "COID853412"
+    ],
+    "undesired glycan form": [
+        "sugar (subset of carbon source)",
+        "COID853412"
+    ],
+    "unnatural fucose analogues": [
+        "substitution material",
+        "COID154124"
+    ],
+    "unnatural fucose analogue": [
+        "substitution material",
+        "COID154124"
+    ],
+    "uptake rates": [
+        "biological process",
+        "COID844360"
+    ],
+    "uptake rate": [
+        "biological process",
+        "COID844360"
+    ],
+    "oxygen uptake rate": [
+        "biological process",
+        "COID844361"
+    ],
+    "OUR": [
+        "biological process",
+        "COID844361"
+    ],
+    "oxygen uptake rates": [
+        "biological process",
+        "COID844361"
+    ],
+    "uridine": [
+        "nucleotide or nucleoside",
+        "COID485269"
+    ],
+    "uridine diphosphate–galactose": [
+        "substrates",
+        "COID990972"
+    ],
+    "udp–galactose": [
+        "substrates",
+        "COID990972"
+    ],
+    "valproic acid": [
+        "secondary raw materials",
+        "COID953809"
+    ],
+    "VPA": [
+        "secondary raw materials",
+        "COID953809"
+    ],
+    "vanadium": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID504836"
+    ],
+    "variable domains": [
+        "product attributes",
+        "COID284730"
+    ],
+    "variable domain": [
+        "product attributes",
+        "COID284730"
+    ],
+    "viability": [
+        "process parameters or process control",
+        "COID222142"
+    ],
+    "viabilities": [
+        "process parameters or process control",
+        "COID222142"
+    ],
+    "viable cell density": [
+        "cell culture parameters",
+        "COID384695"
+    ],
+    "viable cell densities": [
+        "cell culture parameters",
+        "COID384695"
+    ],
+    "VCD": [
+        "cell culture parameters",
+        "COID384695"
+    ],
+    "vcds": [
+        "cell culture parameters",
+        "COID384695"
+    ],
+    "volumetric recombinant antibody yields": [
+        "overall titer or batch yield",
+        "COID088953"
+    ],
+    "volumetric recombinant antibody yield": [
+        "overall titer or batch yield",
+        "COID088953"
+    ],
+    "vpa titrations": [
+        "overall titer or batch yield",
+        "COID479988"
+    ],
+    "vpa titration": [
+        "overall titer or batch yield",
+        "COID479988"
+    ],
+    "valproic acid titration": [
+        "overall titer or batch yield",
+        "COID479988"
+    ],
+    "valproic acid titrations": [
+        "overall titer or batch yield",
+        "COID479988"
+    ],
+    "waste product": [
+        "by-product or waste",
+        "COID007191"
+    ],
+    "waste products": [
+        "by-product or waste",
+        "COID007191"
+    ],
+    "product wastes": [
+        "by-product or waste",
+        "COID007191"
+    ],
+    "yield": [
+        "overall titer or batch yield",
+        "COID809703"
+    ],
+    "zinc": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID532261"
+    ],
+    "zinc finger nucleases": [
+        "enzyme",
+        "COID138449"
+    ],
+    "ZFN": [
+        "enzyme",
+        "COID138449"
+    ],
+    "α-2,3 linked sialic acid": [
+        "sugar (subset of carbon source)",
+        "COID449367"
+    ],
+    "α-2,3 linked sialic acids": [
+        "sugar (subset of carbon source)",
+        "COID449367"
+    ],
+    "α-2,3 sialyltransferase knockout-α-2,6 sialyltransferase stable clone": [
+        "genotype",
+        "COID226938"
+    ],
+    "α-2,3 sialyltransferases": [
+        "enzyme",
+        "COID229977"
+    ],
+    "α-2,6 and α-2,3 sialylation": [
+        "glycosylation",
+        "COID698284"
+    ],
+    "α-2,6 sialylation": [
+        "glycosylation",
+        "COID995015"
+    ],
+    "α-2,6 sialyltransferase": [
+        "enzyme",
+        "COID465059"
+    ],
+    "β-1,4 galactosyltransferase": [
+        "enzyme",
+        "COID856080"
+    ],
+    "β-1,4-galactosyltransferase": [
+        "enzyme",
+        "COID856080"
+    ],
+    "B4GALT": [
+        "enzyme",
+        "COID856080"
+    ],
+    "b4galt": [
+        "enzyme",
+        "COID856080"
+    ],
+    "β-1,4 galactosyltransferase activity": [
+        "cellular metabolic state",
+        "COID893155"
+    ],
+    "γ-carboxyglutamate gla": [
+        "amino acid (subset of substrates)",
+        "COID854639"
+    ],
+    "antibody": [
+        "antibody",
+        "COID278523"
+    ],
+    "antibodies": [
+        "antibody",
+        "COID278523"
+    ],
+    "CHO": [
+        "chinese hamster ovary (CHO)",
+        "COID806780"
+    ],
+    "chinese hamster ovary": [
+        "chinese hamster ovary (CHO)",
+        "COID806780"
+    ],
+    "chinese hamster ovary (cho)": [
+        "chinese hamster ovary (CHO)",
+        "COID806780"
+    ],
+    "cho cells": [
+        "chinese hamster ovary (CHO)",
+        "COID806780"
+    ],
+    "chinese hamster ovary cells": [
+        "chinese hamster ovary (CHO)",
+        "COID806780"
+    ],
+    "culture ph": [
+        "bioreactor conditions",
+        "COID689332"
+    ],
+    "ph of culture": [
+        "bioreactor conditions",
+        "COID689332"
+    ],
+    "monoclonal antibody-1": [
+        "monoclonal antibody",
+        "COID268135"
+    ],
+    "monoclonal antibody 1": [
+        "monoclonal antibody",
+        "COID268135"
+    ],
+    "monoclonal antibody1": [
+        "monoclonal antibody",
+        "COID268135"
+    ],
+    "mab1": [
+        "monoclonal antibody",
+        "COID268135"
+    ],
+    "mab-1": [
+        "monoclonal antibody",
+        "COID268135"
+    ],
+    "monoclonal antibody-2": [
+        "monoclonal antibody",
+        "COID770105"
+    ],
+    "monoclonal antibody 2": [
+        "monoclonal antibody",
+        "COID770105"
+    ],
+    "monoclonal antibody2": [
+        "monoclonal antibody",
+        "COID770105"
+    ],
+    "mab2": [
+        "monoclonal antibody",
+        "COID770105"
+    ],
+    "mab-2": [
+        "monoclonal antibody",
+        "COID770105"
+    ],
+    "oxygen partial pressure": [
+        "process condition",
+        "COID790678"
+    ],
+    "partial pressure of oxygen": [
+        "process condition",
+        "COID790678"
+    ],
+    "po2": [
+        "process condition",
+        "COID790678"
+    ],
+    "po 2": [
+        "process condition",
+        "COID790678"
+    ],
+    "partial pressure oxygen": [
+        "process condition",
+        "COID790678"
+    ],
+    "partial pressure of o2": [
+        "process condition",
+        "COID790678"
+    ],
+    "critical quality attributes": [
+        "product quality attributes",
+        "COID162607"
+    ],
+    "CQA": [
+        "product quality attributes",
+        "COID162607"
+    ],
+    "cqas": [
+        "product quality attributes",
+        "COID162607"
+    ],
+    "critical quality attribute": [
+        "product quality attributes",
+        "COID162607"
+    ],
+    "serene": [
+        "amino acid (subset of substrates)",
+        "COID865161"
+    ],
+    "ser": [
+        "amino acid (subset of substrates)",
+        "COID865161"
+    ],
+    "serenes": [
+        "amino acid (subset of substrates)",
+        "COID865161"
+    ],
+    "sialidases": [
+        "enzyme",
+        "COID070440"
+    ],
+    "glucosidase": [
+        "enzyme",
+        "COID809485"
+    ],
+    "glucosidases": [
+        "enzyme",
+        "COID809485"
+    ],
+    "glucosidase inhibitor": [
+        "secondary raw materials",
+        "COID600034"
+    ],
+    "glucosidase inhibitors": [
+        "secondary raw materials",
+        "COID600034"
+    ],
+    "glycosylation gene": [
+        "genotype",
+        "COID471026"
+    ],
+    "glycosylation genes": [
+        "genotype",
+        "COID471026"
+    ],
+    "immunogenic response": [
+        "clinical outcomes",
+        "COID740397"
+    ],
+    "immunogenic responses": [
+        "clinical outcomes",
+        "COID740397"
+    ],
+    "cell clone": [
+        "cell line",
+        "COID964819"
+    ],
+    "cell clones": [
+        "cell line",
+        "COID964819"
+    ],
+    "cell culture": [
+        "cell culture parameters",
+        "COID293414"
+    ],
+    "cell cultures": [
+        "cell culture parameters",
+        "COID293414"
+    ],
+    "particular cell clones": [
+        "cell line",
+        "COID964819"
+    ],
+    "particular cell clone": [
+        "cell line",
+        "COID964819"
+    ],
+    "metabolic state": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "cellular metabolic state": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "cellular metabolic states": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "metabolic states": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "mannose feed": [
+        "NYK",
+        "COID729034"
+    ],
+    "cultivation process": [
+        "media characteristics",
+        "COID699462"
+    ],
+    "cultivation processes": [
+        "media characteristics",
+        "COID699462"
+    ],
+    "cultivation mode": [
+        "media characteristics",
+        "COID699462"
+    ],
+    "cultivation modes": [
+        "media characteristics",
+        "COID699462"
+    ],
+    "cultivation condition": [
+        "media characteristics",
+        "COID699462"
+    ],
+    "cultivation conditions": [
+        "media characteristics",
+        "COID699462"
+    ],
+    "copper chloride": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID901856"
+    ],
+    "cucl2": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID901856"
+    ],
+    "cucl": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID901856"
+    ],
+    "copper(ii) chloride": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID901856"
+    ],
+    "copper chlorides": [
+        "trace metals or minerals (subset of secondary raw materials)",
+        "COID901856"
+    ],
+    "mycophenolic acid": [
+        "NYK",
+        "COID265438"
+    ],
+    "MPA": [
+        "NYK",
+        "COID265438"
+    ],
+    "mycophenolic acids": [
+        "NYK",
+        "COID265438"
+    ],
+    "dimethyl sulfoxide": [
+        "NYK",
+        "COID418525"
+    ],
+    "DMSO": [
+        "NYK",
+        "COID418525"
+    ],
+    "dimethyl sulfoxides": [
+        "NYK",
+        "COID418525"
+    ],
+    "integral of the viable cells": [
+        "NYK",
+        "COID204694"
+    ],
+    "integral of the viable cell": [
+        "NYK",
+        "COID204694"
+    ],
+    "IVC": [
+        "NYK",
+        "COID204694"
+    ],
+    "sirna": [
+        "NYK",
+        "COID416464"
+    ],
+    "sirna treated cultures": [
+        "NYK",
+        "COID416464"
+    ],
+    "sirna treated culture": [
+        "NYK",
+        "COID416464"
+    ],
+    "sirna treated bioreactors": [
+        "NYK",
+        "COID416464"
+    ],
+    "sirna treated bioreactor": [
+        "NYK",
+        "COID416464"
+    ],
+    "mannostatin": [
+        "NYK",
+        "COID631700"
+    ],
+    "mannostatin a": [
+        "NYK",
+        "COID631700"
+    ],
+    "gdp-mannose 4,6-dehydratase": [
+        "enzyme",
+        "COID390450"
+    ],
+    "GMDS": [
+        "enzyme",
+        "COID390450"
+    ],
+    "gdp mannose 4,6 dehydratase": [
+        "enzyme",
+        "COID390450"
+    ],
+    "gdp-mannose 4,6 dehydratase": [
+        "enzyme",
+        "COID390450"
+    ],
+    "gdp-mannose 4,6-dehydratases": [
+        "enzyme",
+        "COID390450"
+    ],
+    "peracetylation": [
+        "PTM",
+        "COID113739"
+    ],
+    "monosaccharide": [
+        "sugar (subset of carbon source)",
+        "COID882808"
+    ],
+    "monosaccharides": [
+        "sugar (subset of carbon source)",
+        "COID882808"
+    ],
+    "tagatose": [
+        "sugar (subset of carbon source)",
+        "COID779095"
+    ],
+    "2-deoxy-2,3-didehydro-n-acetylneuraminic acid": [
+        "sugar (subset of carbon source)",
+        "COID084256"
+    ],
+    "DANA": [
+        "sugar (subset of carbon source)",
+        "COID084256"
+    ],
+    "2-deoxy-2,3-didehydro-n-acetylneuraminic acids": [
+        "sugar (subset of carbon source)",
+        "COID084256"
+    ],
+    "glycosylated igg": [
+        "product quality profile",
+        "COID286158"
+    ],
+    "igg glycosylation": [
+        "product quality profile",
+        "COID286158"
+    ],
+    "igg-glycosylation": [
+        "product quality profile",
+        "COID286158"
+    ],
+    "monensin": [
+        "NYK",
+        "COID766386"
+    ],
+    "beta-galactoside alpha-2,6-sialyltransferase 1": [
+        "enzyme",
+        "COID749247"
+    ],
+    "ST6GAL1": [
+        "enzyme",
+        "COID749247"
+    ],
+    "st6gal1": [
+        "enzyme",
+        "COID749247"
+    ],
+    "ST6GAL1_OE_31": [
+        "enzyme",
+        "COID749247"
+    ],
+    "chimeric anti-gd2 antibody": [
+        "antibody",
+        "COID593142"
+    ],
+    "glycerolipid metabolism": [
+        "biological process",
+        "COID675248"
+    ],
+    "aminoglycan metabolism": [
+        "biological process",
+        "COID274429"
+    ],
+    "sphingolipid metabolism": [
+        "biological process",
+        "COID520329"
+    ],
+    "pentose phosphate pathway": [
+        "metabolic pathways",
+        "COID233901"
+    ],
+    "pentose phosphate pathways": [
+        "metabolic pathways",
+        "COID233901"
+    ],
+    "pentose phosphate pathway (ppp)": [
+        "metabolic pathways",
+        "COID233901"
+    ],
+    "PPP": [
+        "metabolic pathways",
+        "COID233901"
+    ],
+    "amino acid": [
+        "amino acid (subset of substrates)",
+        "COID693703"
+    ],
+    "amino acids": [
+        "amino acid (subset of substrates)",
+        "COID693703"
+    ],
+    "cellular metabolism": [
+        "biological process",
+        "COID903943"
+    ],
+    "procho5 medium": [
+        "media characteristics",
+        "COID781761"
+    ],
+    "powercho2": [
+        "chinese hamster ovary (CHO)",
+        "COID568973"
+    ],
+    "power-cho 2": [
+        "chinese hamster ovary (CHO)",
+        "COID568973"
+    ],
+    "power cho 2": [
+        "chinese hamster ovary (CHO)",
+        "COID568973"
+    ],
+    "power cho": [
+        "chinese hamster ovary (CHO)",
+        "COID568973"
+    ],
+    "powercho": [
+        "chinese hamster ovary (CHO)",
+        "COID568973"
+    ],
+    "glycolysis": [
+        "metabolic pathways",
+        "COID345655"
+    ],
+    "fc galactosylation": [
+        "product quality profile",
+        "COID097777"
+    ],
+    "fc-galactosylation": [
+        "product quality profile",
+        "COID097777"
+    ],
+    "galactosylated fc": [
+        "product quality profile",
+        "COID097777"
+    ],
+    "osmolarity": [
+        "process parameters or process control",
+        "COID052118"
+    ],
+    "monoclonal antibody-3": [
+        "monoclonal antibody",
+        "COID545724"
+    ],
+    "mab3": [
+        "monoclonal antibody",
+        "COID545724"
+    ],
+    "mab-3": [
+        "monoclonal antibody",
+        "COID545724"
+    ],
+    "monoclonal antibody 3": [
+        "monoclonal antibody",
+        "COID545724"
+    ],
+    "monoclonal antibody3": [
+        "monoclonal antibody",
+        "COID545724"
+    ],
+    "monoclonal antibody-4": [
+        "monoclonal antibody",
+        "COID488138"
+    ],
+    "mab4": [
+        "monoclonal antibody",
+        "COID488138"
+    ],
+    "mab-4": [
+        "monoclonal antibody",
+        "COID488138"
+    ],
+    "monoclonal antibody 4": [
+        "monoclonal antibody",
+        "COID488138"
+    ],
+    "monoclonal antibody4": [
+        "monoclonal antibody",
+        "COID488138"
+    ],
+    "butyric acid": [
+        "acid (subset of secondary raw materials)",
+        "COID365093"
+    ],
+    "butyric acids": [
+        "acid (subset of secondary raw materials)",
+        "COID365093"
+    ],
+    "BA": [
+        "acid (subset of secondary raw materials)",
+        "COID365093"
+    ],
+    "gene": [
+        "genotype",
+        "COID185502"
+    ],
+    "genes": [
+        "genotype",
+        "COID185502"
+    ],
+    "secreted igg4 antibody": [
+        "antibody",
+        "COID339494"
+    ],
+    "secreted igg4 antibodies": [
+        "antibody",
+        "COID339494"
+    ],
+    "dot fluctuation": [
+        "NYK",
+        "COID332196"
+    ],
+    "dot fluctuations": [
+        "NYK",
+        "COID332196"
+    ],
+    "ph and dissolved oxygen heterogeneities": [
+        "product quality attributes",
+        "COID571696"
+    ],
+    "ph and dissolved oxygen heterogeneity": [
+        "product quality attributes",
+        "COID571696"
+    ],
+    "ph and do heterogeneity": [
+        "product quality attributes",
+        "COID571696"
+    ],
+    "DOT": [
+        "NYK",
+        "COID003597"
+    ],
+    "dot-fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID853468"
+    ],
+    "dot fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID853468"
+    ],
+    "dot fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID853468"
+    ],
+    "dot-fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID853468"
+    ],
+    "metabolic byproducts": [
+        "by-product or waste",
+        "COID531384"
+    ],
+    "metabolic by-products": [
+        "by-product or waste",
+        "COID531384"
+    ],
+    "metabolic by-product": [
+        "by-product or waste",
+        "COID531384"
+    ],
+    "metabolic byproduct": [
+        "by-product or waste",
+        "COID531384"
+    ],
+    "cgntiii": [
+        "genotype",
+        "COID316428"
+    ],
+    "gnt iii": [
+        "genotype",
+        "COID316428"
+    ],
+    "gntiii": [
+        "genotype",
+        "COID316428"
+    ],
+    "CGNT III": [
+        "genotype",
+        "COID316428"
+    ],
+    "cgntiii gene": [
+        "genotype",
+        "COID316428"
+    ],
+    "cgntiii genes": [
+        "genotype",
+        "COID316428"
+    ],
+    "cgntiii expression": [
+        "genotype",
+        "COID316428"
+    ],
+    "vessels": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "vessel": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "do-fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "do fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "do-fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "do fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "ph-fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "ph fluctuated vessels": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "ph-fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "ph fluctuated vessel": [
+        "vessel or process parameter or production scale",
+        "COID322748"
+    ],
+    "deoxynojirimycin": [
+        "enzyme inhibitor",
+        "COID003598"
+    ],
+    "glucosidase inhibitor deoxynojirimycin": [
+        "enzyme inhibitor",
+        "COID003598"
+    ],
+    "st3 beta-galactoside alpha-2,3-sialyltransferase 6": [
+        "enzyme",
+        "COID373234"
+    ],
+    "st3gal6": [
+        "enzyme",
+        "COID373234"
+    ],
+    "ST3GAL6": [
+        "enzyme",
+        "COID373234"
+    ],
+    "glycan heterogeneity": [
+        "product quality attributes",
+        "COID262061"
+    ],
+    "glycan heterogeneities": [
+        "product quality attributes",
+        "COID262061"
+    ],
+    "heterogeneity of glycans": [
+        "product quality attributes",
+        "COID262061"
+    ],
+    "n-glycan heterogeneity": [
+        "product quality attributes",
+        "COID262061"
+    ],
+    "heterogeneity of n-glycans": [
+        "product quality attributes",
+        "COID262061"
+    ],
+    "pyroglutamate": [
+        "amino acid (subset of substrates)",
+        "COID083886"
+    ],
+    "pyroglutamic acid": [
+        "amino acid (subset of substrates)",
+        "COID083886"
+    ],
+    "5-oxoproline": [
+        "amino acid (subset of substrates)",
+        "COID083886"
+    ],
+    "pglu": [
+        "amino acid (subset of substrates)",
+        "COID083886"
+    ],
+    "n-terminal pyroglutamate": [
+        "amino acid (subset of substrates)",
+        "COID083886"
+    ],
+    "n-terminal pyroglutamic acid": [
+        "amino acid (subset of substrates)",
+        "COID083886"
+    ],
+    "immunoglobulin": [
+        "antibody",
+        "COID713543"
+    ],
+    "immunoglobulin g": [
+        "antibody",
+        "COID713543"
+    ],
+    "igg": [
+        "antibody",
+        "COID713543"
+    ],
+    "igg1": [
+        "antibody",
+        "COID713543"
+    ],
+    "immunoglobulins": [
+        "antibody",
+        "COID713543"
+    ],
+    "igg titers": [
+        "overall titer or batch yield",
+        "COID814559"
+    ],
+    "immunoglobulin titers": [
+        "overall titer or batch yield",
+        "COID814559"
+    ],
+    "igg titer": [
+        "overall titer or batch yield",
+        "COID814559"
+    ],
+    "immunoglobulin titer": [
+        "overall titer or batch yield",
+        "COID814559"
+    ],
+    "cell metabolic state": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "cell metabolic states": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "cells' metabolic state": [
+        "cellular metabolic state",
+        "COID934077"
+    ],
+    "cells' metabolic states": [
+        "cellular metabolic state",
+        "COID934077"
+    ]
+}

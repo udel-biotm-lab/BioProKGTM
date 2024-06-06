@@ -1,0 +1,1407 @@
+####Fix dep to Appos####
+RuleID : dep_appos_1
+Cond_0 : {pos:NNS}=N0
+Cond_1 : {pos:/(CD|NN)/;word:/.*[a-zA-Z]+.*/}=N1
+Cond_2 : {pos:/(CD|NN)/;word:/.*[a-zA-Z]+.*/}=N2
+Cond_3 : {}=N0 >dep {}=N1
+Cond_4 : {}=N1 >/conj:(and|or)/ {}=N2
+Action_1 : N0 >> appos_added >> N1
+Action_2 : N0 >> appos_added >> N2
+
+###Propagate conj mark edges
+RuleID : prop_mark_conj_1
+Cond_1 : {}=N0 >/conj:and|conj:or/ {}=N1
+Cond_2 : {}=N0 >mark {word:/to|by|in/}=N2
+Action_1 : N1 >> mark >> N2
+
+
+###Propagate dobj edges for conj
+RuleID : prop_dobj_conj_1
+Cond_1 : {pos:/VB.*/}=N0 >/conj:and|conj:or/ {pos:/VB.*/}=N1
+Cond_2 : {}=N1 >dobj {}=N2
+Cond_3 : {}=N0 !>dobj {}
+Action_1 : N0 >> dobj >> N2
+
+########Reduced relative clause:add nsubj########
+RuleID : openIE_redrcl_addsubj_1
+Cond_0 : {tag:/VBG/}=N0
+Cond_1 : {}=N0 <acl {tag:/(NN|NNS)/}=N1
+Action_1 : N0 >> nsubj >> N1
+
+########Reduced relative clause:add nsubjpass########
+RuleID : openIE_redrcl_addsubj_2
+Cond_0 : {tag:/VBN/}=N0
+Cond_1 : {}=N0 <acl {tag:/(NN|NNS)/}=N1
+Action_1 : N0 >> nsubjpass >> N1
+
+####unable to VB reduced reduced relative clause
+RuleID : xcomp_to_VB_red_rel_cl_1
+Cond_1 : {pos:VB}=N0
+Cond_2 : {pos:JJ;lemma:/(unable|able)/}=N1
+Cond_3 : {pos:/NN.*/}=N2 > amod {}=N1
+Cond_4 : {}=N1  >xcomp {}=N0
+Action_1 : N0 >> nsubj_null >> N2
+
+RuleID : null_advcl_by_VBG
+Cond_0 : {pos:/VB.*/}=N0
+Cond_1 : {}=N0 >mark {word:/by|in/}
+Cond_1 : {}=N1 >advcl  {}=N0
+Cond_2 : {}=N1 >/(nsubj|nsubjpass|nmod:agent)/  {}=N2
+Cond_3 : {}=N0 !> /(nsubj|nsubjpass|nmod:agent)/ {}
+Action_1 : N0 >> nsubj_null >> N2
+
+#####
+RuleID : null_advcl_to_VB
+Cond_0 : {pos:/VB.*/}=N0
+Cond_1 : {}=N0 >mark {word:to}
+Cond_1 : {}=N1 >advcl  {}=N0
+Cond_2 : {}=N1 >/(nsubj|nsubjpass|nmod:agent)/  {}=N2
+Cond_3 : {}=N0 !> /(nsubj|nsubjpass|nmod:agent)/ {}
+Cond_4 : {}=N1 >/dobj/ {}=N3
+Action_1 : N0 >> nsubj_null >> N2
+
+##### N2 VB via N0
+RuleID : null_nmod_via_NN_1
+Cond_0 : {pos:/NN.*/}=N0
+Cond_1 : {tag:/VB.*/}=N1 >/nmod:(via|through)/ {}=N0
+Cond_2 : {}=N1 >/(nsubj|nsubjpass|nmod:agent)/  {}=N2
+Cond_3 : {}=N0 !> /(nsubj|nsubjpass|nmod:agent)/ {}
+Cond_4 : {}=N0 !> /(nmod:of|compound)/ {}
+Action_1 : N0 >> nsubj_null >> N2
+
+RuleID : null_nmod_via_NN_2
+Cond_0 : {pos:/NN.*/}=N0
+Cond_1 : {tag:/VB.*/}=N1 >/nmod:(via|through)/ {}=N0
+Cond_2 : {}=N1 >/(nsubj|nsubjpass|nmod:agent)/  {}=N2
+Cond_3 : {}=N0 !> /(nsubj|nsubjpass|nmod:agent)/ {}
+Cond_4 : {}=N0 > /(nmod:of|compound)/ {}=N3
+Action_1 : N0 >> nsubj_null >> N2
+Action_1 : N0 >> dobj_null >> N3
+
+###### NEW RULE:
+RuleID : null_nmod_via_VBG_3
+Cond_0 : {pos:/VBG/}=N0
+Cond_1 : {tag:/VB.*/}=N1 >/advcl/ {}=N0
+Cond_2 : {}=N1 >/(nsubj|nsubjpass|nmod:agent)/  {}=N2
+Cond_3 : {}=N0 >mark {word:/via|through/}
+Action_1 : N0 >> nsubj_null >> N2
+
+
+RuleID : null_arg1_openIE_1
+Cond_1 : {pos:/VB.*/}=N0
+Cond_2 : {}=N0 >/arg0_null.*/ {}=N1
+Cond_3 : {}=N0 >dobj {}=N2
+Action_1 : N0 >> arg1_null >> N2
+
+####X prevented Y from VBG
+###Add to phase 1
+RuleID : prevent_1
+Cond_1 : {lemma:/(prevent|block|allow)/;pos:VBD}=N0
+Cond_2 : {}=N0 >advcl {pos:VBG}=N1
+Cond_3 : {}=N1 >mark {word:from}
+Cond_4 : {}=N0 >dobj {}=N2
+Action_1 : N0 >> dobj >> N1
+Action_2 : N1 >> nsubjpass >> N2
+
+###### NEW RULE:
+RuleID : null_nmodby_dobjnull_VBG
+Cond_0 : {pos:/VB.*/}=N0
+Cond_1 : {}=N0 >/nmod:by/ {pos:/NN.*/}=N1
+Cond_2 : {}=N0 >/(nsubj|nsubjpass|nmod:agent)/  {}=N3
+Cond_3 : {}=N1 !> /(nsubj|nsubjpass|nmod:agent)/ {}
+Cond_4 : {}=N1 >/nmod:of/ {}=N4
+Action_1 : N1 >> nsubj_null >> N3
+Action_2 : N1 >> dobj_null >> N4
+
+####X showed capacity to VB
+RuleID : capacity_to_VB_1
+Cond_1 : {pos:VB}=N0
+Cond_2 : {lemma:/(capacity|ability|capability)/}=N1
+Cond_3 : {}=N1 >/(acl|dep)/ {}=N0
+Cond_4 : {}=N0 >mark {lemma:to}
+Cond_5 : {}=N1 !> /nmod:of|nmod:poss/ {}
+Cond_6 : {lemma:/(show|display|exhibit|demonstrate|reveal)/}=N2 >dobj {}=N1
+Cond_7 : {}=N2 > nsubj {}=N3
+Action_1 : N0 >> nsubj_null >> N3
+
+####X lost|has capacity to VB
+RuleID : capacity_to_VB_2
+Cond_1 : {pos:VB}=N0
+Cond_2 : {lemma:/(capacity|ability|capability)/}=N1
+Cond_3 : {}=N1 >/(acl|dep)/ {}=N0
+Cond_4 : {}=N0 >mark {lemma:to}
+Cond_5 : {}=N1 !> /nmod:of|nmod:poss/ {}
+Cond_6 : {lemma:/(lost|retain|has|have|had)/}=N2 >dobj {}=N1
+Cond_7 : {}=N2 > nsubj {}=N3
+Action_1 : N0 >> nsubj_null >> N3
+
+
+
+####X capacity to VB
+RuleID : capacity_to_VB_3
+Cond_1 : {pos:VB}=N0
+Cond_2 : {lemma:/(capacity|ability|capability)/}=N1
+Cond_3 : {}=N1 >/(acl|dep)/ {}=N0
+Cond_4 : {}=N0 >mark {lemma:to}
+Cond_5 : {}=N1 > /nmod:of|nmod:poss/ {}=N3
+Action_1 : N0 >> nsubj_null >> N3
+
+
+####X defective for NN 
+RuleID : defective_for_NN
+Cond_1 : {lemma:defective;pos:JJ}=N0
+Cond_2 : {pos:/(NN|NNS)/}=N1
+Cond_3 : {}=N0 >/nmod:for/ {}=N1
+Cond_4 : {}=N0 >nsubj {}=N2
+Action_1 : N1 >> nsubj_null >> N2
+
+####X deficient in NN 
+RuleID : deficient_in_NN
+Cond_1 : {lemma:deficient;pos:JJ}=N0
+Cond_2 : {pos:/(NN|NNS)/}=N1
+Cond_3 : {}=N0 >/nmod:in/ {}=N1
+Cond_4 : {}=N0 >nsubj {}=N2
+Action_1 : N1 >> nsubj_null >> N2
+
+####X capable of NN 
+RuleID : capabale_of_NN
+Cond_1 : {lemma:capable;pos:JJ}=N0
+Cond_2 : {pos:/VBG/}=N1
+Cond_3 : {}=N0 >/advcl/ {}=N1
+Cond_4 : {}=N0 >nsubj {}=N2
+Action_1 : N1 >> nsubj_null >> N2
+
+####Copular Rule:X is a Y####
+RuleID : isa_1
+Cond_0 : {}=N0 >nsubj {}=N1
+Cond_1 : {}=N0 >cop {}=N2
+Cond_1 : {}=N0 >det {lemma:/(a|an|the)/}=N3
+Cond_2 : {}=N0 !> /case/ {tag:IN}
+Action_1 : N1 >> is_a >> N0
+Action_2 : N2 >> arg0_isa >> N1
+Action_3 : N2 >> arg1_isa >> N0
+
+####Copular Rule:X are Y####
+RuleID : isa_2
+Cond_0 : {pos:/NN|NNS/}=N0 >nsubj {}=N1
+Cond_1 : {}=N0 >cop {}=N2
+Cond_2 : {}=N0 !> /case/ {tag:IN}
+Action_1 : N1 >> is_a >> N0
+Action_2 : N2 >> arg0_isa >> N1
+Action_3 : N2 >> arg1_isa >> N0
+
+####Appos Rule####
+RuleID : isa_2
+Cond_0 : {}=N0 >/(appos|appos_added)/ {}=N1
+Action_1 : N0 >> is_a >> N1
+
+
+### NEW RULE
+#### N1 was confirmed or identified as a N2 ####
+RuleID : isa_as_2_passive
+Cond_0 : {tag:/VB.*/}=N3
+Cond_1 : {}=N3 >nsubjpass {}=N1
+Cond_2 : {}=N3 >/nmod:as/ {}=N2
+Action_1 : N3 >> arg0_isa >> N1
+Action_2 : N3 >> arg1_isa >> N2
+Action_3 : N1 >> is_a >> N2
+
+### NEW RULE
+#### N3 was shown/confirmed to be a N0 ####
+RuleID : isa_tobe_2_passive
+Cond_1 : {}=N0 >cop {}=N1
+Cond_2 : {}=N2 >/(ccomp|xcomp)/ {}=N0
+Cond_3 : {}=N2 >nsubjpass {}=N3
+Action_1 : N2 >> arg0_isa >> N3
+Action_2 : N2 >> arg1_isa >> N0
+Action_3 : N3 >> is_a >> N0
+
+### NEW RULE
+#### We confirmed or identified N1 as a N2 ####
+RuleID : isa_as_1_active
+Cond_0 : {tag:/VB.*/}=N3
+Cond_1 : {}=N3 >nsubj {}=N0
+Cond_2 : {}=N3 >dobj {}=N1
+Cond_3 : {}=N3 >/nmod:as/ {}=N2
+Action_1 : N3 >> arg0_isa >> N1
+Action_2 : N3 >> arg1_isa >> N2
+Action_3 : N1 >> is_a >> N2
+
+### NEW RULE
+#### We confirmed or identified N1 to be a N2 ####
+RuleID : isa_tobe_1_active
+Cond_0 : {tag:/VB.*/}=N3
+Cond_1 : {}=N3 >nsubj {}=N0
+Cond_2 : {}=N3 >dobj {}=N1
+Cond_3 : {}=N3 >/advcl/ {}=N2
+Cond_4 : {}=N2 >/cop/ {}=N4
+Action_1 : N3 >> arg0_isa >> N1
+Action_2 : N3 >> arg1_isa >> N2
+Action_3 : N1 >> is_a >> N2
+
+#####For each we need a reduced relative
+
+#### N1 act|serve as a N2 ####
+RuleID : isa_as_2_active
+Cond_0 : {tag:/VB.*/;lemma:/(serve|act|function|known)/}=N0
+Cond_1 : {}=N0 >nsubj {}=N1
+Cond_2 : {}=N0 >/nmod:as/ {}=N2
+Action_1 : N0 >> arg0_isa >> N1
+Action_2 : N0 >> arg1_isa >> N2
+Action_3 : N1 >> is_a >> N2
+
+####NP VB N1 as  N2_NNS####
+RuleID : isa_as_2_1
+Cond_0 : {tag:/VB.*/}=N0
+Cond_1 : {}=N0 >dobj {}=N1
+Cond_2 : {}=N0 >/nmod:as/ {tag:NNS}=N2
+Action_1 : N0 >> arg0_isa >> N1
+Action_2 : N0 >> arg1_isa >> N2
+Action_3 : N1 >> is_a >> N2
+
+########X encoding Y########
+RuleID : encoding_1
+Cond_0 : {tag:/VB.*/;lemma:/encode/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >dobj {}=N2
+Action_1 : N1 >> is_a >> N2
+
+RuleID : memberCollection_1
+Cond_1 : {tag:NNS}=N0 >/(nmod:such_as|nmod:including)/ {}=N1
+Action_1 : N0 >> member_collection >> N1
+
+RuleID : memberCollection_collective_1
+Cond_1 : {tag:NN;lemma:/(range|number|variety)/}=N0 >/(nmod:such_as|nmod:including)/ {}=N1
+Action_1 : N0 >> member_collection >> N1
+
+RuleID : memberCollection_2
+Cond_1 : {lemma:/(range|number|variety)/}=N0
+Cond_2 : {}=N0 >/nmod:of/ {tag:NNS}=N1
+Cond_1 : {}=N1 >/(nmod:such_as|nmod:including)/ {}=N2
+Action_1 : N0 >> member_collection >> N2
+
+####cov in binding
+RuleID : cov_in_binding_1
+Cond_1 : {lemma:/(reduction|loss|increase|decrease)/;pos:NN}=N0
+Cond_2 : {lemma:/(show|display|exhibit|demonstrate|reveal)/}=N1 >dobj {}=N0
+Cond_3 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|activity|ity)/;pos:NN}=N2
+Cond_4 : {}=N0 >/nmod:of|nmod:in/ {}=N2
+Cond_5 : {}=N0 >/nmod:for|nmod:to|nmod:with/=R1 {}=N3
+Action_1 : N2 >> nmod:poss_cov >> N3
+
+
+####cov in binding
+RuleID : cov_in_binding_2
+Cond_1 : {lemma:/(reduction|loss|increase|decrease)/;pos:NN}=N0
+Cond_2 : {lemma:/(show|display|exhibit|demonstrate|reveal)/}=N1 >dobj {}=N0
+Cond_3 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ity)/;pos:NN}=N2
+Cond_4 : {}=N0 >/nmod:of|nmod:in/ {}=N2
+Cond_5 : {}=N0 >/nmod:between/=R1 {}=N3
+Action_1 : N2 >> nmod:between_cov >> N3
+
+####cov in/of NN
+RuleID : cov_1
+Cond_0 : {lemma:/(increase|decrease|reduction|loss|gain|rate|amount|degree|abolishment|acceleration|alteration|attenuation|deregulation|diminishment|disruption|downregulation|down-regulation|elevation|elimination|enhancement|impairment|induction|inhibition|initiation|mediation|mitigation|modulation|prediction|prevention|promotion|reduction|repression|restriction|sensitization|stabilization|stimulation|suppression|upregulation|up-regulation|weakening|regulation)/}=N0
+Cond_1 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ctivity|ity|elease)/;pos:/NN.*/}=N1
+Cond_2 : {}=N0 >/(compound|nmod:of)/ {}=N1
+Action_1 : N0 >> cov >> N1
+
+####cov in/of NN
+RuleID : cov_2
+Cond_0 : {lemma:/(increase|decrease|reduction|loss|gain|rate|amount|degree|abolishment|acceleration|alteration|attenuation|deregulation|diminishment|disruption|downregulation|down-regulation|elevation|elimination|enhancement|impairment|induction|inhibition|initiation|mediation|mitigation|modulation|prediction|prevention|promotion|reduction|repression|restriction|sensitization|stabilization|stimulation|suppression|upregulation|up-regulation|weakening|regulation)/}=N0
+Cond_1 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ctivity|ity|elease)/;pos:/NN.*/}=N1
+Cond_2 : {}=N0 >/nmod:in/ {}=N1
+Cond_3 : {}=N0 !>/(nmod:of)/ {}
+Action_1 : N0 >> cov >> N1
+
+####cov_ing NN
+RuleID : cov_3
+Cond_0 : {lemma:/(abrogate|abolish|accelerate|alter|annul|antagonise|attenuate|augment|block|trigger|compromise|cause|change|confer|control|decrease|deregulate|diminish|disrupt|downregulate|down-regulate|elevate|eliminate|enable|enhance|facilitate|impact|impair|increase|induce|inhibit|initiate|limit|maintain|mediate|mitigate|modulate|predict|prevent|promote|reduce|regulate|repress|restore|restrict|sensitize|stabilize|stimulate|suppress|target|upregulate|up-regulate|weaken)/}=N0
+Cond_1 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ctivity|ity|elease)/;pos:/NN.*/}=N1
+Cond_2 : {}=N0 >/dobj/ {}=N1
+#Cond_3 : {}=N0 !>/(nmod:of)/ {}
+Action_1 : N0 >> cov >> N1
+
+########active verb form########
+RuleID : openIE_active_1
+Cond_0 : {tag:/VB.*/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >dobj {}=N2
+Action_1 : N0 >> arg0_opn >> N1
+Action_2 : N0 >> arg1_opn >> N2
+
+########passive verb form########
+RuleID : openIE_passive_1
+Cond_1 : {tag:/VB.*/}=N0
+Cond_2 : {}=N0 >/(nmod:agent|nsubj_null)/ {}=N1
+Cond_3 : {}=N0 >nsubjpass {}=N2
+Action_1 : N0 >> arg0_opn >> N1
+Action_2 : N0 >> arg1_opn >> N2
+
+########nominalized verb form########
+RuleID : openIE_nominalized_1
+Cond_1 : {tag:/NN/}=N0
+Cond_2 : {}=N0 >/nmod:by/ {}=N1
+Cond_3 : {}=N0 >/nmod:of|compound|nmod:poss/ {}=N2
+Action_1 : N0 >> arg0_opn >> N1
+Action_2 : N0 >> arg1_opn >> N2
+
+########nominalized verb form########
+##### NEW RULE
+RuleID : openIE_nominalized_2
+Cond_1 : {tag:/NN/}=N0
+Cond_2 : {}=N0 >/amod|compound/ {}=N1
+Cond_3 : {}=N0 >/nmod:of/ {}=N2
+Action_1 : N0 >> arg0_opn >> N1
+Action_2 : N0 >> arg1_opn >> N2
+
+########openIE verb prep form########
+RuleID : openIE_verb_prep_1
+Cond_0 : {tag:/VB.*/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubjpass|nsubj_null)/=R2 {}=N1
+Cond_2 : {}=N0 >/nmod:(in|for|with|on|to)/=R1 {}=N2
+Action_1 : N0 >> arg0_opn_R2 >> N1
+Action_2 : N0 >> arg1_opn_R1 >> N2
+
+########Reduced relative clause:active########
+#RuleID : openIE_redrcl_1
+#Cond_0 : {tag:/VB.*/}=N0
+#Cond_1 : {}=N0 <acl {tag:/(NN|NNS)/}=N1
+#Cond_2 : {}=N0 >dobj {}=N2
+#Action_1 : N0 >> arg0_opn >> N1
+#Action_2 : N0 >> arg1_opn >> N2
+
+########Reduced relative clause:passive########
+RuleID : openIE_redrcl_2
+Cond_0 : {tag:VBN}=N0
+Cond_1 : {}=N0 <acl {tag:/(NN|NNS)/}=N2
+Cond_2 : {}=N0 >/nmod:by/ {}=N1
+Action_1 : N0 >> arg0_opn >> N1
+Action_2 : N0 >> arg1_opn >> N2
+
+
+####X contribute to Y######
+RuleID : involvement_to_1
+Cond_1 : {pos:/VB.*/;lemma:contribute}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+####contribution of X to Y######
+RuleID : involvement_to_2
+Cond_1 : {pos:/NN/;word:/(?i:contribution)/}=N0
+Cond_1 : {}=N0 >/(nmod:of|nmod:poss|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+
+####X is invovlved in Y######
+RuleID : involvement_in_1
+Cond_1 : {pos:/VBN/;lemma:/(involve|implicate)/}=N0
+Cond_1 : {}=N0 >/(nsubjpass|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:in/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+####Involvement of X in Y######
+RuleID : involvement_in_2
+Cond_1 : {pos:/NN/;word:/(?i:involvement|implication|participation)/}=N0
+Cond_1 : {}=N0 >/(nmod:of|nmod:poss|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:in/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+####X participates in Y######
+RuleID : involvement_in_3
+Cond_1 : {pos:/(VBZ|VBD)/;lemma:participate}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:in/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+
+####TODO function, importance??####
+######X plays/has a role in Y########
+RuleID : involvement_role_1
+Cond_1 : {lemma:/(play|has|have|had)/}=N2
+Cond_1 : {}=N2 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N2 >/dobj/ {lemma:role}=N0
+Cond_3 : {}=N2 >/nmod:in/ {}=N3
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N3
+
+######X has a role in Y; alt########
+RuleID : involvement_role_2
+Cond_1 : {tag:/VB.*/;lemma:/(has|have|had)/}=N2
+Cond_1 : {}=N2 >/dobj/ {lemma:role}=N0
+Cond_2 : {}=N2 >/(nsubj|nsubj_null)/ {}=N1
+Cond_3 : {}=N0 >/nmod:in/ {}=N3
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N3
+
+####Role of/for X in Y######
+RuleID : involvement_in_3
+Cond_1 : {lemma:role}=N0
+Cond_1 : {}=N0 >/(nmod:of|nmod:poss|nmod:for|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:in/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+####X required for/in Y######
+RuleID : involvement_for_1
+Cond_1 : {pos:/VBN/;lemma:/(need|require)/}=N0
+Cond_1 : {}=N0 >/(nsubjpass|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:(for|in)/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+####X important for/in Y######
+RuleID : involvement_for_2
+Cond_1 : {pos:/(JJ|NN)/;lemma:/(important|necessary|indispensable|sufficient|responsible|requisite|prerequisite|essential|critical|crucial)/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:(for|in)/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+
+######X has an effect on Y########
+RuleID : involvement_on_1
+Cond_1 : {lemma:/(has|have|had)/}=N2
+Cond_1 : {}=N2 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N2 >/dobj/ {lemma:/(effect|influence)/}=N0
+Cond_3 : {}=N2 >/nmod:on/ {}=N3
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N3
+
+######X has an effect on Y; alt########
+RuleID : involvement_on_2
+Cond_1 : {tag:/VB.*/;lemma:/(has|have|had)/}=N2
+Cond_2 : {}=N2 >/dobj/ {lemma:/(effect|influence)/}=N0
+Cond_2 : {}=N2 >/(nsubj|nsubj_null)/ {}=N1
+Cond_3 : {}=N0 >/nmod:on/ {}=N3
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N3
+
+####Effect of X on Y######
+RuleID : involvement_on_3
+Cond_1 : {lemma:/(effect|influence)/}=N0
+Cond_1 : {}=N0 >/(nmod:of|nmod:poss|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:on/ {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+########X involvement_trigger_VB Y########
+#####use openIE rules before this#####
+RuleID : involvement_trigger_openIE_1
+Cond_0 : {lemma:/(influence|affect|allow|initiate)/}=N0
+Cond_1 : {}=N0 >arg0_opn {}=N1
+Cond_2 : {}=N0 >arg1_opn {}=N2
+Action_1 : N0 >> arg0_inv >> N1
+Action_2 : N0 >> arg1_inv >> N2
+
+####X is associated with Y######
+RuleID : association_with_1
+Cond_1 : {pos:/VB.*/;lemma:/(associate|correlate|complementarity)/}=N0
+Cond_1 : {}=N0 >/(nsubjpass|nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:with/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###NEW RULE: Modify the rule association_with_2 to include the complementarity as well as nmod:to
+###Association of N1 with N2 ###
+RuleID : association_with_2
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(associate|correlate|association|correlation|complementarity)/}=N0
+Cond_1 : {}=N0 >/nmod:of/ {}=N1
+Cond_2 : {}=N0 >/(nmod:with|nmod:to)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+#### N1 is linked to N2 ######
+RuleID : association_to_1
+Cond_1 : {pos:/VBN/;lemma:/(link)/}=N0
+Cond_1 : {}=N0 >/(nsubjpass|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###Association between N1 and N2 ###
+RuleID : association_between_1
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(associate|correlate|association|correlation|complementarity)/}=N0
+Cond_2 : {}=N0 >/nmod:between/ {}=N1
+Cond_3 : {}=N1 >/conj:and/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###Association was found between N2 and N3 ###
+RuleID : association_between_1
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(associate|correlate|association|correlation|complementarity)/}=N0
+Cond_2 : {tag:VBN}=N1 >/(nsubj|nsubjpass)/ {}=N0
+Cond_2 : {}=N1 >/nmod:between/ {}=N2
+Cond_3 : {}=N2 >/conj:and/ {}=N3
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N3
+
+###Use open_ie rules before this
+
+########X regulate_trigger_VB Y########
+RuleID : regulate_trigger_openIE_1
+Cond_0 : {lemma:/(abrogate|abolish|accelerate|alter|annul|antagonise|attenuate|augment|block|trigger|compromise|cause|change|confer|control|decrease|deregulate|diminish|disrupt|downregulate|down-regulate|elevate|eliminate|enable|enhance|facilitate|impact|impair|increase|induce|inhibit|initiate|limit|maintain|mediate|mitigate|modulate|predict|prevent|promote|reduce|regulate|repress|restore|restrict|sensitize|stabilize|stimulate|suppress|target|upregulate|up-regulate|weaken|interfere)/}=N0
+Cond_1 : {}=N0 >arg0_opn {}=N1
+Cond_2 : {}=N0 >arg1_opn {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+########X regulate_trigger_NN Y########
+RuleID : regulate_trigger_openIE_2
+Cond_0 : {lemma:/(abolishment|acceleration|alteration|attenuation|deregulation|diminishment|disruption|downregulation|down-regulation|elevation|elimination|enhancement|impairment|induction|inhibition|initiation|mediation|mitigation|modulation|prediction|prevention|promotion|reduction|regulation|repression|restriction|sensitization|stabilization|stimulation|suppression|upregulation|up-regulation|weakened)/}=N0
+Cond_1 : {}=N0 >arg0_opn {}=N1
+Cond_2 : {}=N0 >arg1_opn {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+########X isa regulator for Y#######
+RuleID : regulate_trigger__3
+Cond_0 : {lemma:/(deregulator|disruptor|downregulator|down-regulator|enhancer|inducer|inhibitor|initiator|mediator|mitigator|modulator|predictor|preventer|promoter|reducer|regulator|repressor|stimulator|suppressor|upregulator|up-regulator)/}=N0
+Cond_1 : {}=N0 >nsubj {}=N1
+Cond_2 : {}=N0 >/nmod:of|nmod:for/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+#####NEW RULE ADDED:
+######## regulator of/for Y #######
+RuleID : regulate_trigger__4
+Cond_0 : {lemma:/(deregulator|disruptor|downregulator|down-regulator|enhancer|inducer|inhibitor|initiator|mediator|mitigator|modulator|predictor|preventer|promoter|reducer|regulator|repressor|stimulator|suppressor|upregulator|up-regulator)/}=N0
+Cond_1 : {}=N0 >/nmod:of|nmod:for/ {}=N2
+Action_1 : N0 >> arg0_reg >> N0
+Action_2 : N0 >> arg1_reg >> N2
+
+
+
+######NEW RULE ADDED:
+### its regulator M ###
+RuleID : its-regulator-mirna
+Cond_0 : {}=N1 >compound {lemma:regulator}=N0
+Cond_2 : {}=N1 >/(nmod:poss)/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+
+######NEW RULE ADDED:
+### M-mediated-expression ###
+###RuleID : hyphen-mediated-EW
+###Cond_0 : {pos:JJ;word:/.*-mediated/}=N0
+###Cond_1 : {pos:/(NN.*)/}=N1 >amod {}=N0
+###Action_1 : N0 >> arg1_reg >> N1
+###Action_2 : N0 >> arg0_reg >> N0
+
+######## NEW RULE
+########X isa regulator for Y#######
+########
+RuleID : regulate_trigger__4
+Cond_0 : {lemma:/(deregulator|disruptor|downregulator|down-regulator|enhancer|inducer|inhibitor|initiator|mediator|mitigator|modulator|predictor|preventer|promoter|reducer|regulator|repressor|stimulator|suppressor|upregulator|up-regulator)/}=N0
+Cond_1 : {}=N1 >is_a {}=N0
+Cond_2 : {}=N0 >/nmod:of|nmod:for/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+
+####X-dependent Y
+###RuleID : phos-dependent_1
+###Cond_1 : {lemma:/.*-dependent/}=N0
+###Cond_2 : {pos:/NN|NNS/}=N1 >amod {}=N0
+###Action_1 : N0 >> arg0_reg >> N0
+###Action_2 : N0 >> arg1_reg >> N1
+
+#### N1 in a phos-dependent manner
+RuleID : phos-dependent_manner_1
+Cond_1 : {lemma:/phosphorylation-dependent/}=N0
+Cond_2 : {lemma:manner}=N1
+Cond_3 : {}=N1 >amod {}=N0
+Cond_4 : {}=N2 >/nmod:in/ {}=N1
+Action_1 : N1 >> arg0_reg >> N0
+Action_2 : N1 >> arg1_reg >> N2
+
+###X is phos-dependent
+RuleID : phos-dependent_1
+Cond_1 : {lemma:/phosphorylation-dependent/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Action_1 : N0 >> arg0_reg >> N0
+Action_2 : N0 >> arg1_reg >> N1
+
+########X regulate_trigger_VB_require Y########
+RuleID : regulate_trigger_openIE_3
+Cond_0 : {lemma:/(require|need)/}=N0
+Cond_1 : {}=N0 >arg0_opn {}=N1
+Cond_2 : {}=N0 >arg1_opn {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+####X result in Y######
+RuleID : regulation_in_1
+Cond_1 : {pos:/VB.*/;lemma:/(result)/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:in/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+####X interfere with Y######
+RuleID : regulation_with_1
+Cond_1 : {pos:/VB.*/;lemma:/(interfere)/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:with/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+
+####X dependent on Y######
+RuleID : dependent_on_1
+Cond_1 : {lemma:/(depend|dependent)/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:on|nmod:upon/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+####X led to Y######
+RuleID : regulation_to_1
+Cond_1 : {pos:/VB.*/;lemma:/(lead|led)/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+########X showed REG Y########
+RuleID : showed_impact_1
+Cond_0 : {lemma:/(show|display|exhibit|demonstrate)/}=N0
+Cond_1 : {}=N0 >/(nsubj|nsubj_null)/ {}=N1
+Cond_2 : {}=N0 >dobj {}=N2
+Cond_3 : {}=N2 >amod {}=N3
+Action_1 : N3 >> arg0_reg >> N1
+Action_2 : N3 >> arg1_reg >> N2
+
+###Use after ass, inv, reg rules
+
+###################### Add new rules here #############################
+###N1 correlates with N2 ###
+###DOESN’T WORK FOR X HAS THE POTENTIAL TO CORRELATE WITH Y
+RuleID : X correlates with Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(correlate)/}=N0
+Cond_1 : {}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/(nmod:with)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###N1 correlating to  N2-1 ###
+RuleID : X,  correlatings to Y-1
+Cond_1 : {}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/xcomp/ {word:/(correlating)/}=N2
+Cond_3 : {}=N2 >/(nmod:with|nmod:to)/ {}=N3
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N3
+
+###N1 correlating to  N2-2 ###
+RuleID : X,  correlating to Y-2
+Cond_1 : {pos:/(VBN)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N0 >/xcomp/ {word:/(correlating)/}=N2
+Cond_4 : {}=N2 >/(nmod:with|nmod:to)/ {}=N3
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N3
+
+###N1 was correlated ] with N2 ###
+RuleID : X correlates with Y passive
+Cond_1 : {pos:/(VB.*)/;lemma:/(correlate)/}=N0
+Cond_1 : {}=N0 >/nsubjpass/ {}=N1
+Cond_2 : {}=N0 >/(nmod:with)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###N1 has the potential to correlate with N2###
+###add association triggers###
+RuleID : X has the potential to correlate with Y
+Cond_1 : {pos:/(VB)/;word:/(correlate)/}=N0
+Cond_2 : {pos:/(NN.*)/}=N1 >/acl/ {}=N0
+Cond_3 : {}=N2 >/dobj/ {}=N1
+Cond_4 : {}=N2 >/nsubj/ {}=N3
+Cond_5 : {}=N0 >/nmod:with/ {}=N4
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N4
+
+
+###Association of N1 with N2 ###
+RuleID : association_with_2
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(associate|correlate|association|correlation|complementarity)/}=N0
+Cond_1 : {}=N0 >/nmod:of/ {}=N1
+Cond_2 : {}=N0 >/(nmod:with|nmod:to)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###Association of N1 with N2 ###
+RuleID : association_with_2
+Cond_1 : {pos:/(VBG)/;lemma:/(associate|correlate|associate)/}=N0
+Cond_1 : {}=N1 >/xcomp/ {}=N0
+Cond_2 : {}=N1 >/nmod:.*/ {}=N3
+Cond_3 : {}=N0 >/(nmod:with|nmod:to)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N2
+
+
+###N1 varies with N2 ###
+RuleID : X varies with Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(vary)/}=N0
+Cond_1 : {}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/(nmod:with)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+
+###N1 has the potential to increase N2###
+###add regulation triggers###
+RuleID : X has the potential to increase Y
+Cond_1 : {pos:/(VB)/;word:/(increase|decrease|reduce|improve)/}=N0
+Cond_2 : {pos:/(NN.*)/}=N1 >/acl/ {}=N0
+Cond_3 : {}=N2 >/dobj/ {}=N1
+Cond_4 : {}=N2 >/nsubj/ {}=N3
+Cond_5 : {}=N0 >/dobj/ {}=N4
+Action_1 : N0 >> arg0_reg >> N3
+Action_2 : N0 >> arg1_reg >> N4
+
+###N1 acl increase N2###
+###add regulation triggers###
+RuleID : X  acl increase Y
+Cond_1 : {pos:/(VB)/;word:/(increase|decrease|improve|reduce)/}=N0
+Cond_2 : {pos:/(NN.*)/}=N1 >/acl/ {}=N0
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###N1 decrease over N2 ###
+###add regulation NN triggers###
+RuleID : X decrease over Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(decrease|increase|reduce|improve)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/(nmod:over)/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+
+###decrease in N1 over N2 ###
+###add regulation NN triggers###
+RuleID : decrease in X over Y
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(decrease|increase|reduce|improve)/}=N0
+Cond_2 : {}=N0 >/nmod:in/ {}=N1
+Cond_3 : {}=N1 >/(nmod:with|nmod:over)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N1
+
+
+###decrease in N1 over N2 ###
+###add regulation NN triggers###
+RuleID : decrease in X over Y-2
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(decrease|increase|improve|reduce)/}=N0
+Cond_1 : {}=N0 >/nmod:in/ {}=N1
+Cond_2 : {}=N0 >/(nmod:with|nmod:over)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N1
+
+###X decreased with N2###
+###add regulation NN triggers###
+RuleID : decrease in X over Y-2
+Cond_1 : {lemma:/(decrease|increase|improve|reduce)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/(nmod:with|nmod:over)/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+
+###X is decreased in Y###
+###add regulation NN triggers###
+RuleID : X is decrease in Y
+Cond_1 : {word:/(decreased|increased|improved|reduced)/}=N0
+Cond_1 : {}=N0 >/(nmod:in)/ {}=N2
+Cond_2 : {}=N0 >/(nsubjpass)/ {}=N1
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###X fluctuate Y###
+###RuleID : X fluctuate Y
+###Cond_1 : {pos:/(NN|NNS)/;lemma/(fluctuate)/}=N0
+###Cond_1 : {}=N0 >/nmod:with/ {}=N2
+###Cond_2 : {}=N0 >/(nsubj)/ {}=N1
+###Action_1 : N0 >> arg0_ass >> N1
+###Action_2 : N0 >> arg1_ass >> N2
+
+###link between N1 and N2 ###
+###add associattion NN triggers###
+RuleID : link between X and Y
+Cond_1 : {pos:/(NN|NNS)/;lemma:/(link|linkage)/}=N0
+Cond_2 : {}=N0 >/nmod:between/ {}=N1
+Cond_2 : {}=N1 >/(conj:and)/ {}=N2
+Cond_4 : {}=N0 >/nmod:between/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N1
+
+###l N1 impact N2 ###
+###add associattion NN triggers###
+RuleID : X impacts Y
+Cond_1 : {lemma:/(impact|effect|influence)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###l impact of N1 on N2 ###
+###add associattion NN triggers###
+RuleID : impact of X on Y
+Cond_1 : {lemma:/(impact|effect|influence)/}=N0 >/nmod:of/ {}=N1
+Cond_2 : {}=N0 >/nmod:on/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###l N1 has impact on N2 ###
+###add associattion NN triggers###
+RuleID : X has impact on Y
+Cond_1 : {}=N1 >/dobj/ {lemma:/(impact|effect|influence)/}=N0
+Cond_2 : {}=N0 >/nmod:on/ {}=N3
+Cond_3 : {}=N1 >/nsubj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N3
+
+###l N1 has impact on N2 -2###
+###add associattion NN triggers###
+RuleID : X has impact on Y 2
+Cond_1 : {}=N1 >/dobj/ {lemma:/(impact|effect|influence)/}=N0
+Cond_2 : {}=N0 >/nmod:on/ {}=N3
+Cond_3 : {}=N2 >/acl/ {}=N1
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N3
+
+
+###l N1 demonstrated effect on N2 ###
+RuleID : X demonstrated effect on Y
+Cond_1 : {}=N1 >/dobj/ {lemma:/(impact|effect|influence)/}=N0
+Cond_2 : {}=N0 >/nmod:on/ {}=N3
+Cond_3 : {}=N1 >/nsubj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N3
+
+###l N1 had effect on N2-1 ###
+RuleID : X had effect on Y
+Cond_1 : {}=N1 >/dobj/ {lemma:/(impact|effect|influence)/}=N0
+Cond_2 : {}=N1 >/nmod:on/ {}=N3
+Cond_3 : {}=N1 >/nsubj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N3
+
+
+
+###l impact on N1 in terms of N2 ###
+###add associattion NN triggers###
+RuleID : X has impact on Y
+Cond_1 : {lemma:/(impact|effect|influence)/}=N0 >/nmod:on/ {}=N1
+Cond_2 : {}=N0 >/nmod:in/ {word:/terms/}=N2
+Cond_3 : {}=N2 >/nmod:of/ {}=N3
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N1
+
+###l effect on N1 from N2 ###
+###add associattion NN triggers###
+RuleID : impact on X from Y
+Cond_1 : {lemma:/(impact|effect|influence)/}=N0 >/nmod:on/ {}=N1
+Cond_2 : {}=N1 >/(nmod:fromnmod:at)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N1
+
+###l effect on N1 from N2 ###
+###add associattion NN triggers###
+RuleID : impact on X from Y
+Cond_1 : {lemma:/(impact|effect|influence)/}=N0 >/nmod:on/ {}=N1
+Cond_2 : {}=N0 >/(nmod:from|nmod:at)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N1
+
+###N1 determines N2###
+###add association triggers###
+RuleID : X determines/deflects Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(determine|deflect|influence)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###N1 produces N2###
+RuleID : X produces Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(produce|yeild|generate)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###N1 to improve N2###
+###add regulation triggers###
+RuleID : X was shown to improve Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(improve)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###N1 related to N2###
+###add association triggers###
+RuleID : X unrelated to  Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(relate|unrelate|related|unrelated)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###N1 leads to N2###
+###add association triggers###
+RuleID : X lead to  Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(lead)/}=N0
+Cond_2 : {}=N0 >/(nsubj)/ {}=N1
+Cond_3 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###N1 rel clauseleads to N2###
+###add association triggers###
+RuleID : X, lead to  Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(lead)/}=N0
+Cond_2 : {}=N1 >/(acl:relcl)/ {}=N0
+Cond_3 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###N1 results from  N2###
+###add association triggers###
+RuleID : X lead to  Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(result)/}=N0
+Cond_2 : {}=N0 >/(nsubj)/ {}=N1
+Cond_3 : {}=N0 >/nmod:from/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+
+###N1 improved N2###
+###add regulation triggers###
+RuleID : X improves Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(improve|increase|decrease|reduce)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+
+###improve N1 through  N2###
+###add regulation triggers###
+RuleID : improve Y through X  Y
+Cond_1 : {pos:/(VB.*)/;lemma:/(improve|increase|decrease|reduce)/}=N0
+Cond_2 : {}=N0 >/dobj/ {}=N1
+Cond_3 : {}=N0 >/nmod:through/ {pos:/(NN.*)/}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+
+
+###N1 was improved through N2###
+###add regulation triggers###
+RuleID : Y was improved though Y
+Cond_1 : {lemma:/(improve| improved|increase|increased|decrease|decreased|reduce|reduced)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N0 >/nmod:through/ {pos:/(NN.*)/}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+###N1 was improved through N2###
+###add regulation triggers###
+RuleID : Y was improved though Y
+Cond_1 : {pos:/(VB.*)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N0 >/nmod:through/ {pos:/(NN.*)/}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+###N1 improved through N2###
+###add regulation triggers###
+RuleID : Y was improved though Y
+Cond_1 : {pos:/(VB.*)/; lemma:/(improve| improved|increase|increased|decrease|decreased|reduce|reduced)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:through/ {pos:/(NN.*)/}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+###N1 improved from N2###
+###add regulation triggers###
+RuleID : Y was improved though Y
+Cond_1 : {pos:/(VB.*)/; lemma:/(improve| improved|increase|increased|decrease|decreased|reduce|reduced)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:from|nmod:at/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+
+###N1 result of  N2###
+RuleID : Y was .. to be result of Y
+Cond_1 : {lemma:/(result)/}=N0
+Cond_2 : {}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:of/ {pos:/(NN.*)/}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+###N1 result in N2###
+RuleID : Y was .. to be result of Y
+Cond_1 : {lemma:/(result)/}=N0
+Cond_2 : {}=N0 >/csubj/ {}=N1
+Cond_3 : {}=N1 >/(dobj|nmod:.*)/ {}=N2
+Cond_3 : {}=N0 >/nmod:in/ {pos:/(NN.*)/}=N3
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N3
+
+
+###N1 has something for N2###
+###add regulation triggers###
+RuleID : X has something for Y
+Cond_1 : {word:/(has|had)/}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/nmod:for/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###N1 has  N2###
+###add regulation triggers###
+RuleID : X has Y
+Cond_1 : {word:/(has|had|have)/}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+
+###differenece in x of y###
+RuleID : difference in X of Y
+Cond_1 : {lemma:/difference/}=N0 >/nmod:in/ {}=N1
+Cond_2 : {}=N1 >/nmod:of/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###X is strategy to change y###
+###add alternate triggers to strategy ###
+### add regulation triggers for N1 ###
+RuleID : X is strategy to reduce Y
+Cond_1 : {pos:/(NN)/;word:/(strategy)/}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/acl/ {}=N2
+Cond_3 : {}=N2 >/dobj/ {}=N3
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N3
+
+###X represents strategy to change y###
+###add alternate triggers to strategy ###
+### add regulation triggers for N1 ###
+RuleID : X is strategy to reduce Y
+Cond_1 : {lemma:/(represent)/}=N4 >/dobj/ {pos:/(NN)/;word:/(strategy)/}=N0 
+Cond_2 : {}=N4 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/acl/ {}=N2
+Cond_3 : {}=N2 >/dobj/ {}=N3
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N3
+
+###X offers strategy for y###
+###add alternate triggers to strategy ###
+### add regulation triggers for N1 ###
+RuleID : X is strategy to reduce Y
+Cond_1 : {lemma:/(offer)/}=N3 >/dobj/ {pos:/(NN)/;word:/(strategy)/}=N0 
+Cond_2 : {}=N3 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/nmod:for/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###X due to Y ###
+RuleID : X due Y
+Cond_1 : {word:/(due)/}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/nmod:to/ {}=N2
+Action_1 : N0 >> arg0_reg >> N2
+Action_2 : N0 >> arg1_reg >> N1
+
+###X cause for Y ###
+RuleID : X cause for Y
+Cond_1 : {word:/(cause)/}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/nmod:for/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+###X cause Y ###
+RuleID : X causes Y
+Cond_1 : {word:/(cause)/}=N0 >/nsubj/ {}=N1
+Cond_2 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_reg >> N1
+Action_2 : N0 >> arg1_reg >> N2
+
+
+###X was observed for Y###
+###add more triggers###
+RuleID : X was observed for Y
+Cond_1 : {word:/(observed|assessed|investigated|examined|evaluated|monitored)/}=N0 >/nsubjpass/ {}=N1
+Cond_2 : {}=N0 >/nmod:for/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+
+###X is shown to provide Y###
+RuleID : X is shown to provide Y
+Cond_1 : {lemma:/(provide)/}=N0 >/nsubj/ {}=N1
+Cond_3 : {}=N0 >/dobj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###when arg0 is nsubjpass advcl nsubjpass arg1###
+###currently not checking for cov###
+RuleID : when arg0 advcl
+Cond_1 : {pos:/(VBN)/}=N0 >/advcl/ {}=N1
+Cond_2 : {}=N1 >/advmod/ {word:/(when|during)/}=N2
+Cond_3 : {}=N1 >/nsubjpass/ {}=N3
+Cond_4 : {}=N0 >/nsubjpass/ {}=N4
+Action_1 : N0 >> arg0_ass >> N4
+Action_2 : N0 >> arg1_ass >> N3
+
+###when arg0 is nsubjpass advcl nsubj arg1###
+###currently not checking for cov###
+RuleID : when arg0 advcl
+Cond_1 : {}=N0 >/advcl/ {}=N1
+Cond_2 : {}=N1 >/advmod/ {word:/(when|during)/}=N2
+Cond_3 : {}=N1 >/nsubjpass/ {}=N3
+Cond_4 : {}=N0 >/nsubj/ {}=N4
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N4
+
+###upon arg0 nsubj arg1###
+###currently not checking for cov###
+RuleID : upon arg0 arg1 was vbn
+Cond_1 : {pos:/VBN/}=N0 >/nmod:upon/ {}=N1
+Cond_2 : {}=N0 >/nsubj/ {}=N2
+Action_1 : N0 >> arg0_ass >> N1
+Action_2 : N0 >> arg1_ass >> N2
+
+###arg0 nsubjpass of observed nmod arg1###
+###currently not checking for cov###
+RuleID : arg0 was observed nmod arg1 
+Cond_1 : {word:/(indicated|observed|assessed|investigated|determined|shown|revealed|analyzed)/}=N0 >/nsubjpass/ {}=N1
+Cond_2 : {}=N0 >/(nmod:.*)/ {}=N2
+Action_1 : N0 >> arg0_ass >> N2
+Action_2 : N0 >> arg1_ass >> N1
+
+###arg0 relclause indicated by arg1 -1###
+###currently not checking for cov###
+RuleID : arg0 as indicated by arg1-1
+Cond_1 : {}=N1 >/advcl/ {word:/(indicated|observed|assessed|investigated|determined|shown|revealed|analyzed)/}=N0 
+Cond_2 : {}=N0 >/(nmod:by|agent)/ {pos:/(NN.*)/}=N2
+Cond_3 : {}=N1 >/nsubj/ {}=N3
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N2
+
+
+### do X using Y###
+###currently not checking for cov###
+RuleID : do arg0 using  arg1 
+Cond_1 : {}=N0 >/xcomp/ {word:/using/}=N1 
+Cond_2 : {}=N0 >/dobj/ {}=N2
+Cond_3 : {}=N1 >/dobj/ {}=N3
+Cond_4 : {}=N2 >/(dobj|nmod:.*)/ {}=N4
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N4
+
+###X relative clause for comparison###
+RuleID : X acl VBN nmod:
+Cond_1 : {}=N1 >/acl/ {pos:/VBN/}=N0
+Cond_2 : {}=N0 >/(nmod:.*)/ {}=N2
+Action_1 : N0 >> arg1_ass >> N1
+Action_2 : N0 >> arg0_ass >> N2
+
+###X happens due to Y###
+RuleID : X nsubj nmod:due to Y
+Cond_1 : {}=N0 >/nmod:due_to/ {}=N1
+Cond_2 : {}=N0 >/nsubj/ {}=N2
+Action_1 : N0 >> arg0:ass >> N1
+Action_2 : N0 >> arg1:ass >> N2
+
+###X is changed due to Y###
+RuleID : X nsubjpass nmod:due to Y
+Cond_1 : {}=N0 >/nmod:due_to/ {}=N1
+Cond_2 : {}=N0 >/nsubjpass/ {}=N2
+Action_1 : N0 >> arg0:ass >> N1
+Action_2 : N0 >> arg1:ass >> N2
+
+###X was result of Y###
+RuleID : X was results of  Y
+Cond_1 : {pos:/NN/;word:/result/}=N0 >/nmod:of/ {}=N1
+Cond_2 : {}=N0 >/nsubj/ {}=N2
+Action_1 : N0 >> arg0:ass >> N1
+Action_2 : N0 >> arg1:ass >> N2
+
+
+
+###arg0 relclause indicated by arg1 -1###
+###currently not checking for cov###
+RuleID : arg0 as indicated by arg1-1
+Cond_1 : {}=N1 >/advcl/ {word:/(indicated|observed|assessed|investigated|determined|shown|revealed|analyzed)/}=N0 
+Cond_2 : {}=N0 >/(nmod:by|agent)/ {pos:/(VBG)/}=N2
+Cond_3 : {}=N1 >/nsubj/ {}=N3
+Cond_4 : {}=N2 >/(dobj|nmod:.*)/ {}=N4
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N4
+
+
+###arg0 relclause indicated by arg1 -2###
+###currently not checking for cov###
+RuleID : arg0 as indicated by arg1-2
+Cond_1 : {}=N1 >/advcl/ {word:/(indicated|observed|assessed|investigated|determined|shown)/}=N0 
+Cond_2 : {}=N0 >/(nmod:by|agent)/ { pos:/(VBG)/}=N2
+Cond_3 : {}=N1 >/nsubjpass/ {}=N3
+Action_1 : N0 >> arg0_ass >> N3
+Action_2 : N0 >> arg1_ass >> N2
+
+###arg1 was observed prep arg0 within arg1###
+RuleID : X was observed prep  Y within arg1
+Cond_1 : {word: /(investigated|observed|assessed|determined|studied|detected|revealed|identified|analyzed)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N1 >/nmod:.*/ {}=N2
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg0:ass >> N1
+
+###arg1 was observed relcl arg0 within arg1###
+RuleID : X was observed prep  Y within arg1
+Cond_1 : {word: /(investigated|observed|assessed|determined|studied|detected|revealed|identified|analyzed)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N1 >/acl/ {}=N2
+Cond_4 : {}=N2 >/(dobj|nmod:.*)/ {}=N3
+Action_1 : N0 >> arg0:ass >> N3
+Action_2 : N0 >> arg1:ass >> N1
+
+
+
+### we observed arg1 relclause arg0###
+RuleID :  observe X relcl  Y
+Cond_1 : {lemma: /(investigate|observe|assess|determine|study|detect|reveal|identify|analyze|express)/}=N0
+Cond_2 : {}=N0 >/(dobj)/ {}=N1
+Cond_3 : {}=N1 >/acl/ {}=N2
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+
+### we observed arg1 prep from verb arg0###
+RuleID :  observe X prep  from observed Y
+Cond_1 : {lemma: /(investigate|observe|assess|determine|study|detect|reveal|identify|analyze|express)/}=N0
+Cond_2 : {}=N0 >/(dobj)/ {}=N1
+Cond_3 : {}=N0 >/nmod:.*/ {}=N2
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+### we observed arg1 prep arg0###
+RuleID :  observe X prep  Y
+Cond_1 : {lemma: /(investigate|observe|assess|determine|study|detect|reveal|identify|analyze|express)/}=N0
+Cond_2 : {}=N0 >/(dobj)/ {}=N1
+Cond_3 : {}=N1 >/nmod:.*/ {}=N2
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+
+### arg1 was observed rlecl to observed arg0###
+RuleID : X was observed relcl Y
+Cond_1 : {word: /(investigated|observed|assessed|determined|studied|detected|revealed|identified|analyzed)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N2 >/acl:relcl/ {}=N0
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+### arg1 relcl arg0 was observed###
+RuleID : X was observed relcl Y
+Cond_1 : {word: /(investigated|observed|assessed|determined|studied|detected|revealed|identified|analyzed)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N2 >/acl:relcl/ {}=N1
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+
+###arg1 was observed prep from observed arg0###
+RuleID : X was observed prep  Y
+Cond_1 : {word:/(investigated|observed|assessed|determined|studied|detected|revealed|identified|analyzed)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N0 >/nmod:.*/ {}=N2
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+###arg1 prep arg0 was observed###
+RuleID : X prep Y was observed
+Cond_1 : {word:/(investigated|observed|assessed|determined|studied|detected|revealed|identified|analyzed)/}=N0
+Cond_2 : {}=N0 >/nsubjpass/ {}=N1
+Cond_3 : {}=N1 >/nmod:.*/ {}=N2
+Action_1 : N0 >> arg0:ass >> N2
+Action_2 : N0 >> arg1:ass >> N1
+
+###############    End of new rules    ####################
+
+####skip reg: increase in####
+RuleID : skip_reg_in_1
+Cond_0 : {lemma:/(increase|decrease|loss)/}=N0
+Cond_1 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ity)/;pos:/NN.*/}=N1
+Cond_2 : {}=N2 >/arg0_(reg|ass|inv)/=R1 {}=N3
+Cond_3 : {}=N2 >/arg1_(reg|ass|inv)/=R2 {}=N0
+Cond_4 : {}=N0 >/nmod:in/ {}=N1
+Action_1 : N0 >> R1 >> N3
+Action_2 : N0 >> R2 >> N1
+
+####skip reg: regulation|rate of####
+RuleID : skip_reg_of_1
+Cond_0 : {lemma:/(loss|rate|amount|degree|abolishment|acceleration|alteration|attenuation|deregulation|diminishment|disruption|downregulation|down-regulation|elevation|elimination|enhancement|impairment|induction|inhibition|initiation|mediation|mitigation|modulation|prediction|prevention|promotion|reduction|regulation|repression|restriction|sensitization|stabilization|stimulation|suppression|upregulation|up-regulation|weakened)/}=N0
+Cond_1 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ctivity|ity)/;pos:/NN.*/}=N1
+Cond_2 : {}=N2 >/arg0_(reg|ass|inv)/=R1 {}=N3
+Cond_3 : {}=N2 >/arg1_(reg|ass|inv)/=R2 {}=N0
+Cond_4 : {}=N0 >/(nmod:of|compound)/ {}=N1
+#Action_1 : N0 >> R1 >> N3
+#Action_2 : N0 >> R2 >> N1
+
+####skip reg: regulation|rate of####
+RuleID : skip_reg_in_2
+Cond_0 : {lemma:/(loss|rate|amount|degree|abolishment|acceleration|alteration|attenuation|deregulation|diminishment|disruption|downregulation|down-regulation|elevation|elimination|enhancement|impairment|induction|inhibition|initiation|mediation|mitigation|modulation|prediction|prevention|promotion|reduction|regulation|repression|restriction|sensitization|stabilization|stimulation|suppression|upregulation|up-regulation|weakened)/}=N0
+Cond_1 : {lemma:/.*(ing|tion|ment|ffinity|ecruit|ctivity|ity)/;pos:/NN.*/}=N1
+Cond_2 : {}=N2 >/arg0_(reg|ass|inv)/=R1 {}=N3
+Cond_3 : {}=N2 >/arg1_(reg|ass|inv)/=R2 {}=N0
+Cond_4 : {}=N0 >/nmod:in/ {}=N1
+Cond_5 : {}=N0 !>/(nmod:of)/ {}
+#Action_1 : N0 >> R1 >> N3
+#Action_2 : N0 >> R2 >> N1
+
+####skip ability of#####
+RuleID : skip_reg_ability_of
+Cond_0 : {lemma:/(ability|capacity)/}=N0
+Cond_1 : {pos:/VB/}=N1
+Cond_2 : {}=N2 >/arg0_(reg|ass|inv)/=R1 {}=N3
+Cond_3 : {}=N2 >/arg1_(reg|ass|inv)/=R2 {}=N0
+Cond_4 : {}=N0 >/acl/ {}=N1
+Action_1 : N0 >> R1 >> N3
+Action_2 : N0 >> R2 >> N1
+
+####prop arg edges if cov####
+RuleID : prop_cov_1
+Cond_0 : {}=N0 >/arg.*/=R1 {}=N1
+Cond_1 : {}=N1 > cov {}=N2
+Action_1 : N0 >> R1_prop_cov >> N2
+
+RuleID : prop_isa_arg_1
+Cond_0 : {}=N0 >/arg.*/=R1 {}=N1
+Cond_1 : {}=N1 <is_a {}=N2
+Action_1 : N0 >> R1_prop_isa >> N2
+
+RuleID : prop_isa_arg_2
+Cond_0 : {}=N0 >/arg.*/=R1 {}=N1
+Cond_1 : {}=N1 >is_a {}=N2
+Action_1 : N0 >> R1_prop_isa >> N2
+
+RuleID : prop_mc_arg
+Cond_0 : {}=N0 >/arg.*/=R1 {}=N1
+Cond_1 : {}=N1 >member_collection {}=N2
+Action_1 : N0 >> R1_prop_mc >> N2
+
+#RuleID : prop_mc_any
+#Cond_1 : {}=N1 >member_collection {}=N2
+#Cond_0 : {}=N0 >=R1 {}=N1
+#Action_1 : N0 >> R1_mc >> N2
