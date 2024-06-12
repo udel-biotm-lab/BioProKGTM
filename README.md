@@ -1,4 +1,4 @@
-# Waters Project - Bioprocess Collaboration
+# Waters Project - Overall deliverables
 
 This project is a collaboration between the University of Delaware (UD) and Waters Corporation to develop a Knowledge Graph for bioprocess data. Below are the deliverables and instructions for the repositories involved in the project.
 
