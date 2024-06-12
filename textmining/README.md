@@ -4,20 +4,20 @@ This project involves setting up the text mining environment and performing vari
 
 ## Table of Contents
 
-1. [Creating a Python3 Virtual Environment and Setting Up Required Packages](#creating-a-python3-virtual-environment-and-setting-up-required-packages)
-2. [Extracting Input Text Files](#extracting-input-text-files)
-   - [Extracting Abstracts](#extracting-abstracts)
-   - [Parsing Full-Length Articles](#parsing-full-length-articles)
-   - [Parsing Book Chapters](#parsing-book-chapters)
-3. [Ontological Concept Creation](#ontological-concept-creation)
-4. [Dictionary Concept Creation](#dictionary-concept-creation)
-5. [Concepts to Dictionary Mapping](#concepts-to-dictionary-mapping)
-6. [Setting Up EDG Tool](#setting-up-edg-tool)
-7. [Running the EDG Tool for Argument Extraction](#running-the-edg-tool-for-argument-extraction)
-8. [Matching Dictionary Terms](#matching-dictionary-terms)
-9. [Postprocessing the Output Excel Sheet](#postprocessing-the-output-excel-sheet)
-10. [Adding Relation Types](#adding-relation-types)
-11. [Adding Sections and Chapters](#adding-sections-and-chapters)
+1. [Step 0: Creating a Python3 Virtual Environment and Setting Up Required Packages](#creating-a-python3-virtual-environment-and-setting-up-required-packages)
+2. [Step 1: Extracting Input Text Files](#extracting-input-text-files)
+   - [Step 1.1: Extracting Abstracts](#extracting-abstracts)
+   - [Step 1.2: Parsing Full-Length Articles](#parsing-full-length-articles)
+   - [Step 1.3: Parsing Book Chapters](#parsing-book-chapters)
+3. [Step 2: Ontological Concept Creation](#ontological-concept-creation)
+4. [Step 3: Dictionary Concept Creation](#dictionary-concept-creation)
+5. [Step 4: Concepts to Dictionary Mapping](#concepts-to-dictionary-mapping)
+6. [Step 5: Setting Up EDG Tool](#setting-up-edg-tool)
+7. [Step 6: Running the EDG Tool for Argument Extraction](#running-the-edg-tool-for-argument-extraction)
+8. [Step 7: Matching Dictionary Terms](#matching-dictionary-terms)
+9. [Step 8: Postprocessing the Output Excel Sheet](#postprocessing-the-output-excel-sheet)
+10. [Step 9: Adding Relation Types](#adding-relation-types)
+11. [Step 10: Adding Sections and Chapters](#adding-sections-and-chapters)
 
 ## Creating a Python3 Virtual Environment and Setting Up Required Packages
 
