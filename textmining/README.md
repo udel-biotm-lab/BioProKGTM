@@ -1,6 +1,6 @@
 # Text Mining Project
 
-This project involves setting up a text mining environment and performing various text extraction and processing tasks. Below are the steps to set up the environment and execute the necessary scripts.
+This project involves setting up the text mining environment and performing various text mining tasks. Below are the steps to set up the environment and execute the necessary scripts.
 
 ## Table of Contents
 
@@ -70,10 +70,14 @@ This project involves setting up a text mining environment and performing variou
 
     Change the email, PMIDs file, and output directory path in your terminal.
 
-    Example:
+    Example: 
     ```bash
     python3 /textmining/scripts/input_text/abstract_extract.py xxx@gmail.com /textmining/Input/pmids.txt /textmining/Input/Abstract
     ```
+
+    Example PMIDs file can be found in: `/textmining/Input/pmids.txt`
+    
+    Example output directory can be found in: `/textmining/Input/Abstract`
 
 ### Parsing Full-Length Articles
 
@@ -90,10 +94,16 @@ This project involves setting up a text mining environment and performing variou
 
     Change the input and output directory paths in your terminal.
 
-    Example:
+    Example: 
     ```bash
     python3 /textmining/scripts/input_text/full_length_article_extract.py /textmining/Input/Full_Length_Article_XML /textmining/Input/Full_Length_Text /textmining/Input/Full_Length_Section
     ```
+
+    Example input directory can be found in: `/textmining/Input/Full_Length_Article_XML`
+    
+    Example output directory 1 can be found in: `/textmining/Input/Full_Length_Text`
+    
+    Example output directory 2 can be found in: `/textmining/Input/Full_Length_Section`
 
 ### Parsing Book Chapters
 
@@ -113,7 +123,7 @@ This project involves setting up a text mining environment and performing variou
     python3 /textmining/scripts/input_text/Book/pdf_processing.py
     ```
 
-    Example directory can be found in: `/textmining/Input/book_chapters_pdf`
+    Example input directory can be found in: `/textmining/Input/book_chapters_pdf`
 
 #### Step 1.3.2: Processing PDF to Text
 
@@ -144,6 +154,10 @@ This project involves setting up a text mining environment and performing variou
     python /your_path/s2orc-doc2text/doc2text/process_pdf_text.py -i /textmining/Input/book_chapters_pdf/ -t /textmining/Input/temp_dir/ -o /textmining/Input/Book
     ```
 
+    Example input directory can be found in: `/textmining/Input/book_chapters_pdf`
+    
+    Example output text files can be found in: `/textmining/Input/Book`
+
 #### Step 1.3.3: Split Large Text Files into Chunks
 
 1. Run the script `split_text_into_chunks.py` to split large text files into multiple chunks.
@@ -158,6 +172,10 @@ This project involves setting up a text mining environment and performing variou
     ```bash
     python3 /textmining/scripts/input_text/Book/split_text_into_chunks.py /textmining/Input/Book /textmining/Input/Processed_Text_Book
     ```
+
+    Example input directory can be found in: `/textmining/Input/Book`
+    
+    Example output directory can be found in: `/textmining/Input/Processed_Text_Book`
 
 ## Ontological Concept Creation
 
@@ -198,6 +216,10 @@ This project involves setting up a text mining environment and performing variou
     ```bash
     python3 /textmining/scripts/Concepts/obo_to_dict_map.py /textmining/Concepts_and_Dictionary/concepts.obo /textmining/Concepts_and_Dictionary/transformed_data1.json
     ```
+
+    Example input file can be found in: `/textmining/Concepts_and_Dictionary/concepts.obo`
+    
+    Example output file can be found in: `/textmining/Concepts_and_Dictionary/transformed_data1.json`
 
 ## Setting Up EDG Tool
 
@@ -283,6 +305,12 @@ This project involves setting up a text mining environment and performing variou
     python2 /textmining/scripts/EDG/RE_Script_For_Argument_Extraction.py /textmining/Input/Abstract /textmining/Rules > /textmining/Outputs/tsv/abstract_relations.tsv
     ```
 
+    Example input directory can be found in: `/textmining/Input/Abstract`
+    
+    Example rule directory can be found in: `/textmining/Rules`
+    
+    Example TSV outputs can be found in: `/textmining/Outputs/tsv`
+
 ## Matching Dictionary Terms
 
 1. Run the script `adding_dictionary_matches_after_running_edg.py` to match the dictionary terms and their corresponding types and concept IDs from the arguments involved in relations.
@@ -299,6 +327,12 @@ This project involves setting up a text mining environment and performing variou
     ```bash
     python3 /textmining/scripts/EDG/adding_dictionary_matches_after_running_edg.py /textmining/Outputs/Abstract/TP_OutputV3.xlsx /textmining/Concepts_and_Dictionary/transformed_data1.json /textmining/Outputs/Abstract/updated_TP_OutputV3.xlsx
     ```
+
+    Example input excel can be found in: `/textmining/Outputs/Abstract/TP_OutputV3.xlsx`
+    
+    Example dictionary JSON can be found in: `/textmining/Concepts_and_Dictionary/transformed_data1.json`
+    
+    Example output excel can be found in: `/textmining/Outputs/Abstract/updated_TP_OutputV3.xlsx`
 
 ## Postprocessing the Output Excel Sheet
 
@@ -319,6 +353,10 @@ This project involves setting up a text mining environment and performing variou
     python3 /textmining/scripts/EDG_Output_Process/post_process1.py /textmining/Outputs/Abstract/updated_TP_OutputV3.xlsx /textmining/Outputs/Abstract/abs_more_Apr19_outputV3.xlsx
     ```
 
+    Example input excel can be found in: `/textmining/Outputs/Abstract/updated_TP_OutputV3.xlsx`
+    
+    Example output excel can be found in: `/textmining/Outputs/Abstract/abs_more_Apr19_outputV3.xlsx`
+
 ### Post-process 2
 
 1. Run the script `post_process2.py` to remove duplicate rows generated because of having the same relations for multiple rules.
@@ -336,6 +374,10 @@ This project involves setting up a text mining environment and performing variou
     python3 /textmining/scripts/EDG_Output_Process/post_process2.py /textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV3.xlsx /textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx
     ```
 
+    Example input excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV3.xlsx`
+    
+    Example output excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx`
+
 ## Adding Relation Types
 
 1. Run the script `adding_relation_types.py` to add a new column named `Relation_Type` in the excel sheet generated in Step 8.
@@ -352,6 +394,10 @@ This project involves setting up a text mining environment and performing variou
     ```bash
     python3 /textmining/scripts/EDG_Output_Process/adding_relation_types.py /textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx /textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV5.xlsx
     ```
+
+    Example input excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx`
+    
+    Example output excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV5.xlsx`
 
 ## Adding Sections and Chapters
 
@@ -372,6 +418,12 @@ This project involves setting up a text mining environment and performing variou
     python3 /textmining/scripts/EDG_Output_Process/section_addition_for_full_length.py /textmining/Outputs/Full_Length/rel_Apr14_outputV2.xlsx /textmining/Input/Full_Length_Section/extracted_sentences_sections_docIds.xlsx /textmining/Outputs/Full_Length/sec_rel_Apr14_outputV2.xlsx
     ```
 
+    Example input excel 1 can be found in: `/textmining/Outputs/Full_Length/rel_Apr14_outputV2.xlsx`
+    
+    Example input excel 2 can be found in: `/textmining/Input/Full_Length_Section/extracted_sentences_sections_docIds.xlsx`
+    
+    Example output excel can be found in: `/textmining/Outputs/Full_Length/sec_rel_Apr14_outputV2.xlsx`
+
 ### Adding Chapters for Book Chapters
 
 1. If you want to add chapters instead of sections for the book chapters, run the script `chapter_addition_for_book_chapters.py` to add a column `section` in the output excel sheet.
@@ -388,3 +440,7 @@ This project involves setting up a text mining environment and performing variou
     ```bash
     python3 /textmining/scripts/EDG_Output_Process/chapter_addition_for_book_chapters.py /textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx /textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV5.xlsx
     ```
+
+    Example input excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx`
+    
+    Example output excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV5.xlsx`
