@@ -19,7 +19,7 @@ This project involves setting up the text mining environment and performing vari
 10. [Step 9: Adding Relation Types](#adding-relation-types)
 11. [Step 10: Adding Sections and Chapters](#adding-sections-and-chapters)
 
-## Creating a Python3 Virtual Environment and Setting Up Required Packages
+## Step 0: Creating a Python3 Virtual Environment and Setting Up Required Packages
 
 1. Navigate to your project directory:
     ```bash
@@ -53,9 +53,9 @@ This project involves setting up the text mining environment and performing vari
 
     **Note**: If `pip` does not work, try using `pip3`.
 
-## Extracting Input Text Files
+## Step 1: Extracting Input Text Files
 
-### Extracting Abstracts
+### Step 1.1: Extracting Abstracts
 
 1. Create a directory to store text files and a text file with a list of PMIDs.
 2. Run the `abstract_extract.py` script. We used Biopython’s Entrez API for this.
@@ -79,7 +79,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example output directory can be found in: `/textmining/Input/Abstract`
 
-### Parsing Full-Length Articles
+### Step 1.2: Parsing Full-Length Articles
 
 1. Download all the BioCXML files for the PMC articles into a folder.
 2. Create a directory to store text files for each PMC ID and another directory to store a spreadsheet containing the PMC ID, individual sentences, and the corresponding section from where the sentence was taken.
@@ -105,7 +105,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example output directory 2 can be found in: `/textmining/Input/Full_Length_Section`
 
-### Parsing Book Chapters
+### Step 1.3: Parsing Book Chapters
 
 #### Step 1.3.1: PDF Processing
 
@@ -177,13 +177,13 @@ This project involves setting up the text mining environment and performing vari
     
     Example output directory can be found in: `/textmining/Input/Processed_Text_Book`
 
-## Ontological Concept Creation
+## Step 2: Ontological Concept Creation
 
 1. Look into the current ontology first and add or change manually if necessary.
 2. The current ontology can be found in: `/textmining/Concepts_and_Dictionary/Ontology_V1.xlsx`
 3. Based on that, manually edit the consolidated type and type IDs of the ontology available in: `/textmining/Concepts_and_Dictionary/type_type_id.xlsx`
 
-## Dictionary Concept Creation
+## Step 3: Dictionary Concept Creation
 
 1. We already have current dictionary concepts available as a .obo file named `concepts.obo`.
 2. This file can be found in: `/textmining/Concepts_and_Dictionary/concepts.obo`
@@ -200,7 +200,7 @@ This project involves setting up the text mining environment and performing vari
 
     While running the script, follow the instructions in the terminal carefully. Use all uppercase letters for abbreviations (e.g., ADCC for antibody-dependent cellular cytotoxicity). Add the plural forms if necessary for any specific canonical name or alternative names. Make sure to exit by pressing "E" after any Add, Update, or Delete operation.
 
-## Concepts to Dictionary Mapping
+## Step 4: Concepts to Dictionary Mapping
 
 1. Run the script `obo_to_dict_map.py` to map dictionary terms from the concept OBO format to a JSON format.
 2. This JSON file is required to match dictionary terms from the noun phrases.
@@ -221,7 +221,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example output file can be found in: `/textmining/Concepts_and_Dictionary/transformed_data1.json`
 
-## Setting Up EDG Tool
+## Step 5: Setting Up EDG Tool
 
 ### Step 5.1: Set Up nlputils
 
@@ -285,7 +285,7 @@ This project involves setting up the text mining environment and performing vari
     . ./scripts/export_path.sh
     ```
 
-## Running the EDG Tool for Argument Extraction
+## Step 6: Running the EDG Tool for Argument Extraction
 
 1. After testing whether the EDG system is working properly, run the script `RE_Script_For_Argument_Extraction.py` to generate the first output spreadsheet with extracted relations.
 2. Use the JSON file created in Step 4 in line 307.
@@ -311,7 +311,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example TSV outputs can be found in: `/textmining/Outputs/tsv`
 
-## Matching Dictionary Terms
+## Step 7: Matching Dictionary Terms
 
 1. Run the script `adding_dictionary_matches_after_running_edg.py` to match the dictionary terms and their corresponding types and concept IDs from the arguments involved in relations.
 2. This step is essential whether you run Step 6 or not. If it is not necessary to run the RE tool, you can skip Step 6 and directly run Step 7 that involves having a previous spreadsheet generated from Step 6, input dictionary file generated from Step 4, and outputs a spreadsheet that matches dictionary terms from argument noun phrases.
@@ -334,9 +334,9 @@ This project involves setting up the text mining environment and performing vari
     
     Example output excel can be found in: `/textmining/Outputs/Abstract/updated_TP_OutputV3.xlsx`
 
-## Postprocessing the Output Excel Sheet
+## Step 8: Postprocessing the Output Excel Sheet
 
-### Post-process 1
+### Step 8.1: Post-process 1
 
 1. We need some post-processing in this step to eliminate some errors and deal with multiple matches.
 2. Run the script `post_process1.py` first. This will have an input of an excel sheet that is generated in Step 7 as output and the output will be used in Step 8.2.
@@ -357,7 +357,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example output excel can be found in: `/textmining/Outputs/Abstract/abs_more_Apr19_outputV3.xlsx`
 
-### Post-process 2
+### Step 8.2: Post-process 2
 
 1. Run the script `post_process2.py` to remove duplicate rows generated because of having the same relations for multiple rules.
 2. Here, the input will be the output excel sheet from Step 8.1 and the output will be another excel sheet used in Step 9.
@@ -378,7 +378,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example output excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV4.xlsx`
 
-## Adding Relation Types
+## Step 9: Adding Relation Types
 
 1. Run the script `adding_relation_types.py` to add a new column named `Relation_Type` in the excel sheet generated in Step 8.
 2. You can use the output script generated in Step 8 and update in the same script or output a different excel sheet.
@@ -399,9 +399,9 @@ This project involves setting up the text mining environment and performing vari
     
     Example output excel can be found in: `/textmining/Outputs/Abstract/rel_abs_more_Apr19_outputV5.xlsx`
 
-## Adding Sections and Chapters
+## Step 10: Adding Sections and Chapters
 
-### Adding Sections for Full-Length Articles
+### Step 10.1: Adding Sections for Full-Length Articles
 
 1. If you want to add sections for the full-length articles, run the script `section_addition_for_full_length.py` to add a column `section` in the output excel sheet.
 2. Here, the first input will be the output from Step 9 and the second input will be the spreadsheet generated in Step 1.3. The output excel generated here is ready to transfer to the knowledge graph.
@@ -424,7 +424,7 @@ This project involves setting up the text mining environment and performing vari
     
     Example output excel can be found in: `/textmining/Outputs/Full_Length/sec_rel_Apr14_outputV2.xlsx`
 
-### Adding Chapters for Book Chapters
+### Step 10.2: Adding Chapters for Book Chapters
 
 1. If you want to add chapters instead of sections for the book chapters, run the script `chapter_addition_for_book_chapters.py` to add a column `section` in the output excel sheet.
 2. Here, the input will be the output from Step 9 and the output excel generated here is ready to transfer to the knowledge graph.
