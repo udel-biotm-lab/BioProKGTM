@@ -4,20 +4,27 @@ This project involves setting up the text mining environment and performing vari
 
 ## Table of Contents
 
-1. [Step 0: Creating a Python3 Virtual Environment and Setting Up Required Packages](#creating-a-python3-virtual-environment-and-setting-up-required-packages)
-2. [Step 1: Extracting Input Text Files](#extracting-input-text-files)
-   - [Step 1.1: Extracting Abstracts](#extracting-abstracts)
-   - [Step 1.2: Parsing Full-Length Articles](#parsing-full-length-articles)
-   - [Step 1.3: Parsing Book Chapters](#parsing-book-chapters)
-3. [Step 2: Ontological Concept Creation](#ontological-concept-creation)
-4. [Step 3: Dictionary Concept Creation](#dictionary-concept-creation)
-5. [Step 4: Concepts to Dictionary Mapping](#concepts-to-dictionary-mapping)
-6. [Step 5: Setting Up EDG Tool](#setting-up-edg-tool)
-7. [Step 6: Running the EDG Tool for Argument Extraction](#running-the-edg-tool-for-argument-extraction)
-8. [Step 7: Matching Dictionary Terms](#matching-dictionary-terms)
-9. [Step 8: Postprocessing the Output Excel Sheet](#postprocessing-the-output-excel-sheet)
-10. [Step 9: Adding Relation Types](#adding-relation-types)
-11. [Step 10: Adding Sections and Chapters](#adding-sections-and-chapters)
+1. [Step 0: Creating a Python3 Virtual Environment and Setting Up Required Packages](#step-0-creating-a-python3-virtual-environment-and-setting-up-required-packages)
+2. [Step 1: Extracting Input Text Files](#step-1-extracting-input-text-files)
+   - [Step 1.1: Extracting Abstracts](#step-11-extracting-abstracts)
+   - [Step 1.2: Parsing Full-Length Articles](#step-12-parsing-full-length-articles)
+   - [Step 1.3: Parsing Book Chapters](#step-13-parsing-book-chapters)
+3. [Step 2: Ontological Concept Creation](#step-2-ontological-concept-creation)
+4. [Step 3: Dictionary Concept Creation](#step-3-dictionary-concept-creation)
+5. [Step 4: Concepts to Dictionary Mapping](#step-4-concepts-to-dictionary-mapping)
+6. [Step 5: Setting Up EDG Tool](#step-5-setting-up-edg-tool)
+   - [Step 5.1: Set Up nlputils](#step-51-set-up-nlputils)
+   - [Step 5.2: Set Up EDG](#step-52-set-up-edg)
+7. [Step 6: Running the EDG Tool for Argument Extraction](#step-6-running-the-edg-tool-for-argument-extraction)
+8. [Step 7: Matching Dictionary Terms](#step-7-matching-dictionary-terms)
+9. [Step 8: Postprocessing the Output Excel Sheet](#step-8-postprocessing-the-output-excel-sheet)
+   - [Step 8.1: Post-process 1](#step-81-post-process-1)
+   - [Step 8.2: Post-process 2](#step-82-post-process-2)
+10. [Step 9: Adding Relation Types](#step-9-adding-relation-types)
+11. [Step 10: Adding Sections and Chapters](#step-10-adding-sections-and-chapters)
+   - [Step 10.1: Adding Sections for Full-Length Articles](#step-101-adding-sections-for-full-length-articles)
+   - [Step 10.2: Adding Chapters for Book Chapters](#step-102-adding-chapters-for-book-chapters)
+
 
 ## Step 0: Creating a Python3 Virtual Environment and Setting Up Required Packages
 
