@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>8469772</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Guo;given-names:Meijin</infon>
+      <infon key="name_2">surname:Mohsin;given-names:Ali</infon>
+      <infon key="name_1">surname:Ahmed;given-names:Waqas</infon>
+      <infon key="article-id_pmid">34575094</infon>
+      <infon key="name_0">surname:Xiao;given-names:Shang</infon>
+      <infon key="issue">9</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">8469772</infon>
+      <infon key="article-id_publisher-id">life-11-00945</infon>
+      <infon key="article-id_doi">10.3390/life11090945</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">945</infon>
+      <infon key="volume">11</infon>
+      <infon key="license">Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Life (Basel);2021Sep10; 11 (9) . doi:10.3390/life11090945</infon>
+      <infon key="kwd">Chinese hamster ovary (CHO) continuous feeding lactate accumulation NH4+ metabolism high mannose content osmolality</infon>
+      <infon key="name_7">surname:Pereira;given-names:Patricia Alexandra Nunes</infon>
+      <infon key="name_6">surname:de Sousa;given-names:Fani Pereira</infon>
+      <infon key="name_5">surname:Freire;given-names:Mara G.</infon>
+      <infon key="authors">Xiao S, Ahmed W, Mohsin A, Guo M, </infon>
+      <infon key="name_4">surname:Henriques Pedro;given-names:Augusto Quaresma</infon>
+      <offset>0</offset>
+      <text>Continuous Feeding Reduces the Generation of Metabolic Byproducts and Increases Antibodies Expression in Chinese Hamster Ovary-K1 Cells</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>136</offset>
+      <text>Chinese hamster ovary (CHO) cells are the most important host system used for monoclonal antibody (mAb) expression. Moreover, the fed-batch culture mode is the most widely used method to increase mAb expression in CHO cells by increasing the amount of feed. However, a high amount of culture feed results in the production of metabolic byproducts. In this work, we used a continuous feeding strategy to reduce metabolic byproducts and improve mouse-human chimeric anti-epidermal growth factor receptor vIII (EGFRvIII) antibody C12 expression in Chinese hamster ovary-K1 cells. Moreover, the effects of the feeding strategy on the cell culture and monoclonal antibody production were evaluated in chemically defined suspension cultures of recombinant CHO-K1 cells. Compared with bolus feeding methods, the continuous feeding method did not have any advantages when the feeding amount was low, but with a high feeding amount, the continuous feeding method significantly reduced the concentrations of lactate and NH4+ in the later culture stage. At the end of the culture stage, compared with bolus feeding methods, the lactate and NH4+ concentrations under the continuous feeding mode were reduced by approximately 45% and 80%, respectively. In addition, the antibody C12 expression level was also increased by almost 10%. Compared to the bolus feeding method, the antibody C12 produced by the continuous feeding method had a lower content of high-mannose glycoforms. Further analysis found that the osmolality of the continuous feeding method was lower than that of the typical fed-batch bolus feeding method. Conclusively, these results indicate that the continuous feeding method is very useful for reducing metabolic byproducts and achieving higher levels of mAb production.</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:31:38Z</infon>
+        <location offset="1499" length="12"/>
+        <text>antibody C12</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:31:47Z</infon>
+        <location offset="1528" length="18"/>
+        <text>continuous feeding</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:31:53Z</infon>
+        <location offset="1577" length="23"/>
+        <text>high-mannose glycoforms</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1915</offset>
+      <text>1. Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1931</offset>
+      <text>Since the approval of the first therapeutic antibody drug orthoclone OKT3 by the USA Food and Drug Administration (FDA) in 1986, antibody drugs have become the fastest growing sector of drug development in the world after more than 30 years of technological breakthroughs. Currently, Chinese hamster ovary (CHO) cells are the major host cell to produce high quality and quantity biopharmaceuticals due to their ability to produce antibodies with similar posttranslational modifications as those of human IgGs, and they are easy to adapt to serum-free suspension culture. Nearly 70% of the postlaunch therapeutic proteins are expressed by CHO cells. In recent years, these biological agents have often been used by patients in large quantities, and their global demand is rapidly increasing. Therefore, it is very urgent to increase the protein expression level of CHO cells and reduce the cost of production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2840</offset>
+      <text>Fed-batch culture is the most common and mature CHO cell culturing process due to its simple operation and high production, but this process tends to accumulate large amounts of metabolic byproducts, such as lactate and ammonium salt (NH4+), in the later stages of culture. Previously, many studies indicated that high concentrations of lactate and NH4+ not only are unfavorable for cell growth and antibody expression but can also cause instability in the cell culture process. Therefore, it is very important to control metabolic byproducts at low concentration levels; however, controlling the lactate and NH4+ concentrations is a major challenge in cell culture technology. For the fed-batch process, the protein expression level is usually increased by increasing the amount of concentrated nutrient feed. However, a high feeding amount will cause more cell metabolism byproducts, which will eventually affect the stability of the process and even reduce the protein expression. Therefore, solving a series of problems caused by high feeding amounts is very important to reduce the cost of biopharmaceuticals.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3955</offset>
+      <text>For the fed-batch process, there are numerous studies and reviews describing the effects of process parameters such as the temperature, pH, and other factors on antibody expression and quality attributes. However, so far, no study has reported that the feeding method had a huge impact on CHO cell culture. Usually, a fed-batch culture is fed once per day or multiple days. However, under specific conditions of a high feeding amount, this bolus feeding method will surely generate high levels of metabolic byproducts. In this study, we evaluated the effects of different feeding amounts and feeding methods on process performance and antibody quality to determine the effects of the new feeding method (continuous feeding), which ultimately reduces the metabolic byproducts generated by high feeding. The experiments were conducted in a 7 L bioreactor (Applikon, the Netherlands). Moreover, we detected the relevant in-process indicators, antibody concentration and glycosylation at the end of the culture stage. The information obtained in this study will be of great significance for improving protein expression and quality with high feeding amounts.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5110</offset>
+      <text>2. Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5135</offset>
+      <text>2.1. Cell Lines and Media</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5161</offset>
+      <text>The two glutamine synthetase (GS) CHO cell lines used in this study to produce EGFRvIII antibody C12 were generated from CHO-K1 cells, as described previously, and were adapted to suspension culture, with have the ability to grow in serum-free medium. Briefly, by co-transfecting the desired EGFRvIII antibody C12 gene with GS gene into CHO-K1 cells, adding MSX screening, and performing subcloning, stable CHO cell lines A and B were obtained, which produced human mAb C12 A and mAb C12 B, respectively. Both C12 A and C12 B have a conserved N-glycosylation site at the N297 position.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5747</offset>
+      <text>The basal media and feeding media used in this study were chemically defined serum-free media. The basal medium was Dynamis, which was purchased from Gibco. The feeding media were Cellboost 7a (Cb7a) and Cellboost 7b (Cb7b), which were purchased from GE Healthcare. Each Cb7b supplement was 1/10 of Cb7a. Glucose concentration was tested off-line once a day from day 3, and then 400 g/L glucose stock solution was feed to adjust the glucose concentration to 8 g/L during the cell culture process to supply sufficient amounts of an energy source and cellular components.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6317</offset>
+      <text>2.2. Process Conditions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6341</offset>
+      <text>Experiments were performed in a 7 L bioreactor (Applikon, the Netherlands) with a maximum working volume of 5.6 L. In our study, the initial culture volume was 3 L. The initial cell concentration was 0.5 x 106 cells/mL, the pH was controlled at 7.2 +- 0.1 with 7.5% sodium bicarbonate and CO2, and the dissolved oxygen (DO) was controlled at 40% saturation by oxygen flow. The temperature was maintained at 37  C, and feeding was started on day 3.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6791</offset>
+      <text>In this study, we conducted nine experiments for each cell line, as summarized in Table 1.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6882</offset>
+      <text>The culture durations of cell lines A and B were 17 days and 15 days, respectively. All the processes were performed on day 3. Processes 1, 2, and 3 were fed once every two days; processes 4, 5, and 6 were daily feeding processes; and processes 7, 8, and 9 were continuous feeding processes. The feeding amounts of processes 1, 4, and 7 were the same; those of processes 2, 5, and 8 were the same; and those of processes 3, 6, and 9 were the same.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>7330</offset>
+      <text>2.3. Cells, Metabolites and Osmolality Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7378</offset>
+      <text>Cell culture samples were taken from each bioreactor every day during the entire culture duration. Viable cell density (VCD) and viability were measured in an automated cell counting device (Vi-cell, Beckman, CA, USA) by trypan blue staining. Lactate, NH4+, glucose, and glutamate were monitored using a Nova Biomedical 400 Analyzer (Nova Biomedical, Waltham, MA, USA). When these parameters were below the detection limit, this study defaulted to 0. Osmolality was tested by a Model 3250 Osmometer (Advanced, Norwood, MA, USA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7907</offset>
+      <text>Supernatant samples were stored at -20  C. At the end of the experiments, frozen cell-free supernatant samples were thawed and collectively submitted for yield and free amino acid analysis by high-performance liquid chromatography (HPLC) (HP1100, Agilent, CA, USA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8176</offset>
+      <text>2.4. Antibody Analysis by HPLC</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8207</offset>
+      <text>After centrifuged, the cell culture supernatant samples were injected into the HPLC system (Agilent, CA, USA) equipped with UV detection at 280 nm. The column was TSKgel Protein A-5PW 4.6 mm x 35 mm, 20 mum (Tosoh Yamaguchi, Japan). The flow rate was 1 mL/min. The gradient method using mobile phase 50 mM sodium phosphate/150 mM sodium chloride and 100 mM glycine/150 mM sodium chloride was used to elute each sample every 8.0 min.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8641</offset>
+      <text>2.5. Physicochemical Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8671</offset>
+      <text>Cell supernatants were collected and purified on days 15 and 17 by a protein A column.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8758</offset>
+      <text>For size variant analysis, the samples were analyzed by a TSK G3000SWXL column 7.8 mm x 300 mm, 5 mum (Tosoh, Yamaguchi, Japan) with a mobile phase buffer (50 mM NaH2PO4, 250 mM NaCl, pH 6.8) at a constant flow rate of 0.5 mL/min.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8990</offset>
+      <text>For size variant analysis, CE-SDS was performed under nonreducing conditions for analysis of purity/impurities. A Beckman Coulter, PA 800 capillary electrophoresis system was used, with an effective length of 30.2 cm and a 50 mm I.D. bare-fused silica capillary.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9253</offset>
+      <text>For charge variant analysis, the samples were analyzed by Propac WCX10 4 mm x 250 mm, 5 mum (Thermo, Waltham, MA, USA). Gradient elution was performed at a constant flow rate of 0.8 mL/min.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9444</offset>
+      <text>For oligosaccharide profile analysis, N-linked glycans were first enzymatically released from the antibody with peptide-N-glycosidase F (pNGase F), labeled with 2-aminobenzamide, and subsequently analyzed by ultra-performance liquid chromatography (UPLC) with fluorescence detection.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9728</offset>
+      <text>2.6. Statistical Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9754</offset>
+      <text>SPSS 19 software was used to perform statistical analysis. All statistical values are presented as means +- standard deviation (SD). The data shown in the figures are representative of experiments performed in triplicate. Evaluation of statistical significance (p &lt; 0.05) was calculated according to the t-test.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>10066</offset>
+      <text>3. Results and Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10092</offset>
+      <text>To study the effects of feeding strategies on CHO cell growth and C12 production, fed-batch cultures were initiated at a cell concentration of 0.5 x 106 cells/mL in 7 L bioreactors, as shown in Table 1. These experiments were performed on two cell lines, and to better analyze the impact of the feeding methods, three feeding methods were evaluated: feeding once every two days, feeding once a day, and continuous feeding. Moreover, each of the three feeding methods further consisted of three different feeding amounts, as shown in Table 1.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10635</offset>
+      <text>3.1. Effects of Three Different Feeding Processes on CHO Cell Growth</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10704</offset>
+      <text>The data of the three different feeding processes with the same feeding amount were compared (Figure 1). At a low feeding amount (Figure 1a,d), there were no significant difference in cell growth for both cell lines A and B among the three different feeding methods; these may be because the CHO cells did not produce many metabolic byproducts when the feeding amount was low, so the cell growth was similar under the three feeding methods. At a medium and high feeding amount(Figure 1b,c,e,f), for cell line A, continuous feeding showed better growth, a higher peak VCD and increased viability maintenance. According to our limited knowledge, this is the first report that the continuous feeding process can increase the maximum viable cell density. These results may be related to the effect of nutrient levels and osmolality on the cell growth cycle. However, this result did not reproduce on cell line B. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11614</offset>
+      <text>When feeding was performed every two days or daily, a high feeding amount resulted in a lower VCD and viability in the late cultivation time period. This result may be due to greater dilution and metabolic by-products caused by higher feed amount. Within the scope of our research, we did not find that the continuous feeding process with a high feeding amount has a lower late-cultivation viability, which indicates that the continuous feeding process increases the threshold of feeding amount that the process can tolerate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12140</offset>
+      <text>3.2. Effects of Feeding Strategies on Cell Metabolism</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12194</offset>
+      <text>It is often necessary to increase the amount of feeding to obtain a higher yield when using the fed-batch culture process, but high feeding may lead to an increase in lactate, NH4+, and osmolality, which are the key byproducts of CHO cell metabolim. For lactate-depleting CHO cells, lactate is usually produced first and then consumed. For CHO cells with the GS system, NH4+ levels is accumulated slowly in the later stages. As shown in Figure 2, under high feeding conditions, continuous feeding produced lower levels of lactate, NH4+, and osmolality at the late stage of the culture. The reason is possibly that traditional bolus feeding methods can introduce high concentrations of nutrients within a short period of time, which will ultimately induce more metabolic byproducts. In addition, after feeding, the osmolality will rise rapidly and greatly, and such a high osmolality will also induce cells to produce more metabolic byproduct. The continuous feeding process can control the concentration of nutrients in the bioreactor in an appropriate range, so it can reduce the production of metabolic byproducts such as lactate. Previously, it was reported that a high concentration of lactate, NH4+, or osmolality would affect the maintenance of cell viability and the expression of antibodies. The continuous feeding process has lower metabolic byproduct generation, which may be the reason for the higher VCD and viability at the late stage of the culture when using the continuous feeding process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13700</offset>
+      <text>To verify our speculation that continuous feeding can lower the level of nutrients in the culture system, the residual amino acid levels of different processes under three high feeding amounts were tested and analyzed with cell line A and B. The residual amino acid concentrations were added to obtain the total amino acid concentration, as shown in Figure 3b,c. For cell line A, the total residual amino acid concentration in the continuous feeding process was the lowest, which was only 80% of daily feeding and feeding once every two days. This may have contributed to cell line A producing lower lactate and NH4+ levels when using a continuous feeding process. The lower amino acid concentration would further reduce the osmolality of the culture environment (Figure 2e,f). Low osmolality and substrate concentration would further reduce the production of metabolic byproducts (lactate and NH4+). The continuous feeding process introduced lower concentrations of aspartic acid (Asp), glutamate (Glu), serine (Ser), threonine (Thr), proline (Pro), valine (Val), isoleucine (Ile), leucine (Leu), lysine (Lys), and the sum of cysteine and cystine (Cys) at the end of the cultivation, but the glutamine (Gln) concentration was higher, and there are no obvious difference in other amino acids (Figure 3a). The low substrate concentration reduced the rate of lactate and NH4+ generation, so as to maintain a higher cell viability. At the same time, higher cell viability can synthesize the Gln enzyme more efficiently; therefore, more NH4+ and Glu can be synthesized into Gln. This is also consistent with the higher Gln levels in the supernatant of the continuous feeding process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15380</offset>
+      <text>The single-cell amino acid consumption rate of cell line A was further analyzed (Figure 3d), and there was no significant difference between different feeding processes. However, the continuous feeding process obtained a higher VCD, which consumes more amino acids, so the residual amino acid concentration will be lower. The cell line B has no obvious difference in VCD between different feeding processes, so there is no significant difference in total residual amino acid concentration between different feeding processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15906</offset>
+      <text>These results indicate that the continuous feeding process cannot increase the amino acid consumption rate of single cells. As to whether the residual amino acid concentration can be reduced is related to the cell density, and the continuous feeding process may not necessarily reduce the residual amino acid concentration. Combined with Figure 2e,f, the results show that compared with continuous feeding, traditional bolus feeding has higher amounts of metabolic by-products, which may be because bolus feeding can increase osmolality and nutrient concentration to a high level in a short time after feeding, which induces higher amounts of metabolic by-products.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16572</offset>
+      <text>3.3. Effects of Feeding Strategies on Antibody Expression and Quality</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16642</offset>
+      <text>The yields of all processes at the end of culture are shown in Figure 4. For cell line A, the yield of feeding once every two days process and the daily feeding process showed an increasing trend first, followed by a decline as the feeding amount increased. However, the yield of the continuous feeding process was always rising as the feeding amount increased. With the low feeding amount, there were no differences in the yield between the three kinds of feeding processes. With the medium feeding amount, the yield of feeding once every two days process was the lowest, and there was no difference between the daily feeding and continuous feeding processes. With the high feeding amount, the continuous feeding process obtained the highest yield, exceeding 10 g/L, and the feeding once every two days process obtained the lowest yield, at 8.56 g/L. For cell line B, the experimental results were similar to cell line A, the continuous feeding process obtained the highest yield, exceeding 4.0 g/L. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17644</offset>
+      <text>Although the easiest way to increase antibody expression is to increase the amount of feed, this strategy will quickly reach the threshold for the traditional bolus feeding process because of lacate, NH4+, or osmolality. However, the continuous feeding process can further increase the threshold of the feeding amount, which will further increase antibody expression.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18012</offset>
+      <text>Further analysis of the specific production rates (Qp) obtained by the different processes (Figure 5. For cell line B, there was no significant difference in the Qp between different processes (p &gt; 0.05). However, for cell line A, the Qp of continuous feeding was lower than that of the other processes (p &lt; 0.05), mainly due to the lower nutrient concentration obtained by continuous feeding. It may also be related to the cell growth cycle, and we assume that the continuous feeding process may obtain a lower G0/G1 ratio. Therefore, we believe that the Qp of continuous feeding process has the possibility of further improvement.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18645</offset>
+      <text>The antibodies of the three processes with high feeding amounts for cell lines A and B were purified by protein A in one step, and the antibodies were used to quality analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18822</offset>
+      <text>IgG antibodies produced in CHO cells generally contain low levels of high-mannose glycoforms (Man5-9), typically below 5%, with the most common glycans being the complex glycoforms G0F, G1F, and G2F. High levels of high mannose glycoforms on therapeutic antibodies could be a concern due to uncertainty about their impact on clearance, immunogenicity and efficacy. Therefore, we need to control the high-mannose glycoform content of antibodies. Antibodies charge variants may have a significant impact on the pharmacokinetics and pharmacodynamics of the antibody; therefore, it needs to be strictly controlled.</text>
+      <annotation id="4">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:46:08Z</infon>
+        <location offset="18849" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:46:18Z</infon>
+        <location offset="19037" length="23"/>
+        <text>high mannose glycoforms</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:46:36Z</infon>
+        <location offset="19147" length="38"/>
+        <text>clearance, immunogenicity and efficacy</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:47:03Z</infon>
+        <location offset="19278" length="15"/>
+        <text>charge variants</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:47:18Z</infon>
+        <location offset="19331" length="37"/>
+        <text>pharmacokinetics and pharmacodynamics</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19435</offset>
+      <text>By testing the quality of the antibodies obtained from the three processes, we found that the high-mannose glycoform level of the continuous feeding processes was decreased (p &lt; 0.05) (Table 2 and Table 3). Pacis et al. reported that a high osmolality level could increase the high-mannose glycoform content. Since continuous feeding processes have a lower osmolality level (as shown in Figure 2), this may explain why the continuous feeding process had a decreased high-mannose glycoform content. There was no significant difference in the other quality attributes.</text>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:47:34Z</infon>
+        <location offset="19529" length="22"/>
+        <text>high-mannose glycoform</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:47:45Z</infon>
+        <location offset="19565" length="18"/>
+        <text>continuous feeding</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:48:01Z</infon>
+        <location offset="19676" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:48:06Z</infon>
+        <location offset="19712" length="22"/>
+        <text>high-mannose glycoform</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:48:41Z</infon>
+        <location offset="19750" length="18"/>
+        <text>continuous feeding</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:48:37Z</infon>
+        <location offset="19792" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-22T13:48:50Z</infon>
+        <location offset="19901" length="12"/>
+        <text>high-mannose</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20002</offset>
+      <text>Currently, the biopharmaceutical industry is developing rapidly; however, due to the low expression of mammalian cells and the high drug dosages used by patients, the production capacity and production costs of biopharmaceuticals have come to reprsent a significant bottleneck for the popularity of biopharmaceuticals. Therefore, it is very important to improve the expression ability of mammalian cells and reduce the production cost of biological drugs. Currently, the most widely used mammalian cell type for biopharmaceutical production is CHO cells, and the most popular CHO cell culture process is the fed-batch process because the fed-batch process has the advantages of low production cost, simple operation, and stable processes. However, the fed-batch process also has the disadvantages of low production efficiency and easy accumulation of metabolic byproducts in the later stages of the culture. The accumulation of metabolic byproducts in the later culture stages may reduce the efficiency of protein production and cause process instability. To improve the production efficiency of the fed-batch culture process, the simplest method is to increase the feeding amount, but increasing the feeding amount will bring more metabolic byproducts, which may prevent the increase of antibody expression. Therefore, solving the high metabolic byproduct caused by the high feeding amount may further improve the protein expression ability of CHO cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21458</offset>
+      <text>In our experiments, the results showed that changing the feeding methods may reduce the concentration of high metabolic byproducts brought by high feeding amounts. Therefore, to investigate the effect of the feeding strategy on the CHO cell culture and antibody quality more comprehensively, a comparative studies were conducted on two cell lines and three different feeding levels. The experimental results showed that at low feeding levels, there was no significant difference between the three different feeding processes, and the gap between the three feeding processes slowly emerged as the amount of feeding increased. For cell line A, the continuous feeding process can obtain a higher peak VCD and yield with a high feeding amount. However, for cell line B, there was no significant difference in the peak VCD obtained under different feeding processes, but continuous feeding could maintain a higher peak VCD and viability at the end of culture, such that the final antibody expression of the continuous feeding process was 5~15% higher than that of the next-day feeding and daily feeding processes. These results indicate that the continuous feeding process can better maintain cell viability at the later stage of culture than the other feeding processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22725</offset>
+      <text>Both cell lines A and B results showed that continuous feeding can reduce the levels of lactate and NH4+ significantly in the late cultivation period. Detecting and analyzing of amino acids in the supernatant of the three culture processes of cell line A and B, the results showed that the concentration of residual free amino acids before feeding is not the cause of more metabolic by-products. Compared with continuous feeding, traditional bolus feeding has higher metabolic by-products, which may be due to bolus feeding can increased osmolality and nutrient concentration to a high level in a short time after feeding which inducing more metabolic by-products. A lower amino acid substrate concentration would reduce the energy supply of amino acids through oxidation, thereby reducing the rate of NH4+ and lactate production.. The continuous feeding process obtained a lower osmolality, which caused a lower high-mannose glycoform content in the antibodies, so the continuous feeding process improved the quality of the antibodies. Thus, there were no significant differences in other quality attributes between the three kinds of fed-batch processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>23882</offset>
+      <text>4. Conclusions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23897</offset>
+      <text>In conclusion, we found that when the amount of feeding was low, the continuous feeding process did not have a significant effect because the nutrient level was in a lower range. However, when the feeding amount was increased (high), compared with traditional bolus feeding (feeding once a day or multiple days), continuous feeding could reduce the cell metabolic byproducts and osmolality and improve the CHO cell viability and the VCD in the later period of cultivation. Finally, the continuous feeding process increased the threshold of the feeding amount that the CHO cells could tolerate, thereby increasing the antibody expression by approximately 10%/ At the same time, the level of metabolic byproducts in the later stage of the culture were reduced significantly; thus, cell culture process can become more stable. Compared with the traditional bolus feeding process, the continuous feeding process produced a lower metabolic byproduct concentration and osmolality, which resulted in a lower high-mannose glycoform content, thereby improving the antibody quality of the antibodies obtained under the continuous feeding process. To our knowledge, this is the first report indicating that compared to bolus feeding processes, the continuous feeding process reduces the concentration of metabolic byproducts, the high-mannose glycoform content and increases the expression of CHO cells at high feeding rates. In short, these results will surely provide a good foundation for the biopharmaceutical industry to increase their protein production capacity and cell culture process stability, which will ultimately reduce their production costs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">footnote</infon>
+      <offset>25544</offset>
+      <text>Publisher's Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title</infon>
+      <offset>25670</offset>
+      <text>Author Contributions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25691</offset>
+      <text>This study was designed by M.G. and S.X. and experiments were performed by S.X. The experimental data was also analyzed by W.A., S.X. and A.M. The paper was written by S.X. and A.M. All authors have read and agreed to the published version of the manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title</infon>
+      <offset>25950</offset>
+      <text>Funding</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25958</offset>
+      <text>This research was supported by the Shanghai Science and Technology Committee (Grant No.19441912100) and China Postdoctoral Science Fund (2020M671026).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title</infon>
+      <offset>26109</offset>
+      <text>Institutional Review Board Statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26146</offset>
+      <text>Not applicable.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">title</infon>
+      <offset>26162</offset>
+      <text>Informed Consent Statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ACK_FUND</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26189</offset>
+      <text>Not applicable.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title</infon>
+      <offset>26205</offset>
+      <text>Data Availability Statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26233</offset>
+      <text>The data presented in this study are available in this article.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title</infon>
+      <offset>26297</offset>
+      <text>Conflicts of Interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26319</offset>
+      <text>The authors declare no conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>26364</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Urquhart;given-names:L.</infon>
+      <infon key="fpage">232</infon>
+      <infon key="pub-id_doi">10.1038/nrd.2018.42</infon>
+      <infon key="pub-id_pmid">29588516</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Nat. Rev. Drug Discov.</infon>
+      <infon key="type">ref</infon>
+      <offset>26375</offset>
+      <text>Market watch: Top drugs and companies by sales in 2017</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_2">surname:Levine;given-names:H.L.</infon>
+      <infon key="name_1">surname:Jones;given-names:S.D.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ecker;given-names:D.M.</infon>
+      <infon key="fpage">9</infon>
+      <infon key="pub-id_doi">10.4161/19420862.2015.989042</infon>
+      <infon key="pub-id_pmid">25529996</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">14</infon>
+      <offset>26430</offset>
+      <text>The therapeutic monoclonal antibody market</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_2">surname:Kim;given-names:W.D.</infon>
+      <infon key="name_1">surname:Onitsuka;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Omasa;given-names:T.</infon>
+      <infon key="fpage">233</infon>
+      <infon key="pub-id_doi">10.2174/138920110791111960</infon>
+      <infon key="pub-id_pmid">20210750</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Curr. Pharm. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">240</infon>
+      <offset>26473</offset>
+      <text>Cell Engineering and Cultivation of Chinese Hamster Ovary (CHO) Cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="name_2">surname:Otte;given-names:K.</infon>
+      <infon key="name_1">surname:Handrick;given-names:R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Fischer;given-names:S.</infon>
+      <infon key="fpage">1878</infon>
+      <infon key="pub-id_doi">10.1016/j.biotechadv.2015.10.015</infon>
+      <infon key="pub-id_pmid">26523782</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Adv.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1896</infon>
+      <offset>26543</offset>
+      <text>The art of CHO cell engineering: A comprehensive retrospect and future perspectives</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="name_2">surname:Yan;given-names:N.</infon>
+      <infon key="name_1">surname:Wang;given-names:K.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:He;given-names:Y.</infon>
+      <infon key="fpage">658</infon>
+      <infon key="pub-id_doi">10.1007/s13238-014-0086-4</infon>
+      <infon key="pub-id_pmid">25119489</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Protein Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">672</infon>
+      <offset>26627</offset>
+      <text>The recombinant expression systems for structure determination of eukaryotic membrane proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="name_1">surname:Reinhart;given-names:D.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kunert;given-names:R.</infon>
+      <infon key="fpage">3451</infon>
+      <infon key="pub-id_doi">10.1007/s00253-016-7388-9</infon>
+      <infon key="pub-id_pmid">26936774</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Appl. Microbiol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3461</infon>
+      <offset>26722</offset>
+      <text>Advances in recombinant antibody manufacturing</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kiss;given-names:R.</infon>
+      <infon key="name_2">surname:Shen;given-names:A.Y.</infon>
+      <infon key="name_1">surname:Vijayasankaran;given-names:N.</infon>
+      <infon key="name_0">surname:Li;given-names:F.</infon>
+      <infon key="fpage">466</infon>
+      <infon key="pub-id_doi">10.4161/mabs.2.5.12720</infon>
+      <infon key="pub-id_pmid">20622510</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">479</infon>
+      <infon key="name_4">surname:Amanullah;given-names:A.</infon>
+      <offset>26769</offset>
+      <text>Cell culture processes for monoclonal antibody production</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Herwig;given-names:C.</infon>
+      <infon key="name_2">surname:Klein;given-names:T.</infon>
+      <infon key="name_1">surname:Doppler;given-names:P.</infon>
+      <infon key="name_0">surname:Brunner;given-names:M.</infon>
+      <infon key="fpage">204</infon>
+      <infon key="pub-id_doi">10.1002/elsc.201700131</infon>
+      <infon key="pub-id_pmid">32624899</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Eng. Life Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">18</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">214</infon>
+      <infon key="name_4">surname:Fricke;given-names:J.</infon>
+      <offset>26827</offset>
+      <text>Elevated pCO2 affects the lactate metabolic shift in CHO cell culture processes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sen;given-names:J.W.</infon>
+      <infon key="name_2">surname:Muller;given-names:C.</infon>
+      <infon key="name_1">surname:Val;given-names:I.J.</infon>
+      <infon key="name_0">surname:Fan;given-names:Y.</infon>
+      <infon key="fpage">521</infon>
+      <infon key="pub-id_doi">10.1002/bit.25450</infon>
+      <infon key="pub-id_pmid">25220616</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">535</infon>
+      <infon key="name_6">surname:Andersen;given-names:M.R.</infon>
+      <infon key="name_5">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_4">surname:Rasmussen;given-names:S.K.</infon>
+      <offset>26907</offset>
+      <text>Amino acid and glucose metabolism in fed-batch CHO cell culture affects antibody production and glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="name_2">surname:Dickson;given-names:A.J.</infon>
+      <infon key="name_1">surname:Altamirano;given-names:C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Torres;given-names:M.</infon>
+      <infon key="fpage">184</infon>
+      <infon key="pub-id_doi">10.1016/j.coche.2018.10.004</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Curr. Opin. Chem. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">190</infon>
+      <offset>27017</offset>
+      <text>Process and metabolic engineering perspectives of lactate production in mammalian cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chatzissavidou;given-names:N.</infon>
+      <infon key="name_2">surname:Stevenson;given-names:J.</infon>
+      <infon key="name_1">surname:Castan;given-names:A.</infon>
+      <infon key="name_0">surname:Zhang;given-names:L.</infon>
+      <infon key="fpage">71</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2018.11.004</infon>
+      <infon key="pub-id_pmid">30423367</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">289</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">79</infon>
+      <infon key="name_5">surname:Chotteau;given-names:V.</infon>
+      <infon key="name_4">surname:Vilaplana;given-names:F.</infon>
+      <offset>27113</offset>
+      <text>Combined effects of glycosylation precursors and lactate on the glycoprofile of IgG produced by CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bechmann;given-names:J.</infon>
+      <infon key="name_2">surname:Muller;given-names:M.M.</infon>
+      <infon key="name_1">surname:Clemens;given-names:C.</infon>
+      <infon key="name_0">surname:Konakovsky;given-names:V.</infon>
+      <infon key="pub-id_doi">10.3390/bioengineering3010005</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">5</infon>
+      <infon key="volume">3</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_6">surname:Herwig;given-names:C.</infon>
+      <infon key="name_5">surname:Schlatter;given-names:S.</infon>
+      <infon key="name_4">surname:Berger;given-names:M.</infon>
+      <offset>27219</offset>
+      <text>Metabolic Control in Mammalian Fed-Batch Cell Cultures for Reduced Lactic Acid Accumulation and Improved Process Robustness</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Durocher;given-names:Y.</infon>
+      <infon key="name_2">surname:Kelly;given-names:J.</infon>
+      <infon key="name_1">surname:Robotham;given-names:A.</infon>
+      <infon key="name_0">surname:Karengera;given-names:E.</infon>
+      <infon key="fpage">494</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2607</infon>
+      <infon key="pub-id_pmid">29314777</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">504</infon>
+      <infon key="name_5">surname:Henry;given-names:O.</infon>
+      <infon key="name_4">surname:De;given-names:C.G.</infon>
+      <offset>27343</offset>
+      <text>Concomitant reduction of lactate and ammonia accumulation in fed-batch cultures: Impact on glycoprotein production and quality</text>
+    </passage>
+    <passage>
+      <infon key="volume">70</infon>
+      <infon key="name_2">surname:Doi;given-names:T.</infon>
+      <infon key="name_1">surname:Miyakawa;given-names:I.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kuwae;given-names:S.</infon>
+      <infon key="fpage">939</infon>
+      <infon key="pub-id_doi">10.1007/s10616-017-0185-1</infon>
+      <infon key="pub-id_pmid">29322349</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">948</infon>
+      <offset>27470</offset>
+      <text>Development of a chemically defined platform fed-batch culture media for monoclonal antibody-producing CHO cell lines with optimized choline content</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wijffels;given-names:R.H.</infon>
+      <infon key="name_2">surname:Dalm;given-names:C.</infon>
+      <infon key="name_1">surname:Streefland;given-names:M.</infon>
+      <infon key="name_0">surname:Pan;given-names:X.</infon>
+      <infon key="fpage">39</infon>
+      <infon key="pub-id_doi">10.1007/s10616-016-0036-5</infon>
+      <infon key="pub-id_pmid">27900626</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">69</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">56</infon>
+      <infon key="name_4">surname:Martens;given-names:D.E.</infon>
+      <offset>27619</offset>
+      <text>Selection of chemically defined media for CHO cell fed-batch culture processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="name_2">surname:Yoon;given-names:S.</infon>
+      <infon key="name_1">surname:Bhatia;given-names:H.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Graham;given-names:R.J.</infon>
+      <infon key="fpage">3446</infon>
+      <infon key="pub-id_doi">10.1002/bit.27140</infon>
+      <infon key="pub-id_pmid">31403183</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3456</infon>
+      <offset>27698</offset>
+      <text>Consequences of trace metal variability and supplementation on Chinese hamster ovary (CHO) cell culture performance: A review of key mechanisms and considerations</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Li;given-names:F.</infon>
+      <infon key="name_2">surname:Burnett;given-names:I.</infon>
+      <infon key="name_1">surname:Toh;given-names:P.C.</infon>
+      <infon key="name_0">surname:Lu;given-names:F.</infon>
+      <infon key="fpage">191</infon>
+      <infon key="pub-id_doi">10.1002/bit.24602</infon>
+      <infon key="pub-id_pmid">22767053</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">205</infon>
+      <infon key="name_6">surname:Li;given-names:J.</infon>
+      <infon key="name_5">surname:Amanullah;given-names:A.</infon>
+      <infon key="name_4">surname:Hudson;given-names:T.</infon>
+      <offset>27861</offset>
+      <text>Automated dynamic fed-batch process and media optimization for high productivity cell culture process development</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Zhuang;given-names:Y.</infon>
+      <infon key="name_2">surname:Wang;given-names:H.</infon>
+      <infon key="name_1">surname:Deng;given-names:L.</infon>
+      <infon key="name_0">surname:Hu;given-names:S.</infon>
+      <infon key="fpage">247</infon>
+      <infon key="pub-id_doi">10.1007/s10616-011-9336-y</infon>
+      <infon key="pub-id_pmid">21298341</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">63</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Guo;given-names:M.</infon>
+      <infon key="lpage">258</infon>
+      <infon key="name_6">surname:Li;given-names:Z.</infon>
+      <infon key="name_5">surname:Zhang;given-names:S.</infon>
+      <infon key="name_4">surname:Chu;given-names:J.</infon>
+      <offset>27975</offset>
+      <text>Bioprocess development for the production of mouse-human chimeric anti-epidermal growth factor receptor vIII antibody C12 by suspension culture of recombinant Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="name_1">surname:Harcum;given-names:S.W.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Chen;given-names:P.</infon>
+      <infon key="fpage">277</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2005.02.003</infon>
+      <infon key="pub-id_pmid">15862358</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">286</infon>
+      <offset>28162</offset>
+      <text>Effects of amino acid additions on ammonium stressed cho cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kaltschmidt;given-names:B.</infon>
+      <infon key="name_2">surname:Greiner;given-names:J.F.W.</infon>
+      <infon key="name_1">surname:Niemann;given-names:T.</infon>
+      <infon key="name_0">surname:Romanova;given-names:N.</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="pub-id_doi">10.1002/bit.27747</infon>
+      <infon key="pub-id_pmid">33751545</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2359</infon>
+      <infon key="name_5">surname:Noll;given-names:T.</infon>
+      <infon key="name_4">surname:Kaltschmidt;given-names:C.</infon>
+      <offset>28225</offset>
+      <text>Hyperosmolality in CHO Culture: Effects on cellular behavior and morphology</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_1">surname:Antoniewicz;given-names:M.R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ahn;given-names:W.S.</infon>
+      <infon key="fpage">598</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2011.07.002</infon>
+      <infon key="pub-id_pmid">21821143</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Metab. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">609</infon>
+      <offset>28301</offset>
+      <text>Metabolic flux analysis of CHO cells at growth and non-growth phases using isotopic tracers and mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hudson;given-names:T.</infon>
+      <infon key="name_2">surname:Vijayasankaran;given-names:N.</infon>
+      <infon key="name_1">surname:Wong;given-names:C.L.</infon>
+      <infon key="name_0">surname:Li;given-names:J.</infon>
+      <infon key="fpage">1173</infon>
+      <infon key="pub-id_doi">10.1002/bit.24389</infon>
+      <infon key="pub-id_pmid">22124879</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1186</infon>
+      <infon key="name_4">surname:Amanullah;given-names:A.</infon>
+      <offset>28415</offset>
+      <text>Feeding lactate for cho cell culture processes: Impact on culture metabolism and performance</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_2">surname:Butler;given-names:M.</infon>
+      <infon key="name_1">surname:Gleave;given-names:S.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hassell;given-names:T.</infon>
+      <infon key="fpage">29</infon>
+      <infon key="pub-id_doi">10.1007/BF02922022</infon>
+      <infon key="pub-id_pmid">1952924</infon>
+      <infon key="year">1991</infon>
+      <infon key="source">Appl. Biochem. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>28508</offset>
+      <text>Growth Inhibition in Animal Cell Culture: The Effect of Lactate and Ammonia</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="name_1">surname:Reddy;given-names:P.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Dean;given-names:J.</infon>
+      <infon key="fpage">1735</infon>
+      <infon key="pub-id_doi">10.1002/bit.24826</infon>
+      <infon key="pub-id_pmid">23296898</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1747</infon>
+      <offset>28584</offset>
+      <text>Metabolic analysis of antibody producing CHO cells in fed-batch production</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="name_2">surname:Chen;given-names:H.</infon>
+      <infon key="name_1">surname:Hoshan;given-names:L.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Xu;given-names:S.</infon>
+      <infon key="fpage">1689</infon>
+      <infon key="pub-id_doi">10.1007/s00449-016-1644-3</infon>
+      <infon key="pub-id_pmid">27324235</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Bioprocess. Biosyst. Eng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1702</infon>
+      <offset>28659</offset>
+      <text>Improving lactate metabolism in an intensified CHO culture process: Productivity and product quality considerations</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gupta;given-names:S.K.</infon>
+      <infon key="name_2">surname:Rank;given-names:D.L.</infon>
+      <infon key="name_1">surname:Goyal;given-names:A.</infon>
+      <infon key="name_0">surname:Zhu;given-names:M.M.</infon>
+      <infon key="fpage">70</infon>
+      <infon key="pub-id_doi">10.1021/bp049815s</infon>
+      <infon key="pub-id_pmid">15903242</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">77</infon>
+      <infon key="name_5">surname:Lee;given-names:S.S.</infon>
+      <infon key="name_4">surname:Boom;given-names:V.T.</infon>
+      <offset>28775</offset>
+      <text>Effects of elevated pCO2 and osmolality on growth of CHO cells and production of antibody-fusion protein B1: A case study</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zagari;given-names:F.</infon>
+      <infon key="pub-id_doi">10.5075/epfl-thesis-5420</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Multidisciplinary Analysis of the Metabolic Shift to Lactate Consumption in CHO Cell Culture</infon>
+      <infon key="type">ref</infon>
+      <offset>28897</offset>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="name_2">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_1">surname:Kotidis;given-names:P.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Alhuthali;given-names:S.</infon>
+      <infon key="pub-id_doi">10.3390/ijms22073290</infon>
+      <infon key="pub-id_pmid">33804825</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Int. J. Mol. Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">3290</infon>
+      <offset>28898</offset>
+      <text>Osmolality Effects on CHO Cell Growth, Cell Volume, Antibody Productivity and Glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Fomina-Yadlin;given-names:D.</infon>
+      <infon key="name_2">surname:McCarter;given-names:J.D.</infon>
+      <infon key="name_1">surname:Treiber;given-names:D.</infon>
+      <infon key="name_0">surname:Du;given-names:Z.</infon>
+      <infon key="fpage">141</infon>
+      <infon key="pub-id_doi">10.1002/bit.25332</infon>
+      <infon key="pub-id_pmid">25042542</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Follstad;given-names:B.D.</infon>
+      <infon key="name_8">surname:Leith;given-names:M.</infon>
+      <infon key="name_7">surname:Tharmalingam;given-names:T.</infon>
+      <infon key="lpage">155</infon>
+      <infon key="name_6">surname:Zhang;given-names:Y.</infon>
+      <infon key="name_5">surname:McCoy;given-names:R.E.</infon>
+      <infon key="name_4">surname:Saleem;given-names:R.A.</infon>
+      <offset>28990</offset>
+      <text>Use of a small molecule cell cycle inhibitor to control cell growth and improve specific productivity and product quality of recombinant proteins in CHO cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bayer;given-names:R.</infon>
+      <infon key="name_2">surname:Autsen;given-names:J.</infon>
+      <infon key="name_1">surname:Yu;given-names:M.</infon>
+      <infon key="name_0">surname:Pacis;given-names:E.</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="pub-id_doi">10.1002/bit.23200</infon>
+      <infon key="pub-id_pmid">21557201</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2358</infon>
+      <infon key="name_4">surname:Li;given-names:F.</infon>
+      <offset>29157</offset>
+      <text>Effects of cell culture conditions on antibody N-linked glycosylation:What affects high mannose 5 glycoform</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Huang;given-names:C.J.</infon>
+      <infon key="name_2">surname:Nargund;given-names:S.</infon>
+      <infon key="name_1">surname:Caspary;given-names:R.G.</infon>
+      <infon key="name_0">surname:Slade;given-names:P.G.</infon>
+      <infon key="fpage">1468</infon>
+      <infon key="pub-id_doi">10.1002/bit.25924</infon>
+      <infon key="pub-id_pmid">26724786</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">113</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1480</infon>
+      <offset>29267</offset>
+      <text>Mannose metabolism in recombinant CHO cells and its effect on IgG glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">111</infon>
+      <infon key="name_1">surname:Goudar;given-names:C.T.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Shi;given-names:H.H.</infon>
+      <infon key="fpage">1907</infon>
+      <infon key="pub-id_doi">10.1002/bit.25318</infon>
+      <infon key="pub-id_pmid">24975601</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1919</infon>
+      <offset>29347</offset>
+      <text>Recent advances in the understanding of biological implications and modulation methodologies of monoclonal antibody N-linked high mannose glycans</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Theil;given-names:F.P.</infon>
+      <infon key="name_2">surname:Mukhyala;given-names:K.</infon>
+      <infon key="name_1">surname:Tesar;given-names:D.B.</infon>
+      <infon key="name_0">surname:Boswell;given-names:C.A.</infon>
+      <infon key="fpage">2153</infon>
+      <infon key="pub-id_doi">10.1021/bc100261d</infon>
+      <infon key="pub-id_pmid">21053952</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Bioconjug. Chem.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2163</infon>
+      <infon key="name_4">surname:Khawli;given-names:L.A.</infon>
+      <offset>29493</offset>
+      <text>Effects of charge on antibody tissue distribution and pharmacokinetics</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Birnbock;given-names:H.</infon>
+      <infon key="name_2">surname:Benincosa;given-names:L.</infon>
+      <infon key="name_1">surname:Tesar;given-names:D.B.</infon>
+      <infon key="name_0">surname:Zheng;given-names:Y.</infon>
+      <infon key="fpage">243</infon>
+      <infon key="pub-id_doi">10.4161/mabs.4.2.19387</infon>
+      <infon key="pub-id_pmid">22453096</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Fielder;given-names:P.J.</infon>
+      <infon key="name_8">surname:Daugherty;given-names:A.L.</infon>
+      <infon key="name_7">surname:Danilenko;given-names:D.M.</infon>
+      <infon key="lpage">255</infon>
+      <infon key="name_6">surname:Cowan;given-names:K.J.</infon>
+      <infon key="name_5">surname:Bumbaca;given-names:D.</infon>
+      <infon key="name_4">surname:Boswell;given-names:C.A.</infon>
+      <offset>29564</offset>
+      <text>Minipig as a potential translatable model for monoclonal antibody pharmacokinetics after intravenous and subcutaneous administration</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Schmiederer;given-names:T.</infon>
+      <infon key="name_2">surname:Stangler;given-names:T.</infon>
+      <infon key="name_1">surname:Feuerstein;given-names:I.</infon>
+      <infon key="name_0">surname:Visser;given-names:J.</infon>
+      <infon key="fpage">495</infon>
+      <infon key="pub-id_doi">10.1007/s40259-013-0036-3</infon>
+      <infon key="pub-id_pmid">23649935</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">BioDrugs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">27</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">507</infon>
+      <infon key="name_4">surname:Schiestl;given-names:M.</infon>
+      <offset>29697</offset>
+      <text>Physicochemical and functional comparability between the proposed biosimilar rituximab GP2013 and originator rituximab</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chang;given-names:K.</infon>
+      <infon key="name_2">surname:Rustandi;given-names:E.</infon>
+      <infon key="name_1">surname:Hu;given-names:W.</infon>
+      <infon key="name_0">surname:Huang;given-names:Y.M.</infon>
+      <infon key="fpage">1400</infon>
+      <infon key="pub-id_doi">10.1002/btpr.436</infon>
+      <infon key="pub-id_pmid">20945494</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">26</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1410</infon>
+      <infon key="name_5">surname:Ryll;given-names:T.</infon>
+      <infon key="name_4">surname:Yusuf-Makagiansar;given-names:H.</infon>
+      <offset>29816</offset>
+      <text>Maximizing productivity of CHO cell-based fed-batch culture using chemically defined media conditions and typical manufacturing equipment</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Albiol;given-names:J.</infon>
+      <infon key="name_2">surname:Lopez-Repullo;given-names:J.</infon>
+      <infon key="name_1">surname:Lecina;given-names:M.</infon>
+      <infon key="name_0">surname:Liste-Calleja;given-names:L.</infon>
+      <infon key="fpage">9951</infon>
+      <infon key="pub-id_doi">10.1007/s00253-015-6855-z</infon>
+      <infon key="pub-id_pmid">26272090</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Appl. Microbiol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">99</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">9960</infon>
+      <infon key="name_5">surname:Cairo;given-names:J.J.</infon>
+      <infon key="name_4">surname:Sola;given-names:C.</infon>
+      <offset>29954</offset>
+      <text>Lactate and glucose concomitant consumption as a self-regulated pH detoxification mechanism in HEK293 cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">life-11-00945-g001.jpg</infon>
+      <infon key="id">life-11-00945-f001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30070</offset>
+      <text>Effect of the feeding strategy on the VCD and viability. (a-c) compare the effects of different feeding methods on cell line A when the feeding amount is low (a), medium (b), and high (c), respectively. d, e, and f compare the effects of different feeding methods on cell line B when the feeding amount is low (d), medium (e) and high (f), respectively. Data indicate means +- standard errors of three replicates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">life-11-00945-g002.jpg</infon>
+      <infon key="id">life-11-00945-f002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30486</offset>
+      <text>Effects of the feeding strategy on cell metabolism. (a,b) are comparisons between the effects of different feeding methods on the concentration of lactate with a high feeding amount in cell lines A and B, respectively. (c,d) are comparisons between the effects of different feeding methods on the concentration of NH4+ with a high feeding amount in cell lines A and B, respectively. (e,f) are comparisons between the effects of different processes on the osmolality in cell lines A and B, respectively. Data indicate means +- standard errors of three replicates. Statistically significant differences are defined as p &lt; 0.05. Statistical significance * for p &lt; 0.05, ** for p &lt; 0.01.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">life-11-00945-g003.jpg</infon>
+      <infon key="id">life-11-00945-f003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>31170</offset>
+      <text>Amino acid metabolism. (a) shows the comparison of the concentration of each residual free amino acid in cell line A on day 17; (b) shows the comparison of the total concentration of residual free amino acids in cell line A from day 3 to day 17; (c) shows the comparison of the total concentration of residual free amino acids in cell line B from day 3 to day 15; (d) shows the single cell amino acid consumption in cell line A from day 5 to day 17; Data indicate means +- standard errors of three replicates. Statistically significant differences are defined as p &lt; 0.05. Statistical significance ** for p &lt; 0.01.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">life-11-00945-g004.jpg</infon>
+      <infon key="id">life-11-00945-f004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>31785</offset>
+      <text>Effect of the feeding amount and strategy on antibody C12 expression. (a) shows the effects of different processes on C12 expressed by cell line A. (b) shows the effects of different processes on C12 expressed by cell line B. Data indicate means +- standard errors of three replicates. Statistically significant differences are defined as p &lt; 0.05. Statistical significance * for p &lt; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">life-11-00945-g005.jpg</infon>
+      <infon key="id">life-11-00945-f005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>32175</offset>
+      <text>The effect of the feeding amount strategy on Qp. (a) compares the effects of different processes on the Qp of cell line A. (b) compares the effects of different processes on the Qp of cell line B. Data indicate means +- standard errors of three replicates. Statistically significant differences are defined as p &lt; 0.05. Statistical significance * for p &lt; 0.05.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t001.xml</infon>
+      <infon key="id">life-11-00945-t001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>32536</offset>
+      <text>Summary of the processes used in this study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1"&gt;Process&lt;/th&gt;&lt;th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1"&gt;Feed Methods&lt;/th&gt;&lt;th colspan="2" align="center" valign="middle" style="border-top:solid thin" rowspan="1"&gt;Total CB7a Feeding Amount (V/V%) (1)&lt;/th&gt;&lt;th colspan="2" align="center" valign="middle" style="border-top:solid thin" rowspan="1"&gt;Feeding Strategy&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;Cell Line A&lt;/th&gt;&lt;th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;Cell Line B&lt;/th&gt;&lt;th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;Cell Line A&lt;/th&gt;&lt;th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;Cell Line B&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 1&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Once every two days&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;28&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;24&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;120 mL each time from Day 3 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 2&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Once every two days&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;35&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;150 mL each time from Day 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 3&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Once every two days&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;42&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;36&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;180 mL each time from Day 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 4&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Daily feeding&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;28&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;24&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;60 mL each time from Day 3 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 5&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Daily feeding&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;35&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;75 mL each time from Day 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 6&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Daily feeding&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;42&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;36&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;90 mL each time from Day 3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 7&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Continuous feeding (2)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;28&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;24&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;Starting from the third day, the on-time of the pump was set to 2S; the off-time was set to 738S&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Process 8&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;Continuous feeding&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;35&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" rowspan="1"&gt;Starting from the third day, the on-time of the pump was set to 2S; the off-time was set to 590S&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 9&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;Continuous feeding&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;42&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;36&lt;/td&gt;&lt;td colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1"&gt;Starting from the third day, the on-time of the pump was set to 2S; the off-time was set to 491S&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">life-11-00945-t001</infon>
+      <infon key="type">table</infon>
+      <offset>32581</offset>
+      <text>Process Feed Methods Total CB7a Feeding Amount (V/V%) (1) Feeding Strategy   Cell Line A Cell Line B Cell Line A Cell Line B   Process 1 Once every two days 28 24 120 mL each time from Day 3    Process 2 Once every two days 35 30 150 mL each time from Day 3   Process 3 Once every two days 42 36 180 mL each time from Day 3   Process 4 Daily feeding 28 24 60 mL each time from Day 3    Process 5 Daily feeding 35 30 75 mL each time from Day 3   Process 6 Daily feeding 42 36 90 mL each time from Day 3   Process 7 Continuous feeding (2) 28 24 Starting from the third day, the on-time of the pump was set to 2S; the off-time was set to 738S   Process 8 Continuous feeding 35 30 Starting from the third day, the on-time of the pump was set to 2S; the off-time was set to 590S   Process 9 Continuous feeding 42 36 Starting from the third day, the on-time of the pump was set to 2S; the off-time was set to 491S   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t001.xml</infon>
+      <infon key="id">life-11-00945-t001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>33492</offset>
+      <text>(1) V/V means total feeding volume/initial culture volume. (2) The pump speed was 15.4 mL/min and continuous feeding can be achieved by setting the on- and off-times of the bioreactor pump.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t002.xml</infon>
+      <infon key="id">life-11-00945-t002</infon>
+      <infon key="type">table_caption</infon>
+      <offset>33682</offset>
+      <text>The quality of C12 expressed by cell line A grown with high feeding amounts.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t002.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt; &lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Quality&lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 3&lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 6&lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 9&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td rowspan="9" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"&gt;Cell line A&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;SEC purity (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;98.79 +- 0.43&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;99.05 +- 0.48&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;98.88 +- 0.54&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;CEX AV (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;24.60 +- 3.21&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;24.75 +- 2.88&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;22.70 +- 3.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;CEX MP (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;66.08 +- 5.25&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;67.16 +- 4.72&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;68.23 +- 3.76&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;CEX BV (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;9.32 +- 2.23&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;8.09 +- 1.85&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;9.06 +- 1.54&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;G2F (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;0.27 +- 0.15&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;0.13 +- 0.13&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;0.33 +- 0.18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;G1F (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;7.80 +- 1.26&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;8.30 +- 1.83&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;7.53 +- 1.37&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;G0F (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;86.63 +- 9.19&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;88.17 +- 8.38&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;89.37 +- 9.02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;High-mannose (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;2.15 +- 0.47&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;1.39 +- 0.43&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;0.88 +- 0.24&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;NR-CE (%)&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;96.12 +- 1.13&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;96.85 +- 1.56&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;96.52 +- 1.45&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">life-11-00945-t002</infon>
+      <infon key="type">table</infon>
+      <offset>33759</offset>
+      <text> Quality Process 3 Process 6 Process 9   Cell line A SEC purity (%) 98.79 +- 0.43 99.05 +- 0.48 98.88 +- 0.54   CEX AV (%) 24.60 +- 3.21 24.75 +- 2.88 22.70 +- 3.01   CEX MP (%) 66.08 +- 5.25 67.16 +- 4.72 68.23 +- 3.76   CEX BV (%) 9.32 +- 2.23 8.09 +- 1.85 9.06 +- 1.54   G2F (%) 0.27 +- 0.15 0.13 +- 0.13 0.33 +- 0.18   G1F (%) 7.80 +- 1.26 8.30 +- 1.83 7.53 +- 1.37   G0F (%) 86.63 +- 9.19 88.17 +- 8.38 89.37 +- 9.02   High-mannose (%) 2.15 +- 0.47 1.39 +- 0.43 0.88 +- 0.24   NR-CE (%) 96.12 +- 1.13 96.85 +- 1.56 96.52 +- 1.45   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t003.xml</infon>
+      <infon key="id">life-11-00945-t003</infon>
+      <infon key="type">table_caption</infon>
+      <offset>34296</offset>
+      <text>The quality of C12 expressed by cell line B grown with high feeding amounts.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t003.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt; &lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Quality&lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 3&lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 6&lt;/th&gt;&lt;th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"&gt;Process 9&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td rowspan="9" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"&gt;Cell line B&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;SEC purity (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;97.75 +- 0.54&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;97.45 +- 0.50&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;98.05 +- 0.59&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;CEX AV (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;18.24 +- 2.34&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;19.23 +- 2.07&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;18.01 +- 1.34&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;CEX MP (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;72.55 +- 4.54&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;72.01 +- 3.54&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;72.26 +- 3.29&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;CEX BV (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;9.21 +- 1.47&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;8.76 +- 1.09&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;9.73 +- 1.21&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;G2F (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;2.17 +- 1.38&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;1.89 +- 1.53&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;2.23 +- 1.77&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;G1F (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;11.20 +- 1.88&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;13.15 +- 2.01&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;12.45 +- 2.34&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;G0F (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;78.28 +- 8.78&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;77.58 +- 7.56&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;80.30 +- 9.57&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;High-mannose (%)&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;4.35 +- 1.43&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;3.38 +- 0.76&lt;/td&gt;&lt;td align="center" valign="middle" rowspan="1" colspan="1"&gt;1.02 +- 0.35&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;NR-CE (%)&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;95.64 +- 1.02&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;95.43 +- 0.87&lt;/td&gt;&lt;td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"&gt;95.78 +- 0.93&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">life-11-00945-t003</infon>
+      <infon key="type">table</infon>
+      <offset>34373</offset>
+      <text> Quality Process 3 Process 6 Process 9   Cell line B SEC purity (%) 97.75 +- 0.54 97.45 +- 0.50 98.05 +- 0.59   CEX AV (%) 18.24 +- 2.34 19.23 +- 2.07 18.01 +- 1.34   CEX MP (%) 72.55 +- 4.54 72.01 +- 3.54 72.26 +- 3.29   CEX BV (%) 9.21 +- 1.47 8.76 +- 1.09 9.73 +- 1.21   G2F (%) 2.17 +- 1.38 1.89 +- 1.53 2.23 +- 1.77   G1F (%) 11.20 +- 1.88 13.15 +- 2.01 12.45 +- 2.34   G0F (%) 78.28 +- 8.78 77.58 +- 7.56 80.30 +- 9.57   High-mannose (%) 4.35 +- 1.43 3.38 +- 0.76 1.02 +- 0.35   NR-CE (%) 95.64 +- 1.02 95.43 +- 0.87 95.78 +- 0.93   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">life-11-00945-t003.xml</infon>
+      <infon key="id">life-11-00945-t003</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>34913</offset>
+      <text>AV: acid variety. MP: main peak. BV: alkaline variety. G2: contains two galactose molecules. G1: contains one galactose molecule. G0: contains no galactose molecule. F: fucose. NR-CE: nonreduced CE. Values of each parameter are reported as average +- standard deviation (n = 3).</text>
+    </passage>
+  </document>
+</collection>

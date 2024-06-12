@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>7988551</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Lundberg;given-names:Dianna</infon>
+      <infon key="name_2">surname:Monzon;given-names:Omar Quintero</infon>
+      <infon key="name_1">surname:Padmashali;given-names:Roshan</infon>
+      <infon key="article-id_pmid">32748555</infon>
+      <infon key="name_0">surname:Liu;given-names:Weiyi</infon>
+      <infon key="notes">  , , , et al. . . ;:.   </infon>
+      <infon key="pub-id_doi">10.1002/btpr.3061</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">7988551</infon>
+      <infon key="article-id_publisher-id">BTPR3061</infon>
+      <infon key="source">Biotechnol Progress</infon>
+      <infon key="article-id_doi">10.1002/btpr.3061</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="issue">1</infon>
+      <infon key="alt-title">Liu et al.</infon>
+      <infon key="elocation-id">e3061</infon>
+      <infon key="volume">37</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_10">surname:Zhang;given-names:Bohong</infon>
+      <infon key="name_9">surname:Pan;given-names:Clark</infon>
+      <infon key="name_8">surname:Park;given-names:Sophia</infon>
+      <infon key="name_7">surname:Korde;given-names:Anisha</infon>
+      <infon key="name_6">surname:Lee;given-names:Yun-Jung</infon>
+      <infon key="name_5">surname:Dwyer;given-names:Brian</infon>
+      <infon key="name_4">surname:Jin;given-names:Shan</infon>
+      <offset>0</offset>
+      <text>Generation of FX -/- and Gmds -/- CHOZN host cell lines for the production of afucosylated therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>122</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>131</offset>
+      <text>Antibody-dependent cellular cytotoxicity (ADCC) is the primary mechanism of actions for several marketed therapeutic antibodies (mAbs) and for many more in clinical trials. The ADCC efficacy is highly dependent on the ability of therapeutic mAbs to recruit effector cells such as natural killer cells, which induce the apoptosis of targeted cells. The recruitment of effector cells by mAbs is negatively affected by fucose modification of N-Glycans on the Fc; thus, utilization of afucosylated mAbs has been a trend for enhanced ADCC therapeutics. Most of afucosylated mAbs in clinical or commercial manufacturing were produced from Fut8-/- Chinese hamster ovary cells (CHO) host cells, generally generating low yields compared to wildtype CHO host. This study details the generation and characterization of two engineered CHOZN  cell lines, in which the enzyme involved in guanosine diphosphate (GDP)-fucose synthesis, GDP mannose-4,6-dehydratase (Gmds) and GDP-L-fucose synthase (FX), was knocked out. The top host cell lines for each of the knockouts, FX-/- and Gmds-/-, were selected based on growth robustness, bulk MSX selection tolerance, production titer, fucosylation level, and cell stability. We tested the production of two proprietary IgG1 mAbs in the engineered host cells, and found that the titers were comparable to CHOZN  cells. The mAbs generated from either KO cell line exhibited loss of fucose modification, leading to significantly boosted FcgammaRIIIa binding and ADCC effects. Our data demonstrated that both FX-/- and Gmds-/- host cells could replace Fut8-/- CHO cells for clinical manufacturing of antibody therapeutics.</text>
+      <annotation id="1">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:12:24Z</infon>
+        <location offset="483" length="29"/>
+        <text>recruitment of effector cells</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:12:39Z</infon>
+        <location offset="548" length="41"/>
+        <text>ucose modification of N-Glycans on the Fc</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:12:59Z</infon>
+        <location offset="764" length="35"/>
+        <text>Fut8-/- Chinese hamster ovary cells</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:13:16Z</infon>
+        <location offset="843" length="6"/>
+        <text>yields</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:13:30Z</infon>
+        <location offset="954" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:13:38Z</infon>
+        <location offset="1186" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:13:42Z</infon>
+        <location offset="1196" length="8"/>
+        <text>Gmds-/-,</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:17:40Z</infon>
+        <location offset="1288" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:17:26Z</infon>
+        <location offset="1295" length="18"/>
+        <text>fucosylation level</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:17:53Z</infon>
+        <location offset="1438" length="6"/>
+        <text>titers</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:17:59Z</infon>
+        <location offset="1464" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:14Z</infon>
+        <location offset="1509" length="12"/>
+        <text>KO cell line</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:30Z</infon>
+        <location offset="1532" length="27"/>
+        <text>loss of fucose modification</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:36Z</infon>
+        <location offset="1594" length="20"/>
+        <text>FcgammaRIIIa binding</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:37Z</infon>
+        <location offset="1619" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:46Z</infon>
+        <location offset="1665" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:48Z</infon>
+        <location offset="1675" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:18:52Z</infon>
+        <location offset="1708" length="7"/>
+        <text>Fut8-/-</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1816</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1829</offset>
+      <text>Therapeutic mAbs have been developed and widely used for the treatment of multiple diseases, including autoimmune diseases and cancer. For some marketed oncology mAbs such as Trastuzumab, Rituximab, and Ipilimumab, the primary mechanism of actions could be attributed to antibody-dependent cellular cytotoxicity (ADCC), a process that therapeutic marketed therapeutic antibodies (mAbs) bind to specific targeted cells and recruit effector cells, which induce the apoptosis of targeted cells. 1 ,  2 ,  3 ,  4  The ADCC effect is highly dependent on the ability of therapeutic mAbs to recruit effector cells such as Natural Killer (NK) cells. 5 ,  6  The recruitment of effector cells by mAbs is determined mainly by glycan-glycan interaction between N-glycosylations on the Fc domain of mAbs and FcgammaRIIIa (CD16a) on effector cells. 7  Based on the crystal structure, afucosylated glycans at Asn297 of IgG1 recognize the glycans at Asn162 of FcgammaRIIIa through Hydrogen bond and van der Waals interactions. 8 ,  9  If the IgG1 glycans were fucosylated, the presence of fucose breaks key polar interactions between the glycans and induces steric hindrance, causing a shift away from the receptor's glycans. 8 ,  10  The utilization of afucosylated mAbs has been a trend for enhanced ADCC therapeutics. Some recently marketed ADCC mAbs such as Benralizumab targeting IL5R, Obinutuzumab targeting CD20, and Mogamulizumab targeting CCR4, were all designed and manufactured as afucosylated mAbs. 1 ,  11 ,  12  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3341</offset>
+      <text>For the clinical and commercial manufacturing of afucosylated mAbs, multiple strategies have been applied. Mostly expressed in CHO cells, mAbs are glycosylated at the endoplasmic reticulum, and the glycans are further modified at the golgi apparatus. In the Golgi glycans are fucosylated by fucosyltransferase 8 (Fut8), the only expressed fucose-transferase in CHO cells. 13 ,  14  So far, majorities of afucosylated mAbs in clinical or commercial manufacturing were produced from Fut8-/- CHO host cells, which usually have retarded cell growth, less viable cell densities and lower production titers. 15 ,  16  The addition of Fut8 chemical inhibitor 2F-Peracetyl-Fucose into the cell culture medium to generate afucosylated mAbs is another approach. However, the batch-to-batch consistency in both productivity and afucosylation levels in large manufacturing bioreactors need further evaluation. 17  Glycoengineering of host cell lines by overexpression of N-acetylglucosaminyl transferase (GNTIII) led to the modification of N-glycans to bisecting GlcNAc glycans which dramatically reduce the addition of fucose. 18  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4480</offset>
+      <text>An alternative approach is to modify host CHO cells through engineering the de novo synthesis pathway of GDP-fucose. GDP-fucose, the substrate of protein fucosylation, is synthesized in the cell cytosol from GDP-mannose, through two-step biochemical reactions catalyzed by the enzymes Gmds and FX, and transported into the Golgi apparatus by Slc35C1. 19 ,  20  Knockout (KO) of Gmds based on homologous recombination in CHO/DG44 cells led to a complete depletion of intracellular GDP-fucose and afucosylation of expressed mAbs. 19  Likewise, KO of FX with CRISPR-Cas9 in CHO-K1 cells led to completely afucosylated mAbs. 15  The study suggested that there might be three alleles of FX in the CHO genome, and two guide RNAs were used to get a functional FX-/- host cell line, which makes cell engineering on FX gene complicated. In addition, overexpression of enzyme RMD that converts GDP-mannose, the Gmds substrate, to a metabolically dead-end product also blocks GDP-fucose synthesis. 21  The effects of the dead-end metabolites on CHO production, the stability of RMD expression and downstream removal of the RMD enzyme from drug substance have to be taken into account. Inactivation of the GDP-mannose transporter (Slc35C1) also can be used to produce of afucosylated mAbs. 20  In this study, we applied the CRISPR-Cas9 engineering tool in the industry widely used CHO cells of glutathione synthetase genomic locus disrupted by Zinc-Finger nuclease (CHOZN) (GS-/- CHOK1) cells, and detailed the generation, characterization and product quality evaluation of FX-/- and Gmds-/- CHOZN cells, paving the way for next generation of host cell lines for the production of afucosylated therapeutic mAbs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>6224</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6246</offset>
+      <text>Cell culture and engineering</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6275</offset>
+      <text>CHOZN  cells (GS-/- CHOK1, Sigma) were passaged regularly in EX-Cell CD CHO Fusion medium (Sigma 14365C) containing 6 mM Glutamine. Per gRNA transfection, 1ug TrueCut Cas9 V2 proteins (Thermo Fisher A36496), 200 ng CRISPR IVT gRNA (Table 1), and 10 pmol ss-Oligos (Table 1) in 10ul reaction volume were electroporated into 3.0E + 6 cells using NEON electroporator, following the optimized parameters of 1,600 V pulse voltage, 10 ms each pulse for three pulses. In 72 hr posttransfection, a portion of transfection cells were processed for the estimation of gene editing efficiency using GeneArt genomic cleavage detection kit (Thermo Fisher A24372). The rest of cells were cultured to expand for stable pool generation. The pools of highest editing efficiency were single cell sorted into 10 plates of 96-well plates. Once confluent, the clones were consolidated to one 96-well plate and gRNA-targeted genomic regions were polymerase chain reaction (PCR) amplified (Table 1) and sequenced with next generation sequencing.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0001.xml</infon>
+      <infon key="id">btpr3061-tbl-0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>7324</offset>
+      <text>Sequences of gRNAs, ss-Oligos, and primers</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th style="border-bottom:solid 1px #000000" align="left" colspan="4" valign="bottom" rowspan="1"&gt;gRNAs&lt;/th&gt;&lt;/tr&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;CRISPR name&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Sequence (5'-3')&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;PAM&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Location&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds.1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;CGATCCAGTTCATTTAATAC&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GGG&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Exon1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds.2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GCAGAATTCCTGCTGGAGAA&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;AGG&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Exon1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds.3&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ACATTTATATAAGAATCCAC&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;AGG&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Exon1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX.1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;CCAGGAGGATCCTAGTGACA&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;AGG&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Exon2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX.2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;TGGGTGAGCCCCAGGGATCC&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;AGG&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Exon1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX.3&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GTCCAGAGCCCCCTGTCACT&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;AGG&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Exon2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="4" align="left" valign="top" rowspan="1"&gt;ssOligos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;CRISPR name&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;Ss-Oligo sequence (5'-3')&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds.1&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;gOFacttcatgtttccttcaatatgagcctgtggattcttatataaatgttcaattcgacctCAattaaatgaactggatcgccgtacaattccatgFFc&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds.2&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;aFEgtggcgctcatcacgggcatcaccggccaggatggctcatacttggcagaattcctgctgTagaaaggatacgaggtgagtgactcagtgctccZEg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds.3&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;tOFtggaattgtacggcgatccagttcatttaatacaggtcgaattgaacatttatataagaatTGacaggctcatattgaaggaagtaagtaatttZOt&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX.1&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;tEEtggaaccctgcgcaggtgcagcaacaatgggtgagccccagggatccaggaggatcctagtgTAagggggctctggac-tggtgggcagagctatOOa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX.2&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;cEEaagtagctcttggactggtggaaccctgcgcaggtgcagcaacaatgggtgagccccagTgatccaggaggatcctagtgacagggggctctggFOt&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX.3&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;Same as FX.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"/&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;F: A-Phosphorothioate, O: C-Phosphorothioate, E: G-Phosphorothioate, Z: T-Phosphorothioate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="4" align="left" valign="top" rowspan="1"&gt;Primers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;5'-3' sequences&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX_gcdF1&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;CCTAGTAGGCTCATGACTTGGAACCAAGC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX_gcdF2&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;CAGTCGTAGGGATGAGATGTATC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX_gcdR1&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;GGTTACTGATCTGGCTGTGTTTGCTGCC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FX_gcdR2&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;GCAGTAGCCCTCCCTGAGTCTGGGTCCGC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;5'-3' sequences&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds_gcdF1&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;GCAGTACAAACCCTGGATAAGGTCAGAAGC&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds_gcdF2&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;GCAGTGTGCACACAGGCAGTAGTGAGG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds_gcdR1&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;GCCATCTTGGTTTGATTATTAGAGTG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Gmds_gcdR2&lt;/td&gt;&lt;td colspan="3" align="left" valign="top" rowspan="1"&gt;CTTTAGTCAGCCTTCTTCAGTCCAGG&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3061-tbl-0001</infon>
+      <infon key="type">table</infon>
+      <offset>7369</offset>
+      <text>gRNAs   CRISPR name Sequence (5'-3') PAM Location   Gmds.1 CGATCCAGTTCATTTAATAC GGG Exon1   Gmds.2 GCAGAATTCCTGCTGGAGAA AGG Exon1   Gmds.3 ACATTTATATAAGAATCCAC AGG Exon1   FX.1 CCAGGAGGATCCTAGTGACA AGG Exon2   FX.2 TGGGTGAGCCCCAGGGATCC AGG Exon1   FX.3 GTCCAGAGCCCCCTGTCACT AGG Exon2   ssOligos   CRISPR name Ss-Oligo sequence (5'-3')   Gmds.1 gOFacttcatgtttccttcaatatgagcctgtggattcttatataaatgttcaattcgacctCAattaaatgaactggatcgccgtacaattccatgFFc   Gmds.2 aFEgtggcgctcatcacgggcatcaccggccaggatggctcatacttggcagaattcctgctgTagaaaggatacgaggtgagtgactcagtgctccZEg   Gmds.3 tOFtggaattgtacggcgatccagttcatttaatacaggtcgaattgaacatttatataagaatTGacaggctcatattgaaggaagtaagtaatttZOt   FX.1 tEEtggaaccctgcgcaggtgcagcaacaatgggtgagccccagggatccaggaggatcctagtgTAagggggctctggac-tggtgggcagagctatOOa   FX.2 cEEaagtagctcttggactggtggaaccctgcgcaggtgcagcaacaatgggtgagccccagTgatccaggaggatcctagtgacagggggctctggFOt   FX.3 Same as FX.1    F: A-Phosphorothioate, O: C-Phosphorothioate, E: G-Phosphorothioate, Z: T-Phosphorothioate   Primers   FX 5'-3' sequences   FX_gcdF1 CCTAGTAGGCTCATGACTTGGAACCAAGC   FX_gcdF2 CAGTCGTAGGGATGAGATGTATC   FX_gcdR1 GGTTACTGATCTGGCTGTGTTTGCTGCC   FX_gcdR2 GCAGTAGCCCTCCCTGAGTCTGGGTCCGC   Gmds 5'-3' sequences   Gmds_gcdF1 GCAGTACAAACCCTGGATAAGGTCAGAAGC   Gmds_gcdF2 GCAGTGTGCACACAGGCAGTAGTGAGG   Gmds_gcdR1 GCCATCTTGGTTTGATTATTAGAGTG   Gmds_gcdR2 CTTTAGTCAGCCTTCTTCAGTCCAGG   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0001.xml</infon>
+      <infon key="id">btpr3061-tbl-0001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>8780</offset>
+      <text>Abbreviation: Gmds, GDP mannose-4,6-dehydratase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8833</offset>
+      <text> FITC-LCA staining</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8854</offset>
+      <text>Cells (5.0E + 5/well) were cultured in suspension in 96-deep well plates for 36 hr in 1 ml culture medium, with or without addition of 10 mM Fucose. A total of 2.0E + 5 cells per well were spin down and incubated with FITC conjugated LCA (Vector laboratory, FL-1041) at a final concentration of 2ug/ml for 30 min on ice. Cells were washed and analyzed at an attune analytic flow cytometer, and data was analyzed with Flowjo.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9297</offset>
+      <text>Bulk transfection and MSX selection</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9333</offset>
+      <text>Following the electroporation procedure, linearized plasmids (10ug) carrying GS and mAb expression cassettes was electroporated into 2.0E + 7 cells, and cells were seeded into T-25 cm2 flask with 5 mL selection medium (EX-CELL  CD CHO Fusion+6uM methionine sulfoximine [MSX]). 24 hr posttransfection, the cells were transferred to a sterile 15 mL conical tube and centrifuged at 1000 RPM. The cell pellet was resuspended in 10 mL corresponding selection medium, transferred to a T-75 cm2 cell culture flask, and incubated at 36.5C 5% CO2, in 80% humidified incubator. At 7 day, a complete 10 ml medium exchange was performed. At day 13-18, once the viability reached over 50%, cells were transferred into E125 flask at a minimal viable cell density of 0.2 x 10e6 cells/ml, to shake at 125RPM, 36.5 C/5% CO2. After recovered from selection, the cells were routinely passaged in the selection medium.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10263</offset>
+      <text>Western blot</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10276</offset>
+      <text>A total of 1.0E + 8 CHOZN cells were lysed in 1 ml radioimmunoprecipitation assay buffer (RIPA) buffer (Thermo Fisher Cat# 89901) including.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10419</offset>
+      <text>Protease and phosphatase inhibitor (Pierce Cat# A32961). Protein samples (300ug) mixed with 4x Bolt LDS sample buffer and 10X Bolt reducing buffer were boiled for 10 min at 70 C and run for 4%-12% SDS-PAGE gel. Proteins was transferred to PVDF membrane using iBlot 2 Dry Blotting System. Primary antibodies are rabbit anti-Gmds Ab (Abcam 97,630, 1:500), mouse Anti-GAPDH Ab (Sigma M2, 1:10000), and rabbit polyclonal antibody anti-FX (GeneTex Cat#101663, 1:2000). Secondary antibodies are goat anti-rabbit IgG (H + L) (IRDye  800CW P/N 925-32,211, 1:10000) and goat anti-mouse IgG (H + L) (IRDye  680RD P/N 925-68,070, 1:10000). PVDF membranes were imaged using Li-Cor Imaging system.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11136</offset>
+      <text>Fed-batch production and mAb purification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11180</offset>
+      <text>Following Sigma CHOZN fed-batch protocol, inoculate 30 ml of cells at an initial starting cell density of 0.3E + 6 cells/ml in EX-CELL Advanced CHO fed-batch medium (14366C) in a 125 ml Erlenmeyer shake flask. From day 4 postinoculation, every other day proper amount of glucose (G8769) and 2 ml Feed1 medium were feed to make the final concentration to 7-8 g/L of glucose. Cells were counted and titers were measured using Octet for day7, day11, and day14. The day14 conditional medium was used for affinity chromatography with HiTrap MabSelect SuRe prepacked column (GE 11003494), and mAbs were eluted with Elution buffer (50 mM Acetic Acid, pH 3.5).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11851</offset>
+      <text>Glycan analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11867</offset>
+      <text>To characterize mAb-bound N-glycans, purified mAbs were re-formulated in 50 mM Bis/Tris pH 6 buffer to a concentration over 2 mg/ml by diafiltration using microcon 30KDa spin filters (cat. No.: MRCF0R030, Millipore). N-glycans were then released and processed for Gly-Q analysis, using the Gly-X  kit (Cat. No.: GX96-IQ, Prozyme Inc), according to the manufacturer's instructions. Briefly, mAbs were subjected to heat denaturation in reduced conditions, followed by N-glycans release using Prozyme's proprietary fast PNGase F protocol. Glycans were then rapidly labeled with a proprietary negatively charged fluorescent reagent (InstantQ). The labeled N-Glycans, free protein, and excess labeling agent were then subjected to clean up on plate-based columns that absorb sugars selectively. The enriched labeled glycans were then eluted from the columns and analyzed by CE coupled with fluorometric detection. To monitor separation quality and to report relative glycan migration, a prelabeled glucose size ladder was run interspersed between samples at evenly spaced intervals. Glycan's migration was reported as GU, based on the two nearest migrating glucose markers in the ladder. To assign structures to unknown glycans, GU migrations were compared to those of known glycan structures using the manufacturer's provided analysis software.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13232</offset>
+      <text> LC-FLR-MS/MS for released N-glycan analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13283</offset>
+      <text>Waters UPLC with Fluorescence detector was used as LC-FLR system. Waters ACQUITY UPLC Glycan BEH Amide 130 A (1.7 um, 2.1 x 150 mm) column was used for LC and the column temperature was set as 55 C. Acetonitrile (100%) was used as mobile phase A and freshly prepared 100 mM Ammonium formate in water was used as mobile phase B. A shallow gradient of 30%-40% of phase B from 6 min to 42 min was used for separation. Weak wash was performed with 600 ul of 25 mM Ammonium formate in 25% water and 75% acetonitrile, and strong wash with 200 ul of 100 mM Ammonium formate in water. Injection volume was 15 ul for each sample. Excitation at 265 nm and emission at 425 nm were applied as fluorescence wavelengths, and fluorescence sampling rate was set as 2 Hz. Thermo Fischer Q ExactiveP P Plus mass spectrometer was applied for m/z detection. MS acquisition mode was set as positive full MS/ddMS2, full MS scan resolution was set as 17,500, and AGC target was set as 3e6, with 100 ms of Maximum injection time (IT). Scan range was 700-3,500 m/z, the dd-MS2/dd-secondary ion mass spectrometry (SIM) scan resolution was set as 17,500, and AGC target was 1e5, with 50 ms of Maximum IT. TopN was set as six, and the isolation window was 2 m/z and (N)CE was 27.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14577</offset>
+      <text>Biacore binding assay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14599</offset>
+      <text>Following GE Biacore assay handbook, the mAbs used for testing were diluted into 5ug/ml in Sodium Acetate buffer (pH 5.0), and were immobilized to CM5 Chip (GE, BR100530). FcgammaRIIIa (R&amp;D system, 4,325-FC-050) and FcgammaRIa (R&amp;D system, 1,257-FC-050) were serial diluted with HBS-EP + (GE, BR100827). The association is 300 s and dissociation is 600 s, at the flow rate of 30 uL/min. Multi-cycle kinetics were performed with the regeneration buffer (10 mM phosphate and 500 mM NaCl, pH 2.5), for 10s at the rate of 30 mul/ml. Binding kinetics and KD(M), were determined using Languir 1:1 binding model and compared for different cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15263</offset>
+      <text> ADCC assay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15275</offset>
+      <text>ADCC target cell line was a multiple myeloma-derived suspension cell line with high antigen expression recognized by mAb2. The target cells were seeded at a density of 15,000 cells/well in a 96-well U-bottom plate in a 50uL volume of ADCC assay buffer (serum free RPMI-1640 media +1%BSA + 2 mM L-Glutamine). Cells were then incubated with serial dilutions of test antibodies for 30 min at 37 C in 50uL of ADCC buffer. Target cells were finally exposed to purified NK cells in 50 ul ADCC buffer at a ratio of 3:1 (effector: target) to induce ADCC mediated cell lysis. The ADCC lysis endpoint was measured after 4 hr in culture at 37 C by collecting 100 ul of supernatant from each well. Cell lysis was measured by lactate dehydrogenase (LDH) release with a Cytotoxicity Detection KitPLUS from Roche according to manufacturer's instructions. Control wells included wells for measuring spontaneous target cell lysis (without NK cells), and complete cell lysis (target cells lysed with 10 ul of cell lysis solution provided in the LDH kit). NK cells were purified from fresh whole human blood with human NK cell isolation kit (cat#130-092-657) from Miltenyi Biotec according to protocol provided in the kit.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16511</offset>
+      <text>ADCC % cell killing was calculated as: </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>16551</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16559</offset>
+      <text>Generation of FX -/- and Gmds-/- CHOZN host cell lines using CRISPR/Cas9 system</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16647</offset>
+      <text>The CHO cells used in the study are CHOZN  cells from Sigma, which has glutamine synthetase (GS) KO GS-/- genotype, often give higher biologics productivity and are widely used in the industry for clinical cell line development. The genomic sequences of FX and Gmds in CHOZN background were referenced from the published genomic database of CHO-K1 cells (CriGri-PICR, GCF_003668045.1). To generate the KO cells by CRISPR/cas9 systems, three guide RNAs (gRNAs) were designed against first or second exon for each target (Table 1, Figure 1a,d showed genomic schematics). PCR amplification of the deoxyribonucleic acid (DNA) fragments covering gRNA-targeted genomic loci of the CHOZN cells were sequenced (data not shown), and the targeting sequences were identical to published sequences from CHO-K1 cells. For each target, we also synthesized three single-strand oligonucleotides (ssOligos) that carried a stop codon and were homologous with the genomic loci where gRNAs are against (Table 1b). When cotransfected with gRNAs and Cas9 protein, ssOligos could enhance gene KO efficiency. The CHOZN pools were analyzed after transfection with gRNAs, ssOligos, and Cas9 protein. The cells transfected with a combo of gRNAs FX.1 and ssOligo FX.1 had 70% editing efficiency, a combo of gRNAs FX.2 and ssOligo FX.2 had 40% editing efficiency, and a combo of gRNAs FX.3 and ssOligo FX.3 had 72% editing efficiency. Similarly, the editing efficiency for a combo of gRNAs Gmds.1 and ssOligo Gmds.1 was 80%, and the editing efficiency for a combo of Gmds.3 guide ribonucleic acid (gRNA) and ssOligo Gmds.3 was 84% (Figure 1c,f). Gmds.2 gRNA was not synthesized successfully and dropped for further experiments. We performed single clone development from the pools that have been edited by FX.3 gRNA combo and Gmds.3 gRNA combo (gRNA binding genomic regions shown in Figure 1b,e).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3061-g002.jpg</infon>
+      <infon key="id">btpr3061-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>18530</offset>
+      <text>gRNA design and efficiency tests. (a), the exon schematic of Gmds in CHO genome. The red arrow point to the exon where gRNAs were targeting. The exon sequences were displayed and the red line highlighted Gmds.3-recognized sequences. (b), agarose gel electrophoresis for genomic cleavage assay to examine editing efficiency of gRNA Gmds.1 and gRNA Gmds.3. The top ~500 bp PCR band was uncleavable (from unedited alleles) and the bottom ~250 bp band was cleaved from edited alleles. The ratio of top vs bottom bands represented the ratio of wildtype vs edited alleles. (c), calculated percentage of cells edited at Gmds locus. (d), the exon schematic of FX genome and the exon that gRNA FX.3 is targeting. (e), genomic cleavage assay for FX.1, FX.2, and FX.3. The top ~500 bp PCR band was un-cleavable (from unedited alleles) and the bottom 200-300 bp bands represent edited alleles. (f), calculated percentage of cells edited at FX locus. Gmds, GDP mannose-4,6-dehydratase</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19520</offset>
+      <text>For both Gmds and FX pools, a total of 96 clones were screened with PCR amplification of the gRNA-targeted genomic region followed by next generation sequencing to examine sequence change. Top 12 clones carrying either nonsense deletions or insertions at both alleles (Table 2) for each gene were selected. Western blot results also confirmed that all the FX-/- clones have lost the expression of the protein (Figure 2a), and 11 out of 12 Gmds-/- clones have lost Gmds protein except clone P2A6 (Figure 2c). Lens culinaris agglutinin (LCA) recognizes alpha-mannose glycan on cell surface glycoproteins and exhibits lower affinity to afucosylated glycan and increased affinity to fucosylated glycan. LCA-Fluorescein isothiocyanate (FITC) staining demonstrated that except Gmds-/- clone P2A6, all the 12 FX-/- clones (Figure 2b) and 11 other Gmds-/- clones (Figure 2d) had negative staining, indicative of disruption of the fucosylation pathway in those 23 clones. Clone Gmds-/- P2A6 had a disrupted genotype but stained positive in LCA-FITC, indicating it retains functional Gmds proteins, which could be caused by incorrect sample consolidation and therefore was dropped for further screening. When the 23 clones were cultured in the presence of fucose in medium, the LCA-FITC staining turned to positive (Figure 2b,d), suggesting that the disruption of fucosylation pathway in those 23 clones could be rescued and that is consistent with previous studies that loss of de novo GDP-fucose synthesis in CHO cells can be reversed by the addition of fucose in the medium. 15 ,  19  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0002.xml</infon>
+      <infon key="id">btpr3061-tbl-0002</infon>
+      <infon key="type">table_caption</infon>
+      <offset>21132</offset>
+      <text>CRISPR/CAS9-mediated sequence editing for the top FX-/- and Gmds-/- CHOZN clones</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0002.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;WT Gmds loci&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATC-CACAGGCTCATATTGAAGGAAGTAA&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2A6&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2A2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B12&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2C1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2D1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2D12&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2F10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2A10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGA-CAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B1 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCCCACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B1 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATA-CAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAG-AATTG-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B5 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCCCACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B5 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTC-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATTG-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2C9 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATTG-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2C9 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCACACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3061-tbl-0002</infon>
+      <infon key="type">table</infon>
+      <offset>21223</offset>
+      <text>FX loci seq TGAGCCCCAGGGATCCAGGAGGATCCTAGTG-ACAGGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1B3 TGAGCCCCAGGGATCCAGGAGGATCCTAGGG-CAGGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1B6 TGAGCCCCAGGGATCCAGGAGGATCCTAGT-ACAGGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1B7 TGAGCCCCAGGG-ATCCAGAAGGT   FXKO P1C6 TGAGCCCCAGGGATCCAGGAGGATCCTAGTGGACAGGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1F6 TGAGCCCCAGGGATCCAGGAGGATCCTAGT-ACAGGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P2F5 TGAGCCCCAGGGATCCAGGAGGA-TCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P2E1 TGAGCCC-TGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1B10 TGAGCCCC-GGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1F4 TGAGCCCCAGGGATCCAGGAGGATCCTA-GGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1F8 TGAGCCCCAGGGATCCAGGA-GGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1F10 TGAGCCCCAGGGATCCAGGAGGATCCT-GGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P1H3 TGAGCCCCAGGGATCCAGGAGG- CTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   FXKO P2A5 TGAGCCCCAGGGATCCAGGAGGATCC-AGGGGGCTCTGGACTGGTGGGCAGAGCTATCCAGAAGGT   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0002.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;WT Gmds loci&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATC-CACAGGCTCATATTGAAGGAAGTAA&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2A6&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2A2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B12&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2C1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2D1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2D12&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2F10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2A10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGA-CAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B1 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCCCACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B1 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATA-CAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAG-AATTG-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B5 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCCCACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B5 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTC-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2B10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATTG-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2C9 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATTG-ACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GmdsKO P2C9 50%&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCACACAGGCTCATATTGAAGGAAGTAA&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3061-tbl-0002</infon>
+      <infon key="type">table</infon>
+      <offset>22254</offset>
+      <text>WT Gmds loci GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATC-CACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2A6 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2A2 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B12 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2C1 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2D1 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2D12 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2F10 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATGA-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2A10 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGA-CAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B1 50% GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCCCACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B1 50% GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATA-CAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B2 GATCCAGTTCATTTAATACAG-AATTG-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B5 50% GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCCCACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B5 50% GATCCAGTTCATTTAATACAGGTC-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2B10 GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATTG-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2C9 50% GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATTG-ACAGGCTCATATTGAAGGAAGTAA   GmdsKO P2C9 50% GATCCAGTTCATTTAATACAGGTCGAATTGAACATTTATATAAGAATCACACAGGCTCATATTGAAGGAAGTAA   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3061-tbl-0002.xml</infon>
+      <infon key="id">btpr3061-tbl-0002</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>23768</offset>
+      <text>Abbreviation: Gmds, GDP mannose-4,6-dehydratase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3061-g008.jpg</infon>
+      <infon key="id">btpr3061-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>23821</offset>
+      <text>Characterization of Gmds-/- CHOZN and FX-/- CHOZN cells. (a), western blot of FX for expanded FX-/- clones. (b) FITC-LCA staining and flow cytometry analysis of FX-/- clones, in the absence of fucose (top panel) or presence of fucose (bottom panel). (c), western blot of Gmds for expanded Gmds-/- clones. (d) FITC-LCA staining and flow cytometry analysis of Gmds-/- clones, in the absence of fucose (top panel) or presence of fucose (bottom panel). Gmds, GDP mannose-4,6-dehydratase; LCA, lens culinaris agglutinin</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>24368</offset>
+      <text>Selection of lead FX -/- and Gmds-/- CHOZN host cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24435</offset>
+      <text>A total of 12 FX-/- clones and 11 Gmds-/- clones have been confirmed based on three lines of data, that is, the genomic nonsense mutations, the loss of expected proteins and the functional disruptions of fucosylation pathway. To test if the KO cell lines are suitable to express afucosylated mAb, we used a proprietary IgG1, mAb1, as the protein of interest to generate bulk pools from each of the 23 host cell lines. Except for one FX-/- clone, P1B10, that did not survive the MSX selection and no pool was generated for that cell line, mAb1 expressing Bulk pools were obtained from the rest of 11 FX-/- clones and 11 Gmds-/- clones. A 14-day fed-batch production was performed from the pools, and their titers were determined by Octet, compared, and ranked (Figure 3b,d). Compared to parental CHOZN cells that led to 0.8 to 1.1 g/L of mAb1 at day14, four FX-/- host clones (P1H3, P2A5, P2E1, and P2F5) and four Gmds-/- host clones (P1A10, P1B10, P2B5, and P2C1) generated similar levels of mAb1 titers ranging from 0.8 to 1.0 g/L.</text>
+      <annotation id="19">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:25:03Z</infon>
+        <location offset="24868" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:25:08Z</infon>
+        <location offset="25034" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:25:10Z</infon>
+        <location offset="25054" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:25:17Z</infon>
+        <location offset="25140" length="6"/>
+        <text>titers</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:26:25Z</infon>
+        <location offset="25230" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:26:15Z</infon>
+        <location offset="25254" length="14"/>
+        <text>0.8 to 1.1 g/L</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:26:28Z</infon>
+        <location offset="25292" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:26:30Z</infon>
+        <location offset="25348" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:26:21Z</infon>
+        <location offset="25452" length="14"/>
+        <text>0.8 to 1.0 g/L</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3061-g009.jpg</infon>
+      <infon key="id">btpr3061-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25500</offset>
+      <text>Screening and selection of top FX-/- and Gmds-/- clones. (a), flowchart of experiment design from transfection of mAb1-expressing plasmid to stable pool selection, fed-batch study and fucosylation analysis. Octet titers of mAb1 at day7, day11, and day14 of fed-batch production for Gmds-/- clones (b) and FX-/- clones (d). The day14 mAbs were purified and analyzed with Gly-Q for fucosylation levels in Gmds-/- clones (c) and FX-/- clones (e). Red rectangles highlighted the final lead clones. Gmds, GDP mannose-4,6-dehydratase</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26064</offset>
+      <text>Next, we performed a glycan profile analysis of mAb1 from the pool production. N-linked Glycans were released by PNGaseF digestion of each mAb1 that was purified via Protein A affinity column. The released glycans were analyzed by capillary electrophoresis (CE) on Gly-Q. In contrast to 86.4%-94.1% of fucosylated glycan from CHOZN cells, only 6.3%-8.1% of fucosylated glycan was observed from the 11 FX-/- clones and 1.0-3.0% from the 11 Gmds-/- clones (Figure 3c,e).</text>
+      <annotation id="28">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:27:05Z</infon>
+        <location offset="26366" length="18"/>
+        <text>fucosylated glycan</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:27:12Z</infon>
+        <location offset="26390" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:27:08Z</infon>
+        <location offset="26421" length="18"/>
+        <text>fucosylated glycan</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:27:14Z</infon>
+        <location offset="26465" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:27:18Z</infon>
+        <location offset="26503" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26551</offset>
+      <text>We narrowed down the engineered clones to two top-performing clones for each target based on the data from cell line growth robustness, capability for MSX selection tolerance, cell line long-term stability, production titers, and afucosylation levels of mAb1 generated from the pools (Supplement data). Clone P2A5 was selected as the lead host clone and P2E1 as a backup for FX-/-; Clone P2B5 was the lead for Gmds-/- and P2C1 was the backup. From our data, FX-/- and Gmds-/- CHO clones had robust cell growth, and their production titers were comparable to CHOZN cells. Both KO cell lines have the potential to be utilized for the manufacturing of afucosylated mAbs for clinical use.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>27256</offset>
+      <text> mAbs produced from FX -/- hosts carry new glycan modifications</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27324</offset>
+      <text>From the 11 FX-/- hosts, the glycans of the expressed mAb1 were not completely afucosylated. 6%-8% of the glycans were fucosylated and that was too significant to be ignored (Figure 4a, bottom panel). Two unique glycan fraction/peaks with glucose unit (GU) of 9.07 and 10.31, were very close to but not identical to G0F with 9.12 GU and G1F(alpha1,6) with 10.16 GU and G1F(alpha1,3) with 10.37 GU. The unique peaks were not observed in mAb1 from any of the Gmds-/- hosts. To further characterize the unusual glycan peaks in FX-/- hosts, we analyzed the samples with liquid chromatograph/fluorescence/ mass spectrometry technology (LC-FLR-MS). In the LC analysis, the Glycan of 9.07GU had a retention time of 18.03 min, and the Glycan of 10.31GU had a retention time of 22.34 min (Figure 4b). The 18.03 min peak had a mass of 1737.7 Da, and MS/MS fragmentation analysis confirmed its structure HexNAc(3)Hex(4)Fuc (1) (G1F-GlcNAc) (Figure 4c). The 22.34 min peak had a mass of 1895.7 Da and MS/MS fragmentation analysis confirmed its structure HexNAc(3)Hex(5)Fuc (1) (Figure 4d).</text>
+      <annotation id="33">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:43:37Z</infon>
+        <location offset="27336" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:43:41Z</infon>
+        <location offset="27403" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:43:46Z</infon>
+        <location offset="27443" length="11"/>
+        <text>fucosylated</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:44:02Z</infon>
+        <location offset="27563" length="12"/>
+        <text>glucose unit</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:44:12Z</infon>
+        <location offset="27781" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:44:19Z</infon>
+        <location offset="27848" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:44:36Z</infon>
+        <location offset="28217" length="22"/>
+        <text>HexNAc(3)Hex(4)Fuc (1)</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:44:50Z</infon>
+        <location offset="28366" length="18"/>
+        <text>HexNAc(3)Hex(5)Fuc</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3061-g001.jpg</infon>
+      <infon key="id">btpr3061-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28430</offset>
+      <text>Identification of novel glycans in FX-/- clones. (a), Gly-Q analysis of the N-Glycan profiles of mAb1 expressed in CHOZN, FX-/- clone P2A5 and Gmds-/- clone P2B5. Major glycans are listed as G0, G1, G2, G0F, G1F, G2F.  mannose;  N-Acetylglucosamine (GlcNac);  galactose;  fucose. ** two novel glycan peaks. (b), Liquid Chromatograph of mAb1 glycan sample from FX-/- clone P2A5 and Gmds-/- clone P2B5. (c-d), Fluorescence/mass spectrometry (LC-FLR-MS). The two glycan peaks uniquely observed in FX-/- clones were analyzed for Mass spectrum. The doubly charged peaks were further labeled with RapiFluo mass tag for another Mass spectrum analysis. Gmds, GDP mannose-4,6-dehydratase. Gmds, GDP mannose-4,6-dehydratase; mAb, marketed therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>29226</offset>
+      <text> mAbs produced from FX -/- and Gmds-/- CHOZN host cell lines demonstrated enhanced FcgammaRIIIa binding and ADCC effects</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29352</offset>
+      <text>41TWe examined the FcgammaRIIIa binding and ADCC effects of a second proprietary monoclonal antibody, mAb2, produced from the two engineered cell lines. We expressed mAb2, an IgG1 with wildtype Fc domain, in the FX-/- P2A5 cells, Gmds-/- P2B5 cells, and CHOZN cells. Consistent with the fucosylation profiles of mAb1, Gly-Q results showed that mAb2 produced from CHOZN is 96% fucosylated. In contrast, mAb2 from FX-/- P2A5 cells is 10.1% fucosylated including 3.4% of G1F-GlcNAc and 3.7% of HexNAc(3)Hex(5)Fuc (1), and mAb2 from Gmds-/- P2B5 is 1.9% fucosylated (Figure 5a,b). mAb2 with these glycan modifications demonstrated no difference in thermal stability by nano differential scanning fluorimetry (DSF) and molecular size by size exclusion chromatography (Figure 5c,d).</text>
+      <annotation id="41">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:22Z</infon>
+        <location offset="29371" length="20"/>
+        <text>FcgammaRIIIa binding</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:22Z</infon>
+        <location offset="29396" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:36Z</infon>
+        <location offset="29564" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:38Z</infon>
+        <location offset="29582" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:40Z</infon>
+        <location offset="29606" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:45Z</infon>
+        <location offset="29728" length="11"/>
+        <text>fucosylated</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:47Z</infon>
+        <location offset="29790" length="11"/>
+        <text>fucosylated</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:50Z</infon>
+        <location offset="29820" length="10"/>
+        <text>G1F-GlcNAc</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:53Z</infon>
+        <location offset="29843" length="22"/>
+        <text>HexNAc(3)Hex(5)Fuc (1)</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:46:01Z</infon>
+        <location offset="29881" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:45:57Z</infon>
+        <location offset="29902" length="11"/>
+        <text>fucosylated</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:46:12Z</infon>
+        <location offset="29996" length="17"/>
+        <text>thermal stability</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3061-g007.jpg</infon>
+      <infon key="id">btpr3061-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30146</offset>
+      <text>Boosted FcgammaRIIIa binding and ADCC efficacy for mAb2 produced from FX-/- and Gmds-/- CHOZN host cell lines. mAb2 was produced in CHOZN, FX-/- clone P2A5 and Gmds-/- clone P2B5. (a, b) glycan profiles, (c) thermal stability analysis, (d) size exclusion chromatography (SEC), (e) FcgammaRIIIa and FcgammaRIa binding assay, and (f) in vitro ADCC assay. ADCC, antibody-dependent cellular cytotoxicity; Gmds, GDP mannose-4,6-dehydratase; mAb, marketed therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30632</offset>
+      <text>Surface plasmon resonance (SPR) binding assays by Biacore showed that the disassociation constant (Equilibrium dissociation constant [KD]) of mAb2 from CHOZN, FX-/- P2A5, and Gmds-/- P2B5 cells binding to FcgammaRIIIa were 570 nM, 80 nM, and 68 nM, to FcgammaRIa were 0.33 nM, 0.25 nM, and 0.28 nM respectively (Figure 5e). These data suggested that the afucosylated mAb2 produced from both FX-/- and Gmds-/-cells had significant increased binding to FcgammaRIIIa but had no effect on the bindings to FcgammaRIa.</text>
+      <annotation id="74">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:50:57Z</infon>
+        <location offset="30784" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:50:58Z</infon>
+        <location offset="30791" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:51:01Z</infon>
+        <location offset="30807" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="77">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:51:06Z</infon>
+        <location offset="30826" length="23"/>
+        <text>binding to FcgammaRIIIa</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:51:12Z</infon>
+        <location offset="30884" length="10"/>
+        <text>FcgammaRIa</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:51:18Z</infon>
+        <location offset="30986" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:51:22Z</infon>
+        <location offset="31023" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:51:24Z</infon>
+        <location offset="31033" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:08Z</infon>
+        <location offset="31072" length="23"/>
+        <text>binding to FcgammaRIIIa</text>
+      </annotation>
+      <annotation id="83">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:52:11Z</infon>
+        <location offset="31133" length="10"/>
+        <text>FcgammaRIa</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31161</offset>
+      <text>We next examined how ADCC effects were affected by the afucosylated mAb with the increased FcgammaRIIIa bindings. Cells expressing corresponding cell surface antigen for mAb2 were preincubated with serial dilutions of mAb2 followed by exposure to purified human NK cells to induce ADCC-mediated cell lysis. The maximum percentage of cell lysis was 13.5% for mAb2 from CHOZN, in contrast to 27.0% from FX-/- and 25.5% from Gmds-/- cells (Figure 5f). The half-maximum effective concentration (EC50) of mAb2 from CHOZN, FX-/- P2A5 and Gmds-/- P2B5 were 406.5pM, 2.5pM, and 8.0pM (Figure 5d). These data together suggest that the highly afucosylated mAb2 generated from FX-/- and Gmds-/- CHO cells both had much higher ADCC effects (~50-160 fold). The 90% of afucosylated mAb2 from FX-/- and 98% afucosylated mAb2 from Gmds-/- have no significant difference in FcgammaRIIIa bindings and in ADCC effects, which indicated either KO cell line could be used as a master host to produce afucosylated mAbs.</text>
+      <annotation id="53">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:02Z</infon>
+        <location offset="31182" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:06Z</infon>
+        <location offset="31216" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:13Z</infon>
+        <location offset="31252" length="21"/>
+        <text>FcgammaRIIIa bindings</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:35Z</infon>
+        <location offset="31494" length="10"/>
+        <text>cell lysis</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:38Z</infon>
+        <location offset="31529" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:47Z</infon>
+        <location offset="31562" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:49Z</infon>
+        <location offset="31583" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:06Z</infon>
+        <location offset="31614" length="36"/>
+        <text>half-maximum effective concentration</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:55Z</infon>
+        <location offset="31671" length="5"/>
+        <text>CHOZN</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:48:56Z</infon>
+        <location offset="31678" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:00Z</infon>
+        <location offset="31693" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:11Z</infon>
+        <location offset="31794" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:15Z</infon>
+        <location offset="31827" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:17Z</infon>
+        <location offset="31837" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:21Z</infon>
+        <location offset="31876" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:24Z</infon>
+        <location offset="31916" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:33Z</infon>
+        <location offset="31939" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:52:51Z</infon>
+        <location offset="31976" length="7"/>
+        <text>Gmds-/-</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:40Z</infon>
+        <location offset="32018" length="21"/>
+        <text>FcgammaRIIIa bindings</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:49:45Z</infon>
+        <location offset="32047" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:50:07Z</infon>
+        <location offset="32139" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32190</offset>
+      <text>These results also demonstrated that the hybrid glycans, G1F-GlcNAc and HexNAc(3)Hex(5)Fuc (1), found on mAbs expressed from FX-/- CHO cells did not interfere in FcgammaRIIIa binding and ADCC effects. These novel glycans are not distinguished enough to become critical attributes that affect either biophysics or function of therapeutic mAb in vitro.</text>
+      <annotation id="87">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:29Z</infon>
+        <location offset="32231" length="14"/>
+        <text>hybrid glycans</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:27Z</infon>
+        <location offset="32247" length="10"/>
+        <text>G1F-GlcNAc</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:32Z</infon>
+        <location offset="32262" length="22"/>
+        <text>HexNAc(3)Hex(5)Fuc (1)</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:36Z</infon>
+        <location offset="32315" length="5"/>
+        <text>FX-/-</text>
+      </annotation>
+      <annotation id="90">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:49Z</infon>
+        <location offset="32352" length="20"/>
+        <text>FcgammaRIIIa binding</text>
+      </annotation>
+      <annotation id="91">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:53:49Z</infon>
+        <location offset="32377" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:57:59Z</infon>
+        <location offset="32397" length="13"/>
+        <text>novel glycans</text>
+      </annotation>
+      <annotation id="93">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:58:12Z</infon>
+        <location offset="32489" length="22"/>
+        <text>biophysics or function</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>32544</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32555</offset>
+      <text>CHOK1SV-GS-/- and CHOK1-GS-/- cells (CHOZN) have their endogenous GS gene disrupted and have been widely used for the manufacturing of biotherapeutics, owing to its stringent MSX selection and superior productivity. 22  Gene modifications on these host cells have generated more desired host cell lines. 23 ,  24 ,  25  To modify the protein fucosylation pathway and take advantage of the CHOZN superior genetic background, we edited Gmds and FX genomic loci in CHOZN cells and obtained KO cell lines for each of the genes. The top engineered host clones all grow similarly as CHOZN cells during routine cell passaging, in bulk transfection and MSX selection study. In the fed-batch production study with the use of bulk pools, the engineered clones produced up to 1 g/L mAbs similar to what CHOZN cells can generate. Loss of either gene led to highly afucosylated N-linked glycans on tested mAbs, and because of that, both the FcgammaRIIIa binding and in vitro ADCC effects of the afucosylated mAb were dramatically boosted.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33594</offset>
+      <text>In this study, we performed head-to-head comparisons of Gmds-/- CHOZN and FX-/- CHOZN cells, which were generated in the cells of the same genetic background. Previous proof-of-concept studies have demonstrated Gmds-/- DG44 cells can be used as a host to produce afucosylated mAbs. 19  However, the Gmds-/- DG44 cells were generated with the use of traditional homologous recombination, which has extremely low efficiency and the technology itself could not provide large numbers of KO host cells for screening. Primarily because of that reason and the DG44 less favorable genetic background, the mAb productivity of the top selected clone was ~500 mg/L at 14 day fed batch, which often led to a misconception that KO of the Gmds gene compromised productivity. In comparison, a recent study demonstrated that knock out of FX gene in CHO-K1 cells generated completely afucosylated glycans with fed-batch titers (4-5 g/L for top clones), 15  leaving the impression that FX-/- CHO is superior to Gmds-/- CHO cells. In our study, the methods to generate the KO cell lines and the standards to evaluate the cell lines are identical for both Gmds-/- CHOZN and FX-/- CHOZN host cells. The KO cell lines performed very similarly in characteristics such as cell growth robustness, MSX selection tolerance, cell line long-term stability, and production titers. The only distinguishable difference is that in FX-/- CHO cells, the expressed mAbs were not completely afucosylated, with 4%-10% fucosylated glycan detected, and the majority of these fucosylated glycans are novel forms (Figure 4b), as characterized by mass spectrometry. The different glycan pattern may reflect that the protein glycosylation pathway in CHO cells are not fully elucidated. Although the slight difference of fucosylation levels did not significantly affect FcgammaRIIIa binding and in vitro ADCC effects, the 4%-10% novel form of glycans remains to be carefully investigated if they could cause immunogenicity in vivo. Before the concern is well addressed, we consider Gmds-/- CHOZN host as a better cell line for the potential clinical or commercial manufacturing of ADCC mAbs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>35802</offset>
+      <text>CONFLICT OF INTEREST</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35823</offset>
+      <text>The study was supported by Takeda Pharmaceuticals and all authors are or were Takeda employees at the time of this study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_2</infon>
+      <offset>35945</offset>
+      <text>PEER REVIEW</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35957</offset>
+      <text>The peer review history for this article is available at https://publons.com/publon/10.1002/btpr.3061.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>36060</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>36083</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">292</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">29070974</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Transfus Med Hemother</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">300</infon>
+      <offset>36094</offset>
+      <text>An fc double-engineered CD20 antibody with enhanced ability to trigger complement-dependent cytotoxicity and antibody-dependent cell-mediated cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">81</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2353</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">29090617</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biosci Biotechnol Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2359</infon>
+      <offset>36257</offset>
+      <text>Preparation and biological activities of anti-HER2 monoclonal antibodies with fully core-fucosylated homogeneous bi-antennary complex-type glycans</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">649</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">29576375</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Cancer Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">663 e4</infon>
+      <offset>36412</offset>
+      <text>Fc effector function contributes to the activity of human anti-CTLA-4 antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">307</infon>
+      <infon key="pub-id_pmid">24330813</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Transl Med</infon>
+      <infon key="type">ref</infon>
+      <offset>36497</offset>
+      <text>Trastuzumab mediates antibody-dependent cell-mediated cytotoxicity and phagocytosis to the same extent in both adjuvant and metastatic HER2/neu breast cancer patients</text>
+    </passage>
+    <passage>
+      <infon key="volume">203</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3126</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">31748349</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3135</infon>
+      <offset>36668</offset>
+      <text>Functional attributes of antibodies, effector cells, and target cells affecting NK cell-mediated antibody-dependent cellular cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2390</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">18566325</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Blood</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2399</infon>
+      <offset>36810</offset>
+      <text>Antibody fucosylation differentially impacts cytotoxicity mediated by NK and PMN effector cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">126</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">18952826</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">134</infon>
+      <offset>36906</offset>
+      <text>The N-linked oligosaccharide at fc gamma RIIIa Asn-45: an inhibitory element for high fc gamma RIIIa binding affinity to IgG glycoforms lacking core fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">12669</infon>
+      <infon key="issue">31</infon>
+      <infon key="pub-id_pmid">21768335</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Proc Natl Acad Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12674</infon>
+      <offset>37072</offset>
+      <text>Unique carbohydrate-carbohydrate interactions are required for high affinity binding between FcgammaRIII and antibodies lacking core fucose</text>
+    </passage>
+    <passage>
+      <infon key="volume">268</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">201</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">26497522</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Immunol Rev</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">221</infon>
+      <offset>37214</offset>
+      <text>Structural analysis of fc/FcgammaR complexes: a blueprint for antibody design</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">29062024</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Sci Rep</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">13780</infon>
+      <offset>37292</offset>
+      <text>Conformational effects of N-glycan core fucosylation of immunoglobulin G fc region on its interaction with Fcgamma receptor IIIa</text>
+    </passage>
+    <passage>
+      <infon key="volume">125</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1344</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">20513525</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Allergy Clin Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1353 e2</infon>
+      <offset>37423</offset>
+      <text>MEDI-563, a humanized anti-IL-5 receptor alpha mAb with enhanced antibody-dependent cell-mediated cytotoxicity function</text>
+    </passage>
+    <passage>
+      <infon key="volume">183</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4782</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_pmid">19748990</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">J Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">4791</infon>
+      <offset>37553</offset>
+      <text>Defucosylated anti-CCR4 monoclonal antibody exerts potent ADCC against primary ATLL cells mediated by autologous human immune cells in NOD/Shi-scid, IL-2R gamma(null) mice in vivo</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">614</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">15352059</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">622</infon>
+      <offset>37739</offset>
+      <text>Establishment of FUT8 knockout Chinese hamster ovary cells: an ideal host cell line for producing completely defucosylated antibodies with enhanced antibody-dependent cellular cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">774</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">20564614</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">783</infon>
+      <offset>37930</offset>
+      <text>Highly efficient deletion of FUT8 in CHO cell lines using zinc-finger nucleases yields cells that produce completely nonfucosylated antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">632</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">27666939</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">644</infon>
+      <offset>38075</offset>
+      <text>FX knockout CHO hosts can express desired ratios of fucosylated or afucosylated antibodies with high titers and comparable product quality</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">801</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_pmid">32624826</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Eng Life Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">808</infon>
+      <offset>38214</offset>
+      <text>Producing defucosylated antibodies with enhanced in vitro antibody-dependent cellular cytotoxicity via FUT8 knockout CHO-S cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5404</infon>
+      <infon key="issue">14</infon>
+      <infon key="pub-id_pmid">23493549</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Proc Natl Acad Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5409</infon>
+      <offset>38347</offset>
+      <text>Development of orally active inhibitors of protein and cellular fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">290</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">29173063</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">303</infon>
+      <offset>38424</offset>
+      <text>Development of a pre-glycoengineered CHO-K1 host cell line for the expression of antibodies with enhanced fc mediated effector function</text>
+    </passage>
+    <passage>
+      <infon key="volume">130</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">300</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">17559959</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">310</infon>
+      <offset>38564</offset>
+      <text>Establishment of a GDP-mannose 4,6-dehydratase (GMD) knockout host cell line: a new strategy for generating completely non-fucosylated recombinant therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">399</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">26471004</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">414</infon>
+      <offset>38730</offset>
+      <text>Inactivation of GDP-fucose transporter gene (Slc35c1) in CHO cells by ZFNs, TALENs and CRISPR-Cas9 for production of fucose-free antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1607</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">20639190</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1618</infon>
+      <offset>38876</offset>
+      <text>Production of non-fucosylated antibodies by co-expression of heterologous GDP-6-deoxy-D-lyxo-4-hexulose reductase</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1007</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">22068567</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1015</infon>
+      <offset>39006</offset>
+      <text>Improving the efficiency of CHO cell line generation using glutamine synthetase gene knockout cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1942</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_pmid">26888596</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1952</infon>
+      <offset>39106</offset>
+      <text>CHO cells knocked out for TSC2 display an improved productivity of antibodies under fed batch conditions</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">334</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">25641927</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">346</infon>
+      <offset>39211</offset>
+      <text>Chinese hamster ovary (CHO) host cell engineering to increase Sialylation of recombinant therapeutic proteins by modulating Sialyltransferase expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">576</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">27642072</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">588</infon>
+      <offset>39364</offset>
+      <text>Genetic engineering of CHO cells for viral resistance to minute virus of mice</text>
+    </passage>
+  </document>
+</collection>

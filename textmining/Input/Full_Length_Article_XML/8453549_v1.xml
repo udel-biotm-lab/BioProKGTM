@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>8453549</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Wille;given-names:Gregor</infon>
+      <infon key="name_2">surname:Le Mignon;given-names:Maxime</infon>
+      <infon key="name_1">surname:Wehsling;given-names:Maria</infon>
+      <infon key="article-id_pmid">33738790</infon>
+      <infon key="name_0">surname:Schmidt;given-names:Corinna</infon>
+      <infon key="notes"> , , , , , , , , &amp;  . . , , -.   </infon>
+      <infon key="pub-id_doi">10.1002/bit.27755</infon>
+      <infon key="pub-id_pmid">33738790</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">8453549</infon>
+      <infon key="article-id_publisher-id">BIT27755</infon>
+      <infon key="source">Biotechnology Bioengineering</infon>
+      <infon key="article-id_doi">10.1002/bit.27755</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol Bioeng;2021Sep; 118 (9) 3395-3408. doi:10.1002/bit.27755</infon>
+      <infon key="lpage">3408</infon>
+      <infon key="fpage">3395</infon>
+      <infon key="issue">9</infon>
+      <infon key="alt-title">SCHMIDT et al. </infon>
+      <infon key="volume">118</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="kwd">bioprocesses cell culture media enzymatic cleavage lactoyl- (iso)leucine solubility</infon>
+      <infon key="name_8">surname:Zimmer;given-names:Aline</infon>
+      <infon key="name_7">surname:Fischer;given-names:Markus</infon>
+      <infon key="name_6">surname:Zabezhinsky;given-names:Dmitry</infon>
+      <infon key="name_5">surname:Schnellbaecher;given-names:Alisa</infon>
+      <infon key="authors">Schmidt C, Wehsling M, Le Mignon M, Wille G, Rey Y, Schnellbaecher A, Zabezhinsky D, Fischer M, Zimmer A, </infon>
+      <infon key="name_4">surname:Rey;given-names:Yannick</infon>
+      <offset>0</offset>
+      <text>Lactoyl leucine and isoleucine are bioavailable alternatives for canonical amino acids in cell culture media</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>109</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>118</offset>
+      <text>Increasing demands for protein-based therapeutics such as monoclonal antibodies, fusion proteins, bispecific molecules, and antibody fragments require researchers to constantly find innovative solutions. To increase yields and decrease costs of next generation bioprocesses, highly concentrated cell culture media formulations are developed but often limited by the low solubility of amino acids such as tyrosine, cystine, leucine, and isoleucine, in particular at physiological pH. This study sought to investigate highly soluble and bioavailable derivatives of leucine and isoleucine that are applicable for fed-batch processes. N-lactoyl-leucine and N-lactoyl-isoleucine sodium salts were tested in cell culture media and proved to be beneficial to increase the overall solubility of cell culture media formulations. These modified amino acids proved to be bioavailable for various Chinese hamster ovary (CHO) cells and were suitable for replacement of canonical amino acids in cell culture feeds. The quality of the final recombinant protein was studied in bioprocesses using the derivatives, and the mechanism of cleavage was investigated in CHO cells. Altogether, both N-lactoyl amino acids represent an advantageous alternative to canonical amino acids to develop highly concentrated cell culture media formulations to support next generation bioprocesses.</text>
+      <annotation id="1">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:45:01Z</infon>
+        <location offset="334" length="6"/>
+        <text>yields</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:44:14Z</infon>
+        <location offset="488" length="25"/>
+        <text>solubility of amino acids</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:44:16Z</infon>
+        <location offset="583" length="16"/>
+        <text>physiological pH</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:44:32Z</infon>
+        <location offset="749" length="17"/>
+        <text>N-lactoyl-leucine</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:44:36Z</infon>
+        <location offset="771" length="20"/>
+        <text>N-lactoyl-isoleucine</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:45:25Z</infon>
+        <location offset="944" length="20"/>
+        <text>modified amino acids</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:45:35Z</infon>
+        <location offset="978" length="12"/>
+        <text>bioavailable</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:45:41Z</infon>
+        <location offset="1123" length="7"/>
+        <text>quality</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:45:56Z</infon>
+        <location offset="1202" length="11"/>
+        <text>derivatives</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1496</offset>
+      <text>The replacement of leucine and isoleucine by N-lactoyl amino acids in concentrated feeds enables the development of next generation fed-batch bioprocesses used to produce monoclonal antibodies or recombinant proteins. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1719</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1732</offset>
+      <text>Therapeutic proteins against cancer, autoimmune, and infectious diseases are being produced in mammalian cell culture (Aggarwal,; Grilo &amp; Mantalaris,) and continuous competition in the biopharmaceutical field leads to increasing demand for biotherapeutics (O'Flaherty et al.,). The majority of all biotherapeutics (60%-70%) are produced in cultured Chinese hamster ovary (CHO) cells, due to their capacity to process complex glycosylation, and other human-like posttranslational modifications (Grilo &amp; Mantalaris,; McAtee et al.,; Wurm,). In addition, CHO cells can be grown in suspension in chemically defined media at scales required to meet market demands (Lai et al.,).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2410</offset>
+      <text>The cell culture medium (CCM) formulation is critical for the culture longevity and viability as well as quality attributes of the end product (D. Bruhlmann et al.,; David Bruhlmann et al.,; Ehret et al.,; Zimmermann et al.,). To grow and produce high amounts of antibodies or other therapeutic proteins, CHO cells need regular supplementation with essential amino acids (AA) through feeding (Carrillo-Cocom et al.,; Sellick et al.,). However, several amino acids such as cystine, tyrosine and branched-chain amino acids (BCAA) present an intrinsic low solubility in CCM (Carta &amp; Tola,; Salazar et al.,). Several studies report utilization of noncanonical amino acids for biotechnological applications to support growth and productivity of CHO cells while presenting increased solubility properties in CCM (Chevallier et al.,; Hecklau et al.,; Schmidt et al.,; Wu et al.,; Zimmer et al.,).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3305</offset>
+      <text>The BCAA leucine (Leu), isoleucine (Ile), and valine (Val) are essential amino acids, that cells cannot produce from building blocks (Monirujjaman &amp; Ferdouse,; Tajiri &amp; Shimizu,). These amino acids have interconnected effects and implications on health (Son et al.,; Suryawan et al.,; Yoneshiro et al.,), diseases (Lei et al.,), and antibody productivity (Carrillo-Cocom et al.,; Sellick et al.,).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3705</offset>
+      <text>N-Lactoyl amino acids (Lac-AA) were discovered recently as being formed during fermentation of Parmigiano-Reggiano cheese (Sforza et al.,) and in dry-cured ham (Paolella et al.,). Further studies in the food industry described Lac-AA as taste active amino acids, formed from free AA and lactic acid through the action of lactoyl transferase in lactobacillus spp., particularly in soy sauce and meat products (Frerot &amp; Chen,; Zhao et al.,). In fermented soy sauce, the most prevalent Lac-AA were N-lactoyl-glutamate, N-lactoyl-valine, N-lactoyl-isoleucine (Lac-Ile), and N-lactoyl-leucine (Lac-Leu) (Frerot &amp; Chen,). In another study, N-lactoyl-glutamate, N-lactoyl-alanine, and N-lactoyl-methionine were described as ingredients for the preparation of flavored food products upon which they confer a remarkable fullness and mouthfeel (Frerot &amp; Escher,). Lac-AA and in particular N-Lactoyl-serine have furthermore been patented for their use in cosmetic and dermatology applications (Haider,). In the animal nutrition field, Lac-AA were used as supplement to provide ruminants with bioavailable AA that are resistant to degradation in the rumen (Lorbert et al.,). Finally, a recent study demonstrated the ability of mammalian cells to produce detectable amounts of lactoyl amino acids intracellularly via cytosolic nonspecific dipeptidase 2 (CNDP2), and subsequent excretion via the ATP-binding cassette subfamily C member 5 (ABCC5) transporter (Jansen et al.,).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5221</offset>
+      <text>This study reports that Ile and Leu can be replaced in feed formulations by their modified analogs Lac-Leu and Lac-Ile sodium salts. These modified AA are soluble, stable, and bioavailable for cells when cultivated in fed-batch mode. Mechanistic studies showed that Lac-AA are cleaved by the intracellular enzymatic machinery, forming canonical and readily bioavailable Leu or Ile which are being used as building blocks for antibody and fusion protein production or used as precursors for metabolic intermediates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5744</offset>
+      <text>MATERIAL AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5765</offset>
+      <text>Reagents/cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5785</offset>
+      <text>N-lactoyl-leucine (Frerot &amp; Escher,) and N-lactoyl-isoleucine sodium salts depicted in Figure S1 were synthesized according to published protocols (Jorres et al.,). 1H (400.2 MHz) and 13C (100.6 MHz) NMR spectra were recorded on a Bruker Avance III 400 spectrometer in D2O with benzene-d6 as external standard unless otherwise indicated and are reported in ppm (Figure S1). Mass spectroscopy was performed on an Impact II (Bruker) using electrospray ionization (ESI), details of the method can be found in Section 2.3.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6319</offset>
+      <text>All other chemicals were purchased from Sigma-Aldrich/Merck (Merck) unless stated otherwise. Five CHO cell lines producing three different IgGs and two fusion proteins were used in this study. Cell line 1 is a recombinant CHOK1 GS clone expressing mAb1, whereas Cell line 2 is a CHODG44 clone expressing mAb2. Cell lines 3, 4, and 5 are CHOZN clones expressing mAb3 and two different fusion proteins and are named CHOZN 023, CHOZN 034, and CHOZN 5, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6784</offset>
+      <text>Solubility of Lac-AA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6807</offset>
+      <text>The maximum solubility of Lac-Ile and Lac-Leu in water was assessed at different temperatures through the preparation of a saturated solution. The pH value of this solution was recorded. After sedimentation, the supernatant was transferred to a new vial, the aqueous solvent was evaporated using infrared (120 C, 120 min), the residual mass was determined, and final solubility was calculated in g compound per kg of water.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7238</offset>
+      <text>To investigate the solubility of Lac-Ile and Lac-Leu in a highly concentrated cell culture feed, a customized dry powder media corresponding to Cellvento  4Feed lacking Ile and Leu was produced (Merck). Increasing amounts of Lac-Ile and Lac-Leu were added to the liquid feed containing already a total of 125 g/L nutrients at pH 7.0 until saturation was observed. After each addition, the feed was agitated for 10 min, and osmolality (Osmomat 3000, GonoTec), pH and turbidity (Turb  550 IR, WTW Lab, Xylem Analytics) were measured.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7784</offset>
+      <text>To determine the maximum solubility that can be achieved for a feed upon the replacement of Leu and Ile with Lac-Leu and Lac-Ile respectively, a Cellvento  4Feed backbone lacking Leu and Ile was supplemented with Lac-Leu and Lac-Ile and compared with the original Cellvento  4Feed formulation containing Leu and Ile. Both formulations were reconstituted at 230 g/L and 265 g/L, respectively. After 15 min, the pH was adjusted to 7.0 using NaOH and the solution was mixed another 30 min. Increasing amounts of water were added until a clear solution was obtained with a turbidity value below 5 NTU (measured using Turb  550 IR). Samples were taken before and after each of the dilution steps to measure turbidity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8516</offset>
+      <text>Stability of Lac-AA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8538</offset>
+      <text>To monitor the stability of Lac-AA in the complex feed mixture, a targeted liquid chromatography-mass spectrometry (LC-MS) method was developed. Lac-Leu and Lac-Ile concentrations from 100 muM to 100 mM in Cellvento  4Feed lacking Ile and Leu at pH 7 were measured to determine the linear range of the method. The final linear range was defined between 10 and 400 pmol of both Lac-AA injected on the column. Samples were injected on a Xselect HSS T3 column (Waters, 3.5 mum, 2.1 x 150 mm) heated at 40 C. The elution was performed using a gradient between buffer A (20 mM ammonium formate/0.1% formic acid) and buffer B (methanol) using a flow rate of 300 mul/min. Briefly, the gradient started with 0.1% of B for 2 min, then increased linearly from 0.1% B to 20% B at 4 min, followed by 30% B at 6 min, 80% B at 8 min, and 100% B at 8.5 min. A plateau at 100% B was maintained until 9.5 min before returning to 0.1% B until 12 min. The MS detection was performed using an Impact II (Bruker) running in ESI negative mode with an end plate offset of 500 V and a capillary voltage of 3500 V. The nebulizer was set to 1.4 bar and the dry gas was set to 9 L/min at a temperature of 250 C. The mass range was set from 20 to 1000 Da at a spectral rate of 5 Hz. Internal calibration was performed using a sodium formate solution. For the stability study, the cell culture feed (Cellvento  4Feed lacking Ile/Leu) supplemented with Lac-AA was reconstituted, the pH was adjusted to 7.0 and the solution was stored for 3 months at either 4 C or room temperature (RT), light protected. Every week, samples were collected and stored at -20 C for further analytics including LC-MS. The signal for Lac-Leu and Lac-Ile was considered stable if the measured concentrations over time did not decrease beyond 10% (standard error of the method).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10437</offset>
+      <text>Fed-Batch and corresponding analytics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10477</offset>
+      <text>CHOK1 GS and CHODG44 cells were cultivated in the Cellvento  4CHO medium, whereas CHOZN 023, CHOZN 5, and CHOZN 034 were cultivated in EX-CELL  Advanced  CHO Fed-batch Medium (Merck/Sigma Aldrich). Both media are chemically defined and contain essential components for optimal cell growth and protein production. CHOK1 GS and CHOZN cells were transfected with a plasmid containing the Glutamine Synthetase (GS) gene and thus did not require l-glutamine supplementation. In contrast, CHODG44 cells required supplementation with 6 mM l-glutamine in the medium. Regarding feeds, Cellvento  4Feed and EX-CELL  Advanced feed were lacking Ile and Leu to allow individual supplementation or exchanges with Lac-Leu and Lac-Ile (equimolar concentrations or decreasing concentrations going from 100% to 50% the equimolar concentration). Fed-batch processes were performed in 50 ml spin tubes with vented cap (TPP) at 37 C, 5% CO2, 80% humidity and a rotation speed of 320 rpm. For Cellvento  4Feed, 3% (v/v) of the total volume was added on Day 3, 5, 10, 12, and 14 and 6% (v/v) was added on Day 7. For EX-CELL  Advanced based processes, 5% (v/v) of EX-CELL  Advanced  Feed was added on Day 3, 5, 7, 10, 12, and 14. The glucose level was maintained by adding a specific amount of a 400 g/L glucose stock solution on demand to up to 6 g/L during the week and up to 12 g/L before the weekend. Cell counts and viability were measured using a Vi-CELL XR 2.04 cell counter (Beckman Coulter). The seeding density was 2 x 105 cells/ml for CHOK1 GS and CHODG44 and 3 x 105 cells/ml for CHOZN cells in 30 ml starting volume. Experimental conditions were performed with four biological replicates. Spent media analysis including glucose, IgG, lactate dehydrogenase, ammonia, iron, lactate, phosphate, and pyruvate was performed with the bioprocess analyzer Cedex Bio HT (Roche) after centrifugation of the sample for 2.5 min at 5000 rpm (2541 g).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12470</offset>
+      <text>For bioreactor experiments using the CHOK1 GS clone, DasGIP 1.2 L glass bioreactors were used, pH was controlled at 6.95 +- 0.15, and dissolved oxygen (DO) was controlled at 50% air saturation by sparging with air and pure oxygen gas via an open pipe sparger. Temperature and agitation were set to 36.7 C and 140 rpm, respectively. The control condition was fed with classical Cellvento  4Feed (containing Ile and Leu) at 1x (same feeding regime as above). The Lac-AA containing feed was designed based on the small-scale dose finding experiment (70% Lac-Leu and Lac-Ile) and was concentrated 2x allowing to reduce the volume of feed added to the bioreactor by a factor 2. For the concentrated process, 1.5% (v/v) of feed was added on Day 3, 5, 10, 12, and 14 and 3% (v/v) on Day 7. To see the potential benefit of a process using highly concentrated feeds, the starting volume of the Lac-AA bioreactors was adapted to maximize the bioreactor capacity and the process started with a 12% higher volume compared to the control condition (same seeding density).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13550</offset>
+      <text>Amino acid analysis was performed by Ultra-Performance Liquid Chromatography (UPLC) with an AccQ-Tag Ultra C18 column (Waters). To detect AA using an UV detector, samples were derivatized with the AccQ-Tag Ultra Derivatization Kit (Waters). Quantification was performed using external calibration curves according to the manufacturer protocol. Lac-AA were quantified using the LC-MS method described in paragraph 2.3 and using an isotopically labeled standard (synthesized internally).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14046</offset>
+      <text>Antibody purification and cQA analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14085</offset>
+      <text>Antibodies and fusion proteins were purified from the cell culture supernatant using protein A PhyTips  (PhyNexus Inc.). Glycosylation patterns were analyzed either by capillary gel electrophoresis with laser-induced fluorescence (CGE-LIF) or by UPLC coupled to a mass spectrometer as described elsewhere (Ehret et al.,). Distribution of charge variants was determined by capillary isoelectric focusing using the CESI8000 (Sciex) and the corresponding manufacturer protocol. Aggregates were quantified using size exclusion chromatography coupled to a Diode array detector (214 nm) using an Acquity UPLC (Waters) and a TSK gel Super SW series column at RT (Tosoh Bioscience). The mobile phase was a 0.05 M sodium phosphate, 0.4 M sodium perchlorate solution at pH 6.3 and the flow rate was 0.35 ml/min. The sample concentration was adjusted to 1 mg/ml with storage buffer (85% v/v of 30 mM citric acid pH 3.0 and 15% v/v 0.375 M Tris Base pH 9.0) and 10 microl were injected for quantification.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15097</offset>
+      <text>Cleavage of Lac-AA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15118</offset>
+      <text>CHOK1 GS cell lysates were obtained by incubation of cell pellets in CytoBuster  Protein Extraction Reagent (Cat#71009-M, Merck) as indicated in the manufacturer instructions and stored at -20 C. Protein concentrations were determined using Pierce  BCA Protein Assay Kit (Cat# 23227, Thermo Fisher Scientific). Lysates were diluted with 10 mM Tris HCl (pH 7.4) to obtain protein concentrations of 37.5, 75, 150, and 300 mug/ml and mixed with 25 mM Lac-Leu or Lac-Ile in 10 mM Tris HCl and 50 mM NaCl (pH 7.4) buffer. Samples were collected at different time points after incubation at 20 C or 37 C. The reaction was stopped by incubation at 100 C for 10 min and kept at -20 C before performing the lactate measurement using the lactate fluorescent assay kit (Cat# MAK064, Merck) or amino acid analysis using the AccQ-Tag method described above.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15998</offset>
+      <text>Recombinant human CNDP2 (1 mug, C-terminal HIS-tagged; Prospec) was incubated (37 C) with 10 mM Lac-Leu or Lac-Ile in 25 mM Tris HCl (pH 7.4), containing 0.1 mM MnCl2. The reactions were stopped by incubation at 100 C for 10 min and kept at -20 C before performing lactate and AA measurements.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16317</offset>
+      <text>Proteomic analysis of CHOK1 GS cells</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>16354</offset>
+      <text>Preparation of cell lysates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16382</offset>
+      <text>Cell pellets from a fed-batch experiment using either the control feed, or a feed containing Lac-Leu and Lac-Ile, were collected at Day 10 by centrifugation at 270 g for 5 min. The cell pellet was resuspended in Cytobuster (Merck) at a concentration of 1 x 107 cells per 100 microl and incubated for 10 min at RT. The lysis mix was centrifuged at 15,000 g (4 C) for 5 min, and the supernatants were transferred in 100 microl aliquots to 1.5 ml Eppendorf tubes and stored at -20 C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>16888</offset>
+      <text>Protein precipitation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16910</offset>
+      <text>Proteins were precipitated using a TCA/acetone protocol. Briefly, 100 microl lysate were mixed with 20% TCA/80% acetone/10 mM DTT in a 1:1 ratio (v:v) and incubated at -20 C for 2 h. Then, pellets were resuspended with 40-80 microl of 8 M urea, 25 mM Tris-HCl, pH 8 and then buffer exchanged in 100 mM Tris-HCl, pH 8 using Zeba spin desalting column (Thermo Fisher Scientific). Protein quantification was performed using NanoDrop (Thermo Fisher Scientific).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>17385</offset>
+      <text>Tryptic digestion protocol</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17412</offset>
+      <text>Samples were digested using trypsin before nanoLC-MS/MS analysis. Briefly, 30 microg of intracellular proteins were denatured and reduced by adding 1 microl of both 1% ProteaseMAX (Promega) and 250 mM DTT, respectively, followed by an incubation at 56 C for 60 min in a thermomixer (Thermo Fisher Scientific, 600 rpm). After cooling down the samples at RT, free cysteines were alkylated by adding 2 microl of 250 mM iodoacetamide. After an incubation at RT for 45 min in the dark, excess of iodoacetamide was quenched by adding 1 microl of 250 mM DTT. 61 microl of 100 mM Tris HCl, pH 8, 1 microl of 1 M CaCl2, and 2 microl of trypsin Gold at 0.5 microg/microl (Promega) were successively added. After an incubation at 37 C for 15 h, enzymatic digestion was stopped by adding 1 microl of 100% formic acid. A centrifugation step (14,000 rpm for 15 min) was performed to remove degraded surfactant and 50 microl of supernatant were transferred in a LC vial containing 50 microl of 4% ACN/0.2% TFA.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>18420</offset>
+      <text>LC-MS parameters</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18439</offset>
+      <text>1 microg of tryptic digest was injected on a nanoRSLC3000 (Thermo Fisher Scientific) coupled to QToF Impact II equipped with a Captive spray (Bruker). For the LC, an Acclaim PepMap trap column (100 microm x 2 cm) was used together with a nanoEase M/Z Peptide CSH C18 column (130 A, 1.7 microm, 75 microm x 150 mm). The column was heated at 40 C, two solvents were used (A: 0.1% formic acid, B: 80% ACN/0.1% formic acid) at a flow rate of 300 nl/min. The gradient was raised stepwise from 5% B to 95% B according to the following gradient (0 min 95:5, 5 min 95:5, 102 min 60:40, 105 min 40:60, 106 min 5:95, 110 min 5:95, 110.1 min 95:5, and 120 min 95:5). The mass spectrometer was run in positive mode for a m/z range from 150 to 2200 with lock mass calibration (m/z 1221.9906). The capillary voltage was set to 1100 V, the MS spectra rate was 2 Hz whereas the MSMS scan level was 8 Hz (2500 cts); 32 Hz (25000 cts).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>19397</offset>
+      <text>Peptide/protein identification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19428</offset>
+      <text>Protein identification was performed using PEAKS Xpro software (BSI Informatics) by matching acquired peptide tandem mass spectra against the Cricetulus griseus UniprotKB proteome database (downloaded on 29/10/2020, 56,563 entries). First, data (.mgf) were converted by Progenesis QI for Proteomics software (Waters) before loading into PEAKS Xpro software. Database search was performed using the following parameters: peptide tolerance of 10 ppm, fragment ion tolerance of 0.05 Da, trypsin enzyme (specific), two missed cleavages allowed, carbamidomethylation of cysteine as a fixed modification, methionine oxidation, and asparagine/glutamine deamidation as variable modifications, allowing a maximum of two variable modifications per peptide. Only proteins identified with at least one unique peptide (FDR &lt; 1% at the peptide level) were validated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>20289</offset>
+      <text>Label free MS quantification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20318</offset>
+      <text>Label-free MS quantification was performed using Progenesis QI for Proteomics software. Raw data were loaded as centroided data (resolution 40,000) without additional calibration (previously performed by Data Analysis software, Bruker). "All proteins" method was used for normalization and only proteins quantified with at least three unique peptides were considered. Only proteins with a fold change &gt; 2 and a q-value &lt; 0.01 were considered as statistically significant. All proteins were plotted in a volcano plot according to their Log2(fold change) and -Log10(q-value) using GraphPad prism 7.0 (GraphPad Software Inc.).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>20962</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20970</offset>
+      <text>Solubility of Lac-AA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20993</offset>
+      <text>To determine whether Lac-AA present a benefit compared to canonical AA, the solubility of Leu, Ile, and their respective N-lactoyl-amino acids, Lac-Leu, and Lac-Ile, was determined in water using saturated solutions and residual mass determination at 4, 20, 25, and 37 C. As shown in Table S1, the solubility of Lac-Leu and Lac-Ile was significantly higher when compared with the solubility of the respective canonical AA in water. For instance, the maximum solubility of Leu and Leu sodium salt at 25 C was 22.1 g/kg (pH 6.0) and 86.0 g/kg (pH 10.8), respectively, whereas the solubility of Lac-Leu sodium salt was 689.2 g/kg (pH 6.7). For Ile and Lac-Ile sodium salt, solubilities of 32.4 and 639.3 g/kg were observed at 25 C with a pH of 6.2 and 6.14, respectively. Altogether, these results indicate that Lac-Leu and Lac-Ile salts are suitable candidates to increase the solubility of cell culture media and feed formulations by replacement of their respective canonical AA. To confirm that Lac-Leu and Lac-Ile salts are highly soluble in complex CCM formulations at neutral pH, increasing amounts of Lac-AA were added to Cellvento  4Feed lacking Ile and Leu. Similarly, increasing amounts of Ile and Leu were added to the same feed formulation as a control (Figure S2). The pH was always adjusted to 7.0 +- 0.2 before each measurement. The maximum solubility of Leu and Ile in Cellvento  4Feed lacking Ile/Leu was found to be 90 mM and 105 mM, respectively. In contrast, the maximum soluble concentration (with a turbidity value below 5 NTU) of Lac-Leu was 590 mM, indicating that the Lac-AA is at least five times more soluble than Leu in the feed. For Lac-Ile, the maximum tested concentration of 950 mM was still soluble in the feed with a turbidity value below 5 NTU. This indicates that Lac-Ile is at least nine times more soluble than Ile in neutral pH Cellvento  4Feed lacking Ile/Leu.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22953</offset>
+      <text>Further experiments were designed to determine the maximum concentration that can be reached for a complex CCM formulation when Leu and Ile are replaced by their respective lactoyl derivatives. Data for Cellvento  4Feed (containing Ile and Leu) indicate that this formulation is insoluble at already 1.2x (160 g/L:turbidity value around 50 NTU). In contrast, if Leu and Ile are replaced with their equimolar concentration of Lac-Leu and Lac-Ile, the formulation is soluble until 200 g/L which indicates that the replacement of Leu and Ile by their respective N-lactoyl counterparts allows to increase by 54% the total concentration of a complex CCM formulation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23629</offset>
+      <text>Stability of Lac-AA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23651</offset>
+      <text>Limited reports are available about the stability of Lac-AA. Therefore, a new targeted LC-MS method was developed to monitor the stability of Lac-AA in complex feed mixtures. The method proved to be linear between 10 pmol and 400 pmol of Lac-AA injected on the column and was used to monitor the stability of Lac-Leu and Lac-Ile in Cellvento  4Feed lacking Ile and Leu and stored for 3 months, light protected, at either 4 C or RT. Results (Figure S3) indicate that the concentration of both Lac-AA stayed within the limit of +- 10% of the starting concentration during the whole storage period which indicates an overall good stability at both storage temperatures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>24342</offset>
+      <text>Bioavailability of Lac-AA in fed-batch processes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24395</offset>
+      <text>To understand whether Lac-AA derivatives can replace Ile and Leu in feeds, small scale fed-batch experiments were performed in spin tubes with five distinct CHO cell clones. The positive control feed contained Ile and Leu and was compared to three different test feeds: the first feed contained Lac-Leu and Ile, the second contained Lac-Ile and Leu, and the third feed contained Lac-Leu and Lac-Ile. Equimolar ratios of Lac-Leu and Lac-Ile were added to the feed to match the concentrations of the canonical AA. The negative control feed was lacking Leu and Ile and was used to monitor the overall Leu and Ile consumption from the basal growth medium.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25063</offset>
+      <text>Results shown in Figure 1 indicate that independently of the cell lineage (CHOZN in Figure 1a-c; CHODG44 in Figure 1d and CHOK1 GS in Figure 1e) and the type of recombinant protein produced (three distinct IgG1 mAbs in Figures 1a, 1d, and 1e or two distinct fusion proteins in Figures 1b and 1c), neither growth nor titer were impacted by the replacement of Leu and Ile by their Lac-AA counterparts in the feed. In contrast, viable cell density (VCD) decreased rapidly after Day 7 or Day 10 when cells were fed with feed lacking Leu and Ile, indicating that these AA are essential for growth and survival as already known from previous reports (Zhang et al.,). Importantly, in this condition, the production of the recombinant protein of interest was drastically reduced after Day 7 or Day 10 for all the five tested cell lines, confirming the requirement for an external supply of BCAA through feeds.</text>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:52:06Z</infon>
+        <location offset="25368" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:52:10Z</infon>
+        <location offset="25379" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:52:25Z</infon>
+        <location offset="25406" length="55"/>
+        <text>replacement of Leu and Ile by their Lac-AA counterparts</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:52:33Z</infon>
+        <location offset="25488" length="25"/>
+        <text>viable cell density (VCD)</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:52:40Z</infon>
+        <location offset="25579" length="24"/>
+        <text>feed lacking Leu and Ile</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:53:04Z</infon>
+        <location offset="25760" length="37"/>
+        <text>production of the recombinant protein</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:53:16Z</infon>
+        <location offset="25926" length="23"/>
+        <text>external supply of BCAA</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-118-3395-g007.jpg</infon>
+      <infon key="id">bit27755-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25969</offset>
+      <text>Viable cell density and titer obtained in fed-batch with control feeds or feeds containing Lac-Leu, Lac-Ile, or Lac-Leu and Lac-Ile for five cell lines. The positive control feed contained Leu and Ile, the negative control feed was lacking Leu and Ile, the test feeds were prepared by replacing Leu and Ile individually or in combination by their equimolar concentration of Lac-Ile and Lac-Leu. (a)-(c) CHOZN 023, CHOZN 5, and CHOZN 034 cells were cultivated in EX-CELL  Advanced medium and 5% (v/v) of modified EX-CELL  Advanced  Feed was added on Day 3, 5, 7, 10, 12, and 14. (d) CHODG44 cells were cultivated in Cellvento  4CHO supplemented with 6 mM l-glutamine and 1.5% (v/v) of modified Cellvento  4Feed was added on Day 3 and 3% on Days 5, 7, 10, 12, and 14. (e) CHOK1 GS were cultivated in Cellvento  4CHO medium and 3% (v/v) of modified Cellvento  4Feed was added on Day 3, 5, 10, 12, and 14 and 6% (v/v) on Day 7. Cultivation was performed in 50 mL spin tubes at 37 C, 5% CO2, 80% humidity, and a rotation speed of 320 rpm. VCD (plain lines) were measured using Vi-CELL XR and titer (dotted lines) was measured using Cedex Bio HT. Data represent mean +- SEM of a minimum of four biological replicates. CHO, Chinese hamster ovary; Ile, isoleucine; Leu, leucine; SEM, standard error of mean [Color figure can be viewed at wileyonlinelibrary.com]</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27368</offset>
+      <text>To gain further insights into the mechanism of action of Lac-AA, important metabolic intermediates were quantified in the spent medium of fed-batch experiments performed with the CHOK1 GS clone. Ammonia levels were not impacted by the replacement of either Leu or Ile by their respective Lac-AA. However, a slight overall decrease in the reported NH3 values was observed when both AA were replaced simultaneously by Lac-AA. The negative control showed undetectable levels of ammonia between Day 7 and Day 12, followed by a NH3 release from dying/dead cells (Figure 2a). In contrast, cells fed with Lac-AA released more lactate compared to cells fed with canonical AA, especially after Day 7. The maximum lactate concentration reached 2.5, 3.1, and 3.2 g/L at Day 17 in the Lac-Leu, Lac-Ile, and Lac-Leu and Lac-Ile conditions, respectively (Figure 2b) whereas only 1.9 g/L lactate was measured in the control condition fed with the canonical amino acids.</text>
+      <annotation id="17">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:53:31Z</infon>
+        <location offset="27563" length="14"/>
+        <text>Ammonia levels</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:53:39Z</infon>
+        <location offset="27603" length="32"/>
+        <text>replacement of either Leu or Ile</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:53:42Z</infon>
+        <location offset="27656" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:53:57Z</infon>
+        <location offset="27715" length="3"/>
+        <text>NH3</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:05Z</infon>
+        <location offset="27749" length="2"/>
+        <text>AA</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:07Z</infon>
+        <location offset="27784" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:19Z</infon>
+        <location offset="27966" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:23Z</infon>
+        <location offset="27987" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:27Z</infon>
+        <location offset="28022" length="12"/>
+        <text>canonical AA</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:36Z</infon>
+        <location offset="28064" length="29"/>
+        <text>maximum lactate concentration</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:40Z</infon>
+        <location offset="28141" length="7"/>
+        <text>Lac-Leu</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:42Z</infon>
+        <location offset="28150" length="7"/>
+        <text>Lac-Ile</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:45Z</infon>
+        <location offset="28163" length="19"/>
+        <text>Lac-Leu and Lac-Ile</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:54Z</infon>
+        <location offset="28241" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:54:59Z</infon>
+        <location offset="28300" length="21"/>
+        <text>canonical amino acids</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-118-3395-g004.jpg</infon>
+      <infon key="id">bit27755-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28345</offset>
+      <text>Concentration of metabolites, AA and Lac-AA in the spent media during the fed-batch process. (a) NH4 + and (b) lactate concentrations measured using the Cedex Bio HT (c) Leu, (d) Ile, (e) Val concentrations presented as a percentage of the starting concentration. (f) Lac-AA concentrations presented as percentage of the maximum concentration. AA concentrations were measured after derivatization using AccQ-Tag reagent and separation and quantification using UPLC-UV. Lac-AA data were obtained using LC-MS. Data are mean +- SEM of a minimum of four replicates (metabolites) or two replicates (LC-MS) and were generated from fed-batch experiments using the CHOK1 GS cell line and feeds containing Lac-AA. Single points represented with empty symbols in (c)-(f) are calculated values after feeding. AA, amino acids; Ile, isoleucine; Lac-AA, N-Lactoyl amino acids; LC-MS, liquid chromatography-mass spectrometry; Leu, leucine; SEM, standard error of mean; UPLC-UV, ultra-performance liquid chromatography-ultraviolet; Val, valine [Color figure can be viewed at wileyonlinelibrary.com]</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29468</offset>
+      <text>Amino acid analysis in spent media showed differences in the concentration of all three BCAA when cells were fed with Lac-AA (Figure 2c-e). When Leu was replaced with Lac-Leu, the Leu concentration in the spent medium decreased continuously from Day 0 to Day 5 suggesting that leucine was not or very slowly formed from Lac-AA during the early exponential phase of the culture (Figure 2c). However, the measured values were higher than the concentrations measured in the negative control after Day 5 (no Leu), indicating that small amounts of Leu can be formed from Lac-Leu. After Day 7, the Leu concentration in the spent medium increased significantly reaching 81% of the starting concentration at Day 17. The same results were observed upon Lac-Ile feeding, with a slight release of canonical Ile from Lac-Ile between Day 5 and 7 followed by a more significant release after Day 7, yielding a final concentration of Ile similar to the control condition at Day 17 (Figure 2d). Interestingly, when replacing Leu with Lac-Leu, the consumption of Ile and Val was increased, indicating that the metabolism of all three BCAA is interdependent. When Lac-Leu and Lac-Ile were used together in the feed, the concentrations of Leu and Ile in the spent medium were similar to the conditions with single replacement, but the overall consumption of Val was increased (Figure 2e). Finally, the kinetics of Lac-AA consumption was further studied by quantifying Lac-Leu and Lac-Ile in the spent medium using targeted LC-MS. Results presented in Figure 2f confirm the slow consumption of the modified AA during the early exponential phase while the consumption was drastically increased after Day 7, suggesting an active cleavage mechanism, probably mediated by enzymes. This point will be investigated later.</text>
+      <annotation id="32">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:19Z</infon>
+        <location offset="29529" length="31"/>
+        <text>concentration of all three BCAA</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:23Z</infon>
+        <location offset="29586" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31292</offset>
+      <text>Taken together, data presented in Figures 1 and 2 suggest that Lac-Leu and Lac-Ile can substitute canonical Leu and Ile at equimolar ratio in feed with no detrimental effect on cell growth and productivity but with a slight increase in lactate after Day 7. Results also suggest that Lac-Leu and Lac-Ile are converted into canonical amino acids mostly during the production phase of the fed-batch process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>31707</offset>
+      <text>Antibody critical quality attributes in fed-batch processes using Lac-AA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31784</offset>
+      <text>In the next step, cQA of mAb1 were studied to understand whether the replacement of Leu and Ile by Lac-Leu and Lac-Ile may impact glycosylation, charge variant or aggregation profiles of this IgG1. Results (Figure 3) indicate that all the studied cQA presented comparable levels when produced using either canonical AA or Lac-AA.</text>
+      <annotation id="34">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:46Z</infon>
+        <location offset="31802" length="3"/>
+        <text>cQA</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:51Z</infon>
+        <location offset="31868" length="3"/>
+        <text>Leu</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:53Z</infon>
+        <location offset="31876" length="3"/>
+        <text>Ile</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:55Z</infon>
+        <location offset="31883" length="7"/>
+        <text>Lac-Leu</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:55:58Z</infon>
+        <location offset="31895" length="7"/>
+        <text>Lac-Ile</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:04Z</infon>
+        <location offset="31914" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:06Z</infon>
+        <location offset="31929" length="14"/>
+        <text>charge variant</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:09Z</infon>
+        <location offset="31947" length="11"/>
+        <text>aggregation</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:15Z</infon>
+        <location offset="32031" length="3"/>
+        <text>cQA</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:19Z</infon>
+        <location offset="32090" length="12"/>
+        <text>canonical AA</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:21Z</infon>
+        <location offset="32106" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-118-3395-g003.jpg</infon>
+      <infon key="id">bit27755-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>32120</offset>
+      <text>Critical quality attributes of mAb1 produced by the CHOK1 GS cell line fed with canonical and Lac-AA on Day 12. (a) N-glycosylation measured after APTS labeling and separation and detection using CGE-LIF on a CESI8000. Results are presented as percentage of terminal sialylated, galactosylated, mannosylated, and N-acetylglucosamine glycoforms. Fucosylated and afucosylated glycans are calculated separately. (b) Charge variants measured using capillary isoelectric focusing on a CESI8000 and presented as percentage of main, acidic, and basic peaks. (c) Percentage of high molecular weight (HMW) and low molecular weight (LMW) forms measured by size exclusion chromatography using a TSK gel Super SW series column and UV detection at 214 nm. Data represent mean +- SEM of a minimum of three replicates. CHO, Chinese hamster ovary; Lac-AA, N-Lactoyl amino acids; SEM, standard error of mean; UV, ultraviolet [Color figure can be viewed at wileyonlinelibrary.com]</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>33101</offset>
+      <text>Impact of lactate levels on cell growth and productivity</text>
+      <annotation id="45">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:39Z</infon>
+        <location offset="33111" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:45Z</infon>
+        <location offset="33129" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:46Z</infon>
+        <location offset="33145" length="12"/>
+        <text>productivity</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33158</offset>
+      <text>Since higher lactate concentrations were found in the supernatant during the production phase upon usage of Lac-AA containing feed (Figure 2b), the impact of lactate spiking on the overall performance was investigated. Indeed, high concentrations of lactate in spent media during fed-batch bioprocesses are known to have detrimental effects on cell growth and IgG titer (Freund &amp; Croughan,; Hartley et al.,; Zagari et al.,). With the CHOK1 GS clone, increasing amounts of exogenous lactate were spiked into the cell culture at Day 7, at the beginning of the production phase. Results (Figure 4) indicate that concentrations up to 4.6 g/L lactate on Day 7 had no effect on either VCD, viability or IgG titer, while 6.2 g/L lactate (or higher) had an effect of overall productivity. Indeed, the IgG titer on Day 14 was reduced significantly by 22% in the condition where 8.5 g/L lactate was spiked on Day 7. Altogether, these data suggest that the up to 3.2 g/L lactate found upon Lac-AA feeding are unlikely to affect process performance.</text>
+      <annotation id="48">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:56:55Z</infon>
+        <location offset="33171" length="22"/>
+        <text>lactate concentrations</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:57:28Z</infon>
+        <location offset="33266" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:57:35Z</infon>
+        <location offset="33408" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:57:40Z</infon>
+        <location offset="33502" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:57:44Z</infon>
+        <location offset="33518" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+      <annotation id="53">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:04Z</infon>
+        <location offset="33796" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:09Z</infon>
+        <location offset="33837" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:11Z</infon>
+        <location offset="33842" length="9"/>
+        <text>viability</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:20Z</infon>
+        <location offset="33855" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:24Z</infon>
+        <location offset="33880" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:31Z</infon>
+        <location offset="33917" length="20"/>
+        <text>overall productivity</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:38Z</infon>
+        <location offset="33951" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:48Z</infon>
+        <location offset="34035" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:56Z</infon>
+        <location offset="34118" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:58:59Z</infon>
+        <location offset="34137" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:59:23Z</infon>
+        <location offset="34175" length="19"/>
+        <text>process performance</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-118-3395-g005.jpg</infon>
+      <infon key="id">bit27755-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>34210</offset>
+      <text>Effect of lactate spiking on cell growth, viability, and titer. (a) Viable cell density (VCD) and titer, (b) viability and lactate obtained in fed-batch cultivation upon spiking of increasing concentrations of lactate on Day 7. CHOK1 GS were cultivated in Cellvento  4CHO medium and 3% (v/v) of Cellvento  4Feed was added on Day 3, 5, 10, 12, and 14 and 6% (v/v) on Day 7. Lactate was measured on Day 7 and increasing amounts of sodium lactate were spiked to the culture to reach 3, 4.6, 6.2, and 8.5 g/L respectively (black arrow). Cultivation was performed in 50 ml spin tubes at 37 C, 5% CO2, 80% humidity and a rotation speed of 320 rpm. VCD and viability were measured using Vi-CELL  XR and titer and lactate concentrations were measured using Cedex Bio HT. Data represent mean +- SEM of four biological replicates. CHO, Chinese hamster ovary; SEM, standard error of mean [Color figure can be viewed at wileyonlinelibrary.com]</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>35161</offset>
+      <text>Optimization of Lac-AA concentrations to improve IgG yield</text>
+      <annotation id="64">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:59:36Z</infon>
+        <location offset="35177" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:59:42Z</infon>
+        <location offset="35210" length="9"/>
+        <text>IgG yield</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35222</offset>
+      <text>The next experiment sought to determine the optimal concentration of Lac-AA in the feed. The aim was to reduce the quantity of required raw materials, circumvent the slightly higher lactate production and generate a highly concentrated feed. Results presented in Figure 5 indicate no change in VCD or titer for Lac-AA concentrations between 60% and 100% of the concentrations of the canonical AA. In contrast, reducing the Lac-AA concentration by 50% resulted in a slightly lower titer after Day 7. The viability in all the Lac-AA conditions was higher than the viability in the control condition (Figure 5b). When considering the released lactate (Figure 5b) and Ile concentrations (Figure 5c), the decrease in Lac-AA in the feed led to a dose dependent decrease of the concentration of both molecules after Day 7. A concentration of 70% Lac-AA was chosen for the subsequent bioreactor experiments.</text>
+      <annotation id="66">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T16:59:59Z</infon>
+        <location offset="35516" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:03Z</infon>
+        <location offset="35523" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:09Z</infon>
+        <location offset="35533" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:11Z</infon>
+        <location offset="35605" length="12"/>
+        <text>canonical AA</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:16Z</infon>
+        <location offset="35645" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:23Z</infon>
+        <location offset="35702" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:27Z</infon>
+        <location offset="35725" length="9"/>
+        <text>viability</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:33Z</infon>
+        <location offset="35746" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:40Z</infon>
+        <location offset="35784" length="9"/>
+        <text>viability</text>
+      </annotation>
+      <annotation id="74">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:36Z</infon>
+        <location offset="35801" length="17"/>
+        <text>control condition</text>
+      </annotation>
+      <annotation id="77">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:56Z</infon>
+        <location offset="35853" length="16"/>
+        <text>released lactate</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:58Z</infon>
+        <location offset="35886" length="3"/>
+        <text>Ile</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:00:52Z</infon>
+        <location offset="35934" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-118-3395-g001.jpg</infon>
+      <infon key="id">bit27755-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>36134</offset>
+      <text>Optimization of Lac-AA concentrations and concentrated bioreactor process. (a) Viable cell density and titer, (b) viability and lactate concentration, and (c) relative Ile concentration obtained in fed-batch with CHOK1 GS clone fed with 100% canonical Leu and Ile or decreasing concentrations of Lac-Leu and Lac-Ile (up to 50%). (d) VCD and IgG yield obtained in a bioreactor fed-batch experiment using the control feed at 1x concentration and a 2x concentrated feed containing 70% of Lac-Leu and Lac-Ile. In the experiment shown in (a)-(c), CHOK1 GS were cultivated in Cellvento  4CHO medium and 3% (v/v) of Cellvento  4Feed was added on Day 3, 5, 10, 12, and 14 and 6% (v/v) on Day 7. Cultivation was performed in 50 ml spin tubes at 37 C, 5% CO2, 80% humidity and a rotation speed of 320 rpm. For the experiment shown in (d), the volume of Lac-AA containing feed added was reduced by 2x due to the higher overall concentration. The fed batch was performed in 1.2 L bioreactors controlled at 37 C, pH 6.95 +- 0.15, 50% dissolved oxygen and agitation at 140 rpm. VCD and viability were measured using Vi-CELL XR, and titer and lactate were measured using Cedex Bio HT. Ile concentrations were measured after derivatization using AccQ-Tag reagent and separation and quantification using UPLC-UV. Data represent mean +- SEM of four replicates in spin tubes and two bioreactors. CHO, Chinese hamster ovary; Ile, isoleucine; Lac-AA, N-Lactoyl amino acids; Leu, leucine; SEM, standard error of mean; UPLC-UV, ultra-performance liquid chromatography-ultraviolet [Color figure can be viewed at wileyonlinelibrary.com]</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37805</offset>
+      <text>To demonstrate that the high solubility of Lac-AA enables the development of highly concentrated feed formulations that can be added to the process through lower volumes, a bioreactor experiment was designed. The control condition was identical to the control condition in spin tube. The Lac-AA containing feed contained only 70% of the Lac-AA (compared to the canonical AA) and was concentrated two times compared with the control condition. Consequently, two times less volume was added on the respective feeding days, thus reducing the diluting effect of the feed on the product. To maximize the bioreactor utilization using a concentrated feed, the Lac-AA process started with a 12% higher volume compared to the control condition. Since the same seeding density was used, this lead to a higher absolute amount of cells inoculated at Day 0 in the concentrated process. Results (Figure 5d) indicate that the VCD was maintained at higher levels after Day 9 in the Lac-AA condition. Interestingly, the addition of a concentrated feed in a process starting with higher medium volume and thus higher absolute amounts of cells afforded an increase in the IgG yield by 58% on Day 14, suggesting the productivity benefits can be obtained using concentrated processes.</text>
+      <annotation id="79">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:01:25Z</infon>
+        <location offset="38716" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:01:29Z</infon>
+        <location offset="38771" length="6"/>
+        <text>Lac-AA</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:01:44Z</infon>
+        <location offset="38822" length="17"/>
+        <text>concentrated feed</text>
+      </annotation>
+      <annotation id="82">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:01:49Z</infon>
+        <location offset="38958" length="9"/>
+        <text>IgG yield</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>39079</offset>
+      <text>Mechanism of Lac-AA cleavage</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39110</offset>
+      <text>To investigate whether the release of canonical AA from Lac-AA is mediated by enzymes, both modified AA were incubated with cell lysates from CHOK1 GS clone and the release of Leu, Ile, and lactate was monitored over time. Results indicate that the release of both lactate and canonical AA was linear with time (not shown) and was dependent on the protein concentration of the lysate (Figure 6a). The release was higher at 37 C compared with RT and was completely inhibited when lysates were pre-incubated at 100 C, supporting the hypothesis of an enzyme mediated Lac-AA cleavage. The release of lactate and the respective canonical AA was recorded with a stochiometric ratio close to 1:1, even though the lactate concentrations were always slightly lower than the AA concentrations probably indicating a further oxidation to, for example, pyruvate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-118-3395-g002.jpg</infon>
+      <infon key="id">bit27755-fig-0006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>39968</offset>
+      <text>Mechanism of Lac-AA cleavage. (a) CHO lysate mediated Lac-AA cleavage: Protein concentrations were quantified in CHOK1 GS lysates and increasing protein amounts were incubated with either 25 mM Lac-Leu or 25 mM Lac-Ile at 20 C or 37 C. A pre-incubation of the lysate at 100 C for 10 min was also performed to inactivate enzymes. Values represent the amount of Leu, Ile, or lactate produced per hour. (b) CNDP2 mediated N-Lactoyl-amino acid cleavage. 1 microg CNDP2 enzyme was incubated with 10 mM of the Lac-Ile and Lac-Leu at 37 C and samples were collected at the indicated time points. Controls were incubated in the same conditions in the absence of enzyme. Lactate levels were measured using the lactate fluorescent kit, whereas Leu and Ile concentrations were measured after derivatization using AccQ-Tag reagent and separation and quantification using UPLC-UV. (c) Label free LC-MS based proteomic study comparing CHOK1 GS lysates from a Lac-AA and a control process. The x-axis shows the log2 of protein fold-change in the Lac-AA condition compared to control, whereas the y-axis shows the -log10 of the calculated q value (adjusted p value from Progenesis QI). Only proteins quantified with at least three unique peptides were considered (1179 proteins). Proteins matching the following criteria: x &gt;  1  and y &gt; 2 were considered as statistically significant (q value &lt; 0.01). CNDP2 is highlighted in blue in the plot. CHO, Chinese hamster ovary; Ile, isoleucine; Lac-AA, N-Lactoyl amino acids; Leu, leucine; UPLC-UV, ultra-performance liquid chromatography-ultraviolet [Color figure can be viewed at wileyonlinelibrary.com]</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41672</offset>
+      <text>As was published elsewhere (Jansen et al.,), the protein CNDP2 enables the synthesis of N-lactoyl-phenylalanine when incubated with its precursors phenylalanine and lactate. Since this enzyme is reported as a nonspecific dipeptidase, we hypothesized that it may also cleave Lac-Leu and Lac-Ile. In fact, release of lactate and respective free AA (i.e., Leu and Ile, Figure 6b) was observed upon incubation of lac-AA with recombinant CNDP2 enzyme. The reaction was time dependent but nonlinear and reached saturation after 6 h of incubation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42225</offset>
+      <text>Finally, to confirm that CNDP2 is expressed by CHO cells, a proteomic characterization of a CHO GS cell lysate was performed. A sample collected on Day 10 from the control process was compared to a sample collected on the same day from the Lac-AA process. About 1179 proteins were quantified with at least three unique peptides (Table S2). CNDP2 was identified in both samples at the same level confirming that CHO cells express this dipeptidase, and suggesting that the amount of endogenous CNDP2 might be sufficient to cleave Lac-AA. When looking at the entire data set using a volcano plot (Figure 6c), no protein was over- or underexpressed in the Lac-AA condition compared with the control (fold threshold of 2, q value &lt; 0.01), suggesting no major change at the protein level upon usage of Lac-AA. Altogether, these results suggest that Lac-AA are very likely cleaved by intracellular enzymes such as CNDP2, a dipeptidase proved to be expressed by CHO cells. CNDP2 was able to cleave Lac-AA in vitro as shown in Figure 6b and is thus likely to at least participate in the release of bioavailable canonical AA in cell culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>43375</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43386</offset>
+      <text>This study sought to investigate the possibility to replace Leu and Ile in CCM formulations by their respective Lac-AA counterparts, Lac-Leu and Lac-Ile. Lac-AA are relatively new molecules, discovered by the food industry at the end of the 1990s, and especially known for their taste properties in cheese (Frerot &amp; Escher,). Results presented in this study indicate that the replacement of Leu and Ile by the derivatives enables the development of highly concentrated feed formulations due to the higher solubility of Lac-AA when compared to canonical AA. Both modified AA were shown to be stable in a complex CCM formulation when stored at 4 C and RT for at least 3 months. While very little is reported in the literature about the chemical stability of Lac-AA, several studies report that Lac-AA are very resistant to degradation even in the presence of exoproteases and endoproteolytic enzymes such as trypsin, chymotrypsin, pepsin, and carboxypeptidase Y (Bottesini et al.,; Lorbert et al.,; Sforza et al.,).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44415</offset>
+      <text>When used in fed-batch processes, the 1:1 molar exchange of either Leu or Ile with Lac-Leu or Lac-Ile led to a comparable productivity and cell growth as in the control process, indicating that Lac-AA are bioavailable for CHO cells. Furthermore, the use of Lac-AA led to a dose dependent increase of lactate in the spent medium, as a result of the cleavage of the molecule. In the literature, numerous studies reported an inhibition of cell growth and productivity due to an excess of lactate in the CCM (Hassell et al.,; Lao &amp; Toth,), however fairly recent studies have demonstrated that a significant fraction of the negative effects of lactate may be caused by the increase in osmolality resulting from the neutralization of lactic acid during pH control (Buchsteiner et al.,). Our spiking study confirmed that concentrations of lactate up to 4.6 g/L have no significant negative effect on overall productivity when added at Day 7 of the culture. Furthermore, it is worth to point out that the release of lactate from Lac-AA starts mainly after Day 7 which is often the timepoint when cells start shifting their metabolism towards lactate consumption. Thus, lactate released specifically during the production phase might be beneficial to cells and may serve as a source of three carbon intermediates enabling the uncoupling of the mitochondrial energy generation from the glycolysis as suggested by Rabinowitz and Enerback and demonstrated for CHO cells by Li et al.. In case the lactate concentration proves to be too high for some specific clones, different strategies can be used to promote the metabolic shift, including: replacing glucose with alternative sugars (Altamirano et al.,), maintaining glucose or glutamine concentrations to low levels using online feedback control (Gagnon et al.,), performing a pH shift or a temperature shift to lower values (Ivarsson et al.,; Zalai et al.,), adapting cell lines to higher lactate concentrations (Freund &amp; Croughan,) or supplementing the media or feeds with copper (Luo et al.,; Qian et al.,; Yuk et al.,). Altogether, the concentration of lactate released upon feeding with Lac-AA is low and many strategies are available to alleviate a potential increase of this metabolite.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46665</offset>
+      <text>Mechanistic studies aiming at understanding how CHO cells utilize Lac-AA indicated that a very small amount of canonical AA was released in the supernatant during the exponential phase of the culture, while increasing amounts were released during the production phase. This kinetic was very similar to the kinetic of tyrosine release from phosphotyrosine, which is known to be mediated by cytosolic phosphatases (Zimmer et al.,). Based on previous studies showing that CNDP2 is capable of producing Lac-AA (Jansen et al.,), the results presented in this study highlight that Lac-AA are cleaved by enzymes released by CHO cells and at least in part, by CNDP2. This cytosolic nonspecific dipeptidase is a metallopeptidase of the M20 family (uses Mn or Zn as a cofactor) and is known in humans to hydrolyze dipeptides including l-carnosine or Cys-Gly (Kaur et al.,; Teufel et al.,). While its main function is likely the hydrolysis of dipeptides containing hydrophobic AA, the reverse proteolysis was demonstrated to be dependent on the substrate concentrations in specific tissues (Jansen et al.,). Obviously, several other enzymes may also be involved in the cleavage of the Lac-AA N-terminal peptide bond such as common cytosolic aminopeptidases (e.g., Uniprot A0A3L7HBS8, which was detected in CHO cells, Table S2) or aminopeptidases with a different predicted subcellular localization (e.g., Uniprot A0A3L7I5X6, G3H3H9, also detected in this proteomic study, Table S2). More specific BCAA aminopeptidases such as Lap3 may also be good candidates for the cleavage since they are described for their active hydrolysis of Leu containing peptides. The homologous protein of Lap3 in CHO is described as Cysteinylglycine-S-conjugate dipeptidase (uniprot A0A098KXB1, 92.1% homology with human LAP3). However, the detailed investigation of these peptidases is beyond the scope of the current manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>48581</offset>
+      <text>Finally, the higher solubility of Lac-AA enabled the development of a concentrated feed formulation, which was applied successfully in bioreactors allowing an increase in process efficiency and a better bioreactor utilization. The use of concentrated CCM is important for applications such as inline dilution of media allowing to reduce the manufacturing footprint. In fed-batch, the higher IgG yield obtained in this study was likely due, at least in part, to the reduction of the volume of liquid added throughout the process and the possibility to start the culture with a higher volume of medium. This demonstrated the possibility to improve the overall performance by optimization of the bioreactor space time yield using a concentrated process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49336</offset>
+      <text>Concluding, this report shows for the first time the successful application of Lac-Leu and Lac-Ile to increase the overall concentration of CCM formulations used to produce antibodies or recombinant proteins based on CHO expression systems. The use of these Lac-AA enables the development of next generation CCM formulations and provides new opportunities to reduce the feeding volume and increase the recombinant protein yield. Like for any novel raw material used in bioprocesses, this study furthermore highlights the importance of a profound knowledge of the molecular mechanism of action to design optimal CCM formulations. In the future, approaches for alternative highly soluble and bioavailable AA derivatives, as successfully shown in this study, could support rapid pharmaceutical production of complex biotherapeutics.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_1</infon>
+      <offset>50172</offset>
+      <text>AUTHOR CONTRIBUTIONS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50193</offset>
+      <text>Corinna Schmidt and Dmitry Zabezhinsky performed cell culture experiments, stability and solubility experiments as well as the corresponding analytic. Dmitry Zabezhinsky wrote the initial manuscript. Alisa Schnellbaecher performed the small-scale bioreactor experiments. Maria Wehsling performed the analysis of cell culture media components and cQAs of the recombinant proteins. Maxime Le Mignon designed and performed all LC-MS related studies (small molecules and proteins). Gregor Wille, Yannik Rey and Markus Fischer developed the synthesis process for lactoyl-amino acids and produced them at scale; Aline Zimmer designed, supervised the study, and reviewed the data and the manuscript. All authors have approved the final article.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>50937</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>50960</offset>
+      <text>DATA AVAILABILITY STATEMENT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50988</offset>
+      <text>Data available in article supplementary material.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>51038</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">32</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">32</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/nbt.2794</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">39</infon>
+      <offset>51049</offset>
+      <text>What's fueling the biotech engine-2012 to 2013</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">171</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2004.02.004</infon>
+      <infon key="pub-id_pmid">15121336</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">179</infon>
+      <offset>51098</offset>
+      <text>Strategies for fed-batch cultivation of t-PA producing CHO cells: Substitution of glucose and glutamine and rational design of culture medium</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">441</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1007/s00726-013-1637-3</infon>
+      <infon key="pub-id_pmid">24337832</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Amino Acids</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">447</infon>
+      <offset>51244</offset>
+      <text>Enzymatic production and degradation of cheese-derived non-proteolytic aminoacyl derivatives</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">615</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2089</infon>
+      <infon key="pub-id_pmid">25864704</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">629</infon>
+      <offset>51341</offset>
+      <text>Tailoring recombinant protein quality by rational media design</text>
+    </passage>
+    <passage>
+      <infon key="volume">252</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">32</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2017.04.026</infon>
+      <infon key="pub-id_pmid">28465212</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">42</infon>
+      <offset>51404</offset>
+      <text>Cell culture media supplemented with raffinose reproducibly enhances high mannose glycan formation</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2315</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1002/bit.26724</infon>
+      <infon key="pub-id_pmid">29704441</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2327</infon>
+      <offset>51503</offset>
+      <text>Improving culture performance and antibody production in CHO cell culture processes by reducing the Warburg effect</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">809</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1007/s10616-014-9720-5</infon>
+      <infon key="pub-id_pmid">24798809</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">820</infon>
+      <offset>51618</offset>
+      <text>Amino acid consumption in naive and recombinant CHO cell cultures: Producers of a monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">414</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1021/je9501853</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Journal of Chemical &amp; Engineering Data</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">417</infon>
+      <offset>51721</offset>
+      <text>Solubilities of L-cystine, L-tyrosine, L-leucine, and glycine in aqueous solutions at various pHs and NaCl concentrations</text>
+    </passage>
+    <passage>
+      <infon key="volume">327</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2020.12.011</infon>
+      <infon key="pub-id_pmid">33373629</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">8</infon>
+      <offset>51849</offset>
+      <text>Use of novel cystine analogs to decrease oxidative stress and control product quality</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">816</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.26904</infon>
+      <infon key="pub-id_pmid">30552760</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">830</infon>
+      <offset>51935</offset>
+      <text>Impact of cell culture media additives on IgG glycosylation produced in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1842</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1002/cbdv.201300150</infon>
+      <infon key="pub-id_pmid">24130027</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Chemistry &amp; biodiversity</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1850</infon>
+      <offset>52035</offset>
+      <text>Identification and quantitation of new glutamic acid derivatives in soy sauce by UPLC/MS/MS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>52127</offset>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">385</infon>
+      <infon key="pub-id_doi">10.3390/ijms19020385</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">International Journal of Molecular Sciences</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">22</infon>
+      <offset>52128</offset>
+      <text>A simple method to reduce both lactic acid and ammonium production in industrial animal cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1328</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.23072</infon>
+      <infon key="pub-id_pmid">21328318</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1337</infon>
+      <offset>52229</offset>
+      <text>High-end pH-controlled delivery of glucose effectively suppresses lactate accumulation in CHO fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.tibtech.2018.05.014</infon>
+      <infon key="pub-id_pmid">29945725</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Trends in Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">16</infon>
+      <offset>52348</offset>
+      <text>The increasingly human and profitable monoclonal antibody market</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>52413</offset>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1890</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/bit.26603</infon>
+      <infon key="pub-id_pmid">29603726</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1903</infon>
+      <offset>52414</offset>
+      <text>Mechanisms driving the lactate switch in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">29</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1007/BF02922022</infon>
+      <infon key="pub-id_pmid">1952924</infon>
+      <infon key="year">1991</infon>
+      <infon key="source">Applied Biochemistry and Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>52483</offset>
+      <text>Growth inhibition in animal cell culture. The effect of lactate and ammonia</text>
+    </passage>
+    <passage>
+      <infon key="volume">218</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">53</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.11.022</infon>
+      <infon key="pub-id_pmid">26654938</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">63</infon>
+      <offset>52559</offset>
+      <text>S-Sulfocysteine simplifies fed-batch processes and increases the CHO specific productivity via anti-oxidant activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">341</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2043</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">357</infon>
+      <offset>52682</offset>
+      <text>Insights into pH-induced metabolic switch by flux balance analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">6601</infon>
+      <infon key="issue">21</infon>
+      <infon key="pub-id_doi">10.1073/pnas.1424638112</infon>
+      <infon key="pub-id_pmid">25964343</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Proceedings of the National Academy of Sciences of the United States of America</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6606</infon>
+      <offset>52751</offset>
+      <text>N-lactoyl-amino acids are ubiquitous metabolites that originate from CNDP2-mediated reverse proteolysis of lactate and amino acids</text>
+    </passage>
+    <passage>
+      <infon key="volume">199</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">825</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/(sici)1521-3935(19980501)199:5&lt;825::Aid-macp825&gt;3.0.Co;2-w</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Macromolecular Chemistry and Physics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">833</infon>
+      <offset>52888</offset>
+      <text>Aminolysis of alpha-hydroxy acid esters with alpha-amino acid salts; first step in the synthesis of optically active 2,5-morpholinediones</text>
+    </passage>
+    <passage>
+      <infon key="volume">284</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">14493</infon>
+      <infon key="issue">21</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M808952200</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">14502</infon>
+      <offset>53026</offset>
+      <text>Dug1p Is a Cys-Gly peptidase of the gamma-glutamyl cycle of Saccharomyces cerevisiae and represents a novel family of Cys-Gly peptidases</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">579</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.3390/ph6050579</infon>
+      <infon key="pub-id_pmid">24276168</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Pharmaceuticals</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">603</infon>
+      <offset>53169</offset>
+      <text>Advances in mammalian cell line development technologies for recombinant protein production</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">688</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1021/bp9602360</infon>
+      <infon key="pub-id_pmid">9336989</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">691</infon>
+      <offset>53261</offset>
+      <text>Effects of ammonium and lactate on growth and metabolism of a recombinant Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/s41392-020-0168-0</infon>
+      <infon key="pub-id_pmid">32296011</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Signal Transduction and Targeted Therapy</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">9</infon>
+      <offset>53370</offset>
+      <text>Acetylation promotes BCAT2 degradation to suppress BCAA catabolism and pancreatic cancer growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1173</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/bit.24389</infon>
+      <infon key="pub-id_pmid">22124879</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1186</infon>
+      <offset>53466</offset>
+      <text>Feeding lactate for CHO cell culture processes: Impact on culture metabolism and performance</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>53559</offset>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">146</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/bit.23291</infon>
+      <infon key="pub-id_pmid">21964570</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">156</infon>
+      <offset>53560</offset>
+      <text>Comparative metabolite analysis to understand lactate metabolism shift in Chinese hamster ovary cell culture process</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">63</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.4155/pbp.13.65</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Pharmaceutical Bioprocessing</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">74</infon>
+      <offset>53677</offset>
+      <text>Role of Chinese hamster ovary central carbon metabolism in controlling the quality of secreted biotherapeutic proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">2014</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1155/2014/364976</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Advances in Molecular Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6</infon>
+      <offset>53796</offset>
+      <text>Metabolic and physiological roles of branched-chain amino acids</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.biotechadv.2020.107552</infon>
+      <infon key="pub-id_pmid">32416132</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnology Advances</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">107552</infon>
+      <offset>53862</offset>
+      <text>Mammalian cell culture for production of recombinant proteins: A review of the critical steps in their biomanufacturing</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">38</infon>
+      <infon key="pub-id_doi">10.1016/j.foodres.2018.07.057</infon>
+      <infon key="pub-id_pmid">30361025</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Food Research International</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">46</infon>
+      <offset>53982</offset>
+      <text>Occurrence of non-proteolytic amino acyl derivatives in dry-cured ham</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1190</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.630</infon>
+      <infon key="pub-id_pmid">21595052</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1194</infon>
+      <offset>54056</offset>
+      <text>Cell culture and gene transcription effects of copper sulfate on Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">566</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1038/s42255-020-0243-4</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Nature Metabolism</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">571</infon>
+      <offset>54149</offset>
+      <text>Lactate: The ugly duckling of energy metabolism</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1161</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1007/s00726-016-2181-8</infon>
+      <infon key="pub-id_pmid">26832172</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Amino Acids</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1171</infon>
+      <offset>54197</offset>
+      <text>Amino acids in the cultivation of mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">321</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2020.06.013</infon>
+      <infon key="pub-id_pmid">32580011</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12</infon>
+      <offset>54247</offset>
+      <text>Keto leucine and keto isoleucine are bioavailable precursors of their respective amino acids in cell culture media</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3025</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1002/bit.23269</infon>
+      <infon key="pub-id_pmid">21769861</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3031</infon>
+      <offset>54362</offset>
+      <text>Metabolite profiling of recombinant CHO cells: Designing tailored feeding regimes that enhance recombinant antibody production</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">582</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1016/j.idairyj.2009.04.009</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">International Dairy Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">587</infon>
+      <offset>54489</offset>
+      <text>Accumulation of non-proteolytic aminoacyl derivatives in Parmigiano-Reggiano cheese during ripening</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/s41467-020-16886-2</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Nature Communications</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">13</infon>
+      <offset>54593</offset>
+      <text>Leucine regulates autophagy via acetylation of the mTORC1 component raptor</text>
+    </passage>
+    <passage>
+      <infon key="volume">295</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">868</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1152/ajpendo.90314.2008</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">American Journal of Physiology - Endocrinology and Metabolism</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">875</infon>
+      <offset>54668</offset>
+      <text>Leucine stimulates protein synthesis in skeletal muscle of neonatal pigs by enhancing mTORC1 activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">47</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.21037/tgh.2018.07.06</infon>
+      <infon key="pub-id_pmid">30148232</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Translational Gastroenterology and Hepatology</infon>
+      <infon key="type">ref</infon>
+      <offset>54772</offset>
+      <text>Branched-chain amino acids in liver diseases</text>
+    </passage>
+    <passage>
+      <infon key="volume">278</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">6521</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M209764200</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6531</infon>
+      <offset>54819</offset>
+      <text>Sequence identification and characterization of human carnosinase and a closely related non-specific dipeptidase</text>
+    </passage>
+    <passage>
+      <infon key="volume">82</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1122</infon>
+      <infon key="issue">21-22</infon>
+      <infon key="pub-id_doi">10.1016/j.lfs.2008.03.016</infon>
+      <infon key="pub-id_pmid">18448127</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Life Sciences</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1130</infon>
+      <offset>54934</offset>
+      <text>Effects of N-acetylcysteine amide (NACA), a thiol antioxidant on radiation-induced cytotoxicity in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1393</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1038/nbt1026</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1398</infon>
+      <offset>55065</offset>
+      <text>Production of recombinant protein therapeutics in cultivated mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">572</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">614</infon>
+      <infon key="issue">7771</infon>
+      <infon key="pub-id_doi">10.1038/s41586-019-1503-x</infon>
+      <infon key="pub-id_pmid">31435015</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">619</infon>
+      <offset>55142</offset>
+      <text>BCAA catabolism in brown fat controls energy homeostasis through SLC25A44</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">226</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2004</infon>
+      <infon key="pub-id_pmid">25311542</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">238</infon>
+      <offset>55216</offset>
+      <text>Effects of copper on CHO cells: Cellular requirements and product quality considerations</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">238</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/j.nbt.2012.05.021</infon>
+      <infon key="pub-id_pmid">22683938</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">New Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">245</infon>
+      <offset>55305</offset>
+      <text>Lactate metabolism shift in CHO cell culture: The role of mitochondrial oxidative activity</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1657</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2179</infon>
+      <infon key="pub-id_pmid">26439213</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1668</infon>
+      <offset>55396</offset>
+      <text>Combining mechanistic and data-driven approaches to gain process knowledge on the control of the metabolic shift to lactate uptake in a fed-batch CHO process</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1186/s40104-016-0139-z</infon>
+      <infon key="pub-id_pmid">30349689</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Journal of Animal Science and Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">15</infon>
+      <offset>55558</offset>
+      <text>Novel metabolic and physiological functions of branched chain amino acids: A review</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">39</infon>
+      <infon key="issue">Pt 1</infon>
+      <infon key="pub-id_doi">10.1016/j.foodres.2016.08.042</infon>
+      <infon key="pub-id_pmid">28460929</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Food Research International</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">47</infon>
+      <offset>55642</offset>
+      <text>Formation of taste-active amino acids, amino acid derivatives and peptides in food fermentations: A review</text>
+    </passage>
+    <passage>
+      <infon key="volume">186</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">110</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2014.06.026</infon>
+      <infon key="pub-id_pmid">25014403</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">118</infon>
+      <offset>55751</offset>
+      <text>Improvement and simplification of fed-batch bioprocesses with a highly soluble phosphotyrosine sodium salt</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.3390/antib8010009</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Antibodies</infon>
+      <infon key="type">ref</infon>
+      <offset>55860</offset>
+      <text>Impact of acetylated and non-acetylated fucose analogues on IgG glycosylation</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>4226405</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Wang;given-names:Chunhua</infon>
+      <infon key="name_2">surname:Wilson;given-names:Lee</infon>
+      <infon key="name_1">surname:Titus;given-names:Michael</infon>
+      <infon key="article-id_pmid">23172735</infon>
+      <infon key="name_0">surname:Tummala;given-names:Seshu</infon>
+      <infon key="year">2013</infon>
+      <infon key="article-id_pmc">4226405</infon>
+      <infon key="article-id_doi">10.1002/btpr.1667</infon>
+      <infon key="type">front</infon>
+      <infon key="name_20">surname:Wu;given-names:Shiaw-Lin</infon>
+      <infon key="name_21">surname:Karger;given-names:Barry</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol. Prog.; 2013 Mar-Apr; 29(2) 415-24. doi:10.1002/btpr.1667</infon>
+      <infon key="name_22">surname:Rossomando;given-names:Anthony</infon>
+      <infon key="lpage">424</infon>
+      <infon key="article-id_manuscript">NIHMS423662</infon>
+      <infon key="fpage">415</infon>
+      <infon key="issue">2</infon>
+      <infon key="volume">29</infon>
+      <infon key="license">           This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.         </infon>
+      <infon key="name_10">surname:Jayaraman;given-names:Muthuswamy</infon>
+      <infon key="name_13">surname:Kocisko;given-names:David</infon>
+      <infon key="name_14">surname:Pollard;given-names:Stuart</infon>
+      <infon key="name_11">surname:Deroot;given-names:Jack</infon>
+      <infon key="name_12">surname:Thill;given-names:Greg</infon>
+      <infon key="name_17">surname:Hinkle;given-names:Greg</infon>
+      <infon key="name_18">surname:Milstein;given-names:Stuart</infon>
+      <infon key="name_15">surname:Charisse;given-names:Klaus</infon>
+      <infon key="name_9">surname:Bettencourt;given-names:Brian</infon>
+      <infon key="name_16">surname:Kuchimanchi;given-names:Satya</infon>
+      <infon key="name_8">surname:Li;given-names:Chen</infon>
+      <infon key="name_7">surname:Guttman;given-names:Andras</infon>
+      <infon key="name_6">surname:Szabo;given-names:Zoltan</infon>
+      <infon key="name_19">surname:Myers;given-names:Rachel</infon>
+      <infon key="name_5">surname:Foster;given-names:Donald</infon>
+      <infon key="authors">Tummala S, Titus M, Wilson L, Wang C, Ciatto C, Thill G, Foster D, Li C, Szabo Z, Guttman A, Bettencourt B, Jayaraman M, Deroot J, Kocisko D, Pollard S, Charisse K, Kuchimanchi S, Hinkle G, Milstein S, Meyers R, Wu SL, Karger BL, Rossomando A</infon>
+      <infon key="name_4">surname:Ciatto;given-names:Carlo</infon>
+      <offset>0</offset>
+      <text>Evaluation of Exogenous siRNA Addition as a Metabolic Engineering Tool for Modifying Biopharmaceuticals</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+      <text>Traditional metabolic engineering approaches, including homologous recombination, zinc finger nucleases, and short hairpin RNA (shRNA), have previously been employed to generate biologics with specific characteristics that improve efficacy, potency, and safety. An alternative approach is to exogenously add soluble small interfering RNA (siRNA) duplexes, formulated with a cationic lipid, directly to cells grown in shake flasks or bioreactors, This approach has the following potential advantages : no cell line development required, ability to tailor mRNA silencing by adjusting siRNA concentration, simultaneous silencing of multiple target genes, and potential temporal control of down regulation of target gene expression. In this study, we demonstrate proof of concept of the siRNA feeding approach as a metabolic engineering tool in the context of increasing monoclonal antibody afucosylation. First, potent siRNA duplexes targeting fut8 and gmds were dosed into shake flasks with cells that express an anti-CD20 monoclonal antibody. Dose response studies demonstrated the ability to titrate the silencing effect. Furthermore, siRNA addition resulted in no deleterious effects on cell growth, final protein titer, or specific productivity. In bioreactors, antibodies produced by cells following siRNA treatment exhibited improved functional characteristics compared to antibodies from untreated cells, including increased levels of afucosylation (63%), a 17-fold improvement in FCgRIIIa binding, and an increase in specific cell lysis by up to 30%, as determined in an ADCC assay. In addition, standard purification procedures effectively cleared the exogenously added siRNA and transfection agent. Moreover, no differences were observed when other key product quality structural attributes were compared to untreated controls. These results establish that exogenous addition of siRNA represents a potentially novel metabolic engineering tool to improve biopharmaceutical function and quality that can complement existing metabolic engineering methods.</text>
+      <annotation id="3">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:47:48Z</infon>
+        <location offset="160" length="70"/>
+        <text>homologous recombination, zinc finger nucleases, and short hairpin RNA</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Multi_clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:47:56Z</infon>
+        <location offset="335" length="29"/>
+        <text>efficacy, potency, and safety</text>
+      </annotation>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:46:31Z</infon>
+        <location offset="887" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:46:35Z</infon>
+        <location offset="991" length="13"/>
+        <text>afucosylation</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:48:12Z</infon>
+        <location offset="1407" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:48:17Z</infon>
+        <location offset="1544" length="13"/>
+        <text>afucosylation</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:49:22Z</infon>
+        <location offset="1590" length="8"/>
+        <text>FCgRIIIa</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:49:27Z</infon>
+        <location offset="1627" length="19"/>
+        <text>specific cell lysis</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>2165</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2178</offset>
+      <text>With an ever increasing number of biologics in pharmaceutical company pipelines, researchers continue to explore novel technologies to modify host cell lines to improve productivity, safety, efficacy, and potency of biologics. An important area of study for host cell modification is gene inactivation . Currently, gene inactivation tools such as homologous recombination , zinc-finger nucleases , and short hairpin RNA (shRNA)  are utilized to alter host cell gene expression. These gene inactivation strategies can be effective; however, they cannot tailor the degree of gene silencing which can be important . Moreover, these gene inactivation approaches can significantly increase the bioprocess development time, as cell line engineering requires significant time and resources,. The length of development time is further increased if several targets are to be simultaneously inactivated. In addition, non-specific effects can occur due to the somewhat random nature of genetic insertion within the host cell chromosome .</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3205</offset>
+      <text>An alternative approach for metabolic engineering of host cells is to add synthetic small interfering siRNA (siRNA) in a cationic lipid formulation directly to the manufacturing cell line in the bioreactor to initiate RNA interference (RNAi) . This strategy could, in principle, allow for rapid, transient, silencing of target genes, as no cell line engineering/selection is required. Moreover, by choosing the siRNA concentration, titration of the level of gene silencing could be possible, in contrast to gene knockout strategies. Furthermore, combining siRNA duplexes to target multiple genes in several cellular pathways could enable simultaneous modulation of key effect(s) critical to cell growth, protein production, and product quality. Also, by feeding at critical time points, the siRNA approach could provide temporal control of gene expression, which is currently not available with existing metabolic engineering strategies. Finally, using genomic and transcriptomic data currently available, all expressed genes could, in principle, be targeted. Thus, exogenous siRNA addition directly to a bioprocess has the potential to accelerate biologics development and to generate products with very specific product profile(s) for enhanced biological activity, quality, and safety with improved productivity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4520</offset>
+      <text>To demonstrate the potential of the exogenous siRNA addition approach, the fut8 and gmds genes , well known components of the de novo fucosylation pathway, were targeted for down regulation using exogenously added siRNA fucosyltransferase (FUT8) and GDP-man-4,6-dehydratase (GMDS) are important enzymes responsible for core fucose Fc carbohydrate on therapeutic monoclonal antibodies. Removal of the core fucose on glycosylation sites on monoclonal antibodies is known to enhance activity by improving FcgammaRIIIa binding, leading to increased antibody dependent cellular cytotoxicity . For this study, potent siRNA duplexes targeting fut8 and gmds were dosed into shake flasks with cells that express an anti-CD20 monoclonal antibody. Using optimal conditions determined from shake flask studies, exogenous siRNA addition was applied to bioreactors. Antibody generated from siRNA treatment was then compared to untreated controls to determine the extent of afucosylation and modification of biological activity, as well as whether any other product or process related modifications occurred, due to siRNA treatment. Our data demonstrate that RNAi-mediated metabolic engineering can be a powerful new tool in the control of a bioreactor process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5767</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5789</offset>
+      <text>Cell line development and anti-CD20 monoclonal antibody expression</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5856</offset>
+      <text>Using previously published sequences , the heavy and light chains of an anti-CD20 monoclonal antibody (MAb) were separately cloned into a eukaryotic expression vector containing the cytomegalovirus (CMV) intermediate early promoter (pGV90). Cloning was followed by a double transfection of both the heavy and light chain plasmids into dihydrofolate reductase (DHFR) deficient DG44 Chinese hamster ovary (CHO) host cells (Invitrogen, Carlsbad CA) using the FuGene 6 transfection reagent (Roche Applied Sciences, Indianapolis IN). An anti-CD20 MAb producing clonal cell line was identified by iterative screening of transfected cells for high specific productivity by flow-assisted cell sorting (FACS) using an anti-human IgG1 monoclonal antibody, as previously reported </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6626</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6639</offset>
+      <text>For dose response studies, cultures were seeded at 1.0 x 106 cells/mL in 50 mL of CD DG44 cell culture media (Invitrogen, Carlsbad, CA) in 125 mL shake flasks, supplemented with Pluronic F68 (Invitrogen, Carlsbad, CA) and Glutamax (Invitrogen, Carlsbad, CA) to final concentrations of 0.18% and 8 mM, respectively. Cultures were grown in Multitron II incubators (Appropriate Technical Resources, Laurel, MD) at 37 C, 5% CO2, 80% relative humidity, and 130 RPM (pitch = 25 mm) for 3 days. Cultures from seed flasks were then split back to 0.5 x 106 cells/mL in fresh media to initiate production stage cultures. Seed cultures were transfected on day 0, while production stage cultures were transfected every 3 days starting on day 0. All transfections used a proprietary transfection reagent and a proprietary dosing strategy. For both seed and production stage cultures, the siRNA concentration for FUT8 and GMD varied for each culture from 0 - 50 picomoles/106 cells, based on the experimental condition. Production stage cultures were also fed 5% of both Efficient Feeds A and B (Invitrogen, Carlsbad, CA) on days 3 and 6 and 0.5% of 50x RPMI amino acids (Sigma-Aldrich, St. Louis, MO) daily from day 7 to harvest. 1M glucose and Glutamax were also supplemented after day 7 to maintain culture concentrations between 2 - 6 g/L and &gt; 0.5 mM, respectively. Cell culture supernatants were harvested on day 12 by centrifugation at 200 x g for 30 minutes. Measurements of cell density and viability were performed almost daily using a Vicell XR according to manufacturer protocols (Beckman Coulter, Brea, CA). Metabolite analysis was performed using a Bioprofile Flex, according to manufacturer recommendations (Nova Biomedical, Waltham, MA). Retain samples for fut8 and gmd mRNA analyses were also taken daily. For these samples, 50 microL of each culture was added to 450 microL of 1X PBS (Invitrogen, Carlsbad, CA). The mixture was then centrifuged at 300 x g for 10 min at room temperature. Supernatants were discarded, and pellets stored at -80 C until mRNA analysis was initiated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8730</offset>
+      <text>For bioreactor cultures, approximately 300 mL of culture were seeded in a 1L shake flask at an initial cell concentration of 1.0 x 106 cells/mL. The culture was grown for 3 days using the same cell line, media, and incubator conditions as in the dose response study. For the siRNA treated seed condition, cultures were transfected with a proprietary transfection reagent  using a proprietary dosing strategy with a siRNA concentration ranging from 4-10 picomoles/106 cells for both FUT8 and GMD siRNA. Prior to day 3 of seed cultures, bioreactors (either 3L working volume in glass bioreactors (Chemglass, Vineland, NJ; CLS-1406-03) or 1.5L working volume in Millipore (Billerica, MA) disposable bioreactors (CR0003L200)) were aseptically prepared with a sterilized pH probe, dissolved oxygen probe, and aseptically charged with 2.7 and 1.2L of CD DG44 cell culture media, respectively. Bioreactors were inoculated with the appropriately treated seed culture to achieve an initial cell concentration of 0.6 x 106 cells/mL and controlled as follows: temperature : 37 C, pH allowed to decrease from 7.4 to 6.8 with 1M sodium carbonate, and dissolved oxygen : 50% of air saturation using O2 sparging. All siRNA treated bioreactors were transfected every three days starting on Day 0 utilizing the same strategy as for the respective seed culture. The feed strategy and sample analysis for all bioreactors were identical to those utilized for shake flasks in the dose response study. For harvests, between 0.2 - 1L of culture supernatant was collected on day 12 by filtering through a Millistak+ POD COHC clarifying filter (Millipore, Billerica, MA), followed by a SHC Opticap XL150 PES 0.2microm sterilizing filter (Millipore, Billerica, MA), using manufacturer recommendations. Supernatants were stored at -- 20 C until needed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10559</offset>
+      <text>Identification and synthesis of CHO cell-specific FUT8 and GMDS siRNA duplexes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10638</offset>
+      <text>Based on previously published CHO cell-specific transcript sequences for fut8  and gmds (Genbank, Accession# AF525364.1), 20 siRNA duplexes were designed targeting each gene using proprietary siRNA design algorithms. FUT8 and GMDS single-stranded RNAs were generated by small scale synthesis on a MerMade oligo synthesizer (BioAutomation, Plano TX), purified, and then annealed according to previously established protocols . All 20 candidate siRNA duplexes for each gene were screened for highest target mRNA knockdown by quantitative PCR (qPCR) in CHO-S cells (Invitrogen, Carlsbad CA) using a single siRNA concentration of 10 nM. The initial screen was followed by further testing of the top 5 identified candidates using a range of 10-fold serial dilutions of siRNA ranging from 0.01 to 100 nM. The top candidate for each gene was then chosen based on the lowest siRNA concentration required to generate 50% target mRNA silencing compared to the cells only controls. For dose response and bioreactor cell culture experiments, synthesis of the top FUT8 and GMDS siRNA duplexes were scaled-up to produce approximately 200 mg of each duplex using previously described methods .</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11817</offset>
+      <text>mRNA quantitation by qPCR</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="box" rules="all"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Target&lt;/th&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Forward Primer&lt;/th&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Reverse Primer&lt;/th&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Probe&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;FUT8&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;TGGGAGACTGTGTTTAGA&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;AAGGGTAAGTAAGGAGGA&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;CAGGTGAAGTGAAGGACAAAAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;GMDS&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;GAG ACC GGC AAA ATT CAT GT&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;TTC TCA TGA GCT CCA CAT CG&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;ACC GAC CAA CTGAAG TGG AC&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">T1</infon>
+      <infon key="type">table</infon>
+      <infon key="File">T1.xml</infon>
+      <offset>11843</offset>
+      <text>Target Forward Primer Reverse Primer Probe FUT8 TGGGAGACTGTGTTTAGA AAGGGTAAGTAAGGAGGA CAGGTGAAGTGAAGGACAAAAA GMDS GAG ACC GGC AAA ATT CAT GT TTC TCA TGA GCT CCA CAT CG ACC GAC CAA CTGAAG TGG AC </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12038</offset>
+      <text>Total RNA isolation from mRNA retain cell pellets and subsequent cDNA synthesis were performed using commercial kits: MagMax Total RNA Isolation Kit and ABI High capacity cDNA reverse transcription kit (Life Technologies, Carlsbad, CA), respectively, according to manufacturer protocols. Probes and primers were designed using CLC Main Workbench 4 for both genes as follows:  Target probes were synthesized with a 5'FAM and 3' Black Hole Quencher 1 (BHQ1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12499</offset>
+      <text>For real time PCR, 2 microL of cDNA were added to a master mix containing 0.5 microL 18s TaqMan Probe (Life Technologies, Carlsbad, CA), 0.5 microL of gene specific probe, and 5 microL Lightcycler 480 probe master mix (Roche Applied Science, Indianapolis, IN) per well in a 384 well plates (Roche Applied Science, Indianapolis, IN) and performed in a LC 480 Real Time PCR machine (Roche Applied Science, Indianapolis, IN). To calculate relative fold change, real time data were analyzed by calculating differences in cycle time between assays performed with test samples and their respective cell only controls. All samples were normalized to either 18S RNA or GAPDH to account for differences in cell numbers.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13210</offset>
+      <text>Anti-CD20 MAb Purification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13237</offset>
+      <text>Filtered shake flask or bioreactor cell culture supernatants were thawed at 37 C and supplemented with 1M sodium phosphate pH 7.4 to a final concentration of 20 mM. Anti-CD20 MAb from siRNA-treated cell or control cultures were purified using a HiTrap MabSelect SuRe column (GE Healthcare, Piscataway, NJ) followed by HiTrap SP Sepharose chromatography (GE Healthcare, Piscataway, NJ) to remove remaining process-related contaminants. Following the elution from SP Sepharose, the proteins were concentrated and diafiltered using phosphate-buffered saline (PBS; Invitrogen, Carlsbad, CA) with a 9 kDa Orbital Biosciences (Topsfield, MA) centrifugal concentrator. Protein quantitation was performed utilizing a Bradford assay kit (Bio-Rad Laboratories, Hercules, CA) with a previously purified and quantitated (ultraviolet absorbance at 280 nm) anti-CD20 MAb as a standard.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14110</offset>
+      <text>Bioanalytical characterization</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14141</offset>
+      <text>Anti-CD20 MAb glycan analysis was performed by capillary electrophoresis-laser induced fluorescence (CE-LIF) and LC/MS/MS as previously described . Protein samples were reduced and alkylated prior to tryptic digestion  or Lys-C digestion, Achromobacter protease I (Roche, Nutley, NJ; 1:50, w/w) was added to the protein in place of trypsin for 4 hr at 37 C. LC-MS analysis was performed using an Ultimate 3000 nano-LC pump (Dionex, Mountain View, CA) and a self-packed C18 column (Magic C8, 200 A pore and 5 microm particle size, 75 microm i.d. x 15 cm) (Michrom Bioresources, Auburn, CA) coupled online to an LTQ-Orbitrap-ETD XL mass spectrometer (Thermo Fisher Scientific, San Jose, CA) through a nanospray ion source (New Objective, Woburn, MA), as previously described . Full experimental details including analytical data will be published on anti-CD20 MAb characterization in a separate paper (manuscript in preparation).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15069</offset>
+      <text>FcgammaRIIIa binding assay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15096</offset>
+      <text>Anti-CD20 MAb binding to FcgammaRIIIa was monitored using a previously described capture-type ELISA . Briefly, NUNC 96-well flat-bottom Immuno MaxiSorp plates (Thermo Fisher Scientific, Fair Lawn, NJ) were coated with an anti-human IgG1 monoclonal antibody (10 microg/mL; R&amp;D systems, Minneapolis, MN) and incubated at 37 C for 1 hour. Three consecutive washes were performed following each capture or blocking step with TBST (200 microL/well; 25mM Tris, 0.15 M NaCl, 0.05% Tween 20, pH 7.0). Plates were then blocked with 5% non-fat milk in TBST (200 microL/well), incubated for 1/2 hour at 37 C, and washed. Afterwards, a fixed amount (100 microL/well) of anti-CD20 monoclonal antibody (1 microg/mL) from each experimental condition was added to each well and incubated for 1 hour at 37 C. After washing the plate, human His-tagged FcgammaRIIIa (R&amp;D Systems, Minneapolis, MN) was serially diluted to 5 microg/mL, 1.5 microg/mL, 0.5 microg/mL, 0.15 microg/mL, 0.05 microg/mL, 0.015 microg/mL, and 0.005 microg/mL from stock (500 microg/mL). 100 microL of each dilution of FcgammaRIIIa was added into each well containing the different monoclonal antibody preparations and incubated at room temperature for 1 hour. The plates were washed again with TBST. His-tagged FcgammaRIIIa was detected using an anti-His HRP-labeled antibody (R&amp;D Systems, Minneapolis, MN) diluted 1/5000 (100 microL/well) and incubated at room temperature for 1 hour. The plates were washed a final three times. TMB substrate (Thermo Fisher Scientific, Fair Lawn, NJ) was added to each well (100 microL/well) and allowed to develop for less than 10 minutes at room temperature. The reaction was stopped by adding 100 microL/well stop buffer (1M H2SO4) and the optical density at 450 nm (OD450) measured using a Victor 4 (Perkin Elmer, Waltham, MA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16918</offset>
+      <text>ADCC assay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16929</offset>
+      <text>Sample Cell Lysis (%) = (Sample Reading - Spontaneous Release) / (Maximal Release - Spontaneous Release) x 100.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17047</offset>
+      <text>The ADCC assay was contracted out to Eureka Therapeutics (Emeryville, CA). Briefly, Jeko-1 cells (ATCC, Cat# CRL-3006,) were used as the assay target cell and maintained at 37 C and 5% CO2 in F-12K media containing 10% fetal bovine serum. Fresh human normal PBMCs were purchased from AllCells (Emeryville, CA). Approximately 1 x105 Jeko-1 cells were pre-incubated with RNAi-treated or control antibodies at varying concentrations ranging from 0.01 to 10 microg/mL in 96-well flat bottom plates at 37 C with 5% CO2 for 30 minutes. Following incubation, freshly isolated human PBMCs (2.5x106 cells) were added (50 microL) into each well at an effector/target ratio of 25:1. The plates were incubated for 16 hr at 37 C with 5% CO2. Next, the plates were centrifuged at approximately 300 x g for 15 minutes to pellet cells and debris. 50 microL of supernatant was transferred from each well to a 96-well round bottom assay plate. The amount of specific cell lysis was monitored by lactate dehydrogenase (LDH) release using a CytoTox 96  Non-Radio Cytotoxicity LDH Assay (Promega, Madison, WI) performed according to the manufacturer's recommendation. Specific cell lysis was calculated as follows:   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>18244</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>18252</offset>
+      <text>No significant effects on growth/productivity due to siRNA addition</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18320</offset>
+      <text>Based on a proprietary dosing strategy, CHO cells, expressing an anti-CD20 monoclonal antibody in shake flask cultures, were transfected directly with increasing concentrations of FUT8 and GMDS siRNA duplexes up to 50 picomoles/106 cells. Growth profiles, final titer, and final specific productivities (i.e., Final titer / Final IVCC) are summarized in Figure 1. After normalization of cell concentration to the initial culture volume in order to account for differences in feed and transfection volume (i.e., cell concentration x culture volume / initial volume), growth profiles for all conditions were similar with maximum cell concentration occurring on day 9. Average maximum cell concentrations for all cultures were also consistently between 18 - 19 x 106 cells/mL. Thus, time course profiles of viable cell concentration for the range of siRNA concentrations tested indicated no deleterious effects on growth due to increasing siRNA concentration. Final titer and specific productivities varied from 84 - 100 microg/mL and 0.94 - 1.11 picograms/cell days, respectively. T-tests of final titer and specific productivity, comparing each dose group to control, were not significant (p &gt; 0.05), which suggests no significant effect of siRNA concentration on antibody titer or specific productivity. These results demonstrate that siRNA transfection into cells grown in shake flasks does not affect cell growth characteristics or protein productivity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>19782</offset>
+      <text>mRNA silencing is dose dependent and titratable</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19830</offset>
+      <text>The effect of FUT8 and GMDS siRNA on silencing of fut8 and gmds expression was evaluated using qPCR on daily samples from shake flask cultures with increasing concentrations of siRNA. Time course profiles of both fut8 and gmds expression are outlined in Figures 2A and 2B, respectively. For both genes, initial expression levels for siRNA treated cultures were lower than for the cells only control condition due to the transfection of their respective seed cultures. For all siRNA concentrations tested, fut8 expression, in general, decreased until day 2, increased on day 3, and then gradually decreased throughout the rest of the culture. Similarly, gmds expression decreased on day 1, increased until day 3 and then maintained this level until day 9. After day 9, gmds expression decreased and remained at low levels through day 12. These variations in expression profiles between fut8 and gmds are most likely due to differences in target message levels and turnover rates .</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20810</offset>
+      <text>Despite the variability in qPCR data, a decrease in gene expression with increasing siRNA concentration can be observed throughout the cultures for both fut8 and gmds expression. To further elucidate the potential relationship between siRNA concentration and gene silencing, an integral analysis was performed for both fut8 and gmds mRNA expression profiles to determine the cumulative mRNA remaining for the various siRNA concentrations (Figure 2C). The results indicate that silencing is dose dependent between 0 - 10 picomoles/106 cells for both siRNA with saturation (~16% and ~25% of cells only for fut8 and gmds expression, respectively) occurring after siRNA concentrations greater than 10 picomoles/106 cells. This result suggests that the desired level of mRNA knockdown can be achieved by choosing siRNA concentration appropriately and that the optimal siRNA concentration for silencing both fut8 and gmds expression is between 5-10 picomoles/106 cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>21778</offset>
+      <text>fut8 and gmds mRNA expression is reduced in bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21834</offset>
+      <text>To demonstrate the benefit of exogenous siRNA addition in bioreactors, CHO cells expressing anti-CD20 monoclonal antibody were grown in bench scale bioreactors and dosed based on conditions identified in shake flask cultures. Similar to shake flask cultures, siRNA addition and transfection do not affect growth, as shown by no significant difference in integral viable cell concentrations for both siRNA treated and control cultures throughout culture duration (Figure 3A). Furthermore, titer is also not affected [siRNA treated (n=3) - 157 +- 4 mg/L and untreated controls (n=3) - 161 +- 1 mg/L]. Next, fut8 and gmds mRNA expression were determined for each day of culture via qPCR (Figure 3B). The results demonstrate significant silencing of both genes throughout the bioreactor runs, with fut8 and gmds expression below 20 and 30%, respectively, of untreated cells only control levels for most of culture duration. Interestingly, the expression patterns for both genes are very similar until day 6. The increase in expression on days 3 and 6 is most likely due to the inability of a transfection frequency of 3 days to maintain silencing with the substantial cell growth occurring at this stage. Thus, there may be an opportunity for further improvement of silencing by increasing transfection frequency during this culture stage. After day 6, fut8 expression continued to decrease with time to below 10% of control levels, while gmds expression remained relatively constant between 20-30% for the remainder of culture duration.</text>
+      <annotation id="9">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:05:12Z</infon>
+        <location offset="22093" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:05:17Z</infon>
+        <location offset="22322" length="5"/>
+        <text>titer</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23374</offset>
+      <text>For comparison to expression patterns in shake flask cultures, cumulative mRNA knockdown was calculated for both genes in the bioreactor experiments (Figure 3C). Cumulative mRNA remaining for fut8 and gmds were 14 and 23%, respectively, of cell only controls which is very similar to averages for fut8 and gmds cumulative mRNA remaining in shake flasks (16 and 25%, respectively, of cell only controls). This result demonstrates reproducibility in silencing between shake flask and bioreactor conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23879</offset>
+      <text>FUT8 and GMDS siRNA specifically increase levels of core afucosylation without affecting other product quality attributes</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24001</offset>
+      <text>Antibody was purified from harvests of siRNA treated and control bioreactor runs and examined for glycosylation profile as shown in Figure 4A. Addition of FUT8 and GMDS siRNA dramatically increased total levels of core afucosylation of antibody to 63% compared to 0% for purified material from control bioreactor harvests. For the agalactosylated form (G0), 59% of purified antibody from siRNA treated cultures was found without core fucose, compared to 88% with core fucose for control cultures. For total G1 forms, there was no afucosylated G1 form identified with control antibody, compared to 4% in siRNA treated material. For the completely galactosylated form (G2), roughly 50% of siRNA treated material was afucosylated. These data demonstrate that core afucosylation was dramatically enhanced with FUT8 and GMDS siRNA addition.</text>
+      <annotation id="11">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:07:53Z</infon>
+        <location offset="24156" length="19"/>
+        <text>FUT8 and GMDS siRNA</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:02Z</infon>
+        <location offset="24215" length="18"/>
+        <text>core afucosylation</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:16Z</infon>
+        <location offset="24332" length="25"/>
+        <text>agalactosylated form (G0)</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:24Z</infon>
+        <location offset="24389" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:32Z</infon>
+        <location offset="24422" length="19"/>
+        <text>without core fucose</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:36Z</infon>
+        <location offset="24464" length="11"/>
+        <text>core fucose</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:42Z</infon>
+        <location offset="24502" length="14"/>
+        <text>total G1 forms</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:46Z</infon>
+        <location offset="24531" length="20"/>
+        <text>afucosylated G1 form</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:49Z</infon>
+        <location offset="24568" length="7"/>
+        <text>control</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:08:51Z</infon>
+        <location offset="24604" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:09:17Z</infon>
+        <location offset="24647" length="24"/>
+        <text>galactosylated form (G2)</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:09:23Z</infon>
+        <location offset="24688" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:09:18Z</infon>
+        <location offset="24715" length="12"/>
+        <text>afucosylated</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:09:31Z</infon>
+        <location offset="24757" length="18"/>
+        <text>core afucosylation</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:09:36Z</infon>
+        <location offset="24807" length="19"/>
+        <text>FUT8 and GMDS siRNA</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24837</offset>
+      <text>To determine if there were any other effects on product quality due to siRNA addition, product quality attributes including N-terminal and C-terminal modifications, oxidation, deamidation, and disulfide bond formation were examined. A summary of all the tested product quality attributes is shown in Figures 4B-D. Importantly, no significant differences were observed between purified material from siRNA treated and untreated control bioreactors for modifications to the N-terminal pyroglutamate, C-terminal lysine, and deamidation of asparagines. In addition, disulfide linkages were confirmed to occur at the appropriate sites and to be identical between conditions (data not shown). A slight increase in oxidation of methionine 34 and methionine 81 was observed from the antibody produced from siRNA treated cultures; however, this result is most likely due to sample handling as the buffer/conditions of these samples were not optimized for long term storage and manipulation. Furthermore, FUT8 and GMD siRNA and transfection lipid concentrations were determined for samples from various stages of the antibody purification procedure to demonstrate efficient removal of potential process-related contaminants. No significant levels above the background levels observed in control cultures were detected for any of these components after SP Sepharose purification (Figure 5). These data strongly suggest that siRNA addition should have no effect on a biologics manufacturing process, other than the intended target(s) silencing effect(s).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>26382</offset>
+      <text>siRNA treated bioreactors produce antibody with improved functional characteristics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26466</offset>
+      <text>A predominant effect of core afucosylation on an antibody is to improve binding with FcgammaRIIIa which then promotes increased ADCC . Thus, purified antibody from both siRNA treated and control bioreactor runs were further subjected to FcgammaRIIIa binding and ADCC assays to determine if there indeed was improved functionality with antibodies produced from siRNA treated bioreactors. As shown in Figure 6A, antibody purified from siRNA treated bioreactor runs exhibited significantly higher binding to FcgammaRIIIa compared to antibody produced from control bioreactors. Peak OD450 for antibody produced from siRNA treated runs were roughly 17-fold higher than material from control runs. Moreover, significantly less FcgammaRIIIa was required (~500-fold) for material generated from siRNA treated cultures to produce the same peak binding activity generated from material derived from control cultures.</text>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:11:41Z</infon>
+        <location offset="26490" length="18"/>
+        <text>core afucosylation</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:12:09Z</infon>
+        <location offset="26538" length="25"/>
+        <text>binding with FcgammaRIIIa</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:11:47Z</infon>
+        <location offset="26594" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:11:55Z</infon>
+        <location offset="26635" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:11:56Z</infon>
+        <location offset="26653" length="7"/>
+        <text>control</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:12:02Z</infon>
+        <location offset="26703" length="20"/>
+        <text>FcgammaRIIIa binding</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:12:21Z</infon>
+        <location offset="26728" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:12:32Z</infon>
+        <location offset="26826" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:12:35Z</infon>
+        <location offset="26899" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:12:46Z</infon>
+        <location offset="26960" length="23"/>
+        <text>binding to FcgammaRIIIa</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:13:50Z</infon>
+        <location offset="27019" length="7"/>
+        <text>control</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27373</offset>
+      <text>The ADCC assay also demonstrated improved functionality with antibody generated from siRNA treated bioreactors (Figure 6B). Antibody from siRNA treated bioreactors exhibited roughly 10-30% higher specific cell lysis at any given antibody concentration. Additionally, peak specific cell lysis was also higher (66%) relative to antibody from control bioreactor runs (53%). Furthermore, to achieve a specific cell lysis of 50%, approximately 25-fold less antibody produced from siRNA treated cultures was required compared to control. In conjunction with FcgammaRIIIa binding assay data, these results demonstrate that addition of FUT8 and GMDS siRNA directly to bioreactor runs can significantly improve ADCC of a biologic without requiring any cell line engineering and thus, provides proof of concept that exogenous siRNA addition can modify a biopharmaceutical for enhanced functionality.</text>
+      <annotation id="42">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:14:41Z</infon>
+        <location offset="27377" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:14:29Z</infon>
+        <location offset="27458" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:14:34Z</infon>
+        <location offset="27511" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:14:45Z</infon>
+        <location offset="27569" length="19"/>
+        <text>specific cell lysis</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:14:54Z</infon>
+        <location offset="27640" length="24"/>
+        <text>peak specific cell lysis</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:14:59Z</infon>
+        <location offset="27713" length="7"/>
+        <text>control</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:22Z</infon>
+        <location offset="27770" length="19"/>
+        <text>specific cell lysis</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:12Z</infon>
+        <location offset="27848" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:13Z</infon>
+        <location offset="27896" length="7"/>
+        <text>control</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:33Z</infon>
+        <location offset="28001" length="19"/>
+        <text>FUT8 and GMDS siRNA</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:37Z</infon>
+        <location offset="28075" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:55Z</infon>
+        <location offset="28189" length="5"/>
+        <text>siRNA</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:15:57Z</infon>
+        <location offset="28248" length="13"/>
+        <text>functionality</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>28263</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28274</offset>
+      <text>This study demonstrates that potent siRNA duplexes formulated with a lipid carrier) and dosed into shake flasks or bioreactors with cells can produce a modified biopharmaceutical with improved biological function without the need for cell line engineering. Furthermore, exogenous siRNA addition resulted in no deleterious effects on cell growth, final protein titer, or specific productivity. In addition, dose response studies demonstrated the ability to titrate the silencing effect, which is unique to this metabolic engineering approach. Concerns regarding process clearance of the siRNA and transfection agent should be alleviated as standard purification procedures effectively cleared the exogenously added siRNA and transfection agent to levels below the lower limit of detection. Moreover, no differences were observed when other key product quality structural attributes were compared to untreated controls. These data clearly demonstrate that RNAi-mediated metabolic engineering via exogenous siRNA feeding is a feasible approach l for modifying biopharmaceuticals.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29351</offset>
+      <text>The exogenous addition of FUT8 and GMDS siRNA duplexes directly to anti-CD20 MAb expressing CHO cells specifically and potently decreased fut8 and gmds mRNA to produce an anti-CD20 monoclonal antibody with decreased Fc carbohydrate core fucose, enhanced FcgammaRIIIa binding, and improved ADCC activity. These results compare well with initial studies expressing shRNA in CHO cells against fut8 which exhibited similar amounts of afucosylated antibody (60%). However, more recent studies with shRNA and other metabolic strategies including homologous recombination, zinc-finger nucleases, and expression of fucose conversion enzymes yield complete antibody afucosylation. Nonetheless, complete afucosylation may not be required to maximize immune response, as suggested in a recent study. These results demonstrate the potential of adding siRNA duplexes targeting fucose to existing biopharmaceutical manufacturing processes such as the cetuximab process to decrease Fc carbohydrate fucose and produce therapeutic antibodies with maximum ADCC activity in a relatively short time.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30431</offset>
+      <text>While RNAi-mediated metabolic engineering via exogenous addition of siRNA is novel, there are several areas in which the technology can be further improved. Since the largest scale used in this study was 3L (40 L bioreactor proof of concept target knockdown completed against lactate dehydrogenase; data not shown), a more thorough understanding of cost and scalability of transfection is important for implementation in large-scale manufacturing processes. Current cost estimates for an entire run suggest that the cost of materials is ~$5/L of initial working volume, which is on par with the cost of off the shelf media additions such as insulin that are readily available from commercial vendors. However, this cost needs to be further reduced to make the siRNA feeding approach commercially feasible. Scalability considerations for robust operation in commercial processes using this technology include: (1) siRNA and transfection reagent storage optimization to enhance reagent stability, (2) further understanding of compatibility and extractable/leachable profiles of siRNA and transfection reagent with process tubing/piping, filters, and containers (steel and disposable) typically used at commercial scale, and (3) mixing/shear effects on siRNA and transfection reagent individually, as well as on the siRNA/transfection reagent feed during bioreactor addition. Formulation optimization of the current transfection reagent and/or development of new transfection reagents, as well as chemical modifications to siRNA, may also lead to increased silencing stability, decreased dose levels, and improved silencing potency, which will further decrease costs and enhance process robustness. Furthermore, efforts for simplifying the entire transfection dose into a lyophilized form could also be useful and may provide a long-term storage alternative that leads to reproducible transfections over many runs. All of these modifications will better align this technology with large-scale manufacturing.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32436</offset>
+      <text>The ability to specifically target and down regulate multiple cellular pathways simultaneously by the addition of siRNA directly to cells growing in shake flasks or bioreactors has significant promise for the future of biologics development and manufacturing. This technology may enable pre-clinical efforts to rapidly identify cellular modifications that improve biologic structural characteristics that enhance biological activity without the time-consuming step of generating numerous cell lines. Titratable down-regulation of potential genetic bottlenecks (e.g. secretory pathway genes) may significantly increase expression levels for enzyme replacement therapies (e.g., alpha-anti trypsin) that are currently generated from alternative methods (e.g. purification from blood products) and lead to commercially viable bioprocesses. The use of siRNA duplexes to down-regulate genes responsible for immunogenic epitopes [e.g., Galalpha1-3Galbeta1-4GlcNAc-R (alpha-Gal) linkage and N-glycolylneuraminic acid (Neu5Gc; NGNA) sialic acid] observed on marketed products such as Orencia and Erbitux could provide a means to improve biologic product quality without re-engineering of the manufacturing cell line. Moreover, undesired host cell proteins that reduce product purity or result in unnecessary product modifications (e.g., endogenous proteases) can be targeted to further improve product quality and process consistency. In summary, targeting critical cellular pathway genes with soluble siRNA duplexes added directly to bioreactors has the potential to give highly specific control over cell growth, productivity, and product quality that is currently unavailable with existing technologies.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>34134</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">468</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ledford;given-names:H</infon>
+      <infon key="fpage">18</infon>
+      <infon key="pub-id_pmid">21048737</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">19</infon>
+      <offset>34145</offset>
+      <text>'Biosimilar' drugs poised to penetrate market</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Langer;given-names:ES</infon>
+      <infon key="fpage">151</infon>
+      <infon key="pub-id_pmid">20061821</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">156</infon>
+      <offset>34191</offset>
+      <text>Trends in capacity utilization for therapeutic monoclonal antibody production</text>
+    </passage>
+    <passage>
+      <infon key="volume">Chapter 4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Mortensen;given-names:R</infon>
+      <infon key="fpage">30</infon>
+      <infon key="issue">Unit 4</infon>
+      <infon key="pub-id_pmid">21462160</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Curr Protoc Neurosci</infon>
+      <infon key="type">ref</infon>
+      <offset>34269</offset>
+      <text>Production of a heterozygous mutant cell line by homologous recombination (single knockout)</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Thomson;given-names:A</infon>
+      <infon key="name_2">surname:Sutherland;given-names:L</infon>
+      <infon key="name_1">surname:Buehr;given-names:M</infon>
+      <infon key="name_0">surname:Meek;given-names:S</infon>
+      <infon key="fpage">e14225</infon>
+      <infon key="pub-id_pmid">21151976</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_6">surname:Burdon;given-names:T</infon>
+      <infon key="name_5">surname:Smith;given-names:AJ</infon>
+      <infon key="name_4">surname:Mullins;given-names:JJ</infon>
+      <offset>34361</offset>
+      <text>Efficient gene targeting by homologous recombination in rat embryonic stem cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">Chapter 23</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Mortensen;given-names:R</infon>
+      <infon key="fpage">25</infon>
+      <infon key="issue">Unit 23</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Curr Protoc Mol Biol</infon>
+      <infon key="type">ref</infon>
+      <offset>34442</offset>
+      <text>Production of a heterozygous mutant cell line by homologous recombination (single knockout)</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kusunoki;given-names:M</infon>
+      <infon key="name_2">surname:Inoue-Urakubo;given-names:M</infon>
+      <infon key="name_1">surname:Kinoshita;given-names:S</infon>
+      <infon key="name_0">surname:Yamane-Ohnuki;given-names:N</infon>
+      <infon key="fpage">614</infon>
+      <infon key="pub-id_pmid">15352059</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">87</infon>
+      <infon key="name_10">surname:Shitara;given-names:K</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_11">surname:Satoh;given-names:M</infon>
+      <infon key="name_9">surname:Uchida;given-names:K</infon>
+      <infon key="name_8">surname:Sakurada;given-names:M</infon>
+      <infon key="name_7">surname:Niwa;given-names:R</infon>
+      <infon key="lpage">622</infon>
+      <infon key="name_6">surname:Wakitani;given-names:M</infon>
+      <infon key="name_5">surname:Nakano;given-names:R</infon>
+      <infon key="name_4">surname:Iida;given-names:S</infon>
+      <offset>34534</offset>
+      <text>Establishment of FUT8 knockout Chinese hamster ovary cells: an ideal host cell line for producing completely defucosylated antibodies with enhanced antibody-dependent cellular cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Liu;given-names:PQ</infon>
+      <infon key="name_2">surname:Chang;given-names:J</infon>
+      <infon key="name_1">surname:Freyvert;given-names:Y</infon>
+      <infon key="name_0">surname:Malphettes;given-names:L</infon>
+      <infon key="fpage">774</infon>
+      <infon key="pub-id_pmid">20564614</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">106</infon>
+      <infon key="name_10">surname:Collingwood;given-names:TN</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_11">surname:Gregory;given-names:PD</infon>
+      <infon key="name_12">surname:Cost;given-names:GJ</infon>
+      <infon key="name_9">surname:Snowden;given-names:AW</infon>
+      <infon key="name_8">surname:Tsai;given-names:C</infon>
+      <infon key="name_7">surname:Nguyen;given-names:T</infon>
+      <infon key="lpage">783</infon>
+      <infon key="name_6">surname:Zhou;given-names:Z</infon>
+      <infon key="name_5">surname:Miller;given-names:JC</infon>
+      <infon key="name_4">surname:Chan;given-names:E</infon>
+      <offset>34723</offset>
+      <text>Highly efficient deletion of FUT8 in CHO cell lines using zinc-finger nucleases yields cells that produce completely nonfucosylated antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">188</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Carroll;given-names:D</infon>
+      <infon key="fpage">773</infon>
+      <infon key="pub-id_pmid">21828278</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Genetics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">782</infon>
+      <offset>34866</offset>
+      <text>Genome engineering with zinc-finger nucleases</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="name_2">surname:Ma;given-names:D</infon>
+      <infon key="name_1">surname:Wang;given-names:YZ</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Deng;given-names:SS</infon>
+      <infon key="fpage">162</infon>
+      <infon key="pub-id_pmid">20376797</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Zhonghua Yi Xue Yi Chuan Xue Za Zhi</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">165</infon>
+      <offset>34912</offset>
+      <text>Zinc finger nucleases and their application</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mori;given-names:K</infon>
+      <infon key="name_2">surname:Kuni-Kamochi;given-names:R</infon>
+      <infon key="name_1">surname:Imai-Nishiya;given-names:H</infon>
+      <infon key="name_0">surname:Kanda;given-names:Y</infon>
+      <infon key="fpage">300</infon>
+      <infon key="pub-id_pmid">17559959</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">130</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Satoh;given-names:M</infon>
+      <infon key="name_8">surname:Shitara;given-names:K</infon>
+      <infon key="name_7">surname:Iida;given-names:S</infon>
+      <infon key="lpage">310</infon>
+      <infon key="name_6">surname:Okazaki;given-names:A</infon>
+      <infon key="name_5">surname:Kitajima-Miyama;given-names:K</infon>
+      <infon key="name_4">surname:Inoue;given-names:M</infon>
+      <offset>34956</offset>
+      <text>Establishment of a GDP-mannose 4,6-dehydratase (GMD) knockout host cell line: a new strategy for generating completely non-fucosylated recombinant therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Heng;given-names:CK</infon>
+      <infon key="name_2">surname:Nissom;given-names:PM</infon>
+      <infon key="name_1">surname:Wong;given-names:KT</infon>
+      <infon key="name_0">surname:Wong;given-names:DC</infon>
+      <infon key="fpage">350</infon>
+      <infon key="pub-id_pmid">16894638</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">95</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">361</infon>
+      <infon key="name_4">surname:Yap;given-names:MG</infon>
+      <offset>35116</offset>
+      <text>Targeting early apoptotic genes in batch and fed-batch CHO cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Loh;given-names:SO</infon>
+      <infon key="name_2">surname:Liu;given-names:S</infon>
+      <infon key="name_1">surname:Chuan;given-names:KH</infon>
+      <infon key="name_0">surname:Lim;given-names:SF</infon>
+      <infon key="fpage">509</infon>
+      <infon key="pub-id_pmid">16860584</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">522</infon>
+      <infon key="name_6">surname:Song;given-names:Z</infon>
+      <infon key="name_5">surname:Ong;given-names:CC</infon>
+      <infon key="name_4">surname:Chung;given-names:BY</infon>
+      <offset>35189</offset>
+      <text>RNAi suppression of Bax and Bak enhances viability in fed-batch cultures of CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">296</infon>
+      <infon key="name_1">surname:Medema;given-names:RH</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:van Vugt;given-names:MA</infon>
+      <infon key="fpage">355</infon>
+      <infon key="pub-id_pmid">15576944</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Methods Mol Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">369</infon>
+      <offset>35275</offset>
+      <text>Polo-like kinase-1: activity measurement and RNAi-mediated knockdown</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Fu;given-names:F</infon>
+      <infon key="name_2">surname:Winfrey;given-names:RJ</infon>
+      <infon key="name_1">surname:Wright;given-names:DA</infon>
+      <infon key="name_0">surname:Townsend;given-names:JA</infon>
+      <infon key="fpage">442</infon>
+      <infon key="pub-id_pmid">19404258</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">459</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">445</infon>
+      <infon key="name_6">surname:Voytas;given-names:DF</infon>
+      <infon key="name_5">surname:Joung;given-names:JK</infon>
+      <infon key="name_4">surname:Maeder;given-names:ML</infon>
+      <offset>35344</offset>
+      <text>High-frequency modification of plant genes using engineered zinc-finger nucleases</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Porteus;given-names:MH</infon>
+      <infon key="volume">5</infon>
+      <infon key="name_2">surname:Porter;given-names:SN</infon>
+      <infon key="name_1">surname:Reading;given-names:DW</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pruett-Miller;given-names:SM</infon>
+      <infon key="year">2009</infon>
+      <infon key="comment">e1000376.</infon>
+      <infon key="source">PLoS Genet</infon>
+      <infon key="type">ref</infon>
+      <offset>35426</offset>
+      <text>Attenuation of zinc finger nuclease toxicity by small-molecule regulation of protein levels</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="name_1">surname:Plasterk;given-names:RH</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Tijsterman;given-names:M</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_pmid">15066275</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3</infon>
+      <offset>35518</offset>
+      <text>Dicers at RISC; the mechanism of RNAi</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wakitani;given-names:M</infon>
+      <infon key="name_2">surname:Inoue;given-names:M</infon>
+      <infon key="name_1">surname:Mori;given-names:K</infon>
+      <infon key="name_0">surname:Imai-Nishiya;given-names:H</infon>
+      <infon key="fpage">13</infon>
+      <infon key="pub-id_pmid">17324284</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">BMC Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_6">surname:Satoh;given-names:M</infon>
+      <infon key="name_5">surname:Shitara;given-names:K</infon>
+      <infon key="name_4">surname:Iida;given-names:S</infon>
+      <offset>35556</offset>
+      <text>Double knockdown of alpha1,6-fucosyltransferase (FUT8) and GDP-mannose 4,6-dehydratase (GMD) in antibody-producing cells: a new strategy for generating fully non-fucosylated therapeutic antibodies with enhanced ADCC</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Shitara;given-names:K</infon>
+      <infon key="fpage">3</infon>
+      <infon key="pub-id_pmid">19122430</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Yakugaku Zasshi</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">9</infon>
+      <offset>35772</offset>
+      <text>Potelligent antibodies as next generation therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="name_2">surname:Reilly;given-names:DE</infon>
+      <infon key="name_1">surname:Baginski;given-names:TK</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wong;given-names:AW</infon>
+      <infon key="fpage">751</infon>
+      <infon key="pub-id_pmid">20564613</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">763</infon>
+      <offset>35837</offset>
+      <text>Enhancement of DNA uptake in FUT8-deleted CHO cells for transient production of afucosylated antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shibata-Koyama;given-names:M</infon>
+      <infon key="name_2">surname:Takemoto;given-names:E</infon>
+      <infon key="name_1">surname:Yagi;given-names:H</infon>
+      <infon key="name_0">surname:Mizushima;given-names:T</infon>
+      <infon key="fpage">1071</infon>
+      <infon key="pub-id_pmid">22023369</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Genes Cells</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">16</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Kato;given-names:K</infon>
+      <infon key="name_7">surname:Satoh;given-names:M</infon>
+      <infon key="lpage">1080</infon>
+      <infon key="name_6">surname:Masuda;given-names:K</infon>
+      <infon key="name_5">surname:Iida;given-names:S</infon>
+      <infon key="name_4">surname:Isoda;given-names:Y</infon>
+      <offset>35941</offset>
+      <text>Structural basis for improved efficacy of therapeutic antibodies on defucosylation of their Fc glycans</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chinn;given-names:PC</infon>
+      <infon key="name_2">surname:Chambers;given-names:KS</infon>
+      <infon key="name_1">surname:Carner;given-names:K</infon>
+      <infon key="name_0">surname:Reff;given-names:ME</infon>
+      <infon key="fpage">435</infon>
+      <infon key="pub-id_pmid">7506951</infon>
+      <infon key="year">1994</infon>
+      <infon key="source">Blood</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">83</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Anderson;given-names:DR</infon>
+      <infon key="name_7">surname:Hanna;given-names:N</infon>
+      <infon key="lpage">445</infon>
+      <infon key="name_6">surname:Newman;given-names:RA</infon>
+      <infon key="name_5">surname:Raab;given-names:R</infon>
+      <infon key="name_4">surname:Leonard;given-names:JE</infon>
+      <offset>36044</offset>
+      <text>Depletion of B cells in vivo by a chimeric mouse human monoclonal antibody to CD20</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mohan;given-names:S</infon>
+      <infon key="name_2">surname:Szilvasi;given-names:A</infon>
+      <infon key="name_1">surname:Chiang;given-names:GG</infon>
+      <infon key="name_0">surname:Brezinsky;given-names:SC</infon>
+      <infon key="fpage">141</infon>
+      <infon key="pub-id_pmid">12799047</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">J Immunol Methods</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">277</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Thill;given-names:G</infon>
+      <infon key="lpage">155</infon>
+      <infon key="name_6">surname:Sisk;given-names:W</infon>
+      <infon key="name_5">surname:MacLean;given-names:A</infon>
+      <infon key="name_4">surname:Shapiro;given-names:RI</infon>
+      <offset>36127</offset>
+      <text>A simple method for enriching populations of transfected CHO cells for cells of higher specific productivity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Butler;given-names:D</infon>
+      <infon key="name_2">surname:Jayaraman;given-names:M</infon>
+      <infon key="name_1">surname:Rajeev;given-names:KG</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Manoharan;given-names:M</infon>
+      <infon key="year">2011</infon>
+      <infon key="comment">WO2011071860</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_5">surname:Kainthan;given-names:RK</infon>
+      <infon key="name_4">surname:Kapoor;given-names:M</infon>
+      <offset>36236</offset>
+      <text>Compositions For Nucleic Acid Delivery</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wang;given-names:G</infon>
+      <infon key="name_2">surname:Peng;given-names:CG</infon>
+      <infon key="name_1">surname:Meena</infon>
+      <infon key="name_0">surname:Addepalli;given-names:H</infon>
+      <infon key="fpage">7320</infon>
+      <infon key="pub-id_pmid">20610434</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">38</infon>
+      <infon key="name_10">surname:Zhang;given-names:L</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_13">surname:Manoharan;given-names:M</infon>
+      <infon key="name_14">surname:Maier;given-names:MA</infon>
+      <infon key="name_11">surname:Jahn-Hofmann;given-names:K</infon>
+      <infon key="name_12">surname:Hadwiger;given-names:P</infon>
+      <infon key="name_9">surname:Lavine;given-names:G</infon>
+      <infon key="name_8">surname:Pandey;given-names:RK</infon>
+      <infon key="name_7">surname:Rajeev;given-names:KG</infon>
+      <infon key="lpage">7331</infon>
+      <infon key="name_6">surname:Jayaprakash;given-names:KN</infon>
+      <infon key="name_5">surname:Charisse;given-names:K</infon>
+      <infon key="name_4">surname:Fan;given-names:Y</infon>
+      <offset>36275</offset>
+      <text>Modulation of thermal stability can enhance the potency of siRNA</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Karger;given-names:BL</infon>
+      <infon key="volume">83</infon>
+      <infon key="name_2">surname:Bones;given-names:J</infon>
+      <infon key="name_1">surname:Guttman;given-names:A</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Szabo;given-names:Z</infon>
+      <infon key="fpage">5329</infon>
+      <infon key="pub-id_pmid">21591710</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5336</infon>
+      <offset>36340</offset>
+      <text>Rapid high-resolution characterization of functionally important monoclonal antibody N-glycans by capillary electrophoresis</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="name_2">surname:Hancock;given-names:WS</infon>
+      <infon key="name_1">surname:Wu;given-names:SL</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wang;given-names:Y</infon>
+      <infon key="fpage">514</infon>
+      <infon key="pub-id_pmid">16497783</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">523</infon>
+      <offset>36464</offset>
+      <text>Approaches to the study of N-linked glycoproteins in human plasma using lectin affinity chromatography and nano-HPLC coupled to electrospray linear ion trap--Fourier transform mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Karger;given-names:B</infon>
+      <infon key="volume">4</infon>
+      <infon key="name_2">surname:Hancock;given-names:WS</infon>
+      <infon key="name_1">surname:Kim;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wu;given-names:SL</infon>
+      <infon key="fpage">1155</infon>
+      <infon key="pub-id_pmid">16083266</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">J Proteome Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1170</infon>
+      <offset>36658</offset>
+      <text>Extended Range Proteomic Analysis (ERPA): a new and sensitive LC-MS platform for high sequence coverage of complex proteins with extensive post-translational modifications-comprehensive analysis of beta-casein and epidermal growth factor receptor (EGFR)</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Cartron;given-names:G</infon>
+      <infon key="name_2">surname:Paintaud;given-names:G</infon>
+      <infon key="name_1">surname:Tartas;given-names:S</infon>
+      <infon key="name_0">surname:Dall'Ozzo;given-names:S</infon>
+      <infon key="fpage">4664</infon>
+      <infon key="pub-id_pmid">15231679</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">64</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Thibault;given-names:G</infon>
+      <infon key="lpage">4669</infon>
+      <infon key="name_6">surname:Watier;given-names:H</infon>
+      <infon key="name_5">surname:Bardos;given-names:P</infon>
+      <infon key="name_4">surname:Colombat;given-names:P</infon>
+      <offset>36912</offset>
+      <text>Rituximab-dependent cytotoxicity by natural killer cells: influence of FCGR3A polymorphism on the concentration-effect relationship</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Topisirovic;given-names:I</infon>
+      <infon key="name_2">surname:Petroulakis;given-names:E</infon>
+      <infon key="name_1">surname:Parsyan;given-names:A</infon>
+      <infon key="name_0">surname:Shahbazian;given-names:D</infon>
+      <infon key="fpage">1478</infon>
+      <infon key="pub-id_pmid">20086100</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Sonenberg;given-names:N</infon>
+      <infon key="lpage">1485</infon>
+      <infon key="name_6">surname:Svitkin;given-names:Y</infon>
+      <infon key="name_5">surname:Gibbs;given-names:BF</infon>
+      <infon key="name_4">surname:Martineau;given-names:Y</infon>
+      <offset>37044</offset>
+      <text>Control of cell survival and proliferation by mammalian eukaryotic initiation factor 4B</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Uehara;given-names:A</infon>
+      <infon key="name_2">surname:Kobayashi;given-names:Y</infon>
+      <infon key="name_1">surname:Sakurada;given-names:M</infon>
+      <infon key="name_0">surname:Niwa;given-names:R</infon>
+      <infon key="fpage">2327</infon>
+      <infon key="pub-id_pmid">15788684</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Shitara;given-names:K</infon>
+      <infon key="lpage">2336</infon>
+      <infon key="name_6">surname:Nakamura;given-names:K</infon>
+      <infon key="name_5">surname:Ueda;given-names:R</infon>
+      <infon key="name_4">surname:Matsushima;given-names:K</infon>
+      <offset>37132</offset>
+      <text>Enhanced natural killer cell binding and activation by low-fucose IgG1 antibody results in potent antibody-dependent cellular cytotoxicity induction at lower antigen density</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wakitani;given-names:M</infon>
+      <infon key="name_2">surname:Yamane-Ohnuki;given-names:N</infon>
+      <infon key="name_1">surname:Kuni-Kamochi;given-names:R</infon>
+      <infon key="name_0">surname:Mori;given-names:K</infon>
+      <infon key="fpage">901</infon>
+      <infon key="pub-id_pmid">15515168</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">88</infon>
+      <infon key="name_10">surname:Shitara;given-names:K</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_11">surname:Satoh;given-names:M</infon>
+      <infon key="name_9">surname:Uchida;given-names:K</infon>
+      <infon key="name_8">surname:Iida;given-names:S</infon>
+      <infon key="name_7">surname:Niwa;given-names:R</infon>
+      <infon key="lpage">908</infon>
+      <infon key="name_6">surname:Kanda;given-names:Y</infon>
+      <infon key="name_5">surname:Imai;given-names:H</infon>
+      <infon key="name_4">surname:Yamano;given-names:K</infon>
+      <offset>37306</offset>
+      <text>Engineering Chinese hamster ovary cells to maximize effector function of produced antibodies using FUT8 siRNA</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Demmler;given-names:C</infon>
+      <infon key="name_2">surname:Blanchard;given-names:V</infon>
+      <infon key="name_1">surname:Ogorek;given-names:C</infon>
+      <infon key="name_0">surname:von Horsten;given-names:HH</infon>
+      <infon key="fpage">1607</infon>
+      <infon key="pub-id_pmid">20639190</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Sandig;given-names:V</infon>
+      <infon key="name_8">surname:Jordan;given-names:I</infon>
+      <infon key="name_7">surname:Berger;given-names:M</infon>
+      <infon key="lpage">1618</infon>
+      <infon key="name_6">surname:Kaup;given-names:M</infon>
+      <infon key="name_5">surname:Winkler;given-names:K</infon>
+      <infon key="name_4">surname:Giese;given-names:C</infon>
+      <offset>37416</offset>
+      <text>Production of non-fucosylated antibodies by co-expression of heterologous GDP-6-deoxy-D-lyxo-4-hexulose reductase</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bouletreau;given-names:S</infon>
+      <infon key="name_2">surname:Brillon;given-names:C</infon>
+      <infon key="name_1">surname:Jacoby;given-names:M</infon>
+      <infon key="name_0">surname:Olivier;given-names:S</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="name_10">surname:Gauthier;given-names:L</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_13">surname:Beltraminelli;given-names:N</infon>
+      <infon key="name_14">surname:Mehtali;given-names:M</infon>
+      <infon key="name_11">surname:Berthome;given-names:M</infon>
+      <infon key="name_12">surname:Vie;given-names:H</infon>
+      <infon key="name_9">surname:Guehenneux;given-names:F</infon>
+      <infon key="name_8">surname:Souttou;given-names:B</infon>
+      <infon key="name_7">surname:Danet;given-names:S</infon>
+      <infon key="name_6">surname:Angel;given-names:A</infon>
+      <infon key="name_5">surname:Nerriere;given-names:O</infon>
+      <infon key="name_4">surname:Mollet;given-names:T</infon>
+      <offset>37530</offset>
+      <text>EB66 cell line, a duck embryonic stem cell-derived substrate for the industrial production of therapeutic monoclonal antibodies with enhanced ADCC activity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yamaguchi;given-names:K</infon>
+      <infon key="name_2">surname:Hashimoto;given-names:K</infon>
+      <infon key="name_1">surname:Chikumi;given-names:H</infon>
+      <infon key="name_0">surname:Kurai;given-names:J</infon>
+      <infon key="fpage">1552</infon>
+      <infon key="pub-id_pmid">17332301</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Clin Cancer Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">13</infon>
+      <infon key="name_10">surname:Nakamoto;given-names:M</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_11">surname:Burioka;given-names:N</infon>
+      <infon key="name_12">surname:Shimizu;given-names:E</infon>
+      <infon key="name_9">surname:Miyata;given-names:M</infon>
+      <infon key="name_8">surname:Takata;given-names:M</infon>
+      <infon key="name_7">surname:Makino;given-names:H</infon>
+      <infon key="lpage">1561</infon>
+      <infon key="name_6">surname:Touge;given-names:H</infon>
+      <infon key="name_5">surname:Sako;given-names:T</infon>
+      <infon key="name_4">surname:Yamasaki;given-names:A</infon>
+      <offset>37686</offset>
+      <text>Antibody-dependent cellular cytotoxicity mediated by cetuximab against lung cancer cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Le;given-names:QT</infon>
+      <infon key="name_2">surname:Chan;given-names:E</infon>
+      <infon key="name_1">surname:Mirakhur;given-names:B</infon>
+      <infon key="name_0">surname:Chung;given-names:CH</infon>
+      <infon key="fpage">1109</infon>
+      <infon key="pub-id_pmid">18337601</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">358</infon>
+      <infon key="name_10">surname:Slebos;given-names:RJ</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_13">surname:Hatley;given-names:T</infon>
+      <infon key="name_14">surname:Hicklin;given-names:DJ</infon>
+      <infon key="name_11">surname:Zhou;given-names:Q</infon>
+      <infon key="name_12">surname:Gold;given-names:D</infon>
+      <infon key="name_15">surname:Platts-Mills;given-names:TA</infon>
+      <infon key="name_9">surname:Mauro;given-names:D</infon>
+      <infon key="name_8">surname:Hosen;given-names:J</infon>
+      <infon key="name_7">surname:Satinover;given-names:SM</infon>
+      <infon key="lpage">1117</infon>
+      <infon key="name_6">surname:Murphy;given-names:BA</infon>
+      <infon key="name_5">surname:Morse;given-names:M</infon>
+      <infon key="name_4">surname:Berlin;given-names:J</infon>
+      <offset>37780</offset>
+      <text>Cetuximab-induced anaphylaxis and IgE specific for galactose-alpha-1,3-galactose</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sarvaiya;given-names:H</infon>
+      <infon key="name_2">surname:Meador;given-names:JW;suffix:3rd</infon>
+      <infon key="name_1">surname:Collins;given-names:BE</infon>
+      <infon key="name_0">surname:Bosques;given-names:CJ</infon>
+      <infon key="fpage">1153</infon>
+      <infon key="pub-id_pmid">21057479</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="name_10">surname:Myette;given-names:JR</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_13">surname:Sasisekharan;given-names:R</infon>
+      <infon key="name_14">surname:Venkataraman;given-names:G</infon>
+      <infon key="name_11">surname:Raman;given-names:R</infon>
+      <infon key="name_12">surname:Shriver;given-names:Z</infon>
+      <infon key="name_9">surname:Sipsey;given-names:SF</infon>
+      <infon key="name_8">surname:Washburn;given-names:N</infon>
+      <infon key="name_7">surname:Hsu;given-names:IH</infon>
+      <infon key="lpage">1156</infon>
+      <infon key="name_6">surname:Bulik;given-names:DA</infon>
+      <infon key="name_5">surname:Dellorusso;given-names:G</infon>
+      <infon key="name_4">surname:Murphy;given-names:JL</infon>
+      <offset>37861</offset>
+      <text>Chinese hamster ovary cells can produce galactose-alpha-1,3-galactose antigens on proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Diaz;given-names:S</infon>
+      <infon key="name_2">surname:Padler-Karavani;given-names:V</infon>
+      <infon key="name_1">surname:Taylor;given-names:RE</infon>
+      <infon key="name_0">surname:Ghaderi;given-names:D</infon>
+      <infon key="fpage">863</infon>
+      <infon key="pub-id_pmid">20657583</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">867</infon>
+      <infon key="name_4">surname:Varki;given-names:A</infon>
+      <offset>37952</offset>
+      <text>Implications of the presence of N-glycolylneuraminic acid in recombinant therapeutic glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms423662f1.jpg</infon>
+      <infon key="id">F1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>38051</offset>
+      <text>siRNA treatment does not affect growth/productivity. A) Time course profiles of viable cell concentration for the range of siRNA concentrations. All cell concentrations were normalized based on initial working volume to adjust for differences in feed and transfection volumes between conditions. Error bars represent +- SEM (n=9 for control and 6 for other conditions). B) No significant effect of siRNA concentration on antibody production and specific productivity. Specific productivity was determined by dividing final titer by final integral viable cell concentration. To generate the final integral viable cell concentration, an integral analysis using a standard trapezoidal rule was performed on time course profiles of normalized cell concentrations. Error bars represent +- SEM (n=6 for control and 3 for other conditions).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms423662f2.jpg</infon>
+      <infon key="id">F2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>38885</offset>
+      <text>Fut8 and gmds silencing is dose dependent. A) Fut8 mRNA time course profile shows a decrease in fut8 expression with increasing siRNA concentration. mRNA concentrations were determined via quantitative PCR and normalized based on respective daily cells only mRNA concentration average. Error bars represent +- SEM (n=9 for control and 6 for other conditions). B) Gmds mRNA time course profile shows a decrease in gmds expression with increasing siRNA concentration. mRNA concentrations were determined via quantitative PCR and normalized based on daily cells only mRNA concentration average. Error bars represent +- SEM (n=9 for control and 6 for other conditions). C) Cumulative mRNA remaining over the entire time course of the culture for both fut8 and gmds demonstrate desired level of mRNA knockdown can be achieved by choosing siRNA concentration appropriately. To calculate cumulative mRNA remaining, an integral analysis using a standard trapezoidal rule was performed on time course mRNA profiles that were normalized based on non-treated cells only daily mRNA concentration averages. Error bars represent +- SEM (n=9 for control and 6 for other conditions).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms423662f3.jpg</infon>
+      <infon key="id">F3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>40053</offset>
+      <text>siRNA dosed in a bioreactor results in drastic fut8 and gmds mRNA knockdown with minimal effects on growth. A) Integral viable cell concentration profiles for control and transfected bioreactors show minimal effects of exogenously added siRNA on growth. Cell concentrations were normalized based on initial working volume to adjust for differences in feed and transfection volumes between conditions. To calculate integral viable cell concentration, an integral analysis using a standard trapezoidal rule was performed on time course cell concentration profiles. B) Fut8 and gmds mRNA time course profile show significant fut8 and gmds silencing in bioreactors. mRNA concentrations were determined via quantitative PCR and normalized based on daily cells only mRNA concentration average. Error bars represent +- SEM (n=3). C) Cumulative mRNA remaining over the entire time course of the culture demonstrates significant fut8 and gmds silencing occurs in bioreactors. mRNA concentrations were determined via quantitative PCR and normalized based on daily cells only mRNA concentration average. To calculate cumulative mRNA knockdown, an integral analysis using a standard trapezoidal rule was performed on time course mRNA profiles. Error bars represent +- SEM (n=3).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms423662f4.jpg</infon>
+      <infon key="id">F4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41320</offset>
+      <text>siRNA treatment only modifies afucosylation of monoclonal antibody and does not alter other product quality attributes. A) Summary of glycosylation profile for both siRNA treated and control bioreactors. Error bars represent +- SEM (n=3). B) Summary of N and C terminal modifications. Values represent average of six measurements from the same sample +- SEM. C) Antibody oxidation summary. Values represent average of six measurements from the same sample +- SEM.. D) Antibody deamidation summary. Values represent average of six measurements from the same sample +- SEM.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms423662f5.jpg</infon>
+      <infon key="id">F5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41892</offset>
+      <text>Lipid and siRNA added to the bioreactor are efficiently removed from the bioprocess using standard purification procedures. A) siRNA concentrations at different stages of purification. B) Lipid concentrations at different stages of purification (n=2); Error bars represent +- SEM).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms423662f6.jpg</infon>
+      <infon key="id">F6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>42174</offset>
+      <text>Purified antibody from siRNA-treated bioreactors have increased FcgammaRIIIa receptor binding and enhanced ADCC. A) FcgammaRIIIa receptor binding profiles exhibit improved binding characteristics with purified antibody from siRNA treated bioreactors than material from non-siRNA treated bioreactors. Average values of 3 independent assays for 3 bioreactor runs from each condition are shown. Error bars represent +- SEM (n=3). B) Improved ADCC kinetics observed with purified antibody generated from siRNA treated bioreactors than non-siRNA treated bioreactors. Error bars represent +- SEM (n=3).</text>
+    </passage>
+  </document>
+</collection>

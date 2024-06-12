@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>8365702</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Xiao;given-names:Li</infon>
+      <infon key="name_2">surname:Liao;given-names:Jing</infon>
+      <infon key="name_1">surname:An;given-names:Yan</infon>
+      <infon key="article-id_pmid">33476097</infon>
+      <infon key="name_0">surname:Li;given-names:Xuanwen</infon>
+      <infon key="notes"> , , , et al. . . ;:.  </infon>
+      <infon key="pub-id_doi">10.1002/btpr.3128</infon>
+      <infon key="year">2021</infon>
+      <infon key="article-id_pmc">8365702</infon>
+      <infon key="article-id_publisher-id">BTPR3128</infon>
+      <infon key="source">Biotechnol Progress</infon>
+      <infon key="article-id_doi">10.1002/btpr.3128</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol Prog;2021Jan21 3128. doi:10.1002/btpr.3128</infon>
+      <infon key="issue">3</infon>
+      <infon key="alt-title">Li et al.</infon>
+      <infon key="elocation-id">e3128</infon>
+      <infon key="volume">37</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.</infon>
+      <infon key="name_10">surname:Gao;given-names:Xinliu</infon>
+      <infon key="name_11">surname:Letarte;given-names:Simon</infon>
+      <infon key="name_12">surname:Richardson;given-names:Douglas D.</infon>
+      <infon key="kwd">hexosaminidase B host cell protein LC-MS monoclonal antibody N-glycan</infon>
+      <infon key="name_9">surname:Wang;given-names:Fengqiang</infon>
+      <infon key="name_8">surname:Jawa;given-names:Vibha</infon>
+      <infon key="name_7">surname:Sherer;given-names:Edward C.</infon>
+      <infon key="name_6">surname:Pavon;given-names:Jorge Alexander</infon>
+      <infon key="name_5">surname:Martinez-Fonts;given-names:Kirby</infon>
+      <infon key="authors">Li X, An Y, Liao J, Xiao L, Swanson M, Martinez-Fonts K, Pavon JA, Sherer EC, Jawa V, Wang F, Gao X, Letarte S, Richardson DD, </infon>
+      <infon key="name_4">surname:Swanson;given-names:Michael</infon>
+      <offset>0</offset>
+      <text>Identification and characterization of a residual host cell protein hexosaminidase B associated with N-glycan degradation during the stability study of a therapeutic recombinant monoclonal antibody product</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>208</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>217</offset>
+      <text>Host cell proteins (HCPs) are process-related impurities derived from host organisms, which need to be controlled to ensure adequate product quality and safety. In this study, product quality attributes were tracked for several monoclonal antibodies (mAbs) under the intended storage and accelerated stability conditions. One product quality attribute not expected to be stability indicating is the N-glycan heterogeneity profile. However, significant N-glycan degradation was observed for one mAb under accelerated and stressed stability conditions. The root cause for this instability was attributed to hexosaminidase B (HEXB), an enzyme known to remove terminal N-acetylglucosamine (GlcNAc). HEXB was identified by liquid chromatography-mass spectrometry (LC-MS)-based proteomics approach to be enriched in the impacted stability batches from mAb-1. Subsequently, enzymatic and targeted multiple reaction monitoring (MRM) MS assays were developed to support process and product characterization. A potential interaction between HEXB and mAb-1 was initially observed from the analysis of process intermediates by proteomics among several mAbs and later supported by computational modeling. An improved bioprocess was developed to significantly reduce HEXB levels in the final drug substance. A risk assessment was conducted by evaluating the in silico immunogenicity risk and the impact on product quality. To the best of our knowledge, HEXB is the first residual HCP reported to have impact on the glycan profile of a formulated drug product. The combination of different analytical tools, mass spectrometry, and computational modeling provides a general strategy on how to study residual HCP for biotherapeutics development.</text>
+      <annotation id="1">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:15:42Z</infon>
+        <location offset="669" length="8"/>
+        <text>N-glycan</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:15:52Z</infon>
+        <location offset="721" length="45"/>
+        <text>accelerated and stressed stability conditions</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:16:03Z</infon>
+        <location offset="822" length="16"/>
+        <text>hexosaminidase B</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:16:09Z</infon>
+        <location offset="882" length="19"/>
+        <text>N-acetylglucosamine</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:56:34Z</infon>
+        <location offset="1656" length="4"/>
+        <text>HEXB</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:56:38Z</infon>
+        <location offset="1674" length="12"/>
+        <text>residual HCP</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:56:44Z</infon>
+        <location offset="1718" length="14"/>
+        <text>glycan profile</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1964</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1977</offset>
+      <text>Host cell proteins (HCPs) are process-related impurities derived from host organisms (e.g., Chinese Hamster Ovary cell [CHO], Escherichia coli). Residual HCPs have potential adverse effects for both safety and efficacy of biologics, including induction of immunogenicity, acute toxicity, and impact on product and excipient stability. The regulatory expectations are residual HCPs have to be tested on a routine basis with a sensitive assay, and the limit of residual HCP needs to be controlled at release by methods that provide sufficient coverage. Several high-risk HCPs have been reported to impact immunogenicity and product or excipient stability. Hamster phospholipase B-like 2 (PLBL2), is a common and problematic residual HCP found in CHO-derived monoclonal antibodies (mAbs); It was found to induce immunogenicity in patients at levels as low as 0.2-0.4 ppm (parts per million), although no clinical adverse effect was detected in patients. In addition to immunogenicity concerns, lipases or enzymes with esterase like activity, like group XV lysosomal phospholipase A 2 isomer X1 (LPLA2), and lipoprotein lipase (LPL) have been reported to degrade formulation excipients such as polysorbate 80 or 20. Trace levels of other residual HCPs, such as Cathepsin d  and Cathepsin l, were reported to have impact on drug product degradation by inducing fragmentation. The impact of a residual HCP on protein modifications of biologics in real-time stability studies has not been reported before.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3489</offset>
+      <text>Glycosylation is a critical post-translational modification (PTM) in biologics that affects several relevant functions, such as pharmacokinetics, pharmacodynamics, and immunogenicity. For instance, sialic acid is present on N-linked or O-linked glycans. Both variants can extend biologics half-life, while high-mannose glycosylation is known to reduce half-life. Furthermore, in cancer immunotherapy, the absence of core fucose on some IgG1 mAbs has been shown to increase fragment crystallizable (Fc) binding affinity to its receptor, leading to enhanced antibody-dependent cellular cytotoxicity (ADCC). Likewise, nonhuman and nonmammalian glycans, such as galactose-alpha1,3-galactose (alpha-Gal) and high-mannose N-glycans, can induce immunogenicity response. Therefore, it is critical to properly control glycosylation during a biologics manufacturing process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4372</offset>
+      <text>Glycosylation profile is known to be impacted by multiple steps in biologics production, such as molecule sequence design, cell line engineering, upstream, and downstream process. For example, the N-glycan processing enzymes of the host cell line can be modified by strain engineering to alter glycosyltransferases or glycosidases levels. It has been reported that reduction of nonhuman and potentially immunogenic glycans has been achieved by elimination of alpha-1,6-fucosyltransferase activity in CHO cells by removing alpha-1,3-galactosyltransferase and CMP-Neu5Ac hydroxylase from the strain. In another example, ADCC was enhanced through the introduction of beta-1,4-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase, which prevented fucosylation and production of bisecting N-glycan. Additionally, cell culture conditions in upstream process, such as pH, temperature, CO2, and ammonium ion concentration, have been reported to have impact on glycosylation heterogeneity. In downstream process, major glycosylation isoforms may be separated according to charge variations with ion-exchanging chromatography (IEX) or based on hydrophobicity by hydrophobic interaction chromatography (HIC). The impact on glycosylation from a residual HCP during storage conditions has not been reported. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5698</offset>
+      <text>Unit operations or various purification steps of the downstream process are designed to remove the majority of HCPs. The acceptance level of HCPs in the final drug product is typically in the range of 1-100 ppm (1-100 ng/mg product) as measured by enzyme linked immunosorbent assay (ELISA). Due to assay limitation of ELISA, including antibody coverage, there may be still significant number of HCPs detected in final drug products, which can have adverse effect on product quality or patient safety. Alternative analytical assays, such as liquid chromatography-mass spectrometry (LC-MS)-based approaches, provide complementary characterization of HCPs for their composition and relative abundances. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6413</offset>
+      <text>In this study, we are reporting a residual host cell enzyme, hexosaminidase B (HEXB), as the cause of N-glycan GlcNAc degradation observed in mAb stability studies. The effect and level of HEXB in mAb-1 were tested with a beta-N-acetyl-glucosaminidase (NAG) enzymatic assay and LC-MS-based MRM assay. The potential interactions responsible for co-purification were investigated through a molecular modeling approach. Additionally, we evaluated the epitope content and similarity of the protein to difficult-to-remove HCPs to understand the clinical risk of the co-eluted HEXB. In the end, an improved process was able to reduce this HCP level and mitigate its impact on glycan profile.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>7119</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>7141</offset>
+      <text>Materials</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7151</offset>
+      <text>Dithiothreitol (DTT) and iodoacetamide (IAM) were purchased from Thermo Pierce (Rockford, IL). Tris-HCl buffer and high-performance liquid chromatography (HPLC) grade solvents, methanol, acetonitrile (ACN), formic acid (FA), were purchased from Thermo Fisher Scientific (Waltham, MA). The custom stable isotopic labeled (SIL) surrogate peptide (GILIDTSR, AQUA Ultimate grade) with 13C and 15N-labeled arginine (R*), and nonlabeled surrogate peptide were synthesized from Thermo Fisher Scientific. Sequencing grade modified trypsin was purchased from Promega (Madison, WI). Ammonium bicarbonate and urea were purchased from JT Baker (Center Valley, PA). Deep well 1-ml 96-well plate (Protein LoBind) was purchased from Eppendorf (Hauppauge, NY). Recombinant mouse HEXB protein (His Tag) was obtained from MyBioSource (San Diego, CA). Recombinant proteins alcohol dehydrogenase (ADH) from yeast, carbonic anhydrase ii (CA2) from Bos Taurus, myoglobin (MB) from equine heart, phosphorylase-b (PYGM) from rabbit muscle and enolase (ENL) from baker's yeast, and enzyme activity assay kit for beta-N-acetyl-glucosaminidase (NAG) were purchased from Sigma (St. Louis, MO). Recombinant NAG enzyme was from New England Biolabs (Beverly, MA). Instant PC kit was from (Agilent, formerly ProZyme, Palo Alto, CA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8468</offset>
+      <text>General methodology and sampling procedure</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8511</offset>
+      <text>The mAbs are from the pipeline of Merck &amp; Co., Inc. (Kenilworth, NJ). A list of antibodies (mAb-1, mAb-2, mAb-3, and mAb-4) are distinct monoclonal antibodies against different therapeutics targets. Both mAb-1 and mAb-2 are from the same CHO cell line, and mAb-3 and mAb-4 are from another CHO cell line. All four mAbs were purified with a platform-based downstream process, which started with collecting harvested cell culture fluid (HCCF) to obtain Protein A affinity chromatography-purified product (PAP). The filtered neutralized viral inactivation product (FNVIP) was polished with a second column to further remove HCPs. This platform downstream process was named Process 1. An improved process (Process 2) was implemented for mAb-1 by adding a third purification column.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9311</offset>
+      <text>All four mAbs were staged under real-time (5 C), accelerated (25 C) and stress (40 C) stability conditions to understand the degradation pathway, stability trends and support the shelf life of the clinical materials.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9533</offset>
+      <text>N-glycan quantification sssay</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9565</offset>
+      <text>The N-linked glycan was released from mAbs by N-Glycanase provided in the InstantPC kit, 96-ct and subsequently labeled with the dye InstantPC (iPC) and finally purified with a cleanup column. N-glycan was analyzed by HILIC-UPLC with AdvanceBio Glycan column (2.1 x 150 mm, 1.8 mum, Agilent). The Mobile phase A was ACN and Mobile phase B was 100 mM ammonium formate (pH 4.5). The gradient started with 23%B and increased to 40%B at 12 min with a flow rate of 0.75 ml/min. Mobile phase B was increased to 60% at 12.15 min and held for 0.15 min at 60% with a flow rate of 0.375 ml/min. The gradient was decreased to 23%B at 12.4 min with a flow rate of 0.75 ml/min, which was held for 2.6 min before the next injection. The column was maintained at 60 C, and the released N-glycans were detected by Fluorescence detector with Ex 285 nm/Em 345 nm.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10453</offset>
+      <text>Total HCP by ELISA </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10473</offset>
+      <text>Total HCP content in mAb-1 drug substance (DS) from Process 1 was measured by a CHO HCP ELISA kit, 3G (Cygnus Technologies, Southport, NC) according to an internal method procedure adapted from the assay protocol included in the product insert. The DS is diluted to contain approximately 0.5 mg/ml of mAb-1 product using the commercially available Sample Diluent from Cygnus Technologies. Anti-CHO-HRP (100 mul/well), along with, diluted samples, assay standards and controls, 50 mul/well, were added into the corresponding wells of microtiter well-strips precoated with affinity-purified anti-HCP capture antibody and incubated for 2 hr to allow the formation of a sandwich complex of solid phase antibody-HCP-enzyme labeled antibody. After incubation,, the strips were washed to remove any unbound reactants and the substrate, tetramethyl benzidine (TMB), was added and incubated for 30 min at room temperature. The reaction was then terminated by adding 100 mul of Stop Solution provided in the kit and the absorbance at 450/650 nm was read on a Molecular Devices SpectraMax M5 plate reader using SoftMax Pro software. The amount of hydrolyzed substrate was directly proportional to the concentration of HCP present as detected by the 450/650 nm absorbance and the amount of residual HCP was calibrated using a standard curve with four-parameter logistic fit (4PL).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11876</offset>
+      <text>HCP identification and relative quantification by proteomics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11937</offset>
+      <text>Residual HCPs in process intermediates and drug substance of several mAbs were identified by LC-MS-based proteomics approach using limited enzyme digestion for HCP enrichment. Briefly, 1 mg of protein was mixed with 10 mul of Tris-HCl (1 M, pH 8), 2.5 mug of trypsin, 10 mul of stocking protein mixture and LC-MS grade water to a total of 200 mul. The 100xstocking protein mixture used for system suitability testing and relative quantification was made by mixing five non-CHO recombinant proteins. The final working concentration of each standard protein compared to DS is 200 ppm for ADH, 100 ppm for CA2, 50 ppm for MB, 25 ppm for PYGM, and 10 ppm for ENL. Proteins were digested at 37 C overnight and reduced with 2 muL of 50 mg/mL DTT at 80 C for 10 min. A large portion of undigested proteins was removed by centrifugation at 11,000g for 10 min at room temperature. The collected supernatant was mixed with 3 muL of 20% FA before LC-MS analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12927</offset>
+      <text>LC-MS-based proteomics analysis was run on an ACQUITY UPLC H-Class system (Waters, Milford, MA) coupled with Q Exactive  HF-X Hybrid Quadrupole-Orbitrap  mass spectrometry (Thermo, San Jose, CA). The column was ACQUITY UPLC Peptide CSH C18 column (130 A, 1.7 mum, 1 x 150 mm; Waters) with flow rate at 50 mul/min and column temperature at 50 C. Mobile phase A was LC-MS grade water with 0.1% FA, and Mobile phase B was LC-MS grade ACN with 0.1% FA. The gradient started with 1%B for 5 min, and increased to 5% at 6 min, and changed to 26% at 85 min. The column was washed with 90%B from 90 min to 105 min, followed by 2 cycles of zig-zag washing step from 5% B to 90% B to reduce carry-over peptides. The MS data were acquired in data-dependent analysis (DDA) mode with MS1 scan range from 300 to 1800 m/z and top 20 for MS/MS fragmentation. The MS1 resolution was 60,000, AGC target 1e6, and maximum IT for 60 ms. The MS2 resolution was 15,000, AGC target 1e5, and maximum IT for 100 ms, isolation window at 1.4 m/z and NCE at 27. The dynamic exclusion was set for 20 s. The ESI source was run with sheath gas flow rate at 35, aux gas flow rate at 10, spray voltage at 3.8 kV, capillary temperature at 275 C, Funnel RF level at 35 and aux gas heater temperature at 100 C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14259</offset>
+      <text>MS raw data were searched again the internal CHO FASTA database from Merck &amp; Co., Inc. (Kenilworth, NJ)customized with mAb and the five recombinant protein sequences using Proteome Discoverer 2.2 (Thermo). The precursor mass tolerance was set at 15 ppm and fragment mass tolerance at 0.02 Da. The dynamic modification was set for M oxidation and maximum three modification. The target FDR for peptide identification was 0.01 and protein identification filter required at least two unique peptide identification. The MS1 peak area from all identified peptides was used for the estimation of protein relative abundance.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14881</offset>
+      <text>NAG enzymatic activity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14904</offset>
+      <text>NAG activity was calculated by the hydrolysis of NAG substrate 4-nitrophenyl N-acetyl-beta-d-glucosaminide (NP-GlcNAc) according to the protocol supplied with the kit. Briefly, 10 mg of NP-GlcNAc was dissolved and mixed in 10 ml of 0.09 M citrate buffer solution to make the reaction buffer. Various mAbs or the same mAb with different concentrations were mixed with reaction buffer and incubated at 37 C for 30 min. The reaction was stopped by adding stop solution supplied in the kit and detected colorimetrically at 405 nm. NAG enzyme from Canavalia ensiformis (Jack bean) supplied in the kit was used as a control to calculate the absolute enzyme activity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15586</offset>
+      <text>NAG enzyme incubation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15608</offset>
+      <text>Various concentrations of recombinant NAG enzyme (5, 10, 20, and 40 U/ml) from Streptococcus pneumoniae were incubated with mAb-1 from Process 2 or mAb-2 at 37 C for 1 hr. After the reaction, the glycan profiles on mAb-1 and mAb-2 were measured by the Instant PC glycan assay mentioned above.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15913</offset>
+      <text>Absolute quantification of HEXB by LC-MRM approach</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15966</offset>
+      <text>Process intermediate samples for mAb-1 were tested by MRM using the same approach for lipase quantification. The total protein concentrations of all the samples were determined by measuring the absorbance at 280 nm using a UV-Vis spectrometer. Samples were all diluted to 5 mg/ml with PBS buffer before sample preparation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16296</offset>
+      <text>A standard curve was made using mAb-2 without detectable HEXB as a matrix for quantification. The mAb was diluted to 5 mg/ml with PBS buffer (pH 7.4) and spikes of various amounts were used to build the standard curve. A stock solution containing HEXB was spiked into the matrix at 1.00, 2.00, 4.00, 10.0, 40.0, 100, 200, 500, and 800 ng/mg of DS (ppm) for the standard curve. Briefly, 30 mul aliquots of each sample including standards and matrix blank samples were added to a 1-ml 96-well polypropylene plate. A 50 mul aliquot of freshly prepared denaturation and reduction solution (10 M urea and 8 mM DTT in 50 mM ammonium bicarbonate solution), was added to each well, mixed by vortex, and incubated for 1 hr at 37 C in a Thermo-Mixer (Eppendorf, Hamburg, Germany) at 500 rpm. A 10 mul aliquot of 135 mM IAM was added to each well, mixed by vortex, and incubated for 1 hr at room temperature in dark. Freshly prepared trypsin digestion buffer (300 mul at 33 mug/ml) was then added to each well and incubated for 13 h at 37 C. Following trypsin digestion, a 20 mul aliquot of SIL peptide solution (10 nM) as internal standard (IS) was added and a 10 mul aliquot of 50% FA in water was added to each well to quench the digestion.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17569</offset>
+      <text>The quantitative analysis was performed on an UPLC-MS/MS instrument which consisted of a Waters H-class UPLC system and a Waters TQS mass spectrometer (Waters). Aliquots of digestion samples (10 mul) were injected into an Acquity UPLC BEH C18 column (1.7 mum, 2.1 x  50 mm; Waters) held at 40 C. Mobile phase A was water with 0.1% FA and Mobile phase B was ACN with 0.1% FA. The following gradients were applied at a flow rate of 300 mul/min for a total run time of 9 min: an initial isocratic flow of 5% B for 1 min was followed by a linear gradient from 5% B to 35% B in 3 min, a wash step at 95% B for 1.8 min each, and then equilibration with 5% B for 1.8 min to starting conditions to prepare the column for the next injection. Electrospray ionization (ESI) source parameters were set at 2.5 kV for capillary voltage, 35 V for cone voltage, 50 V for source offset, 500 C for desolvation temperature, 850 L/h for desolvation gas flow, 150 L/h for cone gas flow, and 0.2 ml/min for collision gas flow. Data were collected and processed using MassLynx and TargetLynx software (version 4.1). Calibration curve regression and study samples were performed on TargetLynx (version 4.1). The calibration curves (analyte peak area/IS peak area versus analyte concentration) were constructed using linear regression fit (y = ax + b), and a weighting factor of 1/x2 was applied to the regression.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>18994</offset>
+      <text>Homology models of HEXB and antibody Fab domains and HEXB/antibody complex</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19069</offset>
+      <text>The homology model of HEXB from CHO cells was constructed using the X-ray structure of human HEXB (PDB id: 1NOU.pdb) as the template. Molecular Operating Environment (MOE) software from CCG (Chemical Computing Group ULC, Montreal, QC, Canada, 2019) was used for model building.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19349</offset>
+      <text>Homology models of Fab domain of antibodies were built using Antibody Modeler of MOE, where the templates were selected with the X-ray structures of the most homologous antibodies from a collection of several thousand well-curated antibody structures in the PDB, including framework and CDR loops. Sequence alignment and model building followed the procedures outlined by MOE Antibody Modeler.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19747</offset>
+      <text>The MOE protein-protein docking program was utilized to generate proposed structural models of the HEXB/antibody complexes. While exploring possible binding interfaces between the antibody and HEXB, the binding surfaces of the antibody were restrained to the antibody CDRs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20023</offset>
+      <text>Binding energy and buried surface area</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20062</offset>
+      <text>Complex structures of HEXB/antibody were prepared for MMGBSA binding energy calculations using Maestro (Schrodinger 2020-2 release, 23, Schrodinger, LLC, New York, NY, 2020). The atomic coordinates of each model were imported and refined using the Protein Preparation Wizard with default parameters and settings. The protonation states were determined and set for all titratable residues at pH 7.0. Next, a restrained MacroModel energy minimization of all atoms was performed prior to Prime all atom minimization. Finally, Prime MMGBSA binding free energy was computed for each minimized model. The buried surface area upon binding of each complex was computed using Maestro.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20743</offset>
+      <text>In Silico immunogenicity evaluation of HEXB in patients</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20799</offset>
+      <text>The foreign epitope content associated with HEXB and other HCPs was analyzed using the EpiVax's ISPRI-HCP program. The output was in the form of an EpiMatrix score, which is based on the number of epitopes, their predicted binding affinity for prevalent HLA-DR alleles, and the size of the protein. Predicted binding affinity is based on a Z-score calculation which is a measure of a 9-mer peptide's predicted binding to an HLA-DR allele pocket. The top 5% binders have a Z-score &gt;= 1.64. Epitopes were compared to a corresponding human homolog sequence to determine whether the epitopes were present in humans or unique to the CHO cells. Identified epitopes with binding potential were further analyzed for their predicted T-cell receptor (TCR) facing residues. TCR facing residues were analyzed for conservation with human proteins in the JanusMatrix tool from EpiVax. A lower JanusMatrix score indicates lack of cross-reactive epitopes and a higher risk of immunogenicity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>21796</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>21804</offset>
+      <text>N-glycan degradation of mAb1 in a stability study</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21856</offset>
+      <text>N-glycan degradation was observed for an IgG1 molecule, mAb-1 during a real-time stability study at selected time points and temperatures (25 C and 40 C). Significant removal of GlcNAc in G0F and G1F and increase of G0F-GlcNAc and Core F was observed after 6 months of storage at 40 C by an Instant PC glycan assay (Figure 1). There was minor change at 6 months and 25 C, and no significant change of N-glycan profile was observed up to 12 months and 5 C (Tables S1 and S2). The glycan profile change was also detected by intact mass analysis by LC-MS (data not shown). In contrast, there was no major change of N-glycan in the stability study of mAb-2, mAb-3, and mAb-4 (Table S3). The N-glycan profile of mAb-1 remained unchanged following force degradation conditions including pH and light stress (data not shown), suggesting this N-glycan stability is likely not related to chemical stress. Therefore, it was proposed that residual HCP was responsible for the change in N-glycan profile in mAb-1. The process development of mAb-1 was improved by incorporating a second polishing column (Process 2) to further remove HCPs. Following the process change, no change in the N-glycan profile was observed (Table S3).</text>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:08Z</infon>
+        <location offset="21856" length="8"/>
+        <text>N-glycan</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:11Z</infon>
+        <location offset="21981" length="12"/>
+        <text>temperatures</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:15Z</infon>
+        <location offset="22034" length="6"/>
+        <text>GlcNAc</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:31Z</infon>
+        <location offset="22044" length="11"/>
+        <text>G0F and G1F</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:38Z</infon>
+        <location offset="22072" length="21"/>
+        <text>G0F-GlcNAc and Core F</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:48Z</infon>
+        <location offset="22113" length="27"/>
+        <text>6 months of storage at 40 C</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:58:56Z</infon>
+        <location offset="22209" length="17"/>
+        <text>6 months and 25 C</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:59:02Z</infon>
+        <location offset="22257" length="16"/>
+        <text>N-glycan profile</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T11:59:08Z</infon>
+        <location offset="22293" length="17"/>
+        <text>12 months and 5 C</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:00:24Z</infon>
+        <location offset="22468" length="8"/>
+        <text>N-glycan</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:00:20Z</infon>
+        <location offset="22503" length="23"/>
+        <text>mAb-2, mAb-3, and mAb-4</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:00:59Z</infon>
+        <location offset="22543" length="16"/>
+        <text>N-glycan profile</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Multi_effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:01:07Z</infon>
+        <location offset="22637" length="19"/>
+        <text>pH and light stress</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:01:40Z</infon>
+        <location offset="22977" length="4"/>
+        <text>HCPs</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:01:45Z</infon>
+        <location offset="23030" length="16"/>
+        <text>N-glycan profile</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3128-g005.jpg</infon>
+      <infon key="id">btpr3128-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>23119</offset>
+      <text>The change of N-glycan profile of mAb 1 from Process 1 during a stability study. The N-linked glycan was released using the InstantPC kit, and detected by HILIC-UPLC with a fluorescence detector. (a) The N-glycan trace of mAb1 between time 0 and 6 months at 40 C were presented. The red trace is the integration baseline. (b) The quantitative N-glycan of mAb1 for the intial condition (40 C-T0), after 3 month at 40 C (40 C-3 M) and 6 months at 40 C (40 C-6 M)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23607</offset>
+      <text>Identification and relative quantification of hexosaminidase B for N-glycan change</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23692</offset>
+      <text>The total immunoreactive HCP equivalents for mAb1 DS from Process 1 by a CHO ELISA kit ranged from 18 to 29 ppm (immunoequivalent ng of HCP/mg of mAb DS, n = 3). To identify which residual HCPs were the root cause for N-glycan GlcNAc removal, mAb-1 DS from Process 1 was analyzed by an LC-MS-based proteomics approach. HEXB was the only glycosidase identified, with 24 unique peptides (p &lt; .01) and sequence coverage at 47.9% (Figure 2). To determine the relative abundance of HEXB by proteomics, five non-CHO recombinant proteins ranging from 10 ppm to 200 ppm were spiked in each sample to make the standard curves. The correlations (R 2) of the MS1 peak areas and the amount of the five spike-in proteins are over 0.95 (Figure 3). Relative quantification of HEXB calculated from the standard curve was determined to be 658 ppm (ng of HEXB/mg of mAb-1 DS) from two biological replicates (Table 1). This residual HCP was not identified in the drug substances of mAb-2, mAb-3, and mAb-4. After process optimization to remove HCPs in mAb-1 from Process 2, HEXB was identified by proteomics, but coverage was reduced to only six unique peptides identified. The relative quantification from proteomics analysis was calculated as 16 ppm from the standard curve (Table 1).</text>
+      <annotation id="23">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:02:15Z</infon>
+        <location offset="23881" length="4"/>
+        <text>HCPs</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:02:19Z</infon>
+        <location offset="23910" length="15"/>
+        <text>N-glycan GlcNAc</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3128-g006.jpg</infon>
+      <infon key="id">btpr3128-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25002</offset>
+      <text>Hexosaminidase B (HEXB) identification by liquid chromatography-mass spectrometry (LC-MS)-based proteomics approach. The amino acid of identified peptides by MS are in bold</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3128-g004.jpg</infon>
+      <infon key="id">btpr3128-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25181</offset>
+      <text>Standard curves for host cell protein (HCP) quantification from liquid chromatography-mass spectrometry (LC-MS)-based proteomics study. Five non-CHO recombinant proteins ranging from 10 to 200 ppm were spiked in mAb-1 from Process 1 and Process 2 before digestion. The extracted MS1 peak area of all identified peptides for each protein was plotted with the spike-in amount in ppm</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0001.xml</infon>
+      <infon key="id">btpr3128-tbl-0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>25576</offset>
+      <text>The relative quantification of HEXB in mAb-1 by LC-MS- based proteomics approach</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1"/&gt;&lt;th style="border-bottom:solid 1px #000000" align="left" colspan="2" valign="bottom" rowspan="1"&gt;Process 1&lt;/th&gt;&lt;th style="border-bottom:solid 1px #000000" align="left" colspan="4" valign="bottom" rowspan="1"&gt;Process 2&lt;/th&gt;&lt;/tr&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"/&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Replicate 1&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Replicate 2&lt;/th&gt;&lt;th style="border-bottom:solid 1px #000000" align="left" valign="bottom" rowspan="1" colspan="1"&gt;Average&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Replicate 1&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Replicate 2&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Average&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Total MS1 Peak Area&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;1.10E+10&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;3.73E+09&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;7.35E+09&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;7.38E+07&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;2.85E+07&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;5.12E+07&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Relative abundance (ppm)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;565&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;752&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;658&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;20&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;11&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;16&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3128-tbl-0001</infon>
+      <infon key="type">table</infon>
+      <offset>25663</offset>
+      <text> Process 1 Process 2    Replicate 1 Replicate 2 Average Replicate 1 Replicate 2 Average   Total MS1 Peak Area 1.10E+10 3.73E+09 7.35E+09 7.38E+07 2.85E+07 5.12E+07   Relative abundance (ppm) 565 752 658 20 11 16   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0001.xml</infon>
+      <infon key="id">btpr3128-tbl-0001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>25878</offset>
+      <text>Abbreviations: HEXB, hexosaminidase B; LC-MS, liquid chromatography-mass spectrometry.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>25969</offset>
+      <text>NAG enzyme activity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25989</offset>
+      <text>Hexosaminidase (EC 3.2.1.52), also called N-acetyl-beta-d-glucosaminidase (NAG) in other species, have been reported to catalyze the hydrolysis of terminal GlcNAc residues from a variety of substrates. To determine the role of HEXB in mAb-1 glycan change, an enzyme activity assay was developed to calculate HEXB activity on GlcNAc hydrolysis in mAb-1 from Process-1 and Process-2 using NP-GlcNAc as the substrates. As shown in Figure 4, NAG hydrolysis activity is highly correlated with mAb-1 concentrations from both processes. mAb1 from Process 1 has much higher NAG activity than that from Process 2. As expected in Table 2, mAb-1 from Process-1 had the highest NAG activity among the four mAbs. mAb-1 from Process 2 showed more than 20-fold decrease in NAG activity. The decrease in NAG enzyme activity is consistent with the decreases in HEXB concentration in Process 2. NAG enzyme activities in mAb2, mAb3, and mAb4 are extremely low as expected from their below limit of identification of HEXB by proteomics.</text>
+      <annotation id="25">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:03:26Z</infon>
+        <location offset="25989" length="14"/>
+        <text>Hexosaminidase</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:03:29Z</infon>
+        <location offset="26031" length="31"/>
+        <text>N-acetyl-beta-d-glucosaminidase</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:03:35Z</infon>
+        <location offset="26145" length="6"/>
+        <text>GlcNAc</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3128-g002.jpg</infon>
+      <infon key="id">btpr3128-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>27035</offset>
+      <text>Enzymatic assay to calculate NAG enzyme Activity in mAb-1 from Process 1 and Process 2. Various amount of mAb-1 from Process 1 and Process 2 were incubated with NAG substrate NP-GlcNAc at 37  C for 30 min. This enzymatic activity was calculated based on measuring colorimetrically at 405 nm (n = 3)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0002.xml</infon>
+      <infon key="id">btpr3128-tbl-0002</infon>
+      <infon key="type">table_caption</infon>
+      <offset>27349</offset>
+      <text>NAG activity and relative quantification of HEXB by proteomics approach among four mAbs</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0002.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;DS&lt;xref rid="btpr3128-note-0003" ref-type="table-fn"&gt;&lt;sup&gt;a&lt;/sup&gt;&lt;/xref&gt; &lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Activity (unit&lt;xref rid="btpr3128-note-0004" ref-type="table-fn"&gt;&lt;sup&gt;b&lt;/sup&gt;&lt;/xref&gt;/ml)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;HEXB (ppm)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;mAb-1 Process 1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;1.556&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;658&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;mAb-1 Process 2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;0.068&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;16&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;mAb-2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;0.003&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;mAb-3&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;0.004&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;mAb-4&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;0.009&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3128-tbl-0002</infon>
+      <infon key="type">table</infon>
+      <offset>27437</offset>
+      <text>DSa Activity (unitb/ml) HEXB (ppm)   mAb-1 Process 1 1.556 658   mAb-1 Process 2 0.068 16   mAb-2 0.003 ND   mAb-3 0.004 ND   mAb-4 0.009 ND   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0002.xml</infon>
+      <infon key="id">btpr3128-tbl-0002</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>27591</offset>
+      <text>Abbreviations: HEXB, hexosaminidase B; ND, not identified.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0002.xml</infon>
+      <infon key="id">btpr3128-tbl-0002</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>27650</offset>
+      <text>mAb-1, mAb-2, mAb-3, and mAb-4 are distinct monoclonal antibodies against different therapeutics targets.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0002.xml</infon>
+      <infon key="id">btpr3128-tbl-0002</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>27764</offset>
+      <text>Unit: 1 unit will hydrolyze 1 mumole of NP-GlcNAc per 1 min at pH 4.7 at 37 C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>27848</offset>
+      <text>Confirmation of NAG like activity as the root cause for GlcNAc removal in mAbs </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27928</offset>
+      <text>Due to the lack of high-quality recombinant CHO HEXB protein, a NAG enzyme with the same specificity as HEXB was used to confirm NAG enzyme activity as the root cause of N-glycan GlcNAc removal. Different concentrations of NAG were spiked in mAb-1 from Process 2 and in mAb-3. As shown in Figure 5a,b, the GlcNAc removal on mAbs can be replicated by adding NAG enzyme measured by the Instant PC N-glycan assay. Incubate of NAG at 40 C as short as 1 hr resulted in concentration-dependent decrease of G0F and increase of G0F-GlcNAc and CoreF, consistent with terminal GlcNAc removal from both mAbs.</text>
+      <annotation id="28">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:09:13Z</infon>
+        <location offset="27992" length="10"/>
+        <text>NAG enzyme</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:09:14Z</infon>
+        <location offset="28032" length="4"/>
+        <text>HEXB</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:09:19Z</infon>
+        <location offset="28098" length="15"/>
+        <text>N-glycan GlcNAc</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:14:43Z</infon>
+        <location offset="28234" length="6"/>
+        <text>GlcNAc</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:14:47Z</infon>
+        <location offset="28285" length="10"/>
+        <text>NAG enzyme</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:15:06Z</infon>
+        <location offset="28351" length="3"/>
+        <text>NAG</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:14:53Z</infon>
+        <location offset="28428" length="3"/>
+        <text>G0F</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:15:01Z</infon>
+        <location offset="28448" length="20"/>
+        <text>G0F-GlcNAc and CoreF</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3128-g003.jpg</infon>
+      <infon key="id">btpr3128-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28543</offset>
+      <text>NAG incubation with mAb-1 from Process 2 or mAb-3. The NAG incubation with various concentrations from 5 U/mL to 40 U/mL was performed at 40 C for 1 h. N-glycan profile was measured by an Instant PC method. % of peak area is calculated. U: unit, 1 unit will hydrolyze 1 mumole of NP-GlcNAc per 1 min at pH 4.7 at 37  C</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>28881</offset>
+      <text>Absolute quantification of HEXB by LC-MRM approach</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28934</offset>
+      <text>To help increase process understanding around the clearance of HEXB in mAb-1, an isotope dilution LC-MRM-based method was developed to measure the absolute level of HEXB in process intermediates from Process 1 and Process 2. As shown in Table 3, HEXB is decreased along with the purification steps. HEXB levels in the final DS of Process 1 and Process 2 were determined to be 214.9 ppm and 3.8 ppm, respectively. The abundance change is consistent with the relative quantification from the proteomics analysis and the enzymatic activity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0003.xml</infon>
+      <infon key="id">btpr3128-tbl-0003</infon>
+      <infon key="type">table_caption</infon>
+      <offset>29481</offset>
+      <text>HEXB quantification (ppm) in mAb-1 determined by LC-MS-based MRM approach</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0003.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Sample&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;ppm&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;HCCF&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;794.4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;PAP&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;255.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;FNVIP&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;53.6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Polishing column 1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;17.4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Polishing column 2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;0.4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;DS1 (Process 2)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;3.8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;DS2 (Process 2)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;3.8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;DS1 (Process 1)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;214.9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;DS2 (Process 1)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;219.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;DS3 (Process 1)&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;213.9&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3128-tbl-0003</infon>
+      <infon key="type">table</infon>
+      <offset>29561</offset>
+      <text>Sample ppm   HCCF 794.4   PAP 255.1   FNVIP 53.6   Polishing column 1 17.4   Polishing column 2 0.4   DS1 (Process 2) 3.8   DS2 (Process 2) 3.8   DS1 (Process 1) 214.9   DS2 (Process 1) 219.7   DS3 (Process 1) 213.9   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0003.xml</infon>
+      <infon key="id">btpr3128-tbl-0003</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>29780</offset>
+      <text>Abbreviations: DS: drug substance; FNVIP: filtered neutralized viral inactivation product; HEXB, hexosaminidase B; HCCF: harvested cell culture fluid; PAP: Protein A affinity chromatography-purified product.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>29990</offset>
+      <text>HEXB abundances in process intermediates from mAbs </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30042</offset>
+      <text>To gain additional understanding as to why HEXB was specifically observed in mAb-1 as a residual HCP, but not in mAb-2, mAb-3 and mAb-4, process intermediates from those 4 mAbs were tested by a proteomics approach. Based on proteomics data from the 4 mAbs (Table 4) and other mAb molecules in the pipeline (data not shown), there are no major differences of HEXB levels in the harvest cell culture fluid (HCCF) for mAbs from different cell lines. Surprisingly, the HEXB level was significantly higher in the Pro-A product (PAP) from mAb-1 compared to other mAbs. HEXB was not identified in mAb-2 and mAb-4 in PAP, and only a very low level of HEXB was identified from mAb-3 in PAP. As observed earlier in the proteomics analysis, HEXB was only identified in the mAb-1 DS, but not in other mAb DS lots.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0004.xml</infon>
+      <infon key="id">btpr3128-tbl-0004</infon>
+      <infon key="type">table_caption</infon>
+      <offset>30865</offset>
+      <text>Potential interaction between mAb-1 and HEXB during purification revealed from proteomics analysis compared to mAb-2, -3, and -4. The MS1 peak area from all identified peptides was used for the estimation of protein relative abundance across purification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0004.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Molecule&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;mAb-1&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;mAb-2&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;mAb-3&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;mAb-4&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;IgG isotype&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;IgG1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;IgG1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;IgG4&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;IgG4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Cell line&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;HCCF&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;4.85E+08&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;NT&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;1.56E+08&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;NT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;PAP&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;7.34E+09&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;9.75E+06&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;DS&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;1.53E+07&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;ND&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3128-tbl-0004</infon>
+      <infon key="type">table</infon>
+      <offset>31130</offset>
+      <text>Molecule mAb-1 mAb-2 mAb-3 mAb-4   IgG isotype IgG1 IgG1 IgG4 IgG4   Cell line 1 1 2 2   HCCF 4.85E+08 NT 1.56E+08 NT   PAP 7.34E+09 ND 9.75E+06 ND   DS 1.53E+07 ND ND ND   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0004.xml</infon>
+      <infon key="id">btpr3128-tbl-0004</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>31312</offset>
+      <text>Abbreviations: NT: not tested; ND: not detected.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>31361</offset>
+      <text>Modeling of HEXB interaction with mAbs </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31401</offset>
+      <text>To investigate the potential interactions of HEXB with mAb-1, computational modeling was conducted to understand the possible interactions at a molecular level. First, the homology model of HEXB from CHO cell was constructed using the human HEXB X-ray structure as the template. The two proteins are highly homologous with a sequence identity of 73%. Multiple complex structures generated using MOE protein-protein docking with the homology models of HEXB and antibody Fab domain were ranked using the MOE docking score and clustered based on potential epitopes on HEXB. Since the binding interface was restrained to antibody CDRs, the docking poses display interactions mostly from residues in CDRs. The proposed complex structure of HEXB/mAb-1 was selected among different docking poses based on top docking score. This complex model (Figure 6a) suggests that the binding epitope of HEXB for mAb-1 encompasses domain II, near the single disulfide bond in domain II. Furthermore, the epitope is away from the HEXB dimer interface to allow HEXB dimer formation, a necessary determinant of its enzymatic activity. The binding models of HEXB with the other three antibodies, mAb-2, mAb-3, and mAb-4 are shown in Figure 6b-d, where the binding interfaces occupy a similar region on HEXB as in mAb-1.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-37-e3128-g001.jpg</infon>
+      <infon key="id">btpr3128-fig-0006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>32720</offset>
+      <text>Complex structural models and binding affinity of hexosaminidase B (HEXB) bound antibody Fab domains. The complex structures were generated using MOE protein-protein docking with the homology models of HEXB from human and antibody Fab domains based on molecular operating environment (MOE) docking score. While an ensemble of possible interacting pairs is generated by this workflow, only the best scoring model is shown for each pair. mAb-1 (a), mAb-2 (b), mAb-3 (c) and mAb-4 (d) are distinct monoclonal antibodies against different therapeutics targets. The binding affinities from the molecular mechanics, generalized Born model and solvent accessibility (MMGBSA) energy and surface area calculations are shown in e</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33450</offset>
+      <text>Next, the molecular mechanics, generalized Born model and solvent accessibility (MMGBSA) approach method was applied to compute the binding free energy between HEXB and antibodies and to rank the relative binding affinity of all four antibodies. As shown in Figure 6e, these interaction energy estimates indicate mAb-1 has the lowest binding free energy to HEXB compared to other antibodies, implicating tighter binding of mAb-1 toward HEXB. This is consistent with proteomics observations that HEXB was only detected in mAb-1 DS and causes degradation of N-glycans on mAb-1. Consistent with binding energy, a larger buried surface area is calculated for the HEXB/mAb-1 interface compared to other mAbs, which supports stronger interactions between HEXB and mAb-1.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>34230</offset>
+      <text>Risk assessment of HEXB in mAb1 on immunogenicity and product quality</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34300</offset>
+      <text>To understand the potential immunogenicity risk of HEXB, an in silico analysis of the risk posed by the HEXB protein was performed using EpiVax's ISPRI-HCP algorithm. This algorithm predicts the binding of HCP-derived peptides to human MHC class II. If HCP-derived peptides are bound by human MHC class II and are recognized by CD4+ T cells under the right conditions, then the CD4+ T cells can provide helper signals to B-cells that recognize the HCP and promote an antibody response. The relative risk of HEXB was compared to other known HCPs commonly co-purified with mAbs. As shown in Table 5, the EpiMatrix score of HEXB was lower than CXCL3, PLBL2, and HtrA serine peptidase 1. The number of EpiMatrix hits, or 9-mers with a predicted Z-score &gt;= 1.64 that were unique to the CHO protein, and cross-conserved with a human homolog were compared. The HEXB sequence was associated with a higher number of unique hits than PLBL2, a known immunogenic protein, suggesting that it could pose an immunogenicity risk.</text>
+      <annotation id="36">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:37:07Z</infon>
+        <location offset="34328" length="14"/>
+        <text>immunogenicity</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:37:10Z</infon>
+        <location offset="34351" length="4"/>
+        <text>HEXB</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0005.xml</infon>
+      <infon key="id">btpr3128-tbl-0005</infon>
+      <infon key="type">table_caption</infon>
+      <offset>35336</offset>
+      <text>In silico analysis of immunogenicity risk of HEXB using EpiVax's ISPRI-HCP algorithm</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0005.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" char="." span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;col align="left" char="." span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;ENSEMBL Access ID&lt;/th&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;Protein&lt;/th&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;Epimatrix score&lt;/th&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;CHO-unique Epimatrix hits&lt;/th&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;Cross-conserved with human Epimatrix hits&lt;/th&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;JanusMatrix score&lt;/th&gt;&lt;th align="left" style="border-right:solid 1px #000000" valign="bottom" rowspan="1" colspan="1"&gt;Human Homolog Uniprot ID&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001021113.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Phospholipase B-Like 2&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;32.89&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;29&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;84&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;2.05&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Q8NHP8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001022154.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;HtrA serine peptidase 1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;12.24&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;4&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;79&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;7.15&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Q92743&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001020462.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Peroxiredoxin-1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;-47.75&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;5&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;21&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;1.89&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Q06830&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001021481.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Hexosaminidase B&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;9.97&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;38&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;60&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;4.19&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;P07686&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001013669.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;CXCL3&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;91.65&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;3&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;19&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;59.84&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;P19875&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001023679.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Clusterin&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;-3.55&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;15&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;47&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;3.81&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;P10909&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001005252.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Glyceraldehyde-3-phosphate dehydrogenase&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;-32.3&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;5&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;53&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;1.9&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;P04406&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001012335.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;78 kDa glucose-regulated protein (BiP)&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;-48.41&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;4&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;89&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;3.01&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;P11021&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;ENSCGRP00001000517.1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;Elongation factor 1-alpha 1&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;-53.01&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;0&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;63&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="char" valign="top" rowspan="1" colspan="1"&gt;3.41&lt;/td&gt;&lt;td style="border-right:solid 1px #000000" align="left" valign="top" rowspan="1" colspan="1"&gt;P68104&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3128-tbl-0005</infon>
+      <infon key="type">table</infon>
+      <offset>35423</offset>
+      <text>ENSEMBL Access ID Protein Epimatrix score CHO-unique Epimatrix hits Cross-conserved with human Epimatrix hits JanusMatrix score Human Homolog Uniprot ID   ENSCGRP00001021113.1 Phospholipase B-Like 2 32.89 29 84 2.05 Q8NHP8   ENSCGRP00001022154.1 HtrA serine peptidase 1 12.24 4 79 7.15 Q92743   ENSCGRP00001020462.1 Peroxiredoxin-1 -47.75 5 21 1.89 Q06830   ENSCGRP00001021481.1 Hexosaminidase B 9.97 38 60 4.19 P07686   ENSCGRP00001013669.1 CXCL3 91.65 3 19 59.84 P19875   ENSCGRP00001023679.1 Clusterin -3.55 15 47 3.81 P10909   ENSCGRP00001005252.1 Glyceraldehyde-3-phosphate dehydrogenase -32.3 5 53 1.9 P04406   ENSCGRP00001012335.1 78 kDa glucose-regulated protein (BiP) -48.41 4 89 3.01 P11021   ENSCGRP00001000517.1 Elongation factor 1-alpha 1 -53.01 0 63 3.41 P68104   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0005.xml</infon>
+      <infon key="id">btpr3128-tbl-0005</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>36228</offset>
+      <text>Note:ISPRI-HCP is a online work environment from EpiVax. Some common problematic HCPs were served as controls. The EpiMatrix and JanusMatrix score, CHO unique and cross-conserved with human were compared. HCPs with higher EpiMatrix score and lower JanusMatrix score generally indicate a higher risk of immunogenicity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3128-tbl-0005.xml</infon>
+      <infon key="id">btpr3128-tbl-0005</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>36550</offset>
+      <text>Abbreviation: HEXB, hexosaminidase B; ISPRI-HCP: Interactive Screening and Protein Reengineering Interface for Host Cell Proteins.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36683</offset>
+      <text>We next compared the JanusMatrix score of HEXB relative to other known CHO HCPs. This analysis compares the TCR facing amino acids of MHC class II epitopes from the HCPs and predicts cross-reactive epitopes that may be more likely tolerated. The HEXB sequence was associated with a high Janus score when compared to difficult-to-remove HCPs with the exceptions of CXCL3 and HtrA serine peptidase 1. This score implies that even though the identified epitopes in HEXB could bind with high affinity to prevalent MHC class II molecules, they may not drive T-cell responses because of their similarity to previously exposed human proteins with similar epitopes.</text>
+      <annotation id="38">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:39:41Z</infon>
+        <location offset="37145" length="4"/>
+        <text>HEXB</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T12:39:51Z</infon>
+        <location offset="37236" length="16"/>
+        <text>T-cell responses</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>37349</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37360</offset>
+      <text>This study reported the identification and characterization of a residual HCP, HEXB, responsible for the N-glycandegradation in biologics under accelerated and stress stability conditions. The study highlighted the importance of various analytical tools to support root cause investigation, control and to study residual HCPs in biologics.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37702</offset>
+      <text>HCPs must be adequately removed from biologics by downstream purification to ensure product quality and safety. It is critical to develop phase-appropriate testing for HCP clearance, and the levels are controlled by phase-appropriate specifications. ELISA release assay for HCP testing is relatively simple and high throughput. The assay, however, has several limitations. First, the reported semi-quantitative determination of HCP level is highly dependent on the quality and coverage of the antibody reagents used. Additionally, ELISA may entirely not detect an abundant HCP if the antibody against it is not present in the critical reagents. Second, the method conventionally used to determine the coverage is a comparison of a two-dimensional (2D) gel to 2D Western blot; both have limitations. There may be tens or even hundreds of proteins in a single spot in the 2D gel. Thus, the number of spots between gel staining and Western blot may be significantly different. Third, the number of total HCPs measured by ELISA is dilution dependent and nonlinear in some cases. Fourth, because of the specificity of antibody/antigen binding conditions and availability of HCP epitopes, the corresponding HCP may not be readily detected in the ELISA assay even if the correct antibodies are present in the reagent. Lastly, the time to develop a qualified, critical reagent for total HCP measurement by ELISA may take several years. The residual total HCP level by a CHO ELISA kit from Cygnus technologies in the Process 1 of mAb1 is below 30 ppm (immunoequivalent ng of HCP/mg of mAb DS), which is well below the generally accepted limit (100 ppm). However, a major change of product quality attribute was observed due to the impact of an abundant residual HCP. This case study, along with many other published reports, emphasized the critical role of orthogonal methods for HCP characterization to ensure the quality of the biologic product.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39653</offset>
+      <text>LC-MS-based proteomics approach for HCP characterization is widely used as it is potentially capable of detecting almost any HCP, whose abundance is above a certain threshold. The proteomics approach is not only able to identify each HCP but also provides the relative abundance level of the identified HCP with suitable reference standards. This approach is very informative for the development of customized risk assessment and control strategy for those potential problematic HCPs. In this study, residual HCP HEXB was identified by the proteomics approach as the root cause for N-glycan degradation in mAb-1 from Process 1. The abundance level was determined to be over 200 ppm, which was calculated based on its MS1 peak area compared to the spike-in recombinant non-CHO proteins. Although this approach may suffer accuracy and precision limitations due to the nature of the quantification approach, it provides a quick and fit-for-purpose readout of HCP identification and relative quantification. To compliment the shotgun proteomics approach for quantification, a targeted LC-MS-based MRM approach with spike-in stable isotope-labeled internal standards was developed for process and product characterization. The MRM data provide more accurate measurement of the absolute level of HEXB in mAb1 DS. The HEXB level from MRM assay provides reference for acceptance ranges of HEXB in biologics development. Protein abundance may not correlate with protein activity in a drug product due to buffer conditions, association with other proteins or formulation excipients or other factors that could impact enzymatic activity. Ultimately, it is the enzyme activity which matters the most for its impact on product or excipient degradation. In this study, an enzymatic assay for HEXB was also developed, which provides an alternative assay for mAb-1 process and product characterization. The activity of HEXB from the enzymatic assay in general agrees with the HEXB abundance from both proteomics and MRM assays.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41693</offset>
+      <text>Even after multiple purification steps in the downstream process development, HCPs may co-purify with the final drug product. There is a list of problematic HCPs, which are commonly detected in majority of mAbs by proteomics approach and HEXB is not one of them. To the best of our knowledge, HEXB is the first residual HCP reported to have impact on the glycan profile of a mAb product in storage conditions. Recently, a co-purifying HCP N-(4)-(beta-acetylglucosaminyl)-l-asparaginase (AGA, EC3.5.1.26) was identified by proteomics to explain the unexpected ELISA results. However, no impact on glycan cleavage was reported. Functional hexosaminidase are dimeric (homodimer or heterodimer) in structure through the combination of alpha and beta subunits (HEXA and HEXB). Both subunits can cleave GlcNAc residues. Only HEXB was identified in this study. The potential specific interaction of HEXB with mAb-1 leading to co-purification, but not with other mAbs during the downstream purification process was investigated by computational modeling, which provides a structural basis for co-purification and guidance for downstream purification to disrupt the interaction. The potential interactions at the amino acid level will need further validation by other experimental approaches, such as hydrogen-deuterium exchange MS (HDX-MS) or X-ray crystallography. Those validation experiments will heavily rely on the availability of high-quality recombinant HEXB protein. Furthermore, we are exploring prospective validation of energetic cut-offs, or computational filtering, which would allow for qualitative risk-assessment of HCP interactions needing downstream purification.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43392</offset>
+      <text>It has been generally accepted that a mAb glycosylation profile is exclusively dependent on the physiological state of cells during cell culture and the impact of residual HCPs on glycosylation patterns in a cell-free sample are not considered. The impact of HEXB on the N-glycosylation pattern of mAb-1 highlights the importance of proper monitoring and control of such residual HCP impacting glycosylation during the upstream phase so that sanitary risks can be better controlled. Considering there are many glycosidases or even glycosyltransferases in the cells, they will need to be better controlled during upstream cell culture to minimize cell lysis or the secretion of these enzymes in the cell culture fluid. The storage condition and storage duration of such collected cell culture fluid are also a critical process parameter prior the downstream purification to reduce the impact of those enzymes on product quality after upstream cell culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44354</offset>
+      <text>The impact of HEXB on N-glycan degradation was first observed under accelerated stability conditions (40 C). Only minor changes to the N-glycan profile were observed even after 6 month at 25 C, which lead us to conclude the impact of HEXB on the quality of mAb-1 was minimal under intended storage conditions of 2-8 C. The fact that HEXB has no impact on the quality of mAb-1 under intended storage condition does not diminish the value of identifying this enzyme as a high-risk residual HCP. First, we demonstrated that there was dose-dependent impact of HEXB on N-glycan degradation. This can translate to cases where higher levels than what are being reported in mAb-1 from Process 1 could likely lead to N-glycan stability issues under the intended storage condition of a biologic product, resulting in compromising its intended shelf life. Second, residual enzyme activity highly relies on the formulation conditions, such as salt and pH, buffer type, and excipients. A full understanding of HEXB activity and the impact of formulation conditions warrants further investigation to mitigate the impact on product quality. Third, the interaction of HEXB with different biotherapeutics may be different, which could result in differences on the stability of different biologic products with similar levels of HEXB.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45695</offset>
+      <text>To support the development of mAb-1 based on a quality by design (QbD) approach, the risk assessment of HEXB in mAb-1 was performed. The immunogenicity risk posed by HEXB was evaluated by in silico methods and was found to be no more than difficult-to-remove HCPs. If anti-HEXB antibodies are generated in humans, their risk on patient safety may be low if the target is not easily accessible. For example, the human homolog of CHO PLBL2 is primarily located in the lysosome and may not be recognized by anti-PLBL2 antibodies. This may explain why there were no safety issues linked to the levels of PLBL2, which was related to the incidence of anti-PLBL2 antibodies. The human homolog of HEXB is reported to be primarily in the lysosome. Membrane and extracellular forms have been reported as well. Since both HEXB and PLBL2 are primarily located in the lysosome, the potential generation of anti-HEXB antibodies may have similar safety risks. The final immunogenicity risk assessment will also need to consider the mAb mechanism of action, disease indication, as well as dosing amount, route, and frequency.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46821</offset>
+      <text>The impact of HEXB on mAb-1 product quality is considered low since the N-glycan profile remained stable at the intended storage condition 5 C. Furthermore, HEXB level is significantly lower and the N-glycan stability is maintained at all stability temperatures after process improvement. Overall, the severity of HEXB on potential patient impact is low as shown from the assessment of immunogenicity and product quality. Although the occurrence of HEXB in mAb-1 is high, we have developed several analytical tools (LC-MS-based proteomics and MRM assay, and enzymatical assay) to detect and calculate its abundance and activity. Taken together, the risk of HEXB impacting patient safety and product quality related to mAb-1 is deemed low.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>47575</offset>
+      <text>In conclusion, a residual HCP, HEXB, was identified to degrade N-glycan by removing terminal GlcNAc from mAb-1 on an accelerated stability study by LC-MS-based proteomics approach. The impact was confirmed by enzymatic assay and spike-in recombinant enzyme. The absolute level of HEXB in mAb-1 was determined by LC-MS-based MRM assay, and the potential interaction between HEXB and mAb-1 was illustrated by computational modeling. Additionally, the risk assessment of potential impact of HEXB on products and patients were evaluated. This study provided a new case on the impact of residual HCP on biotherapeutics development and highlighted multiple analytical tools for residual HCP characterization and control.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_1</infon>
+      <offset>48308</offset>
+      <text>AUTHOR CONTRIBUTIONS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>48329</offset>
+      <text>Xuanwen Li: Conceptualization; data curation; formal analysis; investigation; methodology; visualization; writing-original draft; writing-review and editing. An Yan: Conceptualization; data curation; writing-review and editing. Jing Liao: Data curation; writing-original draft. Li Xiao: Data curation; writing-original draft. Michael Swanson: Data curation; writing-original draft; writing-review and editing. Kirby Martinez-Fonts: Data curation. J. Alexander Pavon: Data curation; writing-review and editing. Edward Sherer: Data curation; writing-review and editing. Vibha Jawa: Data curation; writing-original draft. Fengqiang Wang: Writing-review and editing. Xinliu Gao: Data curation; writing-original draft. Simon Letarte: Data curation; writing-review and editing. Douglas Richardson: Supervision.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_2</infon>
+      <offset>49187</offset>
+      <text>PEER REVIEW</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49199</offset>
+      <text>The peer review history for this article is available at https://publons.com/publon/10.1002/btpr.3128.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>49302</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>49325</offset>
+      <text>DATA AVAILABILITY STATEMENT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49353</offset>
+      <text>The data that support the findings of this study are available from the corresponding author upon reasonable request.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>49471</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">828</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">29693803</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">837</infon>
+      <offset>49482</offset>
+      <text>Experience with host cell protein impurities in biopharmaceuticals</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1727</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_pmid">25998019</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1737</infon>
+      <offset>49549</offset>
+      <text>The future of host cell protein (HCP) identification during process development and manufacturing linked to a risk-based management for their control</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">254</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">27739010</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">AAPS J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">263</infon>
+      <offset>49701</offset>
+      <text>Specific immune response to phospholipase B-like 2 protein, a host cell impurity in Lebrikizumab clinical material</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1633</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">27056628</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">J Pharm Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1642</infon>
+      <offset>49818</offset>
+      <text>Polysorbates 20 and 80 degradation by group XV lysosomal phospholipase A2 isomer X1 in monoclonal antibody formulations</text>
+    </passage>
+    <passage>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1006</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">27943242</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1015</infon>
+      <offset>49938</offset>
+      <text>Knockout of a difficult-to-remove CHO host cell protein, lipoprotein lipase, for improved polysorbate stability in monoclonal antibody formulations</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1360</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">26259961</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1369</infon>
+      <offset>50090</offset>
+      <text>Trace levels of the CHO host cell protease cathepsin D caused particle formation in a monoclonal antibody product</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">120</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">28726323</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">129</infon>
+      <offset>50204</offset>
+      <text>Characterization of a cathepsin D protease from CHO cell-free medium and mitigation of its impact on the stability of a recombinant therapeutic protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">35</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">30320962</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e2732</infon>
+      <offset>50358</offset>
+      <text>Cathepsin L causes Proteolytic cleavage of Chinese-hamster-ovary cell expressed proteins during processing and storage: identification, characterization, and mitigation</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">311</infon>
+      <infon key="pub-id_pmid">32176521</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Annu Rev Chem Biomol Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">338</infon>
+      <offset>50531</offset>
+      <text>N-glycosylation of IgG and IgG-like recombinant therapeutic proteins: why is it important and how can we control it?</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">835</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_pmid">27016033</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">846</infon>
+      <offset>50652</offset>
+      <text>N-glycosylation design and control of therapeutic monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1173</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">28547754</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1181</infon>
+      <offset>50726</offset>
+      <text>Impact of IgG fc-oligosaccharides on recombinant monoclonal antibody structure, stability, safety, and efficacy</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">15</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">28421387</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Protein Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">32</infon>
+      <offset>50840</offset>
+      <text>Pharmacokinetics of monoclonal antibodies and fc-fusion proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">693</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">29733746</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">711</infon>
+      <offset>50907</offset>
+      <text>The "less-is-more" in therapeutic antibodies: afucosylated anti-cancer antibodies with enhanced antibody-dependent cellular cytotoxicity</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">230</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">20065644</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">236</infon>
+      <offset>51052</offset>
+      <text>Production of therapeutic antibodies with controlled fucosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">154</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">107457</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biochem Eng J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">9</infon>
+      <offset>51118</offset>
+      <text>Support vector and locally weighted regressions to monitor monoclonal antibody glycosylation during CHO cell culture processes, an enhanced alternative to partial least squares regression</text>
+    </passage>
+    <passage>
+      <infon key="volume">1404</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">51</infon>
+      <infon key="pub-id_pmid">26051082</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J Chromatogr A</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">59</infon>
+      <offset>51306</offset>
+      <text>Heterogeneous glycoform separation by process chromatography: I: monomer purification and characterization</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">310</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">21478841</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">312</infon>
+      <offset>51413</offset>
+      <text>Acceptable changes in quality attributes of glycosylated biopharmaceuticals</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5436</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_pmid">28414239</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5444</infon>
+      <offset>51489</offset>
+      <text>A novel sample preparation for shotgun proteomics characterization of HCPs in antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1007</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">31860266</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1015</infon>
+      <offset>51578</offset>
+      <text>Targeted host cell protein quantification by LC-MRM enables biologics processing and product characterization</text>
+    </passage>
+    <passage>
+      <infon key="volume">327</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1093</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">12662933</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">J Mol Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1109</infon>
+      <offset>51690</offset>
+      <text>Crystal structure of human beta-hexosaminidase B: understanding the molecular basis of Sandhoff and Tay-Sachs disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1577</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_pmid">23584251</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Hum Vaccin Immunother</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1586</infon>
+      <offset>51812</offset>
+      <text>The two-faced T cell epitope: examining the host-microbe interface with JanusMatrix</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">32087048</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e2983</infon>
+      <offset>51900</offset>
+      <text>A novel approach to evaluate ELISA antibody coverage of host cell proteins-combining ELISA-based immunocapture and mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">144</infon>
+      <infon key="pub-id_pmid">29414072</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">150</infon>
+      <offset>52037</offset>
+      <text>Applications of proteomic methods for CHO host cell protein characterization in biopharmaceutical manufacturing</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3368</infon>
+      <infon key="pub-id_pmid">32706388</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3378</infon>
+      <offset>52149</offset>
+      <text>Improving the analytical toolbox to investigate copurifying host cell proteins presence: N-(4)-(beta-acetylglucosaminyl)- l-asparaginase case study</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">229</infon>
+      <infon key="pub-id_pmid">3886595</infon>
+      <infon key="year">1985</infon>
+      <infon key="source">Isozymes Curr Top Biol Med Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">288</infon>
+      <offset>52307</offset>
+      <text>The lysosomal hexosaminidase isozymes</text>
+    </passage>
+  </document>
+</collection>

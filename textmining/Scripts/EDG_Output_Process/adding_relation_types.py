@@ -1,8 +1,16 @@
 import pandas as pd
 import re
+import sys
 
-# Load the excel file
-df = pd.read_excel('/home/shovan/nlputils/EDG_framework/Lexical_Concepts/Outputs/Abstract/abs_more_Apr19_outputV3.xlsx')  # Adjust path accordingly
+if len(sys.argv) != 3:
+    print("Usage: python script_name.py <input_excel> <output_excel>")
+    sys.exit(1)
+
+input_excel = sys.argv[1]
+output_excel = sys.argv[2]
+
+# Load the Excel file
+df = pd.read_excel(input_excel)  # Adjust path accordingly
 
 # Define keyword patterns
 INCREASE_KEYWORDS = [r'\bincreas\w*\b', r'\benhanc\w*\b', r'\bris\w*\b', r'\belevat\w*\b', r'\bhigh\b', r'\bhigh\B', r'\bhigher\w*\b', r'\bhighest\b', r'\bmore\b', r'\bupregul\w*\b', r'\bup\b', r'\badd\w*\b']
@@ -105,4 +113,6 @@ df['relation_type'] = df.apply(determine_result_type, axis=1)
 df = df.drop(columns=['COV0', 'COVt', 'COV1'])
 
 # Save the updated dataframe back to Excel
-df.to_excel('/home/shovan/nlputils/EDG_framework/Lexical_Concepts/Outputs/Abstract/rel_abs_more_Apr19_outputV3.xlsx', index=False)  
+df.to_excel(output_excel, index=False)
+
+print(f"Updated DataFrame saved to {output_excel}")

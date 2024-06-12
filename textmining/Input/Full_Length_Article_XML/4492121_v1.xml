@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>4492121</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:George;given-names:Henry J.</infon>
+      <infon key="name_2">surname:Sealover;given-names:Natalie R.</infon>
+      <infon key="name_1">surname:Mascarenhas;given-names:Joaquina</infon>
+      <infon key="article-id_pmid">25641927</infon>
+      <infon key="name_0">surname:Lin;given-names:Nan</infon>
+      <infon key="year">2015</infon>
+      <infon key="article-id_pmc">4492121</infon>
+      <infon key="article-id_doi">10.1002/btpr.2038</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol. Prog.; 2015 Mar-Apr; 31(2) 334-46. doi:10.1002/btpr.2038</infon>
+      <infon key="lpage">346</infon>
+      <infon key="article-id_manuscript">NIHMS689075</infon>
+      <infon key="fpage">334</infon>
+      <infon key="issue">2</infon>
+      <infon key="volume">31</infon>
+      <infon key="license">           This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.         </infon>
+      <infon key="kwd">Chinese hamster ovary cells host cell engineering alpha2 6-linked sialic acid St6gal1 glycoengineering</infon>
+      <infon key="name_9">surname:Archer-Hartmann;given-names:Stephanie</infon>
+      <infon key="name_8">surname:Azadi;given-names:Parastoo</infon>
+      <infon key="name_7">surname:Yasa;given-names:Isil</infon>
+      <infon key="name_6">surname:Gau;given-names:Brian</infon>
+      <infon key="name_5">surname:Kayser;given-names:Kevin J.</infon>
+      <infon key="authors">Lin N, Mascarenhas J, Sealover NR, George HJ, Brooks J, Kayser KJ, Gau B, Yasa I, Azadi P, Archer-Hartmann S</infon>
+      <infon key="name_4">surname:Brooks;given-names:Jeanne</infon>
+      <offset>0</offset>
+      <text>Chinese Hamster Ovary (CHO) Host Cell Engineering to Increase Sialylation of Recombinant Therapeutic Proteins by Modulating Sialyltransferase Expression</text>
+      <annotation id="1">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:02:15Z</infon>
+        <location offset="62" length="11"/>
+        <text>Sialylation</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:02:21Z</infon>
+        <location offset="124" length="28"/>
+        <text>Sialyltransferase Expression</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>153</offset>
+      <text>N-Glycans of human proteins possess both alpha2,6- and alpha2,3-linked terminal sialic acid (SA). Recombinant glycoproteins produced in Chinese hamster overy (CHO) only have alpha2,3-linkage due to the absence of alpha2,6-sialyltransferase (St6gal1) expression. The Chinese hamster ST6GAL1 was successfully overexpressed using a plasmid expression vector in three recombinant immunoglobulin G (IgG)-producing CHO cell lines. The stably transfected cell lines were enriched for ST6GAL1 overexpression using FITC-Sambucus nigra (SNA) lectin that preferentially binds alpha2,6-linked SA. The presence of alpha2,6-linked SA was confirmed using a novel LTQ Linear Ion Trap Mass Spectrometry (LTQ MS) method including MSn fragmentation in the enriched ST6GAL1 Clone 27. Furthermore, the total SA (mol/mol) in IgG produced by the enriched ST6GAL1 Clone 27 increased by 2-fold compared to the control. For host cell engineering, the CHOZN  GS host cell line was transfected and enriched for ST6GAL1 overexpression. Single-cell clones were derived from the enriched population and selected based on FITC-SNA staining and St6gal1 expression. Two clones ("ST6GAL1 OE Clone 31 and 32") were confirmed for the presence of alpha2,6-linked SA in total host cell protein extracts. ST6GAL1 OE Clone 32 was subsequently used to express SAFC human IgG1. The recombinant IgG expressed in this host cell line was confirmed to have alpha2,6-linked SA and increased total SA content. In conclusion, overexpression of St6gal1 is sufficient to produce recombinant proteins with increased sialylation and more human-like glycoprofiles without combinatorial engineering of other sialylation pathway genes. This work represents our ongoing effort of glycoengineering in CHO host cell lines for the development of "bio-better" protein therapeutics and cell culture vaccine production.</text>
+      <annotation id="3">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:02:58Z</infon>
+        <location offset="934" length="8"/>
+        <text>total SA</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:03:12Z</infon>
+        <location offset="976" length="25"/>
+        <text>enriched ST6GAL1 Clone 27</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:03:16Z</infon>
+        <location offset="1038" length="7"/>
+        <text>control</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:03:38Z</infon>
+        <location offset="1629" length="25"/>
+        <text>overexpression of St6gal1</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:03:44Z</infon>
+        <location offset="1716" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:03:50Z</infon>
+        <location offset="1748" length="13"/>
+        <text>glycoprofiles</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>2009</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2022</offset>
+      <text>Sialic acid modulation remains one of the most focused areas in glycoengineering due to the critical role that sialic acid plays in therapeutic glycoprotein half-life and efficacy. The hepatocyte asialoglycoprotein receptor recognizes terminal galactose and mediates protein uptake prior to degradation. Sialylated therapeutic proteins are slower to degrade and have longer serum half-life, as the galactose moiety is linked to terminal sialic acid, therefore, not exposed. On the other hand, sialylation contributes to heterogeneity in the core N-glycan in IgG and non-IgG therapeutic proteins. Hence, it is one of the critical product quality parameters in therapeutic protein production. Terminal sialic acid can be attached to galactose in alpha2,6-, alpha2,3-, or alpha2,8-linkages. Six beta-galactoside alpha2,3-sialyltransferases (St3gal1-6) and two beta-galactoside alpha2,6-sialyltransferases (St6gal1-2) are responsible for forming these terminal sialic acids in mammalian cells. Human proteins have all linkages, predominantly alpha2,6-linkage, whereas CHO cells have incomplete sialylation with only alpha2,3-linked sialic acid. Therapeutic proteins possessing both sialic acid linkages are more "human-like" and are less likely to be immunogenic. Furthermore, Anthony et al. reported that alpha2,6-linked sialic acid residues play a critical role in anti-inflammatory activity of human intravenous immunoglobulin. Despite that half-life may not be significantly improved for low sialic acid containing IgG molecules, enhanced anti-inflammatory activity may also be achieved by producing recombinant IgG therapeutics that contain alpha2,6-linked sialic acid, which is lacking in current CHO host cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3737</offset>
+      <text>Approaches to modulate sialylation of recombinant glycoproteins in CHO and other host cell lines have been reviewed previously. In general, media composition (glycosylation substrate feeding or media supplements) and process optimization (pH, temperature, and osmolality) can be employed to increase sialic acid content. Cell engineering efforts have identified various gene targets for enhancing sialic acid biosynthesis and transfer or reducing sialic acid degradation. The employed approaches include overexpression of UDP-GlcNAc2-epimerase or CMP-sialic acid transporter, RNA interference of sialidases and overexpression of sialyltransferases. The pathways involved are schematically illustrated in Figure 1 in Supporting Information. Overexpression of human or rat sialyltransferases in CHO cells, either alone or in combination with other glycosylation genes, was explored by numerous groups. Bragonzi et al. overexpressed rat alpha2,6-sialyltransferase in a CHO DuxB11 host cell line to produce interferon-gamma with more human-like sialylation patterns. Fukata et al. utilized an interferon-gamma-producing CHO cell line to co-overexpress the following three genes: the glycan-branching enzyme UDP-N-acetylglucosamine: alpha1,6-D-mannoside beta1,6-N-acetylglucosaminyltransferase (Mgat4 or GnT-V); mouse alpha2,3-sialyltransferase (St3gal4); and/or rat St6gal1. Their cell engineering resulted in increased sialylation, particularly tri- and tetra-sialic acid glycan structures. Similarly, Jeong and colleagues co-overexpressed alpha2,3-sialyltransferase and beta1,4-galactosyltransferase and achieved increase in tri-sialylated glycans in erythropoietin (EPO). Combinatorial engineering with multiple gene targets can become a lengthy and laborintensive process; multiple selection reagents have to be present in culture media to ensure stability of overexpression; and multiple rounds of selection can result in loss of desired phenotypes that are fundamental for protein expression. Recently, Onitsuka and colleagues first demonstrated enhanced sialylation in a recombinant CHO line producing a bi-specific IgG-like protein by overexpressing Chinese hamster St6gal1 alone. They reported altered glycan-type ratios in the recombinant cell line. Mai et al. reported a host CHO cell line with a St6gal1 minigene integrated to overexpress ST6GAL1, and they generated adherent clones secreting hypersialylated proteins.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6164</offset>
+      <text>The main objective of this study was to create a versatile CHO host cell line with enhanced human-like sialylation that can be used to express various therapeutic glycoproteins. The host line has to retain the desired phenotypes for biopharmaceutical production, such as high transfectability, robust growth, and high productivity in chemically defined culture media. To prove this concept, we successfully overexpressed the Chinese hamster ST6GAL1, first in three recombinant CHO lines of different cell types that produce industry-relevant levels of humanized or human IgG. When alpha2,6-linkage was confirmed in the recombinant CHO lines, we proceeded to host cell engineering and overexpressed ST6GAL1 in a CHO K1-derived GS (-/-) host cell line ("CHOZN  GS"). A clonal cell line ("ST6GAL1_OE_32") with the highest St6gal1 expression and highest alpha2,6-linked sialic acid levels was selected to express a recombinant IgG as a model protein (Supporting Information Figure 1). The recombinant IgG produced in this novel host cell line demonstrated not only alpha2,6-linkage but also increased total sialic acid content.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>7292</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>7314</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7327</offset>
+      <text>The glutamine synthetase (-/-) SAFC CHOZN  GS (-/-) host cell line (Sigma Aldrich, St. Louis, MO) and its derivative, a recombinant SAFC human IgG1 cell line ("Clone 27"), were used. Two other recombinant cell lines used in this study, "Clone N22" and "Clone N46," were derived previously from CHOZN  DHFR (-/-) host cell line and produced a proprietary humanized antibody ("IgG#2B"). The sialidase 3 (Neu3) locus was disrupted using zinc-finger nuclease (ZFN) technology in Clones N22 and N46 (unpublished data). All cell culture media, supplements, and other reagents used were obtained from Sigma-Aldrich unless otherwise specified. Cells were maintained as shaken suspension cultures at 37 C and 5% CO2 in EX-CELL CHO CD Fusion containing no hypoxanthine and thymidine and supplemented with 6 mM L-glutamine for the host line, 25 muM methionine sulfoximine (MSX) for Clone 27, or 500 nM methotrexate (MTX) for Clones N22 and N46. Dextran sulfate was used at a concentration of 160 mug/mL to prevent clumping to the shaken cultures of ST6GAL1 overexpressing clonal cell lines described in the following section.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8474</offset>
+      <text>Overexpression of ST6GAL1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8500</offset>
+      <text>The coding sequence of Chinese hamster St6gal1 was obtained from GenBank (AB492855) and chogenome.org (AFTD01061789 and AFTD01061790). The open reading frame was synthesized by DNA2.0 (Menlo Park, CA) with a Kozak sequence (5'-GCCGCCACCAatg-3') added to the 5'-untranslated region (UTR). The synthesized fragment was cloned into expression vector pJ602 (DNA2.0). Both IgG expressing and the CHOZN  GS host cell line were transfected by this construct. Cells were seeded at 106 cells/mL in 50 mL TPP TubeSpin  Bioreactors (Trasadingen, Switzerland) one day prior to transfection. 5 x 106 cells in 800 muL growth media and 30 mug plasmid DNA were used for each transfection. Transfections were conducted by electroporation at 300 V and 950 muF in 0.4-cm cuvettes using a Gene Pulser XCell  system (Bio-Rad, Hercules, CA). Electroporated cells were subsequently placed in 6 mL growth media in a suspension 25-cm2 tissue culture flask (Greiner Bio-One, Monroe, NC) for 24 h prior to 250 mug/mL Zeocin  (Life Technologies, Carlsbad, CA) selection. Once the stably transfected pool was &gt; 95% viable, cells were collected for quantitative reverse transcription polymerase chain reaction (qRT-PCR) for overexpression validation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9733</offset>
+      <text>Quantitative RT-PCR</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9753</offset>
+      <text>Exponential phase cultures (Day 4 after inoculation) were used for total RNA isolation as previously described. Relative expression levels of St6gal1 and St3gal4 and St3gal6 were determined using qRT-PCR and normalized to ActR5. M-MLV reverse transcriptase was used for the RT reactions according to the manufacturer's protocol. Quantitative PCR was carried out using TaqMan  Universal PCR Master Mix (Life Technologies). he primers and probes are listed in Table 1 in Supporting Information.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10249</offset>
+      <text>FACS enrichment using 2,6-sialic acid-specific lectin</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10303</offset>
+      <text>Fluorescein labeled Sambucus nigra lectin (FITC-SNA, EY Laboratories, San Mateo, CA) that preferentially binds to alpha2,6-linked sialic acid structure was used to enrich the ST6GAL1 overexpressed pools (both IgG expressing and host cell lines). About 5 x 106 cells were incubated with 100 mug/mL FITC-SNA in 1 mL phosphate buffered saline (PBS) for 15 min at 25 C, washed three times with PBS. Cells were resuspended in 1 mL PBS and sorted using a FACSAria  III cell sorter (Becton-Dickinson) based on FITC fluorescence intensity. Cells were collected in 6-well plates containing chemically defined culture media as described in 2.1 for recovery and expansion. When the enriched cultures fully recovered (3-3.5 weeks postsort), they were subjected to postsort analysis using FITC-SNA stain.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11098</offset>
+      <text>Single-cell cloning and clone selection for ST6GAL1 overexpression in host cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11184</offset>
+      <text>The enriched Zeocin resistant stable pool derived from CHOZN  GS host cell line that overexpressed ST6GAL1 was single-cell cloned using a FACSAria  III cell sorter. The cells with top 5% FITC-SNA fluorescence was plated at 1 cell/well in 96-well plates, with 200 muL per well of Ham's F-12 supplemented with 6 mM L-glutamine and 10% fetal bovine serum (FBS). One plate was plated using unstained cells based on forward and side scatter and no fluorescence as control for clonal outgrowth.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11678</offset>
+      <text>Biotinylated Maackia amurensis lectin II (MALII, Vector Labs, Burlingame, CA) at a final concentration of 5 mug/mL for 15 min at 25 C was incubated with 5 x 105 cells to stain for alpha2,3-linked sialic acid. Cells were washed twice with 1 x PBS supplemented with 0.1% bovine serum albumin (BSA) and incubated for 15 min at 25 C with 0.5 mug/mL streptavidin-Alexa Fluor647 (Life Technologies, Eugene, OR) and 10 mug/mL FITC-SNA. The cells were washed twice with 1 x PBS supplemented with 0.1% BSA before responded for two-color FACS analysis on a MACSQuant  Analyzer (Miltenyi Biotec, San Diego, CA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12282</offset>
+      <text>Sialic acid linkage analysis by LTQ linear ion trap mass spectrometry including MSn fragmentation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12380</offset>
+      <text>IgG was purified as previously described. Total cellular protein was extracted using CelLytic M according to manufacturer's protocol. IgG, or total cellular protein extracts, was reduced and carboxyamidomethylated according to standard procedures prior to trypsinization at 37 C overnight (12-16 h). Trypsin was deactivated by heating at 100 C for 5 min. Purification of fragments was carried out with a C18 SPE cartridge (Waters, 300 mg packing). After a wash with 5% acetic acid (AcOH), the peptides/glycopeptides were eluted sequentially in 20% isopropanol/5% AcOH, 40% isopropanol/5% AcOH, and 100% isopropanol. The eluent was dried down, reconstituted in phosphate buffer containing PNGase F, and incubated at 37 C overnight. The released glycans were purified using a C18 cartridge, permethylated and diluted into 1 mM lithium carbonate/50% MeOH and infused directly into an LTQ Orbitrap Discovery Mass Spectrometer (Thermo Scientific) at a flow rate of 0.5 muL/min for nanospray ionization. A full Fourier transform mass spectrometry (FTMS) spectrum was obtained at a 30,000 resolution for each sample to determine which glycans contained sialic acids. The sialic acid linkage of the sialylated glycans was determined by MSn analysis as described by Anthony et al. The sample was subjected to multiple ion selection and fragmentation steps within the ion trap to break down a complex-type glycan down to a single galactose and then, the fragmentation pattern was observed. This process is outlined in Figure 2 in Supporting Information.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13931</offset>
+      <text>Total sialic acid content analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13966</offset>
+      <text>Purified IgG samples were prepared for sialic acid analysis as follows: Briefly, 30 muL of 10 M acetic acid was added to a 120 muL aliquot of each sample and triplicates of control sample (25 mug of fetuin in 120 muL of water) and incubated at 80 C for 1.5 h. Samples were centrifuged and cooled to 25 C. Supernatant was removed and a 5 muL aliquot of each sample was added to 100 muL of the 1,2-diamino-4,5-methylenedioxybenzene (DMB) labeling solution. The labeling solution consisted of 7 mM DMB dissolved in 18 mM sodium hydrosulfite, 0.75 M 2-mercaptoethanol in 2 M acetic acid. Similarly, a standard mixture of two sialic acids, N-acetylneuraminic acid (NANA) and N-glycolylneuraminic acid (NGNA) were also prepared and treated with the DMB labeling solution. The labeling reaction was allowed to continue at 50 C for 3 h and quenched with 500 muL water. The resulting sample solutions were analyzed by HPLC with fluorescence detection according to the following parameters. Column: express RPA 100 x 2.1 mm (Supelco); column temperature: 30 C; sample temperature: 4 C; mobile phase: A: water, B: ACN (both with 0.1% formic acid); flow rate: 0.2 mL/min; injection volume: 10 muL; FExcitation = 373 nm; FEmission = 448 nm.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15200</offset>
+      <text>Glycoform and sialylated glycan analysis of IgG stable expression in the ST6GAL1 overexpression host cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15312</offset>
+      <text>ST6GAL1 OE clone 32 was used for generating stable pools expressing a model human IgG using GS selection as described elsewhere. Recombinant proteins were collected from 7-day fed-batch cultures (fed with 2 g/L glucose on Day 4), quantified for volumetric productivity as described previously, purified using protein A affinity chromatography and analyzed for glycoform profiles by intact protein mass as previously described. Glycoform relative abundance (% of total glycoforms) was calculated for all significant peaks. A second independent HPLC-fluorescence mass spectrometry method was employed to characterize the released N-glycans of these biomolecules. Approximately, 200 mug of glycoprotein was PNGase F-treated in a filter-aided sample prep (FASP) format after urea-mediated denaturation and buffer exchange. Reduction and alkylation steps were not employed. The glycosidase reaction progressed at 37 C for 18 h and released glycans captured in the filtrate and dried by vacuum centrifugation. Dried glycans were procainamide-labeled by 3 h 65 C reductive amination using a reaction solution of dimethyl sulfoxide/acetic acid/water/procainamide hydrochloride/sodium cyanoborohydride in a 24:13:41:1:2.4 molar ratio. About 6.6 muL reaction solutions were diluted with 100 muL 70% acetonitrile 30% water (v:v) and transferred to autosampler vials. UPLC/FLR/MS was accomplished on a Waters (Milford, MA) Acquity UPLC-Waters FLR fluorescence detector-Thermo (Waltham, MA) LTQ mass spectrometer system. Ten microliters of each sample was injected onto an Ascentis  Express OH5 15 cm x 2.1 mm, 2.7 mum column (Sigma-Aldrich Supelco, St. Louis MO) with 0.3 mL/min, 26 min 75%/25% to 52%/48% acetonitrile/ammonium formate pH 4.4 gradient elution. Fluorescence was monitored at 308 nm excitation/359 nm emission. The IonMax ESI-MS source was plumbed in series after the FLR detector, and positive-mode scans acquired from 500-2000 m/z.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17255</offset>
+      <text>In order to verify the sialic acid linkage, western blotting using biotinylated SNA lectin (Vector Labs) was performed according to manufacturer's protocol. Briefly, 2 mug purified IgG and 1 mug human transferrin were resolved on SDS-PAGE and blotted on nitrocellulose membranes. Biotinylated SNA at 1.7 mug/mL was incubated with the membrane for 30 min at 25 C, and streptavidin-horse radish peroxidase (Thermo Scientific) at 2 mug/mL was used for detection.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>17718</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>17726</offset>
+      <text>ST6GAL1 overexpression in IgG-producing cell lines and lectin-based enrichment in IgG-producing cell lines overexpressing ST6GAL1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17856</offset>
+      <text>The IgG-producing lines Clone 27, Clone N22, and Clone N46 (described in Materials and Methods) were stably transfected with the St6gal1 expression vector under the same selection conditions. However, the three cell lines demonstrated different levels of cell surface FITC-SNA staining. Clone 27 had the strongest pre- and postenrichment staining (37.7% and 64.6% positive, respectively, Figure 1). Clone N46 was 14.7% positive prior to enrichment and sustained enrichment as well (39.1% positive, Figure 1). Clone N22 ST6GAL1 pool was zeocin-resistant but did not have positive FITC-SNA staining and did not proceed to enrichment (data not shown). Interestingly, St6gal1-relative mRNA levels by qRT-PCR indicated that the overexpression stable pools from Clone 27 and Clone N22 had similar levels of St6gal1, Clone N46 had over 5-fold higher St6gal1 mRNA than Clones 27 and N22, whereas the nontransfected controls did not have detectable St6gal1 mRNA (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18827</offset>
+      <text>Three glycans were identified to contain sialic acid from IgG produced by Clone 27 St6gal1 OE and the nontransfected control (Supporting Information Figure 2). The sialylated glycans were further fragmented down to a single galactose for observing the fragmentation pattern (Figure 2). The fragmentation patterns of all three glycans indicated that the sialylation of nontransfected control to be primarily alpha2,3-linked, while Clone 27 St6gal1 OE gave a combination of alpha2,3- and alpha2,6-linked.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19330</offset>
+      <text>IgG harvested and purified from late-exponential phase batch cultures (Day 7 of culture) demonstrated increased total sialic acid content in the enriched stable pool overexpressing ST6GAL1 derived from Clone 27, but not in Clone N46 (Figure 3). This is consistent with the higher percentage of FITC-SNA (+) population in the former enriched stable pool, which indicated a higher overall content of alpha2,6-linked sialic acid.</text>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:04:14Z</infon>
+        <location offset="19442" length="25"/>
+        <text>total sialic acid content</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:04:20Z</infon>
+        <location offset="19475" length="43"/>
+        <text>enriched stable pool overexpressing ST6GAL1</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:04:25Z</infon>
+        <location offset="19532" length="8"/>
+        <text>Clone 27</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:04:27Z</infon>
+        <location offset="19553" length="9"/>
+        <text>Clone N46</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:04:41Z</infon>
+        <location offset="19624" length="23"/>
+        <text>FITC-SNA (+) population</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:04:46Z</infon>
+        <location offset="19728" length="27"/>
+        <text>alpha2,6-linked sialic acid</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>19757</offset>
+      <text>Significant enrichment of St6gal1 overexpression in the clonal cell lines derived from the CHOZN  GS host cell line</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19874</offset>
+      <text>The CHOZN  GS host cell line was transfected and enriched for FITC-SNA (+) population as previously described for the IgG-producing cell lines. The enriched ST6GAL1 stable pool demonstrated 25% FITC-SNA (+) compared to pre-enrichment (12%, data not shown here). The clonal outgrowth of the FITC-SNA stained and nonstained cells was equal after FACS plating (data not shown), indicating no growth inhibition or cytotoxicity from lectin staining. Thirty-seven single-cell clones were selected based on their percentage of FITC-SNA (+) populations and expanded to repeat the FACS analysis. Figure 4A gave FITC-SNA histograms of two representative clones. The majority of the clones that outgrew from the enriched population demonstrated increased FITC-SNA fluorescence in 96-well culture (Panel B), and the 35 clones selected sustained high FITC-SNA fluorescence in 24-well cultures (Panel C). Twelve clones with the highest FITC-SNA fluorescence in 24-well were expanded to TPP tube cultures for further characterization. Interestingly, FITC-SNA stain (% positive) reduced after adapted in shaken cultures for some clones, while the others maintained the same. This resulted a poor linear correlation (R2 = 0.5) for the % FITC-SNA (+) for the shaken versus static cultures (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>21164</offset>
+      <text>Two-color FACS analysis indicated the presence of both alpha2,6- and alpha2,3-linked sialic acid in the ST6GAL1 overexpression clones</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21298</offset>
+      <text>A two-color staining method was optimized to detect surface sialic acid with both linkage types simultaneously. Figure 4 in Supporting Information illustrates that there was no competition between MALII and SNA using this protocol, as indicated by the excellent correlation with a slope of 1.02 between the two- and single-color staining. All 12 ST6GAL1 overexpression clones are 100% MALII (+) with various percentages of SNA (+) cells (Figure 5). ST6GAL1 Clone 32 is notably the highest % FITC-SNA among the 12 clones in all stages of expansion. The nontransfected CHOZN  GS host cell line is also 100% MALII (+), but no FITC-SNA stain above background. This implies that the two sialyltransferases are independent in forming terminal sialic acid residues when the substrate is abundant.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>22089</offset>
+      <text>Expression assessment of endogenous ST3 sialyltransferases in the ST6GAL1 overexpression clones</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22185</offset>
+      <text>Cells were harvested during exponential growth phase of TPP cultures and analyzed using qRT-PCR for the recombinant St6gal1 and three ST3 sialyltransferases (St3gal3, St3gal4, and St3gal6) in the 12 ST6GAL1 overexpression clones. St3gal3, 4, and 6 has been reported in literature to be expressed in CHO cells, whereas the absence of St6gal1 transcript is reported in CHO cells. All the ST6GAL1 overexpression clones express detectable levels of mRNA of St6gal1 (Figure 6). Interestingly, no linear correlation was observed between the surface SNA stain and St6gal1 mRNA levels. Western blot results were unavailable (Materials and Methods in Supporting Information) due to lack of commercial antibodies to Chinese hamster ST6GAL1. The expression levels of the ST3 sialyltransferases appear to be independent of the recombinant St6gal1 expression in these clones, with St3gal4 being the highest expressing sialyltransferase, followed by St3gal6 and St3gal3 nondetected (data not shown). All clones have similar levels of surface alpha2,3-linked sialic acid as detected by MALII lectin stain (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23293</offset>
+      <text>Sialic acid linkage analysis of total cell protein</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23344</offset>
+      <text>There is striking difference between the N-glycan profiles between GS (-/-) host cell line and the two ST6GAL1 OE cell lines (ST6GAL1_OE_31 and 32). As illustrated in Figure 7, there are no sialylated glycans identified in "2E3" due to their low abundance. By contrast, mono-, bi-, tri-, and tetrasialylated N-glycans are identified in both ST6GAL1 OE cell lines. ST6GAL1_OE_32 demonstrated all but one sialylated population to contain both alpha2,3- and alpha2,6-linkages. ST6GAL1_OE_31, on the other hand, has several populations that cannot be confirmed to have alpha2,6-linked sialic acid (Figure 8). The most abundant sialylated N-glycan for both ST6GAL1 OE cell lines is the bisialylated, fucosylated (GlcNAc)4(Man)3(Gal)2(Fuc)(NeuAc)2. ST6GAL1_OE_32 has 9% of this glycan, a 1.8-fold increase compared to 31. ST6GAL1_OE_31 contains higher mono-sialylated glycans, albeit some only contain alpha2,3-linkage. The complete glycan identification results are included in Table 2 in Supporting Information. The linkage analysis results indicated that overexpression of ST6GAL1 led to increase in complex glycans. Higher levels of St6gal1 expression in ST6GAL1_OE_32 also resulted in higher relative content alpha2,6-linked sialylated glycans compared to ST6GAL1_OE_31.</text>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:05:30Z</infon>
+        <location offset="23385" length="17"/>
+        <text>N-glycan profiles</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:05:39Z</infon>
+        <location offset="23411" length="23"/>
+        <text>GS (-/-) host cell line</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:05:45Z</infon>
+        <location offset="23447" length="21"/>
+        <text>ST6GAL1 OE cell lines</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:05:47Z</infon>
+        <location offset="23470" length="13"/>
+        <text>ST6GAL1_OE_31</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:05:49Z</infon>
+        <location offset="23488" length="2"/>
+        <text>32</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>24614</offset>
+      <text>Productivity, glycoform profiles, sialylated glycan, and linkage analysis of IgG expressed in the selected St6gal1 OE host cell line</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24747</offset>
+      <text>In seven-day simple fed-batch cultures, the two stable pools generated from ST6GAL1_OE_32 host cell line produced significantly more IgG than the nonengineered host cell line using minus glutamine selection (Figure 9A). Viability was above 90% when harvested for all cultures. Intact protein mass analyses of the two IgG stable pools derived from two transfections using ST6GAL1_OE_32 host cell line revealed three significant peaks of 50850, 51011, and 51303 Da, all larger than the G2F glycoform (Figure 9B). The peaks indicated complex glycoforms that are likely sialylated and consist of 4.5%-9.1% of total glycoforms. By contrast, these peaks were not detected in the control IgG stable pools derived from CHOZN  GS host cell line (Figure 9C). The IgG produced in ST6GAL1_OE_32 host cell line also appeared to have a lower relative abundance of the G0F and G2F glycoforms than IgG produced in CHOZN  GS host cell line (Figure 9B), which may contribute to the increased relative content of more complex glycoforms (G1FS1, G2FS1, and G2FS2). G2FS2 peaks were identified, but they did not meet the cutoff for % total glycoforms therefore only noted presence but not quantified.</text>
+      <annotation id="20">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:06:14Z</infon>
+        <location offset="24823" length="28"/>
+        <text>ST6GAL1_OE_32 host cell line</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2024-01-30T17:06:20Z</infon>
+        <location offset="24880" length="3"/>
+        <text>IgG</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25931</offset>
+      <text>Released glycan HPLC analysis indicated that IgG produced in ST6GAL1_OE_32 host cell line had more sialic acid per molecule (Figure 10A). This assessment is based on the mass spectral identification of the features eluting in the normal phase HILIC chromatography (Figure 10B). Also corroborating the MS-based ID is the late elution of the hydrophilic sialylated glycans, which matches the trend seen with the released glycans of transferrin that was used as an external control (data not shown). Only terminal N-acetylneuraminic acid (NANA) was detected. N-glycolylneuraminic acid (NGNA) was not detected in this a model human IgG, nor in previous studies using our CHO cell lines (data not shown here). Western blotting using biotinylated SNA showed strong positive bands at 50 kDa, indicating the glycosylated heavy chain, for IgG produced in both ST6GAL1 stable pools, and no bands were detected for the IgG produced in the control CHOZN  GS-transfected pools (Figure 10B). A duplicate SDS-PAGE gel stained with Coomassie Blue was included in Figure 6 in Supporting Information. This validated the presence of alpha2,6-linked sialic acid in the IgG produced in both ST6GAL1 stable pools.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>27123</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27134</offset>
+      <text>We are the first to report sialic acid enhancement in a GS host cell line that is increasingly employed in biopharmaceutical production. We successfully applied FACS enrichment and single-cell selection for alpha2,6-linked sialic acid host cell engineering, resulting in cell lines overexpressing functional ST6GAL1. FITC-SNA stain did not seem to exhibit cytotoxicity nor affect clonal outgrowth in presence of 10% FBS. FACS enrichment started from a stably transfected pool in chemically defined suspension culture and single-cell clones with top 5% FITC-SNA fluorescence were plated in media containing 10% FBS. The serum-containing static cultures (96 well and 24 well, Figure 4) demonstrated similar relative FITC-SNA fluorescence intensity. After adaptation into chemically defined suspension cultures, some ST6GAL1 overexpression clones (such as clone 32) maintain very stable FITC-SNA fluorescence, whereas others showed reduction in relative FITC-SNA fluorescence and less % positive with similar FACS gating strategy. Indeed, a recent publication reported sialylation changes during the serum-free adaptation process. Suspension adaptation may also alter surface sialic acid by physical sheer or physiological mechanism such as accelerated sialic acid degradation. Similarly, the role of surface sialic acid has been well studied in cellular adhesion process. All clones exhibited clumping in suspension culture, which was corrected after incorporating dextran sulfate in the media, implying that increased surface sialic acid may alter cell adhesion properties. On a practical note, the FACS-enriched stable pools can certainly be used for serum-free or chemically defined single-cell selection for biopharmaceutical production. Likewise, 96-well shaken cultures can be introduced in the clone selection process to reduce the risk of selecting clones that tend to lose alpha2,6-linked sialic acids during adaptation to shaken cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29081</offset>
+      <text>The clones have varied levels of St6gal1 expression, which may be attributed to position effect of random genomic integration. The lack of linear correlation between recombinant St6gal1 mRNA and surface alpha2,6-linked sialic acid may imply a threshold-type dose response. Clone 32 has the highest FITC-SNA stain and mRNA level among the clones screened. Some clones have increased FITC-SNA stains, indicating the desired phenotype (alpha2,6-linked sialic acid), but much lower mRNA levels than Clone 32. One should start with sufficient number of candidate clones and use phenotypic screen (SNA binding) as the primary criteria, in order to ensure high levels of alpha2,6-linked sialic acid in the recombinant therapeutic proteins produced by the engineered host cell lines.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29857</offset>
+      <text>The N-glycan analyses using total cellular proteins demonstrated that ST6GAL1 overexpression in Clone 31 and 32 was sufficient to generate complex sialylated glycans with both linkages, while the CHOZN  GS host line with no ST6GAL1 had lower abundant complex glycans in cellular proteins (and nondetectable sialylated glycans). Despite the drastically different St6gal1 mRNA levels, the difference between the two clones is that ST6GAL1_OE_32 has 10 peaks fully determined 2,6 linkage and ST6GAL1_31 has 5, but not a significant difference in % total glycans (Figure 8). This also appears to support the threshold theory for St6gal expression.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30502</offset>
+      <text>Previous work reported altered proportions of sialylation but no report of net increase in total sialic acid. One limiting factor for sialylation is sufficient transgolgi pool of CMP-sialic acid. Overexpression of ST6GAL1 in a cell line with no endogenous expression may lead to potential substrate competition between the two classes of sialyltransferases and even a decrease of alpha2,3-linked sialic acid. Another limiting factor for sialylation is feedback regulatory mechanisms based on concentrations of CMP-sialic acid or UDP-GlcNAc. The net increase in sialic acid content that we reported may indicate that either CHO K1 host cells provide enough substrate to accommodate sialyltransferase OE or can override these potential negative regulatory mechanisms to achieve net increase of N-linked sialylation. Additionally, based on the qRT-PCR results of the closely related genes of the N-glycan biosynthesis pathway, it was found that there was no occurrence of up- or down-regulation of the ST3 transferase genes or the beta1,4-galactosyltransferase (B4galt1) in the ST6GAL1_OE clones (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31613</offset>
+      <text>As previously reported, "minipool" selection has demonstrated significant advantage over bulk selection. It is fascinating that the ST6GAL1 OE host cell line demonstrated higher producing stable pools after minus glutamine selection, albeit about a week longer for recovery time than the CHOZN GS host line. We speculate that the observed decreased specific growth rate in the ST6GAL1_OE clones that is similar to Onitsuka et al description may allow for sufficient expression of recombinant GS for the transfectants to overcome selection and hence led to higher expressing stable pools. In static culture, the altered surface adhesion could also contribute to better recovery in a bulk stable pool. This gained characteristic may enable bypass of "minipool" selection and evaluation and proceed to single-cell cloning directly from bulk pool selection, which would save at least four weeks in cell line development according to our current protocols.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32573</offset>
+      <text>Cell engineering sometimes requires reasonable compromise and balance between existing characteristics and the gained function. In simple fed-batch, the peak viable cell density (VCD) of ST6GAL1_OE_32 is 4-5x106/mL, whereas CHOZN  GS host cell line is routinely 8-9x106/mL (data not shown). Although the growth was much improved from previously reported, it can be further improved through media and process optimization, particularly in producing clones. For host cell engineering, selecting clones with similar ST6GAL1 overexpression but higher growth from more candidates can also solve this. ST6GAL1 OE host cell lines can be very well suitable for pharmaceutical production after optimizing growth during clone selection or upstream process development. Furthermore, combinatorial overexpression approaches, despite the well-known challenges, may provide further increase in sialylation. Our St6gal1 OE cell lines aim for an improved baseline for sialylation development than wild-type CHO host cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33587</offset>
+      <text>Additionally, this work may contribute to host cell engineering for cell culture vaccine production. Membrane protein sialylation is critical in the mechanism of viral entry to mammalian cells. Influenza hemagglutinin interacts with sialylated membrane receptors that mediate membrane fusion during infection. alpha2,6-Linked sialic acid is considered essential for the infectivity; the ratio of the linkages may alter species preference, as the H7N9 influenza viruses in the most recent epidemic in Asia was reported to have preference with alpha2,3-linked over alpha2,6-linked sialic acid. Consistent with these mechanisms, Bilsel demonstrated that overexpression of human ST6GAL1 led to influenza infectivity to CHO cells. CHO cells are easier to culture in animal component free and chemically defined media compared with other current cell culture vaccine host cell lines such as Vero, MDCK, and PER.C6  cells. Host cell engineering through sialic acid modulation may provide a viable approach for vaccine production in CHO cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34623</offset>
+      <text>In conclusion, this work represents our ongoing effort of glycoengineering in CHO host cell lines for the development of "bio-better" protein therapeutics and cell culture vaccine production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>34819</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>34842</offset>
+      <text>Additional Supporting Information may be found in the online version of this article.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>34928</offset>
+      <text>                </text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>34945</offset>
+      <text>Literature Cited</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Rudd;given-names:PM</infon>
+      <infon key="name_2">surname:Sim;given-names:RB</infon>
+      <infon key="name_1">surname:Wormald;given-names:MR</infon>
+      <infon key="name_0">surname:Arnold;given-names:JN</infon>
+      <infon key="fpage">21</infon>
+      <infon key="pub-id_pmid">17029568</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Annu Rev Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">50</infon>
+      <infon key="name_4">surname:Dwek;given-names:RA</infon>
+      <offset>34962</offset>
+      <text>The impact of glycosylation on the biological function and structure of human immunoglobulins</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="name_2">surname:O'Kennedy;given-names:R</infon>
+      <infon key="name_1">surname:Donohoe;given-names:GG</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Byrne;given-names:B</infon>
+      <infon key="fpage">319</infon>
+      <infon key="pub-id_pmid">17395092</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Drug Discov Today</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">326</infon>
+      <offset>35056</offset>
+      <text>Sialic acids: carbohydrate moieties that influence the biological and physical properties of biopharmaceutical proteins and living cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Asanagi;given-names:M</infon>
+      <infon key="name_2">surname:Abe;given-names:R</infon>
+      <infon key="name_1">surname:Yokomatsu;given-names:T</infon>
+      <infon key="name_0">surname:Fukuta;given-names:K</infon>
+      <infon key="fpage">895</infon>
+      <infon key="pub-id_pmid">11511814</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Glycoconj J</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">904</infon>
+      <infon key="name_4">surname:Makino;given-names:T</infon>
+      <offset>35193</offset>
+      <text>Genetic engineering of CHO cells producing human interferon-gamma by transfection of sialyltransferases</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="name_2">surname:Li;given-names:ZJ</infon>
+      <infon key="name_1">surname:Khattak;given-names:SF</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hossler;given-names:P</infon>
+      <infon key="fpage">936</infon>
+      <infon key="pub-id_pmid">19494347</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">949</infon>
+      <offset>35297</offset>
+      <text>Optimal and consistent protein glycosylation in mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="name_2">surname:James;given-names:DC</infon>
+      <infon key="name_1">surname:Parekh;given-names:RB</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jenkins;given-names:N</infon>
+      <infon key="fpage">975</infon>
+      <infon key="pub-id_pmid">9631034</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">981</infon>
+      <offset>35368</offset>
+      <text>Getting the glycosylation right: implications for the biotechnology industry</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="name_1">surname:Chen;given-names:X</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Li;given-names:Y</infon>
+      <infon key="fpage">887</infon>
+      <infon key="pub-id_pmid">22526796</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">905</infon>
+      <offset>35445</offset>
+      <text>Sialic acid metabolism and sialyltransferases: natural functions and applications</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Santoris;given-names:M</infon>
+      <infon key="name_2">surname:Etcheverry;given-names:T</infon>
+      <infon key="name_1">surname:Ryll;given-names:T</infon>
+      <infon key="name_0">surname:Santell;given-names:L</infon>
+      <infon key="fpage">132</infon>
+      <infon key="pub-id_pmid">10222248</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">258</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Warner;given-names:TG</infon>
+      <infon key="lpage">137</infon>
+      <infon key="name_6">surname:Gunson;given-names:J</infon>
+      <infon key="name_5">surname:Wang;given-names:A</infon>
+      <infon key="name_4">surname:Dutina;given-names:G</infon>
+      <offset>35527</offset>
+      <text>Aberrant metabolic sialylation of recombinant proteins expressed in Chinese hamster ovary cells in high productivity cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kato;given-names:T</infon>
+      <infon key="name_2">surname:Miyazaki;given-names:H</infon>
+      <infon key="name_1">surname:Takasaki;given-names:S</infon>
+      <infon key="name_0">surname:Takeuchi;given-names:M</infon>
+      <infon key="fpage">3657</infon>
+      <infon key="pub-id_pmid">3346214</infon>
+      <infon key="year">1988</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">263</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3663</infon>
+      <infon key="name_6">surname:Kobata;given-names:A</infon>
+      <infon key="name_5">surname:Kochibe;given-names:N</infon>
+      <infon key="name_4">surname:Hoshi;given-names:S</infon>
+      <offset>35653</offset>
+      <text>Comparative study of the asparagine-linked sugar chains of human erythropoietins purified from urine and the culture medium of recombinant Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Reinhold;given-names:VN</infon>
+      <infon key="name_2">surname:Ashline;given-names:DJ</infon>
+      <infon key="name_1">surname:Nimmerjahn;given-names:F</infon>
+      <infon key="name_0">surname:Anthony;given-names:RM</infon>
+      <infon key="fpage">373</infon>
+      <infon key="pub-id_pmid">18420934</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">320</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">376</infon>
+      <infon key="name_5">surname:Ravetch;given-names:JV</infon>
+      <infon key="name_4">surname:Paulson;given-names:JC</infon>
+      <offset>35820</offset>
+      <text>Recapitulation of IVIG antiinflammatory activity with a recombinant IgG Fc</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_1">surname:Ravetch;given-names:JV</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Anthony;given-names:RM</infon>
+      <infon key="fpage">S9</infon>
+      <infon key="pub-id_pmid">20480216</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Clin Immunol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">S14</infon>
+      <offset>35895</offset>
+      <text>A novel role for the IgG Fc glycan: the anti-inflammatory activity of sialylated IgG Fcs</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="name_2">surname:Weidemann;given-names:W</infon>
+      <infon key="name_1">surname:Horstkorte;given-names:R</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bork;given-names:K</infon>
+      <infon key="fpage">3499</infon>
+      <infon key="pub-id_pmid">19199295</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">J Pharm Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3508</infon>
+      <offset>35984</offset>
+      <text>Increasing the sialylation of therapeutic glycoproteins: the potential of the sialic acid biosynthetic pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Butler;given-names:M</infon>
+      <infon key="fpage">57</infon>
+      <infon key="pub-id_pmid">19003071</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">76</infon>
+      <offset>36095</offset>
+      <text>Optimisation of the cellular metabolism of glycosylation for recombinant proteins produced by mammalian cell systems</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Islas-Trejo;given-names:A</infon>
+      <infon key="name_2">surname:Rincon;given-names:G</infon>
+      <infon key="name_1">surname:Hua;given-names:S</infon>
+      <infon key="name_0">surname:Wickramasinghe;given-names:S</infon>
+      <infon key="fpage">e18895</infon>
+      <infon key="pub-id_pmid">21541029</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">PLoS one</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_6">surname:Medrano;given-names:JF</infon>
+      <infon key="name_5">surname:Lebrilla;given-names:CB</infon>
+      <infon key="name_4">surname:German;given-names:JB</infon>
+      <offset>36212</offset>
+      <text>Transcriptome profiling of bovine milk oligosaccharide metabolism genes using RNA-sequencing</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:May;given-names:LM</infon>
+      <infon key="name_2">surname:Goh;given-names:JS</infon>
+      <infon key="name_1">surname:Wong;given-names:NS</infon>
+      <infon key="name_0">surname:Wong;given-names:DC</infon>
+      <infon key="fpage">516</infon>
+      <infon key="pub-id_pmid">20521304</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">107</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">528</infon>
+      <infon key="name_4">surname:Yap;given-names:MG</infon>
+      <offset>36305</offset>
+      <text>Profiling of N-glycosylation gene expression in CHO cell fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kim;given-names:JH</infon>
+      <infon key="volume">21</infon>
+      <infon key="name_2">surname:Park;given-names:SY</infon>
+      <infon key="name_1">surname:Jeong;given-names:YT</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Son;given-names:YD</infon>
+      <infon key="fpage">1019</infon>
+      <infon key="pub-id_pmid">21436238</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1028</infon>
+      <offset>36381</offset>
+      <text>Enhanced sialylation of recombinant human erythropoietin in Chinese hamster ovary cells by combinatorial engineering of selected genes</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="name_2">surname:Wang;given-names:DI</infon>
+      <infon key="name_1">surname:Yap;given-names:MG</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wong;given-names:NS</infon>
+      <infon key="fpage">1005</infon>
+      <infon key="pub-id_pmid">16432895</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1016</infon>
+      <offset>36516</offset>
+      <text>Enhancing recombinant glycoprotein sialylation through CMP-sialic acid transporter over expression in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Tang;given-names:GL</infon>
+      <infon key="name_2">surname:Brushett;given-names:FR</infon>
+      <infon key="name_1">surname:Miller;given-names:PG</infon>
+      <infon key="name_0">surname:Ngantung;given-names:FA</infon>
+      <infon key="fpage">106</infon>
+      <infon key="pub-id_pmid">16673415</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">95</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">119</infon>
+      <infon key="name_4">surname:Wang;given-names:DI</infon>
+      <offset>36646</offset>
+      <text>RNA interference of sialidase improves glycoprotein sialic acid content consistency</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kayser;given-names:KJ</infon>
+      <infon key="name_2">surname:Ross;given-names:JS</infon>
+      <infon key="name_1">surname:Koskie;given-names:K</infon>
+      <infon key="name_0">surname:Zhang;given-names:M</infon>
+      <infon key="fpage">1094</infon>
+      <infon key="pub-id_pmid">20014139</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">105</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1105</infon>
+      <infon key="name_4">surname:Caple;given-names:MV</infon>
+      <offset>36730</offset>
+      <text>Enhancing glycoprotein sialylation by targeted gene silencing in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Monaco;given-names:L</infon>
+      <infon key="volume">26</infon>
+      <infon key="name_2">surname:Marc;given-names:A</infon>
+      <infon key="name_1">surname:Buckberry;given-names:L</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jenkins;given-names:N</infon>
+      <infon key="fpage">S115</infon>
+      <infon key="pub-id_pmid">9649790</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Biochem Soc Trans</infon>
+      <infon key="type">ref</infon>
+      <offset>36811</offset>
+      <text>Genetic engineering of alpha 2,6-sialyltransferase in recombinant CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">264</infon>
+      <infon key="name_2">surname:Paulson;given-names:JC</infon>
+      <infon key="name_1">surname:Roth;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lee;given-names:EU</infon>
+      <infon key="fpage">13848</infon>
+      <infon key="pub-id_pmid">2668274</infon>
+      <infon key="year">1989</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">13855</infon>
+      <offset>36887</offset>
+      <text>Alteration of terminal glycosylation sequences on N-linked oligosaccharides of Chinese hamster ovary cells by expression of beta-galactoside alpha 2,6-sialyltransferase</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_2">surname:Bailey;given-names:JE</infon>
+      <infon key="name_1">surname:Kallio;given-names:PT</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Minch;given-names:SL</infon>
+      <infon key="fpage">348</infon>
+      <infon key="pub-id_pmid">7619404</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">351</infon>
+      <offset>37056</offset>
+      <text>Tissue plasminogen activator coexpressed in Chinese hamster ovary cells with alpha(2,6)-sialyltransferase contains NeuAc alpha(2,6)Gal beta(1,4)Glc-N-AcR linkages</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Acerbis;given-names:G</infon>
+      <infon key="name_2">surname:Eon-Duval;given-names:A</infon>
+      <infon key="name_1">surname:Marc;given-names:A</infon>
+      <infon key="name_0">surname:Monaco;given-names:L</infon>
+      <infon key="fpage">197</infon>
+      <infon key="pub-id_pmid">22358930</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Jenkins;given-names:N</infon>
+      <infon key="name_7">surname:Soria;given-names:M</infon>
+      <infon key="lpage">203</infon>
+      <infon key="name_6">surname:Engasser;given-names:JM</infon>
+      <infon key="name_5">surname:Lamotte;given-names:D</infon>
+      <infon key="name_4">surname:Distefano;given-names:G</infon>
+      <offset>37219</offset>
+      <text>Genetic engineering of alpha 2,6-sialyltransferase in recombinant CHO cells and its effects on the sialylation of recombinant interferon-gamma</text>
+    </passage>
+    <passage>
+      <infon key="volume">1425</infon>
+      <infon key="name_2">surname:Kon;given-names:OL</infon>
+      <infon key="name_1">surname:Lok;given-names:SH</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Zhang;given-names:X</infon>
+      <infon key="fpage">441</infon>
+      <infon key="pub-id_pmid">9838208</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">452</infon>
+      <offset>37362</offset>
+      <text>Stable expression of human alpha-2,6-sialyltransferase in Chinese hamster ovary cells: functional consequences for human erythropoietin expression and bioactivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Warner;given-names:TG</infon>
+      <infon key="fpage">841</infon>
+      <infon key="pub-id_pmid">10460826</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">850</infon>
+      <offset>37525</offset>
+      <text>Enhancing therapeutic glycoprotein production in Chinese hamster ovary cells by metabolic engineering endogenous gene control with antisense DNA and gene targeting</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Acerbis;given-names:G</infon>
+      <infon key="name_2">surname:Buckberry;given-names:LD</infon>
+      <infon key="name_1">surname:Distefano;given-names:G</infon>
+      <infon key="name_0">surname:Bragonzi;given-names:A</infon>
+      <infon key="fpage">273</infon>
+      <infon key="pub-id_pmid">10779678</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">1474</infon>
+      <infon key="name_10">surname:Monaco;given-names:L</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Jenkins;given-names:N</infon>
+      <infon key="name_8">surname:Soria;given-names:MR</infon>
+      <infon key="name_7">surname:Marc;given-names:A</infon>
+      <infon key="lpage">282</infon>
+      <infon key="name_6">surname:Campi;given-names:G</infon>
+      <infon key="name_5">surname:Lamotte;given-names:D</infon>
+      <infon key="name_4">surname:Foglieni;given-names:C</infon>
+      <offset>37689</offset>
+      <text>A new Chinese hamster ovary cell line expressing alpha 2,6-sialyltransferase used as universal host for the production of human-like sialylated recombinant glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Son;given-names:YD</infon>
+      <infon key="name_2">surname:Lim;given-names:HR</infon>
+      <infon key="name_1">surname:Choi;given-names:O</infon>
+      <infon key="name_0">surname:Jeong;given-names:YT</infon>
+      <infon key="fpage">1945</infon>
+      <infon key="pub-id_pmid">19131698</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">J Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">18</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1952</infon>
+      <infon key="name_5">surname:Kim;given-names:JH</infon>
+      <infon key="name_4">surname:Kim;given-names:HJ</infon>
+      <offset>37859</offset>
+      <text>Enhanced sialylation of recombinant erythropoietin in CHO cells by human glycosyltransferase expression</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kawaguchi;given-names:A</infon>
+      <infon key="name_2">surname:Ozaki;given-names:H</infon>
+      <infon key="name_1">surname:Kim;given-names:WD</infon>
+      <infon key="name_0">surname:Onitsuka;given-names:M</infon>
+      <infon key="fpage">69</infon>
+      <infon key="pub-id_pmid">22205442</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">94</infon>
+      <infon key="name_10">surname:Omasa;given-names:T</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Ohtake;given-names:H</infon>
+      <infon key="name_8">surname:Kumagai;given-names:I</infon>
+      <infon key="name_7">surname:Asano;given-names:R</infon>
+      <infon key="lpage">80</infon>
+      <infon key="name_6">surname:Fujiyama;given-names:K</infon>
+      <infon key="name_5">surname:Kajiura;given-names:H</infon>
+      <infon key="name_4">surname:Honda;given-names:K</infon>
+      <offset>37963</offset>
+      <text>Enhancement of sialylation on humanized IgG-like bispecific antibody by overexpression of alpha 2,6-sialyltransferase derived from Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Calabro;given-names:V</infon>
+      <infon key="name_2">surname:Iss;given-names:C</infon>
+      <infon key="name_1">surname:Donadio-Andrei;given-names:S</infon>
+      <infon key="name_0">surname:Mai;given-names:N</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Glycosylation Engineering of Biopharmaceuticals</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">988</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">29</infon>
+      <infon key="name_5">surname:Beck;given-names:A</infon>
+      <infon key="name_4">surname:Ronin;given-names:C</infon>
+      <offset>38122</offset>
+      <text>Engineering a Human-Like Glycosylation to Produce Therapeutic Glycoproteins Based on 6-Linked Sialylation in CHO Cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lin;given-names:N</infon>
+      <infon key="volume">104</infon>
+      <infon key="name_2">surname:Kayser;given-names:KJ</infon>
+      <infon key="name_1">surname:Borgschulte;given-names:T</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bahr;given-names:SM</infon>
+      <infon key="fpage">1041</infon>
+      <infon key="pub-id_pmid">19557832</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1046</infon>
+      <offset>38241</offset>
+      <text>Using microarray technology to select housekeeping genes in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:George;given-names:HJ</infon>
+      <infon key="name_2">surname:Brooks;given-names:JK</infon>
+      <infon key="name_1">surname:Davis;given-names:AM</infon>
+      <infon key="name_0">surname:Sealover;given-names:NR</infon>
+      <infon key="fpage">24</infon>
+      <infon key="pub-id_pmid">23777858</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">167</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">32</infon>
+      <infon key="name_5">surname:Lin;given-names:N</infon>
+      <infon key="name_4">surname:Kayser;given-names:KJ</infon>
+      <offset>38329</offset>
+      <text>Engineering Chinese hamster ovary (CHO) cells for producing recombinant proteins with simple glycoforms by zinc-finger nuclease (ZFN)-mediated gene knockout of mannosyl (alpha-1,3-)-glycoprotein beta-1,2-N-acetylglucosaminyltransferase (Mgat1)</text>
+    </passage>
+    <passage>
+      <infon key="volume">203</infon>
+      <infon key="name_1">surname:Taylor;given-names:PB</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Anumula;given-names:KR</infon>
+      <infon key="fpage">101</infon>
+      <infon key="pub-id_pmid">1524204</infon>
+      <infon key="year">1992</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">108</infon>
+      <offset>38573</offset>
+      <text>A comprehensive procedure for preparation of partially methylated alditol acetates from glycoprotein carbohydrates</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gu;given-names:X</infon>
+      <infon key="name_2">surname:Becht;given-names:S</infon>
+      <infon key="name_1">surname:Zhang;given-names:J</infon>
+      <infon key="name_0">surname:Klapoetke;given-names:S</infon>
+      <infon key="fpage">315</infon>
+      <infon key="pub-id_pmid">20418045</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Pharm Biomed Anal</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">53</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">324</infon>
+      <infon key="name_4">surname:Ding;given-names:X</infon>
+      <offset>38688</offset>
+      <text>The evaluation of a novel approach for the profiling and identification of N-linked glycan with a procainamide tag by HPLC with fluorescent and mass spectrometric detection</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mann;given-names:M</infon>
+      <infon key="volume">6</infon>
+      <infon key="name_2">surname:Nagaraj;given-names:N</infon>
+      <infon key="name_1">surname:Zougman;given-names:A</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wisniewski;given-names:JR</infon>
+      <infon key="fpage">359</infon>
+      <infon key="pub-id_pmid">19377485</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Nat Methods</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">362</infon>
+      <offset>38861</offset>
+      <text>Universal sample preparation method for proteome analysis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wang;given-names:T</infon>
+      <infon key="name_2">surname:Heng;given-names:D</infon>
+      <infon key="name_1">surname:Tan;given-names:DL</infon>
+      <infon key="name_0">surname:Zhang;given-names:P</infon>
+      <infon key="fpage">526</infon>
+      <infon key="pub-id_pmid">20826224</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">536</infon>
+      <infon key="name_6">surname:Song;given-names:Z</infon>
+      <infon key="name_5">surname:Yang;given-names:Y</infon>
+      <infon key="name_4">surname:Mariati</infon>
+      <offset>38919</offset>
+      <text>A functional analysis of N-glycosylation-related genes on sialylation of recombinant erythropoietin in six commonly used mammalian cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Nagarajan;given-names:H</infon>
+      <infon key="name_2">surname:Li;given-names:Y</infon>
+      <infon key="name_1">surname:Liu;given-names:X</infon>
+      <infon key="name_0">surname:Lewis;given-names:NE</infon>
+      <infon key="pub-id_pmid">23873082</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_20">surname:Palsson;given-names:BO</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">765</infon>
+      <infon key="fpage">759</infon>
+      <infon key="volume">31</infon>
+      <infon key="name_10">surname:Xie;given-names:M</infon>
+      <infon key="name_13">surname:Baycin-Hizal;given-names:D</infon>
+      <infon key="name_14">surname:Latif;given-names:H</infon>
+      <infon key="name_11">surname:Chen;given-names:W</infon>
+      <infon key="name_12">surname:Li;given-names:N</infon>
+      <infon key="name_17">surname:Famili;given-names:I</infon>
+      <infon key="name_18">surname:Xu;given-names:X</infon>
+      <infon key="name_15">surname:Forster;given-names:J</infon>
+      <infon key="name_9">surname:Bian;given-names:C</infon>
+      <infon key="name_16">surname:Betenbaugh;given-names:MJ</infon>
+      <infon key="name_8">surname:Rosenbloom;given-names:J</infon>
+      <infon key="name_7">surname:Roth;given-names:AM</infon>
+      <infon key="name_6">surname:Bordbar;given-names:A</infon>
+      <infon key="name_19">surname:Wang;given-names:J</infon>
+      <infon key="name_5">surname:O'Brien;given-names:E</infon>
+      <infon key="name_4">surname:Yerganian;given-names:G</infon>
+      <offset>39061</offset>
+      <text>Genomic landscapes of Chinese hamster ovary cell lines as revealed by the Cricetulus griseus draft genome</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Pan;given-names:S</infon>
+      <infon key="name_2">surname:Lewis;given-names:NE</infon>
+      <infon key="name_1">surname:Nagarajan;given-names:H</infon>
+      <infon key="name_0">surname:Xu;given-names:X</infon>
+      <infon key="pub-id_pmid">21804562</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_20">surname:Famili;given-names:I</infon>
+      <infon key="name_21">surname:Palsson;given-names:BO</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">741</infon>
+      <infon key="fpage">735</infon>
+      <infon key="volume">29</infon>
+      <infon key="name_10">surname:Andersen;given-names:MR</infon>
+      <infon key="name_13">surname:Koh;given-names:W</infon>
+      <infon key="name_14">surname:Fan;given-names:HC</infon>
+      <infon key="name_11">surname:Neff;given-names:N</infon>
+      <infon key="name_12">surname:Passarelli;given-names:B</infon>
+      <infon key="name_17">surname:Lee;given-names:KH</infon>
+      <infon key="name_18">surname:Betenbaugh;given-names:MJ</infon>
+      <infon key="name_15">surname:Wang;given-names:J</infon>
+      <infon key="name_9">surname:Hammond;given-names:S</infon>
+      <infon key="name_16">surname:Gui;given-names:Y</infon>
+      <infon key="name_8">surname:Wang;given-names:W</infon>
+      <infon key="name_7">surname:Xie;given-names:M</infon>
+      <infon key="name_6">surname:Chen;given-names:W</infon>
+      <infon key="name_19">surname:Quake;given-names:SR</infon>
+      <infon key="name_5">surname:Liu;given-names:X</infon>
+      <infon key="name_4">surname:Cai;given-names:Z</infon>
+      <offset>39167</offset>
+      <text>The genomic sequence of the Chinese hamster ovary (CHO)-K1 cell line</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:McLoughlin;given-names:N</infon>
+      <infon key="name_2">surname:Rodrigues;given-names:ME</infon>
+      <infon key="name_1">surname:Withers;given-names:J</infon>
+      <infon key="name_0">surname:Costa;given-names:AR</infon>
+      <infon key="fpage">563</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Azeredo;given-names:J</infon>
+      <infon key="lpage">572</infon>
+      <infon key="name_6">surname:Rudd;given-names:PM</infon>
+      <infon key="name_5">surname:Oliveira;given-names:R</infon>
+      <infon key="name_4">surname:Henriques;given-names:M</infon>
+      <offset>39236</offset>
+      <text>The impact of cell adaptation to serum-free conditions on the glycosylation profile of a monoclonal antibody produced by Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Varki;given-names:NM</infon>
+      <infon key="volume">68</infon>
+      <infon key="name_2">surname:Varki;given-names:A</infon>
+      <infon key="name_1">surname:Ng;given-names:E</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hedlund;given-names:M</infon>
+      <infon key="fpage">388</infon>
+      <infon key="pub-id_pmid">18199532</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">394</infon>
+      <offset>39385</offset>
+      <text>Alpha 2-6-linked sialic acids on N-glycans modulate carcinoma differentiation in vivo</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wagner;given-names:R</infon>
+      <infon key="volume">64</infon>
+      <infon key="name_2">surname:Conradt;given-names:HS</infon>
+      <infon key="name_1">surname:Nimtz;given-names:M</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Valley;given-names:U</infon>
+      <infon key="fpage">401</infon>
+      <infon key="pub-id_pmid">10397879</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">417</infon>
+      <offset>39473</offset>
+      <text>Incorporation of ammonium into intracellular UDP-activated N-acetylhexosamines and into carbohydrate structures in glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="name_1">surname:Varki;given-names:A</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Varki;given-names:NM</infon>
+      <infon key="fpage">851</infon>
+      <infon key="pub-id_pmid">17632542</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Lab Invest</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">857</infon>
+      <offset>39602</offset>
+      <text>Diversity in cell surface sialic acid presentations: implications for biology and disease</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ferwerda;given-names:W</infon>
+      <infon key="volume">305</infon>
+      <infon key="name_2">surname:Van den Eijnden;given-names:DH</infon>
+      <infon key="name_1">surname:Overdijk;given-names:B</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pels Rijcken;given-names:WR</infon>
+      <infon key="fpage">865</infon>
+      <infon key="pub-id_pmid">7848287</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Biochem J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">870</infon>
+      <offset>39692</offset>
+      <text>The effect of increasing nucleotide-sugar concentrations on the incorporation of sugars into glycoconjugates in rat hepatocytes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yu;given-names:XH</infon>
+      <infon key="name_2">surname:Zhang;given-names:FY</infon>
+      <infon key="name_1">surname:Qi;given-names:Y</infon>
+      <infon key="name_0">surname:Li;given-names:N</infon>
+      <infon key="fpage">147</infon>
+      <infon key="pub-id_pmid">21692563</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Acta Virol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">55</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Kong;given-names:W</infon>
+      <infon key="lpage">153</infon>
+      <infon key="name_6">surname:Jiang;given-names:CL</infon>
+      <infon key="name_5">surname:Chen;given-names:Y</infon>
+      <infon key="name_4">surname:Wu;given-names:YG</infon>
+      <offset>39820</offset>
+      <text>Overexpression of alpha-2,6 sialyltransferase stimulates propagation of human influenza viruses in Vero cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ilaria;given-names:S</infon>
+      <infon key="name_2">surname:Gan;given-names:WY</infon>
+      <infon key="name_1">surname:Gurda-Whitaker;given-names:B</infon>
+      <infon key="name_0">surname:Nam;given-names:HJ</infon>
+      <infon key="fpage">25670</infon>
+      <infon key="pub-id_pmid">16822863</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">281</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Agbandje-McKenna;given-names:M</infon>
+      <infon key="lpage">25677</infon>
+      <infon key="name_6">surname:Alvarez;given-names:RA</infon>
+      <infon key="name_5">surname:Mehta;given-names:P</infon>
+      <infon key="name_4">surname:McKenna;given-names:R</infon>
+      <offset>39930</offset>
+      <text>Identification of the sialic acid structures recognized by min virus of mice and the role of binding affinity in virulence adaptation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Genzel;given-names:Y</infon>
+      <infon key="name_2">surname:Hennig;given-names:R</infon>
+      <infon key="name_1">surname:Rapp;given-names:E</infon>
+      <infon key="name_0">surname:Schwarzer;given-names:J</infon>
+      <infon key="fpage">4325</infon>
+      <infon key="pub-id_pmid">19410619</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Vaccine</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">27</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">4336</infon>
+      <infon key="name_6">surname:Reichl;given-names:U</infon>
+      <infon key="name_5">surname:Sandig;given-names:V</infon>
+      <infon key="name_4">surname:Jordan;given-names:I</infon>
+      <offset>40064</offset>
+      <text>Glycan analysis in cell culture-based influenza vaccine production: influence of host cell line and virus strain on the glycosylation pattern of viral hemagglutinin</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Aguilera;given-names:D</infon>
+      <infon key="name_2">surname:Hai;given-names:R</infon>
+      <infon key="name_1">surname:Krammer;given-names:F</infon>
+      <infon key="name_0">surname:Ramos;given-names:I</infon>
+      <infon key="fpage">2417</infon>
+      <infon key="pub-id_pmid">23950563</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Gen Virol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">94</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Fernandez-Sesma;given-names:A</infon>
+      <infon key="lpage">2423</infon>
+      <infon key="name_6">surname:Garcia-Sastre;given-names:A</infon>
+      <infon key="name_5">surname:Steel;given-names:J</infon>
+      <infon key="name_4">surname:Bernal-Rubio;given-names:D</infon>
+      <offset>40229</offset>
+      <text>H7N9 influenza viruses interact preferentially with alpha 2,3-linked sialic acids and bind weakly to alpha 2,6-linked sialic acids</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bilsel;given-names:P</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">WO Patent</infon>
+      <infon key="type">ref</infon>
+      <offset>40360</offset>
+      <text>Cell-Based Systems for Producing Influenza Vaccines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f1.jpg</infon>
+      <infon key="id">F1</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>40412</offset>
+      <text>FACS analysis and enrichment of cell lines stably transfected with St6gal expression vector</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f1.jpg</infon>
+      <infon key="id">F1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>40504</offset>
+      <text>IgG-producing Clone 27 and Clone N46 demonstrated positive FITC-SNA lectin staining (specific for alpha2,6-linked sialic acid, middle row of histograms). Cells that were positive for FITC-SNA were collected, expanded, and reanalyzed for FITC-SNA staining, with nontransfected cells as control (bottom row of histograms). Nonconjugated SNA was used to stain the cells as background control (top row of histograms).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f2.jpg</infon>
+      <infon key="id">F2</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>40918</offset>
+      <text>Sialic acid linkage analysis of the enriched stable pool overexpressing ST6GAL1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f2.jpg</infon>
+      <infon key="id">F2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>40998</offset>
+      <text>The three sialylated glycans were subjected to MSn analysis (Supporting Information Figures 1 and 2) for sialic acid linkage analysis. The fragmentation patterns obtained by this analysis were compared to alpha2,3- and alpha2,6-sialyllactose standards.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f3.jpg</infon>
+      <infon key="id">F3</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>41251</offset>
+      <text>Total sialic acid content analysis of the enriched stable pool overexpressing ST6GAL1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f3.jpg</infon>
+      <infon key="id">F3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41337</offset>
+      <text>CL27: Clone 27 stably transfected with the zeocin control vector. CL27-St6gal1: enriched stable pool derived from Clone 27 overexpressing ST6GAL1. N46: Clone N46 stably transfected with the zeocin control vector. N46-St6gal1: enriched stable pool derived from Clone N46 overexpressing ST6GAL1. Error bars represent standard deviation of biological duplicates. NANA: N-acetylneuraminic acid. No N-glycolylneuraminic acid (NGNA) was detected.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f4.jpg</infon>
+      <infon key="id">F4</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>41778</offset>
+      <text>FITC-SNA staining of single-cell clones derived from the CHOZN  GS enriched ST6GAL1 stable pool</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f4.jpg</infon>
+      <infon key="id">F4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>41875</offset>
+      <text>A. FACS histograms of two representative single-cell clones overexpressing ST6GAL1 stained with FITC-SNA lectin. B. Histogram of % FITC-SNA (+) cells of the clones isolated from the FITC-SNA enriched pool overexpressing ST6GAL1 (N=208) in static 96-well cultures. C. Histogram of % FITC-SNA (+) cells of the clones with the highest % FITC (+) selected from the clones depicted in Panel B (N=35) in static 24-well cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f5.jpg</infon>
+      <infon key="id">F5</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>42298</offset>
+      <text>Two-color FACS analysis of SNA and MALII lectin staining of ST6GAL1 overexpression clones</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f5.jpg</infon>
+      <infon key="id">F5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>42388</offset>
+      <text>Representative scatter plots with quadrant analysis from the 12 clones overexpressing ST6GAL1 are shown here. The X-axis is fluorescence of FITC-SNA. The Y-axis is fluorescence of AlexaFluor647, representing MALII lectin staining. Each quadrant is labeled with % of total population. The gating was set based on streptavidin-AlexaFluor647 only of each OE clone (scatter plots not shown here) and based on FITC of the nontransfected host cell line, respectively, to exclude background fluorescence.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f6.jpg</infon>
+      <infon key="id">F6</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>42886</offset>
+      <text>Expression assessment of St6gal1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f6.jpg</infon>
+      <infon key="id">F6</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>42919</offset>
+      <text>Quantitative RT-PCR was used to assess the relative expression of St6gal1 in 12 overexpression cell lines and the nontransfected CHOZN GS host cell line. ActR5 was used for normalization. Error bars represent standard deviation of two independent qRT-PCR experiments. Relative expression was reported as fold increase to clone ST6GAL1_4. ND: not detected.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f7.jpg</infon>
+      <infon key="id">F7</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>43276</offset>
+      <text>FTMS (800-2000 m/z) of permethylated glycans found in total cellular protein extracts from two host cell lines with ST6GAL1 overexpressed and the nontransfected CHOZN  GS host cell line</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f7.jpg</infon>
+      <infon key="id">F7</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>43465</offset>
+      <text>The identity of each glycan was observed based on mass and confirmed by fragmentation following total ion mapping conducted on all samples. Full MS-spectra including glycan peak identification are shown here. Tables listing each of the glycans detected are found in Table 2 in Supporting Information. The peaks are labeled by their observed m/z and the glycoform structure.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f8.jpg</infon>
+      <infon key="id">F8</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>43839</offset>
+      <text>Semi-quantitative analysis of sialylated N-glycans</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f8.jpg</infon>
+      <infon key="id">F8</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>43890</offset>
+      <text>The tables summarize the glycoform structure and the sialic acid linkage of all N-glycans containing sialic acid. The percentage of each glycan was calculated by totaling intensities for each peak and calculating percentages from the sum. The solid columns in the graphs indicate both alpha2,3- and alpha2,6-linked sialic acid. The dashed columns indicate alpha2,3-linkage.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f9.jpg</infon>
+      <infon key="id">F9</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>44264</offset>
+      <text>Stable pool productivity and glycoform profiles of IgG produced in ST6GAL1 OE host cell line by intact protein mass</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f9.jpg</infon>
+      <infon key="id">F9</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>44380</offset>
+      <text>A. Day 7 IgG productivity from two stable pools generated from different transfections. The IgG concentrations were normalized by that of the CHOZN GS_Stable pool 1 collected from the first experiment. Error bars represent three independent cell culture experiments. B. The representative mass spectra of the IgG glycoform profiles of a stable IgG-producing "bulk" pool derived from ST6GAL1_OE_32 and a stable pool from the CHOZN  GS host cell line. The top pane shows the de-charged mass spectrum of IgG heavy chain from ST6GAL1_OE_32. Annotated mass peaks are consistent with glycoforms bearing the indicated glycans. Species 50850, 51011, and 51303 are sialyated. The bottom pane shows the mass spectrum of IgG heavy chain from the CHOZN  GS host cell line. C. The IgG glycoform distribution (% of total glycoforms) of two stable pools derived from ST6GAL1_OE_32 and two stable pools from the CHOZN  GS host cell line. G2SA2F (51303) is below quantification limit. Error bars represent three independent cell culture experiments.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f10.jpg</infon>
+      <infon key="id">F10</infon>
+      <infon key="type">fig_caption_title</infon>
+      <offset>45420</offset>
+      <text>Released glycan HPLC-fluorescence-MS analysis and SNA lectin western blotting of IgG produced in ST6GAL1 OE and the control host cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">nihms689075f10.jpg</infon>
+      <infon key="id">F10</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>45560</offset>
+      <text>A. Fluorescence HPLC-based glycoprofiles for IgG expressed in transfected and control cell lines. Released N-glycans were labeled with procainamide and resolved by HILIC normal phase chromatography coupled to a fluorescence detector (308 nm excite, 359 nm emission) and the ESI source of a linear trap mass spectrometer. Each feature has been identified by MS as a procainamide-labeled glycan; peaks 1-4 correspond to sialylated glycans. B. Fluorescence and extracted ion chromatograms (XICs) for the glycoprofile of IgG expressed in a ST6Gal1-transfected cell line pool. Each fluorescence peak corresponded to a characteristic doubly charge ion with a mass consistent with the annotated glycan plus procainamide label (+219 Da). The XICs show the elution of these ions values, +-0.5 m/z. Squares are N-acetylglucosamine, grey circles mannose, triangles fucose, light circles galactose, and diamonds N-acetylneuraminic (sialic) acid. Linkage and anomericity is not conveyed by these data. Peaks 1-4 are glycans with atleast one sialic acid residue. The inset table: % sialylated glycan composition based on fluorescence (Mean+-SD from three independent cell culture experiments). C. Western blotting using biotinylated SNA. Each lane was loaded with 2 mug purified IgG from one of the three cell culture experiments, and the control lane was loaded with 1 mug human transferrin as the positive control for alpha2,6-linked sialic acid. The molecular weight standard was imaged with both chemiluminescence and epi-white light due to the short exposure (0.5 and 1 s) required for adequate chemiluminescence imaging of the high-intensity heavy chain bands.</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>9542549</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_2">surname:Lye;given-names:Gary J.</infon>
+      <infon key="name_1">surname:Lee;given-names:Kenneth</infon>
+      <infon key="article-id_pmid">35441833</infon>
+      <infon key="name_0">surname:Zakrzewski;given-names:Roman</infon>
+      <infon key="notes">  , , . . . ;:. doi:  </infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.3264</infon>
+      <infon key="pub-id_pmid">35441833</infon>
+      <infon key="year">2022</infon>
+      <infon key="article-id_pmc">9542549</infon>
+      <infon key="article-id_publisher-id">BTPR3264</infon>
+      <infon key="fn"> Funding information Engineering and Physical Sciences Research Council, Grant/Award Numbers: EP/L01520X/1, EP/P006485/1</infon>
+      <infon key="alt-title">Zakrzewski et al.</infon>
+      <infon key="source">Biotechnol. Prog</infon>
+      <infon key="article-id_doi">10.1002/btpr.3264</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">e3264</infon>
+      <infon key="volume">38</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol Prog;202207; 38 (4) 3264. doi:10.1002/btpr.3264</infon>
+      <infon key="kwd">CHO cell culture heterogeneity miniature bioreactor mixing scale-down</infon>
+      <infon key="authors">Zakrzewski R, Lee K, Lye GJ, </infon>
+      <offset>0</offset>
+      <text>Development of a miniature bioreactor model to study the impact of pH and DOT fluctuations on CHO cell culture performance as a tool to understanding heterogeneity effects at large-scale</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>189</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>198</offset>
+      <text>Understanding the impact of spatial heterogeneities that are known to occur in large-scale cell culture bioreactors remains a significant challenge. This work presents a novel methodology for mimicking the effects of pH and dissolved oxygen heterogeneities on Chinese hamster ovary (CHO) cell culture performance and antibody quality characteristics, using an automated miniature bioreactor system. Cultures of 4 different cell lines, expressing 3 IgG molecules and one fusion protein, were exposed to repeated pH and dissolved oxygen tension (DOT) fluctuations between pH 7.0-7.5 and DOT 10%-30%, respectively, for durations of 15, 30, and 60 min. Fluctuations in pH had a minimal impact on growth, productivity, and product quality although some changes in lactate metabolism were observed. DOT fluctuations were found to have a more significant impact; a 35% decrease in cell growth and product titre was observed in the fastest growing cell line tested, while all cell lines exhibited a significant increase in lactate accumulation. Product quality analysis yielded varied results; two cell lines showed an increase in the G0F glycan and decrease in G1F, G2F, and Man5; however, another line showed the opposite trend. The study suggests that the response of CHO cells to the effects of fluctuating culture conditions is cell line specific and that higher growing cell lines are most impacted. The miniature bioreactor system described in this work therefore provides a platform for use during early stage cell culture process development to identify cell lines that may be adversely impacted by the pH and DOT heterogeneities encountered on scale-up. This experimental data can be combined with computational modeling approaches to predict overall cell culture performance in large-scale bioreactors.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>2017</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2030</offset>
+      <text>Scaling up bioprocesses from bench to production-scale is crucial in the development of biopharmaceutical products. Small-scale bioreactor models allow for time and cost-efficient development and optimization of cell culture processes. During initial cell line selection, miniature bioreactors within the microliter and milliliter scales are used for high-throughput experimentation to reduce development time and costs. Cultures are then typically scaled up to bioreactors with volumes between 1 and 50 L. Once a robust operating window has been established the process is finally scaled up to production-scale vessels. These can range from single-use bioreactors, up to 3000 L, to larger stainless steel vessels up to 25,000 L. There are a variety of scale-up approaches which become increasingly complex and challenging to implement with scale; larger vessels are known to be less homogeneous due to longer mixing times. The lower agitation and aeration rates used in large-scale cell culture vessels causes fluctuations, or gradients, in temperature, dissolved oxygen concentration, and pH. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3148</offset>
+      <text>In the case of microbial fermentations, a number of publications have described the effects of heterogeneous conditions caused by poor mixing. Similar studies on mammalian cell cultures are rare. As cell densities increase in industrial cell culture processes, heterogeneities are considered more likely and a number of pioneering studies have begun to address this issue. One challenge in studying heterogeneities in large-scale vessels is identifying and characterizing them experimentally. Most production-scale vessels are located in commercial good manufacturing practice (GMP) facilities and hence experimentation is difficult due to the associated costs, availability, as well as the limited numbers of probes installed along the length of the bioreactor. Of the few studies available, Xing et al reported mixing times of over 100 s in a 5 m3 vessel and Lara et al reported higher mixing times of 120-360 s in a 12 m3 stirred tank reactor (STR). Others have shown that in vessels up to 8000 L poor mixing can lead to high pH excursions after base addition. Recently, a study using a transparent 15,000 L bioreactor has shown that correlations assuming a constant dimensionless mixing time are not valid at that scale; deviations up to 20% during single phase operation were reported. For two-phase, gas-liquid, operation the authors were able to visualize temporal and spatial heterogeneities and showed that the dispersed gas phase had a strong influence on liquid mixing time. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4656</offset>
+      <text>Despite the few examples of large-scale bioreactor studies in literature, detailed and reliable data is still missing. This leaves gaps in knowledge around the true nature of mixing regimes within these large vessels. An alternative to experimental studies is the use of computational fluid dynamic (CFD) models to identify phenomena that impact scale-up. Detecting small perturbations in pH or DOT can be difficult with physical probes but is relatively easy using computational methods. CFD has been used to identify and characterize heterogeneities and model their effects on the performance of microbial cultures through coupled kinetic or metabolic models. It remains a challenge to validate the impact of these heterogeneities and very little work on modeling large scale cell culture performance is available.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5477</offset>
+      <text>A number of scale-down approaches have been developed to study the effects of heterogeneities on mammalian cell culture experimentally. In cell culture the addition of base, typically sodium hydroxide or sodium bicarbonate, is used for pH control and these additions can give rise to regions of high pH around the "addition zone." Experimental scale-down models have been designed to mimic this and are typically characterized as single or multi-compartment models. In a single compartment model, a parameter (for example pH) is fluctuated throughout the whole vessel to simulate heterogeneities at large scale. In a multi-compartment model the fluctuation is introduced in a smaller bioreactor, either a STR or plug flow reactor (PFR), which represents the "addition zone." This reactor is connected to a larger STR which represents the "bulk" or well-mixed fraction of the production-scale bioreactor and the culture fluid is constantly circulated through both vessels. This is considered to provide the most accurate representation of what cells may experience in a heterogeneous large-scale vessel. Paul and Herwig provide a review of different scale-down models for cell culture applications. Design considerations to be addressed when developing multi-compartment scale-down models include: pH fluctuation amplitude, fluctuation frequency, fluctuation duration (or residence time within base addition zone), volume of base addition zone, and mixing time.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6970</offset>
+      <text>Several groups have developed scale-down compartment models to investigate heterogeneity effects. Their approaches have two key differences: (i) whether the perturbation is a single shift or multiple shifts (i.e., the frequency of perturbation), and (ii) the volume of culture exposed to the fluctuation. To address perturbation frequency Osman et al attempted both single and multiple perturbations and showed that regular perturbations, reaching pH 8.0 and 9.0, with durations of 200 s repeated every 6 min, had a significant impact on growth of GS-NS0 cultures. Other studies have chosen not to fix the frequency of perturbations and only create a perturbation in the smaller bioreactor when the larger ("bulk") STR requires base addition as would occur at large-scale. This approach has demonstrated that pH perturbations have an effect on Chinese hamster ovary (CHO) cell growth and productivity. The effects may be cell line specific as other studies have found little effect of pH fluctuations in these compartment models. The issue of "percentage volume exposure" is difficult to address because there is very little data on the size of the base addition zone. Namdev et al. suggests that the smallest zone of heterogeneity was 0.5% of total bioreactor volume in a study of Saccharomyces cerevisiae fermentation in a 300 m3 STR. Others suggest this to be higher, around 1% or 5%. The compartment model used by Osman et al. exposed 17% of the culture to the perturbations. Studies on the effect of DOT fluctuations are rarer but there is some evidence that DOT fluctuations affect N-linked glycosylation but not productivity of a hybridoma cell line. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8652</offset>
+      <text>Traditional compartment models using STRs and PFRs can be complex to set up and are not amenable to modern high throughput experimentation. This study presents a new approach to creation of a single-compartment model using the ambr 15 automated miniature bioreactor system. The aim is to mimic the conditions within a small zone of a large-scale vessel where the cells would be exposed to heterogeneities. The utility of this approach is that it will enable rapid identification of cell lines which might be vulnerable to fluctuations in pH and/or DOT. This study describes the development of a fluctuation methodology in ambr 15 bioreactors and initial evaluation of a number of cell lines with different growth characteristics. The impact of pH and DOT fluctuations on growth and productivity as well as product quality was assessed. The data obtained from these scaled-down studies could be fed into computational population balance models which could then predict overall behavior of the cell lines at large-scale as has been demonstrated with microbial fermentations. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>9736</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9758</offset>
+      <text>Cell line and inoculum preparation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9793</offset>
+      <text>Four recombinant GS-CHO cell lines were used in this study: AZCL_1, AZCL_3, AZCL_4, and AZCL_5 from AstraZeneca. All cell lines were developed in proprietary media and produce monoclonal antibodies (MAbs). AZCL_1 produces a bispecific fab fragment fusion antibody and the other cell lines produce different IgG1 MAbs. Prior to bioreactor inoculation a vial of the cell line stock was thawed and cultured aseptically in a 250 ml shake flask in a shaken incubator (SANYO E&amp;E Europe BV, Etten-Leur, The Netherlands) at 140 rpm, 5% vol/vol CO2, and 36.5 C. The culture was passaged every 3-4 days until used for bioreactor inoculation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10438</offset>
+      <text>Bioreactor setup and operation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10469</offset>
+      <text>The ambr 15 system (Sartorius Stedim Biotech, Royston, UK) is widely used in industry as a tool for high-throughput process development and is described in detail elsewhere. Each ambr 15 vessel is equipped with one pitched blade impeller, a sparge tube, and sensors to monitor and control pH, dissolved oxygen tension (DOT) and temperature. Set points can be changed independently for each bioreactor and are maintained via PI control. The ambr 15 vessels were inoculated at a seeding density of 0.7 x 106 cells ml-1 in an initial volume of 13.5 ml. The temperature of each vessel was controlled at 35.5 +- 0.5 C. The pH was controlled to a set point of 7.0 +- 0.1 using CO2 (max flowrate 1.23 ml min-1) and 1 M sodium bicarbonate. DOT was controlled at 50% of air saturation using oxygen. These set points were used for all experiments unless otherwise stated, that is, when conducting cultures with fluctuating pH or DOT conditions as discussed later. Pure nitrogen was sparged at a constant rate of 0.15 or 1.00 ml min-1. A solution of 0.5% vol/vol Antifoam C (Sigma Aldrich, Germany) was added to each vessel at an average rate of 20 mul per day. Proprietary media and feeds were used. Nutrient feeds were added periodically and glucose was maintained with daily additions of 500 g L-1 glucose stock solution.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11822</offset>
+      <text>Cell culture analytics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11845</offset>
+      <text>Daily measurements of metabolite concentrations (glucose and lactate) were made using a YSI 2900 analyzer (YSI Life Sciences, Yellow Springs, USA). All other measurements were made every 2 days. Viable cell density and viability measurements were made using a ViCell XR (Beckman Coulter, High Wycombe, UK) which uses the trypan blue dye exclusion method. Offline pH, pO2 and pCO2 measurements were also taken every 2 days using an ABL90 Flex Plus (Radiometer Ltd, Crawley, UK) blood gas analyzer. Beginning on day 2, samples were also taken for antibody titre measurements. Supernatant was analyzed using the Octet (ForteBio, California, USA) which uses a protein A-based quantification method.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12546</offset>
+      <text>Product quality analytics (end point)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12584</offset>
+      <text>Harvested cell culture broth (cultures end on day 14) was centrifuged and then filtered through a 0.22 mum SteriFlip vacuum filter (Merck Millipore, Massachusetts, USA) before being purified using a TECAN automated liquid handling system (TECAN, Mannedorf, Switzerland) equipped with RoboColumns containing MabSelect SuRe Protein A resin (Sigma-Aldrich). Antibody purity and aggregation was determined using a standard HPLC-SEC method using an Agilent 1200/1100 HPLC system (Aglient Technologies, Santa Clara, USA) with a TSKgel column (Sigma-Aldrich). Protein fragmentation was determined using a standard capillary electrophoresis (CE-SDS) method with a Beckman PA800 Plus instrument (Beckman Coulter). Glycan profiles were obtained using a semi-quantitative method of reversed phase HPLC (RP-HPLC) combined with quadruple time-of-flight (QTOF) mass spectrometry (MS). Samples were reduced with dithiothreitol (DTT) and glycans released using N-Glycosidase F (PGNase F, VWR Cat#3261). Samples were injected onto an Acquity UPLC BEH300 column (Waters UK, Elstree, UK), from which the eluate was directly fed into the SYNAPT mass spectrometer (Waters UK) with electrospray ionization (ESI). The mass to charge raw data was deconvoluted to a relative mass; the largest peak in each chromatogram is always the G0F glycoform and all other glycoforms are inferred based on their mass relative to the G0F peak.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14010</offset>
+      <text>Derived cell-specific parameters</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14045</offset>
+      <text>Average cell-specific glucose consumption (qGluc), lactate production (qLac) and protein production (qp) rates were determined by linear regression of cumulative production (or consumption) against the cumulative integral of viable cell density (cIVC), using the following equations: where IVC  t  is the cumulative integral of viable density at time t (cells-day ml-1), VCD is the viable cell density (cells ml-1), and t is time (days). The maximum specific growth rate was determined from the highest specific growth rate of the culture calculated between measured time points using the equation below: </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14661</offset>
+      <text>Glucose consumption per day, gluc cont , was calculated using the following equation:where [gluct] is the concentration of glucose in the culture at time t. Cumulative values for product concentration and gluccont were then determined and rates were calculated from data during the stationary and exponential phases of cell growth. Lactate production rates were calculated between two time periods: day 0-6 and day 6-10, in order to account for the change in lactate profile due to consumption.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15160</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15181</offset>
+      <text>To test significance between certain conditions a simple two-tailed Student's T-test was used in MATLAB (Mathworks, USA). Conditions yielding p values lower than 0.05 were considered statistically significant.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>15395</offset>
+      <text>RESULTS AND DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15418</offset>
+      <text>Inducing dissolved oxygen and pH fluctuations in a high throughput miniature bioreactor</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15506</offset>
+      <text>Two-compartment scale-down models used to study large-scale bioreactor heterogeneities have complex setups and required liter quantities of media making them time consuming and expensive to implement. The current work addresses this problem by using an automated miniature bioreactor platform to mimic just a portion of a larger scale vessel, representing the heterogeneous environment that a small volume of cells is exposed to. The simulation of heterogeneity is achieved by introducing programmed pH and DOT fluctuations in a well-mixed miniature bioreactor. The pH and DOT set points are changed at fixed regular intervals and durations, similar to the approach taken by Osman et al. Using miniature bioreactors to study fluctuating heterogeneities is a novel approach; the closest reported work is that of Jiang et al. who used the larger ambr 250 reactor to study single pH excursions. In this work we use the ambr 15 (an almost 14-fold decrease in scale) to study more frequent fluctuations throughout the culture duration.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16549</offset>
+      <text>Initial work focused on establishing a robust experimental methodology for creating fluctuations in the ambr 15. Figure 1a shows an example of "ideal fluctuations" and how duration, frequency and amplitude are defined. The frequency refers to how often a step change in pH or DOT is programmed. In all experiments presented in this study the duration and frequency of a fluctuation were always the same and hence the terms are used interchangeably. To create the fluctuations the bioreactor set-points were programmed to change periodically between pH 7.0-7.5 or DOT 10%-30%.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-38-e3264-g005.jpg</infon>
+      <infon key="id">btpr3264-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>17138</offset>
+      <text>Examples of "ideal" and "real" fluctuation profiles. (a) Shows an illustration of the how the fluctuations are programmed; dotted lines represent step changes in set points (pH or DOT) and solid lines represent the "ideal" profile caused by the step change. (b) and (c) Are 2 h samples of "real" pH and DOT profiles, respectively, from two separate ambr 15 vessels, where pH and DOT were programmed to fluctuate during a fed-batch culture of AZCL_3 between pH 7-7.5 and DOT 10%-30%, respectively. The arrows highlight where a change in set point was programmed. Both profiles (b) and (c) show fluctuations of 15 min duration and frequency. DOT, dissolved oxygen tension</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17835</offset>
+      <text>The method for achieving fluctuations in the ambr 15 was transferred from preliminary studies using another miniature bioreactor system; the micro24  (Pall Life Sciences, Portsmouth, UK) (data not shown). When programming fluctuations on the ambr 15, conditions were kept as similar as possible to established cell culture protocols. Standard media, feeds, base (1 M sodium bicarbonate) and other additions were used in all cultures. Preliminary studies, however, highlighted the importance of gas composition and flowrate when inducing fast and frequent purturbations. To achieve the required fluctuations pure nitrogen was used as a purge gas at a higher flowrate than normal to induce quicker CO2 or O2 stripping and therefore drop pH or DOT more rapidly. Fluctuations were mainly driven by manipulating the controller settings; increasing both proportional (P) and integral (I) components to induce a more aggressive response from the controller, hence creating the fluctuations. Due to the nature of PI control in the ambr 15, the pH and DOT signals exhibited over and under-shoot as can be seen in Figure 1b,c, respectively. These figures focus in on a series of four repeat fluctuations, showing that the fluctuations achieved were very reproducible. Maintaining the fluctuations over the full course of a cell culture (from day 2 to 14), is more challenging because culture conditions are affected by many factors including media additions to the bioreactors and differing lactate production by the cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19357</offset>
+      <text>Figure 2 shows the pH and DOT profiles achieved across the entire duration of fed-batch cultures with two cell lines subjected to fluctuations; one growing to "low" peak VCD (AZCL_1) and the other to "high" peak VCD (AZCL_3). The cell lines are described in a later section. Figure 2a,e shows typical profiles of non-fluctuated control bioreactors in the ambr 15 for AZCL_1 and AZCL_3 cultures respectively. The controls were fixed at pH 7.0 +- 0.1 and DOT 30 or 50%. The higher DOT control set-point of 50% is typically used in ambr 15 processes to ensure oxygen is not rate limiting. The transient deviations seen in these control bioreactors every 2 days correspond to nutrient feed addition when pH control is temporarily delayed due the robotic arm of the ambr 15 being occupied. Figure 2b-d show typical pH and DOT profiles of bioreactors from AZCL_1 cultures with programmed fluctuations between pH 7-7.5 and DOT 10-30%, with a frequency of 15, 30, and 60 min, respectively. Figure 2f,g,h show the equivalent for AZCL_3 cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-38-e3264-g004.jpg</infon>
+      <infon key="id">btpr3264-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>20430</offset>
+      <text>Overall fluctuation profiles in fed-batch CHO cultures. Representative examples of typical pH and DOT profiles of individual vessels from a fed-batch culture of AZCL_1 (left-hand column) and AZCL_3 (right-hand column), comparing control (a and e) and fluctuated vessels. The frequency and duration of the fluctuations were set at 15 (b and f), 30 (c and g), and 60 (d and h) minutes. The range of fluctuations programmed were pH 7.0-7.5 and DOT 10%-30%. CHO, Chinese hamster ovary; DOT, dissolved oxygen tension</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20955</offset>
+      <text>The amplitude of the fluctuations achieved at the three frequencies were lower than programmed and many cultures struggled to reach pH 7.5. Table 1 shows the maximum range of pH and DOT fluctuations achieved during these cultures. As the duration of the fluctuations was increased from 15 to 60 min, the amplitude of the pH fluctuations improved, as seen in Figure 2. The pH is increased by stopping CO2 flow into the bioreactor, allowing the nitrogen to strip the CO2 and adding bicarbonate base to raise the pH. Longer durations give the system more time to raise the pH. This difference between the programmed and actual range is likely due to the nature of PI controls of the ambr 15, the buffering capacity of the cell culture media and lactate accumulation within the medium.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0001.xml</infon>
+      <infon key="id">btpr3264-tbl-0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>21743</offset>
+      <text>Summary of the general range of fluctuation amplitudes achieved during ambr 15 cultures of AZCL_1 and AZCL_3 at three different programmed fluctuation frequencies: 15, 30, and 60 min. Values based on fluctuations indicated in Figure 2 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" char="-" span="1"/&gt;&lt;col align="left" char="-" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Programmed Fluctuation&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Frequency (min)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Cell Line AZCL_1&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Cell Line AZCL_3&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td rowspan="3" align="left" valign="top" colspan="1"&gt;pH&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;15&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;7.05-7.25&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;6.95-7.30&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;7.05-3.40&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;6.95-7.40&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;60&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;7.05-7.50&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;6.95-7.50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="3" align="left" valign="top" colspan="1"&gt;DOT&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;15&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;10-35&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;10-50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;10-35&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;10-50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;60&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;10-35&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;10-50&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3264-tbl-0001</infon>
+      <infon key="type">table</infon>
+      <offset>21983</offset>
+      <text>Programmed Fluctuation Frequency (min) Cell Line AZCL_1 Cell Line AZCL_3   pH 15 7.05-7.25 6.95-7.30   30 7.05-3.40 6.95-7.40   60 7.05-7.50 6.95-7.50   DOT 15 10-35 10-50   30 10-35 10-50   60 10-35 10-50   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0001.xml</infon>
+      <infon key="id">btpr3264-tbl-0001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>22216</offset>
+      <text>Abbreviation: DOT, dissolved oxygen tension.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22261</offset>
+      <text>The pH fluctuations were the most difficult to maintain experimentally. Around day 8 of the cultures (earlier in AZCL_3 cultures) the pH fluctuations tapered off and the pH remained at the lower (optimal) set point for several hours or days before the fluctuations restarted. During this period no CO2 was being sparged into the system. This effect is more dramatic in AZCL_3 cultures and increases with fluctuations of longer duration (Figure 2h). This is likely due to higher lactate concentrations in the AZCL_3 cultures; lactate cannot be driven out of the culture the same way that CO2 can be, and this drives the pH down. At day 4 and 8 the peak lactate concentration was reached, in AZCL_1 and AZCL_3 cultures respectively, at which point lactate consumption was seen (Figures 3 and 4), allowing fluctuations to return.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23090</offset>
+      <text>In contrast, stable DOT fluctuations were achieved with all cell lines across all frequencies. This is because the DOT control system does not rely on addition of liquid and is not limited by the buffering capacity of the media, which inherently makes it more difficult to maintain a stable pH set point. The DOT fluctuations were driven by the manipulation of the O2 flow rate; the oxygen consumption rate of the cells caused the DOT to drop even quicker. As a result, the response is much quicker than with pH and hence better fluctuations are achieved. AZCL_3 cultures grew to higher densities and therefore exhibited more noise in their DOT profiles and the fluctuation amplitudes were higher due to PI controller overshoot. In general, the pH and DOT fluctuations achieved were stable. Specific control of DOT was easier to achieve than pH. This initial work demonstrates that it is possible to programme and maintain fluctuations in the ambr 15 bioreactors throughout the course of a CHO fed-batch culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>24106</offset>
+      <text>Effect of pH and DOT fluctuations on a "low" peak VCD industrial cell line</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24185</offset>
+      <text>Preliminary studies using the micro24  bioreactor indicated that the effects of fluctuations are likely to be cell line dependent. A key difference between cell lines likely to influence their response to fluctuations is their peak viable cell density. In this study two industrial cell lines were compared; one with a 'low' peak VCD (~21 x 106 cells ml-1) and the other with a "high" peak VCD (~60 x 106 cells ml-1). This section describes the investigation into the "low" growing cell line (AZCL_1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24712</offset>
+      <text>Previous studies investigating the effects of pH heterogeneity have typically introduced fluctuations by adding base either on a fixed daily basis or at a frequency that matches fluctuations reported in large-scale vessels. This approach of adding more base was attempted in preliminary studies and resulted in the same issue of very high osmolality (&gt;700 mOsm kg-1) as encountered in the cited works. For this reason, the pH fluctuations reported here were induced by changing controller set points and PI settings, reducing excessive base addition. The ambr 15 automatically added base if the pH fell below 6.9. In the case of AZCL_1 lactate build-up during the culture did not exceed the buffering capacity of the medium hence no additional base was used. However, without base addition, the amplitude of the pH fluctuations was limited.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25564</offset>
+      <text>The pH and DOT fluctuations achieved experimentally are shown in the left column of Figure 2. Due to the lower cell density of AZCL_1 cultures, the pH fluctuations were relatively stable throughout the culture. A trade off exists when optimizing PI settings and gas flowrates to induce fluctuations; fluctuations may be larger and quicker with more aggressive gas flowrates but this in turn may negatively affect the cell culture and overshadow the effects of the fluctuations themselves. One obvious consequence of high-gas flowrates would be the increased usage of antifoam. To exclude any negative effects of changing the gas flowrates and PI settings, "control" bioreactors were set up to compare standard conditions with the newly proposed conditions. Table 2 summarizes the controls that were run in duplicate. Control 3 is the original (lower) N2 purge gas flow rate and PI settings. Controls 1 and 2 have the "new" set up; the former using all the new conditions, that is, higher N2 flowrate and PI values and the latter keeps the original PI values but has a higher N2 flow rate. All vessels were cultured with the standard (lower) PI and N2 flowrates until day 2, at which point fluctuations were initiated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0002.xml</infon>
+      <infon key="id">btpr3264-tbl-0002</infon>
+      <infon key="type">table_caption</infon>
+      <offset>26794</offset>
+      <text>Summary of control parameters used for AZCL_1 and AZCL_3 cultures with programmed fluctuations. Table shows the DOT and pH set points (s.p) and N2 gas flowrates. The original p and I values based on standard methods were -80 and -0.4 respectively, and all vessels were cultured with these values as well as the lower (0.15 ml min-1) N2 flowrate until day 2, when fluctuations began</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0002.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;col align="char" char="." span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;Control&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;DOT % s.p&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;pH s.p&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;p&lt;/italic&gt; value&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;I value&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;N&lt;sub&gt;2&lt;/sub&gt; (ml min&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td colspan="6" align="left" valign="top" rowspan="1"&gt;AZCL_1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1"&gt;C1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;50&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;7.1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-200&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-2.0&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1"&gt;C2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;50&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;7.1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-80&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.4&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1"&gt;C3&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;50&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;7.1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-80&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.4&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="6" align="left" valign="top" rowspan="1"&gt;AZCL_3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1"&gt;C1&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;50&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;7.0&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-200&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-2.0&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1"&gt;C2&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;7.0&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-200&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-2.0&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1"&gt;C3&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;50&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;7.0&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-80&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.4&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.15&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3264-tbl-0002</infon>
+      <infon key="type">table</infon>
+      <offset>27186</offset>
+      <text>Control DOT % s.p pH s.p p value I value N2 (ml min-1)   AZCL_1   C1 50 7.1 -200 -2.0 1.0   C2 50 7.1 -80 -0.4 1.0   C3 50 7.1 -80 -0.4 0.15   AZCL_3   C1 50 7.0 -200 -2.0 1.0   C2 30 7.0 -200 -2.0 1.0   C3 50 7.0 -80 -0.4 0.15   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0002.xml</infon>
+      <infon key="id">btpr3264-tbl-0002</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>27445</offset>
+      <text>Abbreviation: DOT, dissolved oxygen tension.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27490</offset>
+      <text>Fluctuation frequencies of 15, 30, and 60 min were investigated in triplicate. Figure 3 compares the performance of control vessels and those exposed to pH and DOT fluctuations with respect to cell growth, antibody productivity, and lactate concentration. The left column in Figure 3 shows the performance of the three control cultures where no fluctuations were introduced. All of the control cultures performed similarly to previous AZCL_1 cultures run at 5 L scale achieving a peak VCD of around 19 x 106 cells ml-1. Control 3 appears to grow 22% less than the other two controls with higher gas flowrate, peaking at only 15 x 106 cells ml-1. This is also reflected in the lower lactate accumulation, suggesting that the lower N2 flowrate may be the cause of lower growth and lactate production (qlac) in AZCL_1 cultures. Interestingly however, the titre was not affected in the same way, meaning the qp of Control 3 was higher than the two other controls (Table 3).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-38-e3264-g001.jpg</infon>
+      <infon key="id">btpr3264-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28478</offset>
+      <text>The performance of AZCL_1 ("low" growing cell line) ambr 15 cultures subjected to pH (middle column) and DOT (right column) fluctuations at frequencies of 15, 30, and 60 min. Cell growth (row 1), antibody titre (row 2) and lactate concentration (row 3) data were gathered from duplicate or triplicate vessels and error bars represent 1 SD from the mean. All controls (left column) were set to 50% DOT and pH 7.1 but varied in PI settings and N2 flow rates as described in Table 2. DOT, dissolved oxygen tension</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0003.xml</infon>
+      <infon key="id">btpr3264-tbl-0003</infon>
+      <infon key="type">table_caption</infon>
+      <offset>28998</offset>
+      <text>Summary of specific production and consumption rates for AZCL_1 ambr 15 cultures with fluctuating pH and DOT profiles. Data was gathered from duplicate or triplicate vessels and error bars represent 1 SD from the mean. The coefficient of determination (R2 value) for the linear regressions were all above 0.95, except those marked with an asterix, which were in the range of 0.55-0.95</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0003.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th colspan="2" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1"&gt;Condition&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;gluc&lt;/sub&gt; (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;lac&lt;/sub&gt; (day 0-6) (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;lac&lt;/sub&gt; (day 6-10) (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;p&lt;/sub&gt; (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;mu&lt;sub&gt;max&lt;/sub&gt; (h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td colspan="2" align="left" valign="top" rowspan="1"&gt;Control-1&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.42 +- 0.9&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.42 +- 0.09&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.72 +- 0.79*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.261 +- 0.04&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.496 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2" align="left" valign="top" rowspan="1"&gt;Control-2&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.39 +- 0.1&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.22 +- 0.17&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.55 +- 0.37*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.224 +- 0.02&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.52 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2" align="left" valign="top" rowspan="1"&gt;Control-3&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.91 +- 0.12&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.98 +- 0.56&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.32 +- 0.27*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.301 +- 0.06&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.483 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="3" align="left" valign="top" colspan="1"&gt;pH&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;15 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.28 +- 0.02&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.46 +- 0.44&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.44 +- 0.01*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.277 +- 0.03&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.552 +- 0.06&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.44 +- 0.33&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.53 +- 0.4&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.58 +- 0.34&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.292 +- 0.09&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.53 +- 0.03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;60 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.63 +- 0.72&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;3.09 +- 0.55&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.66 +- 0.52&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.311 +- 0.1&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.562 +- 0.08&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="3" align="left" valign="top" colspan="1"&gt;DOT&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;15 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.42 +- 0.79&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.92 +- 0.17&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.92 +- 0.25*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.317 +- 0.04&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.569 +- 0.11&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.48 +- 0.49&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.1 +- 0.05&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.81 +- 0.28*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.32 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.61 +- 0.05&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;60 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;8.89 +- 0.53&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.5 +- 0.16&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.79 +- 0.25*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.388 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.581 +- 0.05&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3264-tbl-0003</infon>
+      <infon key="type">table</infon>
+      <offset>29386</offset>
+      <text>Condition qgluc (pg cells-1 h-1) qlac (day 0-6) (pg cells-1 h-1) qlac (day 6-10) (pg cells-1 h-1) qp (pg cells-1 h-1) mumax (h-1)   Control-1 8.42 +- 0.9 1.42 +- 0.09 0.72 +- 0.79* 0.261 +- 0.04 0.496 +- 0.01   Control-2 8.39 +- 0.1 1.22 +- 0.17 0.55 +- 0.37* 0.224 +- 0.02 0.52 +- 0.01   Control-3 8.91 +- 0.12 0.98 +- 0.56 0.32 +- 0.27* 0.301 +- 0.06 0.483 +- 0.01   pH 15 min 8.28 +- 0.02 2.46 +- 0.44 0.44 +- 0.01* 0.277 +- 0.03 0.552 +- 0.06   30 min 8.44 +- 0.33 2.53 +- 0.4 0.58 +- 0.34 0.292 +- 0.09 0.53 +- 0.03   60 min 8.63 +- 0.72 3.09 +- 0.55 0.66 +- 0.52 0.311 +- 0.1 0.562 +- 0.08   DOT 15 min 8.42 +- 0.79 1.92 +- 0.17 0.92 +- 0.25* 0.317 +- 0.04 0.569 +- 0.11   30 min 8.48 +- 0.49 2.1 +- 0.05 0.81 +- 0.28* 0.32 +- 0.01 0.61 +- 0.05   60 min 8.89 +- 0.53 2.5 +- 0.16 0.79 +- 0.25* 0.388 +- 0.01 0.581 +- 0.05   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0003.xml</infon>
+      <infon key="id">btpr3264-tbl-0003</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>30395</offset>
+      <text>Abbreviation: DOT, dissolved oxygen tension.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30440</offset>
+      <text>Comparing across the rows in Figure 3 it is clear that there is little difference in viable cell density, titre and lactate levels between control and fluctuated vessels. The viable cell density of almost all the cultures peaked at around 21 x 106 cells ml-1, similarly with antibody titre in most cultures it peaked around 1.2 gl-1. The lactate profiles of the cultures were also similar; the controls have slightly lower peak lactate concentrations (particularly Control 3) below 2 gl-1 compared to the pH and DOT fluctuated vessels that peaked around 2.3 gl-1. However, this difference was found not to be statistically significant. All cultures experience a metabolic shift into lactate consumption around day 10. A slight difference in viable cell density between the 15, 30, and 60 min pH fluctuated cultures was observed; the cultures with longer fluctuation frequencies (60 min) had lower growth, however this difference was also not significant (p &gt; 0.05). This difference is not seen in cultures with DOT fluctuation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31490</offset>
+      <text>Looking at the derived culture parameters in Table 3, no effect on glucose consumption (qgluc) was observed. Fluctuated vessels did, however, have higher initial lactate production (qlac), particularly in pH-fluctuated vessels which had lactate production rates twice as high as controls between day 0 and 6. Fluctuations appeared to also slightly increase the growth rate (mumax), as seen in Table 3. This matches literature observations concerning the effects of higher pH on CHO cell culture kinetics. However, neither type of fluctuation had a significant impact on the performance of AZCL_1. These results confirm observations from preliminary studies; the effects of fluctuations appear to be cell line specific and are less likely to impact lower growing cell lines. The following section therefore describes the impact of the same fluctuations on a "high" growing cell line.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>32381</offset>
+      <text>Effects of pH and DOT fluctuations on a "high" peak VCD industrial cell line</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32462</offset>
+      <text>Higher growing cell lines require better bioreactor control as the high-cell densities achieved can lead to high-oxygen uptake rates and increased lactate accumulation. For this reason, high-cell density cultures performed at large scale could be more susceptible to spatial gradients and heterogeneities. Cell line AZCL_3 grows to densities approximately three times higher than AZCL_1 and hence was used to test this hypothesis. The ambr 15 experimental set up for AZCL_3 cultures was the same as AZCL_1 cultures with the exception of Control 2 where the DOT set point was changed to 30% and the new PI settings were applied (Table 2). A clear difference between the two cell lines is that after day 10, the viability of AZCL_3 cultures decrease rapidly compared to AZCL_1 culture, as seen in Figure 4. This was expected with AZCL_3 due to its rapid growth; the cell culture quickly depletes the nutrients in the media and feeds; while lactate and other metabolite concentrations increase to detrimental levels.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-38-e3264-g003.jpg</infon>
+      <infon key="id">btpr3264-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>33485</offset>
+      <text>The performance of AZCL_3 ("high" growing cell line) ambr 15 cultures subjected to pH (middle column) and DOT (right column) fluctuations (Table 1) at frequencies of 15, 30, and 60 min with respect to cell growth (row 1), productivity (row 2), and lactate concentration (row 3). All controls were run at pH 7.1. Control 1: new PID setpoints, higher gas flow rate, DOT 50%. Control 2: original PID setpoints, higher gas flow rate, DOT 30%. Control 3: original PID setpoints and slower (old) gas flowrate, DOT 50% (Table 2). pH-fluctuated vessels were held at 50% DOT. Data was gathered in duplicate or triplicate and the error bars represent 1 SD from the mean. The hashed horizontal lines indicate the highest "peak" values achieved in each culture. Effects of pH and DOT fluctuations on product quality. DOT, dissolved oxygen tension</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34336</offset>
+      <text>As with the low-growing cell line (AZCL_1), pH fluctuations are seen to have little effect on growth, productivity or lactate levels in AZCL_3 cultures. The control and pH-fluctuated vessels had very similar growth profiles peaking around 62 x 106 cells ml-1, which again match the growth profiles seen in previous 5 L cultures. The 60 min pH fluctuations did appeared to have slightly lower growth and product titre on average, compared to the other fluctuation frequencies. However, the 15 and 30 min pH-fluctuated vessels had higher peak product titre (5.5 gL-1) compared to the control vessels (4.9 gL-1). This was a slightly surprising result although these differences were not statistically significant.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35071</offset>
+      <text>The lactate profiles of Controls 1 and 3 were similar; lactate concentration reached approximately 3 gl-1 on day 6 when the metabolic shift occurred and lactate consumption began. Lactate increased toward the end of the culture as the cells died. Control 2 had a slightly different profile to the other controls, particularly with regard to lactate. This control was set at 30% DOT to test whether the effects of fluctuating DOT between 10% and 30% were not simply due to the overall lower DOT (compared to 50% DOT). Control 2 had a higher initial lactate production, qlac, and the culture switched to consumption on day 5; but had a much lower consumption rate than the other controls (Table 4). This profile more closely matched the lactate profiles of the pH-fluctuated vessels. This suggests that although pH fluctuations appear not to have a significant effect on growth and productivity there may be an effect on metabolic activity, which has been observed in other studies. This is a relevant observation as it is known that increased lactate production can be an issue during scale up. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0004.xml</infon>
+      <infon key="id">btpr3264-tbl-0004</infon>
+      <infon key="type">table_caption</infon>
+      <offset>36172</offset>
+      <text>Summary of specific production and consumption rates for AZCL_3 ambr 15 cultures with fluctuating pH and DOT profiles. Data was gathered from duplicate or triplicate vessels and error bars represent 1 SD from the mean. The coefficient of determination (R2 value) for the linear regressions were all above 0.95, except those marked with an asterix, which were in the range of 0.60-0.95</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0004.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col align="left" span="1"/&gt;&lt;col align="left" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;col align="char" char="+-" span="1"/&gt;&lt;thead valign="bottom"&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th colspan="2" align="left" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1"&gt;Condition&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;gluc&lt;/sub&gt; (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;lac&lt;/sub&gt; (day0-6) (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;lac&lt;/sub&gt; (day6-10) (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;q&lt;sub&gt;p&lt;/sub&gt; (pg cells&lt;sup&gt;-1&lt;/sup&gt; h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;th align="left" valign="bottom" rowspan="1" colspan="1"&gt;mu&lt;sub&gt;max&lt;/sub&gt; (h&lt;sup&gt;-1&lt;/sup&gt;)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td colspan="2" align="left" valign="top" rowspan="1"&gt;Control-1&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;4.22 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.77 +- 0.01*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.59 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.649 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.712 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2" align="left" valign="top" rowspan="1"&gt;Control-2&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;4.81 +- 0.27&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.91 +- 0.08*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.17 +- 0.13*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.644 +- 0.06&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.723 +- 0.02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="2" align="left" valign="top" rowspan="1"&gt;Control-3&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;4.29 +- 0.24&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.68 +- 0.3*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.58 +- 0.11&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.598 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.713 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="3" align="left" valign="top" colspan="1"&gt;pH&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;15 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;4.47 +- 0.28&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.74 +- 0.06*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.51 +- 0.11&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.675 +- 0.04&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.757 +- 0.02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;4.57 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.7 +- 0.01*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.52 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.739 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.783 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;60 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;4.88 +- 0.07&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.76 +- 0.04*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;-0.26 +- 0.19*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.719 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.718 +- 0.03&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="3" align="left" valign="top" colspan="1"&gt;DOT&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;15 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;5.8 +- 0.39&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.13 +- 0.04*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;1.03 +- 0.32*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.585 +- 0.03&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.709 +- 0.02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;30 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;5.61 +- 0.35&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.08 +- 0.01*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.73 +- 0.25*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.638 +- 0.01&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.721 +- 0.02&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;60 min&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;5.45 +- 0.54&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;2.08 +- 0.16*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.5 +- 0.5*&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.679 +- 0.04&lt;/td&gt;&lt;td align="char" valign="top" rowspan="1" colspan="1"&gt;0.749 +- 0.01&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">btpr3264-tbl-0004</infon>
+      <infon key="type">table</infon>
+      <offset>36560</offset>
+      <text>Condition qgluc (pg cells-1 h-1) qlac (day0-6) (pg cells-1 h-1) qlac (day6-10) (pg cells-1 h-1) qp (pg cells-1 h-1) mumax (h-1)   Control-1 4.22 +- 0.01 1.77 +- 0.01* -0.59 +- 0.01 0.649 +- 0.01 0.712 +- 0.01   Control-2 4.81 +- 0.27 1.91 +- 0.08* -0.17 +- 0.13* 0.644 +- 0.06 0.723 +- 0.02   Control-3 4.29 +- 0.24 1.68 +- 0.3* -0.58 +- 0.11 0.598 +- 0.01 0.713 +- 0.01   pH 15 min 4.47 +- 0.28 1.74 +- 0.06* -0.51 +- 0.11 0.675 +- 0.04 0.757 +- 0.02   30 min 4.57 +- 0.01 1.7 +- 0.01* -0.52 +- 0.01 0.739 +- 0.01 0.783 +- 0.01   60 min 4.88 +- 0.07 1.76 +- 0.04* -0.26 +- 0.19* 0.719 +- 0.01 0.718 +- 0.03   DOT 15 min 5.8 +- 0.39 2.13 +- 0.04* 1.03 +- 0.32* 0.585 +- 0.03 0.709 +- 0.02   30 min 5.61 +- 0.35 2.08 +- 0.01* 0.73 +- 0.25* 0.638 +- 0.01 0.721 +- 0.02   60 min 5.45 +- 0.54 2.08 +- 0.16* 0.5 +- 0.5* 0.679 +- 0.04 0.749 +- 0.01   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">btpr3264-tbl-0004.xml</infon>
+      <infon key="id">btpr3264-tbl-0004</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>37597</offset>
+      <text>Abbreviation: DOT, dissolved oxygen tension.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37642</offset>
+      <text>In contrast, cultures with fluctuating DOT conditions demonstrated significant differences to control cultures in the case of the "high" growing AZCL_3 cell line. DOT-fluctuated cultures showed a 35% decrease in growth compared to controls. This decrease impacts the productivity by the same degree; DOT-fluctuated cultures had peak antibody titres between 2.5 and 3.1 gl-1; significantly lower than controls (p value &lt;0.05). The specific productivity, qp, was not affected however (Table 4). The DOT-fluctuated vessels had higher initial lactate production rates (qlac [day 0-6]) than controls, as seen in Table 4, and exhibited minimal lactate consumption. Cultures instead entered a "negative feedback loop," where lactate accumulation induced more base addition (than controls) and caused lactate runaway, as seen in Figure 4. It appears that this increase in the lactate concentration is responsible for the observed decease in growth and productivity. The lactate profile of control 2 matched the profiles of the DOT-fluctuated vessels, which suggests that the increased lactate accumulation may be caused by the overall lower (30%) DOT. Specific glucose consumption, qgluc, was also affected by DOT fluctuations; all DO-fluctuated vessels exhibited higher qgluc than controls, as seen in Table 4.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38973</offset>
+      <text>A previous study has found that fluctuating DOT in a hybridoma cell line caused higher lactate yield. These results also match other studies where a cell line producing a conjugated IgG2 was shown to have decreased product titre, increased lactate accumulation as well as lower drug-to-antibody (DAR) ratio after being exposed to DOT fluctuations. Other recent papers have shown that reducing the DOT, in order to mimic the DOT levels cells are expected to be exposed to at large-scale, caused an increase in peak lactate and reduced the lactate consumption rates. They also showed that lower DOT cultures matched the profiles of 5000 L cultures and this negative impact was attributed to DOT heterogeneity, or more specifically hypoxic conditions. In addition to decreased viability the study found that lowering DOT also reduced ammonium levels, which was consistent with increased glycolysis and reduced amino acid catabolism observed in the lower DOT cultures The agreement between the findings of our small-scale studies (15 ml) and these larger scale studies (&gt;3 L) supports the use of the miniature bioreactor platform for studying the response of different cell lines to culture heterogeneities.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>40190</offset>
+      <text>Effects of pH and DOT fluctuations on product quality</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40244</offset>
+      <text>All cultures shown in Figures 3 and 4 were harvested on day 14, and the purified antibody was analyzed in order to evaluate the impact of fluctuating culture conditions on key product quality attributes. These attributes include protein aggregation (HPSEC), fragmentation (CGE), and N-linked glycosylation profiles. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>40564</offset>
+      <text>Aggregation and fragmentation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40594</offset>
+      <text>As discussed above, pH fluctuations had little impact on the growth or productivity of both cell lines and this was also seen in product quality data. With regard to product aggregation and fragmentation, there appeared to be more variation between triplicate vessels with fluctuated conditions however pH fluctuations did not show significant differences in either AZCL_1 or AZCL_3 cultures. With regard to aggregation, DOT fluctuations had no impact on AZCL_1, but in AZCL_3 cultures a 25% increase in high-molecular weight (HMW) species, compared to controls, was observed across all fluctuation frequencies. There was also an increase in low-molecular weight species (LMW) which together lead to a 2%-3% drop in overall purity in DO-fluctuated vessels. This difference, albeit small, was significant (p = 0.004). There was no fragmentation observed in AZCL_3 cultures. The AZCL_1 cell line produces a bispecific fusion product, so upon reduction fragmentation is expected, although there were no significant differences between fluctuated vessels and controls. However, in both cell lines, an increase in LMW species before reduction was observed in DOT-fluctuated vessels compared to controls. Upon reduction a similar increase was observed in the levels of the light chain (LC) fragment, suggesting that DOT-fluctuated cultures over-produced free-LC. As well as the increased level of LC these cultures also exhibited a decreased level of heavy chain (HC) species. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_3</infon>
+      <offset>42084</offset>
+      <text>Glycan analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42100</offset>
+      <text>Glycan analysis was focused on AZCL_3 cultures due to the observed impact of fluctuations on growth and productivity. The glycan profiles of all the cell lines used in this study are dominated by the bi-antennary glycan with no terminal galactose (G0F), which makes up &gt;68% of the overall profile. The next largest peaks are typically the galactosylated glycans G1F and G2F, which have been reported grouped and make up between 15% and 30% of the profile. High-mannose structures (Man5) are another key glycan that is typically monitored and the cell lines had &lt;5% of these species present.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42695</offset>
+      <text>Figure 5 shows the levels of the three major Fc glcans (G0F, G1F, G2F) and Man5 from AZCL_3 cultures, where differences between fluctuated conditions and the controls were observed. It is thought that pH can affect the rates of enzymatic reactions in the Golgi apparatus which can in turn affect glycosylation. The pH-fluctuated vessels were set at 50% DOT, as were the Controls 1 and 3 (Table 2) making them the most appropriate controls to compare to the pH-fluctuated vessels. Control-2 was set to 30% DOT and hence this is the more appropriate control to compare to the DOT-fluctuated vessels. The pH-fluctuated vessels had up to 11% higher levels of G0F, 12% lower levels of G1F + G2F but similar levels of Man5 compared to controls (C1 and C3). This is in contrast to the study by Jiang et al who observed higher galactosylation in pH-fluctuated conditions. However, the impact of pH on glycosylation is not fully understood and other studies have shown similar effects to the present study. Ivarsson et al. provide a detailed discussion on various conflicting results for the effects of changing process parameters, including pH and DOT, on glycosylation (although largely under non-fluctuating conditions).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-38-e3264-g006.jpg</infon>
+      <infon key="id">btpr3264-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>43930</offset>
+      <text>Effect of pH and DOT fluctuations at various frequencies (15, 30, and 60 min) on selected glycan structures of antibodies produced in AZCL_3 cultures ("high" growing cell line). Graph highlights the common glyans G0F, G1F, G2F, and Man 5; the levels of G1F and G2F are combined. Data is taken from harvest-point samples from cultures shown in Figure 4. Controls are described in Table 2. Error bars represent 1 SD about the mean (n = 2 or 3). DOT, dissolved oxygen tension</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>44415</offset>
+      <text>While DOT fluctuations had a pronounced impact on cell growth (Figure 4), they had less impact on antibody glycosylation (Figure 5). Man5 levels appeared to be slightly lower in DOT-fluctuated vessels compared to pH-fluctuated vessels and controls 1 and 3 (by approx. 0.4%). When comparing DO-fluctuated vessels to control 2 the differences are even smaller. This suggests that the effects seen in the DO-fluctuated vessels may be due to the overall lower DOT that cells are exposed to in these cultures, rather than the fluctuation itself. The effects of DOT-fluctuations observed in this study match other reports. Serrato et al showed that DOT oscillations decreased cell growth, increased glycolysis, and affected N-linked glycosylation, but not the productivity of a MAb producing hybridoma cell line. More recent studies have attributed a reduction in titre and sialyation, in a Fc-fusion protein producing CHO cell line, to DOT heterogeneity during scale-up. The AZCL_3 line did not express any sialylated glycans; however, two additional cell lines were exposed to DOT fluctuations and one of these (AZCL_4) expressed low levels of sialylated glycans, which is described in the next section.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>45633</offset>
+      <text>Effect of DOT fluctuations on other cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45680</offset>
+      <text>Two additional cell lines (AZCL_4 and AZCL_5) were used to further explore the effects of DOT fluctuations. Similar experiments were set up with AZCL_5 and AZCL_4 where DOT was fluctuated between 10% and 30% in the same manner. A positive (30% DOT) and negative (10% DOT) control were used with the higher PI settings, as described in Table 2, and only 15 and 60 minute frequencies were tested. The constant N2 flowrate was set to 1.00 ml min-1 in AZCL_5 cultures and 0.15 ml min-1 in AZCL_4 cultures to assess if DOT fluctuations could be achieved with standard flow rates. Stable DOT fluctuations were achieved with both N2 flowrates. AZCL_5 and AZCL_4 cultures peaked at around 35 x 106 cells ml-1 and 40 x 106 cells ml-1, respectively, so they are not as low growing as AZCL_1 but not as high as AZCL_3. In both additional cell lines DO-fluctuated cultures had lower peak VCD values and higher lactate accumulation compared to controls, but these differences were less substantial than ones observed in AZCL_3 cultures. There was no discernible difference between the negative control and DOT-fluctuated vessels, suggesting the effects may be due to the overall lower DOT. The results with these additional cell lines support the hypothesis that higher growing cell lines are more susceptible to DOT fluctuations (or shifts in DOT set points). The effects also appear to be highly cell line specific, which is in agreement with the mixed results seen in other published studies.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>47196</offset>
+      <text>Figure 6 shows the impact of DOT fluctuations on antibody glycosylation from AZCL_5 and AZCL_4 cultures. The effects seen on these cell lines were of a similar magnitude to AZCL_3 cultures (Figure 5), but showed slightly different trends. DOT-fluctuated vessels show decreased levels of G0F and elevated G1F + G2F glycans compared to the 30% DOT control. Man5 levels in DOT-fluctuated vessels appeared elevated in AZCL_5 cultures but lower in AZCL_4 cultures. These trends are also seen in the negative 10% DOT control which suggests that the DOT fluctuations are impacting the glycan profiles in a similar manner to cultures in hypoxic conditions. Many of the fluctuated cultures showed a slightly larger difference between positive 30% control than the negative control, suggesting that the fluctuations may be exacerbating the effect. The AZCL_4 IgG molecule expressed sialylated glycoforms; their levels increased slightly in DOT-fluctuated vessels and the 10% DOT (negative) control, which partially matches the limited literature in this area. Serrato et al showed an increase in sialylated glycans in cultures with oscillating DOT of periods above 6400 s in an IgG producing hybridoma cell line. Ivarsson et al. also observed a slight increase in sialyation with a similar cell line when culturing at lower DOT set points. However, the latter study acknowledges the large variation in reported effects of DOT on glycosylation and suggests effects are cell line and product specific. The results of this study support this conclusion.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BTPR-38-e3264-g002.jpg</infon>
+      <infon key="id">btpr3264-fig-0006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>48751</offset>
+      <text>Effect of DOT fluctuations on glycosylation of antibodies produced in AZCL_4 and AZCL_5 cultures. Controls at 30% and 10% DOT were used. Fluctuation frequencies of 15 min (DO15) and 60 min (DO60) was tested. AZCL_5 cultures were run with the higher PI and N2 flowrate settings and AZCL_4 was run with the higher PI settings and lower N2 flowrate (0.15 ml min-1), as described in Table 2. Total fs refers to the totally percentage of sialylated glycans. Error bars represent 1 SD about the mean (n = 2 or 3). DOT, dissolved oxygen tension</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>49302</offset>
+      <text>CONCLUSIONS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49314</offset>
+      <text>A novel methodology using an automated miniature bioreactor system to investigate the effects of pH and DOT fluctuations on CHO cell culture performance is presented. This provides a high throughput platform for assessing the potential impact of large-scale bioreactor heterogeneities on different cell lines and antibody products. In the two different cell lines used to exemplify the utility of the platform, fluctuations in pH had minimal impact on growth and productivity. An increase in lactate production was observed which matched observations from similar literature studies. The impact of DOT fluctuations was more pronounced; a 35% decrease in growth and product titre was observed with the highest growing cell line, as well as significant lactate accumulation. In terms of product quality, two cell lines subjected to DOT fluctuations showed a slight increase in G0F glycans and decrease in G1F + G2F whereas a further cell line showed the opposite effect. This variation in response is consistent with other studies although most of these were performed under non-fluctuating conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50423</offset>
+      <text>Overall, this work suggests that the impact of pH and DOT fluctuations are cell line and product specific and are more likely to affect higher growing cell lines. The automated miniature bioreactor therefore provides a platform for rapid investigation of potential large-scale culture heterogeneities on candidate cell lines and antibody products. Data from fluctuating and non-fluctuating bioreactor studies is currently being used to try and predict overall culture performance at large scale using population balance approaches.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_1</infon>
+      <offset>50959</offset>
+      <text>AUTHOR CONTRIBUTIONS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50980</offset>
+      <text> Roman Zakrzewski: Conceptualization (lead); data curation (lead); formal analysis (lead); investigation (lead); methodology (lead); writing - original draft (lead); writing - review and editing (equal). Gary J. Lye: Conceptualization (supporting); supervision (supporting); writing - review and editing (equal). Kenneth Lee: Conceptualization (supporting); data curation (supporting); supervision (supporting); writing - review and editing (supporting).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_2</infon>
+      <offset>51443</offset>
+      <text>PEER REVIEW</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>51455</offset>
+      <text>The peer review history for this article is available at https://publons.com/publon/10.1002/btpr.3264.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>51558</offset>
+      <text>DATA AVAILABILITY STATEMENT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>51586</offset>
+      <text>The data that support the findings of this study are available from the corresponding author upon reasonable request.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>51704</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/btpr.522</infon>
+      <infon key="pub-id_pmid">21312350</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">14</infon>
+      <offset>51715</offset>
+      <text>A review of advanced small-scale parallel bioreactor technology for accelerated process development: current state and future need</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1381</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1007/s10616-015-9899-0</infon>
+      <infon key="pub-id_pmid">26231834</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1401</infon>
+      <offset>51848</offset>
+      <text>Equipment characterization to mitigate risks during transfers of cell culture manufacturing processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1146</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2489</infon>
+      <infon key="pub-id_pmid">28440060</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1159</infon>
+      <offset>51950</offset>
+      <text>A practical approach in bioreactor scale-up and process transfer using a combination of constant P/V and vvm as the criterion</text>
+    </passage>
+    <passage>
+      <infon key="volume">141</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">173</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2018.09.019</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biochem Eng J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">181</infon>
+      <offset>52078</offset>
+      <text>A systematic mass-transfer modeling approach for mammalian cell culture bioreactor scale-up</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">119</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(20000720)69:2&lt;119::AID-BIT1&gt;3.0.CO;2-9</infon>
+      <infon key="pub-id_pmid">10861391</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">128</infon>
+      <offset>52174</offset>
+      <text>Influence of scale-up on the quality of recombinant human growth hormone</text>
+    </passage>
+    <passage>
+      <infon key="volume">42</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">789</infon>
+      <infon key="issue">11</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">J Chem Eng Japan</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">796</infon>
+      <offset>52249</offset>
+      <text>Scale-up considerations based on studies at the bench scale in stirred bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">50</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1007/s10616-006-9005-8</infon>
+      <infon key="pub-id_pmid">19003068</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">33</infon>
+      <offset>52334</offset>
+      <text>Reactor engineering in large scale animal cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">125</infon>
+      <infon key="issue">2-3</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Genet Eng Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">132</infon>
+      <offset>52389</offset>
+      <text>pH: effects on growth and productivity of cell lines producing monoclonal antibodies: control in large-scale fermenters</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">87</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1007/BF00353927</infon>
+      <infon key="pub-id_pmid">22358918</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">94</infon>
+      <offset>52511</offset>
+      <text>Homogenisation and oxygen transfer rates in large agitated and sparged animal cell bioreactors: some implications for growth and production</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">175</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/S0168-1656(00)00365-5</infon>
+      <infon key="pub-id_pmid">11165362</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">185</infon>
+      <offset>52651</offset>
+      <text>Physiological responses to mixing in large scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">150</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">420</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2010.09.576</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <offset>52712</offset>
+      <text>Scale down simulator for studying the impact of industrial scale inhomogeneities on Bacillus subtilis processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1009</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/biot.201100293</infon>
+      <infon key="pub-id_pmid">21751400</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1017</infon>
+      <offset>52824</offset>
+      <text>A two-compartment bioreactor system made of commercial parts for bioprocess scale-down studies: impact of oscillations on Bacillus subtilis fed-batch cultivations</text>
+    </passage>
+    <passage>
+      <infon key="volume">46</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.biotechadv.2020.107660</infon>
+      <infon key="pub-id_pmid">33221379</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol Adv</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">107660</infon>
+      <offset>52993</offset>
+      <text>Understanding gradients in industrial bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1007/BF00353919</infon>
+      <infon key="pub-id_pmid">22358910</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">16</infon>
+      <offset>53043</offset>
+      <text>Engineering challenges in high density cell culture systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">355</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1385/MB:34:3:355</infon>
+      <infon key="pub-id_pmid">17284782</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Mol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">382</infon>
+      <offset>53103</offset>
+      <text>Living with heterogeneities in bioreactors: understanding the effects of environmental gradients on cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">103</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">733</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.22287</infon>
+      <infon key="pub-id_pmid">19280669</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">746</infon>
+      <offset>53209</offset>
+      <text>Scale-up analysis for a CHO cell culture process in large-scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">66</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">171</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(1999)66:3&lt;171::AID-BIT5&gt;3.0.CO;2-T</infon>
+      <infon key="pub-id_pmid">10577471</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">179</infon>
+      <offset>53289</offset>
+      <text>Control of pH in large-scale, free suspension animal cell bioreactors: alkali addition and pH excursions</text>
+    </passage>
+    <passage>
+      <infon key="volume">188</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">208</infon>
+      <infon key="pub-id_doi">10.1016/j.ces.2018.05.008</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Chem Eng Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">220</infon>
+      <offset>53396</offset>
+      <text>Hydrodynamic inhomogeneities in large scale stirred tanks - influence on mixing time</text>
+    </passage>
+    <passage>
+      <infon key="volume">6</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">934</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/biot.201000406</infon>
+      <infon key="pub-id_pmid">21695785</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">943</infon>
+      <offset>53483</offset>
+      <text>An industrial perspective on bioreactor scale-down: what we can learn from combined large-scale bioprocess and model fluid studies</text>
+    </passage>
+    <passage>
+      <infon key="volume">131</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">84</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2017.12.004</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biochem Eng J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">94</infon>
+      <offset>53618</offset>
+      <text>Experimental and CFD physical characterization of animal cell bioreactors: from micro- to production scale</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">457</infon>
+      <infon key="pub-id_doi">10.1016/j.ces.2015.05.045</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Chem Eng Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">466</infon>
+      <offset>53727</offset>
+      <text>Euler-Lagrange approach to model heterogeneities in stirred tank bioreactors - comparison to experimental flow characterization and particle tracking</text>
+    </passage>
+    <passage>
+      <infon key="volume">120</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">157</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1016/j.cej.2006.03.034</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Chem Eng J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">167</infon>
+      <offset>53881</offset>
+      <text>Modelling of the substrate heterogeneities experienced by a limited microbial population in scale-down and in large-scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">79</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.7763/IJCEA.2014.V5.355</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Int J Chem Eng Appl</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">84</infon>
+      <offset>54019</offset>
+      <text>CFD prediction of heterogeneities in the scale up of liquid-liquid dispersions</text>
+    </passage>
+    <passage>
+      <infon key="volume">170</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">653</infon>
+      <infon key="pub-id_doi">10.1016/j.ces.2017.01.014</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Chem Eng Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">669</infon>
+      <offset>54100</offset>
+      <text>Euler-Lagrange analysis towards representative down-scaling of a 22 m3 aerobic S. cerevisiae fermentation</text>
+    </passage>
+    <passage>
+      <infon key="volume">1-11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">846</infon>
+      <infon key="pub-id_doi">10.1016/j.tibtech.2020.01.009</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">856</infon>
+      <offset>54210</offset>
+      <text>Developing a computational framework to advance bioprocess scale-up</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">197</infon>
+      <infon key="issue">5-6</infon>
+      <infon key="pub-id_doi">10.1002/elsc.201900162</infon>
+      <infon key="pub-id_pmid">32874183</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Eng Life Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">204</infon>
+      <offset>54280</offset>
+      <text>Scale-down simulators for mammalian cell culture as tools to access the impact of inhomogeneities occurring in large-scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1002/biot.201600633</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">13</infon>
+      <offset>54419</offset>
+      <text>The impact of pH inhomogeneities on CHO cell physiology and fed-batch process performance - two-compartment scale-down modelling and intracellular pH excursion</text>
+    </passage>
+    <passage>
+      <infon key="volume">113</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">598</infon>
+      <infon key="pub-id_doi">10.1002/bit.25817</infon>
+      <infon key="pub-id_pmid">26301871</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">611</infon>
+      <offset>54587</offset>
+      <text>Physiological effects of pH gradients on Escherichia coli during plasmid DNA production</text>
+    </passage>
+    <passage>
+      <infon key="volume">79</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">398</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.10198</infon>
+      <infon key="pub-id_pmid">12115403</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">407</infon>
+      <offset>54675</offset>
+      <text>The response of GS-NS0 myeloma cells to single and multiple pH perturbations</text>
+    </passage>
+    <passage>
+      <infon key="volume">112</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1220</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.25543</infon>
+      <infon key="pub-id_pmid">25728062</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1231</infon>
+      <offset>54754</offset>
+      <text>Response of Corynebacterium glutamicum exposed to oscillating cultivation conditions in a two- and a novel three-compartment scale-down bioreactor</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">114</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.copbio.2010.02.001</infon>
+      <infon key="pub-id_pmid">20185293</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">121</infon>
+      <offset>54907</offset>
+      <text>Scale-down simulators for metabolic analysis of large-scale bioprocesses</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">55</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Industrial Biotechnology: Products and Processes</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">79</infon>
+      <offset>54984</offset>
+    </passage>
+    <passage>
+      <infon key="volume">73</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">390</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/bit.1072</infon>
+      <infon key="pub-id_pmid">11320509</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">399</infon>
+      <offset>54985</offset>
+      <text>Scale-down model to simulate spatial pH variations in large-scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">63</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/bit.1165</infon>
+      <infon key="pub-id_pmid">11536128</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">73</infon>
+      <offset>55067</offset>
+      <text>The response of GS-NS0 myeloma cells to pH shifts and pH perturbations</text>
+    </passage>
+    <passage>
+      <infon key="volume">91</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2265</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1016/j.cherd.2013.04.002</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Chem Eng Res des</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2274</infon>
+      <offset>55140</offset>
+      <text>Scale-down studies for assessing the impact of different stress parameters on growth and product quality during animal cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">235</infon>
+      <infon key="pub-id_pmid">18601109</infon>
+      <infon key="year">1992</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">246</infon>
+      <offset>55274</offset>
+      <text>Effect of feed zone in fed-batch fermentations of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">88</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">176</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/bit.20232</infon>
+      <infon key="pub-id_pmid">15449295</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">188</infon>
+      <offset>55351</offset>
+      <text>Heterogeneous conditions in dissolved oxygen affect N-glycosylation but not productivity of a monoclonal antibody in hybridoma cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">126</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">267</infon>
+      <infon key="pub-id_doi">10.1016/j.ces.2014.11.035</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Chem Eng Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">282</infon>
+      <offset>55489</offset>
+      <text>Investigating the interactions between physical and biological heterogeneities in bioreactors using compartment, population balance and metabolic models</text>
+    </passage>
+    <passage>
+      <infon key="volume">61</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">4783</infon>
+      <infon key="issue">14</infon>
+      <infon key="pub-id_doi">10.1016/j.ces.2006.03.003</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Chem Eng Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">4797</infon>
+      <offset>55642</offset>
+      <text>Modeling the dynamics of E. coli populations in the three-dimensional turbulent field of a stirred-tank bioreactor:a structured-segregated approach</text>
+    </passage>
+    <passage>
+      <infon key="volume">59</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">369</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/aic.13820</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">AIChE J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">379</infon>
+      <offset>55798</offset>
+      <text>Coupling of biokinetic and population balance models to account for biological heterogeneity in bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">60</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">27</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/aic.14238</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">AIChE J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">40</infon>
+      <offset>55906</offset>
+      <text>A coupled population balance model and CFD approach for the simulation of mixing issues in lab-scale and industrial bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">667</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1007/s10616-012-9446-1</infon>
+      <infon key="pub-id_pmid">22451076</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">678</infon>
+      <offset>56036</offset>
+      <text>Advanced microscale bioreactor system: a representative scale-down model for bench-top bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">03</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">918</infon>
+      <infon key="issue">07</infon>
+      <infon key="pub-id_doi">10.4236/abb.2012.37113</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Adv Biosci Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">927</infon>
+      <offset>56139</offset>
+      <text>Assessment of AMBR as a model for high-throughput cell culture process development strategy</text>
+    </passage>
+    <passage>
+      <infon key="volume">76</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">25</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2013.04.011</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biochem Eng J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">36</infon>
+      <offset>56233</offset>
+      <text>The physical characterisation of a microscale parallel bioreactor platform with an industrial CHO cell line expressing an IgG4</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1731</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1007/s00449-018-1996-y</infon>
+      <infon key="pub-id_pmid">30088083</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Bioprocess Biosyst Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1741</infon>
+      <offset>56360</offset>
+      <text>pH excursions impact CHO cell culture performance and antibody N-linked glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2021</infon>
+      <infon key="type">ref</infon>
+      <offset>56448</offset>
+      <text>Development of a novel scale-down method to study pH and dissolved oxygen heterogeneities in mammalian cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1033</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.21013</infon>
+      <infon key="pub-id_pmid">16736530</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1044</infon>
+      <offset>56567</offset>
+      <text>Process parameter shifting: part I. effect of DOT, pH, and temperature on the performance of Epo-fc expressing CHO cells cultivated in controlled batch bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">345</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/bit.20353</infon>
+      <infon key="pub-id_pmid">15625678</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">356</infon>
+      <offset>56733</offset>
+      <text>Effect of culture pH on erythropoietin production by Chinese hamster ovary cells grown in suspension at 32.5 and 37.0 C</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">756</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2620</infon>
+      <infon key="pub-id_pmid">29464875</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">766</infon>
+      <offset>56854</offset>
+      <text>Probing lactate metabolism variations in large-scale bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1427</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2697</infon>
+      <infon key="pub-id_pmid">30207642</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1437</infon>
+      <offset>56921</offset>
+      <text>Fluctuations in dissolved oxygen concentration during a CHO cell culture process affects monoclonal antibody productivity and the sulfhydryl-drug conjugation process</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1371/journal.pone.0157111</infon>
+      <infon key="pub-id_pmid">27310468</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">PLoS One</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e0157111</infon>
+      <offset>57089</offset>
+      <text>Understanding and controlling sialylation in a CHO fc-fusion process</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">291</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1016/j.biologicals.2016.06.005</infon>
+      <infon key="pub-id_pmid">27461239</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biologicals</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">305</infon>
+      <offset>57160</offset>
+      <text>Determination of critical quality attributes for monoclonal antibodies using quality by design principles</text>
+    </passage>
+    <passage>
+      <infon key="volume">188</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">88</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2014.08.026</infon>
+      <infon key="pub-id_pmid">25173615</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">96</infon>
+      <offset>57266</offset>
+      <text>Evaluating the impact of cell culture process parameters on monoclonal antibody N-glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1002/bit.23200</infon>
+      <infon key="pub-id_pmid">21557201</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2358</infon>
+      <offset>57364</offset>
+      <text>Effects of cell culture conditions on antibody N-linked glycosylation-what affects high mannose 5 glycoform</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1190</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1002/biot.201600030</infon>
+      <infon key="pub-id_pmid">27213298</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1200</infon>
+      <offset>57476</offset>
+      <text>Combined metabolomics and proteomics reveals hypoxia as a cause of lower productivity on scale-up to a 5000-liter CHO bioprocess</text>
+    </passage>
+  </document>
+</collection>

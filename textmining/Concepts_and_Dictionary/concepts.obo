@@ -49,7 +49,9 @@ CanonicalName: G0F
 Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: g0f glycan
+AlternativeNames: glycan g0f
 AlternativeNames: g0f glycans
+AlternativeNames: glycans g0f
 
 
 [Term]
@@ -60,6 +62,9 @@ Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: g1f glycan
 AlternativeNames: g1f glycans
+AlternativeNames: glycans g1f
+AlternativeNames: glycan g1f
+AlternativeNames: g1fs1 glycans
 
 [Term]
 ConceptName: G2F_COID847130
@@ -69,6 +74,9 @@ Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: g2f glycan
 AlternativeNames: g2f glycans
+AlternativeNames: glycan g2f
+AlternativeNames: glycans g2f
+AlternativeNames: di-galactosylated glycan g2f
 
 [Term]
 ConceptName: 2-l glass bioreactor_COID536478
@@ -100,7 +108,7 @@ Id: COID256307
 CanonicalName: 5-alkynylfucose
 Type: sugar (subset of carbon source)
 TypeId: C27
-AlternativeNames: 
+AlternativeNames: 5-alkfuc
 
 [Term]
 ConceptName: FO_COID634480
@@ -262,6 +270,9 @@ CanonicalName: tricarboxylic acid
 Type: acid (subset of secondary raw materials)
 TypeId: C37
 AlternativeNames: TCA
+AlternativeNames: tricarboxylic citric acid (tca)
+AlternativeNames: tricarboxylic citric acid
+
 
 [Term]
 ConceptName: acidic variant_COID106814
@@ -296,6 +307,8 @@ TypeId: C11
 AlternativeNames: antibody-dependent cellular cytotoxicity effector function
 AlternativeNames: antibody-dependent cell-mediated cytotoxicity effector function
 AlternativeNames: adcc effector functions
+AlternativeNames: adcc function
+AlternativeNames: adcc functions
 
 [Term]
 ConceptName: aeration_COID371755
@@ -312,6 +325,7 @@ CanonicalName: afucosylated n-glycans
 Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: afucosylated n-glycan
+AlternativeNames: afucosylated glycans
 
 [Term]
 ConceptName: afucosylation_COID653555
@@ -896,6 +910,14 @@ AlternativeNames: high cell densities
 AlternativeNames: high cell density
 AlternativeNames: HCD
 
+[Term]
+ConceptName: cell culture_COID293414
+Id: COID293414
+CanonicalName: cell culture
+Type: cell culture parameters
+TypeId: C15
+AlternativeNames: cell cultures
+
 
 [Term]
 ConceptName: cell effector function_COID337167
@@ -920,6 +942,9 @@ CanonicalName: cell line
 Type: cell line
 TypeId: C56
 AlternativeNames: cell lines
+AlternativeNames: host cell lines
+AlternativeNames: host cell line
+
 
 [Term]
 ConceptName: cell line characteristics_COID431893
@@ -1042,7 +1067,10 @@ Id: COID939621
 CanonicalName: cho-dg44
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: cho dg44
+AlternativeNames: cho dg44 cell line
+AlternativeNames: CHO-DG44
+AlternativeNames: CHO DG44
 
 [Term]
 ConceptName: cho-gmt4 cells_COID585656
@@ -1050,7 +1078,10 @@ Id: COID585656
 CanonicalName: cho-gmt4 cells
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: cho-gmt4 cell line
+AlternativeNames: cho gmt4 cell line
+AlternativeNames: cho-gmt4
+AlternativeNames: cho gmt4
 
 [Term]
 ConceptName: cho-gs_COID991056
@@ -1058,7 +1089,7 @@ Id: COID991056
 CanonicalName: cho-gs
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: cho gs
 
 [Term]
 ConceptName: chinese-hamster ovary k1_COID324081
@@ -1068,6 +1099,8 @@ Type: chinese hamster ovary (CHO)
 TypeId: C58
 AlternativeNames: cho-k1
 AlternativeNames: CHO-K1
+AlternativeNames: cho k1
+AlternativeNames: cho-k1 cell line
 
 
 [Term]
@@ -1076,7 +1109,7 @@ Id: COID613537
 CanonicalName: cho-k1 media
 Type: media
 TypeId: C59
-AlternativeNames: 
+AlternativeNames: cho k1 media
 
 [Term]
 ConceptName: cho-lec_COID362254
@@ -1084,7 +1117,7 @@ Id: COID362254
 CanonicalName: cho-lec
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: cho lec
 
 [Term]
 ConceptName: cho-m_COID467503
@@ -1092,7 +1125,7 @@ Id: COID467503
 CanonicalName: cho-m
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: cho m
 
 [Term]
 ConceptName: cho-s_COID669791
@@ -1100,7 +1133,7 @@ Id: COID669791
 CanonicalName: cho-s
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: cho s
 
 [Term]
 ConceptName: cho-s media_COID626143
@@ -1108,7 +1141,7 @@ Id: COID626143
 CanonicalName: cho-s media
 Type: media
 TypeId: C59
-AlternativeNames: 
+AlternativeNames: cho s media
 
 [Term]
 ConceptName: chromatography resin filtration_COID249381
@@ -1234,6 +1267,9 @@ CanonicalName: culture condition
 Type: culture condition
 TypeId: C20
 AlternativeNames: culture conditions
+AlternativeNames: cultural conditions
+AlternativeNames: cultural condition
+
 
 [Term]
 ConceptName: culture environments_COID998785
@@ -1738,7 +1774,7 @@ Id: COID275575
 CanonicalName: fucose
 Type: sugar (subset of carbon source)
 TypeId: C27
-AlternativeNames: 
+AlternativeNames:
 
 [Term]
 ConceptName: fucose analogue_COID400862
@@ -1770,7 +1806,11 @@ Id: COID212341
 CanonicalName: fucosyltransferase
 Type: enzyme
 TypeId: C10
-AlternativeNames: 
+AlternativeNames: fucosyltransferases
+AlternativeNames: FUT8
+AlternativeNames: fut8
+AlternativeNames: fucosyltransferase 8
+
 
 [Term]
 ConceptName: function_COID532355
@@ -1818,7 +1858,7 @@ Id: COID770311
 CanonicalName: galactose
 Type: sugar (subset of carbon source)
 TypeId: C27
-AlternativeNames: G
+AlternativeNames: 
 
 [Term]
 ConceptName: galactosylated glycan_COID107534
@@ -1842,7 +1882,7 @@ Id: COID983193
 CanonicalName: galactosylated igg
 Type: product quality profile
 TypeId: C50
-AlternativeNames: 
+AlternativeNames: igg galactosylation
 
 [Term]
 ConceptName: galactosylation_COID475750
@@ -1850,7 +1890,7 @@ Id: COID475750
 CanonicalName: galactosylation
 Type: glycosylation
 TypeId: C61
-AlternativeNames: 
+AlternativeNames: early protein galactosylation
 
 [Term]
 ConceptName: galactosylation index_COID293764
@@ -1940,6 +1980,7 @@ CanonicalName: n-acetylglucosamine
 Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: glcnac
+AlternativeNames: glcnac6p
 AlternativeNames: n-acetyl-d-glucosamine
 AlternativeNames: n-acetyl-d-glucosamine (glcnac)
 
@@ -1951,6 +1992,7 @@ Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: udp-n-acetyl-d-glucosamine
 AlternativeNames: udp-n-acetyl-d-glucosamine (udp-glcnac)
+AlternativeNames: uridine diphosphate–n-acetylglucosamine
 
 [Term]
 ConceptName: globular protine_COID893662
@@ -1983,6 +2025,8 @@ CanonicalName: glucose
 Type: sugar (subset of carbon source)
 TypeId: C27
 AlternativeNames: q gluc
+AlternativeNames: qgluc
+AlternativeNames: q-gluc
 
 [Term]
 ConceptName: glutamate_COID485387
@@ -2055,6 +2099,9 @@ CanonicalName: glycan profile
 Type: product quality attributes
 TypeId: C51
 AlternativeNames: glycan profiles
+AlternativeNames: n-glycan profiles
+AlternativeNames: n-glycan profile
+
 
 [Term]
 ConceptName: glycan structures_COID684992
@@ -2127,6 +2174,8 @@ CanonicalName: glycoforms
 Type: recombinant protein
 TypeId: C46
 AlternativeNames: glycoform
+AlternativeNames: hm glycoform
+AlternativeNames: hm glycoforms
 
 [Term]
 ConceptName: glycoprofiles_COID135698
@@ -2322,6 +2371,9 @@ CanonicalName: heterogeneity
 Type: clinical outcomes
 TypeId: C24
 AlternativeNames: heterogeneities
+AlternativeNames: micro-heterogeneity
+AlternativeNames: microheterogeneity
+AlternativeNames: microheterogeneities
 
 [Term]
 ConceptName: hexose_COID807273
@@ -2399,6 +2451,7 @@ CanonicalName: host cell proteins
 Type: recombinant protein
 TypeId: C46
 AlternativeNames: HCP
+AlternativeNames: host cell protein
 
 [Term]
 ConceptName: human serum_COID211221
@@ -2414,7 +2467,7 @@ Id: COID785180
 CanonicalName: hycell cho
 Type: media
 TypeId: C59
-AlternativeNames: 
+AlternativeNames: hycell-cho
 
 [Term]
 ConceptName: hydroxyethyl cellulose_COID352629
@@ -2554,6 +2607,9 @@ CanonicalName: intensified fed batch
 Type: process mode
 TypeId: C44
 AlternativeNames: IFB
+AlternativeNames: ifb
+AlternativeNames: ifb_5
+
 
 [Term]
 ConceptName: intracellular factors_COID386307
@@ -2721,8 +2777,8 @@ Id: COID568402
 CanonicalName: man5
 Type: sugar (subset of carbon source)
 TypeId: C27
-AlternativeNames: N-linked mannose-5 glycan
-AlternativeNames: N-linked mannose-5 glycans
+AlternativeNames: n-linked mannose-5 glycan
+AlternativeNames: n-linked mannose-5 glycans
 AlternativeNames: mannose-5 glycan
 AlternativeNames: mannose-5 glycans
 
@@ -2740,7 +2796,11 @@ Id: COID436880
 CanonicalName: man8/9
 Type: sugar (subset of carbon source)
 TypeId: C27
-AlternativeNames: 
+AlternativeNames: man9
+AlternativeNames: man8
+AlternativeNames: man8 and man9
+AlternativeNames: man8 or man9
+AlternativeNames: man8/man9
 
 [Term]
 ConceptName: manganese_COID333220
@@ -2748,7 +2808,7 @@ Id: COID333220
 CanonicalName: manganese
 Type: trace metals or minerals (subset of secondary raw materials)
 TypeId: C38
-AlternativeNames: 
+AlternativeNames: mn2+
 
 [Term]
 ConceptName: mannose_COID906305
@@ -2861,6 +2921,7 @@ CanonicalName: media supplementation
 Type: secondary raw materials
 TypeId: C25
 AlternativeNames: media supplementations
+AlternativeNames: ba supplementation
 
 [Term]
 ConceptName: medium_COID921897
@@ -2884,7 +2945,7 @@ Id: COID291079
 CanonicalName: metabolism
 Type: biological process
 TypeId: C6
-AlternativeNames: 
+AlternativeNames: metabolities
 
 [Term]
 ConceptName: metabolite concentration_COID364859
@@ -2963,6 +3024,7 @@ TypeId: C54
 AlternativeNames: monoclonal antibodies
 AlternativeNames: mab
 AlternativeNames: mabs
+AlternativeNames: mabs carrying n-glycans
 
 
 [Term]
@@ -3027,7 +3089,7 @@ Id: COID135789
 CanonicalName: n-acetylmannosamine
 Type: sugar (subset of carbon source)
 TypeId: C27
-AlternativeNames: 
+AlternativeNames: mannac
 
 [Term]
 ConceptName: n-acetylneuraminic acid_COID042583
@@ -3191,7 +3253,7 @@ Id: COID964757
 CanonicalName: nist cho
 Type: chinese hamster ovary (CHO)
 TypeId: C58
-AlternativeNames: 
+AlternativeNames: nist-cho
 
 [Term]
 ConceptName: nitrogen_COID546348
@@ -3353,9 +3415,10 @@ AlternativeNames: oligosaccharides
 ConceptName: opticho_COID017929
 Id: COID017929
 CanonicalName: opticho
-Type: media
-TypeId: C59
-AlternativeNames: 
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: opti cho
+AlternativeNames: opti-cho
 
 [Term]
 ConceptName: optipro sfm_COID598380
@@ -3513,7 +3576,7 @@ Id: COID850093
 CanonicalName: phosphorylation
 Type: PTM
 TypeId: C8
-AlternativeNames: 
+AlternativeNames: oxidative phosphorylation
 
 [Term]
 ConceptName: polydimethylsiloxane_COID685265
@@ -3744,6 +3807,8 @@ CanonicalName: production yield
 Type: overall titer or batch yield
 TypeId: C48
 AlternativeNames: production yields
+AlternativeNames: antibody production yields
+AlternativeNames: antibody production yield
 
 [Term]
 ConceptName: productivity_COID731421
@@ -3889,7 +3954,7 @@ Id: COID599783
 CanonicalName: qp
 Type: flux rate
 TypeId: C49
-AlternativeNames: 
+AlternativeNames: q p
 
 [Term]
 ConceptName: quality_COID109463
@@ -4139,7 +4204,8 @@ Id: COID191824
 CanonicalName: sialyltransferase
 Type: enzyme
 TypeId: C10
-AlternativeNames: 
+AlternativeNames: sialyl-transferases
+AlternativeNames: sialyltransferases
 
 [Term]
 ConceptName: silicone-based antifoams_COID404088
@@ -4331,6 +4397,7 @@ Type: secondary raw materials
 TypeId: C25
 AlternativeNames: supplementations
 
+
 [Term]
 ConceptName: synthetic or chemically defined media_COID198035
 Id: COID198035
@@ -4427,6 +4494,8 @@ CanonicalName: titer
 Type: overall titer or batch yield
 TypeId: C48
 AlternativeNames: titers
+AlternativeNames: mab titers
+AlternativeNames: mab1 titers
 
 [Term]
 ConceptName: trace metal_COID221517
@@ -4522,7 +4591,7 @@ Id: COID756664
 CanonicalName: udp–gal
 Type: substrates
 TypeId: C3
-AlternativeNames: 
+AlternativeNames: udp-galnac
 
 [Term]
 ConceptName: ultrafiltration_COID277807
@@ -4573,7 +4642,7 @@ Id: COID485269
 CanonicalName: uridine
 Type: nucleotide or nucleoside
 TypeId: C4
-AlternativeNames: U
+AlternativeNames: 
 
 [Term]
 ConceptName: uridine diphosphate–galactose_COID990972
@@ -4583,14 +4652,6 @@ Type: substrates
 TypeId: C3
 AlternativeNames: udp–gal
 AlternativeNames: udp–galactose
-
-[Term]
-ConceptName: uridine diphosphate–n-acetylglucosamine_COID399054
-Id: COID399054
-CanonicalName: uridine diphosphate–n-acetylglucosamine
-Type: substrates
-TypeId: C3
-AlternativeNames: udp–glcnac
 
 [Term]
 ConceptName: valproic acid_COID953809
@@ -4632,6 +4693,7 @@ Type: cell culture parameters
 TypeId: C15
 AlternativeNames: viable cell densities
 AlternativeNames: VCD
+AlternativeNames: vcds
 
 
 [Term]
@@ -4741,7 +4803,9 @@ Id: COID856080
 CanonicalName: β-1,4 galactosyltransferase
 Type: enzyme
 TypeId: C10
-AlternativeNames: 
+AlternativeNames: β-1,4-galactosyltransferase
+AlternativeNames: B4GALT
+AlternativeNames: b4galt
 
 [Term]
 ConceptName: β-1,4 galactosyltransferase activity_COID893155
@@ -4759,3 +4823,590 @@ Type: amino acid (subset of substrates)
 TypeId: C5
 AlternativeNames: 
 
+[Term]
+ConceptName: antibody_COID278523
+Id: COID278523
+CanonicalName: antibody
+Type: antibody
+TypeId: C63
+AlternativeNames: antibodies
+
+[Term]
+ConceptName: CHO_COID806780
+Id: COID806780
+CanonicalName: CHO
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: chinese hamster ovary
+AlternativeNames: chinese hamster ovary (cho)
+AlternativeNames: cho cells
+AlternativeNames: chinese hamster ovary cells
+
+[Term]
+ConceptName: culture ph_COID689332
+Id: COID689332
+CanonicalName: culture ph
+Type: bioreactor conditions
+TypeId: C14
+AlternativeNames: ph of culture
+
+[Term]
+ConceptName: monoclonal antibody-1_COID268135
+Id: COID268135
+CanonicalName: monoclonal antibody-1
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: monoclonal antibody 1
+AlternativeNames: monoclonal antibody1
+AlternativeNames: mab1
+AlternativeNames: mab-1
+
+[Term]
+ConceptName: monoclonal antibody-2_COID770105
+Id: COID770105
+CanonicalName: monoclonal antibody-2
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: monoclonal antibody 2
+AlternativeNames: monoclonal antibody2
+AlternativeNames: mab2
+AlternativeNames: mab-2
+
+[Term]
+ConceptName: oxygen partial pressure_COID790678
+Id: COID790678
+CanonicalName: oxygen partial pressure
+Type: process condition
+TypeId: C19
+AlternativeNames: partial pressure of oxygen
+AlternativeNames: po2
+AlternativeNames: po 2
+AlternativeNames: partial pressure oxygen
+AlternativeNames: partial pressure of o2
+
+[Term]
+ConceptName: critical quality attributes_COID162607
+Id: COID162607
+CanonicalName: critical quality attributes
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: CQA
+AlternativeNames: cqas
+AlternativeNames: critical quality attribute
+
+[Term]
+ConceptName: serene_COID865161
+Id: COID865161
+CanonicalName: serene
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: ser
+AlternativeNames: serenes
+
+[Term]
+ConceptName: sialidases_COID070440
+Id: COID070440
+CanonicalName: sialidases
+Type: enzyme
+TypeId: C10
+AlternativeNames: sialidase
+
+[Term]
+ConceptName: glucosidase_COID809485
+Id: COID809485
+CanonicalName: glucosidase
+Type: enzyme
+TypeId: C10
+AlternativeNames: glucosidases
+
+[Term]
+ConceptName: glucosidase inhibitor_COID600034
+Id: COID600034
+CanonicalName: glucosidase inhibitor
+Type: secondary raw materials
+TypeId: C25
+AlternativeNames: glucosidase inhibitors
+
+[Term]
+ConceptName: glycosylation gene_COID471026
+Id: COID471026
+CanonicalName: glycosylation gene
+Type: genotype
+TypeId: C42
+AlternativeNames: glycosylation genes
+
+[Term]
+ConceptName: immunogenic response_COID740397
+Id: COID740397
+CanonicalName: immunogenic response
+Type: clinical outcomes
+TypeId: C24
+AlternativeNames: immunogenic responses
+
+[Term]
+ConceptName: cell clone_COID964819
+Id: COID964819
+CanonicalName: cell clone
+Type: cell line
+TypeId: C56
+AlternativeNames: cell clones
+AlternativeNames: particular cell clones
+AlternativeNames: particular cell clone
+
+[Term]
+ConceptName: metabolic state_COID500182
+Id: COID500182
+CanonicalName: metabolic state
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: cellular metabolic state
+AlternativeNames: cellular metabolic states
+AlternativeNames: metabolic states
+
+[Term]
+ConceptName: mannose feed_COID729034
+Id: COID729034
+CanonicalName: mannose feed
+Type: NYK
+TypeId: C70
+AlternativeNames: 
+
+[Term]
+ConceptName: cultivation process_COID699462
+Id: COID699462
+CanonicalName: cultivation process
+Type: media characteristics
+TypeId: C43
+AlternativeNames: cultivation processes
+AlternativeNames: cultivation mode
+AlternativeNames: cultivation modes
+AlternativeNames: cultivation condition
+AlternativeNames: cultivation conditions
+
+[Term]
+ConceptName: copper chloride_COID901856
+Id: COID901856
+CanonicalName: copper chloride
+Type: trace metals or minerals (subset of secondary raw materials)
+TypeId: C38
+AlternativeNames: cucl2
+AlternativeNames: cucl
+AlternativeNames: copper(ii) chloride
+AlternativeNames: copper chlorides
+
+[Term]
+ConceptName: mycophenolic acid_COID265438
+Id: COID265438
+CanonicalName: mycophenolic acid
+Type: NYK
+TypeId: C70
+AlternativeNames: MPA
+AlternativeNames: mycophenolic acids
+
+[Term]
+ConceptName: dimethyl sulfoxide_COID418525
+Id: COID418525
+CanonicalName: dimethyl sulfoxide
+Type: NYK
+TypeId: C70
+AlternativeNames: DMSO
+AlternativeNames: dimethyl sulfoxides
+
+[Term]
+ConceptName: integral of the viable cells_COID204694
+Id: COID204694
+CanonicalName: integral of the viable cells
+Type: NYK
+TypeId: C70
+AlternativeNames: integral of the viable cell
+AlternativeNames: IVC
+
+[Term]
+ConceptName: sirna_COID416464
+Id: COID416464
+CanonicalName: sirna
+Type: NYK
+TypeId: C70
+AlternativeNames: sirna treated cultures
+AlternativeNames: sirna treated culture
+AlternativeNames: sirna treated bioreactors
+AlternativeNames: sirna treated bioreactor
+
+[Term]
+ConceptName: mannostatin_COID631700
+Id: COID631700
+CanonicalName: mannostatin
+Type: NYK
+TypeId: C70
+AlternativeNames: mannostatin a
+
+[Term]
+ConceptName: gdp-mannose 4,6-dehydratase_COID390450
+Id: COID390450
+CanonicalName: gdp-mannose 4,6-dehydratase
+Type: enzyme
+TypeId: C10
+AlternativeNames: GMDS
+AlternativeNames: gdp mannose 4,6 dehydratase
+AlternativeNames: gdp-mannose 4,6 dehydratase
+AlternativeNames: gdp-mannose 4,6-dehydratases
+
+[Term]
+ConceptName: peracetylation_COID113739
+Id: COID113739
+CanonicalName: peracetylation
+Type: PTM
+TypeId: C8
+AlternativeNames: 
+
+[Term]
+ConceptName: monosaccharide_COID882808
+Id: COID882808
+CanonicalName: monosaccharide
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: monosaccharides
+
+[Term]
+ConceptName: tagatose_COID779095
+Id: COID779095
+CanonicalName: tagatose
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: 
+
+[Term]
+ConceptName: 2-deoxy-2,3-didehydro-n-acetylneuraminic acid_COID084256
+Id: COID084256
+CanonicalName: 2-deoxy-2,3-didehydro-n-acetylneuraminic acid
+Type: sugar (subset of carbon source)
+TypeId: C27
+AlternativeNames: DANA
+AlternativeNames: 2-deoxy-2,3-didehydro-n-acetylneuraminic acids
+
+[Term]
+ConceptName: glycosylated igg_COID286158
+Id: COID286158
+CanonicalName: glycosylated igg
+Type: product quality profile
+TypeId: C50
+AlternativeNames: igg glycosylation
+AlternativeNames: igg-glycosylation
+
+[Term]
+ConceptName: monensin_COID766386
+Id: COID766386
+CanonicalName: monensin
+Type: NYK
+TypeId: C70
+AlternativeNames: 
+
+[Term]
+ConceptName: beta-galactoside alpha-2,6-sialyltransferase 1_COID749247
+Id: COID749247
+CanonicalName: beta-galactoside alpha-2,6-sialyltransferase 1
+Type: enzyme
+TypeId: C10
+AlternativeNames: ST6GAL1
+AlternativeNames: st6gal1
+AlternativeNames: ST6GAL1_OE_31
+
+[Term]
+ConceptName: chimeric anti-gd2 antibody_COID593142
+Id: COID593142
+CanonicalName: chimeric anti-gd2 antibody
+Type: antibody
+TypeId: C63
+AlternativeNames: 
+
+[Term]
+ConceptName: glycerolipid metabolism_COID675248
+Id: COID675248
+CanonicalName: glycerolipid metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: aminoglycan metabolism_COID274429
+Id: COID274429
+CanonicalName: aminoglycan metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: sphingolipid metabolism_COID520329
+Id: COID520329
+CanonicalName: sphingolipid metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: pentose phosphate pathway_COID233901
+Id: COID233901
+CanonicalName: pentose phosphate pathway
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: pentose phosphate pathways
+AlternativeNames: pentose phosphate pathway (ppp)
+AlternativeNames: PPP
+
+[Term]
+ConceptName: amino acid_COID693703
+Id: COID693703
+CanonicalName: amino acid
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: amino acids
+
+[Term]
+ConceptName: cellular metabolism_COID903943
+Id: COID903943
+CanonicalName: cellular metabolism
+Type: biological process
+TypeId: C6
+AlternativeNames: 
+
+[Term]
+ConceptName: procho5 medium_COID781761
+Id: COID781761
+CanonicalName: procho5 medium
+Type: media characteristics
+TypeId: C43
+AlternativeNames: 
+
+[Term]
+ConceptName: powercho2_COID568973
+Id: COID568973
+CanonicalName: powercho2
+Type: chinese hamster ovary (CHO)
+TypeId: C58
+AlternativeNames: power-cho 2
+AlternativeNames: power cho 2
+AlternativeNames: power cho
+AlternativeNames: powercho
+
+[Term]
+ConceptName: glycolysis_COID345655
+Id: COID345655
+CanonicalName: glycolysis
+Type: metabolic pathways
+TypeId: C1
+AlternativeNames: 
+
+[Term]
+ConceptName: fc galactosylation_COID097777
+Id: COID097777
+CanonicalName: fc galactosylation
+Type: product quality profile
+TypeId: C50
+AlternativeNames: fc-galactosylation
+AlternativeNames: galactosylated fc
+
+[Term]
+ConceptName: osmolarity_COID052118
+Id: COID052118
+CanonicalName: osmolarity
+Type: process parameters or process control
+TypeId: C11
+AlternativeNames: 
+
+[Term]
+ConceptName: monoclonal antibody-3_COID545724
+Id: COID545724
+CanonicalName: monoclonal antibody-3
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: mab3
+AlternativeNames: mab-3
+AlternativeNames: monoclonal antibody 3
+AlternativeNames: monoclonal antibody3
+
+[Term]
+ConceptName: monoclonal antibody-4_COID488138
+Id: COID488138
+CanonicalName: monoclonal antibody-4
+Type: monoclonal antibody
+TypeId: C54
+AlternativeNames: mab4
+AlternativeNames: mab-4
+AlternativeNames: monoclonal antibody 4
+AlternativeNames: monoclonal antibody4
+
+[Term]
+ConceptName: butyric acid_COID365093
+Id: COID365093
+CanonicalName: butyric acid
+Type: acid (subset of secondary raw materials)
+TypeId: C37
+AlternativeNames: butyric acids
+AlternativeNames: BA
+
+[Term]
+ConceptName: gene_COID185502
+Id: COID185502
+CanonicalName: gene
+Type: genotype
+TypeId: C42
+AlternativeNames: genes
+
+[Term]
+ConceptName: secreted igg4 antibody_COID339494
+Id: COID339494
+CanonicalName: secreted igg4 antibody
+Type: antibody
+TypeId: C63
+AlternativeNames: secreted igg4 antibodies
+
+[Term]
+ConceptName: dot fluctuation_COID332196
+Id: COID332196
+CanonicalName: dot fluctuation
+Type: NYK
+TypeId: C70
+AlternativeNames: dot fluctuations
+
+[Term]
+ConceptName: ph and dissolved oxygen heterogeneities_COID571696
+Id: COID571696
+CanonicalName: ph and dissolved oxygen heterogeneities
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: ph and dissolved oxygen heterogeneity
+AlternativeNames: ph and do heterogeneity
+
+[Term]
+ConceptName: DOT_COID003597
+Id: COID003597
+CanonicalName: DOT
+Type: NYK
+TypeId: C70
+AlternativeNames: 
+
+[Term]
+ConceptName: dot-fluctuated vessels_COID853468
+Id: COID853468
+CanonicalName: dot-fluctuated vessels
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: dot fluctuated vessels
+AlternativeNames: dot fluctuated vessel
+AlternativeNames: dot-fluctuated vessel
+
+
+[Term]
+ConceptName: metabolic byproducts_COID531384
+Id: COID531384
+CanonicalName: metabolic byproducts
+Type: by-product or waste
+TypeId: C9
+AlternativeNames: metabolic by-products
+AlternativeNames: metabolic by-product
+AlternativeNames: metabolic byproduct
+
+[Term]
+ConceptName: cgntiii_COID316428
+Id: COID316428
+CanonicalName: cgntiii
+Type: genotype
+TypeId: C42
+AlternativeNames: gnt iii
+AlternativeNames: gntiii
+AlternativeNames: CGNT III
+AlternativeNames: cgntiii gene
+AlternativeNames: cgntiii genes
+AlternativeNames: cgntiii expression
+
+[Term]
+ConceptName: vessels_COID322748
+Id: COID322748
+CanonicalName: vessels
+Type: vessel or process parameter or production scale
+TypeId: C12
+AlternativeNames: vessel
+AlternativeNames: fluctuated vessel
+AlternativeNames: fluctuated vessels
+AlternativeNames: do-fluctuated vessels
+AlternativeNames: do fluctuated vessels
+AlternativeNames: do-fluctuated vessel
+AlternativeNames: do fluctuated vessel
+AlternativeNames: ph-fluctuated vessels
+AlternativeNames: ph fluctuated vessels
+AlternativeNames: ph-fluctuated vessel
+AlternativeNames: ph fluctuated vessel
+
+[Term]
+ConceptName: deoxynojirimycin_COID003598
+Id: COID003598
+CanonicalName: deoxynojirimycin
+Type: enzyme inhibitor
+TypeId: C60
+AlternativeNames: glucosidase inhibitor deoxynojirimycin
+[Term]
+ConceptName: st3 beta-galactoside alpha-2,3-sialyltransferase 6_COID373234
+Id: COID373234
+CanonicalName: st3 beta-galactoside alpha-2,3-sialyltransferase 6
+Type: enzyme
+TypeId: C10
+AlternativeNames: st3gal6
+AlternativeNames: ST3GAL6
+
+[Term]
+ConceptName: glycan heterogeneity_COID262061
+Id: COID262061
+CanonicalName: glycan heterogeneity
+Type: product quality attributes
+TypeId: C51
+AlternativeNames: glycan heterogeneities
+AlternativeNames: heterogeneity of glycans
+AlternativeNames: n-glycan heterogeneity
+AlternativeNames: heterogeneity of n-glycans
+
+[Term]
+ConceptName: pyroglutamate_COID083886
+Id: COID083886
+CanonicalName: pyroglutamate
+Type: amino acid (subset of substrates)
+TypeId: C5
+AlternativeNames: pyroglutamic acid
+AlternativeNames: 5-oxoproline
+AlternativeNames: pglu
+AlternativeNames: n-terminal pyroglutamate
+AlternativeNames: n-terminal pyroglutamic acid
+
+[Term]
+ConceptName: immunoglobulin_COID713543
+Id: COID713543
+CanonicalName: immunoglobulin
+Type: antibody
+TypeId: C63
+AlternativeNames: immunoglobulin g
+AlternativeNames: igg
+AlternativeNames: igg1
+AlternativeNames: immunoglobulins
+
+[Term]
+ConceptName: igg titers_COID814559
+Id: COID814559
+CanonicalName: igg titers
+Type: overall titer or batch yield
+TypeId: C48
+AlternativeNames: immunoglobulin titers
+AlternativeNames: igg titer
+AlternativeNames: immunoglobulin titer
+
+[Term]
+ConceptName: cellular metabolic state_COID934077
+Id: COID934077
+CanonicalName: cellular metabolic state
+Type: cellular metabolic state
+TypeId: C21
+AlternativeNames: cellular metabolic states
+AlternativeNames: cell metabolic state
+AlternativeNames: cell metabolic states
+AlternativeNames: metabolic state
+AlternativeNames: metabolic states
+AlternativeNames: cells' metabolic state
+AlternativeNames: cells' metabolic states

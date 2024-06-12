@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>9306616</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Yang;given-names:Shumin</infon>
+      <infon key="name_2">surname:Stadermann;given-names:Anna</infon>
+      <infon key="name_1">surname:Mathias;given-names:Sven</infon>
+      <infon key="article-id_pmid">34935124</infon>
+      <infon key="name_0">surname:Fischer;given-names:Simon</infon>
+      <infon key="notes">  , , , , , , , , , , , , , , , , , &amp;  . . , , -.   </infon>
+      <infon key="pub-id_doi">10.1002/bit.28015</infon>
+      <infon key="pub-id_pmid">34935124</infon>
+      <infon key="year">2022</infon>
+      <infon key="article-id_pmc">9306616</infon>
+      <infon key="article-id_publisher-id">BIT28015</infon>
+      <infon key="fn">Sven Mathias and Anna Stadermann contributed equally to this study.</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="article-id_doi">10.1002/bit.28015</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol Bioeng;202203; 119 (3) 832-844. doi:10.1002/bit.28015</infon>
+      <infon key="lpage">844</infon>
+      <infon key="fpage">832</infon>
+      <infon key="issue">3</infon>
+      <infon key="alt-title">FISCHER et al. </infon>
+      <infon key="volume">119</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_10">surname:Ley;given-names:Yan</infon>
+      <infon key="name_13">surname:Bernloehr;given-names:Christian</infon>
+      <infon key="name_14">surname:Otte;given-names:Kerstin</infon>
+      <infon key="name_11">surname:van der Meer;given-names:Julia</infon>
+      <infon key="name_12">surname:Hartsch;given-names:Thomas</infon>
+      <infon key="name_17">surname:Schulz;given-names:Patrick</infon>
+      <infon key="kwd">Chinese hamster ovary (CHO) cells microRNA monoclonal antibody N-glycosylation sialylation</infon>
+      <infon key="name_15">surname:Bradl;given-names:Harald</infon>
+      <infon key="name_9">surname:Zimmermann;given-names:Eike</infon>
+      <infon key="name_16">surname:Gamer;given-names:Martin</infon>
+      <infon key="name_8">surname:Wright;given-names:Sara</infon>
+      <infon key="name_7">surname:Richter;given-names:Patrick</infon>
+      <infon key="name_6">surname:Schmidt;given-names:Nicoletta</infon>
+      <infon key="name_5">surname:Zeh;given-names:Nikolas</infon>
+      <infon key="name_4">surname:Schmieder;given-names:Valerie</infon>
+      <infon key="authors">Fischer S, Mathias S, Stadermann A, Yang S, Schmieder V, Zeh N, Schmidt N, Richter P, Wright S, Zimmermann E, Ley Y, van der Meer J, Hartsch T, Bernloehr C, Otte K, Bradl H, Gamer M, Schulz P, </infon>
+      <offset>0</offset>
+      <text>Loss of a newly discovered microRNA in Chinese hamster ovary cells leads to upregulation of N-glycolylneuraminic acid sialylation on monoclonal antibodies</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:09:50Z</infon>
+        <location offset="27" length="8"/>
+        <text>microRNA</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:10:08Z</infon>
+        <location offset="39" length="21"/>
+        <text>Chinese hamster ovary</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:09:56Z</infon>
+        <location offset="92" length="37"/>
+        <text>N-glycolylneuraminic acid sialylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>157</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>166</offset>
+      <text>Chinese hamster ovary (CHO) cells are known not to express appreciable levels of the sialic acid residue N-glycolylneuraminic acid (NGNA) on monoclonal antibodies. However, we actually have identified a recombinant CHO cell line expressing an IgG with unusually high levels of NGNA sialylation (&gt;30%). Comprehensive multi-OMICs based experimental analyses unraveled the root cause of this atypical sialylation: (1) expression of the cytidine monophosphate-N-acetylneuraminic acid hydroxylase (CMAH) gene was spontaneously switched on, (2) CMAH mRNA showed an anti-correlated expression to the newly discovered Cricetulus griseus (cgr) specific microRNA cgr-miR-111 and exhibits two putative miR-111 binding sites, (3) miR-111 expression depends on the transcription of its host gene SDK1, and (4) a single point mutation within the promoter region of the sidekick cell adhesion molecule 1 (SDK1) gene generated a binding site for the transcriptional repressor histone H4 transcription factor HINF-P. The resulting transcriptional repression of SDK1 led to a downregulation of its co-expressed miR-111 and hence to a spontaneous upregulation of CMAH expression finally increasing NGNA protein sialylation.</text>
+      <annotation id="4">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:11:39Z</infon>
+        <location offset="166" length="21"/>
+        <text>Chinese hamster ovary</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:47:44Z</infon>
+        <location offset="251" length="52"/>
+        <text>sialic acid residue N-glycolylneuraminic acid (NGNA)</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:48:00Z</infon>
+        <location offset="381" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:47:51Z</infon>
+        <location offset="443" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:17:03Z</infon>
+        <location offset="1259" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:17:14Z</infon>
+        <location offset="1345" length="24"/>
+        <text>NGNA protein sialylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1395</offset>
+      <text>Fischer and co-workers identified a mAb producing CHO cell line exhibiting unusually high levels of potentially immunogenic NGNA sialylation. A comprehensive multi-OMICS based root cause analysis revealed that the CMAH gene was upregulated as a result of a point mutation identified in the promoter region of the SDK1 gene which led to the silencing of its intronic miR-111. MiR-111 has been discovered as a new regulatory RNA in CHO cells responsible for CMAH gene and thus sialylation regulation.  </text>
+      <annotation id="7">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:20:02Z</infon>
+        <location offset="1445" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:27:01Z</infon>
+        <location offset="1770" length="7"/>
+        <text>MiR-111</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:27:13Z</infon>
+        <location offset="1870" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">title</infon>
+      <offset>1904</offset>
+      <text>Abbreviations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1918</offset>
+      <text>CMAH</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1923</offset>
+      <text>cytidine monophosphate (CMP)-N-acetylneuraminic acid hydroxylase</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1992</offset>
+      <text>CNVs</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1997</offset>
+      <text>Copy Number Variations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2020</offset>
+      <text>DMB</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2024</offset>
+      <text>1,2-Diamino-4,5-methylenedioxybenzene dihydrochloride</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2084</offset>
+      <text>FNIII</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2090</offset>
+      <text>fibronectin type III</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2111</offset>
+      <text>Gfi-1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2119</offset>
+      <text>Growth Factor Independent-1</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2149</offset>
+      <text>GLM</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2153</offset>
+      <text>Generalized Linear Model</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2178</offset>
+      <text>HINF-P</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2187</offset>
+      <text>sidekick cell adhesion molecule 1; histone H4 transcription factor</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2254</offset>
+      <text>NANA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2259</offset>
+      <text>N-acetylneuraminic acid</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2285</offset>
+      <text>NGNA</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2290</offset>
+      <text>N-glycolylneuraminic acid</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2318</offset>
+      <text>sgRNAs</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2325</offset>
+      <text>Single guide RNAs</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2343</offset>
+      <text>ST6GAL</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2350</offset>
+      <text>alpha-2,6-sialyltransferases</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>2380</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2393</offset>
+      <text>N-glycosylation represents one of the most important product quality attributes of therapeutic glycoproteins such as monoclonal antibodies (mAbs) (Walsh &amp; Jefferis, ; Zhou &amp; Qiu, ). The composition of the N-linked glycan structure influences the efficacy of the mAb since effector functions such as antibody-dependent cellular cytotoxicity and the complement-dependent cytotoxicity are dependent on the glycosylation pattern (Mimura et al., ). Furthermore, the type of sugar moiety is also critical for the safety and/or serum half-life of a glycoprotein in the blood (Zhou &amp; Qiu, ). Unlike other glycoproteins, the N-linked glycans of mAbs are predominantly bi-antennary complex structures with terminal sialylation as the most advanced glycosylation form (Wang et al., ). In mammalian cells, two different types of terminal sialic acids are commonly found, the N-acetylneuraminic acid (NANA) and its hydroxylated form N-glycolylneuraminic acid (NGNA) (Hossler et al., ). In humans, only the NANA sialylation is present on glycoproteins since humans exhibit a homozygous loss-of-function mutation in the cytidine monophosphate (CMP)-N-acetylneuraminic acid hydroxylase (CMAH) gene catalyzing the conversion from CMP-NANA into CMP-NGNA (Chou et al., ; Okerblom et al., ; Varki, ). Hence, glycoproteins exhibiting NGNA sialylation are suspected to have high immunogenic potential and thus need to be avoided on biopharmaceutical products (Ghaderi et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3890</offset>
+      <text>Chinese hamster ovary (CHO) cells are the predominant expression host for recombinant human therapeutic glycoproteins (Durocher &amp; Butler, ; Omasa et al., ). Besides many other important advantages, CHO cells are capable of producing recombinant glycoproteins with human-like N-glycosylation pattern. Notably, unlike other nonhuman mammalian expression hosts such as mouse myeloma NS0 or SP2/0 cell lines, this similarity also includes a very low abundance of terminal NGNA sialylation (&lt;2%) (Hokke et al., ; F. Li et al., ), making CHO cells an attractive and safe manufacturing host for therapeutic glycoproteins. The reason for the low abundant NGNA levels on glycoproteins produced by CHO cells is that the CMAH protein is not expressed in this host, although an intact CMAH gene has been identified on the CHO genome (Xu et al., ). It is currently still unknown why the CMAH gene is silent in CHO cells, but we have recently generated a recombinant CHO DG44 cell line expressing a mAb that exhibited unusually high levels of NGNA sialylation both on the secreted mAb (&gt;30%) as well as on cell surface glycoproteins. In this study, we provide several lines of evidence that the loss of expression of a newly identified small noncoding RNA (cgr-miR-111) was finally responsible for an upregulation of the CMAH gene leading to increased NGNA sialylation levels. Furthermore, we demonstrated that loss of expression of miR-111 was induced by a single point mutation in the promoter region of the miR-111 host gene sidekick cell adhesion molecule 1 (SDK1), which gave rise to a binding site of an active transcriptional repressor histone H4 transcription factor (HINF-P). The resulting silencing of SDK1 and miR-111 led to a deregulation of CMAH expression finally inducing the increased NGNA sialylation of the recombinant mAb.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5739</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5761</offset>
+      <text>Cell culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5774</offset>
+      <text>Two different recombinant CHO DG44 production clones (Clones A and B) expressing an identical monoclonal antibody (IgG4 isotype) were routinely cultivated in shake flasks (Corning) unless otherwise stated. Both cell lines were generated in the scope of a cell line development program and thus derived from the same transfection pool of suspension adapted Boehringer Ingelheim (BI) proprietary DHFR deficient (DHFR-/-) CHO DG44 host cells (for more details on the cell line development process please refer to Section 2.3). Cells were cultivated at 37 C, 5% CO2 and with agitation at 125 rpm (50 mm orbit) in an orbital shaker incubator (Infors). BI proprietary serum-free, chemically defined and animal component free cell culture media were used for cultivation. Seeding cell density of stock cultures was set to 0.3 x 106 viable cells per milliliter and cells were passaged every 3-4 days. Cell concentration and viability during routine stock culture cultivation was assessed using a Cedex HiRes Analyzer  (Roche Diagnostics) by means of trypan blue exclusion.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>6862</offset>
+      <text>Transfection</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6875</offset>
+      <text>Transfection of small RNAs such as miRNA mimics or siRNAs (Qiagen) was performed as previously described using ScreenFect  A plus (InCella) (Fischer et al., ). Briefly, ScreenFect  A plus was first diluted in ScreenFect  Dilution Buffer (InCella) before the respective amount of miRNA or siRNA (50 nM final RNA concentration) was added followed by a complexation period of 20 min at room temperature. Exponentially growing CHO cells were pelleted, resuspended in fresh culture medium and added to each well containing transfection complexes at a cell concentration of 0.5 x 106 viable cells per milliliter. Duetz  6-deepwell culture plates (Enzyscreen) were cultivated in an orbital shaker incubator (Infors) at 37 C, 5% CO2, 90% relative humidity and with agitation at 220 rpm (50 mm orbit).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7689</offset>
+      <text>Transfection of plasmid DNA was performed using the Cell Line Nucleofector  Kit V (Lonza) on a Nucleofector  (Lonza) according to the instructions provided by the manufacturer. Briefly, 5.0 x 106 cells were pelleted and resuspended in transfection solution. After addition of 5 microg of endotoxin-free plasmid DNA cells were transfected and seeded in pre-warmed culture medium. Cell culture medium was exchanged for selection medium 24 h post transfection followed by a selection period of 2 weeks. Transfected cells were cultivated at 37 C and 5% CO2 in humidified atmosphere until single cell cloning. Each transfection was performed in biological triplicates (n = 3).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8380</offset>
+      <text>Cell line development (CLD)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8408</offset>
+      <text>Stable mAb producing CHO cell lines were generated by transfection of BI proprietary DHFR deficient (DHFR-/ -) CHO-DG44 host cells with 5 microg of two expression plasmids encoding the heavy and light chain genes of an IgG4 monoclonal antibody, respectively. Transfection was performed as described above. Stable recombinant cell pools were subjected to a stepwise gene amplification procedure by supplementation of the culture medium with increasing concentrations of methotrexate (MTX). Stable gene-amplified pools were used for single cell cloning by fluorescent activated cell sorting (FACS) on a FACSAria  III instrument (BD Biosciences). Approximately 6000 cell clones were deposited in multiple 384-well plates (Corning) and cultivated for additional 14 days in BI proprietary single cell cloning medium. Automated fluorescence microscopy was conducted on Days 0, 7, and 14 post cloning using a Cellavista  high-end RS cell imager (Synentec bio Services) to assure generation of monoclonal cell lines as well as to monitor cell growth post cloning. After determination of accumulated mAb titers in the culture supernatant the clones exhibiting the highest mAb productivity were expanded to shake flasks and cryopreserved in safety cell banks.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>9675</offset>
+      <text>Fed-batch cultivation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9699</offset>
+      <text>Analysis of bioprocess performance of the two investigated stable CHO production cell lines was performed in controlled fed-batch cultivations using 2L glass bioreactors. Briefly, cells were seeded at 0.3 x 106 viable cells per milliliter in a BI proprietary production cell culture medium. Feeding was started at Day 3 following inoculation using a proprietary feed medium and included 30 ml of feed medium per liter of cultivation volume per day. Glucose levels were kept above 3 g/L throughout the entire cultivation period. Process parameters (cell concentration, viability, pH, pO2, glucose, and lactate concentration) as well as mAb concentration were determined daily. Cell concentration and viability was analyzed using a Cedex HiRes Analyzer  (Roche Diagnostics). Glucose and lactate concentration was determined on a Biosen C-Line System (EKF Diagnostic), while pH and pO2 were analyzed using a RAPIDLab 248 system (Siemens Healthcare). Antibody concentration was determined as described below (2.6) using a ForteBio Octet  HTX system (Pall Life Science).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10783</offset>
+      <text>Quantitative reverse-transcription real-time PCR (qRT-PCR)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10848</offset>
+      <text>Total RNA was extracted from 5.0 x 106 cells using the miRNeasy Mini Kit (Qiagen) according to the manufacturer's protocol. RNA concentration was measured on a NanoDrop spectrophotometer (Thermo Fisher Scientific) and 10 ng of RNA was reverse-transcribed into cDNA using the TaqMan microRNA Reverse Transcription Kit (Thermo Fisher Scientific, #4366596) according to the manufacturer's instructions. Quantification of mature miRNAs was performed using the TaqMan  Advanced miRNA Assay (Thermo Fisher Scientific, #A25576) on a Cfx96 instrument (Biorad). U6 snoRNA was used as reference small RNA. Calculation of DeltaCq values was performed with the single threshold method (Biorad CFX manager software 2.1).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11564</offset>
+      <text>Monoclonal antibody quantification</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11599</offset>
+      <text>Product concentration of mAbs was determined via bio layer interferometry using Protein A coupled biosensors on an ForteBio Octet  HTX system (Pall Life Science). Cell culture supernatant was diluted in cultivation media to a total volume of 200 microl. The Protein A coupled biosensors were incubated in cultivation media for 15 min for equilibration. Recuperation of biosensors between each measurement was achieved in a regeneration solution containing 10 mM glycine at a pH of 1.5. A standard curve using the respective purified monoclonal antibody was used to calculate product concentrations in cell culture supernatant.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12231</offset>
+      <text>Antibody sialylation analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12261</offset>
+      <text>Sialic acids were released from monoclonal antibody samples by acid hydrolysis and labeled with 1,2-Diamino-4,5-methylenedioxybenzene dihydrochloride (DMB) using the Prozyme Glyko  Signal  DMB Sialic Acid Labeling Kit. Standard solutions were prepared using NANA and NGNA purchased from Sigma Aldrich. DMB-labeled sialic acids were separated by HPLC using a Prozyme GlycoSep  R HPLC column and a Waters  2795 HPLC system using an isocratic elution with 7% acetonitrile and 5% methanol. Separated DMB-labeled sialic acids were detected by fluorescence with excitation at 373 nm and emission at 448 nm. Quantification of NGNA and NANA sialic acid was performed by interpolation of the fluorescence signal to a calibration curve for each individual sialic acid, spanning an on-column load of approximately 0.1-3 ng.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13100</offset>
+      <text>Next-Generation sequencing</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13129</offset>
+      <text>RNA was extracted with the QIAsymphony  system using a QIAsymphony  RNA Kit (Qiagen). Library generation with 250 ng input RNA was performed using the TruSeq Stranded mRNA Library Prep Kit (Illumina, Inc.) according to the manufacturer's recommendations. Qualification of RNA and sequencing libraries was performed using an Advanced Analytical Fragment Analyzer  (Advanced Analytical Technologies, Inc, Heidelberg, Germany) with High Sensitivity RNA Analysis DNF-472 (15 nt) and Standard Sensitivity NGS Fragment Analysis DNF-473 Kits. Quantification of sequencing libraries was carried out on a Tecan Infinite  200 Pro Reader (Tecan Group) using the Quant-iT  PicoGreen  dsDNA Kit (Invitrogen). Libraries were pooled and sequenced on a HiSeq. 3000 instrument (Illumina, Inc.) in single-end mode and 85 cycles.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13960</offset>
+      <text>DNASeq raw data processing</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13987</offset>
+      <text>Genomic DNA of the two different CHO production cell lines (Clones A and B) at two different cultivation time points (D1 and D9) was sequenced with Sanger/Illumina 1.9 TruSeq PCR-free gDNA (125 bp paired-end reads and 350 bp insert size). Quality was assessed using FastQC (v0.11.5). Samples were quality trimmed with trimmomatic (v0.32) (Bolger et al., ). Quality-trimmed libraries were normalized to the size of the smallest library to avoid library-size dependent discrepancies in downstream processing. Reads were mapped against the reference genome (Brinkrolf et al., ) using bowtie2 to produce clone and day specific assemblies (Clone_A_D1, Clone_A_D9, Clone_B_D1, and Clone_B_D9) (v. 2.2.5) (Langmead &amp; Salzberg, ). To capture cell line specific genomic DNA, paired-end reads not mapping to the reference genome were de novo assembled using spades (v3.7.1) (Nurk et al., ). Assembly statistics was assessed with quast (v4.2) (Gurevich et al., ). Scaffolds smaller than 1000 bps were removed from the assemblies. Mutations were identified and quality filtered using Genedata Selector  Processor Module. Based on the mutation lists and the reference genome, fully annotated proprietary genomes including the mutation information were created using Genedata Selector  Explorer backend tool straincreator. CNVs were identified and quality filtered using Genedata Selector  Processor Module.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>15405</offset>
+      <text>Generation of a cell line specific reference</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15450</offset>
+      <text>The Chinese hamster genome (Brinkrolf et al., ) was used as the basic reference genome and integrated to Genedata Selector . For the generation of a cell line specific reference, the Chinese hamster genome was enhanced with genomic DNA specific for the cell lines of this study to produce an intermediate reference C_griseus_adapted: (1) The two expression plasmids containing heavy and light chain genes, respectively, of the monoclonal antibody used in this study; (2) De novo assembled scaffolds of raw reads from this study not mapping to the Chinese hamster genome nor to the expression plasmids. The DNASeq raw reads from this study were then mapped to the intermediate reference C_griseus_adapted. Based on the mutation list from Clone_A_day_1 (sample from Clone A on Day 1 of the fed-batch fermentation run) and the C_griseus_adapted genome, a fully annotated Clone_A_day_1 genome was generated which served as final reference for the RNASeq and miRNASeq data analyses. Whole-genome promoter regions and transcription factor binding sites were in silico predicted based on position weight matrices from JASPAR (Fornes et al., ) using a Genedata Selector  algorithm (promoterSearch).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16649</offset>
+      <text>Verification of mutations and copy number variations (CNVs) in the CMAH locus</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16727</offset>
+      <text>To verify that the CMAH gene locus shows no mutations or CNVs explaining the differences in expression between Clones A and B, the quality-trimmed and library-size-normalized DNASeq raw data were also mapped to the relevant contig of the CHO Horizon assembly (Eagle Genomics Ltd [2017], Genbank assembly GCA_900186095).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>17053</offset>
+      <text>RNASeq and miRNASeq data processing</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17089</offset>
+      <text>For RNASeq analysis, samples from fed-batch cultivation runs were sequenced with Sanger/Illumina TruSeq Stran mRNA (75 bp single-end reads). Samples were quality trimmed with trimmomatic (v0.32) (Bolger et al., ). Reads were mapped against the Clone_A_day_1 reference genome using STAR (v2.52b) (Dobin et al., ). Mapped reads were quantified to raw read values per gene based on the refined gene model using Genedata Selector  Processor Module.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17543</offset>
+      <text>For miRNASeq analysis, samples from fed-batch cultivation runs were sequenced with Sanger/Illumina TruSeq Small RNA (50 bp single-end reads). Illumina Small RNA Adapters were removed with Cutadapt (v1.14) (Martin, ). Mature miRNAs were de-novo predicted per sample using miRDeep* (v37.0) (An et al., ), without providing input annotation. For the mature miRNAs, miRNA target sites were predicted using TargetScan (v7.1) (Agarwal et al., ) with 3'UTRs deduced from the gene model of the Clone_A_day_1 reference.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>18067</offset>
+      <text>Statistical analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18088</offset>
+      <text>To obtain fold factor and multiple testing corrected significance (BHQ) values between Clones A and B, we used DESeq. 2 (Love et al., ) with factor clone (normalization method: Regularized Log Transformation, Likelihood Ratio Test, omitting 20% most low-abundant genes for RNASeq data and miRNASeq data, respectively). To test if the effects we identified for factor clone in the DESeq. 2 based analysis were time independent, we ran a Generalized Linear Model (GLM) for count data, assuming negative binomial data distribution (factors cell line and co-variate time) using Genedata Selector  Analyst Module. PCA and Correlation analyses were performed on DESEq. 2 normalized (Regularized Log Transformation) data using Genedata Selector  Analyst Module.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>18850</offset>
+      <text>Targeted genome editing of Clone B using Cas9</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18896</offset>
+      <text>Cas9 was used to edit the genomic locus of the CMAH gene in the investigated CHO production cell line (Clone B) to confirm the catalytic activity of CMAH to be causative for the modified sialylation. Single guide RNAs (sgRNAs) were designed to introduce a frameshift mutation (InDel) using Genedata Selector  software, leading to a functionally inactive CMAH protein in Clone B. The plasmid backbone pX458 was used as Cas9 expression construct and source for one or two sgRNAs which were ordered as gBlocks  (IDT Inc.), and cloned as described elsewhere (Ran et al., ). Twenty-four hour post transfection, respective cell pools were subjected to single cell cloning by depositing GFP-positive clones into 384-well plates, as described above. Clonal cell lines were expanded and screened via PCR and Surveyor assay (IDT) and positive as well as control clones further investigated for altered surface protein sialylation via flow cytometry. In addition, Cas9 was used for targeted genome editing of a putative HINF-P transcription factor binding site as well as for the deletion of the transcription factor HINF-P in Clone B. Therefore, Cas9-sgRNA ribonucleoprotein complexes (IDT) were transfected by electroporation into Clone B. The editing efficiency in the generated pool was assessed by PCR 3 days after transfection and the effect on surface glycoprotein NGNA sialylation was analyzed by flow cytometry 6 days post transfection. All utilized sgRNAs and PCR primers are summarized in Tables S1 and S2.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20425</offset>
+      <text>Flow cytometry mediated analysis of cell surface glycoprotein sialylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20499</offset>
+      <text>To functionally study the effect of a genomic knockout of the CMAH gene in Clone B, CRISPR/Cas9 genome edited cell lines as well as control cells were examined for cell surface protein NGNA sialylation using the Anti-Neu5Gc Antibody kit (Biolegend) according to the vendor protocol, and in combination with a donkey anti-chicken IgY-AlexaFluor647  conjugated secondary antibody (JacksonImmunoResearch). Cells were analyzed on a MACSQuant  Analyzer (Miltenyi Biotech).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>20975</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>20983</offset>
+      <text>Differential gene expression reveals CMAH to be causative for enhanced NGNA sialylation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21071</offset>
+      <text>Over the course of a routine CLD process to generate a recombinant mAb producing CHO cell line, one of the established stable cell lines (Clone B) was identified to express the desired IgG4 antibody with unusually high levels of terminal NGNA sialic acid. To systematically investigate this atypical glycosylation pattern, we initiated a comparative analysis of Clone B with one of its sister clones (Clone A), which was derived from the same CLD campaign but exhibited only trace levels of NGNA sialylation on the recombinantly expressed IgG4 antibody. Both clonal cell lines were cultivated in a controlled fed-batch cultivation process using 2L bioreactors and demonstrated a similar growth behavior in the first half of the cultivation process, which changed from Day 6 onward (Figure 1a,b). Secreted antibodies were purified via Protein A chromatography followed by sialylation analysis of the purified mAbs (Figure 1c). On the day of the bioreactor harvest NANA sialylation levels seemed comparable between Clones A and B. However, mAbs produced by Clone B showed nearly 10-fold increased NGNA sialylation at an absolute amount of ~35% of the secreted antibodies.</text>
+      <annotation id="10">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:30:55Z</infon>
+        <location offset="21152" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:31:12Z</infon>
+        <location offset="21209" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:26:32Z</infon>
+        <location offset="21309" length="16"/>
+        <text>NGNA sialic acid</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:26:40Z</infon>
+        <location offset="21371" length="21"/>
+        <text>glycosylation pattern</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:31:27Z</infon>
+        <location offset="21433" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T13:31:41Z</infon>
+        <location offset="21472" length="7"/>
+        <text>Clone A</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T14:52:38Z</infon>
+        <location offset="21562" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:55:50Z</infon>
+        <location offset="22034" length="16"/>
+        <text>NANA sialylation</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:55:44Z</infon>
+        <location offset="22084" length="14"/>
+        <text>Clones A and B</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:15:07Z</infon>
+        <location offset="22126" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:15:14Z</infon>
+        <location offset="22166" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-832-g001.jpg</infon>
+      <infon key="id">bit28015-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>22247</offset>
+      <text>Monoclonal antibody production process of investigated Chinese hamster ovary (CHO) cell lines. (a) Viable cell concentration, (b) viability, and (c) secreted antibody sialylation (N-acetylneuraminic acid (NANA) and N-glycolylneuraminic acid (NGNA)) of the investigated recombinant CHO cell lines Clones A and B during a 2L fed-batch cultivation. Cultivation data are presented as mean +- standard deviation of biological replicates. Harvested cell culture fluid was pooled prior to mAb purification and sialic acid quantification</text>
+      <annotation id="66">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:56:39Z</infon>
+        <location offset="22414" length="80"/>
+        <text>sialylation (N-acetylneuraminic acid (NANA) and N-glycolylneuraminic acid (NGNA)</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:56:48Z</infon>
+        <location offset="22528" length="3"/>
+        <text>CHO</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:56:57Z</infon>
+        <location offset="22543" length="14"/>
+        <text>Clones A and B</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22787</offset>
+      <text>To identify the root cause of the phenotypic difference between Clones A and B, genome, transcriptome and miRnome data were generated using Next-Generation Sequencing (NGS). For these analyses, 31 samples were taken from the fed-batch cultivations on Days 1, 3, 5, 7, 9, and 11 (Day 11 only for Clone B due to a low cell viability of &lt;60% for Clone A) and used for preparation of RNASeq and miRNASeq libraries including biological replicates. Global variance in transcriptome data was visualized in a principal component analysis (PCA) (Figure 2a). Gene expression profiles were found to depend on the factors "Clone" and "Time." Importantly, the factors seemed to be unrelated which was corroborated by a GLM for count data with factor "clone" and co-factor "day" (data not shown). To identify differentially expressed genes, the time-resolved gene-level count tables were analyzed with DESeq. 2 for the factor clone (Figure 2b). One thousand nine hundred and ninety genes were differentially expressed between the two clones considering a fold change of &gt;1.5 and a BHQ value of &lt;0.0001 (1053 upregulated in Clone B and 937 genes upregulated in Clone A). These included CMAH, which is known to convert CMP-NANA to the nonhuman and potentially immunogenic sialic acid precursor CMP-NGNA in the cytosol (Ghaderi et al., ; Y. Li &amp; Chen, ). Interestingly, CMAH showed a strong regulation between Clones A and B (Fold factor 8.9) and thus a relevant absolute expression of 12,441 raw read counts in Clone B.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-832-g006.jpg</infon>
+      <infon key="id">bit28015-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>24327</offset>
+      <text>Differential gene expression identified cytidine monophosphate (CMP)-N-acetylneuraminic acid hydroxylase (CMAH) to be the molecular root cause of increased monoclonal antibody N-glycolylneuraminic acid (NGNA) sialylation. (a) Principal component analysis (PCA) of transcriptomes (RNASeq) of Clones A and B. PCA based on Covariance Matrix of DESeq. 2 normalized data. (b) Differential analysis of factor Clone using DESeq. 2: genes with statistical significance for factor Clone of BHQ &lt; 1E-5 and FF &gt; 1.5. (c) Flow cytometry analysis to determine cell surface protein NGNA sialylation of wildt-ype Clone B (red line), three different negative CRISPR/Cas9 control (sgRNANT) cell lines (gray lines), five different CMAH knockout clones (sgRNACMAH) derived from Clone B (blue lines) and a reference CHO production cell line expressing a different monoclonal antibody (green line). An anti-NGNA fluorescence staining kit was used for cell surface protein analysis. (d) NGNA sialylation of the secreted IgG4 monoclonal antibody expressed by either wildtype Clone B, negative CRISPR/Cas9 control cells (sgRNANT) or three different CMAH knockout clones (sgRNACMAH) derived from Clone B</text>
+      <annotation id="14">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T14:16:27Z</infon>
+        <location offset="24367" length="71"/>
+        <text>cytidine monophosphate (CMP)-N-acetylneuraminic acid hydroxylase (CMAH)</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T14:16:38Z</infon>
+        <location offset="24503" length="44"/>
+        <text>N-glycolylneuraminic acid (NGNA) sialylation</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:58:39Z</infon>
+        <location offset="24895" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:58:45Z</infon>
+        <location offset="24925" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:59:13Z</infon>
+        <location offset="25292" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:59:06Z</infon>
+        <location offset="25379" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:59:34Z</infon>
+        <location offset="25498" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25526</offset>
+      <text>CRISPR/Cas9 genome editing tools were used to investigate whether the CMAH protein was responsible for increased protein NGNA sialylation by modification of the genomic CMAH gene locus to produce a catalytically inactive variant. Generated clonal cell lines were subsequently investigated for global surface glycoprotein NGNA sialylation (Figure 2c). In contrast to the controls, Clone B derived cell lines with confirmed genomic modifications of CMAH displayed no surface glycoprotein NGNA sialylation anymore. In addition, compared to the controls the CMAH knockout clones had entirely lost the NGNA sialylation on the secreted IgG4 antibody (Figure 2d). This indicated that the catalytic activity of the CMAH protein was solely required for the upregulated NGNA protein sialylation and thus represented the causative effector protein for NGNA sialylation in Clone B. However, based on whole genome re-sequencing data generated for both cell lines, we found neither copy number variations nor mutations for any of the two time points for Clone B relative to Clone A (data not shown). Therefore, we concluded that changes in CMAH levels between the two cell lines could not be explained by mutations in the coding region, promoter or 3'-UTR of the CMAH gene itself or by a gene amplification event. We completed the analysis of the CMAH gene promoter region by bisulfite sequencing experiments that did not show differential DNA methylation either (data not shown).</text>
+      <annotation id="21">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:25:54Z</infon>
+        <location offset="25596" length="12"/>
+        <text>CMAH protein</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:26:02Z</infon>
+        <location offset="25647" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:29:20Z</infon>
+        <location offset="25906" length="26"/>
+        <text>Clone B derived cell lines</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:29:29Z</infon>
+        <location offset="25999" length="29"/>
+        <text>glycoprotein NGNA sialylation</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:30:11Z</infon>
+        <location offset="26080" length="20"/>
+        <text>CMAH knockout clones</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:29:58Z</infon>
+        <location offset="26123" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:30:27Z</infon>
+        <location offset="26233" length="12"/>
+        <text>CMAH protein</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:30:33Z</infon>
+        <location offset="26286" length="24"/>
+        <text>NGNA protein sialylation</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:34:14Z</infon>
+        <location offset="26367" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:34:19Z</infon>
+        <location offset="26387" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:53:20Z</infon>
+        <location offset="26566" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:53:23Z</infon>
+        <location offset="26586" length="7"/>
+        <text>Clone A</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:53:11Z</infon>
+        <location offset="26652" length="11"/>
+        <text>CMAH levels</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>27001</offset>
+      <text>Newly identified miR-111 regulates the expression of CMAH</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27061</offset>
+      <text>To investigate the regulation of CMAH gene expression, miRNASeq libraries were generated and mapped against Clone_A_D1 using miRDeep* (mapping efficiency of 2.3%, 1.15 million mapped read), resulting in 605 de novo predicted miRNAs quantified as raw read counts (Zit miRDeep*) (An et al., ). The variance in microRNAome data was visualized in a PCA (Figure 3a). Seven miRNAs were detected to be significantly differentially expressed considering a fold change of &gt;1.5 and a BHQ value of &lt;0.0001 (Figure 3b). Here, the miRNA with the strongest regulation was miR-111 (fold factor 0.0297 Clone B vs. Clone A), which was further verified using qRT-PCR analysis (Figure S1). Interestingly, analysis of the cell line-specific genomes showed that miR-111 is located in the first intron of the SDK1 gene, which was also amongst the most significantly regulated genes found between Clones A and B (fold factor 0.0077 Clone B vs. Clone A). Corroborating the hypothesis that miR-111 might be regulated via the SDK1 gene promoter, the significantly differentially expressed genes were analyzed for correlation with miR-111 expression. Strikingly, SDK1 showed the strongest correlation (R-value = 0.96, Figure 3c).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-832-g005.jpg</infon>
+      <infon key="id">bit28015-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28291</offset>
+      <text>miRNA sequencing identified the Chinese hamster ovary specific miR-111. (a) Principal component analysis of microRNAomes (miRNASeq analysis) of Clones A and B based on Covariance Matrix of DESeq. 2 normalized data. (b) Differential analysis of factor Clone using DESeq. 2: genes with statistical significance for factor Clone of BHQ &lt; 1E-5 and FF &gt; 1.5. (c) Expression of miR-111 (red) and its host gene SDK1 (blue, shown are library size scaled raw data relative to the average expression of Clone A). SDK1 is the gene with the highest correlation to miR-111 (DESeq. 2 normalized value based R-value of 0.96, p-value &lt; 1E-16)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28944</offset>
+      <text>Assuming that miR-111 played a key role in establishing the observed glycosylation phenotype of Clone B, we searched for potential miR-111 targets in the CHO cell transcriptome. In total, 665 miR-111 anti-correlated transcripts with R-values &lt; -0.75 resulted from this analysis (Figure 4a). These transcripts were further investigated with respect to functional annotation (metabolic pathways, Pfam motifs and GO:biological process annotation). Twenty-seven miR-111 anti-correlated genes showed functional annotation indicating a role in protein glycosylation (Table 1). Among the investigated metabolic pathways, "N-glycan biosynthesis" was the pathway showing the highest over-representation with a Fisher's Exact test p-value &lt; 0.01. Four genes were directly associated with the N-glycan biosynthesis pathway. To analyze whether the miR-111 anti-correlated genes were potentially directly regulated by miR-111, we conducted a genome-wide in silico target site prediction and found miR-111 target sites in the 3'-UTRs of 6,732 genes. The 665 miR-111 anti-correlated genes showed a significant over-representation (236 genes with target site predictions, Fisher's exact test p-value &lt; 0.005). Strikingly, CMAH was identified to exhibit two putative miR-111 binding sites in its 3'UTR region (Figure 4b). One of them had the optimal predicted target sequence aACAAGAa. Moreover, CMAH and miR-111 expression were significantly anti-correlated (R-value = -0.88, Figure 4c). To investigate whether miR-111 directly regulates CMAH expression, we transiently transfected Clone B with miR-111 mimics and found CMAH mRNA to be downregulated in comparison to the nontargeting control (Figure 4d). In line with the decreased CMAH mRNA expression also the NGNA sialylation of the secreted IgG4 antibody was reduced following transient transfection of miR-111 mimics (Figure 4e). Thus, we concluded that CMAH is most likely negatively regulated by miR-111 in CHO cells.</text>
+      <annotation id="39">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T16:17:02Z</infon>
+        <location offset="28958" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T16:17:10Z</infon>
+        <location offset="29013" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T16:17:41Z</infon>
+        <location offset="29402" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T16:17:48Z</infon>
+        <location offset="29490" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T17:05:54Z</infon>
+        <location offset="29686" length="5"/>
+        <text>genes</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T17:06:03Z</infon>
+        <location offset="29726" length="29"/>
+        <text>N-glycan biosynthesis pathway</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T17:14:31Z</infon>
+        <location offset="30660" length="20"/>
+        <text>CMAH mRNA expression</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T17:14:14Z</infon>
+        <location offset="30690" length="16"/>
+        <text>NGNA sialylation</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T17:14:46Z</infon>
+        <location offset="30785" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-832-g002.jpg</infon>
+      <infon key="id">bit28015-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30997</offset>
+      <text>The newly identified miR-111 regulates the expression of cytidine monophosphate (CMP)-N-acetylneuraminic acid hydroxylase (CMAH). (a) Six thousand seven hundred and thirty-two genes show miR-111 target site predictions (using TargetScan). Sequence based cgr-miR-111 target predictions are over-represented in the 665 miR-111 anti-correlated genes (Fisher's exact test p-value &lt; 0.005). (b) CMAH gene locus in Clone A at Day 1 of the fed-batch process with miR-111 targets (predicted by TargetScan). Neither variants nor copy numbers explained the expression profile of CMAH. Zoom into miR-111 target sites in CMAH 3'-UTR region (c) 665 miR-111 genes are anti-correlated to miR-111 (DESeq. 2 normalized value based R-value &lt; -0.75, p-value &lt; 1E-5). Shown are DESeq. 2 normalized data relative to the average expression of Clone A. Note that the scale reflects logarithmic fold factor values. MiR-111 is highlighted in green. CMAH is highlighted in red. (d) Relative CMAH mRNA expression 24 h after transient transfection with miR-111 mimics (red), nontargeting control siRNA (black) or anti-CMAH siRNA (gray). (e) N-glycolylneuraminic acid sialylation of the secreted IgG4 monoclonal antibody at Day 6 after transient transfection with miR-111 mimics (red), nontargeting control siRNA (black) or anti-CMAH siRNA (gray), respectively</text>
+      <annotation id="48">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:33:16Z</infon>
+        <location offset="31018" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:33:24Z</infon>
+        <location offset="31054" length="71"/>
+        <text>cytidine monophosphate (CMP)-N-acetylneuraminic acid hydroxylase (CMAH)</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28015-tbl-0001.xml</infon>
+      <infon key="id">bit28015-tbl-0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>32401</offset>
+      <text>Twenty-seven miR-111 anti-correlated genes are found to be associated with protein glycosylation (via Metabolic pathway, GO:biological process and/or Pfam motif annotation)</text>
+      <annotation id="51">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:41:26Z</infon>
+        <location offset="32414" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:41:19Z</infon>
+        <location offset="32484" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28015-tbl-0001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/&gt;&lt;thead&gt;&lt;tr style="border-bottom:solid 1px #000000"&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Gene ID&lt;/th&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Putative miR-111 target&lt;/th&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;GO:biological process description&lt;/th&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Correlation with miR-111&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody valign="top"&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;B3GALT5&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Protein glycosylation&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.9502142&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;BMPER&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Blood vessel endothelial cell proliferation involved in sprouting angiogenesis: positive regulation of ERK1 and ERK2 cascade&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8280621&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;CLSTN2&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.9454502&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;CMAH&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;Yes&lt;/bold&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;Protein glycosylation&lt;/bold&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;-0.8793129&lt;/bold&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;DAPK1&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yes&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Signal transduction: protein phosphorylation: positive regulation of apoptotic process&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.9143201&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;ENGASE&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.7782611&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;FUT2&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Carbohydrate metabolic process&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8837712&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;ganab&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Carbohydrate metabolic process: metabolic process&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8397844&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;GLYCAM1&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yes&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.7507119&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;H671_1g3041&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.875597&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;H671_21100&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8112577&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;H671_3g9619&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yes&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Metabolic process&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.9275447&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;H671_4g11585&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yes&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Protein glycosylation&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8601853&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;H671_6g15320&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yes&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.922971&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;IRAK1&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Protein phosphorylation: positive regulation of transcription from RNA polymerase II promoter&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.7970828&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;MMP9&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Positive regulation of keratinocyte migration: proteolysis: metabolic process&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8193061&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;MYT1L&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Response to oxidative stress: oxidation-reduction process: regulation of transcription, DNA-dependent: multicellular organismal development&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8830791&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;PIGC&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;GPI anchor biosynthetic process&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8084261&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;PLOD2&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.7697681&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;RASAL3&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Regulation of small GTPase mediated signal transduction: peptidoglycan catabolic process: signal transduction&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8330823&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;SECTM1&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Positive regulation of I-kappaB kinase/NF-kappaB cascade&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8073307&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;SLC22A14&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Transmembrane transport&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.9027236&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;SLC2A4&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Transmembrane transport: transport&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.7896906&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;ST3GAL4&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;Yes&lt;/bold&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;Protein glycosylation&lt;/bold&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;-0.7847602&lt;/bold&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;ST6GAL1&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;Yes&lt;/bold&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;Protein glycosylation&lt;/bold&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;bold&gt;-0.7736951&lt;/bold&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;SYT8&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;No&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.9338071&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt; &lt;italic toggle="yes"&gt;TMTC2&lt;/italic&gt; &lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;Yes&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-&lt;/td&gt;&lt;td align="left" valign="top" rowspan="1" colspan="1"&gt;-0.8833522&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">bit28015-tbl-0001</infon>
+      <infon key="type">table</infon>
+      <offset>32582</offset>
+      <text>Gene ID Putative miR-111 target GO:biological process description Correlation with miR-111   B3GALT5 No Protein glycosylation -0.9502142   BMPER No Blood vessel endothelial cell proliferation involved in sprouting angiogenesis: positive regulation of ERK1 and ERK2 cascade -0.8280621   CLSTN2 No - -0.9454502   CMAH Yes Protein glycosylation -0.8793129   DAPK1 Yes Signal transduction: protein phosphorylation: positive regulation of apoptotic process -0.9143201   ENGASE No - -0.7782611   FUT2 No Carbohydrate metabolic process -0.8837712   ganab No Carbohydrate metabolic process: metabolic process -0.8397844   GLYCAM1 Yes - -0.7507119   H671_1g3041 No - -0.875597   H671_21100 No - -0.8112577   H671_3g9619 Yes Metabolic process -0.9275447   H671_4g11585 Yes Protein glycosylation -0.8601853   H671_6g15320 Yes - -0.922971   IRAK1 No Protein phosphorylation: positive regulation of transcription from RNA polymerase II promoter -0.7970828   MMP9 No Positive regulation of keratinocyte migration: proteolysis: metabolic process -0.8193061   MYT1L No Response to oxidative stress: oxidation-reduction process: regulation of transcription, DNA-dependent: multicellular organismal development -0.8830791   PIGC No GPI anchor biosynthetic process -0.8084261   PLOD2 No - -0.7697681   RASAL3 No Regulation of small GTPase mediated signal transduction: peptidoglycan catabolic process: signal transduction -0.8330823   SECTM1 No Positive regulation of I-kappaB kinase/NF-kappaB cascade -0.8073307   SLC22A14 No Transmembrane transport -0.9027236   SLC2A4 No Transmembrane transport: transport -0.7896906   ST3GAL4 Yes Protein glycosylation -0.7847602   ST6GAL1 Yes Protein glycosylation -0.7736951   SYT8 No - -0.9338071   TMTC2 Yes - -0.8833522   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">bit28015-tbl-0001.xml</infon>
+      <infon key="id">bit28015-tbl-0001</infon>
+      <infon key="type">table_footnote</infon>
+      <offset>34414</offset>
+      <text> Note: Genes involved in protein sialylation are highlighted in bold. Putative miR-111 target: gene exhibits putative binding site in 3'UTR as identified using Target Scan.</text>
+      <annotation id="53">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:42:28Z</infon>
+        <location offset="34447" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:42:21Z</infon>
+        <location offset="34493" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>34591</offset>
+      <text>Investigation of the miR-111/SDK1 sequence and DNA locus discovers a critical sequence variation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34690</offset>
+      <text>The nearly palindromic miR-111 precursor sequence predicted by miRDeep* exhibits a very stable 2-D structure (-55 kcal/mol, Figure 5a). The miRDeep* predicted mature miR-111 sequence (aTCTTGTtccctctttggtac) has a TargetScan predicted optimal target sequence of aACAAGAa. We verified that the exclusive presence of miR-111 in the CHO cell/Chinese hamster (Cricetulus griseus) genome was not previously reported by blasting both the precursor as well as the mature miR-111 sequence against the mirBase (using blastn-short, data not shown). After verification of miR-111 as a true Chinese hamster (cgr)-specific miRNA, we sought to pinpoint the reason for differential SDK1 regulation leading to the expression of miR-111 and finally the changes in mAb sialylation. For this purpose, a detailed analysis of the SDK1 gene locus was conducted (Figure 5b). MiR-111 is located in the first intron of SDK1. Both SDK1 and miR-111 are positioned on the DNA minus strand. No mutations were identified within the first SDK1 intron (Figure 5c). Postulating that SDK1 is the host gene of miR-111 and thus miR-111 expression is controlled by the SDK1 gene promoter, we investigated the SDK1 gene promoter region for sequence variants between Clones A and B and indeed found a single point mutation (Figure 5d). Consequently, we performed a prediction of transcription factor binding sites in the SDK1 promoter region (-5000 bp to +500 bp relative to the transcription start site) of both clones. A binding site of the zinc finger repressor protein growth factor independent-1 (Gfi-1) was predicted in the promoter of Clone A (2394-2403 bases upstream of the SDK1 transcription start site, ident score = 0.709, p-value &lt; 0.0001). Due to a point mutation within exactly this binding site in Clone B (540549ptT &gt; G), the Gfi-1 binding site was predicted to be changed into a binding site of another repressor:HINF-P:(2395-2404 bases upstream of the SDK1 transcription start site, ident score = 0.843, p-value &lt; 0.0001) (Figure 5e). Interestingly, looking at the transcriptomic data of both clones HINF-P shows a much higher overall mRNA expression than Gfi-1 (27,988 vs. 324 overall raw read counts, respectively) indicating that Gfi-1 might not be expressed at all in CHO cells. Finally, CRISPR/Cas9 mediated genomic deletion of either the newly generated putative HINF-P TF binding site or the HINF-P transcription factor gene both led to a significant decrease in NGNA sialylation of surface glycoproteins in Clone B (Figure S2). Thus, the identified single point mutation (540549ptT &gt; G) in the SDK1 gene promoter very likely represents the root cause of changes in miR-111 expression as well as its downstream gene targets between Clones A and B leading to the altered protein sialylation.</text>
+      <annotation id="55">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:43:10Z</infon>
+        <location offset="35401" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:43:05Z</infon>
+        <location offset="35440" length="11"/>
+        <text>sialylation</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:44:22Z</infon>
+        <location offset="37038" length="22"/>
+        <text>HINF-P TF binding site</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:44:16Z</infon>
+        <location offset="37068" length="32"/>
+        <text>HINF-P transcription factor gene</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:44:35Z</infon>
+        <location offset="37139" length="41"/>
+        <text>NGNA sialylation of surface glycoproteins</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T18:44:43Z</infon>
+        <location offset="37184" length="7"/>
+        <text>Clone B</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:55:24Z</infon>
+        <location offset="37271" length="18"/>
+        <text>SDK1 gene promoter</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:54:53Z</infon>
+        <location offset="37342" length="7"/>
+        <text>miR-111</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">leah_klein@waters.com</infon>
+        <infon key="updated_at">2023-12-12T15:55:09Z</infon>
+        <location offset="37446" length="19"/>
+        <text>protein sialylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-832-g003.jpg</infon>
+      <infon key="id">bit28015-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>37565</offset>
+      <text>A sequence variation in the promotor region resulted in SDK1/miR-111 silencing. (a) Secondary structure of the newly discovered miR-111 precursor microRNA. (b) Schematic overview on the genomic locus of the SDK1 gene. Shown are the location of the miR-111 precursor and mature miRNA as well as the single nucleotide variant detected in the SDK1 gene promoter region as compared to the genomic DNA of Clone A. MiR-111 is located in the first intron of the SDK1 gene. (c) Zoomed view into the DNA sequence of miR-111 precursor and mature miRNA. (d) Zoomed view into the DNA sequence at the position where the single nucleotide variance was detected in Clone B in comparison to Clone A. The shown single point mutation occurred in Clone B at contig position 540549 (G instead of T). A putative HINF-P binding site was predicted (2395-2404 bases upstream of the SDK1 transcription start site, ident score = 0.843, p-value &lt; 0.0001). In contrast, a Gfi-1 binding site was predicted in this region for Clone A. Please note that the SDK1 gene and miR-111 binding sites are positioned on the DNA minus strand. (e) Gfi-1 and HINF-P transcription factor binding sites as predicted using position weight matrices from JASPAR via a Genedata Selector  algorithm (promoterSearch)</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>38864</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38875</offset>
+      <text>The absence of NGNA sialylation is of importance to biotherapeutics since it has been reported that circulating anti-NGNA antibodies are present in human blood and thus the occurrence of NGNA sialylation on biologics may likely induce immunogenic reactions (Ghaderi et al., ; Tangvoranuntakul et al., ). Interestingly, a functionally intact CMAH gene was found in the CHO cell genome but no expression could be detected, which is consistent with the common understanding that CHO cells are producing mAbs with human-like glycosylation (Xu et al., ). So far, the reason for the CMAH negative phenotype of CHO production cell lines remained unidentified. However, we were able to provide several lines of evidence that the newly discovered and CHO-specific (cgr-)miRNA-111, which was identified to have two putative binding sites in the 3'UTR of the CMAH mRNA, might represent a strong permanent negative regulator of the CMAH gene and the first miRNA demonstrated to regulating parts of the N-glycosylation pathway in CHO cells. As it turned out, miR-111 showed decreased expression in an individual CHO production clone (Clone B). The reason for the altered CMAH expression could be traced back to an abrupt silencing of both miR-111 and its host gene SDK1 and thus an increased expression of the putative miR-111 target gene CMAH.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40230</offset>
+      <text>SDK1 and its homolog SDK2 are among the largest within the group of immunoglobulin superfamily molecules, which facilitate cellular functions as surface receptors, co-receptors, co-effectors, or adhesion molecules (Yamagata, ). They share a highly conserved domain organization with a signal sequence, 6 immunoglobulin (Ig) domains, 13 fibronectin type III (FNIII) domains, a transmembrane domain, and a cytoplasmic part (Yamagata, ). In particular, the four N-terminal Ig domains mediate specific cell-cell interactions between SDK positive cells facilitating, for example, synaptic layer specificity of ganglion cells during retina development (Goodman et al., ; Honig &amp; Shapiro, ; Sanes &amp; Yamagata, , ; Yamagata, ). However, some FNIII domain containing proteins show lectin-like properties with certain carbohydrate binding specificity (Kleene et al., ; Yamagata et al., ). The characteristic motif associated with a NANA(2,3)-Gal carbohydrate binding capacity (Kleene et al., ) is also present in the Chinese hamster SDK1 protein sequence (data not shown). Interestingly, we identified the N-glycosylation modifying miR-111, favoring exclusive NANA sialylation, to be located within the first intron of the SDK1 gene and being dependent on its transcriptional activity. Thinking of the specific interaction between SDK1 positive cells, the modulation of protein sialylation within these cells to principally NANA might further strengthen the interaction due to their recognition by the FNIII domains. However, the spontaneous silencing of miR-111 synthesis in the investigated recombinant CHO cell line Clone B was likely initiated by a single nucleotide exchange in the upstream promoter region of its host gene SDK1 changing a putative Gfi-1 transcription factor binding site into a HINF-P binding site.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42073</offset>
+      <text>Gfi-1 is a transcriptional zinc finger protein belonging to the Snail/Gfi-1 domain family and represses the expression of genes implicated in cell survival, proliferation, cell fate specification and differentiation (Chiang &amp; Ayyanathan, ; Jafar-Nejad &amp; Bellen, ; van der Meer et al., ). Besides hematopoietic cell lineages and development, Gfi-1 is also expressed in both the CNS as well as a variety of sensory organs (Jafar-Nejad &amp; Bellen, ). Especially during retina development, Gfi-1 is required for terminal retinal ganglion cell differentiation and survival, which is in good agreement with a regulatory Gfi-1 binding site upstream of the SDK1 gene conferring synaptic layer specificity of some retinal ganglion cells by specific cell-cell interactions (Yamagata, ; Yang et al., ). Conclusively, Gfi-1 has essential roles in hematopoietic cell and sensory organ development but its expression might not be required by CHO cells. However, a single point mutation in the respective transcription factor binding site upstream of the SDK1 gene in the recombinant CHO cell line Clone B led to the conversion into a putative HINF-P binding site. Despite of also being a transcriptional repressor, HINF-P is a key regulator of multiple histone H4 genes, which are necessary during DNA replication and thus needs to be expressed in proliferating cells (Liu et al., ; Xie et al., ). In fact, HINF-P showed much higher overall expression in CHO cells than Gfi-1 putatively leading to a downregulation of SDK1 and its nested miR-111 by the newly acquired recognition site in the recombinant CHO cell line Clone B.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43720</offset>
+      <text>Several genetic engineering strategies have been pursued in the past to modify N-glycosylation pattern on recombinant proteins produced by CHO cells. In particular, sialic acid modulation and increasing galactosylation as an acceptor substrate for sialyltransferases were of major interest, due to its critical role in therapeutic glycoprotein half-life and efficacy (Fischer et al., ; Tejwani et al., ; Wang et al., ). Even though the potentially immunogenic glycoepitope NGNA is usually not produced by CHO cells the corresponding gene has been knocked out as a precaution (Lin et al., ). Furthermore, CHO cells lack the expression of alpha-2,6-sialyltransferases (ST6GAL) and thus cannot produce glycoproteins with a similar terminal sialic acid content as compared to human cells which do express both alpha-2,3- as well as alpha-2,6- sialyltransferases (Bork et al., ; Butler, ; Jenkins et al., ; Xu et al., ). As a consequence, several recombinant CHO cells lines have been developed expressing different combinations of alpha-2,6- and/or alpha-2,3-sialyltransferases with or without galactosyltransferases (Fischer et al., ; Tejwani et al., ; Wang et al., ). Interestingly, we identified that both ST6GAL1 and ST3GAL4 (being the most relevant ST3GAL for mAb sialylation) are also putative targets of miR-111 and showed anti-correlated expression to miR-111 in Clone B. Therefore, a dual knockout in CHO cells leading to a deficiency in both miR-111 and CMAH expression might result in significantly increased NANA sialylation abundance on glycoproteins. In addition, miR-111 might still be useful as a surrogate marker for atypical NGNA sialylation in CHO cell lines in the future precluding the requirement for complex sialylation analytics. Of note, the superior growth performance observed for Clone B in the fed-batch cultivation experiment is considered to be derived from clonal variances rather than induced by the loss of miR-111/SDK1 expression since other well-growing sister clones, which were established in the same CLD campaign, did not demonstrate increased NGNA sialylation levels.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45861</offset>
+      <text>As demonstrated in this study, the loss of expression of the newly discovered miR-111 was finally responsible for an upregulation of the CMAH gene leading to increased NGNA sialylation of the secreted IgG4 antibody in a recombinant CHO production cell line, which could be traced back to a single point mutation in the promoter region of the SDK1 gene. Hence, a new genetic regulatory circuit of protein sialylation in one of the industrially most relevant mammalian production cell systems could be revealed additionally explaining the reason for the so far unknown silencing mechanism of CMAH in CHO cells. Of note, miR-111 has not been exclusively identified in CHO-DG44 cells (from which Clone A and B were derived) but also in the CHO-K1 genome (data not shown), indicating that this microRNA may play an important role in most industrially relevant CHO production cell lines used for biopharmaceutical production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>46789</offset>
+      <text>CONFLICT OF INTERESTS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46811</offset>
+      <text>S. Fischer, S. Mathias, A. Stadermann, V. Schmieder, N. Schmidt, N. Zeh, P. Richter, C. Bernloehr, H. Bradl, M. Gamer, and P. Schulz are employees of Boehringer Ingelheim Pharma which develops and sells pharmaceuticals. The authors declare that there are no conflict of interests.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>47092</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>47115</offset>
+      <text>DATA AVAILABILITY STATEMENT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>47143</offset>
+      <text>Data available on request from the authors.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>47187</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">4.\</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.7554/eLife.05005</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">eLife</infon>
+      <infon key="type">ref</infon>
+      <offset>47198</offset>
+      <text>Predicting effective microRNA target sites in mammalian mRNAs</text>
+    </passage>
+    <passage>
+      <infon key="volume">41</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">727</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1093/nar/gks1187</infon>
+      <infon key="pub-id_pmid">23221645</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nucleic Acids Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">737</infon>
+      <offset>47260</offset>
+      <text>miRDeep*: An integrated application tool for miRNA identification from RNA sequencing data</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2114</infon>
+      <infon key="issue">15</infon>
+      <infon key="pub-id_doi">10.1093/bioinformatics/btu170</infon>
+      <infon key="pub-id_pmid">24695404</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2120</infon>
+      <offset>47351</offset>
+      <text>Trimmomatic: A flexible trimmer for Illumina sequence data</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3499</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1002/jps.21684</infon>
+      <infon key="pub-id_pmid">19199295</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Journal of Pharmaceutical Sciences</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3508</infon>
+      <offset>47410</offset>
+      <text>Increasing the sialylation of therapeutic glycoproteins: The potential of the sialic acid biosynthetic pathway</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">694</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt.2645</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">695</infon>
+      <offset>47521</offset>
+      <text>Chinese hamster genome sequenced from sorted chromosomes</text>
+    </passage>
+    <passage>
+      <infon key="volume">68</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">283</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1007/s00253-005-1980-8</infon>
+      <infon key="pub-id_pmid">15834715</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Applied Microbiology and Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">291</infon>
+      <offset>47578</offset>
+      <text>Animal cell cultures: Recent achievements and perspectives in the production of biopharmaceuticals</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">123</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/j.cytogfr.2012.09.002</infon>
+      <infon key="pub-id_pmid">23102646</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Cytokine and Growth Factor Reviews</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">131</infon>
+      <offset>47677</offset>
+      <text>Snail/Gfi-1 (SNAG) family zinc finger proteins in transcription regulation, chromatin dynamics, cell signaling, development, and disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">95</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">11751</infon>
+      <infon key="issue">20</infon>
+      <infon key="pub-id_pmid">9751737</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Proceedings of the National Academy of Sciences of the United States of America</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">11756</infon>
+      <offset>47816</offset>
+      <text>A mutation in human CMP-sialic acid hydroxylase occurred after the Homo-Pan divergence</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">15</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1093/bioinformatics/bts635</infon>
+      <infon key="pub-id_pmid">23104886</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">21</infon>
+      <offset>47907</offset>
+      <text>STAR: Ultrafast universal RNA-seq aligner</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">700</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1016/j.copbio.2009.10.008</infon>
+      <infon key="pub-id_pmid">19889531</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Current Opinion in Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">707</infon>
+      <offset>47951</offset>
+      <text>Expression systems for therapeutic glycoprotein production</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1878</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1016/j.biotechadv.2015.10.015</infon>
+      <infon key="pub-id_pmid">26523782</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnology Advances</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1896</infon>
+      <offset>48010</offset>
+      <text>The art of CHO cell engineering: A comprehensive retrospect and future perspectives</text>
+    </passage>
+    <passage>
+      <infon key="volume">168</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">589</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2013.08.027</infon>
+      <infon key="pub-id_pmid">23994267</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">600</infon>
+      <offset>48094</offset>
+      <text>Breaking limitations of complex culture media: Functional non-viral miRNA delivery into pharmaceutical production cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">D87</infon>
+      <infon key="issue">D1</infon>
+      <infon key="pub-id_doi">10.1093/nar/gkz1001</infon>
+      <infon key="pub-id_pmid">31701148</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Nucleic Acids Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">D92</infon>
+      <offset>48221</offset>
+      <text>JASPAR 2020: Update of the open-access database of transcription factor binding profiles</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">863</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt.1651</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">867</infon>
+      <offset>48312</offset>
+      <text>Implications of the presence of N-glycolylneuraminic acid in recombinant therapeutic glycoproteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.7554/eLife.19058</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">eLife</infon>
+      <infon key="type">ref</infon>
+      <offset>48413</offset>
+      <text>Molecular basis of sidekick-mediated cell-cell adhesion and specificity</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1072</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1093/bioinformatics/btt086</infon>
+      <infon key="pub-id_pmid">23422339</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Bioinformatics</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1075</infon>
+      <offset>48489</offset>
+      <text>QUAST: quality assessment tool for genome assemblies</text>
+    </passage>
+    <passage>
+      <infon key="volume">275</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_pmid">2124546</infon>
+      <infon key="year">1990</infon>
+      <infon key="source">FEBS Letters</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">14</infon>
+      <offset>48542</offset>
+      <text>Sialylated carbohydrate chains of recombinant human glycoproteins expressed in Chinese hamster ovary cells contain traces of N-glycolylneuraminic acid</text>
+    </passage>
+    <passage>
+      <infon key="volume">181</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">520</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1016/j.cell.2020.04.010</infon>
+      <infon key="pub-id_pmid">32359436</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">535</infon>
+      <offset>48695</offset>
+      <text>Adhesion protein structure, molecular affinities, and principles of cell-cell recognition</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">936</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1093/glycob/cwp079</infon>
+      <infon key="pub-id_pmid">19494347</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">949</infon>
+      <offset>48787</offset>
+      <text>Optimal and consistent protein glycosylation in mammalian cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">8803</infon>
+      <infon key="issue">20</infon>
+      <infon key="pub-id_doi">10.1128/MCB.24.20.8803-8812.2004</infon>
+      <infon key="pub-id_pmid">15456856</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Molecular and Cellular Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">8812</infon>
+      <offset>48858</offset>
+      <text>Gfi/Pag-3/senseless zinc finger proteins: A unifying theme?</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">975</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt0896-975</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">981</infon>
+      <offset>48920</offset>
+      <text>Getting the glycosylation right: Implications for the biotechnology industry</text>
+    </passage>
+    <passage>
+      <infon key="volume">276</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">21656</infon>
+      <infon key="issue">24</infon>
+      <infon key="pub-id_doi">10.1074/jbc.M101790200</infon>
+      <infon key="pub-id_pmid">11283023</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Journal of Biological Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">21663</infon>
+      <offset>48997</offset>
+      <text>The neural recognition molecule L1 is a sialic acid-binding lectin for CD24, which induces promotion and inhibition of neurite outgrowth</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">357</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1038/nmeth.1923</infon>
+      <infon key="pub-id_pmid">22388286</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Nature Methods</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">359</infon>
+      <offset>49136</offset>
+      <text>Fast gapped-read alignment with Bowtie 2</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">466</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">20622510</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">479</infon>
+      <offset>49179</offset>
+      <text>Cell culture processes for monoclonal antibody production</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">887</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1007/s00253-012-4040-1</infon>
+      <infon key="pub-id_pmid">22526796</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Applied Microbiology and Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">905</infon>
+      <offset>49237</offset>
+      <text>Sialic acid metabolism and sialyltransferases: Natural functions and applications</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2013</infon>
+      <infon key="type">ref</infon>
+      <offset>49319</offset>
+    </passage>
+    <passage>
+      <infon key="volume">483</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_doi">10.1016/j.gene.2011.05.002</infon>
+      <infon key="pub-id_pmid">21605641</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Gene</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">10</infon>
+      <offset>49320</offset>
+      <text>Functional coupling of transcription factor HiNF-P and histone H4 gene expression during pre- and post-natal mouse development</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">550</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1186/s13059-014-0550-8</infon>
+      <infon key="pub-id_pmid">25516281</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Genome Biology</infon>
+      <infon key="type">ref</infon>
+      <offset>49453</offset>
+      <text>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq. 2</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">EMBnet Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">1</infon>
+      <offset>49537</offset>
+      <text>Cutadapt removes adapter sequences from high-throughput sequencing reads</text>
+    </passage>
+    <passage>
+      <infon key="volume">428</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">30</infon>
+      <infon key="pub-id_doi">10.1016/j.jim.2015.11.009</infon>
+      <infon key="pub-id_pmid">26627984</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Journal of Immunological Methods</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">36</infon>
+      <offset>49612</offset>
+      <text>Enhanced sialylation of a human chimeric IgG1 variant produced in human and rodent cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">27</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">824</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1101/gr.213959.116</infon>
+      <infon key="pub-id_pmid">28298430</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Genome Research</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">834</infon>
+      <offset>49706</offset>
+      <text>metaSPAdes: A new versatile metagenomic assembler</text>
+    </passage>
+    <passage>
+      <infon key="volume">198</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2366</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.4049/jimmunol.1601471</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Journal of Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2373</infon>
+      <offset>49756</offset>
+      <text>Loss of CMAH during human evolution primed the monocyte-macrophage lineage toward a more inflammatory and phagocytic state</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">233</infon>
+      <infon key="issue">3</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Current Pharmacy Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">240</infon>
+      <offset>49881</offset>
+      <text>Cell engineering and cultivation of chinese hamster ovary (CHO) cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2281</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1038/nprot.2013.143</infon>
+      <infon key="pub-id_pmid">24157548</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Nature Protocols</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2308</infon>
+      <offset>49951</offset>
+      <text>Genome engineering using the CRISPR-Cas9 system</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">79</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/s0959-4388(99)80010-5</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Current Opinion Neurobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">87</infon>
+      <offset>50001</offset>
+      <text>Formation of lamina-specific synaptic connections</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">161</infon>
+      <infon key="pub-id_doi">10.1146/annurev.cellbio.24.110707.175402</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Annual Review of Cell and Developmental Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">195</infon>
+      <offset>50053</offset>
+      <text>Many paths to synaptic specificity</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700234</infon>
+      <infon key="pub-id_pmid">29316325</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnology Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e1700234</infon>
+      <offset>50088</offset>
+      <text>Glycoengineering in CHO cells: Advances in systems biology</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">12045</infon>
+      <infon key="issue">21</infon>
+      <infon key="pub-id_doi">10.1073/pnas.2131556100</infon>
+      <infon key="pub-id_pmid">14523234</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Proceedings of the National Academy of Sciences of the United States of America</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12050</infon>
+      <offset>50147</offset>
+      <text>Human uptake and incorporation of an immunogenic nonhuman dietary sialic acid</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1834</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1038/leu.2010.195</infon>
+      <infon key="pub-id_pmid">20861919</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Leukemia</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1843</infon>
+      <offset>50225</offset>
+      <text>Gfi1 and Gfi1b: Key regulators of hematopoiesis</text>
+    </passage>
+    <passage>
+      <infon key="volume">446</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1023</infon>
+      <infon key="issue">7139</infon>
+      <infon key="pub-id_doi">10.1038/nature05816</infon>
+      <infon key="pub-id_pmid">17460663</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1029</infon>
+      <offset>50273</offset>
+      <text>Glycan-based interactions involving vertebrate sialic-acid-recognizing proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1241</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1038/nbt1252</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1252</infon>
+      <offset>50359</offset>
+      <text>Post-translational modifications in the context of therapeutic proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1378</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.26567</infon>
+      <infon key="pub-id_pmid">29457629</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1393</infon>
+      <offset>50433</offset>
+      <text>Antibody glycoengineering strategies in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">1603</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">25</infon>
+      <infon key="pub-id_doi">10.1007/978-1-4939-6972-2_2</infon>
+      <infon key="pub-id_pmid">28493121</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Methods in Molecular Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">44</infon>
+      <offset>50489</offset>
+      <text>Glycoengineering of CHO cells to improve product quality</text>
+    </passage>
+    <passage>
+      <infon key="volume">106</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">12359</infon>
+      <infon key="issue">30</infon>
+      <infon key="pub-id_doi">10.1073/pnas.0905651106</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Proceedings of the National Academy  Science United States of America</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12364</infon>
+      <offset>50546</offset>
+      <text>The histone gene activator HINFP is a nonredundant cyclin E/CDK2 effector during early embryonic cell cycles</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">735</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt.1932</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nature Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">741</infon>
+      <offset>50655</offset>
+      <text>The genomic sequence of the Chinese hamster ovary (CHO)-K1 cell line</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.3389/fnmol.2020.00139</infon>
+      <infon key="pub-id_pmid">32982686</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Frontiers in Molecular Neuroscience</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">139</infon>
+      <offset>50726</offset>
+      <text>Structure and functions of sidekicks</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">649</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1016/s0092-8674(02)00910-8</infon>
+      <infon key="pub-id_pmid">12230981</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">660</infon>
+      <offset>50763</offset>
+      <text>Sidekicks: Synaptic adhesion molecules that promote lamina-specific connectivity in the retina</text>
+    </passage>
+    <passage>
+      <infon key="volume">264</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">240</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1016/j.ydbio.2003.08.005</infon>
+      <infon key="pub-id_pmid">14623245</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Developmental Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">254</infon>
+      <offset>50860</offset>
+      <text>Math5 determines the competence state of retinal ganglion cell progenitors</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1366</infon>
+      <infon key="pub-id_doi">10.1016/j.xphs.2018.11.029</infon>
+      <infon key="pub-id_pmid">30471292</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Journal of Pharmaceutical Sciences</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1377</infon>
+      <offset>50935</offset>
+      <text>The mechanistic Impact of N-Glycosylation on stability, pharmacokinetics and immunogenicity of therapeutic proteins</text>
+    </passage>
+  </document>
+</collection>

@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>9235890</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Baker;given-names:Kym</infon>
+      <infon key="name_2">surname:Martinez;given-names:Veronica S.</infon>
+      <infon key="name_1">surname:Nobel;given-names:Matthias</infon>
+      <infon key="article-id_pmid">35737825</infon>
+      <infon key="name_0">surname:MacDonald;given-names:Michael A.</infon>
+      <infon key="issue">1</infon>
+      <infon key="year">2022</infon>
+      <infon key="article-id_pmc">9235890</infon>
+      <infon key="article-id_publisher-id">2083465</infon>
+      <infon key="alt-title">M. A. MACDONALD ET AL. MABS</infon>
+      <infon key="article-id_doi">10.1080/19420862.2022.2083465</infon>
+      <infon key="title">KEYWORDS</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">2083465</infon>
+      <infon key="volume">14</infon>
+      <infon key="license">This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/4.0/), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="kwd">mAb manufacturing bioprocessing perfusion genetic engineering cell line development mAb glycosylation apoptosis monoclonal antibody manufacturing biopharmaceutical manufacturing</infon>
+      <infon key="name_9">surname:Marcellin;given-names:Esteban</infon>
+      <infon key="name_8">surname:Nielsen;given-names:Lars K.</infon>
+      <infon key="name_7">surname:Munro;given-names:Trent</infon>
+      <infon key="name_6">surname:Mahler;given-names:Stephen</infon>
+      <infon key="name_5">surname:Gray;given-names:Peter P.</infon>
+      <infon key="name_4">surname:Shave;given-names:Evan</infon>
+      <offset>0</offset>
+      <text>Engineering death resistance in CHO cells for improved perfusion culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>73</offset>
+      <text>ABSTRACT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>82</offset>
+      <text>The reliable and cost-efficient manufacturing of monoclonal antibodies (mAbs) is essential to fulfil their ever-growing demand. Cell death in bioreactors reduces productivity and product quality, and is largely attributed to apoptosis. In perfusion bioreactors, this leads to the necessity of a bleed stream, which negatively affects the overall process economy. To combat this limitation, death-resistant Chinese hamster ovary cell lines were developed by simultaneously knocking out the apoptosis effector proteins Bak1, Bax, and Bok with CRISPR technology. These cell lines were cultured in fed-batch and perfusion bioreactors and compared to an unmodified control cell line. In fed-batch, the death-resistant cell lines showed higher cell densities and longer culture durations, lasting nearly a month under standard culture conditions. In perfusion, the death-resistant cell lines showed slower drops in viability and displayed an arrest in cell division after which cell size increased instead. Pertinently, the death-resistant cell lines demonstrated the ability to be cultured for several weeks without bleed, and achieved similar volumetric productivities at lower cell densities than that of the control cell line. Perfusion culture reduced fragmentation of the mAb produced, and the death-resistant cell lines showed increased glycosylation in the light chain in both bioreactor modes. These data demonstrate that rationally engineered death-resistant cell lines are ideal for mAb production in perfusion culture, negating the need to bleed the bioreactor whilst maintaining product quantity and quality.</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:43:39Z</infon>
+        <location offset="1376" length="26"/>
+        <text>death-resistant cell lines</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:43:44Z</infon>
+        <location offset="1420" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1698</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1711</offset>
+      <text>The application of death-resistant (DR) Chinese hamster ovary (CHO) cell lines to perfusion culture has been speculated as a mean of increasing viable cell density, viability, and product quality.1- It has been hypothesized that such cell lines would benefit from a reduction of metabolic demands required to generate replacement biomass and may instead yield extra product or reduce media consumption, thereby reducing the cost of goods. DR cell lines would also theoretically reduce the bleed necessary to maintain a healthy culture and mitigate the associated losses in product and viable biomass. The reduction in dead cells and debris would also make purification easier and reduce filter clogging. Despite these very alluring hypotheses and the long history of perfusion culture, only limited forays have been made in this field, due to the complexities of cell line development and perfusion bioreactor setup.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2630</offset>
+      <text>Since 2017, however, the rate of publications involving CHO cell culture in perfusion has increased dramatically, heralding a resurgence of interest in the culture method. Recent publications from pharmaceutical companies, such as Amgen, Pfizer, Merck, and Bristol-Myers-Squibb, highlight the growing commercial interest in perfusion. This renewed interest coincides with profound developments in cell line engineering strategies, notably CRISPR technology, and several 'omics tools, including the CHO-K1 genome. The widespread use of CHO cells in the biopharmaceutical industry, and the growth of the industry itself, is driving demand for improved cell line development strategies. While traditional applications use clonal selection techniques and glutamine synthetase or dihydrofolate reductase systems to isolate cell lines with favorable characteristics, the possibility for systems biology and rational engineering approaches now holds great promise.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3590</offset>
+      <text>Historically, most bioprocesses have used fed-batch culture methods for production, but this method typically ends with a culture viability 'crash'. Perfusion cultures, on the other hand, continuously supply fresh media and remove cell-free supernatant, which extends culture duration. As cell death still occurs in perfusion cultures, a bleed stream removes culture from the bioreactor to prevent the accumulation of dead cells and maintain high viability. As this stream is normally not purified separately, 10-30% of the culture volume are lost daily. Attempts to reduce losses associated with the bleed stream have focused on the reduction of growth rate by the means of either temperature shift, a growth, or perfusion rate, while attempts to directly reduce cell death through genetic engineering are scarce. Nivitchanyong et al. showed that it was possible to increase the viability of baby hamster kidney cells at very low perfusion rates of 0.15 nL/cell/day with the overexpression of the anti-apoptotic genes Aven and E1B-19 K.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4635</offset>
+      <text>In fed-batch cultures, however, cell death has been reduced through genetic engineering strategies to extend the culture duration. Apoptosis, as a deliberate, controlled cellular process, has been the natural target for genetic engineering of such DR cell lines since the late 1980s.1, A broad range of apoptosis-related targets have been tested, including caspases, heat shock proteins, and cell cycle regulators. However, the most widely studied set of targets has been the Bcl-2 family of proteins (BFPs). BFPs are classified as activators, inhibitors, or effectors depending on their role in the signaling network, with the latter class being responsible for the initiation of apoptosis by the intrinsic, mitochondria-mediated pathway of apoptosis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5388</offset>
+      <text>Bak1 and Bax are the two best-characterized BFP effectors and are known to cause mitochondrial outer membrane permeabilization (MOMP), at which point cell death is irreversible. Owing to their pivotal effector role in MOMP-mediated apoptosis, and no reported adverse effects when deleted, Bak1 and Bax are obvious targets for genetic engineering of DR cell lines. Knockout and knockdown of these genes have shown near-universally positive results in fed-batch, but have never been assessed in perfusion culture to our knowledge. Bok, the only other known BFP effector, shares structural homology to Bak1 and Bax. Bok has been shown to elicit MOMP-mediated apoptosis in the absence of Bak1 and Bax, and is speculated to play a role in the unfolded protein response. The Bok gene is present and annotated in the CHO-K1 genome, though its function has not been fully experimentally tested yet. Nevertheless, with the relative simplicity offered by CRISPR-mediated genetic editing, the knockout of Bok is also a logical target in engineering DR to prevent any residual function it may have as an effector of apoptosis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6503</offset>
+      <text>The knockout of all BFP effectors eliminates a major apoptotic pathway that is the main source of cell death seen in CHO cells in bioreactors under controlled conditions. These findings are expected to translate to perfusion processes due to the widespread use of standardized media formulations and bioreactor setups (retention device notwithstanding). In perfusion, however, cell death can be reduced by constant feeding and the removal of inhibitory substrates, thus leading to significantly increased cell densities. Whether high cell density can act as a stimulus for cell death or acts as an inhibitor of growth remains to be explored.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7145</offset>
+      <text>Here, we used a previously generated triple-knockout cell line, deficient in Bak1, Bax, and Bok, to manufacture a therapeutic monoclonal antibody (mAb). These cell lines were cultured in fed-batch and perfusion bioreactors modes alongside control cell lines that had undergone the same cloning process, but with a nonfunctional transfection vector. Product quality was assessed in the context of fed-batch vs perfusion bioreactor conditions, and control vs DR cell lines. In doing so, we aimed to illustrate the capabilities of apoptosis-resistant cell lines to circumvent a bleed stream under perfusion conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>7761</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>7769</offset>
+      <text>Fed-batch</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7779</offset>
+      <text>A total of five 1 L bioreactors (600 mL working volume) with 2 different cell lines, one DR ('DR1') and one control ('X') cell line were run in fed-batch mode. Runs were split up into run 1 (DR1-1 and X-1) and batch 2 (DR1-2, DR1-3, and X-2) and are displayed separately. Differences between DR and control cell lines were consistent between batches.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0001_B.jpg</infon>
+      <infon key="id">f0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>8139</offset>
+      <text>Viable cell density (VCD) in 106 cells/mL, viability in %, and cell diameter in microm for death- resistant cell line 1 (DR1, filled circles) and control cell line (X, empty triangles) over time in fed-batch cultures. Results for batch 1 and 2 are displayed on the left and right sides, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8440</offset>
+      <text>Viable cell density (VCD), viability, and cell size are displayed in Figure 1. The DR1 cell line achieved higher maximum cell densities of 15 and 18 x 106 cells/mL compared to 11 and 15 x 106 cells/mL in batches 1 and 2, respectively. For all fed-batch bioreactors, the average viable cell size increased from 15 to 19.5 microm from the beginning of the run to the point of viability crash, which was day 14 for control cultures and day 23 for DR1 cultures. After this point, viable cell diameters decreased until the harvesting viabilities of less than 85% was reached. These harvest viabilities were reached on day 19 for the control cultures and on day 26 or 27 for DR1 cell cultures. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0002_B.jpg</infon>
+      <infon key="id">f0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>9133</offset>
+      <text>Lactate and ammonia in mM and osmolarity in mOsm for death-resistant cell line 1 (DR1, filled circles) and control (X, empty triangles) cell lines in fed-batch cultures over time. Results for runs 1 and 2 are displayed on the left and right sides, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9395</offset>
+      <text>Similar trends with consistent, small differences were observed between cell lines when comparing osmolarity and the key inhibitory metabolites lactate and ammonia (Figure 2). Lactate levels in all cultures increased to up to 25 mM within the first 6 days before cells switched to lactate consumption. Lactate levels in DR1 cultures were approximately 3 mM lower than the control, and lactate levels rose again gradually after the consumption period. In control cultures, lactate reached 6 mM prior to the termination of the run. However, the extended duration of DR1 cultures saw lactate concentrations reach 25 mM in an exponential manner. Ammonia and osmolarity increased steadily throughout the runs, but remained relatively constant during the lactate consumption period. DR1 cultures showed an average of 1 mM higher ammonium concentration and 30 mOsm lower osmolarities compared to control cultures during comparable periods. The control cultures' final ammonia and osmolarity levelswere approximately 5 mM and 500 mOsm, respectively. Due to the extended culture durations of DR1 cell lines, these levels were much higher, at 10-15 mM and 610 mOsm, respectively. This change is pronounced enough to suggest a second metabolic switch was activated exclusively in DR cell lines, most likely due to the culture conditions at this time point. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0003_B.jpg</infon>
+      <infon key="id">f0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>10751</offset>
+      <text>Product titer over the time of fed-batch cultures for death resistant cell line 1 (DR1, filled circles) and control cell line (X, empty triangles) in batch 1 and 2 are displayed on the left and right side, respectively. The cell specific productivity (qp) and biomass specific productivity (qp,biomass) averaged for X and DR1 cultures is displayed at the bottom left and right, respectively. The bar height represents the mean and error bars indicate 1 standard deviation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11224</offset>
+      <text>Antibody titers for the control cell line increased up to day 18 before slightly dropping on the last day of culture when viability dropped below 85%. For DR1 cultures, titers peaked around day 21 and then continuously decreased (Figure 3), despite viabilities of over 90% at the beginning of this period (Figure 2). In particular, for X-2, an increase in titer for the control compared to the DR cell line was observed. The cell-specific productivity qp was calculated as the slope of the product titer plotted against the integrated viable cell density (IVCD) and averaged for DR1 (n = 3) and X (n = 2). Over comparable periods, the control cell line tended to have higher specific productivities than DR1 cultures. The same holds true when considering the biomass-specific productivity. The drop in titer from day 21 onwards in DR1 does partially explain the significantly lower qp as it was calculated over the entire duration of the culture. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12176</offset>
+      <text>Perfusion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12186</offset>
+      <text>Three cell lines were each run once in perfusion culture. These included the aforementioned DR1 and X cell lines, along with another DR cell line from the same cloning process; DR2. Each perfusion run lasted between 27 and 32 days with a steady-state at approximately 65 x 106 cells/mL for 8 days.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0004_B.jpg</infon>
+      <infon key="id">f0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>12489</offset>
+      <text>Viable cell density (VCD) in 106 cells/mL, viability, and bleed rate in %, and cell diameter in microm for death resistant (DR1 and 2, filled circles) and control (X, empty triangles) cell lines in perfusion culture. From day 10 to 18 a capacitance probe-controlled bleed at approximately 65 x 106 cells/mL.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12797</offset>
+      <text>VCD, viability, cell diameter, and the bleed rate are shown in Figure 4. As indicated by the VCD, a 'steady state' was reached after 10 days for all cultures. DR1 grew beyond the intended cell density in the initial phase due to an unexpected decline in cell diameter, which was not detected by the capacitance-based biomass probe, requiring manual bleed control. The bleed rate necessary to maintain a stable cell density between days 10 and 18 varied substantially between runs. Values between 11% and 18% were seen for the control cell line. DR1 showed a high of 12% bleed before gradually decreasing for the remaining time of 'steady state' operation. DR2, did not trigger any bleed as cell densities remained at or below 65 x 106 cells/mL for the full run. The main difference between the DR and control cell lines was that the control cell line increased in VCD to 95 x 106 cells/mL after bleeding, before decreasing in number and viability. Conversely, the DR cell lines did not show any further growth, but increased in cell diameter by up to 2 microm more than the control. The DR cultures also did not crash after the bleed was halted, with DR1 remaining over 92% viability and DR over 96%. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0005_B.jpg</infon>
+      <infon key="id">f0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14012</offset>
+      <text>Lactate and ammonia in mM and osmolarity in mOsm for death resistant (DR1 and 2, filled circles) and control (X, empty triangles) cell lines in perfusion culture. The culture was run in batch mode up to day 3, then perfusion was initiated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14252</offset>
+      <text>One of the main advantages of perfusion over fed-batch cultures is the constant removal of inhibitory by-products. This was confirmed here by comparing the main inhibitors, lactate, and ammonia (Figure 5), against the values observed in fed-batch mode (Figure 2). Even though similarly high lactate values of up to 27 mM were observed in the initial phase, lactate concentrations stayed below 5 mM in perfusion, despite much higher VCDs. DR2 and X showed a minor increase toward the culture end, coinciding with a decrease in viability for the latter. The perfusion process also reduced ammonium concentrations to consistently half the values seen in fed-batch. Similar to fed-batch, DR cell lines also had approximately 1 mM higher ammonium concentrations than controls. Osmolarities did not differ between cell lines, dropping sharply after day 5 (two days after starting perfusion) to remain consistently under 300 mOsm. Besides the low osmolarity observed, we concluded that the DR culture was not amino acid limited. Cell line specific differences in amino acid consumption patterns were observed, but only asparagine was completely consumed. Asparagine has been classified as not growth limiting (Supplementary material Figure 1). </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0006_B.jpg</infon>
+      <infon key="id">f0006</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>15493</offset>
+      <text>VCD with indicated phases I and II separation for death resistant (DR1 and 2, filled circles) and control (X, empty triangles) cell lines in perfusion culture (top panel). Phase I is defined as time during which a capacitance probe-based bleed was active. Phase II is the remainder of the culture time during no bleed was active. A dotted line represents the termination of the bleed stream post the sample on day 17. The corresponding daily cell specific productivity is displayed in the bottom panel to the left and the biomass specific productivity to the right. Bottom and top whiskers are presenting minimum and maximum values, respectively and lower and upper quartiles are represented by the box with the median as a line in between. Significance levels correspond to p &lt; .01 = ** and p &lt; .0001 = ****. In phase I n = 7 for all runs, in phase II n = 15, n = 10, n = 14 for DR1, DR2 and X, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16414</offset>
+      <text>The antibody titer was monitored in the reactor supernatant and permeate stream throughout the runs (Supplementary material Figure 2). Cell-specific productivity qp and biomass-specific productivity qp,biomass were calculated for cultures during and after a capacitance probe-controlled bleed, designated as phase I and phase II, respectively (Figure 6). </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16770</offset>
+      <text>Interestingly, the average titers of all cell lines were mostly comparable during both phases. The similar VCD profiles thus yielded consistent qp in phase I for all cell lines, and between phase I and phase II for DR cell lines that experienced growth arrest. The growth of the control cell line in phase II without a corresponding increase in titer, however, decreased qp during this period. The observations hold true when the increase in cell diameter is taken in consideration. Again, the biomass-specific productivity is comparable across cultures during phase 1, but decreases more significantly for the control culture in phase 2</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>17408</offset>
+      <text>Product quality</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">KMAB_A_2083465_F0007_PB.jpg</infon>
+      <infon key="id">f0007</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>17424</offset>
+      <text>Product quality data as obtained by capillary gel electrophoresis for fed-batch and perfusion runs are displayed on the left and right, respectively. Antibodies were analyzed in reduced (top) and non-reduced (bottom) forms. When reduced, the percentages of the glycosylated heavy chain (HC glyc.), non-glycosylated heavy chain (HC non-glyc.), glycosylated light chain (LC glyc.) and non-glycosylated light chain (LC non-glyc.) are displayed from left to right. For DR1 samples day19 and day26 n = 3, for X day19 n = 2.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17945</offset>
+      <text>Aiming to assess the effects of the DR knockouts on the product quality, protein A purified supernatant samples from fed-batch cultures on days 19 (end of control culture) and 26 (end of DR1 cultures) were analyzed. Samples were run in reduced and non-reduced forms using capillary gel-electrophoresis (Figure 7). Following the same principles of standard SDS-gel electrophoresis, the capillary setup allows for more reproducible quantification. Regarding perfusion cultures, supernatant and permeate samples on day 17 (end of steady-state) and the end of the run were analyzed. Additional samples from the perfusion control culture (X) on day 28 (i.e., prior to the decline in viability) were included. As no significant, time-dependent differences within clones were observed (Supplementary Table 1 and Table 2), samples were pooled according to cell lines. Additionally, samples for the control cell lines on days 28 and 32 did not differ and were similarly pooled together. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18924</offset>
+      <text>Overall, similar glycosylation patterns of heavy and light chains were observed (Figure 7, top left and right). However, comparing the light chain's glycosylation in fed-batch between harvest on day 19 (X) and on day 26 (DR), an increase in glycosylation of 54% was observed for the apoptosis-resistant cell line. A similar increase on average of 31% was seen in perfusion cultures.</text>
+      <annotation id="3">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:48:09Z</infon>
+        <location offset="19059" length="27"/>
+        <text>light chain's glycosylation</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:48:27Z</infon>
+        <location offset="19207" length="29"/>
+        <text>apoptosis-resistant cell line</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19309</offset>
+      <text>The observed glycosylation of the light chain, even though uncommon for pharmaceutical mAbs, is to be expected for m104.2. Running the m104.2 produced under standard conditions did yield a similar pattern (Supplementary material Figure 3). However, the data was not included in the graph presented above, as differences in media, culture duration, and feeding regime do not allow a reliable comparison.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19712</offset>
+      <text>These differences in the light chain's glycosylation were confirmed when samples were run in non-reduced form (Figure 7, bottom left and right). An increase of the fully expressed antibody with glycosylated light chain compared to the non-glycosylated light chain was seen independent from the DR cell line's culture mode compared to the control. Additionally, a clear reduction of mAb fragmentation in perfusion cultures was observed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20152</offset>
+      <text>Aiming to reveal the potential impact of changing glycosylation patterns on antibody binding, association (ka) and dissociation constant (kd) were evaluated using a Biacore T800. No significant difference between cell lines and culture modes was observed, with a kd of 7.01 x 10- +- 1.87*10- ms- and ka of 9.10 x 104 +- 0.71 x 104 s-1 across samples (Supplementary material Figure 4).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">t0001.xml</infon>
+      <infon key="id">t0001</infon>
+      <infon key="type">table_caption</infon>
+      <offset>20555</offset>
+      <text>Glycans identified on the light and heavy chains of purified mAbs from fed-batch and perfusion compared to a standard produced under established standard manufacturing procedures. Samples for perfusion cultures were analyzed from the supernatant fraction. Glycan mass is given in m/z for the double oxidized form.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">t0001.xml</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table xmlns:xlink="http://www.w3.org/1999/xlink" frame="hsides" rules="groups"&gt;&lt;colgroup&gt;&lt;col width="1*" align="left"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;col width="1*" align="center"/&gt;&lt;/colgroup&gt;&lt;thead&gt;&lt;tr&gt;&lt;th colspan="2" align="left"&gt;N-glycan structure&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;&lt;inline-graphic xlink:href="KMAB_A_2083465_ILG0001.jpg" id="ilg0001"/&gt;&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;&lt;inline-graphic xlink:href="KMAB_A_2083465_ILG0002.jpg" id="ilg0002"/&gt;&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;&lt;inline-graphic xlink:href="KMAB_A_2083465_ILG0003.jpg" id="ilg0003"/&gt;&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;&lt;inline-graphic xlink:href="KMAB_A_2083465_ILG0004.jpg" id="ilg0004"/&gt;&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;&lt;inline-graphic xlink:href="KMAB_A_2083465_ILG0005.jpg" id="ilg0005"/&gt;&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;&lt;inline-graphic xlink:href="KMAB_A_2083465_ILG0006.jpg" id="ilg0006"/&gt;&lt;hr/&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan="2" align="left"&gt;Glycan mass [M-2 H]&lt;sup&gt;&lt;xref rid="cit0002" ref-type="bibr"&gt;2&lt;/xref&gt;-&lt;/sup&gt;&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;629.7&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;731.2&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;812.2&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;893.2&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;957.8&lt;hr/&gt;&lt;/th&gt;&lt;th colspan="2" align="center"&gt;1038.8&lt;hr/&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align="left"&gt;Chain&lt;/th&gt;&lt;th align="center"&gt; &lt;/th&gt;&lt;th align="center"&gt;HC&lt;/th&gt;&lt;th align="center"&gt;LC&lt;/th&gt;&lt;th align="center"&gt;HC&lt;/th&gt;&lt;th align="center"&gt;LC&lt;/th&gt;&lt;th align="center"&gt;HC&lt;/th&gt;&lt;th align="center"&gt;LC&lt;/th&gt;&lt;th align="center"&gt;HC&lt;/th&gt;&lt;th align="center"&gt;LC&lt;/th&gt;&lt;th align="center"&gt;HC&lt;/th&gt;&lt;th align="center"&gt;LC&lt;/th&gt;&lt;th align="center"&gt;HC&lt;/th&gt;&lt;th align="center"&gt;LC&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left"&gt;run&lt;/td&gt;&lt;td align="center"&gt;Day&lt;/td&gt;&lt;td colspan="12" align="center"&gt;Fed-batch&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;DR1-1&lt;/td&gt;&lt;td align="center"&gt;19&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;/td&gt;&lt;td align="center"&gt;26&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;X&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;DR1-2&lt;/td&gt;&lt;td align="center"&gt;19&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;X&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;/td&gt;&lt;td align="center"&gt;26&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;DR1-3&lt;/td&gt;&lt;td align="center"&gt;19&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;/td&gt;&lt;td align="center"&gt;26&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;X-1&lt;/td&gt;&lt;td align="center"&gt;19&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;X-2&lt;/td&gt;&lt;td align="center"&gt;19&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="14" align="left"&gt;Perfusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;DR1&lt;/td&gt;&lt;td align="center"&gt;18&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;/td&gt;&lt;td align="center"&gt;30&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;DR2&lt;/td&gt;&lt;td align="center"&gt;17&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;/td&gt;&lt;td align="center"&gt;27&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;X&lt;/td&gt;&lt;td align="center"&gt;17&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt; &lt;/td&gt;&lt;td align="center"&gt;29&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="14" align="left"&gt;Standard&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left"&gt;m104.2&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;td align="center"&gt; &lt;/td&gt;&lt;td align="center"&gt;x&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">t0001</infon>
+      <infon key="type">table</infon>
+      <offset>20869</offset>
+      <text>N-glycan structure         Glycan mass [M-2 H]- 629.7 731.2 812.2 893.2 957.8 1038.8   Chain   HC LC HC LC HC LC HC LC HC LC HC LC   run Day Fed-batch   DR1-1 19 x   x   x   x               26 x   x   x x x     X   x   DR1-2 19 x   x   x x x x   X   x     26 x   x   x x x x   x   x   DR1-3 19 x   x   x x x x   x   x     26 x   x   x x x x   x   x   X-1 19 x   x   x x x     x   x   X-2 19 x   x   x x x x   x   x   Perfusion   DR1 18 x   x   x x x x   x   x     30 x   x   x x x x   x   x   DR2 17 x   x   x x x x   x   x     27 x   x   x x x x   x   x   X 17 x   x   x x x x   x   x     29 x   x   x x x x   x   x   Standard   m104.2   x   x   x x x x   x   x   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21612</offset>
+      <text>Additionally, glycans present were analyzed in their structure using mass spectrometry. Glycans discovered were compared to the standard for which glycans were confirmed previously by an external provider (Table 1). With the exception of DR1-1 and X-1, the same glycans identified in the standard were identified in all other fractions. Notably, all missing glycans are located on the light chain. Further, DR1-1 day 19 did not show data for the light chain at all, indicating that glycans missing might be a result of the mass spectrometry analysis, rather than the product itself.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>22195</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22206</offset>
+      <text>The results of the fed-batch experiments provide important context for the application of DR cell lines in perfusion bioreactors. In this regard, growth rates, cell sizes, and metabolic profiles were very similar between cell lines. During periods of comparable culture conditions, the control culture showed approximately 15% higher overall volumetric productivity, which may be due to clonal variation or a tradeoff between product and biomass generation. The similarity of these parameters indicates that the cell lines have minimal biological variation and are suitable for comparison in a bioprocess context. Importantly, the fed-batch experiments showed that the DR1 cultures reached higher VCDs, and delayed and slowed viability crashes. These behaviors are in agreement with prior observations in the literature of Bak-/Bax- CHO cell lines. Generally, however, these profiles result in increased IVCDs, which yield increased titers. In this case, the DR1 cultures had lower titers and increased product fragmentation than those of the control cultures. This was likely a result of the feed regime being poorly optimized for such long culture durations, leading to overconcentration and imbalanced nutrient profiles. This created extreme culture environments (&gt;600 mOsm) for the DR1 cells that may have caused phenotypic changes and product degradation. Hyperosmolarity has further been linked to increased cell diameter and the formation of multiple nuclei. Under optimized feed conditions, apoptosis-resistant cell lines, including Bak-/Bax- CHO cell lines, have characteristically shown higher titers, often based on prolonged culture durations. It only can be speculated that this might hold true for the here presented cell line, as well once feeding regimes have been optimized. The longer-sustained viability of the DR1 cell lines under these sub-optimal conditions does, however, serve to verify the 'death resistance' of this mAb-producing cell line in a bioprocessing context.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24204</offset>
+      <text>Of even more interest was the behavior of the knockout cell line under perfusion condition as the potential of reducing the bleed stream is of significant industrial interest. This resilience was demonstrated early in the perfusion cultures, where the control culture viability was already steadily decreasing, while the DR cell lines remained over 98% viability. After the bleed period, the control culture's viability had been raised back to comparable levels, and subsequently allowed growth to 95 x 106 cells/mL. The DR cell lines, on the other hand, did not increase in cell number after the steady-state, and instead increased in cell diameter. The total biomass remained relatively constant in phase II for both DR cell lines, but increased for the control (Supplementary material Figure 5). Without further application of bleed, however, the control culture steadily decreased in viability and crashed. Both DR cell lines reached apparently stable viabilities well over 90%. While the DR cell lines show a very gradual decrease in VCD, they both had consistently positive growth rates. The discrepancy is caused by the growth rates of DR cell lines being marginally lower than the daily sampling rate of 1.5% RV/d (Supplementary material Figure 6). The higher VCD but lower viability of DR1 compared to DR2 might suggest that these cell lines had similar death rates. More importantly, the death rates in these DR cell lines are low enough that filtration and/or disintegration of dead cells in a perfusion process is sufficient to maintain viabilities constantly over 90%. This negates the requirement for a bleed stream.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25840</offset>
+      <text>While the cost of such a high viability equilibrium is a reduced VCD compared to control cell lines, it is important to note that DR1 was bled at high viability to maintain VCD during the first steady-state. This bleed accounted for the removal of ~25 x 106 cells/mL during the steady-state period. The practical operating VCD of the control is also certain to be less than the maximum VCD, as a bleed would be required to maintain viability. Therefore, the lower VCDs of DR1 and DR2 may actually not differ from the control in a practical bioprocessing context. Additionally, cultures are often bled at high VCDs, regardless of viability, to prevent fouling and pump failure. In the case of DR cell lines, the reduced growth and biomass accumulation mitigate this need for bleed. Therefore, by eliminating the need to bleed perfusion reactors, DR CHO cell lines improve overall process productivity while simultaneously minimizing waste and reducing the complexity of the unit operation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26832</offset>
+      <text>Ideally, without the need to replace bleed or dead cells, the cultures' metabolic demands could be focused on productivity. Interestingly, in this case, each perfusion culture's volumetric productivity, i.e., titer, was approximately equal, and relatively constant after approximately 10 days (Supplementary material Figure 2). This point of maximum, sustained productivity also coincided very closely with the growth arrests of each knockout cell line. In the control cell line, the termination of the bleed lead to an increased VCD and simultaneously reduced qp, which may potentially indicate a VCD or time-based metabolic switch in each of the cell lines tested. A specific medium limitation may also explain the phenomenon, though biomass generation still occurred in each cell line, whether by VCD or diameter, throughout the run. This again inadvertently benefits the DR cell lines, as their lower VCDs and biomass are compensated for by higher qp.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27793</offset>
+      <text>Finally, product quality in perfusion processes was similar to the fed-batch, but with a 3-fold reduction in incomplete fragments. The DR cell lines showed higher glycosylation in the mAb light chain, but the difference was less pronounced between knockouts and controls than in fed-batch. Binding activity assays showed no significant difference between the products of either process, and both were comparable to a control batch of the product. The same comparability was observed for the type of N-glycans present. Differences observed are likely due to detection limitations, as no trend was noted across replicates. The reduced fragmentation and increased glycosylation, but overall comparability in final product quality, is frequently observed as a result of both the transition to perfusion and in the engineering of DR cell lines. Further elution on the different glycans formed would be necessary to come to a definitive conclusion on the impact.</text>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:51:28Z</infon>
+        <location offset="27928" length="13"/>
+        <text>DR cell lines</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">mark_wrona@waters.com</infon>
+        <infon key="updated_at">2023-12-08T20:51:34Z</infon>
+        <location offset="27956" length="36"/>
+        <text>glycosylation in the mAb light chain</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28750</offset>
+      <text>Our results were generated with a cell line deficient for bak1, bax, and bok. Effects of bok in CHO cells had not been previously studied and recent work has shown that its effects on the apoptosis-resistant properties of the cell line can be neglected. Nevertheless, the above shown results are valid and show the potential of apoptosis-resistant cell cultures to avoid bleed streams in perfusion cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29158</offset>
+      <text>While the phenomenon limiting cell division in DR cultures in perfusion culture was unexpected, it appears to be inadvertently beneficial to the overall process: maintaining the same overall productivity and product quality while negating the need for bleed. By avoiding a loss of on average 10-30% per day associated top the bleed stream, the upstream culture could be up to almost a third more productive. Putting this into a financial context, including work hours, materials, and operational setup, holds the potential for a tremendous gain on an industrial level. The metabolic and proteomic profiles of this unique and potentially very convenient culture profile may yield essential understandings in the improvement of perfusion-specific cell lines, as well as media and process conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>29958</offset>
+      <text>Material and methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>29979</offset>
+      <text>Cell line development</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30001</offset>
+      <text>The parental cell line used in this study was derived from CHO-K1 and stably expresses the human mAb m104.2 against the Hendra and Nipah viruses. This cell line was transfected via electroporation with CRISPR-Cas9-expressing, PX-458-based plasmids containing sgRNAs against Bak1, Bax, and Bok for DR cell lines, or a nonfunctional sgRNA (PX-458) for the control cell line (X). Cell lines were cloned via FACS (BD FACSAriaTM) enrichment by GFP+ sorting, and knockouts verified by Sanger sequencing and mass spectrometry. The anti-apoptotic properties of the cell line have been confirmed in previous work. All cell lines were adapted for culture in CHOKO CELLCA SMD media (Sigma-Aldrich, US) supplemented with 0.4% anti-clumping agent (Gibco, US). Prior to culture in bioreactors, each cell line was cultured in shake flasks (Corning, US) at 37 C, 8% CO2, 130 rpm and 82% humidity for a minimum of two weeks of routine passaging. The cell lines show defined and reproducible phenotypes in terms of growth rate and response to apoptotic stimuli.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>31046</offset>
+      <text>Fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31065</offset>
+      <text>A total of five fed-batch cultures with two different cell lines, one DR ('DR1'), and one control ('X') cell line were run in a 1 L Mini-Bioreactor (Applikon Biotechnologies, NL) and operated at 200 rpm, 36.5 C, pH 7.00, and dissolved oxygen (DO) at 50% air saturation. Stirrer speeds were increased to up to 350 rpm as necessary to maintain DO (Supplementary material Figure 7 and 8). pH was controlled by CO2 and sodium bicarbonate (Sigma-Aldrich, US) at 70 g/L. Bioreactors were inoculated at 0.5 x 106 viable cells/mL at a starting volume of 600 mL of CHOKO Cellca SMD media (Sigma-Aldrich, US). Cultures were fed on days 3, 5, and then daily from day 7, with a discontinuous feed of 3.2% CHOKO Cellca FMA (FMA) and 0.32% CHOKO Cellca FMB (FMB) (Sigma-Aldrich, US). Glucose concentrations were monitored daily by a BioProfile  FLEX2  or FLEX  Automated Cell Culture Analyzer (Nova Biomedical, US). If glucose concentration dropped below 3 g/L, a 45% glucose solution was fed to increase concentrations to 6 g/L. Antifoam solution was similarly added when needed. To prevent accumulation over the prolonged culture durations, the daily sampling volumes were increased to offset the feed volumes when bioreactor volumes reached 600 mL. Cultures were terminated once viabilities dropped below 85%, as product quality and titers became reduced in all cell lines beyond this point.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>32467</offset>
+      <text>Perfusion culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32485</offset>
+      <text>Perfusion cultures were performed in a 3 L stirred tank (Sartorius, DE) with 1.2 L working volume. An ATF2 with 0.2 microm hollow fibre membrane (Refine Technologies, US) was used for cell retention. Cultivation began with CHOKO Cellca SMD media (Sigma-Aldrich, US) supplemented with 0.4% anti-clumping agent and cells were seeded at 0.5 x 106 viable cells/mL. The temperature was controlled at 36.5 C and pH 7.00 was maintained throughout the run by addition of CO2 or sodium bicarbonate at 70 g/L. DO was set to 50% and controlled by the addition of O2 and stirring speed ranging from 150 to 350 rpm. After 72 hours, CHOKO Cellca SMD media (Sigma-Aldrich, US) containing 3.2% CHOKO Cellca FMA (FMA) and 0.32% CHOKO Cellca FMB (FMB) (Sigma-Aldrich, US) was perfused at a rate of 1.2 L per day (i.e., 1 RV/d). The perfusion rate was controlled using Shell Software (Sartorius, DE) and balances under the reactor, feed medium, and permeate. Biomass was measured online by a capacitance-based biomass probe (ABER, US) (Supplementary material Figure 5). Where applicable, a semi-discontinuous bleed was automatically triggered based on readings from the biomass probe correlating to the desired cell density. This bleed was achieved through a double-headed pump, facilitating simultaneous bleed and media compensation. An additional glucose feed using 45% w/v glucose (Sigma-Aldrich, US) was continuously fed as necessary to maintain glucose concentrations of 1 g/L. FoamAway (Gibco, US) was also added continuously as needed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>34017</offset>
+      <text>Sampling and analyses</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34039</offset>
+      <text>Daily samples of culture and supernatant were taken for cell counts and metabolites and product quantification. VCD, viability, and cell diameter were measured using a Vi-CELL BLU Cell Viability Analyzer (Beckman Coulter, US). From the supernatant, quantification of glucose, lactate, ammonia, glutamine, glutamate concentrations, and osmolarity was performed using a BioProfile  FLEX2  or FLEX  Automated Cell Culture Analyzer (Nova Biomedical, US). Antibody titers were determined using a Biacore T100 SPR-system with HBS-P+ buffer and Protein A chip (Cytivia, US). Supernatant for later product quality analysis was stored at -80 C.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34684</offset>
+      <text>Antibodies were isolated from the culture supernatant using the NabTM Protein A Plus Spin Kit, 0.2 mL (Thermo Scientific, US) according to the manufacturer's instructions. The purified product was stored at -80 C until analyzed using the SciEx MW ladder kit (SciEx, US) in combination with a photodiode array-detector equipped PA-800 Pharmaceutical Analysis System (SciEx, USA). Purified antibodies were run in reduced and non-reduced forms and analyzed using the 32 Karat  software package v10.1 (SciEx, US).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35201</offset>
+      <text>Binding kinetics of the produced mAbs were assessed using a Biacore 8 K+ equipped with a Protein A sensor chip (Cytiva, SE), with HBS-P+ buffer (Cytiva, SE). Antibodies were captured over Fc2 for 10 seconds at a flow rate of 30 microL/min at a concentration of 1 microg/mL, before being exposed to 127 nM, 42 nM, 14 nM, 4.7 nM, and 1.6 nM of antigen over both flow cells using a single-cycle kinetics format. The surface was regenerated using 10 mM glycine, pH 1.5 between each cycle. The reference subtracted sensorgrams were analyzed using a 1:1 binding model using the BiaEvaluation software. M104.2 standard was kindly provided by the Queensland node of the National Biologics Facility.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>35898</offset>
+      <text>Estimation of biomass percentage</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35931</offset>
+      <text>For the calculation of the biomass per volume of culture in cm3/mL a spherical cell shape was assumed as per equation 1. The cell diameter dcell is given in microm and the VCD as 106 cells/mL. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>36125</offset>
+      <text>Estimation of specific rates</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36154</offset>
+      <text>In fed-batch cultures, the cell-specific productivity (qp) in pg/cell/day for fed-batch cultures was calculated as the slope of the trend line when plotting IVCD on the x and product titer on the y-axis. The IVCD was calculated as per equation 2, with the VCD the viable cell density at the time point. IVCD-1 and VCD-1 were the IVCD and VCD, respectively, recorded at the previous time point and Deltat as the difference between the time point the and the previous time point. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36634</offset>
+      <text>For perfusion cultures, the cell-specific productivity qp was calculated according to Equation 3. Where 'D' is the dilution rate in reactor volumes per day, 'cp' the product concentration in microg/mL and 'x' the number of cells per mL.   </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36883</offset>
+      <text>The biomass-specific productivity qp,biomass in mg/cm/ day was calculated similarly to equation 3 as per equation 4 with biomass in cm3/mL as calculated in equation 1. </text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>37052</offset>
+      <text>Mass spectrometry analysis of N-glycan structures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37102</offset>
+      <text>Protein A purified mAb samples were reduced using 40 mM dithiothreitol and incubated for 60 min at 70 C. Proteins were alkylated using 66 mM of iodoacetamide and incubated at room temperature in the dark for 30 minutes. Proteins then were trypsin digested at 47 C for 1 h before the pH was reduced by formic acid at a final concentration of 0.8%.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37454</offset>
+      <text>Peptides were analyzed using a liquid chromatography-mass spectrometry system. A high-performance liquid chromatography Ultimate 3000 RSLCnano system (ThermoFisher, Germany) was used with 0.1% aqueous formic acid as mobile phases A and 80% acetonitrile in phase A as phase B. 2 microL sample was injected onto a C18 nanoEaseTM M/Z CSH C18 1.8 microm (150 microm x 100 mm) column (Waters, US) and eluted over 60 minutes at a gradient of 8% to 95% mobile phase B with a flow rate of 0.5 microL/min.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37951</offset>
+      <text>Eluted peptides were measured in their mass using an Exploris Mass Spectrometer (ThermoFisher, USA). Data was acquired in DDA mode with a resolution of 60,000 and scan range of 400-1100 m/z for full MS. For MS2, the isolation window was set to 1.6 m/z and the orbitrap resolution to 15,000. Glycans were identified manually using Protein Discoverer v3.0.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>38308</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">title_1</infon>
+      <offset>38331</offset>
+      <text>Abbreviations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38345</offset>
+      <text>BFP - BCL-2 family protein</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38374</offset>
+      <text>CHO - Chinese hamster ovary</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38404</offset>
+      <text>DR - Death-resistant</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38427</offset>
+      <text>IVCD - Integral viable cell density</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38465</offset>
+      <text>mAb - monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38493</offset>
+      <text>MOMP - Mitochondrial outer membrane permeabilization</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38548</offset>
+      <text>Qp - cell-specific productivity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38582</offset>
+      <text>Qp, biomass - biomass-specific productivity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABBR</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38628</offset>
+      <text>VCD - Viable cell density</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>38656</offset>
+      <text>Disclosure statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38677</offset>
+      <text>No potential conflict of interest was reported by the author(s).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>38742</offset>
+      <text>Supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38765</offset>
+      <text>Supplemental data for this article can be accessed online at https://doi.org/10.1080/19420862.2022.2083465.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>38873</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1187</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.27269</infon>
+      <infon key="pub-id_pmid">31930480</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">13</infon>
+      <offset>38884</offset>
+      <text>Attenuating apoptosis in Chinese hamster ovary cells for improved biopharmaceutical production</text>
+    </passage>
+    <passage>
+      <infon key="volume">62</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">175</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1007/s10616-010-9274-0</infon>
+      <infon key="pub-id_pmid">20502964</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">88</infon>
+      <offset>38979</offset>
+      <text>Cell death in mammalian cell culture: molecular mechanisms and cell line engineering strategies</text>
+    </passage>
+    <passage>
+      <infon key="volume">44</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">126</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2017.09.010</infon>
+      <infon key="pub-id_pmid">28951188</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">33</infon>
+      <offset>39075</offset>
+      <text>(13)C metabolic flux analysis identifies limitations to increasing specific productivity in fed-batch and perfusion</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">95</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_doi">10.1023/A:1008055702079</infon>
+      <infon key="pub-id_pmid">19003359</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">106</infon>
+      <offset>39191</offset>
+      <text>Influence of bcl-2 on antibody productivity in high cell density perfusion cultures of hybridoma</text>
+    </passage>
+    <passage>
+      <infon key="volume">63</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">529</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(19990605)63:5&lt;529::AID-BIT3&gt;3.0.CO;2-X</infon>
+      <infon key="pub-id_pmid">10397809</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">43</infon>
+      <offset>39288</offset>
+      <text>Apoptosis-resistant E1B-19K-expressing NS/0 myeloma cells exhibit increased viability and chimeric antibody productivity under perfusion culture conditions</text>
+    </passage>
+    <passage>
+      <infon key="volume">98</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">825</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.21479</infon>
+      <infon key="pub-id_pmid">17514750</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>39444</offset>
+      <text>Anti-apoptotic genes Aven and E1B-19K enhance performance of BHK cells engineered to express recombinant factor VIII in batch and low perfusion cell culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">843</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1023/B:APPT.0000045792.63249.5a</infon>
+      <infon key="pub-id_pmid">15505426</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Apoptosis</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">52</infon>
+      <offset>39601</offset>
+      <text>Suppression of apoptosis in perfusion culture of Myeloma NS0 cells enhances cell growth but reduces antibody productivity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="pub-id_doi">10.1080/07388551.2021.1998821</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Critical reviews in biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">17</infon>
+      <offset>39723</offset>
+    </passage>
+    <passage>
+      <infon key="volume">304</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">70</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2019.08.001</infon>
+      <infon key="pub-id_pmid">31381940</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">77</infon>
+      <offset>39724</offset>
+      <text>Perfusion CHO cell culture applied to lower aggregation and increase volumetric productivity for a bispecific recombinant protein</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e2973</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2973</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <offset>39854</offset>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1946</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/bit.26985</infon>
+      <infon key="pub-id_pmid">30950040</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">58</infon>
+      <offset>39855</offset>
+      <text>Novel, linked bioreactor system for continuous production of biologics</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1472</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2723</infon>
+      <infon key="pub-id_pmid">30298995</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">81</infon>
+      <offset>39926</offset>
+      <text>Shift to high-intensity, low-volume perfusion cell culture enabling a continuous, integrated bioprocess</text>
+    </passage>
+    <passage>
+      <infon key="volume">231</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">149</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2016.06.019</infon>
+      <infon key="pub-id_pmid">27320019</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">59</infon>
+      <offset>40034</offset>
+      <text>High-density mammalian cell cultures in stirred-tank bioreactor without external pH control</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">867</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2415</infon>
+      <infon key="pub-id_pmid">27977910</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">78</infon>
+      <offset>40126</offset>
+      <text>Bioreactor productivity and media cost comparison for different intensified cell culture processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1317</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1007/s00449-017-1790-2</infon>
+      <infon key="pub-id_pmid">28577048</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Bioprocess Biosyst Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">26</infon>
+      <offset>40225</offset>
+      <text>Impact of Pluronic((R)) F68 on hollow fiber filter-based perfusion culture performance</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">17</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1186/s40643-020-00304-y</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Bioresour. Bioprocess</infon>
+      <infon key="type">ref</infon>
+      <offset>40312</offset>
+      <text>Development of an intensified fed-batch production platform with doubled titers using N-1 perfusion seed for cell culture manufacturing</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1770669</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2020.1770669</infon>
+      <infon key="pub-id_pmid">32425110</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <offset>40448</offset>
+      <text>Biomanufacturing evolution from conventional to intensified processes for productivity improvement: a case study</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1502</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2019.1652075</infon>
+      <infon key="pub-id_pmid">31379298</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">MAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">14</infon>
+      <offset>40561</offset>
+      <text>Process intensification in fed-batch production bioreactors using non-perfusion seed cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1446</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1002/biot.201500027</infon>
+      <infon key="pub-id_pmid">25864574</infon>
+      <infon key="year">2015</infon>
+      <infon key="comment">p. n/a-n/a</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">56</infon>
+      <offset>40655</offset>
+      <text>One-step generation of triple knockout CHO cell lines using CRISPR Cas9 and fluorescent enrichment</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2546</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1021/acssynbio.0c00322</infon>
+      <infon key="pub-id_pmid">32835482</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">ACS Synth Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">61</infon>
+      <offset>40754</offset>
+      <text>Multicopy targeted integration for accelerated development of high-producing Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">735</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1038/nbt.1932</infon>
+      <infon key="pub-id_pmid">21804562</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>40859</offset>
+      <text>The genomic sequence of the Chinese hamster ovary (CHO)-K1 cell line</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">481</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/bit.27548</infon>
+      <infon key="pub-id_pmid">32865815</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">90</infon>
+      <offset>40928</offset>
+      <text>'Omics driven discoveries of gene targets for apoptosis attenuation in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">24</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1102</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1016/j.copbio.2013.02.007</infon>
+      <infon key="pub-id_pmid">23523260</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">07</infon>
+      <offset>41011</offset>
+      <text>The emerging CHO systems biology era: harnessing the 'omics revolution for biotechnology</text>
+    </passage>
+    <passage>
+      <infon key="volume">51</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">64</infon>
+      <infon key="pub-id_doi">10.1016/j.copbio.2017.11.015</infon>
+      <infon key="pub-id_pmid">29223005</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Curr Opin Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">69</infon>
+      <offset>41102</offset>
+      <text>The emerging role of systems biology for engineering protein production in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">979</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1002/biot.201500082</infon>
+      <infon key="pub-id_pmid">26058577</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">94</infon>
+      <offset>41187</offset>
+      <text>CRISPR/Cas9-mediated genome engineering of CHO cell factories: application and perspectives</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">891</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2472</infon>
+      <infon key="pub-id_pmid">28371394</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">901</infon>
+      <offset>41279</offset>
+      <text>Principles and approach to developing mammalian cell culture media for high cell density perfusion process leveraging established fed-batch media</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e1700722</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700722</infon>
+      <infon key="pub-id_pmid">29781256</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <offset>41425</offset>
+      <text>Improved performance in mammalian cell perfusion cultures by growth inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">459</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1016/j.biotechadv.2019.02.012</infon>
+      <infon key="pub-id_pmid">30797096</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol Adv</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">75</infon>
+      <offset>41504</offset>
+      <text>Apoptosis: a mammalian cell bioprocessing perspective</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">65</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/cdd.2017.186</infon>
+      <infon key="pub-id_pmid">29149100</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">80</infon>
+      <offset>41558</offset>
+      <text>BCL-2 family proteins: changing partners in the dance towards death</text>
+    </passage>
+    <passage>
+      <infon key="volume">25</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">46</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1038/cdd.2017.179</infon>
+      <infon key="pub-id_pmid">29053143</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">55</infon>
+      <offset>41626</offset>
+      <text>MOMP, cell suicide as a BCL-2 family business</text>
+    </passage>
+    <passage>
+      <infon key="volume">285</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">416</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1111/febs.14186</infon>
+      <infon key="pub-id_pmid">28755482</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">FEBS J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">31</infon>
+      <offset>41672</offset>
+      <text>Bax, Bak and beyond - mitochondrial performance in apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">a008714</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1101/cshperspect.a008714</infon>
+      <infon key="pub-id_pmid">23545417</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Cold Spring Harb Perspect Biol</infon>
+      <infon key="type">ref</infon>
+      <offset>41733</offset>
+      <text>Mechanisms of action of Bcl-2 family proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">105</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">330</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/bit.22541</infon>
+      <infon key="pub-id_pmid">19777580</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">40</infon>
+      <offset>41779</offset>
+      <text>BAK and BAX deletion using zinc-finger nucleases yields apoptosis-resistant CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">727</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1722</infon>
+      <infon key="pub-id_pmid">23596153</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">37</infon>
+      <offset>41865</offset>
+      <text>Resilient immortals, characterizing and utilizing bax/bak deficient Chinese hamster ovary (CHO) cells for high titer antibody production</text>
+    </passage>
+    <passage>
+      <infon key="volume">116</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1813</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1002/bit.26969</infon>
+      <infon key="pub-id_pmid">30883679</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">19</infon>
+      <offset>42002</offset>
+      <text>Reduced apoptosis in Chinese hamster ovary cells via optimized CRISPR interference</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">509</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2006.05.005</infon>
+      <infon key="pub-id_pmid">16860584</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">22</infon>
+      <offset>42085</offset>
+      <text>RNAi suppression of bax and bak enhances viability in fed-batch cultures of CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">94</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">12401</infon>
+      <infon key="issue">23</infon>
+      <infon key="pub-id_doi">10.1073/pnas.94.23.12401</infon>
+      <infon key="pub-id_pmid">9356461</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">06</infon>
+      <offset>42171</offset>
+      <text>Bok is a pro-apoptotic Bcl-2 protein with restricted expression in reproductive tissues and heterodimerizes with selective anti-apoptotic Bcl-2 family members</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">785</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1038/cdd.2013.10</infon>
+      <infon key="pub-id_pmid">23429263</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">99</infon>
+      <offset>42330</offset>
+      <text>Intracellular localization of the BCL-2 family member BOK and functional implications</text>
+    </passage>
+    <passage>
+      <infon key="volume">165</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">421</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1016/j.cell.2016.02.026</infon>
+      <infon key="pub-id_pmid">26949185</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">33</infon>
+      <offset>42416</offset>
+      <text>BOK is a non-canonical BCL-2 family effector of apoptosis regulated by ER-associated degradation</text>
+    </passage>
+    <passage>
+      <infon key="volume">26</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2682</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1038/s41418-019-0327-4</infon>
+      <infon key="pub-id_pmid">30976095</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Cell Death Differ</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">94</infon>
+      <offset>42513</offset>
+      <text>Bok regulates mitochondrial fusion and morphology</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e1800070</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1002/biot.201800070</infon>
+      <infon key="pub-id_pmid">29762913</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <offset>42563</offset>
+      <text>an online compendium of CHO RNA-Seq data allows identification of CHO cell line-specific transcriptomic signatures</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">150</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1016/S0167-7799(00)88926-X</infon>
+      <infon key="pub-id_pmid">7766111</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">55</infon>
+      <offset>42678</offset>
+      <text>Cell death (apoptosis) in cell culture systems</text>
+    </passage>
+    <passage>
+      <infon key="volume">119</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.28062</infon>
+      <infon key="year">2022</infon>
+      <infon key="source">Modeling apoptosis resistance in CHO cells with CRISPR-mediated knockouts of bak1, bax, and bok</infon>
+      <infon key="type">ref</infon>
+      <offset>42725</offset>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e2946</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2946</infon>
+      <infon key="pub-id_pmid">31823468</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <offset>42726</offset>
+      <text>Effects of cysteine, asparagine, or glutamine limitations in Chinese hamster ovary cell batch and fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">709</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">21</infon>
+      <infon key="pub-id_doi">10.1016/j.aca.2011.10.022</infon>
+      <infon key="pub-id_pmid">22122927</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Anal Chim Acta</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">31</infon>
+      <offset>42843</offset>
+      <text>Protein separation by capillary gel electrophoresis: a review</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/bit.27747</infon>
+      <infon key="pub-id_pmid">33751545</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">59</infon>
+      <offset>42905</offset>
+      <text>Hyperosmolality in CHO culture: effects on cellular behavior and morphology</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1700722</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <offset>42981</offset>
+      <text>Improved performance in mammalian cell perfusion cultures by growth inhibition</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1647</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2537</infon>
+      <infon key="pub-id_pmid">28786215</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">61</infon>
+      <offset>43060</offset>
+      <text>A system identification approach for developing model predictive controllers of antibody quality attributes in cell culture processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e1700733</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700733</infon>
+      <infon key="pub-id_pmid">29851298</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <offset>43194</offset>
+      <text>Perfusion cell culture decreases process and product heterogeneity in a head-to-head comparison with fed-batch</text>
+    </passage>
+    <passage>
+      <infon key="volume">101</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5997</infon>
+      <infon key="issue">15</infon>
+      <infon key="pub-id_doi">10.1007/s00253-017-8312-7</infon>
+      <infon key="pub-id_pmid">28512676</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Appl Microbiol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6006</infon>
+      <offset>43305</offset>
+      <text>Different fermentation processes produced variants of an anti-CD52 monoclonal antibody that have divergent in vitro and in vivo characteristics</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">445</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1016/S1473-3099(19)30634-6</infon>
+      <infon key="pub-id_pmid">32027842</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Lancet Infect Dis</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">54</infon>
+      <offset>43449</offset>
+      <text>Safety, tolerability, pharmacokinetics, and immunogenicity of a human monoclonal antibody targeting the G glycoprotein of henipaviruses in healthy adults: a first-in-human, randomised, controlled, phase 1 study</text>
+    </passage>
+    <passage>
+      <infon key="volume">197</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">846</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1086/528801</infon>
+      <infon key="pub-id_pmid">18271743</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">J Infect Dis</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">53</infon>
+      <offset>43660</offset>
+      <text>Exceptionally potent cross-reactive neutralization of nipah and hendra viruses by a human monoclonal antibody</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">e1700721</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700721</infon>
+      <infon key="pub-id_pmid">30024096</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol J</infon>
+      <infon key="type">ref</infon>
+      <offset>43770</offset>
+      <text>Recommendations for comparison of productivity between fed-batch and perfusion processes</text>
+    </passage>
+  </document>
+</collection>

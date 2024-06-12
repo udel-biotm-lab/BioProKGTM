@@ -1,4 +1,5 @@
 import json
+import sys
 
 def parse_obo(file_path):
     with open(file_path, 'r') as file:
@@ -36,18 +37,19 @@ def save_transformed_data_to_json_file(transformed_data, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         json.dump(transformed_data, file, indent=4, ensure_ascii=False)
 
-# Example usage
 if __name__ == "__main__":
-    # Specify the path to your OBO file
-    obo_file = "/home/shovan/nlputils/EDG_framework/Lexical_Concepts/Concepts_and_Dictionary/conceptsV2.obo"
+    # Check if the correct number of arguments are provided
+    if len(sys.argv) != 3:
+        print("Usage: python script_name.py <input_file> <output_file>")
+        sys.exit(1)
+    
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
     
     # Parse the OBO content
-    transformed_data = parse_obo(obo_file)
-    
-    # Specify the filename for saving in JSON format
-    filename = "/home/shovan/nlputils/EDG_framework/Lexical_Concepts/Concepts_and_Dictionary/transformed_data1.json"
+    transformed_data = parse_obo(input_file)
     
     # Save the transformed data to a JSON file
-    save_transformed_data_to_json_file(transformed_data, filename)
+    save_transformed_data_to_json_file(transformed_data, output_file)
     
-    print(f"Transformed data has been saved to {filename} in JSON format.")
+    print(f"Transformed data has been saved to {output_file} in JSON format.")

@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>9541590</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Scheffel;given-names:Julia</infon>
+      <infon key="name_2">surname:Isaksson;given-names:Madelene</infon>
+      <infon key="name_1">surname:Gomis-Fons;given-names:Joaquin</infon>
+      <infon key="article-id_pmid">35470430</infon>
+      <infon key="name_0">surname:Schwarz;given-names:Hubert</infon>
+      <infon key="notes">  , , , , , , , , , , &amp;  . . , , -.   </infon>
+      <infon key="pub-id_doi">10.1002/bit.28120</infon>
+      <infon key="pub-id_pmid">35470430</infon>
+      <infon key="year">2022</infon>
+      <infon key="article-id_pmc">9541590</infon>
+      <infon key="article-id_publisher-id">BIT28120</infon>
+      <infon key="fn">Hubert Schwarz, Joaquin Gomis-Fons, Madelene Isaksson and Julia Scheffel have equally contributed as first author.</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="article-id_doi">10.1002/bit.28120</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol Bioeng;202208; 119 (8) 2152-2166. doi:10.1002/bit.28120</infon>
+      <infon key="lpage">2166</infon>
+      <infon key="fpage">2152</infon>
+      <infon key="issue">8</infon>
+      <infon key="alt-title">SCHWARZ et al. </infon>
+      <infon key="volume">119</infon>
+      <infon key="license">This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_10">surname:Chotteau;given-names:Veronique</infon>
+      <infon key="kwd">antibody aggregation antibody manufacturing Chinese Hamster Ovary cells continuous chromatography integrated continuous bioprocess perfusion culture ZCa ligand</infon>
+      <infon key="name_9">surname:Nilsson;given-names:Bernt</infon>
+      <infon key="name_8">surname:Hober;given-names:Sophia</infon>
+      <infon key="name_7">surname:Solbrand;given-names:Anita</infon>
+      <infon key="name_6">surname:Castan;given-names:Andreas</infon>
+      <infon key="name_5">surname:Andersson;given-names:Andreas</infon>
+      <infon key="name_4">surname:Andersson;given-names:Niklas</infon>
+      <infon key="authors">Schwarz H, Gomis-Fons J, Isaksson M, Scheffel J, Andersson N, Andersson A, Castan A, Solbrand A, Hober S, Nilsson B, Chotteau V, </infon>
+      <offset>0</offset>
+      <text>Integrated continuous biomanufacturing on pilot scale for acid-sensitive monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract_title_1</infon>
+      <offset>97</offset>
+      <text>Abstract</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>106</offset>
+      <text>In this study, we demonstrated the first, to our knowledge, integrated continuous bioprocess (ICB) designed for the production of acid-sensitive monoclonal antibodies, prone to aggregate at low pH, on pilot scale. A high cell density perfusion culture, stably maintained at 100 x 106 cells/ml, was integrated with the downstream process, consisting of a capture step with the recently developed Protein A ligand, ZCa; a solvent/detergent-based virus inactivation; and two ion-exchange chromatography steps. The use of a mild pH in the downstream process makes this ICB suitable for the purification of acid-sensitive monoclonal antibodies. Integration and automation of the downstream process were achieved using the Orbit software, and the same equipment and control system were used in initial small-scale trials and the pilot-scale downstream process. High recovery yields of around 90% and a productivity close to 1 g purified antibody/L/day were achieved, with a stable glycosylation pattern and efficient removal of impurities, such as host cell proteins and DNA. Finally, negligible levels of antibody aggregates were detected owing to the mild conditions used throughout the process. The present work paves the way for future industrial-scale integrated continuous biomanufacturing of all types of antibodies, regardless of acid stability.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>1477</offset>
+      <text>A high cell density perfusion process, performed at pilot scale in 30 L bioreactor, was integrated with a continuous purification process including a Protein A capture using ZCa ligand with mild pH elution, a solvent/detergent-based virus inactivation and two polishing steps, cation and anion exchange. This completely automated process generated purified antibody at very high yield with no detectable aggregation.  </text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1898</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1911</offset>
+      <text>Integrated continuous biomanufacturing of therapeutic proteins has gained a lot of interest over the past decade in the biopharmaceutical industry. In an integrated continuous bioprocess (ICB), a perfusion bioreactor with a mammalian cell line is coupled to a continuous downstream process (DSP). With increasing volumetric productivities from high cell density perfusion cultures and improved resin utilization in continuous chromatography, it offers potential economic benefits over conventional batch processing strategies (Pollock et al., ). Uncertainties in future market demands of biotherapeutic products have further led to questioning the lack of flexibility of large-scale stainless-steel plants (Walther et al., ). For example, the outbreak of a pandemic, such as recently the coronavirus disease (COVID-19), can lead to capacity limitations of antibody production in fed-batch processes (Coffman et al., ). The much faster implementation of an ICB in comparison to the construction of a new large-scale stainless-steel plant, allows for a rapid response in manufacturing to such public health threats. Scale-out of several ICB units run in parallel as well as increase in total run time of the process, can rapidly be achieved if the demand for a biotherapeutic product changes (FDA, ), thus offering greater flexibility than traditional batch processes. This paradigm shift to integrated and continuous processing has been further expanded by including the design principles of using only single-use equipment, closed processing and a "ballroom arrangement" in the new "biofacility of the future" (Klutz et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3568</offset>
+      <text>The earliest implementation of an ICB was demonstrated by Sanofi with a Chinese hamster ovary (CHO) cell perfusion culture linked to a four-column periodic counter-current chromatography (PCC) for continuous capture (Warikoo et al., ). This study paved the way for the development of end-to-end lab-scale processes with integrated capture, virus inactivation (VI), and polishing steps, utilizing fully automated process control (Feidl et al., ; Godawat et al., ; Gomis-Fons, Andersson, et al., ; Gomis-Fons, Schwarz, et al., ; Steinebach et al., ). However, only a very limited number of studies have shown a successful demonstration of an end-to-end ICB on pilot scale. Arnold et al. described the integration of a 30 L perfusion culture with a multi-column capture step, low-pH VI and a filter train for product concentration, DNA removal and virus filtration (Arnold et al., ). In a pilot-scale study by Coolbaugh et al.  multi-column chromatography was utilized in capture and polishing steps. Further downstream, continuous virus filtration, ultrafiltration and diafiltration (UF/DF) and product formulation were integrated into the process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4751</offset>
+      <text>Tangential flow filtration (TFF) or alternating tangential flow filtration (ATF) perfusion bioreactors integrated to multi-column capture chromatography have been widely applied as first units in an ICB. Process intensification through high cell density perfusion in TFF or ATF bioreactors with cell densities up to 130 x 106 cells/ml has been demonstrated to boost the volumetric productivity of the upstream system (Chotteau, ; Clincke, Molleryd, Samani, et al., ; Clincke, Molleryd, Zhang, et al., ). The operation of a steady-state culture with constant cell density can sustain the process with high productivity over a period of several weeks to months and simultaneously ensure a consistent quality of the product. Development of high cell density process from knowledge of an established fed-batch process has shown a comparable glycoprotein quality profile between both operation modes (Sarnlund et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5687</offset>
+      <text>The standard method used for the initial capture of antibodies from harvest is Protein A chromatography, a highly selective and efficient technique (Gagnon, ), but with detrimental effects on certain antibodies through the low-pH elution step. At the typically used acidic elution pH of around 3.0-3.5, unwanted antibody aggregates can arise in the capture eluate, leading to compromised product yield and safety, with the required removal of these high-molecular-weight species further downstream in the manufacturing process (Liu et al., ; Paul et al., ; Shukla et al., ; Vazquez-Rey &amp; Lang, ). This especially affects up-and-coming therapeutics like IgG2 and IgG4 antibodies, which have a higher aggregation propensity (Hari et al., ; Ito &amp; Tsumoto, ; Liu et al., ). Bispecific antibodies are also highly affected by the low pH since they suffer from aggregation of both active and inactive variants and often require several purification steps to remove these unwanted impurities (H. Li et al., ). This major drawback of Protein A chromatography can, however, be prevented by the use of a novel engineered Protein A ligand, called ZCa, which is dependent on calcium ions for its binding to antibodies (Kanje et al., ). Depletion of calcium with a sodium chloride-containing buffer results in the efficient release of the bound antibodies from the Protein A resin at close to neutral pH (6-7), differing slightly between the different subclasses of antibodies (Scheffel &amp; Hober, ). These mild conditions prevented the formation of antibody aggregates during purification of an aggregation-prone antibody. Customary washing with sodium chloride is still fully feasible by including a low concentration of calcium in the buffer, and high antibody recovery is obtained.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7489</offset>
+      <text>From the above-mentioned ICB studies, a larger variation in designs has been proposed in the polishing steps, but most frequently one-column and two-column chromatography with cation exchange (CEX) and anion exchange (AEX) resins were implemented. Low-pH VI in periodic batches or continuous plug-flow reactors are in general the methods of choice for postcapture antibodies (Coffman et al., ). Changing a process from batch to continuous purification leads to similar product quality attributes, as revealed by a comparability study using similar parameters in both process modes (David et al., ). This will pave the way to adapt batch processing for clinical trial production to continuous large-scale production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8219</offset>
+      <text>The implementation of an ICB requires the full automation and control of the upstream and downstream systems. The environmental parameters in the upstream process are routinely monitored and controlled, while monitoring and control of nutrients, metabolites and proteins are approached by "Process Analytical Technology," a vivid research field. The automation of the downstream process has a different challenge in terms of the multiplicity of the units relying on different equipment and control systems to be integrated. For that purpose, we have used the research software Orbit, previously developed for the control of integrated continuous downstream bioprocesses (Andersson et al., ; Gomis-Fons et al., ; Gomis-Fons, Schwarz, et al., ). Orbit saves user specifications, information about the downstream sequence, process events, signals, and data, thus allowing real-time control and automation of all downstream units centralized in a single control system. Orbit also allows the implementation of complex flow paths in the chromatography systems and their synchronization, enabling simultaneous control of several systems and the integration of the downstream unit operations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9420</offset>
+      <text>This article reports the results obtained from a pilot-scale ICB with monoclonal antibodies (mAbs) produced in a 30 L high cell density perfusion bioreactor and simultaneous purification by a continuous downstream system. Here, the ZCa resin is applied in an ICB on pilot scale for the first time, as part of a three-column PCC setup, with the subsequent VI step, based on a solvent/detergent method to avoid subjecting the antibodies to low pH throughout the process, and two polishing steps (Figure 1). High productivity and resin utilization are combined with mild purification of antibodies using this high-capacity, calcium-dependent resin. Moreover, the ability to remove process and product-related impurities is here evaluated on pilot scale. Although the mAb used in this study was not particularly prone to aggregation at low pH, it provided a good model to assess the performance of the pilot-scale process. The ICB proposed in this study was developed through collaborative effort between academia and industry with expertise in cell culture and purification process development, protein-ligand design for chromatography and process automation. The feasibility for long-term continuous process operation was validated at first in a small-scale run with a 200 ml bioreactor. After final optimizations for enhancing process robustness, the ICB was scaled up by a volumetric factor of 150, using the same equipment for the downstream process, thus allowing a smooth and easy scale-up. The pilot-scale process was then successfully run in a test-bed facility for biological production.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-2152-g005.jpg</infon>
+      <infon key="id">bit28120-fig-0001</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>11043</offset>
+      <text>Process overview: on pilot scale, a 30 L TFF perfusion bioreactor was linked to a PCC system for the Protein A capture via an intermediate hold-up vessel. Further downstream, a solvent/detergent-based VI and two polishing steps with a CEX and an AEX resin are shown. AEX, anion exchange; CEX, cation exchange; PCC, periodic counter-current chromatography; TFF, tangential flow filtration.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>11440</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11462</offset>
+      <text>Upstream system</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>11478</offset>
+      <text>Cells and passaging</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11498</offset>
+      <text>A CHO cell line with glutamine synthetase expression system producing Trastuzumab antibody was used in this study. This product is not characterized as pH-sensitive mAb, and was used here as a model to demonstrate the operational feasibility of the unit operations. A cell line producing a more pH-sensitive mAb was not available for this study. The cells used in the small-scale experiments (KTH cell line) and in the pilot-scale study (Cytiva cell line) were issued from research cell banks with different passage history, however with a common master cell bank as origin. The cells were routinely passaged or expanded in shake flasks (37 C, 5% CO2, 120 rpm).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>12171</offset>
+      <text>Culture media</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12185</offset>
+      <text>Three cell culture media, all from Cytiva, were used for the cell expansion and/or the bioreactor cultures. HyClone ActiPro medium (HA), which contained 33 mM glucose, was used for cell expansion in shake flasks and bioreactor runs as mentioned in the text. HyClone ActiPro medium supplemented with 3% (w/w) Cell Boost 7a and 1% (w/w) Cell Boost 7b (HA + 7a/3 + 7b/1) contained 45 mM glucose. HyClone ActiPro medium supplemented with 6% (w/w) Cell Boost 7a and 1% (w/w) Cell Boost 7b (HA + 7a/6 + 7b/1) was also supplemented with glucose to obtain a final concentration of 73 mM glucose.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>12795</offset>
+      <text>Bioreactors and cell separation systems</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12835</offset>
+      <text>The inoculations of the production bioreactors on small scale and pilot scale were carried out with cells from a perfusion seed bioreactor (N-1 perfusion). On small scale, the seed and production bioreactors were identical systems, consisting of a stirred tank DASbox Mini Bioreactor system (Eppendorf) coupled with an alternating TFF system ATF2 (Repligen) with hollow fiber cartridge CFP-4-E-3MA (Cytiva), operated with a recirculation flow of 0.5 L/min. A detailed description of this perfusion bioreactor system can be found elsewhere (Schwarz et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13405</offset>
+      <text>On pilot scale, the seed bioreactor was a wave-induced bioreactor while the production bioreactor was a disposable stirred tank system. The N-1 bioreactor was a 10 L WAVE perfusion Cellbag, mounted in a WAVE 25 rocking bioreactor system (Cytiva). The production bioreactor was a stirred tank Xcellerex XDR-50 bioreactor operated at 30 L working volume, connected to a Xcellerex Automated Perfusion System (APS) for cell separation by TFF, where the cell culture was recirculating at 10 L/min through a RTPCFP-4-E-9S hollow fiber with 0.84 m2 filter area and 0.45 microm pore size (all Cytiva).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>14018</offset>
+      <text>N-1 bioreactor culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14043</offset>
+      <text>Cells from shake flask cultures were inoculated at a viable cell density (VCD) of 1.5-2 x 106 cells/ml in the respective N-1 bioreactors and expanded over a course of 6-7 days to reach at least 60 x 106 cells/ml. The cultures were controlled at setpoints of 37 C, pH 7.0 and a working volume of 0.2 or 5.0 L in the DASbox or the WAVE 25 bioreactor, respectively. The DO was maintained at 40% with a gas flow of 0.5 L/min with 21%-50% oxygen, in the WAVE 25 bioreactor. Once 50% oxygen was reached in the inflowing gas, the DO was controlled by variation of the rocking speed (22-28 rpm) at an angle of 6-7 . Perfusion at 0.25 vessel volumes per day (vvd) with HA medium was initiated when the cell density reached 5 x 106 cells/ml. A target cell-specific perfusion rate (CSPR) of 33 pl/(cell*day) was applied on the following days until the cell concentration target for transfer to the production bioreactor, &gt;=60 x 106 cells/ml, was achieved.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>15041</offset>
+      <text>Production bioreactor culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15071</offset>
+      <text>The cells from the N-1 bioreactor were transferred to the production bioreactor with a target seed VCD of 10 x 106 cells/ml. The setpoints for the temperature, pH and DO were 37 C, 7.0% and 40%. The pH was controlled with automatic additions of 0.5 M Na2CO3 or CO2 through a macro-sparger in the XDR-50 or via headspace in the DASbox bioreactor. In addition, in the XDR-50 bioreactor, CO2 stripping was performed with up to 1.6 L/min airflow through a macro-sparger to keep CO2 levels below 16 kPa. The DO was controlled at 40% by addition of oxygen up to 1 L/min through a micro-sparger on pilot scale. A 3% antifoam C emulsion (Sigma-Aldrich) was periodically added to prevent foam formation in the XDR-50 bioreactor while no antifoam was used on small scale. Perfusion was initiated after inoculation of the bioreactors with a target CSPR of 25 pl/(cell*day) with HA + 7a/3 + 7b/1. At Day 4, medium was switched to HA + 7a/6 + 7b/1 and the perfusion rate was set to 1.5 vvd. A VCD of 100 x 106 cells/ml was targeted from Day 5 after inoculation with a CSPR of 15 pl/(cell*day). The cell density was stabilized at this concentration by continuous cell bleeding.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16294</offset>
+      <text>Integration of upstream and downstream systems</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16341</offset>
+      <text>The clarified harvest was collected in a stirred hold-up vessel (HV), which was in turn connected to the downstream process. The HV acted as a buffer tank to account for harvest flow variations and to enable a continued operation of the perfusion bioreactor in case of downstream process interruption. On small scale the HV was a 1 L Duran bottle and on pilot scale, it was a 100 L sterile bag. To monitor the HV mass, a balance was used, which was a benchtop with serial interface on small scale and a floor balance with ethernet network interface on pilot scale. The chromatography systems were not sterile and, to ensure sterility upstream, two autoclaved 0.2 microm filters were connected in parallel in the line between the HV and the inlet to the chromatography system. These parallel filters were used one at a time and switched from one to the other one in case of filter clogging or malfunction. On small scale, these filters were CultureGard  HF Perfusion 0.2 microm filters (Repligen), and ULTA  Pure HC 0.6/0.2 microm 5'' capsules (Cytiva) on pilot scale.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>17416</offset>
+      <text>Downstream system</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>17434</offset>
+      <text>Downstream unit operations and process conditions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17484</offset>
+      <text>The downstream process consisted of four steps (Figure 1): a Protein A capture step run with a 3-column PCC process and with an in-house developed calcium-dependent Protein A resin (ZCa); a solvent/detergent virus inactivation; a CEX step in bind/elute mode; and an AEX step in flow-through mode. The two last steps are referred to as the polishing steps.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17849</offset>
+      <text>In the capture step, two columns were simultaneously loaded with clarified harvest, according to a 3-column PCC operation. The breakthrough from the first column was loaded directly on the second one, hence, the product that did not bind to the first column could adsorb onto the second one, thus minimizing the product loss (Godawat et al., ). A third column was washed, eluted and regenerated while the other two were loaded. After loading a pre-set volume of clarified harvest, the three columns switched positions and a new PCC cycle was initiated.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18407</offset>
+      <text>The process conditions (including flow rates and recovery times) and buffers were the same as described in previous work where the feasibility of the same downstream process on small scale was demonstrated (Scheffel et al., ). The elution of the capture step, the virus inactivation (VI) and the CEX step were performed at pH 5.5. Before the loading of the AEX column, the CEX eluate was diluted inline with a dilution ratio of 1:1 to adjust the pH and NaCl concentration to 6.2 and 120 mM, respectively. An alternative method for the sample conditioning is single pass diafiltration to reduce the buffer consumption and the volume of product (Rucker-Pezzini et al., ), but it involves the use of an additional system. Thus, the dilution method was preferred due to its simplicity to implement.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19208</offset>
+      <text>For the virus inactivation, a solvent/detergent-based method was used. Tri-n-butyl-phosphate (Tnbp) was used as solvent at a concentration of 0.15 g/L and the detergent was Tween 20 at a concentration of 0.5 g/L. A stock solution with 1.5 g/L Tnbp and 5 g/L Tween 20 was prepared, and the capture pool was diluted with a ratio 1:9.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19556</offset>
+      <text>Cleaning-in-place (CIP) of the systems was performed every cycle with 1 M NaOH. In addition, the sample inlet valve, the sample pump, and the flow path that was in contact with the harvest were disinfected and cleaned every 2-3 h. This cleaning procedure consisted of the following steps: 1 M NaOH, 70% ethanol and equilibration buffer, with water flushes in between.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>19936</offset>
+      <text>Process scheduling</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19955</offset>
+      <text>The operation of a PCC process interconnected with the VI and polishing steps requires process synchronization. In other words, a scheduling is needed to carry out the periodic downstream process smoothly without interruptions; and knowing the process times is essential for this task. The length of the recovery phases in the capture step was estimated to be around 40 min, and the length of the polishing steps was approximately 120 min. The two systems could therefore be synchronized so that three cycles of the capture steps were run simultaneously during one polishing cycle, as shown in the process Gantt diagram (Supporting Information: Figure S1). The virus inactivation bottles acted as hold-up vessels to store the PCC elution pool. After three capture cycles, that is, pooling of three PCC elution peaks, the solvent/detergent stock solution was added to the corresponding VI bottle. According to our previous optimization study on the PCC process (Gomis-Fons, Andersson, et al., ) a hold-up vessel between the PCC step and the rest of the downstream process can provide a higher productivity than a process without this hold-up vessel. As a matter of fact, in this latter case, there is a greater need of synchronization between the systems, which leads to unproductive waiting times. In addition, having two VI bottles facilitates the synchronization because one of the VI bottles can be filled with the product from the capture step, while the other VI bottle is emptied, as observed in the Gantt diagram. In this diagram, it can be seen that none of the chromatography systems have any waiting time, thus the utilization time of the systems is maximized, and the total processing time is minimized.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>21684</offset>
+      <text>Design of the process units</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>21712</offset>
+      <text>The column volumes needed for the three chromatography steps were calculated based on the protein load per volume of resin and the amount of product purified per cycle (Supporting Information: Table S1). The product amount was calculated based on the maximum expected harvest concentration and flow rate and the minimum loading length in the capture step, which corresponded to the length of all recovery phases in the capture step (40 min). As per the protein loads per volume of resin for the three columns, they were determined as described below. Regarding the VI step, two 50 ml bottles were used on small scale, and two 2 L bottles were used on pilot scale.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22383</offset>
+      <text>For the capture resin, a simplified method for the design of PCC processes was used to calculate the maximum possible protein load, based on the study on PCC design by Shi et al.. In this study, it has been demonstrated that the operating binding capacity does not change significantly with the feed concentration if the breakthrough percentage of the first column during the interconnected load is kept constant and equal or lower than 50%. To estimate the protein load, a breakthrough curve experiment was performed with a harvest concentration of 1.45 mg/ml, a residence time of 2 min (close to the one obtained during the integrated runs), and a column volume of 1 ml (see breakthrough curve in Supporting Information: Figure S2). The protein load was obtained by calculating the area above the breakthrough curve and below the line defined by the feed concentration for a breakthrough percentage of 50%. This corresponds to the total amount of protein adsorbed on one column, which is equal to the total amount of product that can be loaded in a PCC cycle, assuming there is no product loss in the breakthrough. Regarding the protein load for the CEX and AEX steps, they were obtained from a case study from the manufacturer (Cytiva, ). To account for capacity loss over time, 70% of the obtained protein loads were used for the column design, for all three resins.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23762</offset>
+      <text>The small columns were scaled-up to pilot scale according to Kidal and Jensen's approach (Kidal &amp; Jensen, ), which has been applied in previous publications (Gomis-Fons et al., ; Hansen, ). This method is based on keeping the number of theoretical plates constant or higher by setting the residence time constant, but not necessarily the velocity, which provides flexibility to choose a column length that is more proper for pilot scale. Pressure constraints were taken into account to determine the column dimensions by using an empirical expression for the pressure drop over the columns depending on the velocity and the column length (Hansen, ). For the pilot-scale run, HiScale  26/40 columns (diameter 26 mm, maximum length 40 cm) were used for the capture and the AEX steps, and HiScale 50/20 (diameter 50 mm, maximum length 20 cm) were used for the CEX step. For the small-scale run, prepacked 1 ml HiTrap  (diameter 7 mm, length 2.5 cm) columns were used for the three steps. All columns and resins, except for the ZCa resin, were provided by Cytiva.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24852</offset>
+      <text>The ZCa resin was produced and coupled as previously described (Scheffel et al., ). The resins used for AEX and CEX (Capto Adhere and Capto S ImpAct, respectively), were packed into the pilot-scale columns according to the instructions of the manufacturer (Cytiva). The ZCa resin was packed according to the instructions for the MabSelect SuRe resin (since they share the same base matrix) but including 1 mM CaCl2 in the packing buffer to facilitate the proper conformation of the ZCa ligands. The column packing of each column was evaluated according to the instructions from the manufacturer on an AKTA pure 25 system, and the height equivalent to a theoretical plate (HETP) and the asymmetry factor was determined.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>25577</offset>
+      <text>Process setup</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>25591</offset>
+      <text>The downstream process was implemented in two chromatography systems, on both small and pilot scale: an AKTA  pcc 75 for the capture step, and an AKTA  pure 150 for the polishing steps (both Cytiva). Supporting Information: Figure S3 displays a detailed diagram of the downstream process with different flow paths that allowed the integration and automation of the process. The AKTA pcc was run with a 3-column standard configuration with slight modifications. The sample pump was used to load the columns, pump A for washing, eluting, and regenerating the columns, and pump B and a versatile valve were used to dose the solvent/detergent stock solution into the two VI bottles. An additional versatile valve was used to collect the breakthrough from the second column during the interconnected load phase in a bottle. The outlet valve, which has several outlet ports, was used to send the product to either of the two virus inactivation bottles (thus using two ports for that), and to collect the eluate from the capture step in a bottle.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26641</offset>
+      <text>The AKTA pure was customized to enable the integration of the two polishing steps and the emptying of the VI bottles in a robust way. This setup was based on previous implementations of integrated column sequences in an AKTA pure system, and detailed descriptions to how two polishing steps can be integrated in one system can be found in a previously published article (Gomis-Fons, Schwarz, et al., ). The main differences between the setup presented in the latter paper and the current work, is how the virus inactivation step was integrated in the AKTA pure system, and how the product was collected. The integration of the VI step was achieved by connecting tubing from the bottom of the VI bottles to an inlet valve, using one port per bottle. To empty a bottle, the corresponding position in the inlet valve was selected, and the CEX column was loaded with pump B. To ensure that the whole volume was loaded, the loading continued until the built-in air sensor in the inlet valve detected air. After emptying a bottle, the tube would be filled with air until the inlet valve. To remove the air in the tube, pump A, connected to the air-filled tube via a T-cross as shown in Supporting Information: Figure S3, was used to reverse the flow and to fill the tube with buffer. Afterwards, the position of the inlet valve was changed back, and the loading continued for additional time to recover the product that was held up in the system. To enable product collection, two outlet valves were employed. One of them was used to collect the intermediate product from the VI and CEX steps, and the other one was used to collect the finished product from the AEX step. Product collection for analysis was performed daily after each of the downstream steps.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>28409</offset>
+      <text>Process control</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28425</offset>
+      <text>The research software Orbit, developed at the Department of Chemical Engineering at Lund University, Sweden (Andersson et al., ), was used to control and automate the downstream process, based on user specifications about the real process, such as phase length, flow rate, and buffer valve positions. The instructions, phase information, process events, and signals are saved in Orbit, making it possible to run with real-time control, where each action is triggered by an event. This allows for a completely automated process, where the user can monitor the process and modify the control parameters in case an adjustment is needed. Examples of the most relevant control parameters used in the downstream process are the volume of clarified harvest loaded on the capture step in each PCC cycle, the pool volumes or the flow rates used in each step. Orbit, written in Python, communicates with the chromatographic system AKTA via an application programming interface (also known as API) to send instructions at determined times and receive signals from the system. Orbit is not limited to one setup but can communicate with multiple systems and other additional equipment, such as the balance used to monitor the weight of the harvest tank. Examples of previous implementations of Orbit for real-time control of multiple systems can be found elsewhere (Gomis-Fons, Schwarz, et al., ; Lofgren et al., ). In a multi-machine setup, each system is controlled by its own Orbit program, and they communicate with each other via handshaking. In other words, they use flags, which are Boolean variables that indicate whether a specific part of the process is ready or not. When the flags from both Orbit programs are active, they synchronize with each other, and the process continues.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_3</infon>
+      <offset>30216</offset>
+      <text>Stability study on the capture resin</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30253</offset>
+      <text>The stability of the ZCa resin under continuous exposure to a CHO cell supernatant was studied over time, to obtain information about a suitable residence time in the column and the maximum number of purification cycles that can be efficiently run before the set of ZCa columns should be exchanged in the pilot-scale run. Repeated purifications were carried out with the same process conditions as for the ICB but applied in small-scale batch mode to one ZCa column, instead of in continuous mode using three capture columns. The different parameters were thus adjusted for the 1 ml HiTrap columns (Cytiva) that were used, previously coupled and packed by Cytiva after in-house production. The loading time was doubled in each purification within the stability study to subject the resin to the supernatant for an equal amount of time as in the ICB, where each capture column acts as a second column of the loading zone followed by becoming the first column of the loading zone. A flow rate of 0.1 ml/min was used to minimize the volume of supernatant required, and the concentration of mAb was changed every 20 cycles. The CIP of the capture column was excluded from the procedure to limit the number of factors that could impact the resin lifetime. The purifications were continuously repeated for 114 cycles (&gt;10 days).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>31586</offset>
+      <text>Analytical methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31605</offset>
+      <text>Samples from the bioreactors were taken every day to monitor the cell density and viability with a Norma XS cell counter (iPrasense) in the small-scale cultures or a Vi-CELL XR analyzer (Beckman Coulter) in the pilot-scale cultures. Offline pH and pCO2 were measured with a ABL9 blood gas analyzer (Radiometer). The concentrations of glucose, lactate, and IgG were analyzed with a Cedex Bioanalyzer (Roche Diagnostics).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32031</offset>
+      <text>Samples were collected after the different unit operations including the bioreactor harvest, capture eluate, VI pool, CEX and AEX eluate. The IgG titer was regularly analyzed with a Cedex Bioanalyzer to estimate process yields at each step and the productivity of the ICB. N-Glycosylation analysis of purified mAb (AEX eluate) was performed with a GlycoWorks RapiFluor-MS N-Glycan kit and an ACQUITY UPLC H-Class system with a BEH Amide column (all Waters). The DNA content was measured in the harvest, capture, CEX and AEX eluate according to Scheffel et al. after each sample had been stored at +4 C for a couple of days. The HCP levels were analyzed in the same samples as previously described (Scheffel et al., ) where the details of the analytical method for the detection of Tnbp can also be found. In brief, the HCP levels were analyzed with a Gyrolab CHO-HCP E3G kit on a Gyrolab system (Gyros Protein Technologies). The Tnbp content was analyzed in the product from the VI step, the CEX step (flow through and eluate) and the AEX step, using a reversed-phase high-performance liquid chromatography (RP-HPLC) column with an RI detector as described in Scheffel et al..</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33227</offset>
+      <text>To determine the aggregate content in collected samples, analytical size exclusion chromatography (SEC) was performed. Instrument setup was an Agilent 1260 HPLC with connected autosampler and diode array detector. A TSKgel G3000SWXL column from TOSOH Biosciences was used and the equilibration and separation buffer consisted of 50 mM sodium phosphate, 150 mM NaCl, pH 7. Samples of 20 microl were injected and the flowrate was set to 0.8 ml/min for 20 min. The Agilent raw data were imported into Python where the aggregate content could be determined by comparing monomer and aggregate peak areas at 280 nm.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33846</offset>
+      <text>Different analytical methods to detect a decrease of the capacity in the capture columns were implemented, as the capacity loss in these columns was considered to be a critical issue that could lead to significant product losses over time: (1) Real-time inline measurement of the UV signal of the breakthrough from the second column during the interconnected load; (2) Daily offline analysis of the mAb concentration of the same stream; and (3) Daily offline analysis of the mAb concentration of the eluate and estimation of the yield in the capture step. With these measures, any decay in the capacity or unexpected product loss in the breakthrough streams that would lead to a decreased yield in the capture step could be detected.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>34582</offset>
+      <text>RESULTS AND DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>34605</offset>
+      <text>Upstream process</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34622</offset>
+      <text>A small-scale perfusion process with 0.2 L working volume integrated with a downstream process was performed to demonstrate the technical feasibility for long-term operation of the novel ICB before pilot-scale testing. The production process was operated in two stages; Stage 1 targeting to rapidly bring the cell density to 100 x 106 cells/ml and Stage 2 aiming at maintenance of the system in a steady state at this cell density with high mAb productivity and low medium renewal. The N-1 process was designed to rapidly increase the density of healthy cells and provide a high cell concentration into the production bioreactor to shorten the growth phase in the latter. The combination of selected perfusion rate and proportion of feed concentrates in the medium attempted to minimize the medium renewal while optimizing the cell growth during the cell expansion phases and the mAb productivity during the steady-state production phase.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35580</offset>
+      <text>A common issue for the design of perfusion processes is the high glucose concentration of commercial media and feed concentrates, which can lead to the formation of high lactate concentration in the culture (Y. Zhang et al., ). We have previously presented a targeted feeding strategy denoted TAFE (L. Zhang et al., ), in which a target cell-specific consumption rate (q_glc target) is selected by the operator, and from which the glucose concentration in the fed medium (including additives) is determined. Based on preliminary experiments it was observed that a strictly controlled sugar consumption with a q_glc target of   1.1 pmol/(cell*day) enabled a low lactate formation while ensuring high mAb productivity and satisfying quality attributes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36341</offset>
+      <text>For the seed bioreactor, the selection of a CSPR with 33 pl/(cell*day) using HA medium, which contains 33 mM glucose, allowed a q_glc target of 1.1 pmol/(cell*day) according to the TAFE design. It was observed that HA medium could well support the cell expansion at a CSPR of 33 pl/(cell*day) up to 70 x 106 cells/ml. However, the culture performance would be reduced at CSPR &lt; 33 pl/(cell*day) unless reinforcement such as Cell Boost supplementation was carried out. In the production bioreactor, supplementation of the feed concentrates Cell Boost 7a and 7b was adopted since this medium reinforcement allowed to reduce the CSPR. HA + 7a/3 + 7b/1, which included 45 mM glucose, supported fast cell growth in the small-scale trials, and was therefore selected for Phase 1. A CSPR of 25 pl/(cell*day) was compatible with q_glc target of 1.1 pmol/(cell*day) considering a glucose concentration of 45 mM. During Phase 2 at steady-state, priority was given to reduce the CSPR and growth rate, while maintaining the cell-specific mAb productivity. Therefore, the CSPR was decreased to 15 pl/(cell*day) while a medium reinforcement was applied by increasing the Cell Boost 7a concentration. Using HA + 7a/6 + 7b/1, glucose was additionally supplemented to achieve a final concentration of 73 mM according to the TAFE design with a q_glc target of 1.1 pmol/(cell*day). The present strategy for the selection of the media/feeds and glucose concentrations, including a TAFE approach, successfully generated a stable cell-specific glucose consumption, and allowed stable operation of the perfusion process with minimized cell-specific productivity of lactate (Supporting Information: Figure S4). A higher q_glc was obtained during the first 1-2 days of the processes, resulting from excessive glucose in the batch medium HA. The strategy for the medium selection applied in the present work is summarized in Table S2.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38313</offset>
+      <text>The results of the perfusion cultures are shown in Figure 2. Successful scale-up was achieved with a 150-fold increase in the bioreactor working volume and perfusion flow despite differences in the cell retention systems, geometrical parameters of the bioreactors and aeration strategy. On both scales, high cell density cultures with 100 x 106 cells/ml were maintained with high viability (&gt;94%) (Figure 2a). The production bioreactors were inoculated from high cell density seed bioreactors operated in perfusion mode, which considerably shortened the cell expansion phase in the N-stage bioreactors. As a result, the production process rapidly achieved the target cell density 4-5 days after inoculation. The production process was run for 20 and 25 days on pilot and small scale, respectively. When the cell density reached 100 x 106 cells/ml, continuous cell bleeding was initiated with 0.1-0.3 vvd (representing 6.7%-20% of perfusion flow), while the perfusion rate was maintained at 1.5 vvd (Figure 2b). The harvest flow rate varied mostly between 1.2 and 1.4 vvd and the mAb titer in the harvest reached up to 1 g/L (Figure 2c). Thanks to proper adjustment of the nutritional depth in the perfusion medium, the low CSPR selected in the production runs (15 pl/(cell*day)) was sufficient to maintain a stable perfusion culture with high cell-specific mAb productivity, low growth rate and high viability. Consequently, the product was more concentrated in reduced harvest volumes, which was beneficial for the process efficiency and for the subsequent capture chromatography.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-2152-g003.jpg</infon>
+      <infon key="id">bit28120-fig-0002</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>39931</offset>
+      <text>Perfusion culture data of the 0.2 L (blue) and 30 L pilot-scale (green) run: (a) VCD (circles) and viability (squares) for N-1 culture and production culture. (b) Harvest flow rate (circles), perfusion (feed) flow rate (squares) and bleed rate (diamonds). (c) mAb concentration in the harvest flow. mAb, monoclonal antibody; VCD, viable cell density.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>40292</offset>
+      <text>Downstream process</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40311</offset>
+      <text>The downstream process in the pilot-scale run was started 2 days after starting the perfusion system, which allowed for building a buffer volume of the harvest in the HV. The clarified harvest was continuously purified for 17 consecutive days, from cultivation Day 2 until Day 19, aided by the control system Orbit to achieve process automation. During the initial days, the harvest mAb concentration was low, which resulted in a low concentration in the purified product. The harvest concentration increased until cultivation day 5, and after it had stabilized, the downstream process reached steady state. The downstream process in the small-scale run was started 15 days after the start of the perfusion system, and run continuously for 9 days, from cultivation Day 15 until day 24.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41101</offset>
+      <text>In Figure 3, the operation of the downstream process on pilot scale during cultivation Day 15 is shown, illustrating several purification cycles over a couple of hours. In the capture step (Figure 3a), two large peaks can be seen during the product recovery step: the lower, broader peak corresponds to the elution of the product, and the higher peak corresponds to the wash phase, where the impurities are washed out from the column. The cycle time was around 42 min, and the recovery phases were, as mentioned, 40 min long. Hence, after product recovery in one of the columns, the loading of the two other columns continued for 2 min before changing the cycle. The breakthrough curves from the two columns that were loaded are also shown in the figure. The breakthrough curve from the first column reached levels of up to 30% during the interconnected load, with respect to the maximum level, which was the feed concentration. The PCC process was designed to be operated with a product breakthrough of 50% after the first column. However, the lower value in the breakthrough percentage obtained in the run was due to the fact that a 30% safety margin in the column capacity was considered, leading to a slight column oversizing. Regarding the breakthrough from the second column, the UV signal decreased only slightly during the loading, meaning that some product, although a small amount, was lost in that stream.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-2152-g001.jpg</infon>
+      <infon key="id">bit28120-fig-0003</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>42526</offset>
+      <text>Steady-state operation of the downstream process on pilot scale. (a) Capture step: UV signals from the three columns in the PCC operation. The breakthrough curves are expressed as percentages with respect to the feed concentration. The blue shaded peaks correspond to the product collected in the same VI bottle. (b) Polishing steps: UV signals from the two polishing steps. UV1 corresponds to the CEX column, and UV2 to the AEX column. The blue shaded area is the product loaded onto the CEX column, and the red shaded peak is the AEX eluate. AEX, anion exchange; CEX, cation exchange; PCC, periodic counter-current chromatography; UV, ultraviolet.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43182</offset>
+      <text>The chromatograms from the polishing steps are shown in Figure 3b. As previously explained, the polishing steps are run with product collected from three capture cycles, which is why the polishing cycles were longer. To enable process synchronization between the capture and polishing steps, the process time for the polishing steps should not exceed the time for three capture cycles. The polishing cycle started with the loading of the CEX column, which corresponds to the plateau in the UV1 signal in the figure. After the loading and a wash phase, the elution of the CEX column followed. The UV1 signal was measured after the CEX column and the UV2 signal after the AEX column. Since the AEX step was run in flow-through mode, an increase in the UV absorbance could be seen on the UV2 sensor shortly after the UV1 sensor. Between the CEX and the AEX steps, there was a 1:1 inline dilution, meaning the loading flow rate in the AEX step was twice as high as the elution flow rate in the CEX step. As the figure shows the UV in relation to time, and not volume, the area under the peak from the UV2 signal is roughly half of that from the UV1 signal during this phase. The start and end of the pooling phases, from both columns, were automated using a pooling control strategy, which has been implemented in previous work (Lofgren et al., ). With this pooling control strategy, the pooling started at a predefined threshold UV value. Furthermore, a UV level cut-off (i.e., the level at which the product pooling ends) was calculated based on the maximum peak height, which related to the product concentration. This way, the pooling strategy could adapt to varying incoming concentrations, which became especially important during the first days of cultivation, where the harvest concentration was still low. After the elution phase, the CIP, regeneration, and equilibration phases took place for both polishing columns in parallel. Pump A was used for the CEX column and the sample pump for the AEX column. During these phases, the UV2 monitor provided the signal from the AEX column while the UV1 monitor was not connected to an active flow path.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45340</offset>
+      <text>An important aspect in biomanufacturing is the product traceability, which is discussed in the guidelines on continuous biomanufacturing by the US Food and Drug Administration (FDA, ). In the case of continuous manufacturing, ensuring traceability means knowing the path that each specific portion of product followed through the downstream process. In a PCC operation, the product that is eluted is the one that was loaded in the previous cycle, but it also contains a fraction of the product that was loaded two cycles before, due to the interconnection of the columns in the loading phase. In Figure 3a, the product in the capture elution phase at around 100 min corresponds to product loaded during the two previous cycles (approximately the first 80 min). The product eluted from three capture cycles (at around 90, 135, and 175 min, corresponding to the blue shaded peaks in Figure 3a) was collected in one of the VI bottles. Then the solvent/detergent stock solution was dosed, and after 60 min of incubation, the product was purified in the polishing steps, corresponding to the polishing cycle starting at 250 min (blue shaded area in Figure 3b), and finally the product eluted at ca 330 min (red shaded peak in Figure 3b). Overall, the residence time of this portion of product in the downstream process was 330 min. In addition, the mean residence time in the HV (where the volume was kept at around 1 reactor volume and the flow rate was around 1.4 vvd) was  17 h. Since the HV was run as a continuous stirred tank, the residence time distribution could be estimated through simulation of an ideal stirred tank. Taking this into account, the processing of 99% of the product is up to five times the mean residence time, that is,  86 h, or 3.6 days. In total, the residence time of the product including the HV and the downstream process can be up to 91.2 h, almost 4 days. Hence, a deviation in the quality of the product entering the HV at a specific time could affect the finished product for up to 4 days. To deal with this situation, a valve before the HV was introduced in the flow path to divert the clarified harvest to an additional vessel in case a deviation was detected.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>47563</offset>
+      <text>Another important aspect in biomanufacturing is the recovery yield. In the presented downstream process, different yields were obtained on small and pilot scale. The total recovery yield on small scale was around 70%, with a maximum of 78% (Supporting Information: Figure S5). The process setup was not optimized for small scale, in particular not the method to empty the VI bottles. A substantial amount of product remained in the VI bottles after the loading was finished, which led to a decreased yield in that step. In addition, product loss in the loading of the capture columns occurred, which further reduced the total yield. On pilot scale, the process was operated to mitigate the mentioned issues and increase the total yield. The product loss during the emptying of the VI bottles was insignificant on pilot scale, and the aforementioned measures for estimating the product loss in the capture step allowed keeping a high yield throughout the pilot-scale run, reaching levels of around 90%, with a maximum total yield of 95% (Figure 4a).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-2152-g002.jpg</infon>
+      <infon key="id">bit28120-fig-0004</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>48616</offset>
+      <text>Recovery yield for the different downstream steps (a) and productivities (b) in the pilot-scale run. AEX, anion exchange; CEX, cation exchange; DSP, downstream process; USP, upstream process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>48814</offset>
+      <text>During the first days of the purification run on pilot scale, the harvest concentration was low; it increased from 0.2 to 0.9 g/L during the first 6 days. To compensate for the low initial concentration, the capture loading volume per cycle was set to 1450 ml, instead of the nominal value of 1188 ml. The higher initial loading volume, combined with a capture loading flow rate matching the initial low TFF perfusion flow, increased the capture cycle time from 40 to 60 min. On the first day, a total yield of almost 90% was achieved in the capture step. However, since the harvest concentration increased quickly, the yield decreased due to a higher amount of product loss in the breakthrough of the capture columns. To increase the yield, the loading volume was reduced to the nominal value (1188 ml), and once steady-state operation was reached, a yield of 90% could once again be observed on cultivation Day 7. During Days 8 and 9, the capacity of the capture columns started to decrease slightly, and more product was detected in the breakthrough pool, exceeding the resin lifetime revealed by the resin stability study (Supporting Information: Figure S6). The columns had at this point been reused in approximately 300 cycles, which is a higher number of cycles than typically performed on Protein A resins, demonstrating the robustness of the ZCa resin (Rathore et al., ). The columns were exchanged on Day 9, and on the following days, the downstream process was running normally and with high yields. The yields of the individual steps were close to 100%, except for the capture step, where most of the product loss occurred. In particular, product was lost in the breakthrough stream, as can be seen in Figure 3, and this loss was estimated to 7%-10%. Without the use of PCC, the product loss in this step would have been considerably higher as the product flowing through the first capture column would have been lost instead of being adsorbed on the second capture column.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>50817</offset>
+      <text>The operation of the pilot-scale ICB resulted in a mean volumetric productivity of 0.92 g/(L*day) during the steady-state phase of the perfusion, with a maximum of 1 g/(L*day), while the difference between the downstream productivity and the upstream productivity was small due to the high yields (Figure 4b). Considering the working volume of the bioreactor, which was 30 L, the ICB produced on average 28 g of mAb per day. The total production of purified mAb during 20 days of operation was around 470 g. Given the high productivity obtained and the comparatively long lifetime of the ZCa resin, this process is economically competitive with other ICBs based on conventional Protein A resins.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>51528</offset>
+      <text>Product quality and purity</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>51555</offset>
+      <text>The steady-state operation of the ICB ensured a stable product quality profile of the purified mAb. With regard to the N-glycosylation profile of mAb, a shift to a higher percentage of galactosylation (G1F, G2F) occurred during the first days of the process (Figure 5a). From Day 7, the glycosylation pattern remained fairly stable due to the steady-state operation of the bioreactor. It should be noted that high cell density inoculation of the bioreactor from a N-1 perfusion culture reduced the transition period to a steady-state from 10 to 7 days, compared to our previous work (Gomis-Fons, Schwarz, et al., ). This shift in product quality could potentially be further accelerated by discarding the harvest from the first days of the culture, considering that the accumulated product has a residence time of up to 4 days, as discussed above. In addition, the setpoint of the harvest volume in the HV could be reduced to decrease the residence time of the product in this step. For example, a reduction of the HV volume to 0.1 reactor volumes would reduce the residence time from 91.2 to 14.1 h.</text>
+      <annotation id="1">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:02:21Z</infon>
+        <location offset="51674" length="23"/>
+        <text>N-glycosylation profile</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:02:24Z</infon>
+        <location offset="51740" length="15"/>
+        <text>galactosylation</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:02:37Z</infon>
+        <location offset="51787" length="25"/>
+        <text>first days of the process</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:02:45Z</infon>
+        <location offset="51842" length="21"/>
+        <text>glycosylation pattern</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:05:48Z</infon>
+        <location offset="51898" length="40"/>
+        <text>steady-state operation of the bioreactor</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:06:21Z</infon>
+        <location offset="52185" length="15"/>
+        <text>product quality</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-28T22:06:30Z</infon>
+        <location offset="52260" length="42"/>
+        <text>harvest from the first days of the culture</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">BIT-119-2152-g006.jpg</infon>
+      <infon key="id">bit28120-fig-0005</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>52672</offset>
+      <text>Quality and purity of the final product obtained in the pilot-scale ICB throughout the entire run. The arrows mark the time point where the capture columns were switched. (a) The mAb glycosylation pattern indicating the percentage of the different glycoforms. (b) HCP log reduction values (LRV) demonstrating the removal of HCP after each purification step of the downstream process as compared to the initial harvest. (c) LRVs for DNA after capture and CEX at three-time points throughout the process. LRVs for AEX is not included since the DNA levels were below the limit of detection. AEX, anion exchange; CEX, cation exchange; HCP, host cell proteins; ICB, integrated continuous bioprocess; mAb, monoclonal antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>53401</offset>
+      <text>The removal of host cell proteins (HCPs) and DNA is a vital part of the downstream process, as these impurities make up a large part of all contaminants in an antibody production process, compromising the safety and quality of the final product (Y. Li, ). The CHO-HCP content was quantified in the harvest as well as in the output from each purification step at several time points. Efficient HCP removal was seen for both the capture step and the two polishing steps, with a ca 5-log reduction in the final product as compared to the harvest (Figure 5b). After the capture step using the ZCa resin, the impurity levels were reduced from &gt;105 ppm to on average 300 ppm, meaning approximately a 3-log reduction, which is expected from commercial Protein A resins (Cytiva, ; Scheffel et al., ). A further decrease is demonstrated after CEX, with HCP levels of on average 13 ppm and finally 2 ppm after AEX, which is low in comparison to other mAb processes (Cytiva, ). Moreover, the DNA clearance was highly effective with high DNA log reduction values (LRVs) for the first set of capture columns on pilot scale, also leading to a higher LRV after CEX (Figure 5c) (Butler et al., ). There was a slight decrease in LRV at Day 10, but despite this, the DNA levels were below the detection limit after AEX throughout the entire run.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>54750</offset>
+      <text>Regarding the virus inactivation, no experiments were performed to analyze the presence of virus in the product, but the implementation and efficacy of the solvent/detergent VI method has already been described in several publications (Martins et al., ; Orozco et al., ). Dichtelmuller et al. performed a comprehensive study of the virus inactivation process conditions, which was the base for the conditions selected in the present work (Dichtelmuller et al., ). According to this study, a concentration of 3 g/L Tnbp and 10 g/L detergent, and an incubation time of 60 min are the most common production conditions and enough to reach &gt;5-log inactivation, where a 4-log inactivation is considered acceptable. The feasibility of this downstream process on small scale with the above-described solvent/detergent concentrations has been demonstrated (Scheffel et al., ). In the pilot-scale run, however, both concentrations were decreased to minimize the consumption and disposal of Tnbp, which is a hazardous and environmentally unfriendly compound. According to Dichtelmuller's study, a 4-log inactivation can be achieved even at the lower concentrations used in the pilot-scale run (Dichtelmuller et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>55986</offset>
+      <text>The solvent used in the VI step, Tnbp, was not detected in the final product after AEX chromatography. The results show that Tnbp was successfully removed during the CEX chromatography step with the flowthrough, while the product in the CEX pool did not contain any detectable Tnbp residues (Supporting Information: Figure S7). The detergent used in the VI step, Tween 20, could not be detected in the purified product. However, it is a biocompatible agent and it is even commonly used in the formulation of monoclonal antibodies (Y. Li et al., ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>56536</offset>
+      <text>mAb aggregate levels after different steps in the downstream process have been monitored by SEC. The mild conditions of the capture PCC step and VI by solvent/detergent, with a pH of 5.5 instead of 3.2-3.5 which is conventionally used in a traditional mAb process (Arnold et al., ; Baur et al., ), resulted in insignificant levels of aggregates and fragments during the whole process after each unit operation with a maximum percentage of 0.3% aggregates and no fragments after CEX, and a concentration lower than the detection limit after AEX (Supporting Information: Figure S8). For comparison, typical values of aggregate levels in the purified product obtained in integrated continuous mAb processes range between 0.3% and 2.5% (Cytiva, ; Godawat et al., ; Steinebach et al., ; Warikoo et al., ). In previous work, the ZCa resin was compared to commercial MabSelect SuRe for purification of IgG4, resulting in no aggregates for the ZCa resin and a substantial amount of aggregates for MabSelect SuRe with acidic elution conditions (Scheffel &amp; Hober, ).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>57603</offset>
+      <text>CONCLUSIONS</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57615</offset>
+      <text>In this study, we presented a pilot-scale demonstration of a fully continuous ICB for the production of a therapeutic mAb, which was operated for 17 days. The total run time could have been extended since no sign of deterioration of the process performance was observed until the end of the run. The steady-state operation of the perfusion bioreactor ensured a continuous flow of harvest with consistent product quality and relatively stable mAb titer. The culture process was designed to reduce the time devoted to the cell expansion, ensure high mAb productivity, low medium renewal and high cell viability during the steady-state phase at very high cell density of 100 x 106 cells/ml. Thanks to the present rational approach for the selection of the medium, feed concentrates, glucose concentration and renewal rate, a healthy culture with a low level of the toxic by-product lactate was obtained at low CSPR. Furthermore, the whole upstream process from the perfusion seed culture to the production bioreactor was performed with single-use equipment.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>58687</offset>
+      <text>A novel downstream process was integrated for the continuous purification of mAb under mild conditions using the novel Protein A ligand, ZCa, which enables elution with a sodium chloride buffer at close to neutral pH. The feasibility of ZCa for antibody capture, connected to a subsequent VI step using a solvent/detergent-based method instead of acid, was successfully demonstrated for the first time in a continuous downstream process on pilot scale. The ZCa-based capture step was able to continuously process the high titers from the upstream perfusion reactor for 300 purification cycles before switching to new capture columns, initiated by both real-time inline and offline monitoring of potential capacity losses. The manufactured mAb contained very low impurity levels of aggregates, HCP and DNA, while the overall yield of the process was among the highest reported for mAb purification (Arnold et al., ; Godawat et al., ; Kamga et al., ; Steinebach et al., ). Aggregate formation was negligible and consequently contributed to a minimization of product loss. As noted, the model antibody used in this study is not very susceptible to aggregation. This process could, however, be applied to any antibody, which could greatly increase process yields since low-pH elution and incubation can cause aggregation in a wide variety of products. The steady-state operation of the ICB was guaranteed by the fully autonomous implementation of a centralized control system (Orbit), responsible for the synchronized operation and control of multiple integrated unit operations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>60277</offset>
+      <text>As the demand of biotherapeutics is changing, more cost-effective and flexible production approaches are needed. We believe that ICBs utilized in manufacturing will become an attractive alternative to existing stainless-steel fed-batch facilities. This pilot-scale study will take a step forward in the realization of production-scale ICBs for commercial manufacturing of biologics, including acid-sensitive mAb therapeutics.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>60715</offset>
+      <text>CONFLICT OF INTEREST</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>60736</offset>
+      <text>The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: SH has filed a patent application regarding the novel ZCa domain.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>60938</offset>
+      <text>Supporting information</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>60961</offset>
+      <text>DATA AVAILABILITY STATEMENT</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>60989</offset>
+      <text>Data available upon reasonable request from the authors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>61045</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">923</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2434</infon>
+      <infon key="pub-id_pmid">28054475</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">930</infon>
+      <offset>61056</offset>
+      <text>Design and control of integrated chromatography column sequences</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_doi">10.1002/biot.201800061</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnology Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">1800061</infon>
+      <offset>61121</offset>
+      <text>Implementation of fully integrated continuous antibody processing: Effects on productivity and COGm</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">135</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1002/biot.201500223</infon>
+      <infon key="pub-id_pmid">26308369</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Biotechnology Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">145</infon>
+      <offset>61221</offset>
+      <text>Optimal model-based design of the twin-column CaptureSMB process improves capacity utilization and productivity in protein A affinity capture</text>
+    </passage>
+    <passage>
+      <infon key="volume">1216</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">6938</infon>
+      <infon key="issue">41</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2009.08.049</infon>
+      <infon key="pub-id_pmid">19733359</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6945</infon>
+      <offset>61367</offset>
+      <text>DNA spike studies for demonstrating improved clearance on chromatographic media</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">407</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Animal cell culture</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">443</infon>
+      <offset>61447</offset>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">768</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1703</infon>
+      <infon key="pub-id_pmid">23436783</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">777</infon>
+      <offset>61448</offset>
+      <text>Very high density of Chinese hamster ovary cells in perfusion by alternating tangential flow or tangential flow filtration in WAVE bioreactor :part II: Applications for antibody production and cryopreservation</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">754</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1704</infon>
+      <infon key="pub-id_pmid">23436789</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">767</infon>
+      <offset>61662</offset>
+      <text>Very high density of CHO cells in perfusion by ATF or TFF in WAVE bioreactor . Part I. Effect of the cell density on the process</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1735</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.27690</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1749</infon>
+      <offset>61793</offset>
+      <text>A common framework for integrated and continuous biomanufacturing</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3287</infon>
+      <infon key="pub-id_doi">10.1002/bit.27670</infon>
+      <infon key="pub-id_pmid">33410159</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3301</infon>
+      <offset>61859</offset>
+      <text>Pilot-scale demonstration of an end-to-end integrated and continuous biomanufacturing process</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2015a</infon>
+      <infon key="type">ref</infon>
+      <offset>61959</offset>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2015b</infon>
+      <infon key="type">ref</infon>
+      <offset>61960</offset>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1024</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.27267</infon>
+      <infon key="pub-id_pmid">31930482</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1036</infon>
+      <offset>61961</offset>
+      <text>Side-by-side comparability of batch and continuous downstream for the production of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1931</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1111/j.1537-2995.2009.02222.x</infon>
+      <infon key="pub-id_pmid">19497061</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Transfusion</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1943</infon>
+      <offset>62071</offset>
+      <text>Robustness of solvent/detergent treatment of plasma derivatives: A data collection from Plasma Protein Therapeutics Association member companies</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="year">2019</infon>
+      <infon key="type">ref</infon>
+      <offset>62216</offset>
+    </passage>
+    <passage>
+      <infon key="volume">117</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1367</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/bit.27296</infon>
+      <infon key="pub-id_pmid">32022243</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1380</infon>
+      <offset>62217</offset>
+      <text>Process-wide control and automation of an integrated continuous manufacturing platform for antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">1221</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">57</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2011.10.034</infon>
+      <infon key="pub-id_pmid">22071423</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">70</infon>
+      <offset>62321</offset>
+      <text>Technology trends in antibody purification</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1496</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1002/biot.201200068</infon>
+      <infon key="pub-id_pmid">23070975</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnology Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1508</infon>
+      <offset>62364</offset>
+      <text>Periodic counter-current chromatography-design and operational considerations for integrated and continuous purification of proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">213</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">13</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.06.393</infon>
+      <infon key="pub-id_pmid">26073998</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">19</infon>
+      <offset>62501</offset>
+      <text>End-to-end integrated fully continuous production of recombinant monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">1621</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2020.461055</infon>
+      <infon key="pub-id_pmid">32276855</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">461055</infon>
+      <offset>62592</offset>
+      <text>Optimization study on periodic counter-current chromatography integrated in a monoclonal antibody downstream process</text>
+    </passage>
+    <passage>
+      <infon key="volume">301</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">45</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2019.05.013</infon>
+      <infon key="pub-id_pmid">31145936</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">51</infon>
+      <offset>62711</offset>
+      <text>Integration of a complete downstream process for the automated lab-scale production of a recombinant protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">36</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2995</infon>
+      <infon key="pub-id_pmid">32233078</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">e2995</infon>
+      <offset>62822</offset>
+      <text>Model-based design and control of a small-scale integrated continuous end-to-end mAb platform</text>
+    </passage>
+    <passage>
+      <infon key="volume">1635</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2020.461760</infon>
+      <infon key="pub-id_pmid">33271430</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">461760</infon>
+      <offset>62924</offset>
+      <text>Optimal loading flow rate trajectory in monoclonal antibody capture chromatography</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">227</infon>
+      <infon key="pub-id_doi">10.1002/9781119031116.ch7</infon>
+      <infon key="year">2017</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">246</infon>
+      <offset>63007</offset>
+      <text>Chromatographic scale-up on a volume basis  Preparative Chromatography for Separation of Proteins </text>
+    </passage>
+    <passage>
+      <infon key="volume">49</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">9328</infon>
+      <infon key="issue">43</infon>
+      <infon key="pub-id_doi">10.1021/bi100841u</infon>
+      <infon key="pub-id_pmid">20843079</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Biochemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">9338</infon>
+      <offset>63108</offset>
+      <text>Acid-induced aggregation of human monoclonal IgG1 and IgG2: Molecular mechanism and the effect of solution composition</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1542</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_doi">10.1002/pro.2340</infon>
+      <infon key="pub-id_pmid">23963869</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Protein Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1551</infon>
+      <offset>63229</offset>
+      <text>Effects of subclass change on the structural stability of chimeric, humanized, and human antibodies under thermal stress</text>
+    </passage>
+    <passage>
+      <infon key="volume">48</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">383</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1080/10826068.2018.1446151</infon>
+      <infon key="pub-id_pmid">29509101</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Preparative Biochemistry and Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">390</infon>
+      <offset>63350</offset>
+      <text>Integrated continuous biomanufacturing platform with ATF perfusion and one column chromatography operation for optimum resin utilization and productivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">430</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3427</infon>
+      <infon key="issue">18</infon>
+      <infon key="pub-id_doi">10.1016/j.jmb.2018.06.004</infon>
+      <infon key="pub-id_pmid">29886013</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Journal of Molecular Biology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3438</infon>
+      <offset>63504</offset>
+      <text>Protein engineering allows for mild affinity-based elution of therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">34</infon>
+      <infon key="issue">3</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biopharm International</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">44</infon>
+      <offset>63591</offset>
+      <text>Using volumetric flow to scaleup chromatographic processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">213</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">120</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.06.388</infon>
+      <infon key="pub-id_pmid">26091773</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">130</infon>
+      <offset>63650</offset>
+      <text>Developing the biofacility of the future based on continuous processing and single-use technology</text>
+    </passage>
+    <passage>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">451</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1038/s41423-020-0417-8</infon>
+      <infon key="pub-id_pmid">32313210</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Cellular &amp; Molecular Immunology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">461</infon>
+      <offset>63750</offset>
+      <text>Challenges and strategies for next-generation bispecific antibody-based antitumor therapeutics</text>
+    </passage>
+    <passage>
+      <infon key="volume">134</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">96</infon>
+      <infon key="pub-id_doi">10.1016/j.pep.2017.04.006</infon>
+      <infon key="pub-id_pmid">28414067</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Protein Expression and Purification</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">103</infon>
+      <offset>63849</offset>
+      <text>Effective strategies for host cell protein clearance in downstream processing of monoclonal antibodies and Fc-fusion proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">86</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">5150</infon>
+      <infon key="issue">10</infon>
+      <infon key="pub-id_doi">10.1021/ac5009628</infon>
+      <infon key="pub-id_pmid">24749737</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Analytical Chemistry</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5157</infon>
+      <offset>63977</offset>
+      <text>Characterization and stability study of polysorbate 20 in therapeutic monoclonal antibody formulation by multidimensional ultrahigh-performance liquid chromatography-charged aerosol detection-mass spectrometry</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1107</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2016.1197443</infon>
+      <infon key="pub-id_pmid">27310175</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1117</infon>
+      <offset>64193</offset>
+      <text>Acid-induced aggregation propensity of nivolumab is dependent on the Fc</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1645</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/bit.27681</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1657</infon>
+      <offset>64267</offset>
+      <text>An integrated continuous downstream process with real-time control: A case study with periodic countercurrent chromatography and continuous virus inactivation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/biot.201800646</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnology Journal</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">1800646</infon>
+      <offset>64428</offset>
+      <text>Continuous solvent/detergent virus inactivation using a packed-bed reactor</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">954</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2442</infon>
+      <infon key="pub-id_pmid">28188705</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">965</infon>
+      <offset>64505</offset>
+      <text>Design, construction, and optimization of a novel, modular, and scalable incubation chamber for continuous viral inactivation</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_doi">10.1186/s12896-014-0099-3</infon>
+      <infon key="pub-id_pmid">24400649</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">BMC Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">11</infon>
+      <offset>64631</offset>
+      <text>Direct analysis of mAb aggregates in mammalian cell culture supernatant</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">854</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2492</infon>
+      <infon key="pub-id_pmid">28480535</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">866</infon>
+      <offset>64703</offset>
+      <text>Integrated continuous bioprocessing: Economic, operational, and environmental feasibility for clinical and commercial antibody manufacture</text>
+    </passage>
+    <passage>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">28</infon>
+      <infon key="issue">3</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">BioPharm International</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">33</infon>
+      <offset>64842</offset>
+      <text>Re-use of protein A resin: Fouling and economics</text>
+    </passage>
+    <passage>
+      <infon key="volume">115</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1949</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1002/bit.26708</infon>
+      <infon key="pub-id_pmid">29663323</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1957</infon>
+      <offset>64893</offset>
+      <text>Single pass diafiltration integrated into a fully continuous mAb purification process</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3533</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_doi">10.1002/bit.27806</infon>
+      <infon key="pub-id_pmid">33914903</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3544</infon>
+      <offset>64979</offset>
+      <text>Process intensification to produce a difficult-to-express therapeutic enzyme by high cell density perfusion or enhanced fed-batch</text>
+    </passage>
+    <passage>
+      <infon key="volume">1637</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2020.461843</infon>
+      <infon key="pub-id_pmid">33412291</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">461843</infon>
+      <offset>65115</offset>
+      <text>Highly selective Protein A resin allows for mild sodium chloride-mediated elution of antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">1664</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2022.462806</infon>
+      <infon key="pub-id_pmid">35033788</infon>
+      <infon key="year">2022</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="elocation-id">462806</infon>
+      <offset>65213</offset>
+      <text>Design of an integrated continuous downstream process for acid-sensitive monoclonal antibodies based on a calcium-dependent Protein A ligand</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1492</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2019.1662690</infon>
+      <infon key="pub-id_pmid">31526164</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1501</infon>
+      <offset>65358</offset>
+      <text>Optimization of a calcium-dependent Protein A-derived domain for mild antibody purification</text>
+    </passage>
+    <passage>
+      <infon key="volume">309</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">44</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2019.12.017</infon>
+      <infon key="pub-id_pmid">31891733</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">52</infon>
+      <offset>65454</offset>
+      <text>Small-scale bioreactor supports high density HEK293 cell perfusion culture for the production of recombinant Erythropoietin</text>
+    </passage>
+    <passage>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3313</infon>
+      <infon key="pub-id_doi">10.1002/bit.27689</infon>
+      <infon key="pub-id_pmid">33480439</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3322</infon>
+      <offset>65580</offset>
+      <text>Process development and optimization of continuous capture with three-column periodic counter-current chromatography</text>
+    </passage>
+    <passage>
+      <infon key="volume">1171</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">22</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_doi">10.1016/j.chroma.2007.09.040</infon>
+      <infon key="pub-id_pmid">17920607</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Journal of Chromatography A</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">28</infon>
+      <offset>65701</offset>
+      <text>Protein aggregation kinetics during Protein A chromatography: Case study for an Fc fusion protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1303</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2522</infon>
+      <infon key="pub-id_pmid">28691347</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnology Progress</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1313</infon>
+      <offset>65799</offset>
+      <text>Design and operation of a continuous integrated monoclonal antibody production process</text>
+    </passage>
+    <passage>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">1494</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_doi">10.1002/bit.23155</infon>
+      <infon key="pub-id_pmid">21480193</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1508</infon>
+      <offset>65886</offset>
+      <text>Aggregates in monoclonal antibody manufacturing processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">213</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.05.010</infon>
+      <infon key="pub-id_pmid">26014522</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">12</infon>
+      <offset>65944</offset>
+      <text>The business impact of an integrated continuous biomanufacturing platform for recombinant protein production</text>
+    </passage>
+    <passage>
+      <infon key="volume">109</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">3018</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_doi">10.1002/bit.24584</infon>
+      <infon key="pub-id_pmid">22729761</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Biotechnology and Bioengineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3029</infon>
+      <offset>66053</offset>
+      <text>Integrated continuous production of recombinant therapeutic proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">65</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">135</infon>
+      <infon key="pub-id_doi">10.1016/j.ymben.2020.11.004</infon>
+      <infon key="pub-id_pmid">33161144</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Metabolic Engineering</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">145</infon>
+      <offset>66122</offset>
+      <text>Control of IgG glycosylation in CHO cell perfusion cultures by GReBA mathematical model supported by a novel targeted feed, TAFE</text>
+    </passage>
+    <passage>
+      <infon key="volume">213</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="fpage">28</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2015.07.006</infon>
+      <infon key="pub-id_pmid">26211737</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Journal of Biotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>66251</offset>
+      <text>Very high cell density perfusion of CHO cells anchored in a non-woven matrix-based bioreactor</text>
+    </passage>
+  </document>
+</collection>

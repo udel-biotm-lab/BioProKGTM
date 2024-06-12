@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>4282109</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Fomina-Yadlin;given-names:Dina</infon>
+      <infon key="name_2">surname:McCarter;given-names:John D</infon>
+      <infon key="name_1">surname:Treiber;given-names:David</infon>
+      <infon key="article-id_pmid">25042542</infon>
+      <infon key="name_0">surname:Du;given-names:Zhimei</infon>
+      <infon key="year">2015</infon>
+      <infon key="article-id_pmc">4282109</infon>
+      <infon key="article-id_doi">10.1002/bit.25332</infon>
+      <infon key="type">front</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Biotechnol. Bioeng.; 2015 Jan; 112(1) 141-55. doi:10.1002/bit.25332</infon>
+      <infon key="lpage">155</infon>
+      <infon key="fpage">141</infon>
+      <infon key="issue">1</infon>
+      <infon key="volume">112</infon>
+      <infon key="license">This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</infon>
+      <infon key="name_10">surname:Dell;given-names:Brad</infon>
+      <infon key="name_13">surname:Heath;given-names:Carole</infon>
+      <infon key="name_14">surname:Morris;given-names:Arvia E</infon>
+      <infon key="name_11">surname:Grisim;given-names:Brent</infon>
+      <infon key="name_12">surname:Zupke;given-names:Craig</infon>
+      <infon key="kwd">specific productivity recombinant antibody production glycosylation product quality</infon>
+      <infon key="name_15">surname:Reddy;given-names:Pranhitha</infon>
+      <infon key="name_9">surname:Follstad;given-names:Brian D</infon>
+      <infon key="name_8">surname:Leith;given-names:Matthew</infon>
+      <infon key="name_7">surname:Tharmalingam;given-names:Tharmala</infon>
+      <infon key="name_6">surname:Zhang;given-names:Yuling</infon>
+      <infon key="name_5">surname:McCoy;given-names:Rebecca E</infon>
+      <infon key="authors">Du Z, Treiber D, McCarter JD, Fomina-Yadlin D, Saleem RA, McCoy RE, Zhang Y, Tharmalingam T, Leith M, Follstad BD, Dell B, Grisim B, Zupke C, Heath C, Morris AE, Reddy P</infon>
+      <infon key="name_4">surname:Saleem;given-names:Ramsey A</infon>
+      <offset>0</offset>
+      <text>Use of a small molecule cell cycle inhibitor to control cell growth and improve specific productivity and product quality of recombinant proteins in CHO cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>167</offset>
+      <text>The continued need to improve therapeutic recombinant protein productivity has led to ongoing assessment of appropriate strategies in the biopharmaceutical industry to establish robust processes with optimized critical variables, that is, viable cell density (VCD) and specific productivity (product per cell, qP). Even though high VCD is a positive factor for titer, uncontrolled proliferation beyond a certain cell mass is also undesirable. To enable efficient process development to achieve consistent and predictable growth arrest while maintaining VCD, as well as improving qP, without negative impacts on product quality from clone to clone, we identified an approach that directly targets the cell cycle G1-checkpoint by selectively inhibiting the function of cyclin dependent kinases (CDK) 4/6 with a small molecule compound. Results from studies on multiple recombinant Chinese hamster ovary (CHO) cell lines demonstrate that the selective inhibitor can mediate a complete and sustained G0/G1 arrest without impacting G2/M phase. Cell proliferation is consistently and rapidly controlled in all recombinant cell lines at one concentration of this inhibitor throughout the production processes with specific productivities increased up to 110 pg/cell/day. Additionally, the product quality attributes of the mAb, with regard to high molecular weight (HMW) and glycan profile, are not negatively impacted. In fact, high mannose is decreased after treatment, which is in contrast to other established growth control methods such as reducing culture temperature. Microarray analysis showed major differences in expression of regulatory genes of the glycosylation and cell cycle signaling pathways between these different growth control methods. Overall, our observations showed that cell cycle arrest by directly targeting CDK4/6 using selective inhibitor compound can be utilized consistently and rapidly to optimize process parameters, such as cell growth, qP, and glycosylation profile in recombinant antibody production cultures.</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:18:12Z</infon>
+        <location offset="1323" length="9"/>
+        <text>inhibitor</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:18:23Z</infon>
+        <location offset="1535" length="14"/>
+        <text>glycan profile</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:18:26Z</infon>
+        <location offset="1594" length="7"/>
+        <text>mannose</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:18:40Z</infon>
+        <location offset="1714" length="19"/>
+        <text>culture temperature</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:20:40Z</infon>
+        <location offset="2018" length="9"/>
+        <text>inhibitor</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:20:44Z</infon>
+        <location offset="2139" length="21"/>
+        <text>glycosylation profile</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>2208</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2221</offset>
+      <text>Recombinant protein productivity is proportional to viable cell density (VCD) and specific productivity (product per cell, qP). Even though achieving and maintaining high VCD is important for productivity, a high VCD beyond an optimal number will decrease yield due to the reduction of the harvestable production volume and possible challenges to the harvest operation. In addition, a very high VCD can have excessive nutrient and gas exchange demands that can be challenging to meet. For these reasons, it is important to control cell growth after an optimum VCD has been obtained during production. With VCD being controlled, increasing qP then becomes essential for protein productivity.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2912</offset>
+      <text>Cell cycle inhibition-related approaches have been widely used and tested previously to increase qP in recombinant cell cultures, including nutrient limitation, decreasing cultivation temperature, chemical additives such as butyrate, cell engineering by overexpression of endogenous cyclin-dependent kinase inhibitors (CKIs), or anti-apoptotic proteins such as Bcl-2 family members. Recently the potential use of miRNAs to control cell cycle has also been studied in CHO production culture. While these approaches have been shown to be effective in improving qP, their effects under different circumstances, such as different expression vector design, host cell type, production medium, protein sequence, and process set points, can be variable. A common feature of all these approaches is that the cell cycle checkpoint regulators, cyclin-dependent kinases (CDKs) are not the exclusive target. Almost all these approaches have multiple cellular targets other than cell cycle, leading to varying degrees of pleiotropic effects. It is therefore not surprising to find inconsistencies from clone to clone and between experiments using these methods during production processes, presumably due to the complex signaling networks centered by different activation events that each of these approaches stimulate. Hence, the cross-talk among the different signaling pathways, such as cell cycle, apoptosis, and metabolism, will generate different cellular contexts, which then influence cell fate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4402</offset>
+      <text>More specifically, nutrient limitation is one of commonly used approach in growth control, which can suppress cell cycle progression through the amino acid deprivation response (AAR)-associated pathways, including EF1alpha-ATF4 and EF1alpha-PERK pathways, which decrease intracellular levels of cyclins (; Harding et al.,). However, these pathways can also decrease a number of other proteins, including housekeeping genes that maintain essential metabolic and cellular function. This pathway also exhibits cross-talk to other stress pathways and is able to induce apoptosis. For these reasons, the effect of nutrient limitation on both proliferation inhibition and increasing recombinant protein secretion can be mild and variable. Decreasing cultivation temperature is another commonly used approach in growth control and increasing qP. The mechanism whereby cells at lower temperatures improve productivity and undergo growth arrest is still poorly understood. It is suggested that lower temperatures decrease the global transcription/translation rate, result in decreased protein levels of cyclins and lead to cell cycle arrest indirectly [Reviewed in ]. Reducing temperature also reduces the metabolic rate, but this may still be able to increase recombinant protein expression by invoking a coordinated response involving the cell cycle, transcription and translational machinery, and the arrangement of the cytoskeleton. This sophisticated regulatory network can also lead to various phenotypes in different cell lines, resulting in variable responses.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5962</offset>
+      <text>These complex signaling networks will mediate different context-dependent effects, impacting not only mAb productivity but also product quality attributes (PQA), such as glycosylation. mAbs are glycosylated at N297 on CH2 domain. One key feature of N-linked glycosylation of mAbs is heterogeneity due to the incomplete processing of the N-linked Fc glycans, reflected by the presence or absence of different terminal sugar residues. Immature glycoforms of CHO-derived IgGs, such as the high-mannose (HM) glycoforms (Man5-9, as variable as 2-35%), are major concerns due to the higher plasma clearance rate of mAbs containing HM compared to more complex glycan linked mAbs, which may lead to a potential impact on efficacy. It has been shown that growth control approaches, such as temperature shift or chemical additives such as butyrate, extend to impact glycan processing which could compromise the employment of these established approaches into the production process if consistent PQA is required for the product, such as commercial product comparability and biosimilar development.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7052</offset>
+      <text>To directly achieve growth arrest with minimal cross talk to other pathways including glycan processing, it is necessary to identify an approach to arrest cell cycle selectively by directly targeting regulators of cell cycle checkpoints. The cell cycle consists of four phases, G0/G1, S, G2, and M, which are tightly controlled by cell cycle checkpoints. The G1 checkpoint is controlled by the cyclin D/CDK4/6 complex, which phosphorylates and deactivates Rb [reviewed in ]. Phosphorylated Rb dissociates from E2F, which then activates gene transcription of S phase cyclins to initiate DNA replication. Due to the critical role of CDK4/6-Rb in cell cycle progression, multiple cellular mechanisms are involved in control of their activities, especially CKIs. Most attempts at arresting cell cycle have focused on over-expression of CKIs, in particular p16, p21, and p27. It has been shown that over-expression of CKIs results in increasing qP (; Fussenegger et al.,; Kaufmann et al.,). However, the impact of overexpression of CKIs on Amgen mAb-expressing cell line was minimal (unpublished data) and was not sufficient to incorporate into our production processes. In addition, tight gene regulation control methods, such as inducible systems, to suppress CKI overexpression during growth phase to achieve optimum VCD and rapid activation at later production phase poses another layer of technical challenge.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8462</offset>
+      <text>To develop a robust method for both growth control and specific productivity improvement by avoiding pleiotropic cellular responses and complicated operational procedures, we attempted to identify an approach that results in exclusive G0/G1 arrest by directly targeting the cell cycle G1 checkpoint with small molecule compound. In this approach, the goal is to specifically deactivate CDK4/6 function in Rb phosphorylation since the catalytic activity of these kinases regulates the checkpoint for the G1/S transition and the commitment to cell division [reviewed in ]. CDKs are a sub-class of serine/threonine kinases, which catalyze the phosphorylation of protein or peptide substrates via transfer of the gamma-phosphate from ATP to the hydroxyl of a serine or threonine residue. We therefore screened pyridopyrimidine-type molecules, a series of ATP analogues, to block CDK4/6 kinase phosphorylation function. One of these compounds has been used as a therapeutic drug against breast cancer due to its anti-proliferation effects. The selectivity of this compound has been widely studied, demonstrating that it is a highly selective inhibitor of CDK4 and CDK6 inhibiting these enzymes potently (IC50 ~0.01 microM) with minimal inhibition of at least 36 other kinases from various kinase families (; Fry et al.,). We surmised that the selective inhibition of CDK4/6 by this small molecule might lead to a complete cell cycle arrest without the concomitant activation of other cellular responses seen in the less specific approaches to arrest the cell cycle described above. These experiments thus provide an opportunity to test whether an exclusive G0/G1 arrest is sufficient to induce sustained growth arrest and also increase qP. It will also be useful to examine the potential link between cell cycle, qP and glycosylation in this study. The results showed that this compound can be used as a small molecule additive to CHO recombinant protein production processes and can simultaneously control growth and increase qP with improved glycan processing. The mechanism was explored at the transcriptome level and compared with temperature shift and nutrient limitation in production cultures. The results from these studies are discussed to shed light on the differences in cell phenotypes between these three cell-cycle arrest methods.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>10802</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10824</offset>
+      <text>Kinase Assays and Selectivity Profiling</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10864</offset>
+      <text>CCI was tested at multiple concentrations (0.001-10 microM) against selected kinases in kinase activity assays to determine IC50. The assays were performed in 96-well filter plates with a final volume of 100 microL, containing 25 microM ATP, 1 microCi [33P]-ATP, CCI compound, recombinant kinase, and the corresponding substrate, that is, 1 microg Rb, 25 ng CDK4/cyclin D, in kinase reaction buffer. After 1 h incubation at room temperature, the reaction was stopped with 20% trichloroacetic acid (TCA). Wells were washed with 10% TCA, let dry, and processed for scintillation counting with TopCount (PerkinElmer, Waltham, MA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11493</offset>
+      <text>Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11506</offset>
+      <text>The cell lines studied herein were recombinant cell lines expressing different antibodies. The common CHO host cell line is a clone derived from the serum-free, IGF-1 dependent CHO cells described by. For the initial dosage and time course study, cells were cultured in Amgen in-house subculture medium in 24-deep well plate (DWP) (Corning, NY) for 5 days with the seeding density as 5 x 105 c/mL. CCI was added at the first day of the culture. For 24-DWP production assay, cells were seeded as high as 1 x 107 c/mL with a daily supplement of fresh Amgen in-house production medium. The media were completely exchanged by centrifugation each day for 5 day. The measurements of growth, viability, titer, osmolality, glucose and lactate were collected daily. Each experimental group was analyzed in triplicate, and the experiment was repeated twice. Bench scale perfused production bioreactors were operated by using Amgen in-house process conditions with Amgen in-house perfusion medium. VCD and culture viability were measured using a Vi-Cell counter (Beckman-Coulter, Indianapolis, IN). Glucose and lactate concentrations were determined using a PolyChem analyzer (Innovatis, Bielefeld, Germany).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12718</offset>
+      <text>Cell Cycle Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12738</offset>
+      <text>Cells were harvested and fixed with 70% ethanol in PBS. The cell pellet was then resuspended in 0.5 mL PBS containing propidium iodide (50 microg/mL) and DNase-free RNase (100 microg/mL). Cell cycle analysis was performed by using a FACSCaliber (Becton Dickinson, San Jose, CA).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13017</offset>
+      <text>mAb Titer and Product Quality Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13056</offset>
+      <text>The secreted mAb concentration (titer) was measured via Protein A affinity HPLC. Antibody aggregate and HMW were measured by size exclusion chromatography (SEC). N-Glycans were analyzed by 2-AA hydrophilic interaction liquid chromatography (HILIC). Chromatograms were analyzed for species percentages.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13358</offset>
+      <text>Western Blotting Analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13384</offset>
+      <text>Whole-cell extract preparation and Western blotting were performed as described in reference. Membrane were probed with phosphor-specific Rb (Ser795), Phospho-specific ERK (T202/Y204), Phospho-specific S6 (S235/236), Rab 11 primary antibodies (Cell Signaling Technology, Denver, MA), followed by AlexaFluor  680-conjugated secondary antibodies (Invitrogen, Carlsbad, CA). Images were acquired using the Odyssey infrared imaging system (LI-COR Biosciences, Lincoln, NE).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13855</offset>
+      <text>DNA Microarray and Bioinformatic Analyses</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13897</offset>
+      <text>DNA microarray and bioinformatic analyses were carried out as described.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>13970</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>13978</offset>
+      <text>Complete and Sustained Cell Cycle G1 Arrest Using a Selective CDK4/6 Small Molecule Inhibitor</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14072</offset>
+      <text>To induce a complete and selective cell cycle G0/G1 arrest without potentiating other cellular pathways, we used a small molecule cell cycle inhibitor (CCI) to selectively inhibit the kinase activity of CDK4/6 (Fig. 1A). While potently inhibiting CDK4/6, the compound was highly selective showing little activity when screened at 1 muM compound concentration against the vast majority of &gt;440 other kinases, including CDK2, CDK3, CDK5, and multiple cyclin-dependent kinase-like (CDKL) kinases, confirming and expanding previous reports (; Fry et al.,) (data not shown). In addition, the inhibitory effect of CCI on different selected kinases, including CDK4/6, was tested over a large concentration range (0.001-10 microM) of CCI in the kinase assays to obtain IC50 values. The results demonstrate the potency and selectivity of CCI against CDK4/6 compared to inhibition against various other kinases (Table 1995). The specific inhibitory effect on Rb phosphorylation was further confirmed from by Western blotting (Fig. 1B). Both ERK and S6 kinase signaling networks are involved in cell proliferation and protein expression. As shown in Figure 1B, phosphorylation of ERK and S6 kinases were not affected, suggesting that the CCI has no effect on these two signaling pathways. To test its effect on recombinant CHO cell growth, different dosages of the compound were added to the cultures of two different mAb-expressing cell lines at day 0 with seeding density at 0.5 x 105 c/mL, while VCD and viability were measured daily for 5 days. Compared to the control, in which cell growth reached 3-5 million cells per mL, cell growth after CCI treatment was significantly inhibited, and the maximum effect on growth arrest was attained between 5-10microM at 24 h of treatment (Fig. 2A and B). Despite the growth arrest, no significant cytotoxicity was observed at these concentrations (5-10 microM) of the compound as deduced from ending viabilities compared to the control (Fig. 2C and D) for both cell lines. Similar results were observed with an additional 10 different Amgen recombinant cell lines with different productivity, growth rate and product quality profiles using the same dosages of CCI, suggesting a broad treatment effect (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f1.jpg</infon>
+      <infon key="id">fig01</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>16341</offset>
+      <text>Selective CDK4/6 inhibition by small molecule compound. (A) Schematic diagram of the cell cycle and function of a selective CDK4/6 specific inhibitor. E2F, E2 transcription factor; DP, E2F dimerization partner; R, restriction checkpoint. (B) Whole cell extracts with or without CCI treatment were assayed for protein levels of phospho-Rb (p-Rb), phospho-ERK (p-ERK), phospho-S6 (p-S6) by Western blot. Rab11 was used as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">tbl1.xml</infon>
+      <infon key="id">tbl1</infon>
+      <infon key="type">table_caption</infon>
+      <offset>16780</offset>
+      <text>Average IC50 values in micromol/L for CCI activity against a panel of Ser/Thr kinases in vitro</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left" rowspan="1" colspan="1"&gt;Gene symbol&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Description&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;IC&lt;sub&gt;50&lt;/sub&gt;(microM)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;CDK4&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cyclin-dependent kinase 4&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;0.0027&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;CDK6&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cyclin-dependent kinase 6&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;0.0063&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Mps1&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;TTK protein kinase&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;0.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;PIM1&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Pim-1 oncogene&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;FLT3&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Fms-related tyrosine kinase 3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;CDK9&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cyclin-dependent kinase 9&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;1.8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;PKR&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Eukaryotic translation initiation factor 2-alpha kinase 2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Stk33&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Serine/threonine kinase 33&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;JAK3&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Janus kinase 3&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;ALK&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Anaplastic lymphoma receptor tyrosine kinase&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;2.6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;mTOR&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Mechanistic target of rapamycin (serine/threonine kinase)&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;3.9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Tyk-2&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Tyrosine kinase 2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;6.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;PI3K alpha&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic sub-unit alpha&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;8.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;CDK2&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cyclin-dependent kinase 2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;9.9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;JAK2&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Janus kinase 2&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;11.7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;JAK1&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Janus kinase 1&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;TBK1&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;TANK-binding kinase 1&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;IKK (3&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Inhibitor of kappa light polypeptide gene enhancer in G cells, kinase beta&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;&lt;sc&gt;IKKE&lt;/sc&gt;&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Inhibitor of kappa light polypeptide gene enhancer inB-cells, kinase epsilon&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;PKA alpha&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Protein kinase, cAMP-dependent, catalytic, alpha&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;IGF-1R&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Insulin-like growth factor 1 receptor&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Src&lt;/td&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;v-Src avian sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;&amp;gt;10&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">tbl1</infon>
+      <infon key="type">table</infon>
+      <infon key="File">tbl1.xml</infon>
+      <offset>16875</offset>
+      <text>Gene symbol Description IC50(microM) CDK4 Cyclin-dependent kinase 4 0.0027 CDK6 Cyclin-dependent kinase 6 0.0063 Mps1 TTK protein kinase 0.5 PIM1 Pim-1 oncogene 1.6 FLT3 Fms-related tyrosine kinase 3 1.7 CDK9 Cyclin-dependent kinase 9 1.8 PKR Eukaryotic translation initiation factor 2-alpha kinase 2 2.1 Stk33 Serine/threonine kinase 33 2.1 JAK3 Janus kinase 3 2.5 ALK Anaplastic lymphoma receptor tyrosine kinase 2.6 mTOR Mechanistic target of rapamycin (serine/threonine kinase) 3.9 Tyk-2 Tyrosine kinase 2 6.1 PI3K alpha Phosphatidylinositol-4,5-bisphosphate 3-kinase, catalytic sub-unit alpha 8.1 CDK2 Cyclin-dependent kinase 2 9.9 JAK2 Janus kinase 2 11.7 JAK1 Janus kinase 1 &gt;10 TBK1 TANK-binding kinase 1 &gt;10 IKK (3 Inhibitor of kappa light polypeptide gene enhancer in G cells, kinase beta &gt;10 IKKE Inhibitor of kappa light polypeptide gene enhancer inB-cells, kinase epsilon &gt;10 PKA alpha Protein kinase, cAMP-dependent, catalytic, alpha &gt;10 IGF-1R Insulin-like growth factor 1 receptor &gt;10 Src v-Src avian sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog &gt;10 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f2.jpg</infon>
+      <infon key="id">fig02</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>17949</offset>
+      <text>CDK4/6 inhibitor leads to a complete cell growth arrest. Two representative recombinant CHO cell lines were cultured and treated with the indicated dosage of inhibitor. VCD (A and B) and viability (C and D) were measured daily. Data represent the average +- SD of triplicate samples.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18237</offset>
+      <text>A selective Cdk4/6 inhibitor should cause a specific accumulation of cells in G1 but has no effect on other phases of the cell cycle in which cells should continue to progress and eventually decline in number. Indeed, cell cycle profiling indicated that 96% of the CCI-treated cells were arrested in G0/G1, compared to 49.8% of control cells at 24 h (Fig. 3A and B). S phase was diminished at 24 h post treatment, with a concomitant decline in G2/M phase of the cell cycle (Fig. 3B). The cell cycle inhibitory effect was sustained for at least 4 days without further addition (Fig. 3E). In comparison, Asn limitation and reducing culture temperature are less effective in G0/G1 arrest (Fig. 3C and D). Taken together, these data indicate that selectively blocking CDK4/6 activity can induce a maximum level of G0/G1 enrichment and growth arrest within 24 h without causing cell death with the same dosage for all recombinant CHO cells tested.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f3.jpg</infon>
+      <infon key="id">fig03</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>19186</offset>
+      <text>Cell cycle profile of CHO recombinant cells treated with CDK4/6 inhibitor. A recombinant CHO cell line was cultured in different growth control conditions. Cells were cultured in batch medium with mock (A), with 10 microM of CCI for 24 h at 36 C (B), low Asn (C), or reducing culture temperature (D) conditions. Cell cycle profiles were obtained by PI staining followed by flow cytometry analysis. The red fill in the first and second peaks indicate the range estimate of the size of the G1 and G2 peaks, respectively. The black area indicates S-Phase estimate. (E) The cell cycle distribution of mAb-expressing cell line with or/without CCI treatment. Data represent the mean +- SD of two independent replicate samples.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>19913</offset>
+      <text>The Selective CDK4/6 Inhibitor Has Consistent Effect on Increasing Specific Productivity With Multiple Recombinant CHO Cell Lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20043</offset>
+      <text>We then assessed whether the specific and complete cell cycle G0/G1 arrest observed also increases specific productivity (qP). As shown in Figure 4, a recombinant mAb-expressing CHO cell line was treated with the inhibitor using a plate-based production format, which includes complete daily medium-exchange. In this way, the cells were continuously exposed to the indicated level of CCI, which was supplied with daily medium exchange. The control cells grew continuously for 4 days from 1 x 107/mL to 2.8 x 107/mL in production medium, whereas addition of CCI compound arrested cell growth and maintained VCD under 1.4 x 107/mL at day 4 (Fig. 4A). Cell viabilities remained above 80% throughout the 5-day production with the treatment of 5-10 microM of CCI (Fig. 4B), which is consistent with our previous subculture results (Fig. 2B and D). The qP from CCI treatment was increased more than two fold (Fig. 4C). In addition, CCI treatment showed no impact on mAb aggregation, one of PQA shown by HMW species (Fig. 4D). Similar results had been observed with a panel of recombinant CHO cell lines expressing different recombinant antibodies, using the same concentration of CCI (10 microM) (Table 2006). All cell lines can be arrested in cell growth and qP consistently increased between 2 and 3 fold with the same dosage of CCI. For the high producing cell line (cell line A), the qP reached 110 pg/cell/day (Table 2006). Taken together, these results confirmed that CDK4/6 inhibitor is able to control cell growth even at a high cell density (seeding density at 1 x 107/mL at day 0). The effect is rapid (within 24 h) and sustained for at least 5 days. Most importantly, the data indicate that a complete and exclusive G0/G1 arrest is sufficient to consistently increase qP more than two fold in all CHO cell lines regardless of their basal qP, suggesting the potential for broad application of this small molecule additive to various cell culture processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f4.jpg</infon>
+      <infon key="id">fig04</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>22028</offset>
+      <text>The effects of CKD4/6 inhibitor treatment in CHO recombinant cell production cultures. A recombinant CHO cell line was subjected to a 5-day 24DWP production assay, using batch medium with or without the indicated amount of inhibitor. VCD (A), viability (B), qP (C), HMW (D), and high mannose (E) were measured daily as described in the Materials and Methods section. Data represent the average +- SD of three biological replicates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">tbl2.xml</infon>
+      <infon key="id">tbl2</infon>
+      <infon key="type">table_caption</infon>
+      <offset>22464</offset>
+      <text>The effects of CCI treatment on cell culture performance of different recombinant cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align="left" rowspan="2" colspan="1"&gt;Recombinant cell line&lt;/th&gt;&lt;th align="center" colspan="2" rowspan="1"&gt;VCD (10&lt;sup&gt;6&lt;/sup&gt;/mL)&lt;/th&gt;&lt;th align="center" colspan="2" rowspan="1"&gt;Viability (%)&lt;/th&gt;&lt;th align="center" colspan="2" rowspan="1"&gt;qP (pg/cell/day)&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Control&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;CCI&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Control&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;CCI&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;Control&lt;/th&gt;&lt;th align="center" rowspan="1" colspan="1"&gt;CCI&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line A&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;26.50&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;13.20&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;95.20&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;90.20&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;53.96&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;110.56&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line B&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;34.30&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;10.00&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;94.50&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;91.10&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;31.87&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;72.41&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line C&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;57.00&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;20.60&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;91.61&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;87.17&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;19.98&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;50.11&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line D&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;28.00&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;11.90&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;87.07&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;84.33&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;30.41&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;64.19&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line E&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;43.66&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;12.16&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;97.56&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;92.37&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;17.73&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;35.87&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line F&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;55.00&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;14.60&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;90.28&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;85.70&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;16.37&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;39.49&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line G&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;27.20&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;11.80&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;89.84&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;83.40&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;35.23&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;78.68&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line H&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;44.10&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;17.60&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;91.67&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;87.88&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;22.74&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;47.98&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="left" rowspan="1" colspan="1"&gt;Cell line 1&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;37.50&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;16.30&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;90.75&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;88.60&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;33.35&lt;/td&gt;&lt;td align="center" rowspan="1" colspan="1"&gt;88.13&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">tbl2</infon>
+      <infon key="type">table</infon>
+      <infon key="File">tbl2.xml</infon>
+      <offset>22557</offset>
+      <text>Recombinant cell line VCD (106/mL) Viability (%) qP (pg/cell/day) Control CCI Control CCI Control CCI Cell line A 26.50 13.20 95.20 90.20 53.96 110.56 Cell line B 34.30 10.00 94.50 91.10 31.87 72.41 Cell line C 57.00 20.60 91.61 87.17 19.98 50.11 Cell line D 28.00 11.90 87.07 84.33 30.41 64.19 Cell line E 43.66 12.16 97.56 92.37 17.73 35.87 Cell line F 55.00 14.60 90.28 85.70 16.37 39.49 Cell line G 27.20 11.80 89.84 83.40 35.23 78.68 Cell line H 44.10 17.60 91.67 87.88 22.74 47.98 Cell line 1 37.50 16.30 90.75 88.60 33.35 88.13 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23093</offset>
+      <text>The Effects of a Complete G0/G1 Arrest on N-Linked Glycosylation Maturation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23169</offset>
+      <text>We next investigated the impact of a sustained G0/G1 arrest on N-linked glycosylation of mAb. As with productivity, PQA, in particular, mAb glycosylation profiles have become more important due to the increasing need to demonstrate product quality comparability with both commercial products comparability and biosimilar initiatives. Since G0/G1 arrest is linked to cell differentiation, it is reasonable to hypothesize that related cellular pathways, such as the secretion pathway, are highly activated, which will affect not only protein expression but also glycosylation. As shown in Figure 4E, CCI treatment during production decreased high mannose level (Man5) suggesting G0/G1 arrest might improve glycan processing. To further investigate this effect, multiple recombinant cell lines which produce mAbs with different glycan profiles were selected and tested for glycan profile with and without CCI treatment. The result showed that all high mannose glycans were significantly decreased for all tested mAbs compared to the control (Fig. 5A). Meanwhile, the fraction of complex glycans that are core fucosylated and terminally galactosylated (G1F and G2F) were increased after CCI treatment (Fig. 5B). The optimal dosage of CCI in these glycan changes appeared to be slightly different from clone to clone between 5 and 10 microM (Fig. 5A and B). The impact of CCI treatment on glycan structures and distribution are shown in Figure 5C. Results showed decreases in the levels of a variety of HM glycans (M5, M6, M7, and M8) and the hybrid structures containing HM (G0FM5, G1FM5, G0M5), suggesting improved processing of high mannose structures (Fig. 5C). This was accompanied by increases in the levels of fucosylated and galactosylated bi-antennary glycan structures (G1F and G2F), the two major mature complex structures (Fig. 5C). Core fucosylation reactions are efficient in the tested cell lines, therefore unfucosylated bi-antennary structures, such as G0 and G1, were low (&lt;4%), and G2 was not detected (Fig. 5C). In addition, the levels of these minor glycan structures, such as G1, together with the major ungalactosylated glycan structure, G0F, were decreased after CCI treatment (Fig. 5C). Since these structures are intermediates in the pathway to synthesis of G1F and G2F structures, the decrease likely reflects the maturation of G1 to G1F by addition of core fucose, and the maturation of G0F to G1F by addition of galactose. Similar changes in glycan distribution were found in products from other recombinant clones (data not shown). Taken together, these data suggest that the efficiency of N-linked glycan processing is different with CCI treatment.</text>
+      <annotation id="7">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:55:00Z</infon>
+        <location offset="23216" length="12"/>
+        <text>G0/G1 arrest</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:55:03Z</infon>
+        <location offset="23232" length="22"/>
+        <text>N-linked glycosylation</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:55:36Z</infon>
+        <location offset="23509" length="5"/>
+        <text>G0/G1</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:55:38Z</infon>
+        <location offset="23729" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:57:57Z</infon>
+        <location offset="23767" length="13"/>
+        <text>CCI treatment</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:56:38Z</infon>
+        <location offset="23814" length="20"/>
+        <text>mannose level (Man5)</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:56:42Z</infon>
+        <location offset="23846" length="12"/>
+        <text>G0/G1 arrest</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:56:47Z</infon>
+        <location offset="23873" length="17"/>
+        <text>glycan processing</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:57:51Z</infon>
+        <location offset="24054" length="30"/>
+        <text>with and without CCI treatment</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:57:07Z</infon>
+        <location offset="24113" length="20"/>
+        <text>high mannose glycans</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:57:34Z</infon>
+        <location offset="24245" length="71"/>
+        <text>complex glycans that are core fucosylated and terminally galactosylated</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:57:42Z</infon>
+        <location offset="24352" length="13"/>
+        <text>CCI treatment</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:58:09Z</infon>
+        <location offset="24536" length="13"/>
+        <text>CCI treatment</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:58:14Z</infon>
+        <location offset="24553" length="17"/>
+        <text>glycan structures</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:08Z</infon>
+        <location offset="24667" length="10"/>
+        <text>HM glycans</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:15Z</infon>
+        <location offset="24707" length="31"/>
+        <text>hybrid structures containing HM</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:29Z</infon>
+        <location offset="24795" length="23"/>
+        <text>high mannose structures</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:43Z</infon>
+        <location offset="24881" length="61"/>
+        <text>fucosylated and galactosylated bi-antennary glycan structures</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:50Z</infon>
+        <location offset="25009" length="17"/>
+        <text>Core fucosylation</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:55Z</infon>
+        <location offset="25087" length="37"/>
+        <text>unfucosylated bi-antennary structures</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T13:59:59Z</infon>
+        <location offset="25165" length="2"/>
+        <text>G2</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:00:03Z</infon>
+        <location offset="25229" length="23"/>
+        <text>minor glycan structures</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Multi_affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:00:07Z</infon>
+        <location offset="25290" length="33"/>
+        <text>ungalactosylated glycan structure</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:00:12Z</infon>
+        <location offset="25351" length="13"/>
+        <text>CCI treatment</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:00:46Z</infon>
+        <location offset="25519" length="9"/>
+        <text>G1 to G1F</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:00:50Z</infon>
+        <location offset="25579" length="10"/>
+        <text>G0F to G1F</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:01:03Z</infon>
+        <location offset="25784" length="15"/>
+        <text>N-linked glycan</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:01:07Z</infon>
+        <location offset="25829" length="13"/>
+        <text>CCI treatment</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f5.jpg</infon>
+      <infon key="id">fig05</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25844</offset>
+      <text>G0/G1 arrest improves glycan processing of mAb. The indicated recombinant CHO cell lines expressing different monoclonal antibodies were subjected to 5-day plate-based production culture with or without CCI treatment. Day 5 production supernatants were collected and protein A-purified and the glycan profiles of the mAbs were analyzed using HILIC method to determine the structures and relative levels of different glycan structures. Average percentage of High mannose (HM) (A) and G1F + G2F (B) from the indicated cell lines are shown. Data represent the average +- SD of triplicate samples. Details of glycan profile and structures of the N-linked glycan species detected on mAb from cell line C was analyzed by HILIC assay (C). *P &lt; 0.05, **P &lt; 0.01, and ***P &lt; 0.001 represent statistically significant differences between untreated controls and different CCI treated conditions.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>26749</offset>
+      <text>Comparison of Different Growth Arrest Methods on Cell Performance and Product Quality in Bioreactor Productions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26861</offset>
+      <text>As mentioned earlier, decreasing culture temperature and nutrient-limitation are the two major methods that have been used to control cell growth and also improve qP during perfused bioreactor production processes. Here we compared the similarity and the difference between these approaches with CDK4/6 inhibitor treatment. Recombinant cells were seeded below 1 x 106/mL. When VCD reached approximately 4 x 107/mL (day 8), the bioreactors were treated either by CCI compound addition or a culture temperature shift from 36 C to 30 C (TS). For the nutrient-limiting condition, low Asn (5 mM) medium was used since this method has been effective in our hands for many cell lines. As shown in Figure 6, cells from the control bioreactor reached 1.2 x 108/mL at day 15. On the other hand, cell growth is well controlled by CCI treatment and a 30 C-temperature shift (&lt;7 x 107/mL) without causing cell death (Fig. 6A and B). Both approaches increased qP from 20 to 40-45 pg/cell/day at day 15 (Fig. 6C). Low Asn had a similar but less pronounced effect on both growth control and qP (Fig. 6A and C). With increased qP, the production titers were therefore not impacted compared to control, even though VCDs were decreased in CCI, temperature shift and low Asn conditions (Fig. 6D). Differences were found in mAb PQA between these methods. Antibody produced from 30 C-temperature shift condition showed an obvious decrease in HMW compared to control, suggesting lower cultivation temperature may improve mAb assembly (Fig. 6E). However, decreasing the culture temperature to 30 C induced an increase of mAb HM level, with a concomitant decrease in the level of bi-antennary galatosylated glycans (G1F and G2F) (Fig. 6F and G). In comparison, CCI-treatment reduced HM and increased G1F/G2F levels (Fig. 6E and F), which are consistent with the 24-DWP production assay for this cell line (Figs. 4E and 5B, cell line D).</text>
+      <annotation id="37">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:05:50Z</infon>
+        <location offset="27990" length="6"/>
+        <text>titers</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:05:55Z</infon>
+        <location offset="28081" length="3"/>
+        <text>CCI</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:05:59Z</infon>
+        <location offset="28086" length="17"/>
+        <text>temperature shift</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:02Z</infon>
+        <location offset="28109" length="17"/>
+        <text>ow Asn conditions</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:32Z</infon>
+        <location offset="28392" length="42"/>
+        <text>decreasing the culture temperature to 30 C</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:51Z</infon>
+        <location offset="28462" length="2"/>
+        <text>HM</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:38Z</infon>
+        <location offset="28516" length="34"/>
+        <text>bi-antennary galatosylated glycans</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:45Z</infon>
+        <location offset="28597" length="13"/>
+        <text>CCI-treatment</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:52Z</infon>
+        <location offset="28619" length="2"/>
+        <text>HM</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:06:56Z</infon>
+        <location offset="28636" length="14"/>
+        <text>G1F/G2F levels</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f6.jpg</infon>
+      <infon key="id">fig06</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>28804</offset>
+      <text>The comparison of different growth control approaches in bioreactors. A recombinant CHO cell line was cultured in production bioreactors as described in the Materials and Methods section. 10 microM of inhibitor was added to the indicated bioreactor at day 8. For the temperature shift condition, the culture temperature was decreased from 36 to 30 C at day 8. For the Low Asn condition, perfusion medium with 5 mM Asn was substituted for the standard 17.3 mM for the indicated bioreactor. VCD (A) and viability (B) were measured daily. Production supernatants were collected and protein A-purified. qP (C), titer (D), HMW (E), high mannose (HM) (F), and terminal galactose (G) were analyzed as described in the Materials and Methods section. Each point represents the average and standard deviation of duplicate measurements from two independent bioreactor runs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29671</offset>
+      <text>To determine if the phenotypic changes observed in production reactors and product quality correlated with changes in gene expression, DNA microarray analysis was performed. The analysis showed that the mRNA levels of many enzymes and transporters involved in the N-linked glycosylation pathway were significantly decreased in the temperature shift condition but increased in CCI-treated cells (Fig. 7). These genes are key processing enzymes in glycan trimming and maturation, including GlcNAc beta 1,4 (1,3)-galactosyltransferase (B3galt, B4galt), beta-galactosidealpha-2,3-sialyltransferase 1 (St3gal), UDP-galactose transporter (Slc35a2), mannoside acetylglucosaminyltransferase 1(Mgat1), UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase (B3galnt), and fucosyltransferase 8 (Fut8) (Fig. 7). Genes that are involved in glyco-protein quality control, such as calnexin, were also downregulated in mRNA levels in the temperature shift condition (Fig. 7). Epigenetic suppressors, such as Sirtuin 1, were upregulated in the temperature shift condition, providing a possible link between metabolism homeostasis and modulation of glycosylation pathway genes. The expression profiles of genes involved in the cell cycle pathway were also compared. Interestingly, CKIs, such as p21 (Cdkn1a) and p27 (Cdkn1b), were significantly upregulated with temperature shift, at 24 h, but not as the result of CCI treatment (Fig. 8), suggesting that CKIs are involved in temperature shift-, but not CCI-, mediated cellular effects. The low Asn condition induced fewer changes in the cell cycle pathway compared to CCI or temperature shift with the exception of a slight increase in p15 (Cdkn2b) expression but not other CKIs, suggesting a different growth arrest mechanism. The result from CCI-treatment is consistent with previous studies (; Fry et al.,) since all E2F target genes, which include CKIs, CDK2, CCNA, CCNB, and CCNE, are all down-regulated, due to deactivation of CDK4/6 function (Fig. 8). Thus, the CCI-mediated G0/G1 arrest is different from CKI-dependent approaches, which could partly explain the difference in phenotypes. Taken together these data support a model in which a selective and complete cell cycle G0/G1 arrest, mediated by directly blocking CDK4/6 functions, can both inhibit cell proliferation and simultaneously induce a program that favors recombinant protein secretion, assembly and glycosylation modification.</text>
+      <annotation id="49">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:08:02Z</infon>
+        <location offset="29935" length="30"/>
+        <text>N-linked glycosylation pathway</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:07:55Z</infon>
+        <location offset="30002" length="17"/>
+        <text>temperature shift</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:07:58Z</infon>
+        <location offset="30047" length="11"/>
+        <text>CCI-treated</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:08:29Z</infon>
+        <location offset="30513" length="29"/>
+        <text>glyco-protein quality control</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:08:35Z</infon>
+        <location offset="30608" length="17"/>
+        <text>temperature shift</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:08:49Z</infon>
+        <location offset="30713" length="17"/>
+        <text>temperature shift</text>
+      </annotation>
+      <annotation id="53">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:08:54Z</infon>
+        <location offset="30817" length="21"/>
+        <text>glycosylation pathway</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:10:03Z</infon>
+        <location offset="31891" length="23"/>
+        <text>cell cycle G0/G1 arrest</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">christian_zeigler@waters.com</infon>
+        <infon key="updated_at">2023-12-29T14:10:12Z</infon>
+        <location offset="32092" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f7.jpg</infon>
+      <infon key="id">fig07</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>32122</offset>
+      <text>The changes of genes involved in N-linked glycosylation at the mRNA level. Cells were collected from the production bioreactor cultures at each indicated time point (24, 48, and 72 h). Total RNA was isolated and subjected to microarray analysis as described in Materials and Methods section. All measurements are relative to control at each time point. Genes were selected for this analysis if their expression levels deviated from the control by at least a fold change of +-2. Designated P-value cutoffs were used to compile lists of significantly changed genes used for downstream pathway analysis. The color scale ranges from saturated blue for log2 ratios -4.0 and below to saturated orange for log ratios 2.80 and above. Each gene is represented by a single row of colored boxes; each time point is represented by a single column. (A) The sequence-verified named genes in these clusters involved in N-linked glycosylation. (B) A comparison of interactions and cellular localizations of key differentially regulated N-linked glycosylation proteins. Direct interactions are shown with solid edges while indirect interactions are represented with dashed edges.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">bit0112-0141-f8.jpg</infon>
+      <infon key="id">fig08</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>33289</offset>
+      <text>Expression changes of genes involved in the cell cycle pathway at the mRNA level. Cells with the treatment of CCI, low Asn, and 33 C-temperature shift were collected from the production bioreactors at each indicated time point (24, 48, and 72 h). Total RNA was isolated and subjected to microarray analysis as described in Materials and Methods section. Genes involved in the cell cycle pathway are shown. Values represent the fold changes in expression levels. Different color shades indicate significant (P &lt; 0.001, P &lt; 0.01, P &lt; 0.05) changes in all conditions represented.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>33881</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33892</offset>
+      <text>In this study, we identified a novel approach to inducing complete G0/G1 arrest by directly and selectively inhibiting CDK4/6, specific CDKs involved in G1, with a small molecule CCI which, to date, has not been used in the therapeutic mAb production field. Our data demonstrate consistent and broad effects of this approach on growth control and improvement of specific productivity, without negative impact on product quality, with all high-producing cell lines tested, including the ones that have not responded to other approaches (unpublished data). While the tested cell lines already produce 18-53 pg/cell/day mAb, that is, within the range estimated for professional secretory cells in vivo, CCI-treatment alone can further increase mAb secretion 2 to 3 fold up to 110 pg/cell/day. The cell cycle analysis indicated that this CCI-mediated cell cycle G0/G1 arrest is more complete (&gt;96%) than both nutrient-limitation and temperature shift (&lt;80%) (Fig. 3). The continuously decreasing number of cells in G2/M phase with the CCI suggests that the inhibitory effect is specific to G1 CDKs (Fig. 3E). This is consistent with the minimal effect on cell viability observed by CCI treatment since elevated G2/M is usually associated with enhanced apoptosis. This phenomenon distinguishes CCI-treatment from CKI-overexpression approaches since CKIs, especially p21, can induce a significant increase in G2/M arrest. Our DNA microarray data also suggests that CKIs are not the major players in the CCI-mediated effect, since mRNA levels of p21, p27, and p19 (Cdkn2d) were unchanged in the CCI treated cells compared to other cell cycle arrest conditions such as temperature shift (Fig. 8) where they were increased. p15 was slightly increased at 48 h of CCI treatment but started to decrease at 72 h, which cannot explain the rapid onset and sustained cell arrest and increasing qP observed in the CCI treated cultures (Figs. 3 and 4). Our results raise the possibility that this CCI-mediated cell cycle arrest is CKI-independent, or the involvement of other non-canonical CKIs that are not within our detectable range.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36021</offset>
+      <text>Decreasing cultivation temperature is one of the most commonly used approaches in recombinant protein expression since it can be accurately controlled during the bioreactor process. Lower temperature decreases the global transcription/translation rate but still results in increased recombinant protein expression though this mechanism is not completely understood. Cold shock proteins, such as CIRP and RBM3, have been suggested to be involved in the modulation of transcription and translation by functioning as RNA chaperones, increasing mRNA levels of the recombinant DNA. However, reducing temperature can also induce significant changes in N-linked glycosylation (; Yoon et al.,). Our data shows that reducing cultivation temperature to 30 C impacted glycan processing. This included increased high mannose glycoforms and a decrease in terminal galactose addition to form mature G1F and G2F glycoforms (Fig. 6). The DNA microarray data supports this finding, showing that multiple genes involved in the N-linked glycosylation pathway are significantly down-regulated (Fig. 7), likely leading to the observed changes in mAb glycosylation as monitored by HILIC assay (Fig. 6). In comparison, CCI-treatment improves glycan processing by decreasing HM and increasing G1F and G2F glycoforms, in contrast to the temperature shift condition. Therefore, this additional feature makes this approach more attractive especially for commercial mAb production and biosimilar process development.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37511</offset>
+      <text>In theory, sustained cell cycle arrest at G0/G1 phase is coupled with cell differentiation, the stage at which the cell reaches its maximum level of biogenesis and protein expression. Through a complete G0/G1 enrichment by CCI-treatment, we have shown that both specific productivity and secretion-related pathways, such as protein assembly and N-linked glycosylation can be increased. Mechanisms describing how these two events are coordinated in CHO cells and are being investigated. Optimization of key production process parameters, such as increasing seeding density and production culture duration, together with CCI-treatment to maximize the ultimate recombinant protein yield in a general platform process are still in development.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38251</offset>
+      <text>Overall, the data presented here indicate that complete G0/G1 arrest by directly blocking CDK4/6 kinase activity is a robust and consistent approach that is applicable to mAb production. This study provides a foothold from which to gain further insight into the interactions and importance of cell cycle G0/G1 arrest on recombinant protein secretion and the related signaling pathways. These additional insights will provide a basis for the rational design of both cellular and process engineering strategies to advance recombinant protein production processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38813</offset>
+      <text>We thank Rohini Deshpande, Kathy Keegan, Oliver Thiel, Lawrence R. McGee, John G. Allen, Alexander Swietlow, and Matthew Janson for strategy discussions and small molecule recommendations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39002</offset>
+      <text>This part of work was supported by Amgen Inc. We certify that this does not alter our adherence to all the Biotechnology and Bioengineering policies on sharing data and materials.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>39182</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Stark;given-names:GR</infon>
+      <infon key="name_2">surname:Taylor;given-names:WR</infon>
+      <infon key="name_1">surname:Agarwal;given-names:A</infon>
+      <infon key="name_0">surname:Agarwal;given-names:ML</infon>
+      <infon key="fpage">8493</infon>
+      <infon key="issue">18</infon>
+      <infon key="pub-id_pmid">7667317</infon>
+      <infon key="year">1995</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">92</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">8497</infon>
+      <offset>39193</offset>
+      <text>p53 controls both the G2/M and the G1 cell cycle checkpoints and mediates reversible growth arrest in human fibroblasts</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Smales;given-names:CM</infon>
+      <infon key="name_2">surname:Carden;given-names:MJ</infon>
+      <infon key="name_1">surname:Marchant;given-names:RJ</infon>
+      <infon key="name_0">surname:Al-Fageeh;given-names:MB</infon>
+      <infon key="fpage">829</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">16329142</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">93</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">835</infon>
+      <offset>39313</offset>
+      <text>The cold-shock response in cultured mammalian cells: Harnessing the response for the improvement of recombinant protein production</text>
+    </passage>
+    <passage>
+      <infon key="volume">40</infon>
+      <infon key="name_1">surname:Harris;given-names:AL</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ameri;given-names:K</infon>
+      <infon key="fpage">14</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">17466566</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Int J Biochem Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">21</infon>
+      <offset>39444</offset>
+      <text>Activating transcription factor 4</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yoon;given-names:SK</infon>
+      <infon key="name_2">surname:An;given-names:SR</infon>
+      <infon key="name_1">surname:Lee;given-names:MS</infon>
+      <infon key="name_0">surname:Baik;given-names:JY</infon>
+      <infon key="fpage">361</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">16187333</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">93</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Lee;given-names:GM</infon>
+      <infon key="lpage">371</infon>
+      <infon key="name_6">surname:Park;given-names:HW</infon>
+      <infon key="name_5">surname:Kim;given-names:YH</infon>
+      <infon key="name_4">surname:Joo;given-names:EJ</infon>
+      <offset>39478</offset>
+      <text>Initial transcriptome and proteome analyses of low culture temperature-induced expression in CHO cells producing erythropoietin</text>
+    </passage>
+    <passage>
+      <infon key="volume">3</infon>
+      <infon key="name_1">surname:Wek;given-names:RC</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Baird;given-names:TD</infon>
+      <infon key="fpage">307</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">22585904</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Adv Nutr</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">321</infon>
+      <offset>39606</offset>
+      <text>Eukaryotic initiation factor 2 phosphorylation and translational control in metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Clynes;given-names:M</infon>
+      <infon key="name_2">surname:Kelly;given-names:P</infon>
+      <infon key="name_1">surname:Sanchez;given-names:N</infon>
+      <infon key="name_0">surname:Barron;given-names:N</infon>
+      <infon key="fpage">11</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">20872159</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol Lett</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">21</infon>
+      <offset>39693</offset>
+      <text>MicroRNAs: Tiny targets for engineering CHO cell phenotypes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Dobrusin;given-names:E</infon>
+      <infon key="name_2">surname:Cossrow;given-names:J</infon>
+      <infon key="name_1">surname:Boschelli;given-names:DH</infon>
+      <infon key="name_0">surname:Barvian;given-names:M</infon>
+      <infon key="pub-id_pmid">11101352</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">J Med Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">4616</infon>
+      <infon key="fpage">4606</infon>
+      <infon key="issue">24</infon>
+      <infon key="volume">43</infon>
+      <infon key="name_10">surname:La;given-names:F</infon>
+      <infon key="name_13">surname:Quin;given-names:M</infon>
+      <infon key="name_14">surname:Trumpp-Kallmeyer;given-names:S</infon>
+      <infon key="name_11">surname:Leopold;given-names:W</infon>
+      <infon key="name_12">surname:McNamara;given-names:D</infon>
+      <infon key="name_17">surname:Zhang;given-names:E</infon>
+      <infon key="name_15">surname:Toogood;given-names:P</infon>
+      <infon key="name_9">surname:Garrett;given-names:M</infon>
+      <infon key="name_16">surname:Wu;given-names:Z</infon>
+      <infon key="name_8">surname:Keller;given-names:P</infon>
+      <infon key="name_7">surname:Harvey;given-names:P</infon>
+      <infon key="name_6">surname:Fry;given-names:D</infon>
+      <infon key="name_5">surname:Fritsch;given-names:A</infon>
+      <infon key="name_4">surname:Fattaey;given-names:A</infon>
+      <offset>39753</offset>
+      <text>Pyrido[2,3-d]pyrimidin-7-one inhibitors of cyclin-dependent kinases</text>
+    </passage>
+    <passage>
+      <infon key="volume">85</infon>
+      <infon key="name_2">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="name_1">surname:Shuttleworth;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bi;given-names:JX</infon>
+      <infon key="fpage">741</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_pmid">14991652</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">749</infon>
+      <offset>39821</offset>
+      <text>Uncoupling of cell growth and proliferation results in enhancement of productivity in p21CIP1-arrested CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">8</infon>
+      <infon key="name_1">surname:Cross;given-names:FR</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bloom;given-names:J</infon>
+      <infon key="fpage">149</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">17245415</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">160</infon>
+      <offset>39934</offset>
+      <text>Multiple levels of cyclin specificity in cell-cycle control</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_2">surname:Malumbres;given-names:M</infon>
+      <infon key="name_1">surname:Perez de Castro;given-names:I</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Bueno;given-names:MJ</infon>
+      <infon key="fpage">3143</infon>
+      <infon key="issue">20</infon>
+      <infon key="pub-id_pmid">18843198</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">3148</infon>
+      <offset>39994</offset>
+      <text>Control of cell proliferation pathways by microRNAs</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shackleford;given-names:S</infon>
+      <infon key="name_2">surname:Yoon;given-names:S</infon>
+      <infon key="name_1">surname:Tsai;given-names:YS</infon>
+      <infon key="name_0">surname:Chuppa;given-names:S</infon>
+      <infon key="fpage">328</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">18636491</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">55</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Naveh;given-names:D</infon>
+      <infon key="name_8">surname:Konstantinov;given-names:K</infon>
+      <infon key="name_7">surname:Matanguihan;given-names:C</infon>
+      <infon key="lpage">338</infon>
+      <infon key="name_6">surname:Tsay;given-names:G</infon>
+      <infon key="name_5">surname:Bhat;given-names:R</infon>
+      <infon key="name_4">surname:Rozales;given-names:C</infon>
+      <offset>40046</offset>
+      <text>Fermentor temperature as a tool for control of high-density perfusion cultures of mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Fujita;given-names:J</infon>
+      <infon key="name_2">surname:Matsuda;given-names:T</infon>
+      <infon key="name_1">surname:Itoh;given-names:K</infon>
+      <infon key="name_0">surname:Danno;given-names:S</infon>
+      <infon key="fpage">1685</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">10793079</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Am J Pathol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">156</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1692</infon>
+      <offset>40144</offset>
+      <text>Decreased expression of mouse Rbm3, a cold-shock protein, in Sertoli cells of cryptorchid testis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Palam;given-names:LR</infon>
+      <infon key="name_2">surname:Zhou;given-names:D</infon>
+      <infon key="name_1">surname:Baird;given-names:TD</infon>
+      <infon key="name_0">surname:Dey;given-names:S</infon>
+      <infon key="fpage">33165</infon>
+      <infon key="issue">43</infon>
+      <infon key="pub-id_pmid">20732869</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">285</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">33174</infon>
+      <infon key="name_5">surname:Wek;given-names:RC</infon>
+      <infon key="name_4">surname:Spandau;given-names:DF</infon>
+      <offset>40241</offset>
+      <text>Both transcriptional regulation and translational control of ATF4 are central to the integrated stress response</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Breen;given-names:L</infon>
+      <infon key="name_2">surname:Kinsella;given-names:P</infon>
+      <infon key="name_1">surname:Clarke;given-names:C</infon>
+      <infon key="name_0">surname:Doolan;given-names:P</infon>
+      <infon key="fpage">105</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">23651948</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">166</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Barron;given-names:N</infon>
+      <infon key="name_8">surname:Aherne;given-names:ST</infon>
+      <infon key="name_7">surname:Clynes;given-names:M</infon>
+      <infon key="lpage">113</infon>
+      <infon key="name_6">surname:Zhang;given-names:L</infon>
+      <infon key="name_5">surname:Leonard;given-names:M</infon>
+      <infon key="name_4">surname:Meleady;given-names:P</infon>
+      <offset>40353</offset>
+      <text>Transcriptomic analysis of clonal growth rate variation during CHO cell line development</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Vanderklish;given-names:PW</infon>
+      <infon key="name_2">surname:Owens;given-names:GC</infon>
+      <infon key="name_1">surname:Aschrafi;given-names:A</infon>
+      <infon key="name_0">surname:Dresios;given-names:J</infon>
+      <infon key="fpage">1865</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">15684048</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">102</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1870</infon>
+      <infon key="name_5">surname:Mauro;given-names:VP</infon>
+      <infon key="name_4">surname:Edelman;given-names:GM</infon>
+      <offset>40442</offset>
+      <text>Cold stress-induced protein Rbm3 binds 60S ribosomal subunits, alters microRNA levels, and enhances global protein synthesis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Snowden;given-names:A</infon>
+      <infon key="name_2">surname:Reddy;given-names:P</infon>
+      <infon key="name_1">surname:McCarter;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Du;given-names:Z</infon>
+      <infon key="year">2014</infon>
+      <infon key="comment">Patent US20140199728/WO2014109858</infon>
+      <infon key="type">ref</infon>
+      <infon key="name_5">surname:Treiber;given-names:D</infon>
+      <infon key="name_4">surname:McGee;given-names:L</infon>
+      <offset>40567</offset>
+      <text>Methods of using cell-cycle inhibitors to modulate one or more properties of a cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Miller;given-names:AK</infon>
+      <infon key="name_2">surname:McCoy;given-names:RE</infon>
+      <infon key="name_1">surname:Treiber;given-names:D</infon>
+      <infon key="name_0">surname:Du;given-names:Z</infon>
+      <infon key="fpage">2184</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_pmid">23436541</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_8">surname:Reddy;given-names:P</infon>
+      <infon key="name_7">surname:Heath;given-names:C</infon>
+      <infon key="lpage">2194</infon>
+      <infon key="name_6">surname:Domnitz;given-names:S</infon>
+      <infon key="name_5">surname:He;given-names:F</infon>
+      <infon key="name_4">surname:Han;given-names:M</infon>
+      <offset>40659</offset>
+      <text>Non-invasive UPR monitoring system and its applications in CHO production cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="name_1">surname:Reed;given-names:SI</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ekholm;given-names:SV</infon>
+      <infon key="fpage">676</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">11063931</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">684</infon>
+      <offset>40742</offset>
+      <text>Regulation of G(1) cyclin-dependent kinases in the mammalian cell cycle</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Follstad;given-names:B</infon>
+      <infon key="name_2">surname:McCoy;given-names:R</infon>
+      <infon key="name_1">surname:Gosink;given-names:JJ</infon>
+      <infon key="name_0">surname:Fomina-Yadlin;given-names:D</infon>
+      <infon key="fpage">965</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">24254056</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">111</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">979</infon>
+      <infon key="name_6">surname:McGrew;given-names:JT</infon>
+      <infon key="name_5">surname:Russell;given-names:CB</infon>
+      <infon key="name_4">surname:Morris;given-names:A</infon>
+      <offset>40814</offset>
+      <text>Cellular responses to individual amino-acid depletion in antibody-expressing and parental CHO cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Fritsch;given-names:A</infon>
+      <infon key="name_2">surname:Harvey;given-names:PH</infon>
+      <infon key="name_1">surname:Bedford;given-names:DC</infon>
+      <infon key="name_0">surname:Fry;given-names:DW</infon>
+      <infon key="fpage">16617</infon>
+      <infon key="issue">20</infon>
+      <infon key="pub-id_pmid">11278443</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">276</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Garrett;given-names:MD</infon>
+      <infon key="name_8">surname:Fattaey;given-names:A</infon>
+      <infon key="name_7">surname:Leopold;given-names:WR</infon>
+      <infon key="lpage">16623</infon>
+      <infon key="name_6">surname:Dobrusin;given-names:E</infon>
+      <infon key="name_5">surname:Wu;given-names:Z</infon>
+      <infon key="name_4">surname:Keller;given-names:PR</infon>
+      <offset>40919</offset>
+      <text>Cell cycle and biochemical effects of PD 0183812. A potent inhibitor of the cyclin D-dependent kinases CDK4 and CDK6</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Elliott;given-names:WL</infon>
+      <infon key="name_2">surname:Keller;given-names:PR</infon>
+      <infon key="name_1">surname:Harvey;given-names:PJ</infon>
+      <infon key="name_0">surname:Fry;given-names:DW</infon>
+      <infon key="fpage">1427</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_pmid">15542782</infon>
+      <infon key="year">2004</infon>
+      <infon key="source">Mol Cancer Ther</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">3</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Pryer;given-names:NK</infon>
+      <infon key="name_8">surname:Leopold;given-names:WR</infon>
+      <infon key="name_7">surname:Zheng;given-names:X</infon>
+      <infon key="lpage">1438</infon>
+      <infon key="name_6">surname:Albassam;given-names:M</infon>
+      <infon key="name_5">surname:Trachet;given-names:E</infon>
+      <infon key="name_4">surname:Meade;given-names:M</infon>
+      <offset>41036</offset>
+      <text>Specific inhibition of cyclin-dependent kinase 4/6 by PD 0332991 and associated antitumor activity in human tumor xenografts</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="name_1">surname:Ohsuye;given-names:K</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Furukawa;given-names:K</infon>
+      <infon key="fpage">85</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_pmid">19003128</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">94</infon>
+      <offset>41161</offset>
+      <text>Enhancement of productivity of recombinant alpha-amidating enzyme by low temperature culture</text>
+    </passage>
+    <passage>
+      <infon key="volume">55</infon>
+      <infon key="name_2">surname:Bailey;given-names:JE</infon>
+      <infon key="name_1">surname:Mazur;given-names:X</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Fussenegger;given-names:M</infon>
+      <infon key="fpage">927</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">18636602</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">939</infon>
+      <offset>41254</offset>
+      <text>A novel cytostatic process enhances the productivity of Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mazur;given-names:X</infon>
+      <infon key="name_2">surname:Datwyler;given-names:D</infon>
+      <infon key="name_1">surname:Schlatter;given-names:S</infon>
+      <infon key="name_0">surname:Fussenegger;given-names:M</infon>
+      <infon key="fpage">468</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">9592397</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Nat Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">16</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">472</infon>
+      <infon key="name_4">surname:Bailey;given-names:JE</infon>
+      <offset>41338</offset>
+      <text>Controlled proliferation by multigene metabolic engineering enhances the productivity of Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shah;given-names:B</infon>
+      <infon key="name_2">surname:Zhang;given-names:Z</infon>
+      <infon key="name_1">surname:Liu;given-names:YD</infon>
+      <infon key="name_0">surname:Goetze;given-names:AM</infon>
+      <infon key="fpage">949</infon>
+      <infon key="issue">7</infon>
+      <infon key="pub-id_pmid">21421994</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">959</infon>
+      <infon key="name_6">surname:Flynn;given-names:GC</infon>
+      <infon key="name_5">surname:Bondarenko;given-names:PV</infon>
+      <infon key="name_4">surname:Lee;given-names:E</infon>
+      <offset>41455</offset>
+      <text>High-mannose glycans on the Fc region of therapeutic IgG antibodies increase serum clearance in humans</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_2">surname:Grillari;given-names:J</infon>
+      <infon key="name_1">surname:Borth;given-names:N</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hackl;given-names:M</infon>
+      <infon key="fpage">405</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_pmid">22673691</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Trends Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">406</infon>
+      <offset>41558</offset>
+      <text>miRNAs-pathway engineering of CHO cell factories that avoids translational burdening</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Diehl;given-names:JA</infon>
+      <infon key="name_2">surname:Cullinan;given-names:SB</infon>
+      <infon key="name_1">surname:Bennett;given-names:BS</infon>
+      <infon key="name_0">surname:Hamanaka;given-names:RB</infon>
+      <infon key="fpage">5493</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">16176978</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">16</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">5501</infon>
+      <offset>41645</offset>
+      <text>PERK and GCN2 contribute to eIF2alpha phosphorylation and cell cycle arrest after activation of the unfolded protein response pathway</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Zeng;given-names:H</infon>
+      <infon key="name_2">surname:Bertolotti;given-names:A</infon>
+      <infon key="name_1">surname:Zhang;given-names:Y</infon>
+      <infon key="name_0">surname:Harding;given-names:HP</infon>
+      <infon key="fpage">897</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">10882126</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">5</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">904</infon>
+      <infon key="name_4">surname:Ron;given-names:D</infon>
+      <offset>41779</offset>
+      <text>Perk is essential for translational regulation and cell survival during the unfolded protein response</text>
+    </passage>
+    <passage>
+      <infon key="volume">397</infon>
+      <infon key="name_2">surname:Ron;given-names:D</infon>
+      <infon key="name_1">surname:Zhang;given-names:Y</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Harding;given-names:HP</infon>
+      <infon key="fpage">271</infon>
+      <infon key="issue">6716</infon>
+      <infon key="pub-id_pmid">9930704</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Nature</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">274</infon>
+      <offset>41881</offset>
+      <text>Protein translation and folding are coupled by an endoplasmic-reticulum-resident kinase</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Novoa;given-names:I</infon>
+      <infon key="name_2">surname:Zeng;given-names:H</infon>
+      <infon key="name_1">surname:Zhang;given-names:Y</infon>
+      <infon key="name_0">surname:Harding;given-names:HP</infon>
+      <infon key="fpage">619</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">12667446</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Paules;given-names:R</infon>
+      <infon key="name_8">surname:Popko;given-names:B</infon>
+      <infon key="name_7">surname:Yun;given-names:C</infon>
+      <infon key="lpage">633</infon>
+      <infon key="name_6">surname:Sadri;given-names:N</infon>
+      <infon key="name_5">surname:Calfon;given-names:M</infon>
+      <infon key="name_4">surname:Lu;given-names:PD</infon>
+      <offset>41969</offset>
+      <text>An integrated stress response regulates amino acid metabolism and resistance to oxidative stress</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Vandeputte;given-names:O</infon>
+      <infon key="name_2">surname:Abdelkafi;given-names:C</infon>
+      <infon key="name_1">surname:Winnepenninckx;given-names:P</infon>
+      <infon key="name_0">surname:Hendrick;given-names:V</infon>
+      <infon key="fpage">71</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_pmid">19003317</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">36</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Werenne;given-names:J</infon>
+      <infon key="name_8">surname:Kretzmer;given-names:G</infon>
+      <infon key="name_7">surname:Loa;given-names:A</infon>
+      <infon key="lpage">83</infon>
+      <infon key="name_6">surname:Renemann;given-names:G</infon>
+      <infon key="name_5">surname:Marique;given-names:T</infon>
+      <infon key="name_4">surname:Cherlet;given-names:M</infon>
+      <offset>42066</offset>
+      <text>Increased productivity of recombinant tissular plasminogen activator (t-PA) by butyrate and shift of temperature: A cell cycle phases analysis</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="name_2">surname:Hunt;given-names:T</infon>
+      <infon key="name_1">surname:Takeda;given-names:S</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hochegger;given-names:H</infon>
+      <infon key="fpage">910</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_pmid">18813291</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">916</infon>
+      <offset>42209</offset>
+      <text>Cyclin-dependent kinases and cell-cycle transitions: Does one fit all</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shuttleworth;given-names:J</infon>
+      <infon key="name_2">surname:Bi;given-names:JX</infon>
+      <infon key="name_1">surname:Watanabe;given-names:S</infon>
+      <infon key="name_0">surname:Ibarra;given-names:N</infon>
+      <infon key="fpage">224</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">12573029</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">228</infon>
+      <infon key="name_4">surname:Al-Rubeai;given-names:M</infon>
+      <offset>42279</offset>
+      <text>Modulation of cell cycle for enhancement of antibody productivity in perfusion culture of NS0 cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Shridhar;given-names:S</infon>
+      <infon key="name_2">surname:Druz;given-names:A</infon>
+      <infon key="name_1">surname:Hackl;given-names:M</infon>
+      <infon key="name_0">surname:Jadhav;given-names:V</infon>
+      <infon key="fpage">1501</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_pmid">23916872</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol Adv</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Barron;given-names:N</infon>
+      <infon key="name_8">surname:Shiloach;given-names:J</infon>
+      <infon key="name_7">surname:Betenbaugh;given-names:M</infon>
+      <infon key="lpage">1513</infon>
+      <infon key="name_6">surname:Kreil;given-names:DP</infon>
+      <infon key="name_5">surname:Heffner;given-names:KM</infon>
+      <infon key="name_4">surname:Chung;given-names:CY</infon>
+      <offset>42379</offset>
+      <text>CHO microRNA engineering is growing up: Recent successes and future challenges</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Hackl;given-names:M</infon>
+      <infon key="name_2">surname:Nissom;given-names:PM</infon>
+      <infon key="name_1">surname:Jacob;given-names:NM</infon>
+      <infon key="name_0">surname:Johnson;given-names:KC</infon>
+      <infon key="fpage">475</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">20830683</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">108</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">480</infon>
+      <infon key="name_6">surname:Hu;given-names:WS</infon>
+      <infon key="name_5">surname:Yap;given-names:M</infon>
+      <infon key="name_4">surname:Lee;given-names:LH</infon>
+      <offset>42458</offset>
+      <text>Conserved microRNAs in Chinese hamster ovary cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Keck;given-names:R</infon>
+      <infon key="name_2">surname:Chin;given-names:EH</infon>
+      <infon key="name_1">surname:Papac;given-names:DI</infon>
+      <infon key="name_0">surname:Jones;given-names:AJ</infon>
+      <infon key="fpage">529</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">17331977</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Glycobiology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">17</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Battersby;given-names:JE</infon>
+      <infon key="lpage">540</infon>
+      <infon key="name_6">surname:Kneer;given-names:J</infon>
+      <infon key="name_5">surname:Lin;given-names:YS</infon>
+      <infon key="name_4">surname:Baughman;given-names:SA</infon>
+      <offset>42514</offset>
+      <text>Selective clearance of glycoforms of a complex glycoprotein pharmaceutical caused by terminal N-acetylglucosamine is similar in humans and cynomolgus monkeys</text>
+    </passage>
+    <passage>
+      <infon key="volume">64</infon>
+      <infon key="name_1">surname:Ozturk;given-names:SS</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jorjani;given-names:P</infon>
+      <infon key="fpage">349</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">10397872</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">356</infon>
+      <offset>42672</offset>
+      <text>Effects of cell density and temperature on oxygen consumption rate for different mammalian cell lines</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Epstein;given-names:E</infon>
+      <infon key="name_2">surname:Yee;given-names:JC</infon>
+      <infon key="name_1">surname:Jacob;given-names:NM</infon>
+      <infon key="name_0">surname:Kantardjieff;given-names:A</infon>
+      <infon key="fpage">143</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">19770009</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">145</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Hu;given-names:WS</infon>
+      <infon key="lpage">159</infon>
+      <infon key="name_6">surname:Betenbaugh;given-names:M</infon>
+      <infon key="name_5">surname:Philp;given-names:R</infon>
+      <infon key="name_4">surname:Kok;given-names:YJ</infon>
+      <offset>42774</offset>
+      <text>Transcriptome and proteome analysis of Chinese hamster ovary cells under low temperature and butyrate treatment</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bailey;given-names:JE</infon>
+      <infon key="name_2">surname:Fussenegger;given-names:M</infon>
+      <infon key="name_1">surname:Mazur;given-names:X</infon>
+      <infon key="name_0">surname:Kaufmann;given-names:H</infon>
+      <infon key="fpage">573</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">10397813</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">63</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">582</infon>
+      <offset>42886</offset>
+      <text>Influence of low temperature on productivity, proteome and protein phosphorylation of CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bailey;given-names:JE</infon>
+      <infon key="name_2">surname:Marone;given-names:R</infon>
+      <infon key="name_1">surname:Mazur;given-names:X</infon>
+      <infon key="name_0">surname:Kaufmann;given-names:H</infon>
+      <infon key="fpage">592</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">11460250</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">72</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">602</infon>
+      <infon key="name_4">surname:Fussenegger;given-names:M</infon>
+      <offset>42982</offset>
+      <text>Comparative analysis of two controlled proliferation strategies regarding product quality, influence on tetracycline-regulated gene expression, and productivity</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="name_2">surname:Su;given-names:N</infon>
+      <infon key="name_1">surname:Shan;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kilberg;given-names:MS</infon>
+      <infon key="fpage">436</infon>
+      <infon key="issue">9</infon>
+      <infon key="pub-id_pmid">19800252</infon>
+      <infon key="year">2009</infon>
+      <infon key="source">Trends Endocrinol Metab</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">443</infon>
+      <offset>43143</offset>
+      <text>ATF4-dependent transcription mediates signaling of amino acid limitation</text>
+    </passage>
+    <passage>
+      <infon key="volume">53</infon>
+      <infon key="name_2">surname:Clynes;given-names:M</infon>
+      <infon key="name_1">surname:Gammell;given-names:P</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kumar;given-names:N</infon>
+      <infon key="fpage">33</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_pmid">19003188</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">46</infon>
+      <offset>43216</offset>
+      <text>Proliferation control strategies to improve productivity and survival during CHO based production culture: A summary of recent methods employed and the effects of proliferation control in product secreting CHO cell lines</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="name_1">surname:Vaessin;given-names:H</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Li;given-names:L</infon>
+      <infon key="fpage">147</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">10652268</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">151</infon>
+      <offset>43437</offset>
+      <text>Pan-neural Prospero terminates cell proliferation during Drosophila neurogenesis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wall;given-names:N</infon>
+      <infon key="name_2">surname:Li;given-names:YW</infon>
+      <infon key="name_1">surname:Bhuiyan;given-names:M</infon>
+      <infon key="name_0">surname:Lian;given-names:F</infon>
+      <infon key="fpage">184</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">9795970</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Nutr Cancer</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">31</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">191</infon>
+      <infon key="name_5">surname:Sarkar;given-names:FH</infon>
+      <infon key="name_4">surname:Kraut;given-names:M</infon>
+      <offset>43518</offset>
+      <text>Genistein-induced G2-M arrest, p21WAF1 upregulation, and apoptosis in a non-small-cell lung cancer cell line</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Bailey;given-names:JE</infon>
+      <infon key="name_2">surname:Renner;given-names:WA</infon>
+      <infon key="name_1">surname:Fussenegger;given-names:M</infon>
+      <infon key="name_0">surname:Mazur;given-names:X</infon>
+      <infon key="fpage">705</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">9758659</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">713</infon>
+      <offset>43627</offset>
+      <text>Higher productivity of growth-arrested Chinese hamster ovary cells expressing the cyclin-dependent kinase inhibitor p27</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Donahue;given-names:CJ</infon>
+      <infon key="name_2">surname:Dutina;given-names:G</infon>
+      <infon key="name_1">surname:Mercer;given-names:J</infon>
+      <infon key="name_0">surname:Moore;given-names:A</infon>
+      <infon key="fpage">47</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_pmid">22358520</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">23</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Ryll;given-names:T</infon>
+      <infon key="lpage">54</infon>
+      <infon key="name_6">surname:Etcheverry;given-names:T</infon>
+      <infon key="name_5">surname:Mather;given-names:JP</infon>
+      <infon key="name_4">surname:Bauer;given-names:KD</infon>
+      <offset>43747</offset>
+      <text>Effects of temperature shift on cell cycle, apoptosis and nucleotide pools in CHO cell batch cultues</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Morgan;given-names:DO</infon>
+      <infon key="fpage">261</infon>
+      <infon key="pub-id_pmid">9442875</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">291</infon>
+      <offset>43848</offset>
+      <text>Cyclin-dependent kinases: engines, clocks, and microprocessors</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="name_1">surname:Duronio;given-names:RJ</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Myster;given-names:DL</infon>
+      <infon key="fpage">R302</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_pmid">10801410</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">R304</infon>
+      <offset>43911</offset>
+      <text>To differentiate or not to differentiate</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Linhardt;given-names:RJ</infon>
+      <infon key="name_2">surname:Ermonval;given-names:M</infon>
+      <infon key="name_1">surname:Zhang;given-names:F</infon>
+      <infon key="name_0">surname:Nam;given-names:JH</infon>
+      <infon key="fpage">1178</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">18553404</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">100</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1192</infon>
+      <infon key="name_4">surname:Sharfstein;given-names:ST</infon>
+      <offset>43952</offset>
+      <text>The effects of culture conditions on the glycosylation of secreted human placental alkaline phosphatase produced in Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Itoh;given-names:K</infon>
+      <infon key="name_2">surname:Yokoi;given-names:H</infon>
+      <infon key="name_1">surname:Higashitsuji;given-names:H</infon>
+      <infon key="name_0">surname:Nishiyama;given-names:H</infon>
+      <infon key="fpage">115</infon>
+      <infon key="issue">1-2</infon>
+      <infon key="pub-id_pmid">9434172</infon>
+      <infon key="year">1997a</infon>
+      <infon key="source">Gene</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">204</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">120</infon>
+      <infon key="name_6">surname:Fujita;given-names:J</infon>
+      <infon key="name_5">surname:Matsuda;given-names:T</infon>
+      <infon key="name_4">surname:Danno;given-names:S</infon>
+      <offset>44096</offset>
+      <text>Cloning and characterization of human CIRP (cold-inducible RNA-binding protein) cDNA and chromosomal assignment of the gene</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kishishita;given-names:M</infon>
+      <infon key="name_2">surname:Kaneko;given-names:Y</infon>
+      <infon key="name_1">surname:Itoh;given-names:K</infon>
+      <infon key="name_0">surname:Nishiyama;given-names:H</infon>
+      <infon key="fpage">899</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">9151692</infon>
+      <infon key="year">1997b</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">137</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">908</infon>
+      <infon key="name_5">surname:Fujita;given-names:J</infon>
+      <infon key="name_4">surname:Yoshida;given-names:O</infon>
+      <offset>44220</offset>
+      <text>A glycine-rich RNA-binding protein mediating cold-inducible suppression of mammalian cell growth</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="name_2">surname:Strasser;given-names:A</infon>
+      <infon key="name_1">surname:Huang;given-names:DC</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:O'Reilly;given-names:LA</infon>
+      <infon key="fpage">6979</infon>
+      <infon key="issue">24</infon>
+      <infon key="pub-id_pmid">9003774</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">6990</infon>
+      <offset>44317</offset>
+      <text>The cell death inhibitor Bcl-2 and its homologues influence control of cell cycle entry</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Brandner;given-names:G</infon>
+      <infon key="name_2">surname:Rimpler;given-names:H</infon>
+      <infon key="name_1">surname:Fritsche;given-names:M</infon>
+      <infon key="name_0">surname:Plaumann;given-names:B</infon>
+      <infon key="fpage">1605</infon>
+      <infon key="issue">8</infon>
+      <infon key="pub-id_pmid">8895505</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1614</infon>
+      <infon key="name_4">surname:Hess;given-names:RD</infon>
+      <offset>44405</offset>
+      <text>Flavonoids activate wild-type p53</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Reddy;given-names:P</infon>
+      <infon key="name_2">surname:Thomas;given-names:J</infon>
+      <infon key="name_1">surname:Davis;given-names:R</infon>
+      <infon key="name_0">surname:Rasmussen;given-names:B</infon>
+      <infon key="fpage">31</infon>
+      <infon key="issue">1-3</infon>
+      <infon key="pub-id_pmid">19003404</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">28</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">42</infon>
+      <offset>44439</offset>
+      <text>Isolation, characterization and recombinant protein expression in Veggie-CHO: A serum-free CHO host cell line</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Abu-Absi;given-names:S</infon>
+      <infon key="name_2">surname:Heidemann;given-names:R</infon>
+      <infon key="name_1">surname:Matanguihan;given-names:R</infon>
+      <infon key="name_0">surname:Sajan;given-names:E</infon>
+      <infon key="fpage">785</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">ESACT Proc</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">4</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Zhang;given-names:C</infon>
+      <infon key="name_8">surname:Murphy;given-names:JE</infon>
+      <infon key="name_7">surname:Chen;given-names:J</infon>
+      <infon key="lpage">788</infon>
+      <infon key="name_6">surname:Wu;given-names:X</infon>
+      <infon key="name_5">surname:Yamasaki;given-names:G</infon>
+      <infon key="name_4">surname:Asuncion;given-names:W</infon>
+      <offset>44549</offset>
+      <text>The effect of bioreactor pH and temperature on protein glycosylation in perfusion cultures of mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Campbell;given-names:CT</infon>
+      <infon key="name_2">surname:Meledeo;given-names:MA</infon>
+      <infon key="name_1">surname:Jones;given-names:MB</infon>
+      <infon key="name_0">surname:Sampathkumar;given-names:SG</infon>
+      <infon key="fpage">1265</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">17185222</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Chem Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">13</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Head;given-names:SR</infon>
+      <infon key="name_8">surname:Gilmartin;given-names:T</infon>
+      <infon key="name_7">surname:Sheh;given-names:A</infon>
+      <infon key="lpage">1275</infon>
+      <infon key="name_6">surname:Gomutputra;given-names:P</infon>
+      <infon key="name_5">surname:Hida;given-names:K</infon>
+      <infon key="name_4">surname:Choi;given-names:SS</infon>
+      <offset>44659</offset>
+      <text>Targeting glycosylation pathways and the cell cycle: Sugar-dependent activity of butyrate-carbohydrate cancer prodrugs</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gallagher;given-names:C</infon>
+      <infon key="name_2">surname:Lao;given-names:N</infon>
+      <infon key="name_1">surname:Gallagher;given-names:M</infon>
+      <infon key="name_0">surname:Sanchez;given-names:N</infon>
+      <infon key="fpage">e65671</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">23762407</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">8</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Clynes;given-names:M</infon>
+      <infon key="name_8">surname:Meleady;given-names:P</infon>
+      <infon key="name_7">surname:Blanco;given-names:A</infon>
+      <infon key="name_6">surname:Aherne;given-names:S</infon>
+      <infon key="name_5">surname:Doolan;given-names:P</infon>
+      <infon key="name_4">surname:Clarke;given-names:C</infon>
+      <offset>44778</offset>
+      <text>MiR-7 triggers cell cycle arrest at the G1/S transition by targeting multiple genes including Skp2 and Psme3</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ron;given-names:D</infon>
+      <infon key="name_2">surname:Kaufman;given-names:RJ</infon>
+      <infon key="name_1">surname:Gao;given-names:N</infon>
+      <infon key="name_0">surname:Shang;given-names:J</infon>
+      <infon key="fpage">605</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">17325203</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">176</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">616</infon>
+      <infon key="name_5">surname:Lehrman;given-names:MA</infon>
+      <infon key="name_4">surname:Harding;given-names:HP</infon>
+      <offset>44887</offset>
+      <text>Translation attenuation by PERK balances ER glycoprotein synthesis with lipid-linked oligosaccharide flux</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Barsky;given-names:SH</infon>
+      <infon key="name_2">surname:Fontana;given-names:JA</infon>
+      <infon key="name_1">surname:Alpaugh;given-names:ML</infon>
+      <infon key="name_0">surname:Shao;given-names:ZM</infon>
+      <infon key="fpage">44</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">9513045</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">J Cell Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">69</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">54</infon>
+      <offset>44993</offset>
+      <text>Genistein inhibits proliferation similarly in estrogen receptor-positive and negative human breast carcinoma cell lines characterized by P21WAF1/CIP1 induction, G2/M arrest, and apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_1">surname:Roberts;given-names:JM</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sherr;given-names:CJ</infon>
+      <infon key="fpage">1501</infon>
+      <infon key="issue">12</infon>
+      <infon key="pub-id_pmid">10385618</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1512</infon>
+      <offset>45181</offset>
+      <text>CDK inhibitors: Positive and negative regulators of G1-phase progression</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="name_2">surname:Emery;given-names:AN</infon>
+      <infon key="name_1">surname:Singh;given-names:RP</infon>
+      <infon key="name_0">surname:Simpson;given-names:NH</infon>
+      <infon key="fpage">174</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">10397853</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">64</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">186</infon>
+      <offset>45254</offset>
+      <text>Bcl-2 over-expression reduces growth rate and prolongs G1 phase in continuous chemostat cultures of hybridoma cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">39</infon>
+      <infon key="name_2">surname:Mathews;given-names:MB</infon>
+      <infon key="name_1">surname:Hershey;given-names:JW</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sonenberg;given-names:N</infon>
+      <infon key="fpage">33</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Cold Spring Harbor Monograph</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">88</infon>
+      <offset>45370</offset>
+      <text>Translational Control of Gene Expression</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lilly;given-names:CM</infon>
+      <infon key="name_2">surname:Gaffin;given-names:SL</infon>
+      <infon key="name_1">surname:Fujita;given-names:J</infon>
+      <infon key="name_0">surname:Sonna;given-names:LA</infon>
+      <infon key="fpage">1725</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">11896043</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">J Appl Physiol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">92</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1742</infon>
+      <offset>45411</offset>
+      <text>Invited review: Effects of heat and cold stress on mammalian gene expression</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Guillouf;given-names:C</infon>
+      <infon key="name_2">surname:Iro;given-names:A</infon>
+      <infon key="name_1">surname:Hoffman;given-names:B</infon>
+      <infon key="name_0">surname:Steinman;given-names:RA</infon>
+      <infon key="fpage">3389</infon>
+      <infon key="issue">11</infon>
+      <infon key="pub-id_pmid">7936667</infon>
+      <infon key="year">1994</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3396</infon>
+      <infon key="name_5">surname:el-Houseini;given-names:ME</infon>
+      <infon key="name_4">surname:Liebermann;given-names:DA</infon>
+      <offset>45488</offset>
+      <text>Induction of p21 (WAF-1/CIP1) during differentiation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Tolstrup;given-names:A</infon>
+      <infon key="name_2">surname:Koenitzer;given-names:J</infon>
+      <infon key="name_1">surname:Florin;given-names:L</infon>
+      <infon key="name_0">surname:Strotbek;given-names:M</infon>
+      <infon key="fpage">157</infon>
+      <infon key="pub-id_pmid">24144501</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Metab Eng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">166</infon>
+      <infon key="name_6">surname:Olayioye;given-names:MA</infon>
+      <infon key="name_5">surname:Hausser;given-names:A</infon>
+      <infon key="name_4">surname:Kaufmann;given-names:H</infon>
+      <offset>45541</offset>
+      <text>Stable microRNA expression enhances therapeutic antibody productivity of Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Seth;given-names:P</infon>
+      <infon key="name_2">surname:Grinspan;given-names:JB</infon>
+      <infon key="name_1">surname:Beesley;given-names:JS</infon>
+      <infon key="name_0">surname:Tang;given-names:XM</infon>
+      <infon key="fpage">270</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">10618643</infon>
+      <infon key="year">1999</infon>
+      <infon key="source">J Cell Biochem</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">76</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">279</infon>
+      <infon key="name_5">surname:Cambi;given-names:F</infon>
+      <infon key="name_4">surname:Kamholz;given-names:J</infon>
+      <offset>45642</offset>
+      <text>Cell cycle arrest induced by ectopic expression of p27 is not sufficient to promote oligodendrocyte differentiation</text>
+    </passage>
+    <passage>
+      <infon key="volume">100</infon>
+      <infon key="name_1">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Tey;given-names:BT</infon>
+      <infon key="fpage">303</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">16243281</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">J Biosci Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">310</infon>
+      <offset>45758</offset>
+      <text>Effect of Bcl-2 overexpression on cell cycle and antibody productivity in chemostat cultures of myeloma NS0 cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Toogood;given-names:PL</infon>
+      <infon key="fpage">487</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">11607930</infon>
+      <infon key="year">2001</infon>
+      <infon key="source">Med Res Rev</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">498</infon>
+      <offset>45872</offset>
+      <text>Cyclin-dependent kinase inhibitors for treating cancer</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Schriebl;given-names:K</infon>
+      <infon key="name_2">surname:Seidinger;given-names:S</infon>
+      <infon key="name_1">surname:Fauland;given-names:K</infon>
+      <infon key="name_0">surname:Trummer;given-names:E</infon>
+      <infon key="fpage">1045</infon>
+      <infon key="issue">6</infon>
+      <infon key="pub-id_pmid">16736532</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">94</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_9">surname:Katinger;given-names:H</infon>
+      <infon key="name_8">surname:Borth;given-names:N</infon>
+      <infon key="name_7">surname:Weik;given-names:R</infon>
+      <infon key="lpage">1052</infon>
+      <infon key="name_6">surname:Vorauer-Uhl;given-names:K</infon>
+      <infon key="name_5">surname:Kunert;given-names:R</infon>
+      <infon key="name_4">surname:Lattenmayer;given-names:C</infon>
+      <offset>45927</offset>
+      <text>Process parameter shifting: Part II. Biphasic cultivation-A tool for enhancing the volumetric productivity of batch processes using Epo-Fc expressing CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ottoboni;given-names:C</infon>
+      <infon key="name_2">surname:Beccaglia;given-names:P</infon>
+      <infon key="name_1">surname:Vignati;given-names:S</infon>
+      <infon key="name_0">surname:Vikhanskaya;given-names:F</infon>
+      <infon key="fpage">96</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">9633517</infon>
+      <infon key="year">1998</infon>
+      <infon key="source">Exp Cell Res</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">241</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">101</infon>
+      <infon key="name_6">surname:Broggini;given-names:M</infon>
+      <infon key="name_5">surname:D'Incalci;given-names:M</infon>
+      <infon key="name_4">surname:Russo;given-names:P</infon>
+      <offset>46087</offset>
+      <text>Inactivation of p53 in a human ovarian cancer cell line increases the sensitivity to paclitaxel by inducing G2/M arrest and apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:FY</infon>
+      <infon key="name_2">surname:Fairchild;given-names:C</infon>
+      <infon key="name_1">surname:Donaldson;given-names:KL</infon>
+      <infon key="name_0">surname:Wahl;given-names:AF</infon>
+      <infon key="fpage">72</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">8564846</infon>
+      <infon key="year">1996</infon>
+      <infon key="source">Nat Med</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">2</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">79</infon>
+      <infon key="name_6">surname:Galloway;given-names:DA</infon>
+      <infon key="name_5">surname:Demers;given-names:GW</infon>
+      <infon key="name_4">surname:Foster;given-names:SA</infon>
+      <offset>46221</offset>
+      <text>Loss of normal p53 function confers sensitization to Taxol by increasing G2/M arrest and apoptosis</text>
+    </passage>
+    <passage>
+      <infon key="volume">77</infon>
+      <infon key="name_2">surname:Al-Rubeai;given-names:M</infon>
+      <infon key="name_1">surname:Shuttleworth;given-names:J</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Watanabe;given-names:S</infon>
+      <infon key="fpage">1</infon>
+      <infon key="issue">1</infon>
+      <infon key="pub-id_pmid">11745168</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">7</infon>
+      <offset>46320</offset>
+      <text>Regulation of cell cycle and productivity in NS0 cells by the over-expression of p21CIP1</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="name_2">surname:Anthony;given-names:TG</infon>
+      <infon key="name_1">surname:Jiang;given-names:HY</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wek;given-names:RC</infon>
+      <infon key="fpage">7</infon>
+      <infon key="issue">Pt 1</infon>
+      <infon key="pub-id_pmid">16246168</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">Biochem Soc Trans</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">11</infon>
+      <offset>46409</offset>
+      <text>Coping with stress: eIF2 kinases and translational control</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Zhao;given-names:S</infon>
+      <infon key="name_2">surname:Hardy;given-names:L</infon>
+      <infon key="name_1">surname:Spector;given-names:S</infon>
+      <infon key="name_0">surname:Xia;given-names:W</infon>
+      <infon key="fpage">7494</infon>
+      <infon key="issue">13</infon>
+      <infon key="pub-id_pmid">10861014</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">97</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">7499</infon>
+      <infon key="name_6">surname:Spector;given-names:NL</infon>
+      <infon key="name_5">surname:Alemane;given-names:L</infon>
+      <infon key="name_4">surname:Saluk;given-names:A</infon>
+      <offset>46468</offset>
+      <text>Tumor selective G2/M cell cycle arrest and apoptosis of epithelial and hematological malignancies by BBL22, a benzazepine</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yeung;given-names:SC</infon>
+      <infon key="name_2">surname:Sun;given-names:L</infon>
+      <infon key="name_1">surname:Pan;given-names:JX</infon>
+      <infon key="name_0">surname:Yang;given-names:HL</infon>
+      <infon key="fpage">763</infon>
+      <infon key="issue">2</infon>
+      <infon key="pub-id_pmid">12574211</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">J Clin Endocrinol Metab</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">88</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">772</infon>
+      <offset>46590</offset>
+      <text>p21 Waf-1 (Cip-1) enhances apoptosis induced by manumycin and paclitaxel in anaplastic thyroid cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yap;given-names:M</infon>
+      <infon key="name_2">surname:Philp;given-names:RJ</infon>
+      <infon key="name_1">surname:de Leon Gatti;given-names:M</infon>
+      <infon key="name_0">surname:Yee;given-names:JC</infon>
+      <infon key="fpage">1186</infon>
+      <infon key="issue">5</infon>
+      <infon key="pub-id_pmid">17929327</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">99</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1204</infon>
+      <infon key="name_4">surname:Hu;given-names:WS</infon>
+      <offset>46698</offset>
+      <text>Genomic and proteomic exploration of CHO and hybridoma cells under sodium butyrate treatment</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Lee;given-names:GM</infon>
+      <infon key="name_2">surname:Song;given-names:JY</infon>
+      <infon key="name_1">surname:Choi;given-names:SL</infon>
+      <infon key="name_0">surname:Yoon;given-names:SK</infon>
+      <infon key="fpage">345</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">15625678</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">356</infon>
+      <offset>46791</offset>
+      <text>Effect of culture pH on erythropoietin production by Chinese hamster ovary cells grown in suspension at 32.5 and 37.0 C</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="name_2">surname:Lee;given-names:GM</infon>
+      <infon key="name_1">surname:Kim;given-names:SH</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Yoon;given-names:SK</infon>
+      <infon key="fpage">1383</infon>
+      <infon key="issue">4</infon>
+      <infon key="pub-id_pmid">12892507</infon>
+      <infon key="year">2003a</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1386</infon>
+      <offset>46912</offset>
+      <text>Effect of low culture temperature on specific productivity and transcription level of anti-4-1BB antibody in recombinant Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">82</infon>
+      <infon key="name_2">surname:Lee;given-names:GM</infon>
+      <infon key="name_1">surname:Song;given-names:JY</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Yoon;given-names:SK</infon>
+      <infon key="fpage">289</infon>
+      <infon key="issue">3</infon>
+      <infon key="pub-id_pmid">12599255</infon>
+      <infon key="year">2003b</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">298</infon>
+      <offset>47061</offset>
+      <text>Effect of low culture temperature on specific productivity, transcription level, and heterogeneity of erythropoietin in Chinese hamster ovary cells</text>
+    </passage>
+  </document>
+</collection>

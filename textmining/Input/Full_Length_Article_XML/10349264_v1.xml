@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>10349264</id>
+    <infon key="tt_curatable">no</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Kampmann;given-names:Markus</infon>
+      <infon key="name_2">surname:Kappes;given-names:Annika</infon>
+      <infon key="name_1">surname:Saballus;given-names:Martin</infon>
+      <infon key="name_0">surname:Reger;given-names:Lucas Nik</infon>
+      <infon key="article-id_pmid">37456731</infon>
+      <infon key="year">2023</infon>
+      <infon key="article-id_pmc">10349264</infon>
+      <infon key="article-id_publisher-id">1211410</infon>
+      <infon key="alt-title">Reger et al.  10.3389/fbioe.2023.1211410 </infon>
+      <infon key="article-id_doi">10.3389/fbioe.2023.1211410</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">1211410</infon>
+      <infon key="volume">11</infon>
+      <infon key="license">This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Front Bioeng Biotechnol;2023; 11 1211410. doi:10.3389/fbioe.2023.1211410</infon>
+      <infon key="kwd">CHO cell culture process intensification fluidized bed centrifuge monoclonal antibodies intermediate harvest continuous biomanufacturing</infon>
+      <infon key="name_6">surname:Niemann;given-names:Julia</infon>
+      <infon key="name_5">surname:Martens;given-names:Dirk E.</infon>
+      <infon key="name_4">surname:Wijffels;given-names:Rene H.</infon>
+      <infon key="authors">Reger LN, Saballus M, Kappes A, Kampmann M, Wijffels RH, Martens DE, Niemann J, </infon>
+      <offset>0</offset>
+      <text>A novel hybrid bioprocess strategy addressing key challenges of advanced biomanufacturing</text>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>90</offset>
+      <text>Monoclonal antibodies (mAb) are commonly manufactured by either discontinuous operations like fed-batch (FB) or continuous processes such as steady-state perfusion. Both process types comprise opposing advantages and disadvantages in areas such as plant utilization, feasible cell densities, media consumption and process monitoring effort. In this study, we show feasibility of a promising novel hybrid process strategy that combines beneficial attributes of both process formats. In detail, our strategy comprises a short duration FB, followed by a fast media exchange and cell density readjustment, marking the start of the next FB cycle. Utilizing a small-scale screening tool, we were able to identify beneficial process parameters, including FB interval duration and reinoculation cell density, that allow for multiple cycles of the outlined process in a reproducible manner. In addition, we could demonstrate scalability of the process to a 5L benchtop system, using a fluidized-bed centrifuge as scalable media exchange system. The novel process showed increased productivity (+217%) as well as longer cultivation duration, in comparison to a standard FB with a significantly lower media consumption per produced product (-50%) and a decreased need for process monitoring, in comparison to a perfusion cultivation. Further, the process revealed constant glycosylation pattern in comparison to the perfusion cultivation and has strong potential for further scale-up, due to the use of fully scalable cultivation and media exchange platforms. In summary, we have developed a novel hybrid process strategy that tackles the key challenges of current biomanufacturing of either low productivity or high media consumption, representing a new and innovative approach for future process intensification efforts.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1904</offset>
+      <text>1 Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1919</offset>
+      <text>The development and manufacturing of biopharmaceuticals including monoclonal antibodies (mAb) have gained major importance due to their growing demand in treatments of cancerous, immunological and infectious diseases. MAbs offer higher target specificities and elongated half-lives compared to pharmaceuticals of low molecular weight, such as small molecule drugs, resulting in a high interest in these molecules as demonstrated by increasing numbers of antibodies entering clinical trials, and getting regulatory approval. Additionally, their mode of action can be modified and optimized in various ways by molecular engineering. However, to achieve the desired bioactivity and avoid immunogenicity, host-specific posttranslational modifications (PTM) of the expressed mAb, like glycosylation, are essential. Therefore, mAbs are commonly expressed in mammalian cells capable of PTM, especially in Chinese Hamster Ovary (CHO) cells due to their status as secure production host and their proven high volumetric productivity. Thereby, different process modes are utilized within the upstream manufacturing of mAb based therapeutics comprising distinct sets of advantages and disadvantages.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3108</offset>
+      <text>A commonly used upstream process operation in mAb production is the fed-batch (FB) mode, comprising feed additions throughout a batch cultivation to supply fresh nutrients to the cells. This process comprises an exponential growth phase in which cell numbers increase and cell viability is high, followed by a stationary- and death phase with stable or decreasing viable cell counts and decreasing viability. Commonly, the accumulation of metabolic byproducts or nutrient limitation triggers the transition from the growth phase to the stationary phase and hence, limits the achievable cell density, cultivation time and volumetric productivity. The advantages of the FB operation are efficient utilization of growth media in comparison continuous processes, resulting in lower operational costs which increases the economic potential.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3944</offset>
+      <text>To overcome the FB specific limitations, like decreased cell densities and cultivation durations, continuous processes like perfusion are applied. Thereby, a continuous media exchange is applied, while cells are kept in the reactor using cell retention devices, which usually are filter-based-systems in either tangential flow or alternative tangential flow. Alternative cell retention can be achieved, for example, by using hydrocyclones, acoustic separation or gravitational settlers. Thereby, spent media containing the product, residual nutrients as well as metabolic byproducts passes the cell retention device and consecutive enters the downstream operations, meanwhile new media is added to the process to supply fresh nutrients. With the application of cell bleed, i.e., removing spent medium with cells, a pseudo-steady state can be introduced, allowing for stable high cell densities. This process modification allows for an up to 5-fold increase in volumetric productivity and can strongly enhance plant utilization compared to a fed-batch process. However, high media expenses due to media exchange rates up to 3 bioreactor volumes per day, limited filter capacities and operational complexity are the downsides of perfusion processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5192</offset>
+      <text>Besides the two main process operations, novel process intensification strategies have emerged during recent years, aiming to combine on FB and perfusion cell culture techniques to reach high volumetric productivities as in perfusion with a reduced use of medium as in fed-batch. One example comprises enhanced cell counts in the seed train, facilitated by perfusion operation, followed by a FB operation in the production bioreactor. This intensification strategy not only allows for significantly reduced seed culture volumes and steps as well as increased n-stage inoculation cell densities that consecutively eliminate the less productive initial growth phase in the production reactor. This so called high inoculation FB decreases the total process time, while keeping final mAb titers constant, resulting in an overall increase in process productivity. Another approach by involves a perfusion process in the beginning of the cultivation to increase the overall cell density, subsequently the process is changed to a FB operation to minimize media consumption. Thereby, the overall output of the process could be enhanced with a relatively low increase of media consumption. A third hybrid approach recently demonstrated by our group is the so-called intermediate harvest (IH) strategy, a single and fast media exchange during a FB operation done by a fluidized-bed-centrifuge (FBC). By doing a single media exchange in this way increased peak cell densities as well as volumetric productivities could be achieved similar to the process from. All of these intensified processes rely on a beneficial combination of high cell densities of the perfusion culture mode and the low media consumption of the FB process mode, However, all introduced intensification have a limited process duration and thus still result in a discontinuous process mode. Therefore, a process with continuous characteristics alongside to low media consumption and high cell densities is highly desirable.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7176</offset>
+      <text>The aim of this study was to identify a possible process scheme to enable a continuous process operation based on a hybrid process strategy between perfusion and fed-batch. Thereby, this new process should combine increased volumetric productivities, as achieved in common discontinuous FB process, with significant lower media consumption as required in typical continuous perfusion cultivation. In addition, the process should comprise comparably low process control and monitoring needs. To enable this hybrid process strategy the rapid media exchange by Intermediate Harvests (IH) should be utilized, followed by a short duration fed-batch (FB cycle). This process will be further referred to as continuous fed-batch (cFB). In a first step, the feasibility and limitations of this new concept should be investigated in a 15 mL small-scale system utilizing a IH mimic method. Thereby, different re-inoculations densities and FB durations should be evaluated. In a second step the most promising concept should be scaled-up to benchtop-scale to demonstrate feasibility, and further process optimization. Subsequently, a comparison to the standard process, FB and steady-state perfusion, should be conducted.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>8387</offset>
+      <text>2 Materials and methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8411</offset>
+      <text>2.1 Cell line and medium</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8436</offset>
+      <text>A DHFR-deficient Chinese hamster ovary (CHO- DG44) monoclonal cell line was used, stably expressing an IgG1 (pI: 7.3) product. The chemically defined 4Cell SmartCHO (Sartorius Stedim Biotech) media system, comprising the Stock and Adaption media as well as the Production Media with a two feed solution (Feed A and Feed B) was used for all n-stage processes as well as seed train cultivations. All seed trains were conducted with similar passage counts to secure consistency.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>8912</offset>
+      <text>2.2 Process characterization: small scale trials</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>8961</offset>
+      <text>The small-scale screening was conducted in an Ambr15 (Sartorius Stedim Biotech) high throughput system. Thereby, re-inoculation densities were tested from 20 x 106 to 30 x 106 cells/mL and FB durations between 2 and 3 days. After preparation of the system, temperature setpoint was set to 36.8 C, pH was controlled at 7.1 through CO2 gassing. DO was controlled at 40% with O2 gassing and stirrer speed set to 1.300 rpm with a liquid volume at around 11 mL. Bioreactors were inoculated with 0.3 x 106 cells/mL. After a 72-h batch phase, daily bolus feeds (Feed A with 4% and Feed B with 0.4%) with decreasing volumetric percentage and glucose (setpoint 4.5 g/L) were started. On day 6, all cultures were processed by using the semi-perfusion method to mimic the FBC operation and consecutive fresh media enriched basal media according to was supplied to each vessel. Subsequent, a flexible feeding scheme was implemented based on the daily viable cell volume. Thereby, the viable cell volume on peak cell density of the common FB process (34.9 mm3/mL) was fixed as single multiplication factor. Subsequent, the viable cell volume was determined daily and the multiplication factor was calculated and applied to the feed. Feeding volumes were split into two boluses for feeding 12 h apart. For all cultures the vessels were changed at day 12. On days of IHs, feeding scheme was adjusted to a single half feed to avoid overfeeding of cells cultured. Cell cultures were ended when reaching 70% cell viability or when observing stagnating cell growth between IHs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>10532</offset>
+      <text>2.3 Proof of concept: 5 L benchtop scale</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10574</offset>
+      <text>The proof of concept was conducted in a 5 L Univessel (Sartorius Stedim Biotech) system utilizing the 2-day IH interval with re-inoculation at 20 x 106 cells/mL for a total of six repetitions. Two different sets of experiments were done mainly differing in the wash media matrix and re-inoculation matrix for the FBC operations further explained in Section 2.4. Bioreactors were inoculated with 0.3 x 106 cells/mL from seed-cultures with a working volume of 3 L and similar DO, pH and temperature settings. Similar to small scale, an initial batch phase for 72 h was conducted with subsequent daily bolus feeding of the two complementary feeding solutions. On day 5, the cultures were processed by the FBC operations, with a subsequent cell bleed to reach a starting density of 20 x 106 cells/mL. Similar to the small scale a flexible fixed feeding twice a day in a multiplication factor of IVCV was implemented, on harvest days a decreased feeding was utilized to diminish possibility of excessive feeding. After six repetitions the cultivation was ended.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>11640</offset>
+      <text>2.4 FBC operation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11658</offset>
+      <text>For cell separation, concentration, and washing, an automated single-use centrifuge Ksep  400 system with a Ksep  400 Cell Wash Harvest Consumable Kit (Sartorius) was used. Thereby, the FBC operation consists of the steps loading, washing and discharging in cyclic repetition. The tubing of all receptions to the FBC system was sterile connected by a BioWelder  system (Sartorius) and disconnected by a BioSealer  TC system (Sartorius).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12099</offset>
+      <text>To achieve almost complete cell retention and replacement of the spent medium during each IH step by the FBC, cell broth was loaded and washed according to a protocol established by. In brief, the FBC was set to constant 1,000 x g at flow rate of 100 mL/min/chamber for loading and washing, with a maximal loading per chamber of around 90%. High concentration of the washed cells was enabled by an adapted FBC discharging recipe of the processed cells, applying an initial dump volume of 100 mL with a subsequent harvest volume of 300 mL at a harvest flow rate of 300 mL/min per FBC chamber. Both tested wash media, the pH 7.4 phosphate buffered saline (PBS, chemicals supplied by Carl Roth) and the fresh enriched basal medium generated according to were pre-tempered at 37 C, the subsequent FBC process was not temperature controlled.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>12942</offset>
+      <text>2.5 Sampling and analytics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12969</offset>
+      <text>Cell characteristics were measured by Cedex HiRes (Roche), metabolic parameters and pH by ABL800 basic (Radiometer) and ammonia analyzed via BioProfile  FLEX2  (Nova Biomedical). Residual samples were centrifuged at 6600 x g for 5 min (Centrisart A-14, Sartorius) at RT and stored at -20 C until further analysis.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13291</offset>
+      <text>IgG concentrations were determined by size exclusion chromatography (SEC) utilizing the Vanquish  Flex UHPLC System (Thermo Scientific) and Yarra  3 mum SEC-3000 (Phenomenex). For each measurement a standard curve with an IgG specific standard was prepared. The running buffer included 100 mM Na2SO4, 50 mM NaH2PO4 and 50 mM Na2HPO4 with pH 6.6 and was adjusted to a flowrate at 1 mL/min and 5 microL loading volume for each sample.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13731</offset>
+      <text>The relative amount of different IgG glycans was analyzed by capillary gel electrophoresis with the LabChip  GXII Touch  HT Protein Characterization System (PerkinElmer). First, supernatant samples were purified using PreDictor MabSelect SuRe 96-well plates (Cytiva) and the Ab buffer kit (Cytiva). Buffer from protein A purification was exchanged and desalted using Vivaspin  500 Centrifugal Concentrators (Sartorius) with a molecular mass cut off at 10 kDa. Purified and desalted samples were further processed with the Glycan Release and Labeling kit (PerkinElmer) for glycan measurement with the LabChip GXII Touch (Perkin Elmer).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14371</offset>
+      <text>Values for cell specific productivity (qP) as well as integral of viable cell concentration (IVCC) determination were calculated equivalent to. Integral of viable cell volume (IVCV) and specific growth rate (micro) was calculated according to. Product recoveries for the IH operation were calculated in correspondence to. All calculations are specified further in the Supplementary Eqs S1-S5.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>14764</offset>
+      <text>GraphPad Prism version 9.3.1 was used for statistical evaluation given in the single graphs. Threshold for significance level was alpha = 0.05, for normal distributed data sets analysis of variance (ANOVA) with Tukey's multiple comparison test was conducted. If standard deviation differed significantly according to Brown-Forsythe test, Dunnett's T3 multiple comparisons test was performed.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>15157</offset>
+      <text>3 Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15167</offset>
+      <text>The aim of this study was to combine the advantages of a perfusion process like elongated duration and increased cell densities overtime with the low media and consumable consumption of a discontinuous process format. In detail, this new designed process, called continuous fed-batch (cFB) should comprise a fixed FB duration (FB cycle) with a consecutive rapid and complete media exchange (IH operation) including a cell density adjustment (bleed). To test the applicability of this process a high throughput small-scale screening was conducted, utilizing a commercially relevant CHO cell line, comprising different durations and starting cell counts. Subsequent, the most promising approach was scaled up to a benchtop system (5L) to investigate the influence of the scalable exchange method via the fluidized bed centrifuge (FBC).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>16001</offset>
+      <text>3.1 Process characterization at small scale</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16045</offset>
+      <text>A small-scale trial was conducted to investigate a suitable cultivation scheme, including optimal FB cycle duration and cell density for reinoculation after the IH. Cells should remain in the logarithmic growth phase between IHs and therefore the cell bleed after each harvest cycle aims on keeping the cells in the proliferative state, defined as positive range of the cell specific growth rate (micro), to enable a continuous process mode. Three different approaches were investigated, re-inoculation at a viable cell count (VCC) of 20 x 106 cells/mL and an interval of 2 days (VCC 20 2d), re-inoculation at 30 x 106 cells/mL and an interval of 2 days (VCC 30 2d) and re-inoculation at 20 x 106 cells/mL and an interval of 3 days (VCC 20 3d), further explanation for the design space is discussed in Section 4.1. The VCC as well as the viability for the different conditions over time is shown in Figures 1A-C. All approaches show a similar growth and viability for the first 6 days as expected and reached VCCs of around 20 x 106 cells/mL. Subsequent, the first IH operations were conducted for each approach, indicated by the dotted lines.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-11-1211410-g001.jpg</infon>
+      <infon key="id">F1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>17198</offset>
+      <text>Cellular characteristics for the continuous fed-batch (cFB) process conducted in small scale. (A-C) Viable cell counts (solid line) and viabilities (dotted line) overtime for the scenarios VCC 20 d2 (A), VCC 30 d2 (B) and VCC 20 d3 (C). (D) Average diameter for each investigated approach over the course of the cultivation. All cultivations were done in duplicate and error bars represent the distance of the mean to the values obtained in both duplicates.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17658</offset>
+      <text>The VCC 20 2d approach (Figure 1A) grew reproducible to a peak cell density of ~30 x 106 cells/mL over the first two FB cycles. Subsequent, from day 12 to the end of the cultivation a variation in peak cell density was visible (25-35 x 106 cells/mL), partially due to variations in reinoculation densities caused by vessel change which will be discussed further in Section 4.3. This trend is supported by the specific growth rate over time visible in Supplementary Figure S1. In total six repetition could be conducted in the small-scale trials showing decreased growth in the last repetitions. The viability values for the VCC 20 d2 approach showed a decrease to 85% at day 12, after which a stabilization of viabilities is visible and a final viability of 79% is reached at day 18. Interestingly, the stabilization of the viability and high variation in peak VCC start occurring from day 12, concomitant with the change of the bioreactor vessel.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18614</offset>
+      <text>The approach with increased cell densities (VCC 30 d2) reached a peak cell density of 41.2 x 106 cells/mL during the first FB phase, visible in Figure 1B. Consecutively, after the following IH operation the reinoculation cell density was set to 30 x 106 cells/mL (d8) and the next FB phase was initiated. During the subsequent FB intervals, a decline in cell growth was visible, resulting in a decrease of peak cell densities for this approach, even with the bioreactor change at day 12. Similar to the VCC the viability and specific growth rate decreased over the time course, and especially after the last IH procedure at day 14 leading to the termination of the culture.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19292</offset>
+      <text>Finally, the third investigated scenario (Figure 1C) with an elongated FB duration of 3 days and reinoculation cell densities of 20 x 106 cells/mL, VCC 20 3d, showed a stable cell growth after the first IH (d6) up to the end of the first FB cycle on day 9, reaching peak cell densities of 32.5 x 106 cells/mL. However, after this no further cell growth, in cell count and specific growth rate, within the second FB cycle could be detected and a decrease in cell viability occurred, leading to an end of the cultivation on day 12. Further data of lactate and glucose levels can be found in the Supplementary Material.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>19914</offset>
+      <text>To gain further insight into the process the average cell diameter of each approach is displayed in Figure 1D. Interestingly, all approaches show a similar increase overtime from around 14 microm up to 18 microm. Notably, both cultures that received a vessel exchange (VCC20 2d and VCC30 2d) showed a temporary decrease in cell diameter shortly after the vessel change. Afterwards, the VCC20 2d showed a stabilization of the cellular diameter up to day 17.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20371</offset>
+      <text>To further analyze the approaches within the new designed process, product titers were quantified from day 6 on (Figures 2A-C). Thereby, all three approaches showed similar mAb titers of around 1 g/L up to day 6 before the initial IH operation. Subsequently, due to limited sampling volume at 15 mL scale no residual mAb titer sample was measured after the media exchange. Therefore, to improve visibility within Figures 2A-C, 0 g/L was assumed as starting point. For the approach VCC 20 2d, a mAb titer of 1.7 g/L (Figure 2A) could be detected after the first 2-day FB cycle on day 8. In the subsequent FB cycles, an increase to final titers of 2.0-2.8 g/L mAb, respectively, could be observed. Interestingly, an increase for the cell specific productivity (qP) over time is visible (bars in Figure 2A) from 36 pg/c/d within the first 2-day cultivation interval to 50-60 pg/c/d for the last four cycles. Accordingly, the mAb titer of the VCC 30 2d approach, Figure 2B, inclined from 2.3 g/L in the second IH (day 8) to over 3 g/L in the subsequent harvests. This increase is also reflected in the qP values, starting at around 35 pg/c/d for the second IH and reaching around 61-63 pg/c/d in the latest harvests. The titer values for the approach VCC 20 d3, shown in Figure 2C, indicate a stronger increase in titer in comparison to the VCC 20 2d approach with around 2.8-3.3 g/L in the first vs. the second 3 days of FB operation, respectively. Similar to other investigated approaches the qP values are increased from the second harvest (35 pg/c/d) to the third harvest (55 pg/c/d). Furthermore, the integrated titer over the complete cultivation duration is shown within the Supplementary Material. Interestingly, the incline in qP and titer correlates with the diameter increase shown in Figure 1D, indicating a proportional relation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-11-1211410-g002.jpg</infon>
+      <infon key="id">F2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>22237</offset>
+      <text>Expression levels of product and byproduct in the new designed process. (A-C) Titer values in g/L and cell specific productivity (pg/c/d) for the small-scale trials of the approaches VCC20 d2, VCC30 d2 and VCC 20 d3. (D) Ammonia level in mmol/L for each approach measured after the complete media exchange. All cultures were done in duplicate and error bars represent the distance of the mean to the values obtained in each duplicate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>22674</offset>
+      <text>As an important byproduct and cell culture state indicator, the ammonia concentration was monitored over time. The VCC 20 d2 approach showed constant and low levels ranging between 2.2- and 3.5-mM ammonia over the entire cultivation time of 18 days. However, the ammonia concentrations for VCC 30 d2 and VCC 20 d3 increased to 6.6 and 8.4 mmol/L over the course of cultivations, indicating a significant ammonia accumulation in these cultures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23120</offset>
+      <text>The data overall show that for each investigated approach at least 2 IH intervals could be carried out and an increase in qP with increasing process duration could be obtained, indicating a beneficial process strategy. Based on our data set the most promising approach, characterized by longest proliferating phase and low and stable amounts of ammonia over multiple IH cycles was the VCC20 d2. Therefore, the conducted small-scale screening indicates a feasible scenario for the proposed cFB process if a reinoculation cell density of 20 x 106 cells/mL and an FB duration of 2 days is pursued (VCC20 d2). In accordance, this approach was chosen for a scale-up to a 5 L bioreactor scale, comprising a fluidized-bed centrifuge (FBC) as scalable cell separation method for the IH operations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>23914</offset>
+      <text>3.2 Proof of concept at benchtop scale</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23953</offset>
+      <text>Following the process characterization of the different proposed cFB scenarios at screening scale a process scale-up with the identified preferential parameters, re-inoculation cell density 20 x 106 cells/mL and a 2-day interval, was conducted. This proof-of-concept run was pursued utilizing a 5 L benchtop reactor and a single-use FBC system for time saving, gentle and complete media exchange. Two parallel cultivations were conducted, comprising one approach with enriched cell culture media, further explained in Section 2.4, as wash buffer for the FBC operation (cFBPerfM) and a second approach utilizing PBS as wash buffer (cFB PBS).</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24597</offset>
+      <text>The course of VCC and viability for both benchtop reactors over time is displayed in Figure 3A. The cultivation conducted with enriched media as wash buffer (cFB PerfM; black line) showed overall consistent growth between the FB cycles. Overall peak cell densities after 2 days ranging from 35 x 106 to 41 x 106 cells/mL were reached throughout all six repetitions. This consistent growth is as well confirmed by the stable specific growth rate of around 0.37 1/d visible in the Supplementary Material. Additionally, the cell culture maintained a high cell viability of over 93% until the last day of the process. The approach utilizing PBS as wash buffer during IH operations (blue line) showed very similar trends. In this approach slightly decreased peak cell densities between 31 x 106 and 35 x 106 cells/mL were reached verified by a constant but lower specific growth rate of 0.29 1/d (Supplementary Material). This was accompanied by a minor reduction in viability down to 89% on day 17 in comparison to the cFB PerfM approach. Overall, cells showed better and more consisted growth behavior between IH operations as well as increased viability profiles overtime in comparison to the small-scale trials.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-11-1211410-g003.jpg</infon>
+      <infon key="id">F3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>25815</offset>
+      <text>Cellular characteristics of the proof-of-Concept experiment at benchtop scale. (A) Viable cell counts (circles) and Viability (squares) for both experimental approaches over time, the horizontal bar shows the targeted re-inoculation VCC. (B) Cellular diameter for both set of experiments overtime. (C) Summarized Integral of viable cell count (IVCC) and Integral of viable cell volume (IVCV) for the conducted experiments. All Media exchange (IH) events were indicated by a dotted vertical line at the specific timepoints.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>26338</offset>
+      <text>To further characterize the new process the average cell diameter was analyzed and is shown in Figure 3B. A similar increase for both reactors is visible during the first few days of cultivation. Subsequent, a stabilization of the diameter at 16-17 microm is visible for both set of experiments. Interestingly, after day 8 first small differences are visible with an overall increased diameter for the cFB PBS experiment of around 0.5 microm over the course of the cultivation. Overall, a specific behavior is noticeable in the diameter oscillation, with a clear increase during the first 12 h after IH operation, and a subsequent decrease over the following 12 h. Interestingly, the cell counts show an inverse behavior meaning that cells either grow in cell count or in cellular diameter within one period. To further analyze the cellular characteristics between both approaches the IVCC (Integral of Viable cell count) and IVCV (Integral of viable cell volume) were calculated. The reactor washed with PBS showed slightly decreased amounts of final IVCC for the overall process compared to the cFB PerfM (345 x 106 cells/mL vs. 359 x 106 cells/mL, respectively). This decrease can be explained by the small difference in peak cell densities visible in Figure 3A. Vice versa, the values for the IVCV showed a small increase for the cFB PBS experiment, as a result of the increase in diameter visible in Figure 3B.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27758</offset>
+      <text>To further gain insight into the process product specific parameters for both approaches like titer and cell specific productivity (qP) were determined and compared. Figure 3A shows the mAB titer overtime for the cFB PerfM cultivation indicated as solid line and the qP within a FB cycle represented by the individual bars. The titer curve steadily increases to the first IH operation to around 0.5 g/L, consecutively titers within FB cycles showed enhancing values from 1.5 up to 2.2 g/L in the 4th IH cycle (day 11) and then remained constant around 2.1-2.2 g/L. Similar to the titer values the qP values increased over time from around 27-40 pg/c/d at day 9 after which values remained constant around 40 pg/c/d. Similar to the results from the cFB PerfM reactor the titer in the cFB PBS reactor showed a constant increase in the first days to around 0.5 g/L. Consecutive, an increase of titer up to around 2 g/L on day 9 is visible, after which a constant value could be detected to the end of each cultivation. The qP values show similar values for the PBS reactor as for the PerfM reactor, increasing from 27 up to 40 pg/c/d, with a small outlier on day 15 with 45 pg/c/d. Additionally, during the washing step almost all mAb was removed and thus very high mAb recoveries of approximately 95% were obtained in all FBC operations (data not shown) and titer measurements after IH operation revealed only minor amounts of mAB were left behind in the cell culture resulting in low start concentrations of about 0.1 g/L at the beginning of a cycle (Figures 4A, B). Besides product titers, the ammonia levels were tracked over the term of the cultivations to monitor potential byproduct inhibition (Figure 4C). Overall, ranges between 0 and 4 mmol/L were measured, with values at harvest days ranging from 0 to 2.6 mmol/L for both cultivated reactors. These values matched with the small-scale data shown in Figure 2D for the VVC20 d2 approach. Overall, this data underlines the feasibility of the cFB approach over multiple IH and FB cycles. Furthermore, our data suggest no significant impact due to PBS washing on the process performance.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-11-1211410-g004.jpg</infon>
+      <infon key="id">F4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>29916</offset>
+      <text>Expression characteristics for the benchtop scale reactors for the cFB experiment. (A, B) Titer in g/L (line) and cell specific productivity in pg/c/d (bars) for each of the conducted experiments; cFB PerfM (A), cFB PBS (B), respectively. (C) Level of Ammonia in mmol/L over the course of the cultivation for both conducted benchtop reactors.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>30259</offset>
+      <text>3.3 Process benchmark</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>30281</offset>
+      <text>Besides expression levels and metabolic byproducts, the glycan distribution should be investigated and compared to the standard operations. As reference a standard FB operation in duplicate 5L UniVessel, resulting in 3.85 g/L mAb in 12 days and a duplicate perfusion process in 250 mL small-scale system, with perfusion target of 50 x 106 cells/mL at 2.5 VVD and 1.54 g/l/d mAb production was utilized. Both processes comprised similar cell line and media systems and are established as processes in our facility. The glycosylation pattern were investigated comparing eight different IgG glycan variants (Figure 5A). While only minor differences could be detected between both cFB variants, we were able to identify distinctions to the other process formats, except for the proportion of G1F. The majority of glycan ratios for the cFB process seemed to be rather comparable to the results of the perfusion process, such as the proportions of Man5, G1, G1F', G0F and G2. However, the other glycan forms G0 and G2F seem to be more comparable to the FB operation. Interestingly, the data reveal a distinct difference between the continuous process types (cFB, perfusion) and the discontinuous process type (FB). However, overall the glycosylation profile of the novel process seems to be rather comparable with the perfusion glycans and exhibit a trend towards higher galactosylated forms.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">fbioe-11-1211410-g005.jpg</infon>
+      <infon key="id">F5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>31676</offset>
+      <text>Analyzed Critical quality attributes and performance attributes for the proof of concept of the cFB cultivation in comparison to the standard FB and perfusion process. (A) Glycan distribution of all four conducted experiments in percentage for the eight investigated glycans. (B) Calculations for titer per day and reactor volume (g/L/d) and consumed dry media per mAb (g/g) for the four investigated process types.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>32092</offset>
+      <text>In addition to the glycan distribution, performance attributes were compared to the standard process types. Therefore, the space time yield (STY) in g/L/d of the processes as well as the media consumption per produced mAb were calculated to assess benchmark characteristics in comparison to the existing process formats (Figure 5B). Of note, the STY for the continuous operations were calculated on daily basis for either the permeate (perfusion) or supernatant (cFB) within the constant phase, the discontinuous STY was calculated with the titer at the last day over the overall process time. As expected, the perfusion process showed the highest STY around 1.54 g/L/d, while the FB process only reached values of 0.32 g/L/d. Both cFB processes reached a STY in between of the standard processes around 1.0 g/L/d due to the elongated process times compared to the FB but decreased cell densities compared to the perfusion process. Furthermore, the ratio between the amount of dry media components, incorporating basal-, feed media and glucose, needed to produce 1 g of mAb was calculated as an indication of the media consumption of each process. Therefore, the total amount of vessel volume exchange per day (VVD) needed to be determined, comprising 1.3 Reactor volume per day (RV) for the cFB PerfM approach and 0.47 RV for the cFB PBS trial. Thereby, to decrease the residual PBS within the cFB PBS trials a high concentration of cells after centrifugation (+100 x 106 cells/mL) were executed with the FBC system, possible throughout the functional principle of the system. Thereby, this approach shows unbeneficial characteristics for the cFB PerfM trials due to increased wash buffer consumption up to 2.6 reactor volumes per single media exchange (=1.3 RV). However, former studies incorporating a different FBC method showed diminished values of 1.3 reactor volumes for a single exchange, resulting in 0.7 RV per 2 day FB cycle, which was used for calculation. The highest media usage per produced Gram mAb was observed for the perfusion process with ~56 g/g, while a very low media consumption could be identified for the FB process with ~17 g/g. Similar to the productivity, the cFB process showed a media consumption ranging in between that of both standard processes from ~31 g/g (cFB PerfM) to ~26 g/g (cFB PBS). As an alternative measure, the cost per mAb produced was calculated utilizing assumptions of, with basic medium price of 35 $/L, feed media price of 90 $/L and perfusion media price of 15 $/L. Thereby, a similar trend is visible with the lowest cost for the FB with 7.0 $/g mAb, followed by cFB PBS (12.9 $/g mAb); cFB Perf (15.4 $/g mAb) and the highest values for perfusion with 24.45 $/g mAb. This difference within the approaches is caused mainly by the optimized media exchange method in the cFB PBS trials.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34971</offset>
+      <text>Overall, the presented data proofs feasibility of the proposed FB-perfusion hybrid process over a relevant process duration of 17 days to be considered a continuous operation and successful scale-up to benchtop scale. Furthermore, the novel process allows for an efficient combination of the advantages from both standard process types, long duration and increased peak cell densities known from perfusion cultures and low media usage as in a fed batch operation. Therefore, the novel hybrid process format exhibits great potential towards highly productive continuous process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>35550</offset>
+      <text>4 Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35563</offset>
+      <text>The aim of this study was to develop a hybrid process, that combines advantages from discontinuous process operations, such as low media consumption, with the benefits of continuous processes, such as high volumetric productivity. Therefore, a semi-continuous process operation was established, encompassing consecutive FB cycles, each started with a complete media exchange. To identify the most promising process strategy, we firstly varied essential parameters, such as inoculation VCC and FB cycle duration in a small-scale screening approach. The most promising set points could be identified as initial VCCs of 20 x 106 cells/mL and a FB duration of 2 days. Subsequent, this approach was successfully transferred to a 5L bench-top reactor combined with a fluidized-bed centrifuge to enable fast, complete, and gentle media renewal. Overall, our data suggest that the established hybrid process represents a feasible and scalable new strategy to successfully combine beneficial characteristics from discontinuous and continuous process operations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_2</infon>
+      <offset>36619</offset>
+      <text>4.1 Small scale process development</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36655</offset>
+      <text>For a first assessment of utilizable parameter set in terms of cell concentration at the start of each cycle and the duration of a cycle, the two existing process types, FB and perfusion, were used as a starting point. With the FB data a regular peak VCC of ~25 x 106 cells/mL can be reached, indicating that at this cell concentration nutrient limitations or product inhibitions started occurring for this cell line and medium, leading to a transition to the stationary phase. Meanwhile, the perfusion cultivation requires around 2.5 VVD exchange per day to keep a steady cell concentration at 50 x 106 cells/mL revealing a possible media supply rate to support proliferating cells at these high densities. With this evidence we hypothesized that a single media renewal in the range of every 2-3 days should allow to sustain cell densities in the following FB cycles of 20-40 x 106 cells/mL. Hereby, a reinoculation cell density of 20 x 106 cells/mL and a 2-day FB duration could be identified as most promising approach, indicated by elongated cell growth over multiple cycles (six repetitions as shown in Figure 1A) and a small but acceptable decrease in cell viabilities that could partially result from biomass attaching to the vessel and building up in the bioreactors and the utilized semi-perfusion method which is further discussed in Section 4.3. Furthermore, this approach produced around 2 g/L of mAb during each interval with stable ammonia values and increasing cell specific productivities. Increased starting cell counts (30 x 106 cells/mL) as well as enhanced FB cycle duration of the cFB process showed undesired process characteristics like diminished proliferation of the cells, enhanced decrease of viabilities over time and build-up of ammonia concentrations. Therefore, these processes were not subjected to further investigation due to lack in continuous process characteristics. However, this approach did show a strong increase in cell-specific productivities over time. This effect especially with increasing expression levels for the two respective cultures is a known effect from previous studies where a media exchange in the stationary phase overall increased expression, but did not result in additional cell proliferation. The explanation for lack of continuous process characteristics, i.e., the decreasing viabilities and cell proliferation, within these cultures could be an irreversible transition of the cells into the stationary phase without further proliferation potential. This transition can be triggered by the accumulation of metabolic byproducts, which ultimately limit further proliferation and finally reduce viabilities. Another explanation for this irreversible transition of the respective cultures (30 d2; 20 d3) could be a limitation of nutrients. The commonly analyzed nutrients, such as glucose and glutamine showed no obvious limitations (data not shown), but further nutrients analysis, e.g., to assess amino acid concentrations or organic acid contents, could be conducted to investigate the nutrient levels in the unstable cultures. Nevertheless, the primary goal of this proof-of-concept study was to find a viable process set up that will allow for a continuous process operation with existing cell line and media platforms.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_2</infon>
+      <offset>39959</offset>
+      <text>4.2 Proof of concept</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>39980</offset>
+      <text>In the next step the preferential process parameter set was scaled-up to two 5L bioreactor utilizing a fully scalable FBC system for cell and media separation. Both reactors were run in parallel, only differing in the media exchange method. Thereby, the reactors differed in media matrix, PBS and enriched basal media ratio. With this modification the media usage of the cell wash could be diminished to 0.47 RV instead of around 1.3 RV for a single FB cycle. Yet, due to this method small amounts (5%-10%) of PBS remained in the cell culture, which might influence process performance. Indeed, small differences between the reactors could be seen for peak cell densities, viability, and cellular diameter over time. An explanation for the decreased peak VCCs alongside the increase in cell diameter for the PBS process could be a minor shift from cell proliferation towards cell size increase. This hypothesis is supported by the IVCC and IVCV data (Figure 3C), which confirm a similar overall cell volume (IVCV) for both reactors, while slight differences in the cell counts (IVCC) can be seen. The shift from cell proliferation to cell size increase could have been triggered by the increased ion concentration that the cells of the cFB PBS reactor have been subjected to by the residual PBS. The main components of the utilized PBS are sodium, chloride and potassium ions, which are commonly utilized to induce hyper osmolality within cell cultures. In accordance, these "hyper osmolality" studies have shown similar effects on cellular behavior, e.g., reduced peak cell densities and increased cell volume. Therefore, the observed shift towards cell size increase is most likely triggered by the residual PBS. However, overall our data suggest only minimal influences based on the washing buffer, since both cultivations were characterized by steady growth, high viability and comparable product titers over all six conducted repetitions (Figures 3A, B). This leads to the conclusion that PBS can be used as wash buffer without notable impact on the process, resulting it a significant reduction of nutrient-rich and costly perfusion media.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42132</offset>
+      <text>Of note, within the conducted experiment we could observe an increasing cell specific productivity for the novel process, consistent among the screening cultivations as well as the processes at bench-top scale (Figures 2A-C, 4A, B). Exemplified for the 5L cultivations, the qP values showed an increase up to 1.5-fold over the course of cultivation stabilizing around day 11 for both reactors. The increase of cell specific productivity is one of the major goals within the upstream bioprocessing to further boost the productivity with similar plant size and process operation. The enhanced cellular expression thereby is most likely connected to the respective cell diameter increase, that correlates very nicely and also reaches a steady state from ~day 11 (Figure 3B). Further, a similar behavior could be reported in earlier studies using an FBC system as well as other studies revealing a strong correlation of cellular diameter and cell specific productivity within a common FB design. Therefore, the new developed process format should be further analyzed to reveal the genetic and metabolic background of this beneficial behavior towards the cellular expression, but this was not the scope of this work.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>43348</offset>
+      <text>Besides the expression levels of the mAb the glycosylation pattern of the product needs to be classified and compared for new designed process. Thereby the glycosylation pattern can impact the in-vivo half-life, therapeutic potency as well as toxicological profile of the antibody. To assess these a glycan analysis was conducted release a percentage share in glycan distribution for alle conducted processes visible in Figure 5A. Thereby, significant differences were visible between the continuous and discontinuous processes for all glycans except G0, G1F and G2F. For the continuous processes shifted glycans towards higher galactosylated forms, like G1, G1F' and G2 were visible, meanwhile Man5 and G0F showed lower shares in comparison to the discontinuous process. An explanation for the shift could be the decreased amount of inhibitory molecules for the continuous process, due to the exchange of spend media. Vice versa, discontinuous process types, comprising a stationary phase, show an increased amount of inhibitory molecules. These inhibitory molecules can have an influence on intracellular processes and influence the glycosylation pattern of the product as described in different studies. One example for inhibitory molecules is ammonia, for which it has been shown in different studies to influence the galactosylation of the desired product. Interestingly, the ammonia concentration showed high discrepancy between the continuous process ( 4-6 mM) and the discontinuous operations ( 12 mM) (data not shown). Therefore, an influence of the ammonia could be suggested, but other impacts of the diverse inhibitory matrix cannot be suspended. Further studies would be needed to investigate the impact of the inhibitory matrix.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>45101</offset>
+      <text>The glycans between the cFB process comprising PBS as wash media showed smaller alterations for the G1, G2 and G2F to the perfusion process. Furthermore, significant shifts between both the cFB processes for the G1 and G2 glycans were visible. An explanation for these shifts could be the increased concentration of ions, mainly sodium and chloride as main ingredients of PBS, which could impact the intracellular processes. However, this shift mainly occurs for glycan structures with low percentage share, especially for the comparison of the two IH operation, which could indicate none or just small impact of the PBS. Further studies need to be conducted to define if the changed glycans impact the expressed product. Overall, the cFB processes showed comparable glycan distributions to those of the perfusion process, while the distribution deviated from that of the discontinuous FB.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_2</infon>
+      <offset>45991</offset>
+      <text>4.3 Process benchmark and challenges</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>46028</offset>
+      <text>Main goals of all process intensification strategies are to increase volumetric productivity, decrease production time or plant footprint. To show the impact of the novel process scenario a comparison with the respective standard FB as well as perfusion process was conducted. Firstly, we calculated the space time yield (STY) of all processes. We could identify increasing values from the FB process with 0.32 g/L/d over both cFB processes with 1.0 g/L/d to the perfusion process with 1.54 g/L/d (Figure 5B). The increase in STY from discontinuous to continuous processes is well known and can be mainly traced back to the significantly higher cell densities that can be maintained with continuous operations. This is in accordance with the new developed processes analyzed in this study. While the common FB process comprise a VCC from 0.3-25 x 106 cells/mL, the cFB process reaches cell counts between 20-40 x 106 cells/mL, while the highest cell densities could be reached with the perfusion culture at constant values around 50 x 106 cells/L. A further important factor is the process duration. In this context, cultivations comprising an elongated phase with high cell densities that result in high product titers, like cFB and perfusion processes, increases the STY. Vice versa, the FB process, incorporating a substantial process time share of low cell counts during the growth phase, characterized by a lower STY value. Overall, the novel hybrid process is characterized by a significant productivity increase compared to the FB operation, represented by an impressive +217% STY, but still below (~34%) of the values that can be reached via perfusion cultivation. However, a strong drawback of perfusion processes is the comparably high media consumption, usually exceeding the two media exchanges per day within a common perfusion cultivation. This could be clearly confirmed for the processes evaluated in the present study. Our data show that the respective perfusion process utilizes ~222% more media to produce an equal amount of the mAB compared to the discontinuous FB operation (compare Figure 5B). This pattern can be easily explained, since during the last cultivation phase of the FB no cell proliferation needs to be supported by excessive media exchange, while constant proliferation and therefore nutrient supply is required for continuous processes. Interestingly, despite its continuous character, the novel cFB process shows again values between both process formats that results in a clear increase in media usage compared to FB (~+48%) but still an up to ~50% saving with respect to the standard continuous (perfusion) process. This low media consumption for a (semi)-continuous process can be explained by the process design which is enabled by the FBC as media renewal system. Advantages of the FBC operation are the fast and complete media exchanged at specified times. Common filter-based retention devices utilize a continuous exchange creating a intermixture of fresh and spend media in the reactor. This intermixture leads to partial loss of fresh media into the following downstream operation. This loss in non-utilized media can be significantly reduced with the FBC operation due to the complete media exchange. A further advantage is the complete transfer of the produced mAB into the downstream, while during standard perfusion cultivation usually significant amounts are lost in the bleed or retained in the bioreactor due to filter sieving. In contrast, due to the utilization of the FBC the complete produced mAB is harvested and fed into the subsequent downstream. Moreover, by using PBS during the wash step of the operation a 1:1 media exchange can be achieved, further decreasing the media consumption of the process.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>49814</offset>
+      <text>Besides the discussed decreased media consumption and productivity, the new developed process could combine several advantageous characteristics from both cultivation types. Firstly, the elongated duration could be transferred from the continuous cultivation not only improve the STY but as well possibly diminish the number of necessary seed train runs further decreasing labor costs and good expenditures. Secondly, the cFB process comprises the process monitoring of a FB process, which is far simpler than the complex, continuous control of the peripherical devices within a filter-based perfusion cultivation. This advantage not only decrease the process monitoring but as well increase the flexibility to pursue the media exchange with the fast and gentle FBC operation. Another benefit of the utilized separation method towards filter-based system is comprised by the impossibility of filter fouling, further improve stability of the new developed process. Overall, a new process could be established comprising a continuous character with elongated plant utilization and increased productivity with the diminished media utilization and process monitoring of a discontinuous process. Further, leading to our conclusion that the continuous fed-batch shows a great potential to improve current bioprocess technologies not only in technical but as well in economical perspective.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>51198</offset>
+      <text>As usual, new developments, especially within the bioprocess manufacturing, typically arise with a new set of challenges. One clear challenge is the need for suitable small-scale screening platforms. As can be seen from the results gained in this study, repeatability of the small-scale experiments in comparison to the benchtop-scale is limited and clear difference within growth and viability at the end of the process became apparent for the scale down model, possibly caused by the utilized IH mimic method. This mimic comprised a manually exchange of media after a common dead-end centrifugation. Thereby, not only residuals of media components could be retained within the cell pellet but as well small cell debris and dead cells which subsequent could impact the performance of the cell culture within the next FB cycle of the process. These residuals of media as well as cell debris possibly can be removed by an higher extent with the FBC due to the functional principle. Therefore, a more suitable small-scale system would be desirable to increase the insight into the process on a screening level. One possibility thereby would be to develop a scale-down model for the utilized FBC system and couple it with a suitable high throughput upstream system. However, the utilized method showed adequate comparability of the current process characteristics and limitations to gain sufficient predictivity for the scale-up of the process. Very similar challenges are known for the scale down models utilized for the development of perfusion cultivation formats, were commonly semi-perfusion methods, either in spin tubes or 15 mL reactor systems, are used based on centrifugation or sedimentation strategies to renew the media. These methods proofed feasible for a first assessments of, for example, media consumption, clone feasibility and impact on CQAs. However transferability of the processes into larger scale including filter membrane based cell separation methods remain limited especially in regard to continuous media flow, removal of cell debris and filter utilization. Nonetheless, the first processes assessments in high-throughput are important for a fast and streamlined transfer of clones and prove towards the new process strategy. Thereby, the fast and easy transfer of cell lines is one key challenge for to facilitate bioprocess development.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>53564</offset>
+      <text>Further, new process strategies result in modified requirements towards the bioreactor set-up, may include new or repurposed equipment, which accordingly will require validation studies and risk assessments to be suitable for clinically relevant biopharmaceutical manufacturing processes. In the presented work, two main alterations to the platform processes and equipment have been introduced. One the one hand, an FBC system was utilized, that has been primarily been developed and used as cell harvest operation unit to separate product and cells at the end of a process. Therefore, further qualification of the FBC system for this continuous application needs to be conducted to show the feasibility especially in an GMP environment. As note, in the current study no further challenges occurred due to the continuous application, therefore we do not see any obvious obstacles from the current point of view in further qualification of this method.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>54516</offset>
+      <text>Secondly, in comparison to the fed-batch and also the perfusion process the cell broth leaves the bioreactor and therefore, the controlled cultivation vessel, completely for a short period of time. However, the uncontrolled time is increased for the cFB method, in comparison to the perfusion, mainly due to the complete processing of the reactor. This elongated uncontrolled time can impact the cell culture performance and should be investigated in more depth for further risk assessments. However, for now no further negative impacts due to the uncontrolled environment could be detected in our studies. Furthermore, as mentioned, an additional step for media exchange in the cFB and perfusion is applied, therefore a similar risk or both processes can be assumed. Moreover, the increase in peripheral devices can be seen as negative impact on the process economics. Thereby, a holistic examination of the underlying process economics including all three upstream process operations and the subsequent downstream operation would be necessary to draw any comprehensive conclusion on overall economic implications of the novel process. Similar to the business case, process scale-up into pilot and production scale should be investigated within further studies. Thereby, suitable approaches like a scale-up model of the utilized FBC system are available however, a proof of concept needs to be conducted to show applicability for the mentioned scales. Despite the several challenges for implementation, the developed hybrid process operation indicates a set of significant improvements with the potential to outperform the established process operations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">title_1</infon>
+      <offset>56172</offset>
+      <text>5 Conclusion and outlook</text>
+    </passage>
+    <passage>
+      <infon key="section_type">CONCL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>56197</offset>
+      <text>In this study an innovative process at the interface of FB and perfusion was developed, facilitating high volumetric productivity and low media consumption in a continuous process format. Further, our proof-of concept study confirmed feasibility over extended culture durations, indicating the potential to be utilized in a continuous process approach. Due to the scalable FBC system alongside a standard FB-bioreactor this process is easy scalable and requires no physical filter-based cell retention device with the associated filter-related issues. This makes the novel process highly interesting for further investigations and process development efforts, for example, further screening of cell lines or media systems. Furthermore, transferability of the presented concept should be investigated for further processes, including non-CHO cell lines and a variety of products such as viral vectors or cell therapies. Overall, the novel developed process showed potential to further enhance the product yields by simultaneously decreasing expenditures.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>57251</offset>
+      <text>Data availability statement</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57279</offset>
+      <text>The raw data supporting the conclusion of this article will be made available by the authors, without undue reservation.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title_1</infon>
+      <offset>57400</offset>
+      <text>Author contributions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57421</offset>
+      <text>LR: conceptualization, methodology, investigation, visualization, writing:original draft, writing:review and editing. MS: conceptualization, methodology, investigation, writing:review and editing. AK: methodology, investigation, visualization, writing:original draft. MK: Writing:review and editing. RW: writing:review and editing. DM: supervision, methodology, writing:review and editing. JN: supervision, methodology, writing:review and editing. All authors contributed to the article and approved the submitted version.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>57960</offset>
+      <text>Conflict of interest</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>57981</offset>
+      <text>Authors LR, MS, AK, MK, and JN were employed by the company Sartorius.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>58052</offset>
+      <text>The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>58235</offset>
+      <text>Publisher's note</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>58254</offset>
+      <text>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>58601</offset>
+      <text>Supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">paragraph</infon>
+      <offset>58624</offset>
+      <text>The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fbioe.2023.1211410/full#supplementary-material </text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>58785</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Dalal;given-names:N.</infon>
+      <infon key="name_2">surname:Graham;given-names:H.</infon>
+      <infon key="name_1">surname:Xu;given-names:S.</infon>
+      <infon key="name_0">surname:Abu-Absi;given-names:S.</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Mammalian cell cultures for biologics manufacturing</infon>
+      <infon key="type">ref</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_7">surname:Kantardjieff;given-names:A.</infon>
+      <infon key="lpage">68</infon>
+      <infon key="name_6">surname:Zhou,;given-names:W.</infon>
+      <infon key="name_5">surname:Dave;given-names:K.</infon>
+      <infon key="name_4">surname:Boyer;given-names:M.</infon>
+      <offset>58796</offset>
+      <text>Cell culture process operations for recombinant protein production</text>
+    </passage>
+    <passage>
+      <infon key="volume">22</infon>
+      <infon key="name_2">surname:Kontoravdi;given-names:C.</infon>
+      <infon key="name_1">surname:Kotidis;given-names:P.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Alhuthali;given-names:S.</infon>
+      <infon key="fpage">3290</infon>
+      <infon key="pub-id_doi">10.3390/ijms22073290</infon>
+      <infon key="pub-id_pmid">33804825</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Int. J. Mol. Sci.</infon>
+      <infon key="type">ref</infon>
+      <offset>58863</offset>
+      <text>Osmolality effects on CHO cell growth, cell volume, antibody productivity and glycosylation</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Castilho;given-names:L. R.</infon>
+      <infon key="name_2">surname:Medronho;given-names:R. A.</infon>
+      <infon key="name_1">surname:Castan;given-names:A.</infon>
+      <infon key="name_0">surname:Bettinardi;given-names:I. W.</infon>
+      <infon key="fpage">1915</infon>
+      <infon key="pub-id_doi">10.1002/bit.27335</infon>
+      <infon key="pub-id_pmid">32181883</infon>
+      <infon key="year">2020</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">117</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1928</infon>
+      <offset>58955</offset>
+      <text>Hydrocyclones as cell retention device for CHO perfusion processes in single-use bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Roulet;given-names:A.</infon>
+      <infon key="name_2">surname:Caso;given-names:S.</infon>
+      <infon key="name_1">surname:Aeby;given-names:M.</infon>
+      <infon key="name_0">surname:Bielser;given-names:J.-M.</infon>
+      <infon key="fpage">107966</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2021.107966</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biochem. Eng. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">169</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_5">surname:Souquet;given-names:J.</infon>
+      <infon key="name_4">surname:Broly;given-names:H.</infon>
+      <offset>59048</offset>
+      <text>Continuous bleed recycling significantly increases recombinant protein production yield in perfusion cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="name_2">surname:Papoutsakis;given-names:E. T.</infon>
+      <infon key="name_1">surname:Linzer;given-names:D. I.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Borys;given-names:M. C.</infon>
+      <infon key="fpage">505</infon>
+      <infon key="pub-id_doi">10.1002/bit.260430611</infon>
+      <infon key="pub-id_pmid">18615748</infon>
+      <infon key="year">1994</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">514</infon>
+      <offset>59163</offset>
+      <text>Ammonia affects the glycosylation patterns of recombinant mouse placental lactogen-I by Chinese hamster ovary cells in a pH-dependent manner</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Elouafiq;given-names:S.</infon>
+      <infon key="name_2">surname:Denny;given-names:K.</infon>
+      <infon key="name_1">surname:Bogue;given-names:J.</infon>
+      <infon key="name_0">surname:Brantley;given-names:T.</infon>
+      <infon key="fpage">3486</infon>
+      <infon key="pub-id_doi">10.1002/bit.27775</infon>
+      <infon key="pub-id_pmid">33811655</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">3498</infon>
+      <infon key="name_5">surname:Nakhle;given-names:B.</infon>
+      <infon key="name_4">surname:Madren;given-names:S.</infon>
+      <offset>59304</offset>
+      <text>A novel approach to residence time distribution characterization in a mAb continuous process</text>
+    </passage>
+    <passage>
+      <infon key="volume">74</infon>
+      <infon key="name_1">surname:Medronho;given-names:R. A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Castilho;given-names:L. R.</infon>
+      <infon key="fpage">129</infon>
+      <infon key="pub-id_doi">10.1007/3-540-45736-4_7</infon>
+      <infon key="pub-id_pmid">11991177</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Adv. Biochem. Eng. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">169</infon>
+      <offset>59397</offset>
+      <text>Cell retention devices for suspended-cell perfusion cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Piret;given-names:J. M.</infon>
+      <infon key="name_2">surname:Kwok;given-names:K. E.</infon>
+      <infon key="name_1">surname:Jubb;given-names:A.</infon>
+      <infon key="name_0">surname:Dowd;given-names:J. E.</infon>
+      <infon key="fpage">35</infon>
+      <infon key="pub-id_doi">10.1023/A:1026192228471</infon>
+      <infon key="pub-id_pmid">19002926</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">42</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">45</infon>
+      <offset>59458</offset>
+      <text>Optimization and control of perfusion cultures using a viable cell probe and cell specific perfusion rates</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Tuozzolo;given-names:G.</infon>
+      <infon key="name_2">surname:Yang;given-names:Y.</infon>
+      <infon key="name_1">surname:Chelikani;given-names:R.</infon>
+      <infon key="name_0">surname:Gagliardi;given-names:T. M.</infon>
+      <infon key="fpage">e2811</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2811</infon>
+      <infon key="pub-id_pmid">30932357</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">35</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_4">surname:Yuan;given-names:H.</infon>
+      <offset>59565</offset>
+      <text>Development of a novel, high-throughput screening tool for efficient perfusion-based cell culture process development</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Sliwkowski;given-names:M. B.</infon>
+      <infon key="name_2">surname:Lofgren;given-names:J.</infon>
+      <infon key="name_1">surname:Ryll;given-names:T.</infon>
+      <infon key="name_0">surname:Gawlitzek;given-names:M.</infon>
+      <infon key="fpage">637</infon>
+      <infon key="pub-id_doi">10.1002/(sici)1097-0290(20000620)68:6&lt;637:aid-bit6&gt;3.0.co;2-c</infon>
+      <infon key="pub-id_pmid">10799988</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">68</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">646</infon>
+      <offset>59683</offset>
+      <text>Ammonium alters N-glycan structures of recombinant TNFR-IgG: Degradative versus biosynthetic mechanisms</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="name_1">surname:Goochee;given-names:C. F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Gramer;given-names:M. J.</infon>
+      <infon key="fpage">366</infon>
+      <infon key="pub-id_doi">10.1021/bp00022a003</infon>
+      <infon key="pub-id_pmid">7763907</infon>
+      <infon key="year">1993</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">373</infon>
+      <offset>59787</offset>
+      <text>Glycosidase activities in Chinese hamster ovary cell lysate and cell culture supernatant</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Mitchell;given-names:J. A.</infon>
+      <infon key="name_2">surname:Singer;given-names:T.</infon>
+      <infon key="name_1">surname:Kropshofer;given-names:H.</infon>
+      <infon key="name_0">surname:Hansel;given-names:T. T.</infon>
+      <infon key="fpage">325</infon>
+      <infon key="pub-id_doi">10.1038/nrd3003</infon>
+      <infon key="pub-id_pmid">20305665</infon>
+      <infon key="year">2010</infon>
+      <infon key="source">Nat. Rev. Drug Discov.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">9</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">338</infon>
+      <infon key="name_4">surname:George;given-names:A. J. T.</infon>
+      <offset>59876</offset>
+      <text>The safety and side effects of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Curran;given-names:M. L.</infon>
+      <infon key="name_2">surname:Gagnon;given-names:M. P.</infon>
+      <infon key="name_1">surname:Ovalle;given-names:A. M.</infon>
+      <infon key="name_0">surname:Hiller;given-names:G. W.</infon>
+      <infon key="fpage">1438</infon>
+      <infon key="pub-id_doi">10.1002/bit.26259</infon>
+      <infon key="pub-id_pmid">28128436</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1447</infon>
+      <infon key="name_4">surname:Wang;given-names:W.</infon>
+      <offset>59929</offset>
+      <text>Cell-controlled hybrid perfusion fed-batch CHO cell process provides significant productivity improvement over conventional fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Greller;given-names:G.</infon>
+      <infon key="name_2">surname:Zijlstra;given-names:G.</infon>
+      <infon key="name_1">surname:Schulze;given-names:M.</infon>
+      <infon key="name_0">surname:Janoschek;given-names:S.</infon>
+      <infon key="fpage">e2757</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2757</infon>
+      <infon key="pub-id_pmid">30479066</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">35</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_4">surname:Matuszczyk;given-names:J.</infon>
+      <offset>60072</offset>
+      <text>A protocol to transfer a fed-batch platform process into semi-perfusion mode: The benefit of automated small-scale bioreactors compared to shake flasks as scale-down model</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:MirandaYap;given-names:G. S.</infon>
+      <infon key="volume">103</infon>
+      <infon key="name_2">surname:Hu;given-names:W-S.</infon>
+      <infon key="name_1">surname:Wlaschin;given-names:K. F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Jayapal;given-names:K. P.</infon>
+      <infon key="fpage">40</infon>
+      <infon key="year">2007</infon>
+      <infon key="source">Chem. Eng. Prog.</infon>
+      <infon key="type">ref</infon>
+      <offset>60252</offset>
+      <text>Recombinant protein therapeutics from CHO cells - 20 Years and counting</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Johnson;given-names:D.</infon>
+      <infon key="fpage">3685</infon>
+      <infon key="pub-id_doi">10.3390/ijms19113685</infon>
+      <infon key="pub-id_pmid">30469350</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">IJMS</infon>
+      <infon key="type">ref</infon>
+      <offset>60324</offset>
+      <text>Biotherapeutics: Challenges and opportunities for predictive toxicology of monoclonal antibodies</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="name_2">surname:Lee;given-names:G. M.</infon>
+      <infon key="name_1">surname:Kim;given-names:Y.-G.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Kim;given-names:J. Y.</infon>
+      <infon key="fpage">917</infon>
+      <infon key="pub-id_doi">10.1007/s00253-011-3758-5</infon>
+      <infon key="pub-id_pmid">22159888</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">Appl. Microbiol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">930</infon>
+      <offset>60421</offset>
+      <text>CHO cells in biotechnology for production of recombinant proteins: Current state and further potential</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Schembecker;given-names:G.</infon>
+      <infon key="volume">141</infon>
+      <infon key="name_2">surname:Lobedann;given-names:M.</infon>
+      <infon key="name_1">surname:Holtmann;given-names:L.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Klutz;given-names:S.</infon>
+      <infon key="fpage">63</infon>
+      <infon key="pub-id_doi">10.1016/j.ces.2015.10.029</infon>
+      <infon key="year">2016</infon>
+      <infon key="source">Chem. Eng. Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">74</infon>
+      <offset>60524</offset>
+      <text>Cost evaluation of antibody production processes in different operation modes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Goralczyk;given-names:V.</infon>
+      <infon key="name_2">surname:Nawrath;given-names:K.</infon>
+      <infon key="name_1">surname:Stahn;given-names:R.</infon>
+      <infon key="name_0">surname:Kreye;given-names:S.</infon>
+      <infon key="fpage">e2832</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2832</infon>
+      <infon key="pub-id_pmid">31050211</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">35</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_5">surname:Goletz;given-names:S.</infon>
+      <infon key="name_4">surname:Zoro;given-names:B.</infon>
+      <offset>60602</offset>
+      <text>A novel scale-down mimic of perfusion cell culture using sedimentation in an automated microbioreactor (SAM)</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_1">surname:Toth;given-names:D.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lao;given-names:M. S.</infon>
+      <infon key="fpage">688</infon>
+      <infon key="pub-id_doi">10.1021/bp9602360</infon>
+      <infon key="pub-id_pmid">9336989</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">691</infon>
+      <offset>60711</offset>
+      <text>Effects of ammonium and lactate on growth and metabolism of a recombinant Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Ramirez;given-names:O. T.</infon>
+      <infon key="name_2">surname:Hernandez;given-names:V.</infon>
+      <infon key="name_1">surname:Palomares;given-names:L. A.</infon>
+      <infon key="name_0">surname:Lipscomb;given-names:M. L.</infon>
+      <infon key="fpage">40</infon>
+      <infon key="pub-id_doi">10.1021/bp049761m</infon>
+      <infon key="pub-id_pmid">15903239</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">49</infon>
+      <infon key="name_4">surname:Kompala;given-names:D. S.</infon>
+      <offset>60820</offset>
+      <text>Effect of production method and gene amplification on the glycosylation pattern of a secreted reporter protein in CHO cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">104</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Liu;given-names:L.</infon>
+      <infon key="fpage">1866</infon>
+      <infon key="pub-id_doi">10.1002/jps.24444</infon>
+      <infon key="pub-id_pmid">25872915</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">J. Pharm. Sci.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1884</infon>
+      <offset>60944</offset>
+      <text>Antibody glycosylation and its impact on the pharmacokinetics and pharmacodynamics of monoclonal antibodies and Fc-fusion proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Emery;given-names:A. N.</infon>
+      <infon key="name_2">surname:Jackson;given-names:L. P.</infon>
+      <infon key="name_1">surname:Holmes;given-names:P.</infon>
+      <infon key="name_0">surname:Lloyd;given-names:D. R.</infon>
+      <infon key="fpage">59</infon>
+      <infon key="pub-id_doi">10.1023/A:1008103730027</infon>
+      <infon key="pub-id_pmid">19003381</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Cytotechnology</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">34</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">70</infon>
+      <infon key="name_4">surname:Al-Rubeai;given-names:M.</infon>
+      <offset>61075</offset>
+      <text>Relationship between cell size, cell cycle and specific recombinant protein productivity</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Li;given-names:F.</infon>
+      <infon key="name_2">surname:Burnett;given-names:I.</infon>
+      <infon key="name_1">surname:Toh;given-names:P. C.</infon>
+      <infon key="name_0">surname:Lu;given-names:F.</infon>
+      <infon key="fpage">191</infon>
+      <infon key="pub-id_doi">10.1002/bit.24602</infon>
+      <infon key="pub-id_pmid">22767053</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">110</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">205</infon>
+      <infon key="name_5">surname:Amanullah;given-names:A.</infon>
+      <infon key="name_4">surname:Hudson;given-names:T.</infon>
+      <offset>61164</offset>
+      <text>Automated dynamic fed-batch process and media optimization for high productivity cell culture process development</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Martinez;given-names:V. S.</infon>
+      <infon key="name_2">surname:Roche Recinos;given-names:D.</infon>
+      <infon key="name_1">surname:Nobel;given-names:M.</infon>
+      <infon key="name_0">surname:MacDonald;given-names:M. A.</infon>
+      <infon key="fpage">1099</infon>
+      <infon key="pub-id_doi">10.1080/07388551.2021.1998821</infon>
+      <infon key="pub-id_pmid">34844499</infon>
+      <infon key="year">2022</infon>
+      <infon key="source">Crit. Rev. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">42</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1115</infon>
+      <infon key="name_5">surname:Howard;given-names:C. B.</infon>
+      <infon key="name_4">surname:Schulz;given-names:B. L.</infon>
+      <offset>61278</offset>
+      <text>Perfusion culture of Chinese Hamster Ovary cells for bioprocessing applications</text>
+    </passage>
+    <passage>
+      <infon key="volume">96</infon>
+      <infon key="name_2">surname:Kunert;given-names:R.</infon>
+      <infon key="name_1">surname:Castan;given-names:A.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Mayrhofer;given-names:P.</infon>
+      <infon key="fpage">2930</infon>
+      <infon key="pub-id_doi">10.1002/jctb.6848</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">J. Chem. Technol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">2939</infon>
+      <offset>61358</offset>
+      <text>Shake tube perfusion cell cultures are suitable tools for the prediction of limiting substrate, CSPR, bleeding strategy, growth and productivity behavior</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Gervais;given-names:A.</infon>
+      <infon key="name_2">surname:Ziegler;given-names:T.</infon>
+      <infon key="name_1">surname:Weber;given-names:U.</infon>
+      <infon key="name_0">surname:Meuwly;given-names:F.</infon>
+      <infon key="fpage">106</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2005.10.013</infon>
+      <infon key="pub-id_pmid">16324762</infon>
+      <infon key="year">2006</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">123</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">116</infon>
+      <infon key="name_5">surname:Crisci;given-names:C.</infon>
+      <infon key="name_4">surname:Mastrangeli;given-names:R.</infon>
+      <offset>61512</offset>
+      <text>Conversion of a CHO cell culture process from perfusion to fed-batch technology without altering product quality</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Jacobs;given-names:M.</infon>
+      <infon key="name_2">surname:Kalomeris;given-names:T.</infon>
+      <infon key="name_1">surname:Kale;given-names:J.</infon>
+      <infon key="name_0">surname:Mulukutla;given-names:B. C.</infon>
+      <infon key="fpage">1779</infon>
+      <infon key="pub-id_doi">10.1002/bit.26313</infon>
+      <infon key="pub-id_pmid">28409820</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">114</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1790</infon>
+      <infon key="name_4">surname:Hiller;given-names:G. W.</infon>
+      <offset>61625</offset>
+      <text>Identification and control of novel growth inhibitors in fed-batch cultures of Chinese hamster ovary cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Martens;given-names:D. E.</infon>
+      <infon key="name_2">surname:Wijffels;given-names:R. H.</infon>
+      <infon key="name_1">surname:Dalm;given-names:C.</infon>
+      <infon key="name_0">surname:Pan;given-names:X.</infon>
+      <infon key="fpage">8101</infon>
+      <infon key="pub-id_doi">10.1007/s00253-017-8531-y</infon>
+      <infon key="pub-id_pmid">28951949</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Appl. Microbiol. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">101</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">8113</infon>
+      <offset>61732</offset>
+      <text>Metabolic characterization of a CHO cell size increase phase in fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_2">surname:Andersen;given-names:M. R.</infon>
+      <infon key="name_1">surname:Kildegaard;given-names:H. F.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pereira;given-names:S.</infon>
+      <infon key="fpage">e1700499</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700499</infon>
+      <infon key="pub-id_pmid">29393587</infon>
+      <infon key="year">2018</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <offset>61815</offset>
+      <text>Impact of CHO metabolism on cell growth and protein production: An overview of toxic and inhibiting metabolites and nutrients</text>
+    </passage>
+    <passage>
+      <infon key="volume">31</infon>
+      <infon key="name_2">surname:Takors;given-names:R.</infon>
+      <infon key="name_1">surname:Matuszczyk;given-names:J.-C.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pfizenmaier;given-names:J.</infon>
+      <infon key="fpage">1212</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2143</infon>
+      <infon key="pub-id_pmid">26146937</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1216</infon>
+      <offset>61941</offset>
+      <text>Changes in intracellular ATP-content of CHO cells as response to hyperosmolality</text>
+    </passage>
+    <passage>
+      <infon key="volume">110</infon>
+      <infon key="name_2">surname:Farid;given-names:S. S.</infon>
+      <infon key="name_1">surname:Ho;given-names:S. V.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Pollock;given-names:J.</infon>
+      <infon key="fpage">206</infon>
+      <infon key="pub-id_doi">10.1002/bit.24608</infon>
+      <infon key="pub-id_pmid">22806692</infon>
+      <infon key="year">2013</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">219</infon>
+      <offset>62022</offset>
+      <text>Fed-batch and perfusion culture processes: Economic, environmental, and operational feasibility under uncertainty</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Presta;given-names:L. G.</infon>
+      <infon key="fpage">460</infon>
+      <infon key="pub-id_doi">10.1016/j.coi.2008.06.012</infon>
+      <infon key="pub-id_pmid">18656541</infon>
+      <infon key="year">2008</infon>
+      <infon key="source">Curr. Opin. Immunol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">470</infon>
+      <offset>62136</offset>
+      <text>Molecular engineering and design of therapeutic antibodies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kampmann;given-names:M.</infon>
+      <infon key="name_2">surname:Matuszczyk;given-names:J.</infon>
+      <infon key="name_1">surname:Saballus;given-names:M.</infon>
+      <infon key="name_0">surname:Reger;given-names:L. N.</infon>
+      <infon key="fpage">1106292</infon>
+      <infon key="pub-id_doi">10.3389/fbioe.2023.1106292</infon>
+      <infon key="pub-id_pmid">36873352</infon>
+      <infon key="year">2023</infon>
+      <infon key="source">Front. Bioeng. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_5">surname:Martens;given-names:D. E.</infon>
+      <infon key="name_4">surname:Wijffels;given-names:R. H.</infon>
+      <offset>62195</offset>
+      <text>Boosting productivity for advanced biomanufacturing by Re-using viable cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Butler;given-names:M.</infon>
+      <infon key="name_2">surname:Huzel;given-names:N.</infon>
+      <infon key="name_1">surname:Spearman;given-names:M.</infon>
+      <infon key="name_0">surname:Rodriguez;given-names:J.</infon>
+      <infon key="fpage">22</infon>
+      <infon key="pub-id_doi">10.1021/bp049807b</infon>
+      <infon key="pub-id_pmid">15903237</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">21</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">30</infon>
+      <offset>62272</offset>
+      <text>Enhanced production of monomeric interferon-beta by CHO cells through the control of culture conditions</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kaltschmidt;given-names:B.</infon>
+      <infon key="name_2">surname:Greiner;given-names:J. F. W.</infon>
+      <infon key="name_1">surname:Niemann;given-names:T.</infon>
+      <infon key="name_0">surname:Romanova;given-names:N.</infon>
+      <infon key="fpage">2348</infon>
+      <infon key="pub-id_doi">10.1002/bit.27747</infon>
+      <infon key="pub-id_pmid">33751545</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">118</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">2359</infon>
+      <infon key="name_5">surname:Noll;given-names:T.</infon>
+      <infon key="name_4">surname:Kaltschmidt;given-names:C.</infon>
+      <offset>62376</offset>
+      <text>Hyperosmolality in CHO culture: Effects on cellular behavior and morphology</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Greller;given-names:G.</infon>
+      <infon key="volume">167</infon>
+      <infon key="name_2">surname:Kampmann;given-names:M.</infon>
+      <infon key="name_1">surname:Nisser;given-names:L.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Saballus;given-names:M.</infon>
+      <infon key="fpage">107887</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2020.107887</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biochem. Eng. J.</infon>
+      <infon key="type">ref</infon>
+      <offset>62452</offset>
+      <text>A novel clarification approach for intensified monoclonal antibody processes with 100 million cells/mL using a single-use fluidized bed centrifuge</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Wijffels;given-names:R. H.</infon>
+      <infon key="name_2">surname:Pollard;given-names:D.</infon>
+      <infon key="name_1">surname:Lemke;given-names:J.</infon>
+      <infon key="name_0">surname:Schulze;given-names:M.</infon>
+      <infon key="fpage">65</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2021.06.011</infon>
+      <infon key="pub-id_pmid">34090946</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">J. Biotechnol.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">335</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">75</infon>
+      <infon key="name_5">surname:Martens;given-names:D. E.</infon>
+      <infon key="name_4">surname:Matuszczyk;given-names:J.</infon>
+      <offset>62599</offset>
+      <text>Automation of high CHO cell density seed intensification via online control of the cell specific perfusion rate and its impact on the N-stage inoculum quality</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Matuszczyk;given-names:J.</infon>
+      <infon key="name_2">surname:Wijffels;given-names:R. H.</infon>
+      <infon key="name_1">surname:Niemann;given-names:J.</infon>
+      <infon key="name_0">surname:Schulze;given-names:M.</infon>
+      <infon key="fpage">e3213</infon>
+      <infon key="pub-id_doi">10.1002/btpr.3213</infon>
+      <infon key="pub-id_pmid">34542245</infon>
+      <infon key="year">2022</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">38</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_4">surname:Martens;given-names:D. E.</infon>
+      <offset>62758</offset>
+      <text>Rapid intensification of an established CHO cell fed-batch process</text>
+    </passage>
+    <passage>
+      <infon key="volume">167</infon>
+      <infon key="name_2">surname:Yoon;given-names:S.</infon>
+      <infon key="name_1">surname:Kuang;given-names:B.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sha;given-names:S.</infon>
+      <infon key="fpage">107897</infon>
+      <infon key="pub-id_doi">10.1016/j.bej.2020.107897</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Biochem. Eng. J.</infon>
+      <infon key="type">ref</infon>
+      <offset>62827</offset>
+      <text>Characterization of dynamic regulation in Chinese hamster ovary (CHO) cell cultures in the late exponential phase</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="name_1">surname:Bertozzi;given-names:C. R.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Smith;given-names:B. A. H.</infon>
+      <infon key="fpage">217</infon>
+      <infon key="pub-id_doi">10.1038/s41573-020-00093-1</infon>
+      <infon key="pub-id_pmid">33462432</infon>
+      <infon key="year">2021</infon>
+      <infon key="source">Nat. Rev. Drug Discov.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">243</infon>
+      <offset>62941</offset>
+      <text>The clinical impact of glycobiology: Targeting selectins, siglecs and mammalian glycans</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Baer;given-names:G.</infon>
+      <infon key="name_2">surname:Ruffieux;given-names:P.-A.</infon>
+      <infon key="name_1">surname:Meuwly;given-names:F.</infon>
+      <infon key="name_0">surname:Voisard;given-names:D.</infon>
+      <infon key="fpage">751</infon>
+      <infon key="pub-id_doi">10.1002/bit.10629</infon>
+      <infon key="pub-id_pmid">12701141</infon>
+      <infon key="year">2003</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">82</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">765</infon>
+      <infon key="name_4">surname:Kadouri;given-names:A.</infon>
+      <offset>63029</offset>
+      <text>Potential of cell retention techniques for large-scale high-density perfusion culture of suspended mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yu;given-names:M.</infon>
+      <infon key="name_2">surname:Hollenbach;given-names:M.</infon>
+      <infon key="name_1">surname:Lu;given-names:J.</infon>
+      <infon key="name_0">surname:Walther;given-names:J.</infon>
+      <infon key="fpage">e1700733</infon>
+      <infon key="pub-id_doi">10.1002/biot.201700733</infon>
+      <infon key="pub-id_pmid">29851298</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">Biotechnol. J.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">14</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_5">surname:McLarty;given-names:J.</infon>
+      <infon key="name_4">surname:Hwang;given-names:C.</infon>
+      <offset>63144</offset>
+      <text>Perfusion cell culture decreases process and product heterogeneity in a head-to-head comparison with fed-batch</text>
+    </passage>
+    <passage>
+      <infon key="volume">43</infon>
+      <infon key="name_1">surname:Wang;given-names:D. I.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Xie;given-names:L.</infon>
+      <infon key="fpage">1175</infon>
+      <infon key="pub-id_doi">10.1002/bit.260431123</infon>
+      <infon key="pub-id_pmid">18615531</infon>
+      <infon key="year">1994</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1189</infon>
+      <offset>63255</offset>
+      <text>Fed-batch cultivation of animal cells using different medium design concepts and feeding strategies</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Li;given-names:H.</infon>
+      <infon key="name_2">surname:Gu;given-names:X.</infon>
+      <infon key="name_1">surname:Nyberg;given-names:G.</infon>
+      <infon key="name_0">surname:Xie;given-names:L.</infon>
+      <infon key="fpage">577</infon>
+      <infon key="pub-id_doi">10.1002/(SICI)1097-0290(19971205)56:5&lt;577:AID-BIT11&gt;3.0.CO;2-9</infon>
+      <infon key="pub-id_pmid">18642278</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnol. Bioeng.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">56</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">582</infon>
+      <infon key="name_5">surname:Wang;given-names:D. I. C.</infon>
+      <infon key="name_4">surname:Mollborn;given-names:F.</infon>
+      <offset>63355</offset>
+      <text>Gamma-interferon production and quality in stoichiometric fed-batch cultures of Chinese hamster ovary (CHO) cells under serum-free conditions</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Chen;given-names:H.</infon>
+      <infon key="name_2">surname:Jiang;given-names:R.</infon>
+      <infon key="name_1">surname:Gavin;given-names:J.</infon>
+      <infon key="name_0">surname:Xu;given-names:S.</infon>
+      <infon key="fpage">867</infon>
+      <infon key="pub-id_doi">10.1002/btpr.2415</infon>
+      <infon key="pub-id_pmid">27977910</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">33</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">878</infon>
+      <offset>63497</offset>
+      <text>Bioreactor productivity and media cost comparison for different intensified cell culture processes</text>
+    </passage>
+    <passage>
+      <infon key="volume">18</infon>
+      <infon key="name_1">surname:Butler;given-names:M.</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Yang;given-names:M.</infon>
+      <infon key="fpage">129</infon>
+      <infon key="pub-id_doi">10.1021/bp0101334</infon>
+      <infon key="pub-id_pmid">11822911</infon>
+      <infon key="year">2002</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">138</infon>
+      <offset>63596</offset>
+      <text>Effects of ammonia and glucosamine on the heterogeneity of erythropoietin glycoforms</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Yuan;given-names:H.</infon>
+      <infon key="name_2">surname:Kwiatkowski;given-names:C.</infon>
+      <infon key="name_1">surname:Lu;given-names:J.</infon>
+      <infon key="name_0">surname:Yang;given-names:W. C.</infon>
+      <infon key="fpage">616</infon>
+      <infon key="pub-id_doi">10.1002/btpr.1884</infon>
+      <infon key="pub-id_pmid">24574326</infon>
+      <infon key="year">2014</infon>
+      <infon key="source">Biotechnol. Prog.</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">30</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">625</infon>
+      <infon key="name_5">surname:Ryll;given-names:T.</infon>
+      <infon key="name_4">surname:Kshirsagar;given-names:R.</infon>
+      <offset>63681</offset>
+      <text>Perfusion seed cultures improve biopharmaceutical fed-batch production capacity and product quality</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Oliveira;given-names:C.</infon>
+      <infon key="name_2">surname:Tian;given-names:J.</infon>
+      <infon key="name_1">surname:Xu;given-names:J.</infon>
+      <infon key="name_0">surname:Yongky;given-names:A.</infon>
+      <infon key="fpage">1502</infon>
+      <infon key="pub-id_doi">10.1080/19420862.2019.1652075</infon>
+      <infon key="pub-id_pmid">31379298</infon>
+      <infon key="year">2019</infon>
+      <infon key="source">mAbs</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">11</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">1514</infon>
+      <infon key="name_5">surname:McFarland;given-names:K.</infon>
+      <infon key="name_4">surname:Zhao;given-names:J.</infon>
+      <offset>63781</offset>
+      <text>Process intensification in fed-batch production bioreactors using non-perfusion seed cultures</text>
+    </passage>
+  </document>
+</collection>

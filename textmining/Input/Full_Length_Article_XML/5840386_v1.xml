@@ -1,0 +1,3632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "BioC.dtd">
+<collection>
+  <source>PubTator</source>
+  <date/>
+  <key>BioC.key</key>
+  <document>
+    <id>5840386</id>
+    <infon key="tt_curatable">yes</infon>
+    <infon key="tt_version">1</infon>
+    <infon key="tt_round">1</infon>
+    <passage>
+      <infon key="name_3">surname:Kamari;given-names:Hayati</infon>
+      <infon key="name_2">surname:Tan;given-names:Janice Gek Ling</infon>
+      <infon key="name_1">surname:Teo;given-names:Brian Kah Hui</infon>
+      <infon key="article-id_pmid">29511312</infon>
+      <infon key="name_0">surname:Leong;given-names:Dawn Sow Zong</infon>
+      <infon key="year">2018</infon>
+      <infon key="article-id_pmc">5840386</infon>
+      <infon key="article-id_publisher-id">22490</infon>
+      <infon key="article-id_doi">10.1038/s41598-018-22490-8</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">4037</infon>
+      <infon key="volume">8</infon>
+      <infon key="license">Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</infon>
+      <infon key="section_type">TITLE</infon>
+      <infon key="journal">Sci Rep; 2018 Mar 06; 8(1) 4037. doi:10.1038/s41598-018-22490-8</infon>
+      <infon key="name_6">surname:Ng;given-names:Say Kong</infon>
+      <infon key="name_5">surname:Zhang;given-names:Peiqing</infon>
+      <infon key="authors">Leong DSZ, Teo BKH, Tan JGL, Kamari H, Yang YS, Zhang P, Ng SK</infon>
+      <infon key="name_4">surname:Yang;given-names:Yuan Sheng</infon>
+      <offset>0</offset>
+      <text>Application of maltose as energy source in protein-free CHO-K1 culture to improve the production of recombinant monoclonal antibody</text>
+      <annotation id="1">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:12Z</infon>
+        <location offset="15" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:16Z</infon>
+        <location offset="56" length="6"/>
+        <text>CHO-K1</text>
+      </annotation>
+      <annotation id="3">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:21Z</infon>
+        <location offset="86" length="10"/>
+        <text>production</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">ABSTRACT</infon>
+      <infon key="type">abstract</infon>
+      <offset>132</offset>
+      <text>Oligosaccharides are generally considered to be un-utilized for growth of mammalian cells because their permeability across the cell membrane is low. However, in our previous study, we discovered that CHO and HEK293 cells consume maltose in culture media without serum and glucose. This is interesting because the transporter for maltose in mammalian cells has not been discovered to-date, and the only animal disaccharide transporter that is recently discovered is a sucrose transporter. The application of oligosaccharides in mammalian cell-based biopharmaceutical manufacturing can be beneficial, because it can theoretically increase carbohydrate content of the culture medium and decrease lactate production. Here, we first determined that specific maltose consumption rate in CHO cells was similar to galactose and fructose at 0.257 ng/cell/day. We then demonstrated that CHO cells can be cultivated with reasonable cell growth using higher maltose concentrations. After which, we evaluated the use of maltose supplementation in the production of a recombinant monoclonal antibody in batch and fed-batch cultures, demonstrating improvements in recombinant monoclonal antibody titer of 15% and 23% respectively. Finally, glycosylation profiles of the antibodies were analyzed.</text>
+      <annotation id="4">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:46Z</infon>
+        <location offset="132" length="16"/>
+        <text>Oligosaccharides</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:35:42Z</infon>
+        <location offset="196" length="25"/>
+        <text>growth of mammalian cells</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:11Z</infon>
+        <location offset="640" length="16"/>
+        <text>oligosaccharides</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:17Z</infon>
+        <location offset="770" length="20"/>
+        <text>carbohydrate content</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:23Z</infon>
+        <location offset="826" length="18"/>
+        <text>lactate production</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:39Z</infon>
+        <location offset="1054" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="10">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:42Z</infon>
+        <location offset="1079" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+      <annotation id="11">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:49Z</infon>
+        <location offset="1140" length="23"/>
+        <text>maltose supplementation</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:36:58Z</infon>
+        <location offset="1314" length="5"/>
+        <text>titer</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:04Z</infon>
+        <location offset="1358" length="22"/>
+        <text>glycosylation profiles</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">title_1</infon>
+      <offset>1414</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>1427</offset>
+      <text>Mammalian cell cultures are commonly used for the manufacturing of recombinant glycoprotein products because of its ability to fold complex proteins and to add human-like glycans to glycoproteins. In the manufacturing of such products for biopharmaceutical applications, mammalian cell culture that is animal component-free and serum-free is recommended by regulatory authorities, to avoid potential pathogenic contaminants from animal-derived products used to cultivate the cells. In these serum-free cell cultures, glucose is commonly used as the carbohydrate source, since it can be effectively transported through the phospholipid bilayer cell membrane via the glucose transporters (GLUT) and sodium-glucose linked transporters (SGLT). Other carbohydrates that have been reported to be consumed by the cells in serum-free cell culture are monosaccharides: galactose, fructose and mannose. The use of oligosaccharides in mammalian cell cultures has only been reported in serum-supplemented cultures because serum saccharidases break down these oligosaccharides in the culture medium for utilization by the cells.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>2543</offset>
+      <text>For practical applications, the use of oligosaccharides for mammalian cell cultivation can be advantageous to the serum free suspension cell culture of transformed cell lines typically used for the biomanufacturing of recombinant protein therapeutics. Two glucose-related issues are commonly encountered for such cell cultures: Firstly, glucose is commonly the limiting substrate in serum-free suspension cell batch culture due its high consumption rate and the high cell density attained in suspension cell cultures. This is despite the high initial glucose concentration in the culture media: glucose is commonly the most abundant nutrient in most media formulations for mammalian cell batch culture, at 2 to 10 fold higher concentration than the next most abundant nutrient utilized by the cells during cell growth. Further loading of the cell culture media with glucose is limited by the overall osmolality of the culture media since hyperosmotic culture media has been shown to be detrimental to cell growth. Secondly, glucose is known to contribute to high lactate levels in culture, since these transformed cell lines have high rates of glycolysis and lactate production, a phenotype described as the Warburg effect. This becomes a productivity limitation to both batch and fed-batch cultures, because lactate is toxic to the cells and increased lactate concentrations in the bioreactor will result in decreased cell growth rate.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>3980</offset>
+      <text>The use of oligosaccharides in serum free suspension cell culture may potentially address both issues: As oligosaccharides contribute to lower osmolality per unit mass concentration, these sugars can potentially increase the sugar availability to cells in batch culture media since higher mass concentrations can be used. Depending on the rate of conversion of the oligosaccharides to monosaccharides, it may also mitigate lactate accumulation in the bioreactor by providing a source of sugars that is not readily available to the cells, thereby limiting glycolysis and lactate production. In theory, this will be somewhat similar to maintaining low glucose concentrations in bioreactors as achieved by dynamic online feeding strategies, albeit being practically simpler to set up and implement.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>4776</offset>
+      <text>Recently, we reported our discovery that mammalian cells consume maltose, a disaccharide, in serum-free cell culture: we demonstrated that CHO and HEK293 cells can be adapted to serum-free culture media containing maltose as the sole carbohydrate source, intracellular maltose was detected in maltose-supplemented cell culture, and that maltose in a protein-free chemically-defined medium is only depleted in the presence of cells. This is somewhat surprising because currently, the only animal disaccharide transporter that has been reported is a sucrose transporter in Drosophila melanogaster.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">INTRO</infon>
+      <infon key="type">paragraph</infon>
+      <offset>5372</offset>
+      <text>While the mechanism of this phenomenon is still not well-understood, we investigated the kinetics and application of maltose in monoclonal antibody production in this study. A Monod model for specific maltose consumption was first proposed, leading to the evaluation of different maltose concentrations to improve the growth of CHO-K1 cultures adapted to maltose-only medium. Applications of maltose supplementation in batch and fed-batch culture of an antibody producing CHO-K1 cell line was then studied.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_1</infon>
+      <offset>5879</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>5887</offset>
+      <text>Characterization of maltose metabolism kinetics</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">41598_2018_22490_Fig1_HTML.jpg</infon>
+      <infon key="id">Fig1</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>5935</offset>
+      <text>Monod model for specific maltose consumption rate. (A) Specific maltose consumption rates for cultures with different initial maltose concentrations from different experiments were determined as the slope from the plots of maltose concentrations against cumulative integral viable cell densities (IVCD), according to Equation 4. (B) Maximum specific maltose consumption rate (qs_max) and affinity constant (Ks) were determined by non-linear regression, according to Equation 5. The Monod model for specific maltose consumption rate calculated using these parameters and the experimental data used for the model were then plotted.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>6565</offset>
+      <text>To characterize the kinetics of maltose metabolism, SH87, a CHO-K1 cell line that produces an anti-Her2 monoclonal antibody was cultured in a protein free chemically defined medium (PFCDM) containing 4 g/l glucose supplemented with 0.5, 1, 2, 3, 10 or 20 g/l maltose, which gave maximum viable cell densities greater than 8 x 106 cells/ml. The specific maltose consumption rates were obtained from plots of maltose concentrations against cumulative integral viable cell densities (IVCD) according to Equation 4. These plots gave straight trendlines with R2 values between 0.853 and 0.999 when 3 to 5 data points after glucose depletion were used (Supplementary Fig. 1), suggesting that the specific maltose consumption rates were fairly constant when maltose was metabolized. The slopes of these trendlines gave the average specific maltose consumption rates of these cultures and are tabulated in Fig. 1A.</text>
+      <annotation id="14">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:36Z</infon>
+        <location offset="6617" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:43Z</infon>
+        <location offset="6707" length="38"/>
+        <text>protein free chemically defined medium</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:47Z</infon>
+        <location offset="6771" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:49Z</infon>
+        <location offset="6824" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:37:54Z</infon>
+        <location offset="6852" length="21"/>
+        <text>viable cell densities</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>7481</offset>
+      <text>The specific maltose consumption rates increased with increasing initial maltose concentrations, verifying the concentration dependence of maltose metabolism at these concentrations. Additionally, it was observed that the magnitude of increase in specific consumption decreased at higher initial maltose concentrations, suggesting that there may be a maxima in this relationship. As such, the data was fitted to a Monod model according to Equation 5 by non-linear regression. The data fitted to the model (Fig. 1B) to obtain a maximum specific maltose consumption rate (qs_max) of 0.257 ng/cell/day and an affinity constant (Ks) of 7.03 g/l. Comparing with published specific monosaccharide consumption rates using 3.6 g/l of monosaccharides, the maximum specific maltose consumption rate determined here is similar to the specific consumption rates of fructose (0.21 ng/cell/day) and galactose (0.21 ng/cell/day) while being lower than the measured specific consumption rates of glucose (0.76 ng/cell/day) and mannose (0.88 ng/cell/day). This suggests that maltose can be metabolized at rates similar to fructose and galactose while maltose metabolism will be slower than that with glucose and mannose. As such, we described a first estimate of mammalian cell maltose metabolism kinetics that has not been previously reported.</text>
+      <annotation id="19">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:27Z</infon>
+        <location offset="7494" length="25"/>
+        <text>maltose consumption rates</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:30Z</infon>
+        <location offset="7546" length="30"/>
+        <text>initial maltose concentrations</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:47Z</infon>
+        <location offset="7728" length="20"/>
+        <text>specific consumption</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:38:49Z</infon>
+        <location offset="7769" length="30"/>
+        <text>initial maltose concentrations</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">41598_2018_22490_Fig2_HTML.jpg</infon>
+      <infon key="id">Fig2</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>8813</offset>
+      <text>Data from CHO-K1 culture with increasing concentration of maltose. CHO-K1 cells adapted to PFCDM with 10 g/L of maltose was cultivated in PFCDM with 3.6, 10, 20, 30 and 40 g/L maltose in duplicate batch shake flask cultures. (A) Viable cell densities (lined marker) and culture viabilities (marker only), (B) Glucose, (C) Lactate, (D) Actual maltose (marker only) and calculated maltose (line only), (E) Glutamine, (F) Ammonium, and (G) Osmolality profiles. To determine calculated maltose concentrations, specific maltose consumption was first determined using Monod model (Equation 5), calculated maltose concentrations were then determined based on IVCD using Equation 4.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>9492</offset>
+      <text>Based on this model, we hypothesized that the CHO-K1 cells adapted to propagate in serum free medium with maltose as sole carbohydrate source should be able to proliferate faster with increasing maltose concentrations. We therefore evaluated the growth of these cells in PFCDM medium without glucose but supplemented with 3.6, 10, 20, 30 and 40 g/l maltose (Fig. 2). Exponential specific growth rates of the cultures were calculated using viable cell density data up till Day 5 according to Equation 1, to give 0.004, 0.0101, 0.0140, 0.0139 and 0.0107 h-1 respectively. Compared to CHO cells cultivated in normal medium with glucose which typically has a specific growth rate of about 0.03 h-1, this slower growth corroborates with the lower specific maltose consumption discussed above, and suggests that carbohydrate metabolism may be limiting in these maltose cultures. More importantly, the cells indeed proliferated faster with increasing maltose concentrations from 3.6 g/l to 20 and 30 g/l (Fig. 2A) to reach maximum viable cell density (VCD) of 1.6 x 106 cells/ml. Further increase in maltose concentration to 40 g/l gave a growth curve similar to the 10 g/l culture. This can be attributed to its initial high osmolality at 404 mOsm/kg (Fig. 2G), countering the effects of faster maltose metabolism.</text>
+      <annotation id="23">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:39:40Z</infon>
+        <location offset="9538" length="6"/>
+        <text>CHO-K1</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:39:45Z</infon>
+        <location offset="9575" length="17"/>
+        <text>serum free medium</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:39:47Z</infon>
+        <location offset="9598" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:39:55Z</infon>
+        <location offset="9652" length="11"/>
+        <text>proliferate</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:39:57Z</infon>
+        <location offset="9687" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:06Z</infon>
+        <location offset="9738" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:09Z</infon>
+        <location offset="9763" length="12"/>
+        <text>PFCDM medium</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:11Z</infon>
+        <location offset="9784" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:13Z</infon>
+        <location offset="9841" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:38Z</infon>
+        <location offset="10098" length="13"/>
+        <text>normal medium</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:31Z</infon>
+        <location offset="10117" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:44Z</infon>
+        <location offset="10147" length="20"/>
+        <text>specific growth rate</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:48Z</infon>
+        <location offset="10199" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:40:51Z</infon>
+        <location offset="10234" length="28"/>
+        <text>specific maltose consumption</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:05Z</infon>
+        <location offset="10298" length="23"/>
+        <text>carbohydrate metabolism</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:12Z</infon>
+        <location offset="10400" length="12"/>
+        <text>proliferated</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:16Z</infon>
+        <location offset="10436" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:25Z</infon>
+        <location offset="10508" length="27"/>
+        <text>maximum viable cell density</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:29Z</infon>
+        <location offset="10537" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:35Z</infon>
+        <location offset="10585" length="21"/>
+        <text>maltose concentration</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:42Z</infon>
+        <location offset="10624" length="12"/>
+        <text>growth curve</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:41:46Z</infon>
+        <location offset="10711" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>10826</offset>
+      <text>Essential biochemicals in culture supernatant were also analyzed (Fig. 2B-F). From Fig. 2B, it is observed that glucose concentrations of all cultures remained below the instrument lower limit of 0.20 g/l up till Day 10. As cell proliferation was observed up to Day 7, this demonstrates that residual glucose could not have been responsible for the observed cell growth, and that maltose was likely used as an alternative carbohydrate source. From Day 11 onwards, glucose concentrations increased for the 30 g/l and 40 g/l cultures to 1.96 g/l and 1.25 g/l respectively, suggesting that a small percentage (6.5% and 3.1% respectively) of maltose was broken down: We postulate that there may be release of transiently active maltase from lysed cells during death phase, and the high maltose concentrations in these cultures may have resulted in faster and more noticeable breakdown of maltose to glucose in these cultures compared to cultures with lower maltose concentrations.</text>
+      <annotation id="45">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:06Z</infon>
+        <location offset="11050" length="18"/>
+        <text>cell proliferation</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:10Z</infon>
+        <location offset="11118" length="16"/>
+        <text>residual glucose</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:15Z</infon>
+        <location offset="11184" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:19Z</infon>
+        <location offset="11206" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:52Z</infon>
+        <location offset="11531" length="26"/>
+        <text>transiently active maltase</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:42:57Z</infon>
+        <location offset="11603" length="27"/>
+        <text>high maltose concentrations</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:06Z</infon>
+        <location offset="11697" length="31"/>
+        <text>breakdown of maltose to glucose</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:10Z</infon>
+        <location offset="11779" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>11815</offset>
+      <text>As for lactate, it was not detectable until Day 7 (Fig. 2C). We postulate that the delayed accumulation of lactate could be attributed to a reduced Warburg effect as a result of substituting glucose with maltose. This change in carbohydrate source may have compelled the cells to be more energy efficient instead of being dependent on glycolysis. From Day 7, lactate was only detected for the 20, 30 and 40 g/l cultures and not for the 3.6 and 10 g/l cultures. Day 7 also coincided with the cultures entering death phase. As such, we postulate that the cultures with higher maltose concentrations may have more glycolysis intermediates that were processed to lactate when the cells die.</text>
+      <annotation id="53">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:28Z</infon>
+        <location offset="11906" length="23"/>
+        <text>accumulation of lactate</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:35Z</infon>
+        <location offset="11963" length="14"/>
+        <text>Warburg effect</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:38Z</infon>
+        <location offset="12006" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:39Z</infon>
+        <location offset="12019" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:49Z</infon>
+        <location offset="12043" length="19"/>
+        <text>carbohydrate source</text>
+      </annotation>
+      <annotation id="58">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:43:56Z</infon>
+        <location offset="12103" length="16"/>
+        <text>energy efficient</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:44:02Z</infon>
+        <location offset="12150" length="10"/>
+        <text>glycolysis</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:44:17Z</infon>
+        <location offset="12389" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:44:24Z</infon>
+        <location offset="12426" length="24"/>
+        <text>glycolysis intermediates</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:44:28Z</infon>
+        <location offset="12474" length="7"/>
+        <text>lactate</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>12506</offset>
+      <text>From Fig. 2A,E and F, we observed a direct correlation between cell growth, glutamine consumption and ammonium production: cultures with faster growth had faster glutamine consumption and ammonium production. When specific rates were determined according to Equation 4, specific glutamine consumption were 0.795, 0.855, 1.431, 1.481 and 0.630 ng/cell/day respectively, and specific ammonia production prior to glutamine depletion were 1.399, 1.178, 1.863, 2.035 and 1.264 ng/cell/day respectively, corroborating with the observed correlation and suggesting that more glutamine was used to provide energy to support the faster cell growth observed in the 20 g/l and 30 g/l maltose cultures. These specific rates were also higher than the maximum maltose specific consumption rate of 0.257 ng/cell/day, and glutamine depletion coincided with peak VCD. These suggest that glutamine (and potentially other amino acids) is likely a main energy source in these cultures leading to ammonium production, and maltose provided an additional and limiting energy stream to allow the cells to proliferate in the absence of glucose.</text>
+      <annotation id="63">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:44:50Z</infon>
+        <location offset="12569" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:45:38Z</infon>
+        <location offset="12582" length="21"/>
+        <text>glutamine consumption</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:45:04Z</infon>
+        <location offset="12608" length="19"/>
+        <text>ammonium production</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:45:16Z</infon>
+        <location offset="12650" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="67">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:45:25Z</infon>
+        <location offset="12668" length="21"/>
+        <text>glutamine consumption</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:45:29Z</infon>
+        <location offset="12694" length="19"/>
+        <text>ammonium production</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:24Z</infon>
+        <location offset="12785" length="21"/>
+        <text>glutamine consumption</text>
+      </annotation>
+      <annotation id="73">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:31Z</infon>
+        <location offset="12888" length="18"/>
+        <text>ammonia production</text>
+      </annotation>
+      <annotation id="74">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:36Z</infon>
+        <location offset="12916" length="19"/>
+        <text>glutamine depletion</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:45:52Z</infon>
+        <location offset="13073" length="9"/>
+        <text>glutamine</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:00Z</infon>
+        <location offset="13132" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:05Z</infon>
+        <location offset="13178" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="77">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:01Z</infon>
+        <location offset="13251" length="33"/>
+        <text>maltose specific consumption rate</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:53Z</infon>
+        <location offset="13311" length="19"/>
+        <text>glutamine depletion</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:46:57Z</infon>
+        <location offset="13351" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:11Z</infon>
+        <location offset="13375" length="9"/>
+        <text>glutamine</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:16Z</infon>
+        <location offset="13481" length="19"/>
+        <text>ammonium production</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:21Z</infon>
+        <location offset="13506" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:28Z</infon>
+        <location offset="13586" length="11"/>
+        <text>proliferate</text>
+      </annotation>
+      <annotation id="82">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:26Z</infon>
+        <location offset="13616" length="7"/>
+        <text>glucose</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13629</offset>
+      <text>Lastly, maltose utilization was observed to increase with increasing maltose concentrations (Fig. 2D). Calculated maltose concentrations based on our Monod model (Fig. 1) were also plotted (Fig. 2D), demonstrating that the observed maltose concentrations were in-line with calculated values.</text>
+      <annotation id="83">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:36Z</infon>
+        <location offset="13637" length="19"/>
+        <text>maltose utilization</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:39Z</infon>
+        <location offset="13698" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>13921</offset>
+      <text>Taken together, this data confirms that CHO-K1 cells can proliferate in maltose-only medium without serum, hydrolysates or protein supplements to cell density greater than 106 cells/ml. This also demonstrates that high maltose concentrations up to 30 g/L can be used for batch CHO cell culture without detrimental effects due to osmolality. As such, these results suggest that maltose can be used as a glucose-replacement in routine cultivation of adapted mammalian cell lines in serum-free media at a lower growth rate.</text>
+      <annotation id="85">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:52Z</infon>
+        <location offset="13961" length="12"/>
+        <text>CHO-K1 cells</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:47:57Z</infon>
+        <location offset="13978" length="11"/>
+        <text>proliferate</text>
+      </annotation>
+      <annotation id="87">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:04Z</infon>
+        <location offset="13993" length="19"/>
+        <text>maltose-only medium</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:08Z</infon>
+        <location offset="14021" length="5"/>
+        <text>serum</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:10Z</infon>
+        <location offset="14028" length="12"/>
+        <text>hydrolysates</text>
+      </annotation>
+      <annotation id="90">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:13Z</infon>
+        <location offset="14044" length="19"/>
+        <text>protein supplements</text>
+      </annotation>
+      <annotation id="91">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:20Z</infon>
+        <location offset="14067" length="12"/>
+        <text>cell density</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:38Z</infon>
+        <location offset="14140" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+      <annotation id="93">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:53Z</infon>
+        <location offset="14223" length="19"/>
+        <text>detrimental effects</text>
+      </annotation>
+      <annotation id="94">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:48:56Z</infon>
+        <location offset="14250" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="95">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:49:03Z</infon>
+        <location offset="14298" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="96">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:49:06Z</infon>
+        <location offset="14323" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="97">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:49:14Z</infon>
+        <location offset="14429" length="11"/>
+        <text>growth rate</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>14444</offset>
+      <text>Comparison of batch cultures with high glucose and maltose concentrations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">41598_2018_22490_Fig3_HTML.jpg</infon>
+      <infon key="id">Fig3</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>14518</offset>
+      <text>Data from SH87 culture with high concentrations of glucose and maltose. SH87 cells normally cultured in glucose-only PFCDM were seeded into PFCDM with 14 g/l glucose, 24 g/l glucose, 4 g/l glucose + 10 g/l maltose, or 4 g/l glucose + 20 g/l maltose. (A) Viable cell densities (lined marker) and culture viabilities (marker only), and (B) Glucose, (C) Lactate, (D) Maltose, (E) Glutamine, (F) Osmolality, and (G) IgG titer profiles. For maltose profile, averages of 2 technical replicates from one set of shake flasks were plotted. Averages from 2 replicate shake flasks were used for other graphs.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>15136</offset>
+      <text>To study the effect of supplementing maltose at high concentrations in batch production of antibodies, we compared the culture profiles of SH87 in media supplemented with 4 g/l glucose and 10 g/l or 20 g/l maltose, to cultures of the same cells in media containing 14 g/l and 24 g/l glucose (Fig. 3). The 24 g/l glucose culture grew slower, attained a lower maximum VCD of 10.6 x 106 cells/ml, and reached a low viability of less than 50% faster than the other 3 cultures (Fig. 3A). The slower growth of the 24 g/l glucose culture can be attributed to the higher osmolality (360 mOsm/kg) of the culture medium (Fig. 3F), while the culture media of the other 3 cultures had similar osmolality between 318 and 331 mOsm/kg that were in the optimum pH range for the cultivation of mammalian cells. This confirms a limitation of high glucose loading in batch culture medium because glucose contributes to osmolality significantly and can affect cell growth at high concentrations. In contrast, the same mass concentrations of maltose contributed to less increase in osmolality and thus had no negative effect on cell growth.</text>
+      <annotation id="98">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:49:54Z</infon>
+        <location offset="15173" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="99">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:00Z</infon>
+        <location offset="15255" length="16"/>
+        <text>culture profiles</text>
+      </annotation>
+      <annotation id="100">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:05Z</infon>
+        <location offset="15275" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="101">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:08Z</infon>
+        <location offset="15313" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="102">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:10Z</infon>
+        <location offset="15342" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="103">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:14Z</infon>
+        <location offset="15419" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="104">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:22Z</infon>
+        <location offset="15448" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="105">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:34Z</infon>
+        <location offset="15464" length="11"/>
+        <text>grew slower</text>
+      </annotation>
+      <annotation id="106">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:41Z</infon>
+        <location offset="15494" length="11"/>
+        <text>maximum VCD</text>
+      </annotation>
+      <annotation id="107">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:49Z</infon>
+        <location offset="15548" length="9"/>
+        <text>viability</text>
+      </annotation>
+      <annotation id="108">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:55Z</infon>
+        <location offset="15630" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="109">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:50:57Z</infon>
+        <location offset="15651" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="110">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:01Z</infon>
+        <location offset="15699" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="111">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:06Z</infon>
+        <location offset="15817" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="112">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:09Z</infon>
+        <location offset="15881" length="8"/>
+        <text>pH range</text>
+      </annotation>
+      <annotation id="113">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:21Z</infon>
+        <location offset="15965" length="15"/>
+        <text>glucose loading</text>
+      </annotation>
+      <annotation id="114">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:24Z</infon>
+        <location offset="16013" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="115">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:27Z</infon>
+        <location offset="16036" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="116">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:32Z</infon>
+        <location offset="16076" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="117">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:36Z</infon>
+        <location offset="16157" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="118">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:40Z</infon>
+        <location offset="16197" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="119">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:44Z</infon>
+        <location offset="16243" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>16279</offset>
+      <text>Comparing the growth profiles of the 10 g/l maltose, 20 g/l maltose and 14 g/l glucose cultures (Fig. 3A), they were similar even after glucose concentration reached its minimal on Day 5 for the maltose supplemented cultures (Fig. 3B). This suggests that maltose metabolism is not restricting cell growth, in contrast to previous observation of slower growth observed at maltose concentrations lower than 3 g/l after glucose depletion. The hypothesis of a higher maltose metabolism at these concentrations is supported by observations of glucose accumulation in the 10 g/l and 20 g/l maltose supplemented cultures (Fig. 3B), a phenomenon not observed in our previous study. This suggests that maltose was hydrolyzed faster than the cells' metabolic requirements during the corresponding culture times: Glucose accumulation was observed in the 20 g/l maltose supplemented culture after Day 5, when the cells were still growing at a similar rate as the 14 g/l glucose culture, demonstrating that maltose metabolism was not limiting cell growth. At lower maltose concentration of 10 g/l, glucose accumulation was observed only after Day 8, when the cells are entering death phase. With the cells growing similarly to the 14 g/l glucose culture, this indicates that maltose metabolism was just ample to support cell growth at 10 g/l maltose without excess glucose accumulating in the culture medium.</text>
+      <annotation id="120">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:51Z</infon>
+        <location offset="16293" length="15"/>
+        <text>growth profiles</text>
+      </annotation>
+      <annotation id="121">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:53Z</infon>
+        <location offset="16323" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="122">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:55Z</infon>
+        <location offset="16339" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="123">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:51:57Z</infon>
+        <location offset="16358" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="124">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:01Z</infon>
+        <location offset="16415" length="21"/>
+        <text>glucose concentration</text>
+      </annotation>
+      <annotation id="125">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:05Z</infon>
+        <location offset="16474" length="29"/>
+        <text>maltose supplemented cultures</text>
+      </annotation>
+      <annotation id="126">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:09Z</infon>
+        <location offset="16534" length="18"/>
+        <text>maltose metabolism</text>
+      </annotation>
+      <annotation id="127">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:15Z</infon>
+        <location offset="16572" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="128">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:32Z</infon>
+        <location offset="16631" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="129">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:23Z</infon>
+        <location offset="16650" length="22"/>
+        <text>maltose concentrations</text>
+      </annotation>
+      <annotation id="130">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:38Z</infon>
+        <location offset="16696" length="17"/>
+        <text>glucose depletion</text>
+      </annotation>
+      <annotation id="131">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:52:56Z</infon>
+        <location offset="17081" length="20"/>
+        <text>Glucose accumulation</text>
+      </annotation>
+      <annotation id="132">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:00Z</infon>
+        <location offset="17129" length="28"/>
+        <text>maltose supplemented culture</text>
+      </annotation>
+      <annotation id="133">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:05Z</infon>
+        <location offset="17197" length="7"/>
+        <text>growing</text>
+      </annotation>
+      <annotation id="134">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:09Z</infon>
+        <location offset="17273" length="18"/>
+        <text>maltose metabolism</text>
+      </annotation>
+      <annotation id="135">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:13Z</infon>
+        <location offset="17309" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="136">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:24Z</infon>
+        <location offset="17331" length="21"/>
+        <text>maltose concentration</text>
+      </annotation>
+      <annotation id="137">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:26Z</infon>
+        <location offset="17364" length="20"/>
+        <text>glucose accumulation</text>
+      </annotation>
+      <annotation id="138">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:32Z</infon>
+        <location offset="17444" length="11"/>
+        <text>death phase</text>
+      </annotation>
+      <annotation id="139">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:39Z</infon>
+        <location offset="17472" length="7"/>
+        <text>growing</text>
+      </annotation>
+      <annotation id="140">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:43Z</infon>
+        <location offset="17504" length="15"/>
+        <text>glucose culture</text>
+      </annotation>
+      <annotation id="141">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:47Z</infon>
+        <location offset="17541" length="18"/>
+        <text>maltose metabolism</text>
+      </annotation>
+      <annotation id="142">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:52Z</infon>
+        <location offset="17586" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="143">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:55Z</infon>
+        <location offset="17608" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="144">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:53:57Z</infon>
+        <location offset="17631" length="7"/>
+        <text>glucose</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>17699</offset>
+      <text>Also worth noting here is that the lactate consumption in the glucose only cultures were minimal throughout the culture duration, in contrast to the maltose supplemented cultures which consumed most of the lactate from Days 5 to 8 (Fig. 3C). While a second lactate production phase was observed after Days 9 and 10 for the 10 g/l and 20 g/l maltose supplemented cultures respectively, the lactate concentrations in these cultures reached significantly lower levels as compared to the glucose cultures. This verifies another limitation of glucose loading in batch culture medium: because lactate accumulation can result in cell toxicity, the lack of its consumption with high glucose loading can limit the growth of the cell culture. In this case, this lactate toxicity may have also contributed to the faster death phase observed for the 24 g/l glucose culture. Ammonium production profiles were similar for all 4 cultures (data not shown) because these cells were cultivated in the presence of glucose, and as such, ammonium is unlikely a contributing factor to growth and production differences in this experiment.</text>
+      <annotation id="145">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:30Z</infon>
+        <location offset="17734" length="19"/>
+        <text>lactate consumption</text>
+      </annotation>
+      <annotation id="146">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:18Z</infon>
+        <location offset="17761" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="147">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:35Z</infon>
+        <location offset="17848" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="148">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:40Z</infon>
+        <location offset="17905" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="149">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:46Z</infon>
+        <location offset="17956" length="18"/>
+        <text>lactate production</text>
+      </annotation>
+      <annotation id="150">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:51Z</infon>
+        <location offset="18040" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="151">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:54:57Z</infon>
+        <location offset="18088" length="22"/>
+        <text>lactate concentrations</text>
+      </annotation>
+      <annotation id="152">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:00Z</infon>
+        <location offset="18183" length="6"/>
+        <text>glucos</text>
+      </annotation>
+      <annotation id="153">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:11Z</infon>
+        <location offset="18237" length="15"/>
+        <text>glucose loading</text>
+      </annotation>
+      <annotation id="154">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:17Z</infon>
+        <location offset="18286" length="20"/>
+        <text>lactate accumulation</text>
+      </annotation>
+      <annotation id="155">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:29Z</infon>
+        <location offset="18321" length="13"/>
+        <text>cell toxicity</text>
+      </annotation>
+      <annotation id="156">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:32Z</infon>
+        <location offset="18374" length="15"/>
+        <text>glucose loading</text>
+      </annotation>
+      <annotation id="157">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:36Z</infon>
+        <location offset="18404" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="158">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:42Z</infon>
+        <location offset="18451" length="16"/>
+        <text>lactate toxicity</text>
+      </annotation>
+      <annotation id="159">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:48Z</infon>
+        <location offset="18508" length="11"/>
+        <text>death phase</text>
+      </annotation>
+      <annotation id="160">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:55:52Z</infon>
+        <location offset="18544" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="161">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:00Z</infon>
+        <location offset="18561" length="28"/>
+        <text>Ammonium production profiles</text>
+      </annotation>
+      <annotation id="162">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:06Z</infon>
+        <location offset="18694" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="163">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:18Z</infon>
+        <location offset="18762" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="164">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:23Z</infon>
+        <location offset="18773" length="10"/>
+        <text>production</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>18822</offset>
+      <text>Examining the maltose profiles of the maltose supplemented cultures, maltose consumption were faster after glucose depletion on Day 5 (Fig. 3D), similar to previous data, and maltose was not depleted for both maltose supplemented cultures till the end of the run on Day 14. Similarly, glucose was not depleted for both glucose cultures (Fig. 3B). While sugars were present in excess, other nutrients may be limiting the growth of these cells, for example, glutamine was used up at Day 6 for all 4 cultures (Fig. 3E). These other limitations may have affected growth similarly to cause the similar growth profiles of the maltose supplemented cultures and the 14 g/l glucose culture.</text>
+      <annotation id="165">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:34Z</infon>
+        <location offset="18891" length="19"/>
+        <text>maltose consumption</text>
+      </annotation>
+      <annotation id="166">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:37Z</infon>
+        <location offset="18929" length="17"/>
+        <text>glucose depletion</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab1.xml</infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table_caption</infon>
+      <offset>19506</offset>
+      <text>Specific IgG productivities of SH87 cultivated in PFCDM with high concentrations of glucose and maltose. SH87 cells normally cultured in glucose-only PFCDM were seeded into PFCDM with 14 g/l glucose, 24 g/l glucose, 4 g/l glucose + 10 g/l maltose, or 4 g/l glucose + 20 g/l maltose. IgG titers were then plotted against IVCD to obtain the specific IgG productivity as the slope of the graphs, according to Equation 3.</text>
+      <annotation id="167">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:54Z</infon>
+        <location offset="19515" length="18"/>
+        <text>IgG productivities</text>
+      </annotation>
+      <annotation id="168">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:56:57Z</infon>
+        <location offset="19537" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="169">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:01Z</infon>
+        <location offset="19590" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="170">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:03Z</infon>
+        <location offset="19602" length="8"/>
+        <text>maltose.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Culture media sugar content&lt;/th&gt;&lt;th&gt;Specific IgG productivity up to Day 6 (pg/cell/day)&lt;/th&gt;&lt;th&gt;Specific IgG productivity from Day 7 (pg/cell/day)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;14 g/l glucose&lt;/td&gt;&lt;td&gt;7.74&lt;/td&gt;&lt;td&gt;0.96&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24 g/l glucose&lt;/td&gt;&lt;td&gt;10.0&lt;/td&gt;&lt;td&gt;1.17&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4 g/l glucose + 10 g/l maltose&lt;/td&gt;&lt;td&gt;6.73&lt;/td&gt;&lt;td&gt;1.21&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4 g/l glucose + 20 g/l maltose&lt;/td&gt;&lt;td&gt;8.29&lt;/td&gt;&lt;td&gt;1.47&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab1</infon>
+      <infon key="type">table</infon>
+      <infon key="File">Tab1.xml</infon>
+      <offset>19944</offset>
+      <text>Culture media sugar content Specific IgG productivity up to Day 6 (pg/cell/day) Specific IgG productivity from Day 7 (pg/cell/day) 14 g/l glucose 7.74 0.96 24 g/l glucose 10.0 1.17 4 g/l glucose + 10 g/l maltose 6.73 1.21 4 g/l glucose + 20 g/l maltose 8.29 1.47 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>20228</offset>
+      <text>With the similar growth profiles, it was interesting to note that the 20 g/l maltose supplemented culture resulted in a maximum IgG titer of 298 mg/l, 15% higher than that from the 14 g/l glucose culture and 10 g/l maltose supplemented cultures which gave maximum titers of 259 mg/l and 263 mg/l respectively (Fig. 3G). To examine this, the specific IgG productivities of the cultures were determined according to Equation 3 (Table 1 and Supplementary Fig. 2). We noted that the specific IgG productivities for all 4 cultures decreased after Day 7, when glutamine concentrations reached their minimum, suggesting that glutamine may be limiting IgG productivity from Day 7. Regardless of glutamine limitation, we observed that specific IgG productivities were 21% to 29% higher in the culture with more glucose or with more maltose, suggesting that higher sugar concentrations can improve specific IgG productivities. When we compared the specific IgG productivities of maltose supplemented cultures with their corresponding glucose culture having the same total sugar concentration, the maltose supplemented cultures had 13% to 17% lower specific IgG productivities up to Day 6, in concurrence with the previous observations that maltose metabolism is less efficient than that of glucose. However, specific IgG productivities of maltose supplemented cultures became 25% to 26% higher than specific IgG productivities of their corresponding glucose culture from Day 7, after glutamine depletion and the cultures reached stationary phase, even though sugars were not limiting. As this cannot be accounted for by differences in IVCD profile (data not shown), we postulate that the higher lactate levels in the glucose cultures may have negatively impacted the IgG productivities from Day 7. As a result, the 20 g/l maltose supplemented culture had the highest maximum IgG titer of 297 mg/l, which is respectively 15% and 21% higher than that achieved in the 14 g/l and 24 g/l glucose cultures, despite similar growth profiles.</text>
+      <annotation id="171">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:24Z</infon>
+        <location offset="20245" length="15"/>
+        <text>growth profiles</text>
+      </annotation>
+      <annotation id="172">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:27Z</infon>
+        <location offset="20305" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="173">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:31Z</infon>
+        <location offset="20348" length="17"/>
+        <text>maximum IgG titer</text>
+      </annotation>
+      <annotation id="174">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:36Z</infon>
+        <location offset="20416" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="175">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:39Z</infon>
+        <location offset="20443" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="176">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:57:45Z</infon>
+        <location offset="20484" length="14"/>
+        <text>maximum titers</text>
+      </annotation>
+      <annotation id="177">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:02Z</infon>
+        <location offset="20707" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="178">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:29Z</infon>
+        <location offset="20782" length="24"/>
+        <text>glutamine concentrations</text>
+      </annotation>
+      <annotation id="179">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:36Z</infon>
+        <location offset="20846" length="9"/>
+        <text>glutamine</text>
+      </annotation>
+      <annotation id="180">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:40Z</infon>
+        <location offset="20872" length="16"/>
+        <text>IgG productivity</text>
+      </annotation>
+      <annotation id="181">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:46Z</infon>
+        <location offset="20915" length="9"/>
+        <text>glutamine</text>
+      </annotation>
+      <annotation id="182">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:53Z</infon>
+        <location offset="20954" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="184">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:01Z</infon>
+        <location offset="21030" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="183">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:58:57Z</infon>
+        <location offset="21051" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="185">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:04Z</infon>
+        <location offset="21083" length="20"/>
+        <text>sugar concentrations</text>
+      </annotation>
+      <annotation id="186">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:10Z</infon>
+        <location offset="21116" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="187">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:19Z</infon>
+        <location offset="21175" length="18"/>
+        <text>IgG productivities</text>
+      </annotation>
+      <annotation id="188">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:22Z</infon>
+        <location offset="21197" length="29"/>
+        <text>maltose supplemented cultures</text>
+      </annotation>
+      <annotation id="189">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:28Z</infon>
+        <location offset="21252" length="15"/>
+        <text>glucose culture</text>
+      </annotation>
+      <annotation id="190">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:32Z</infon>
+        <location offset="21290" length="19"/>
+        <text>sugar concentration</text>
+      </annotation>
+      <annotation id="191">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:34Z</infon>
+        <location offset="21315" length="20"/>
+        <text>maltose supplemented</text>
+      </annotation>
+      <annotation id="192">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:40Z</infon>
+        <location offset="21366" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="193">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:52Z</infon>
+        <location offset="21526" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="194">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T16:59:56Z</infon>
+        <location offset="21557" length="29"/>
+        <text>maltose supplemented cultures</text>
+      </annotation>
+      <annotation id="195">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:02Z</infon>
+        <location offset="21617" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="196">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:04Z</infon>
+        <location offset="21668" length="15"/>
+        <text>glucose culture</text>
+      </annotation>
+      <annotation id="197">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:07Z</infon>
+        <location offset="21702" length="19"/>
+        <text>glutamine depletion</text>
+      </annotation>
+      <annotation id="198">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:13Z</infon>
+        <location offset="21777" length="6"/>
+        <text>sugars</text>
+      </annotation>
+      <annotation id="199">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:23Z</infon>
+        <location offset="21853" length="12"/>
+        <text>IVCD profile</text>
+      </annotation>
+      <annotation id="200">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:26Z</infon>
+        <location offset="21913" length="14"/>
+        <text>lactate levels</text>
+      </annotation>
+      <annotation id="201">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:28Z</infon>
+        <location offset="21935" length="16"/>
+        <text>glucose cultures</text>
+      </annotation>
+      <annotation id="202">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:35Z</infon>
+        <location offset="21985" length="18"/>
+        <text>IgG productivities</text>
+      </annotation>
+      <annotation id="203">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:40Z</infon>
+        <location offset="22040" length="28"/>
+        <text>maltose supplemented culture</text>
+      </annotation>
+      <annotation id="204">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:46Z</infon>
+        <location offset="22093" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+      <annotation id="205">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:51Z</infon>
+        <location offset="22201" length="16"/>
+        <text>glucose cultures</text>
+      </annotation>
+      <annotation id="206">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:00:56Z</infon>
+        <location offset="22235" length="15"/>
+        <text>growth profiles</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">title_2</infon>
+      <offset>22272</offset>
+      <text>Application of maltose in fed-batch cultures</text>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">41598_2018_22490_Fig4_HTML.jpg</infon>
+      <infon key="id">Fig4</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>22317</offset>
+      <text>Data from SH87 fed-batch bioreactor cultures in glucose only or glucose + maltose base medium. SH87 cells normally cultured in glucose-only PFCDM were seeded into PFCDM with 4 g/l glucose or 4 g/l glucose + 20 g/l maltose in 2 liter stirred tank bioreactors. The cultures with glucose only base medium were fed daily with 100% of its calculated glucose requirement while the cultures with glucose and maltose base medium was fed daily with 50% of its calculated glucose requirement. Other nutrients were fed similarly in a separate feed using glutamine as reference nutrient. (A) Viable cell densities (lined marker) and culture viabilities (marker only), (B) Glucose, (C) Lactate, (D) Maltose, (E) Glutamine, (F) Osmolality, and (G) IgG titer profiles. Duplicate bioreactor cultures were performed for each fed-batch conditions and data from all 4 cultures are plotted.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>23202</offset>
+      <text>Since fed-batch culture is a popular mode for the manufacturing of monoclonal antibodies, we evaluated the use of maltose in fed-batch cultures. In contrast to batch cultures where initial glucose concentration is limited by the detrimental effect on cell growth due to consequent increase in osmolality beyond a certain limit, fed-batch cultures do not have this limitation since glucose can be fed continually into the cultures. As such, we investigated whether maltose can be used to supplement glucose in fed-batch cultures to drive the cells towards a slower but more efficient metabolism: Using a common glucose concentration setpoint of 0.5 g/l, SH87 in media supplemented with 4 g/l glucose and 20 g/l maltose was fed daily with 50% of its calculated glucose requirement, while cultures of the same cells in media containing 4 g/l glucose was fed daily with 100% of its calculated glucose requirement. Duplicate bioreactor cultures were performed for each condition and the growth, biochemical and IgG titer profiles of these cultures were plotted in Fig. 4.</text>
+      <annotation id="207">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:01:31Z</infon>
+        <location offset="23383" length="29"/>
+        <text>initial glucose concentration</text>
+      </annotation>
+      <annotation id="208">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:01:35Z</infon>
+        <location offset="23453" length="11"/>
+        <text>cell growth</text>
+      </annotation>
+      <annotation id="209">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:01:38Z</infon>
+        <location offset="23495" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="210">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:01:42Z</infon>
+        <location offset="23583" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="211">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:01:51Z</infon>
+        <location offset="23666" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="212">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:01:54Z</infon>
+        <location offset="23700" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="213">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:01Z</infon>
+        <location offset="23785" length="10"/>
+        <text>metabolism</text>
+      </annotation>
+      <annotation id="214">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:11Z</infon>
+        <location offset="23812" length="30"/>
+        <text>glucose concentration setpoint</text>
+      </annotation>
+      <annotation id="215">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:17Z</infon>
+        <location offset="23855" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="216">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:27Z</infon>
+        <location offset="23893" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="217">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:29Z</infon>
+        <location offset="23912" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="218">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:34Z</infon>
+        <location offset="24041" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="219">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:44Z</infon>
+        <location offset="24184" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="220">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:50Z</infon>
+        <location offset="24192" length="11"/>
+        <text>biochemical</text>
+      </annotation>
+      <annotation id="221">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:02:57Z</infon>
+        <location offset="24208" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24277</offset>
+      <text>In contrast to the lactate consumption observed in the batch cultures (Fig. 3), there was no lactate consumption in the fed-batch cultures, even in the maltose-supplemented cultures with a 50% glucose feed (Fig. 4C). We postulate that this may be due to the consistent nutrient feeding in the fed-batch cultures, whereas glucose, glutamine or other nutrients were depleted in the batch cultures to result in the observed lactate consumption. Nonetheless, IgG titers of fed-batch cultures (Fig. 4G) were more than 5 fold that obtained from the batch cultures (Fig. 3G), demonstrating that the feeding strategy was successful in improving IgG production as expected of fed-batch cultures.</text>
+      <annotation id="222">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:08Z</infon>
+        <location offset="24296" length="19"/>
+        <text>lactate consumption</text>
+      </annotation>
+      <annotation id="224">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:16Z</infon>
+        <location offset="24332" length="14"/>
+        <text>batch cultures</text>
+      </annotation>
+      <annotation id="223">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:12Z</infon>
+        <location offset="24370" length="19"/>
+        <text>lactate consumption</text>
+      </annotation>
+      <annotation id="225">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:20Z</infon>
+        <location offset="24397" length="18"/>
+        <text>fed-batch cultures</text>
+      </annotation>
+      <annotation id="226">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:23Z</infon>
+        <location offset="24429" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="227">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:27Z</infon>
+        <location offset="24470" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="229">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:44Z</infon>
+        <location offset="24570" length="18"/>
+        <text>fed-batch cultures</text>
+      </annotation>
+      <annotation id="230">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:48Z</infon>
+        <location offset="24598" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="231">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:50Z</infon>
+        <location offset="24607" length="9"/>
+        <text>glutamine</text>
+      </annotation>
+      <annotation id="232">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:52Z</infon>
+        <location offset="24626" length="9"/>
+        <text>nutrients</text>
+      </annotation>
+      <annotation id="233">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:56Z</infon>
+        <location offset="24657" length="14"/>
+        <text>batch cultures</text>
+      </annotation>
+      <annotation id="228">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:03:37Z</infon>
+        <location offset="24698" length="19"/>
+        <text>lactate consumption</text>
+      </annotation>
+      <annotation id="234">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:03Z</infon>
+        <location offset="24732" length="10"/>
+        <text>IgG titers</text>
+      </annotation>
+      <annotation id="235">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:05Z</infon>
+        <location offset="24746" length="18"/>
+        <text>fed-batch cultures</text>
+      </annotation>
+      <annotation id="236">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:08Z</infon>
+        <location offset="24820" length="14"/>
+        <text>batch cultures</text>
+      </annotation>
+      <annotation id="237">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:11Z</infon>
+        <location offset="24869" length="16"/>
+        <text>feeding strategy</text>
+      </annotation>
+      <annotation id="238">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:17Z</infon>
+        <location offset="24914" length="14"/>
+        <text>IgG production</text>
+      </annotation>
+      <annotation id="239">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:20Z</infon>
+        <location offset="24944" length="18"/>
+        <text>fed-batch cultures</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>24964</offset>
+      <text>Comparing between the fed-batch cultures, the VCD, culture viabilities and lactate plots of the maltose-supplemented cultures and Glucose-only #2 culture were similar, while Glucose-only #1 culture had a higher maximum VCD, a faster decrease in culture viability and a faster lactate accumulation (Fig. 4A and C). The faster increase in osmolality in Glucose-only culture #1 (Fig. 4F) is likely due to pH correction as a result of the faster lactate accumulation. These illustrate possible variability of these parameters in the SH87 fed-batch cultures. On the other hand, glucose and glutamine profiles of maltose-supplemented and glucose-only cultures were similar. In addition, IgG titer was fairly consistent between the replicate cultures despite the variability in VCD, lactate and osmolality observed in the glucose-only duplicate cultures.</text>
+      <annotation id="240">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:31Z</infon>
+        <location offset="24986" length="18"/>
+        <text>fed-batch cultures</text>
+      </annotation>
+      <annotation id="241">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:35Z</infon>
+        <location offset="25010" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="242">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:39Z</infon>
+        <location offset="25015" length="19"/>
+        <text>culture viabilities</text>
+      </annotation>
+      <annotation id="243">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:43Z</infon>
+        <location offset="25039" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="244">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:45Z</infon>
+        <location offset="25060" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="245">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:51Z</infon>
+        <location offset="25094" length="23"/>
+        <text>Glucose-only #2 culture</text>
+      </annotation>
+      <annotation id="246">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:53Z</infon>
+        <location offset="25138" length="23"/>
+        <text>Glucose-only #1 culture</text>
+      </annotation>
+      <annotation id="247">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:04:57Z</infon>
+        <location offset="25183" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="248">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:01Z</infon>
+        <location offset="25209" length="17"/>
+        <text>culture viability</text>
+      </annotation>
+      <annotation id="249">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:07Z</infon>
+        <location offset="25240" length="20"/>
+        <text>lactate accumulation</text>
+      </annotation>
+      <annotation id="250">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:19Z</infon>
+        <location offset="25301" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="251">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:22Z</infon>
+        <location offset="25315" length="23"/>
+        <text>Glucose-only culture #1</text>
+      </annotation>
+      <annotation id="252">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:27Z</infon>
+        <location offset="25366" length="13"/>
+        <text>pH correction</text>
+      </annotation>
+      <annotation id="253">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:29Z</infon>
+        <location offset="25406" length="20"/>
+        <text>lactate accumulation</text>
+      </annotation>
+      <annotation id="254">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:50Z</infon>
+        <location offset="25537" length="30"/>
+        <text>glucose and glutamine profiles</text>
+      </annotation>
+      <annotation id="255">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:52Z</infon>
+        <location offset="25571" length="20"/>
+        <text>maltose-supplemented</text>
+      </annotation>
+      <annotation id="256">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:05:55Z</infon>
+        <location offset="25596" length="21"/>
+        <text>glucose-only cultures</text>
+      </annotation>
+      <annotation id="257">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:01Z</infon>
+        <location offset="25645" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+      <annotation id="259">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:16Z</infon>
+        <location offset="25735" length="3"/>
+        <text>VCD</text>
+      </annotation>
+      <annotation id="260">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:21Z</infon>
+        <location offset="25740" length="7"/>
+        <text>lactate</text>
+      </annotation>
+      <annotation id="261">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:26Z</infon>
+        <location offset="25752" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="262">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:30Z</infon>
+        <location offset="25779" length="31"/>
+        <text>glucose-only duplicate cultures</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="file">Tab2.xml</infon>
+      <infon key="id">Tab2</infon>
+      <infon key="type">table_caption</infon>
+      <offset>25812</offset>
+      <text>Maximum IgG titers, specific production and consumption rates of SH87 in PFCDM with and without maltose supplement in fed-batch bioreactor cultures. SH87 cells normally cultured in glucose-only PFCDM were seeded in duplicate fed-batch bioreactor cultures (denoted by #1 and #2) as described in Fig. 4. Specific growth rates were determined according to Equation 1. Cumulative amounts of biochemicals produced by the cells were plotted against cumulative Integral Viable Cell (IVC) number to obtain the specific productivities as the slope of the graphs.</text>
+      <annotation id="263">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:43Z</infon>
+        <location offset="25812" length="18"/>
+        <text>Maximum IgG titers</text>
+      </annotation>
+      <annotation id="264">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:48Z</infon>
+        <location offset="25832" length="19"/>
+        <text>specific production</text>
+      </annotation>
+      <annotation id="265">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:50Z</infon>
+        <location offset="25856" length="17"/>
+        <text>consumption rates</text>
+      </annotation>
+      <annotation id="266">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:06:57Z</infon>
+        <location offset="25877" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="267">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:00Z</infon>
+        <location offset="25885" length="5"/>
+        <text>PFCDM</text>
+      </annotation>
+      <annotation id="268">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:03Z</infon>
+        <location offset="25908" length="18"/>
+        <text>maltose supplement</text>
+      </annotation>
+      <annotation id="269">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:16Z</infon>
+        <location offset="25961" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="270">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:19Z</infon>
+        <location offset="25993" length="18"/>
+        <text>glucose-only PFCDM</text>
+      </annotation>
+      <annotation id="271">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:26Z</infon>
+        <location offset="26114" length="21"/>
+        <text>Specific growth rates</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">TABLE</infon>
+      <infon key="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt; &lt;table frame="hsides" rules="groups"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th/&gt;&lt;th&gt;Maltose supplement&lt;/th&gt;&lt;th&gt;#1&lt;/th&gt;&lt;th&gt;#2&lt;/th&gt;&lt;th&gt;Average +- Standard deviation&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;Maximum IgG titer (mg/l)&lt;/td&gt;&lt;td&gt;+&lt;/td&gt;&lt;td&gt;1920&lt;/td&gt;&lt;td&gt;1745&lt;/td&gt;&lt;td&gt;1833 +- 124&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;1435&lt;/td&gt;&lt;td&gt;1530&lt;/td&gt;&lt;td&gt;1483 +- 67&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;Specific IgG production (pcd)&lt;/td&gt;&lt;td&gt;+&lt;/td&gt;&lt;td&gt;31.2&lt;/td&gt;&lt;td&gt;26.3&lt;/td&gt;&lt;td&gt;28.8 +- 3.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;15.6&lt;/td&gt;&lt;td&gt;21.5&lt;/td&gt;&lt;td&gt;18.6 +- 4.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;Exponential specific growth rate (day&lt;sup&gt;-1&lt;/sup&gt;)&lt;/td&gt;&lt;td&gt;+&lt;/td&gt;&lt;td&gt;0.49&lt;/td&gt;&lt;td&gt;0.501&lt;/td&gt;&lt;td&gt;0.496 +- 0.008&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;0.696&lt;/td&gt;&lt;td&gt;0.607&lt;/td&gt;&lt;td&gt;0.652 +- 0.063&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;Specific glucose consumption (ng/cell/day)&lt;/td&gt;&lt;td&gt;+&lt;/td&gt;&lt;td&gt;0.11&lt;/td&gt;&lt;td&gt;0.119&lt;/td&gt;&lt;td&gt;0.115 +- 0.007&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;0.263&lt;/td&gt;&lt;td&gt;0.245&lt;/td&gt;&lt;td&gt;0.254 +- 0.013&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;Specific glutamine consumption (ng/cell/day)&lt;/td&gt;&lt;td&gt;+&lt;/td&gt;&lt;td&gt;0.036&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.033 +- 0.004&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;0.029&lt;/td&gt;&lt;td&gt;0.027&lt;/td&gt;&lt;td&gt;0.028 +- 0.001&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;Specific lactate production (ng/cell/day)&lt;/td&gt;&lt;td&gt;+&lt;/td&gt;&lt;td&gt;0.106&lt;/td&gt;&lt;td&gt;0.114&lt;/td&gt;&lt;td&gt;0.110 +- 0.005&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;0.117&lt;/td&gt;&lt;td&gt;0.077&lt;/td&gt;&lt;td&gt;0.097 +- 0.028&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; </infon>
+      <infon key="id">Tab2</infon>
+      <infon key="type">table</infon>
+      <infon key="File">Tab2.xml</infon>
+      <offset>26366</offset>
+      <text> Maltose supplement #1 #2 Average +- Standard deviation Maximum IgG titer (mg/l) + 1920 1745 1833 +- 124 - 1435 1530 1483 +- 67 Specific IgG production (pcd) + 31.2 26.3 28.8 +- 3.5 - 15.6 21.5 18.6 +- 4.1 Exponential specific growth rate (day-1) + 0.49 0.501 0.496 +- 0.008 - 0.696 0.607 0.652 +- 0.063 Specific glucose consumption (ng/cell/day) + 0.11 0.119 0.115 +- 0.007 - 0.263 0.245 0.254 +- 0.013 Specific glutamine consumption (ng/cell/day) + 0.036 0.03 0.033 +- 0.004 - 0.029 0.027 0.028 +- 0.001 Specific lactate production (ng/cell/day) + 0.106 0.114 0.110 +- 0.005 - 0.117 0.077 0.097 +- 0.028 </text>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>27037</offset>
+      <text>Comparing the glucose profiles, it was interesting to note that despite being fed only at 50% of its calculated glucose requirement, the maltose-supplemented cultures maintained similar culture glucose concentrations as the glucose-only fed-batch cultures. Nonetheless, because of this reduced glucose feeding, specific glucose consumption of the maltose-supplemented cultures was 0.115 +- 0.007 ng/cell/day, 45% that of the glucose-only cultures at 0.254 +- 0.013 ng/cell/day (Table 2). These suggest that the maltose-supplemented cultures were most probably using a secondary energy source in addition to glucose to achieve comparable growth and culture viability profiles as Glucose-only #2 culture. This secondary energy source is likely to be maltose, because specific glutamine consumption rates were similar between the maltose-supplemented and glucose-only cultures (Table 2), and maltose consumption was observed in the maltose-supplemented cultures from Day 7, one day after glucose feeding was initiated in the maltose supplemented fed-batch cultures (Fig. 4D).</text>
+      <annotation id="272">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:50Z</infon>
+        <location offset="27051" length="16"/>
+        <text>glucose profiles</text>
+      </annotation>
+      <annotation id="273">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:07:54Z</infon>
+        <location offset="27174" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="274">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:02Z</infon>
+        <location offset="27231" length="22"/>
+        <text>glucose concentrations</text>
+      </annotation>
+      <annotation id="275">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:05Z</infon>
+        <location offset="27261" length="31"/>
+        <text>glucose-only fed-batch cultures</text>
+      </annotation>
+      <annotation id="277">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:17Z</infon>
+        <location offset="27331" length="15"/>
+        <text>glucose feeding</text>
+      </annotation>
+      <annotation id="276">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:19Z</infon>
+        <location offset="27348" length="28"/>
+        <text>specific glucose consumption</text>
+      </annotation>
+      <annotation id="278">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:22Z</infon>
+        <location offset="27384" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="279">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:26Z</infon>
+        <location offset="27462" length="21"/>
+        <text>glucose-only cultures</text>
+      </annotation>
+      <annotation id="280">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:34Z</infon>
+        <location offset="27548" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="281">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:37Z</infon>
+        <location offset="27644" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="282">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:42Z</infon>
+        <location offset="27674" length="6"/>
+        <text>growth</text>
+      </annotation>
+      <annotation id="283">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:49Z</infon>
+        <location offset="27693" length="9"/>
+        <text>viability</text>
+      </annotation>
+      <annotation id="284">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:08:51Z</infon>
+        <location offset="27715" length="23"/>
+        <text>Glucose-only #2 culture</text>
+      </annotation>
+      <annotation id="285">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:02Z</infon>
+        <location offset="27785" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="286">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:06Z</infon>
+        <location offset="27802" length="36"/>
+        <text>specific glutamine consumption rates</text>
+      </annotation>
+      <annotation id="287">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:09Z</infon>
+        <location offset="27864" length="20"/>
+        <text>maltose-supplemented</text>
+      </annotation>
+      <annotation id="288">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:12Z</infon>
+        <location offset="27889" length="12"/>
+        <text>glucose-only</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28118</offset>
+      <text>With the maltose supplemented metabolism, we observed that there were 23% and 55% improvements in maximum IgG titers and specific IgG productivities at 1.833 +- 0.124 g/l and 28.8 +- 3.5 pcd, from the 1.483 +- 0.067 g/l and 18.6 +- 4.1 pcd observed in glucose-only fed-batch cultures respectively (Table 2). When compared to Glucose-only #2 culture with a more comparable growth profile which has maximum IgG titers and specific IgG productivities of 1.53 g/l and 21.5 pcd respectively, the improvements in maximum IgG titers and specific IgG productivities were 20% and 34% respectively.</text>
+      <annotation id="289">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:37Z</infon>
+        <location offset="28127" length="31"/>
+        <text>maltose supplemented metabolism</text>
+      </annotation>
+      <annotation id="290">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:43Z</infon>
+        <location offset="28216" length="18"/>
+        <text>maximum IgG titers</text>
+      </annotation>
+      <annotation id="291">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:45Z</infon>
+        <location offset="28239" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="292">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:09:57Z</infon>
+        <location offset="28370" length="31"/>
+        <text>glucose-only fed-batch cultures</text>
+      </annotation>
+      <annotation id="293">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:01Z</infon>
+        <location offset="28443" length="23"/>
+        <text>Glucose-only #2 culture</text>
+      </annotation>
+      <annotation id="294">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:05Z</infon>
+        <location offset="28490" length="14"/>
+        <text>growth profile</text>
+      </annotation>
+      <annotation id="295">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:10Z</infon>
+        <location offset="28515" length="18"/>
+        <text>maximum IgG titers</text>
+      </annotation>
+      <annotation id="296">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:27Z</infon>
+        <location offset="28538" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+      <annotation id="297">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:33Z</infon>
+        <location offset="28625" length="18"/>
+        <text>maximum IgG titers</text>
+      </annotation>
+      <annotation id="298">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:38Z</infon>
+        <location offset="28648" length="27"/>
+        <text>specific IgG productivities</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>28729</offset>
+      <text>One possible mechanism for the observed improvement in IgG production may be the higher initial osmolality of the maltose-supplemented cultures due to the additional 20 g/l maltose: This may have resulted in the 22% to 40% lower specific growth rates of the maltose-supplemented cultures compared to the glucose-only cultures (Table 2), to possibly allow slower and more productive maltose-supplemented cultures. Nonetheless, when we compared maltose-supplemented batch culture to glucose-only batch culture having similar initial osmolality (Fig. 3G), we noted that an improvement in IgG titer was similarly observed. This suggests that the improvement in maximum IgG titers observed in the maltose-supplemented fed-batch cultures is not only due to osmolality effect: We postulate that a lower availability of glucose, enabled by the presence of maltose, may have resulted in a more efficient cell metabolism in the maltose-supplemented culture, and this may have contributed to the observed higher maximum IgG titers.</text>
+      <annotation id="299">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:45Z</infon>
+        <location offset="28784" length="14"/>
+        <text>IgG production</text>
+      </annotation>
+      <annotation id="300">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:48Z</infon>
+        <location offset="28825" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="302">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:55Z</infon>
+        <location offset="28843" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="301">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:10:52Z</infon>
+        <location offset="28902" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="303">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:03Z</infon>
+        <location offset="28958" length="21"/>
+        <text>specific growth rates</text>
+      </annotation>
+      <annotation id="304">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:06Z</infon>
+        <location offset="28987" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="305">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:09Z</infon>
+        <location offset="29033" length="21"/>
+        <text>glucose-only cultures</text>
+      </annotation>
+      <annotation id="306">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:19Z</infon>
+        <location offset="29111" length="29"/>
+        <text>maltose-supplemented cultures</text>
+      </annotation>
+      <annotation id="307">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:25Z</infon>
+        <location offset="29172" length="34"/>
+        <text>maltose-supplemented batch culture</text>
+      </annotation>
+      <annotation id="308">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:28Z</infon>
+        <location offset="29210" length="26"/>
+        <text>glucose-only batch culture</text>
+      </annotation>
+      <annotation id="309">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:32Z</infon>
+        <location offset="29260" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="310">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:39Z</infon>
+        <location offset="29314" length="9"/>
+        <text>IgG titer</text>
+      </annotation>
+      <annotation id="311">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:46Z</infon>
+        <location offset="29386" length="18"/>
+        <text>maximum IgG titers</text>
+      </annotation>
+      <annotation id="312">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:50Z</infon>
+        <location offset="29421" length="39"/>
+        <text>maltose-supplemented fed-batch cultures</text>
+      </annotation>
+      <annotation id="313">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:52Z</infon>
+        <location offset="29480" length="10"/>
+        <text>osmolality</text>
+      </annotation>
+      <annotation id="314">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:11:57Z</infon>
+        <location offset="29541" length="7"/>
+        <text>glucose</text>
+      </annotation>
+      <annotation id="315">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:12:00Z</infon>
+        <location offset="29577" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="316">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:12:05Z</infon>
+        <location offset="29624" length="15"/>
+        <text>cell metabolism</text>
+      </annotation>
+      <annotation id="317">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:12:08Z</infon>
+        <location offset="29647" length="28"/>
+        <text>maltose-supplemented culture</text>
+      </annotation>
+      <annotation id="318">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:12:13Z</infon>
+        <location offset="29730" length="18"/>
+        <text>maximum IgG titers</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>29752</offset>
+      <text>To verify whether this lower availability of glucose can have the same effect in the absence of maltose, we compared SH87 glucose-only fed-batch cultures fed with 100% or 50% of their calculated glucose requirements in a separate experiment (Supplementary Fig. 3). While similar maximum VCD were reached in both conditions before glucose feeding was initiated, the culture viabilities of the glucose-only cultures with 50% calculated glucose feed dropped below 50% 4 days earlier than the cultures with 100% calculated glucose feed. Maximum IgG titers of the 50% fed cultures were also only 46.4% that of the 100% fed cultures. These confirmed that the presence of maltose enabled the use of a lower glucose feed to result in the observed higher maximum IgG titers in Fig. 4G.</text>
+      <annotation id="319">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:17Z</infon>
+        <location offset="30031" length="11"/>
+        <text>maximum VCD</text>
+      </annotation>
+      <annotation id="320">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:20Z</infon>
+        <location offset="30082" length="15"/>
+        <text>glucose feeding</text>
+      </annotation>
+      <annotation id="321">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:25Z</infon>
+        <location offset="30117" length="19"/>
+        <text>culture viabilities</text>
+      </annotation>
+      <annotation id="322">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:28Z</infon>
+        <location offset="30144" length="21"/>
+        <text>glucose-only cultures</text>
+      </annotation>
+      <annotation id="323">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:39Z</infon>
+        <location offset="30186" length="12"/>
+        <text>glucose feed</text>
+      </annotation>
+      <annotation id="324">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:42Z</infon>
+        <location offset="30271" length="12"/>
+        <text>glucose feed</text>
+      </annotation>
+      <annotation id="325">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:47Z</infon>
+        <location offset="30285" length="18"/>
+        <text>Maximum IgG titers</text>
+      </annotation>
+      <annotation id="326">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:52Z</infon>
+        <location offset="30311" length="16"/>
+        <text>50% fed cultures</text>
+      </annotation>
+      <annotation id="327">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:13:55Z</infon>
+        <location offset="30361" length="16"/>
+        <text>100% fed culture</text>
+      </annotation>
+      <annotation id="328">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:01Z</infon>
+        <location offset="30417" length="7"/>
+        <text>maltose</text>
+      </annotation>
+      <annotation id="329">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:06Z</infon>
+        <location offset="30452" length="12"/>
+        <text>glucose feed</text>
+      </annotation>
+      <annotation id="330">
+        <infon key="type">Yield</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:14Z</infon>
+        <location offset="30498" length="18"/>
+        <text>maximum IgG titers</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">FIG</infon>
+      <infon key="file">41598_2018_22490_Fig5_HTML.jpg</infon>
+      <infon key="id">Fig5</infon>
+      <infon key="type">fig_caption</infon>
+      <offset>30529</offset>
+      <text>Glycosylation profiles of anti-Her2 antibody produced from SH87 fed-batch bioreactor cultures in glucose only or glucose + maltose PFCDM base medium. Anti-Her2 monoclonal antibodies were purified from samples from Day 10 and Day 15 of the SH87 fed-batch cultures in PFCDM with 4 g/l glucose or 4 g/l glucose + 20 g/l maltose (Fig. 4), and subjected to glycosylation profiling. (A) Representative fluorescence chromatograms of the four Day 10 samples with symbolic representations of selected structures. (B) Relative abundance of glycan structures. Average and standard deviation of the 2 biological replicates were shown. The average difference between Glucose + Maltose and Glucose only samples, as well as that between Day 15 and Day 10 samples were also calculated. Effects of maltose supplementation and late Day 15 harvest on the relative abundance of glycan structures were bold and underlined. p-values were calculated using paired one-tail Student's t-Test on data from individual samples.</text>
+      <annotation id="331">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:24Z</infon>
+        <location offset="30529" length="22"/>
+        <text>Glycosylation profiles</text>
+      </annotation>
+      <annotation id="332">
+        <infon key="type">CellLine</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:30Z</infon>
+        <location offset="30588" length="4"/>
+        <text>SH87</text>
+      </annotation>
+      <annotation id="333">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:35Z</infon>
+        <location offset="30626" length="12"/>
+        <text>glucose only</text>
+      </annotation>
+      <annotation id="334">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:14:38Z</infon>
+        <location offset="30642" length="35"/>
+        <text>glucose + maltose PFCDM base medium</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">RESULTS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>31548</offset>
+      <text>As glycosylation is a critical attribute of therapeutic IgG products, purified IgG from glucose-only and maltose supplemented cultures from Days 10 and 15 were subjected to glycosylation profiling (Fig. 5). The representative fluorescence chromatograms of Day 10 samples (Fig. 5A) showed that the glycosylation profiles of IgG from both glucose-only and maltose supplemented cultures were similar, suggesting that maltose supplementation did not grossly affect the glycan profiles of the monoclonal antibodies produced. When the relative abundance of glycan structures of the IgG from maltose supplemented cultures were compared to that from glucose-only cultures (Fig. 5B), we noted that there were marginally less fucosylated, sialylated, G1F, G2F and biantennary glycans, and more G0F and mono-antennary glycans. Most of these differences were also observed when glycans from Day 15 samples were compared to that from Day 10 samples, suggesting that maltose supplementation affected glycan profiles in a way that is mostly similar to a later harvest. The exceptions to the similarity are in the relative abundances of the sialylated and high-mannose glycans: while the later Day 15 harvests gave higher levels of high-mannose glycans and similar levels of sialylated glycans compared to Day 10 harvests, maltose supplementation gave lower levels of sialylated glycans and similar levels of high-mannose glycans compared to glucose-only cultures. This data suggests that maltose supplementation can also be used as a means to fine-tune monoclonal antibody glycosylation profile, especially in marginally reducing the sialylation level, which is known to improve antibody-dependent cellular cytotoxicity (ADCC) of therapeutic antibodies. Additionally, this may also be important in the field of biosimilar manufacturing, where matching of the biosimilar glycan profile to the innovator drug is an important criterion.</text>
+      <annotation id="335">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:01Z</infon>
+        <location offset="31551" length="13"/>
+        <text>glycosylation</text>
+      </annotation>
+      <annotation id="336">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:00Z</infon>
+        <location offset="31636" length="12"/>
+        <text>glucose-only</text>
+      </annotation>
+      <annotation id="337">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:05Z</infon>
+        <location offset="31653" length="20"/>
+        <text>maltose supplemented</text>
+      </annotation>
+      <annotation id="338">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:14Z</infon>
+        <location offset="31845" length="22"/>
+        <text>glycosylation profiles</text>
+      </annotation>
+      <annotation id="339">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:17Z</infon>
+        <location offset="31885" length="12"/>
+        <text>glucose-only</text>
+      </annotation>
+      <annotation id="340">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:19Z</infon>
+        <location offset="31902" length="20"/>
+        <text>maltose supplemented</text>
+      </annotation>
+      <annotation id="341">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:26Z</infon>
+        <location offset="31962" length="23"/>
+        <text>maltose supplementation</text>
+      </annotation>
+      <annotation id="342">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:32Z</infon>
+        <location offset="32013" length="15"/>
+        <text>glycan profiles</text>
+      </annotation>
+      <annotation id="343">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:39Z</infon>
+        <location offset="32077" length="39"/>
+        <text>relative abundance of glycan structures</text>
+      </annotation>
+      <annotation id="344">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:44Z</infon>
+        <location offset="32133" length="20"/>
+        <text>maltose supplemented</text>
+      </annotation>
+      <annotation id="345">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:47Z</infon>
+        <location offset="32190" length="21"/>
+        <text>glucose-only cultures</text>
+      </annotation>
+      <annotation id="346">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:52Z</infon>
+        <location offset="32264" length="11"/>
+        <text>fucosylated</text>
+      </annotation>
+      <annotation id="347">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:15:56Z</infon>
+        <location offset="32277" length="10"/>
+        <text>sialylated</text>
+      </annotation>
+      <annotation id="348">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:00Z</infon>
+        <location offset="32289" length="3"/>
+        <text>G1F</text>
+      </annotation>
+      <annotation id="349">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:04Z</infon>
+        <location offset="32294" length="3"/>
+        <text>G2F</text>
+      </annotation>
+      <annotation id="350">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:09Z</infon>
+        <location offset="32302" length="19"/>
+        <text>biantennary glycans</text>
+      </annotation>
+      <annotation id="351">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:13Z</infon>
+        <location offset="32332" length="3"/>
+        <text>G0F</text>
+      </annotation>
+      <annotation id="352">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:18Z</infon>
+        <location offset="32340" length="22"/>
+        <text>mono-antennary glycans</text>
+      </annotation>
+      <annotation id="353">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:26Z</infon>
+        <location offset="32414" length="7"/>
+        <text>glycans</text>
+      </annotation>
+      <annotation id="354">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:32Z</infon>
+        <location offset="32501" length="23"/>
+        <text>maltose supplementation</text>
+      </annotation>
+      <annotation id="355">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:37Z</infon>
+        <location offset="32534" length="15"/>
+        <text>glycan profiles</text>
+      </annotation>
+      <annotation id="356">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:49Z</infon>
+        <location offset="32673" length="10"/>
+        <text>sialylated</text>
+      </annotation>
+      <annotation id="357">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:16:54Z</infon>
+        <location offset="32688" length="20"/>
+        <text>high-mannose glycans</text>
+      </annotation>
+      <annotation id="358">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:03Z</infon>
+        <location offset="32764" length="20"/>
+        <text>high-mannose glycans</text>
+      </annotation>
+      <annotation id="359">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:09Z</infon>
+        <location offset="32807" length="18"/>
+        <text>sialylated glycans</text>
+      </annotation>
+      <annotation id="360">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:13Z</infon>
+        <location offset="32855" length="23"/>
+        <text>maltose supplementation</text>
+      </annotation>
+      <annotation id="361">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:19Z</infon>
+        <location offset="32900" length="18"/>
+        <text>sialylated glycans</text>
+      </annotation>
+      <annotation id="362">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:26Z</infon>
+        <location offset="32941" length="20"/>
+        <text>high-mannose glycans</text>
+      </annotation>
+      <annotation id="363">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:29Z</infon>
+        <location offset="32974" length="21"/>
+        <text>glucose-only cultures</text>
+      </annotation>
+      <annotation id="364">
+        <infon key="type">Effector</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:33Z</infon>
+        <location offset="33021" length="23"/>
+        <text>maltose supplementation</text>
+      </annotation>
+      <annotation id="365">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:38Z</infon>
+        <location offset="33106" length="21"/>
+        <text>glycosylation profile</text>
+      </annotation>
+      <annotation id="366">
+        <infon key="type">Affected</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:46Z</infon>
+        <location offset="33167" length="17"/>
+        <text>sialylation level</text>
+      </annotation>
+      <annotation id="367">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:51Z</infon>
+        <location offset="33212" length="40"/>
+        <text>antibody-dependent cellular cytotoxicity</text>
+      </annotation>
+      <annotation id="368">
+        <infon key="type">Clinical_outcome</infon>
+        <infon key="identifier"></infon>
+        <infon key="annotator">josh_gray@waters.com</infon>
+        <infon key="updated_at">2023-12-08T17:17:55Z</infon>
+        <location offset="33254" length="4"/>
+        <text>ADCC</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">title_1</infon>
+      <offset>33467</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>33478</offset>
+      <text>In this study, we proposed that the specific maltose consumption rates from SH87 maltose supplemented batch cultures can be fitted in a Monod model to obtain a maximum specific maltose consumption rate (qs_max) of 0.257 ng/cell/day and an affinity constant (Ks) of 7.03 g/l. The model is then validated using maltose-adapted CHO-K1 cells cultured without glucose, serum or protein supplement, to a VCD greater than 106 cells/ml. This demonstrates the utility of maltose as a glucose replacement candidate, although the cells will proliferate at a slower growth rate and to a lower maximum VCD. This is also the first published estimate of maltose metabolism kinetics in mammalian cells to our knowledge.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>34184</offset>
+      <text>In addition, when culture media with both glucose and maltose were used and sugars were in excess, the practical application of maltose supplementation to increase the carbohydrate content of cell culture medium was demonstrated, since an increased glucose concentration is limited by the corresponding increase in osmolality. The utilization of maltose in batch cell culture has an added advantage of promoting lactate consumption, which will otherwise accumulate and become toxic to the cells. These factors contributed to a 15% improvement in the recombinant monoclonal antibody titer from batch cultures. We further demonstrated that maltose supplementation can also be applied to fed-batch bioreactor cultures to result in 23% and 55% improvements in maximum monoclonal antibody titers and specific monoclonal antibody productivities respectively, when compared to glucose-only fed-batch cultures. These results suggest that maltose supplementation can be applied as a simple and affordable culture media supplementation to improve monoclonal antibody yields in small scale batch processes and current manufacturing fed-batch processes.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">DISCUSS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35326</offset>
+      <text>Glycosylation profiling of the antibodies produced from the fed-batch cultures suggests that maltose supplementation marginally affected glycan profile similar to a later harvest, with an additional effect of slightly reducing sialylation levels without a concomitant increase in high-mannose glycans. This suggests that maltose supplementation can also be applied to marginally affect monoclonal antibody glycosylation profile, which is important in affecting the ADCC of the antibody therapeutic and in the physical matching of biosimilar glycan profile to that of the innovator drug.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_1</infon>
+      <offset>35913</offset>
+      <text>Methods</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>35921</offset>
+      <text>Cell lines and propagation</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>35948</offset>
+      <text>CHO-K1 cells (American Type Culture Collection, Manassas, VA) adapted to maltose-only HyQ PF-CHO MPS (HyClone, Logan, UT) was further adapted into a DMEM/F12-based protein free chemically defined medium (PFCDM) supplemented with 10 g/L D-(+)-Maltose monohydrate (Sigma-Aldrich), 8 mM L-Glutamine (Sigma-Aldrich) and 0.1% Pluronic  F-68 (Life Technologies, Carlsbad, CA). An anti-Her2 monoclonal antibody-producing CHO-K1 cell line (SH87) was cultivated in PFCDM supplemented with 6 g/l D-(+)-Glucose (Sigma-Aldrich), 8 mM L-Glutamine (Sigma-Aldrich), 0.1% Pluronic F-68 (Life Technologies), and 600 microg/ml G418 disulfate salt (Sigma-Aldrich). Passaging of CHO-K1 and SH87 cells were performed every 3 to 4 days as reported previously.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>36690</offset>
+      <text>Batch cultivation of cells in shake flasks</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>36733</offset>
+      <text>To determine specific maltose consumption rates in shake flask cultures of non-adapted SH87 and the evaluation of maltose utilization using high initial glucose or maltose concentrations, cells were seeded in PFCDM containing 4 g/l glucose supplemented with 0.5, 1, 2, 3, 10 or 20 g/l maltose, or PFCDM containing 14 or 24 g/l glucose. To compare the growth of CHO-K1 cells with increasing concentrations of maltose, cells adapted to PFCDM maltose medium were seeded into PFCDM maltose medium with 3.6, 10, 20, 30 or 40 g/L maltose at 0.3 x 106 cells/ml in duplicates in single-use Erlenmeyer flasks (Corning). Daily samples were analyzed till culture viabilities were less than 50%.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>37430</offset>
+      <text>Analysis of cell culture samples</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>37463</offset>
+      <text>Vi-Cell XR Cell Viability Analyzer (Beckman Coulter, Brea, CA) was used to determine viable cell density (VCD) and culture viability according to manufacturer's instructions. For other parameters, clarified culture supernatant was obtained by centrifugation at 8000 g for 10 minutes prior to analysis. BioProfile 100 Plus (Nova Biomedical, Waltham, MA) was used to analyze ammonium, glutamine, glucose and lactate; Vapor pressure osmometer (Vapro 5520, Wescor, Logan, UT) was used to determine osmolality; Maltose Colorimetric/Fluorometric Assay Kit (Biovision, Milpitas, CA) was used to determine maltose concentration; IMMAGE 800 (Beckman Coulter) was used to quantify monoclonal IgG antibody titer.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>38171</offset>
+      <text>Fed-batch cultivation of cells in bioreactors</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38217</offset>
+      <text>For each culture condition to be tested, SH87 was scaled up in PFCDM and inoculated into duplicate 2 liter glass bioreactors (Sartorius, Germany) at a VCD of 3 x 105 cells/ml. Culture temperature, pH, dissolved oxygen and stir rate were maintained at 37  C, 7.1, 50% and 120 rpm respectively. The culture set points for glucose and glutamine were 0.5 g/l and 0.5 mM respectively, and predictive feeding was used to maintain these concentration levels by the addition of a concentrated DMEM-based protein-free feed and a 150 g/l glucose solution. Daily samples were analyzed till culture viabilities were less than 50%.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>38852</offset>
+      <text>Antibody glycosylation analysis</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>38884</offset>
+      <text>Antibody glycosylation analysis was performed according to previously published protocol with modifications. Briefly, Protein-A-purified IgG samples were first desalted using a PD 10 column (GE Healthcare, Pittsburgh, PA) following manufacturer's protocol. Then, glycans were released and labeled with RapiFluor MS (RFMS) according to manufacturer's protocol (Waters Corporation, Milford, MA). After labeling, excess RFMS was removed by passing the labeling mixture through a MiniTrap G-10 desalting column (GE Healthcare) and the purified RFMS-labeled glycans were then dried under vacuum. The samples were reconstituted in 200 mul reconstitution buffer containing 42.8 mul of water, 50 mul of dimethylformamide and 107.2 mul of acetonitrile, and analyzed by the UNIFI Biopharmaceutical platform (Waters Corporation, Milford, MA). Raw retention time of each chromatographic peak obtained was converted to a glucose unit (GU) by fitting into a calibration curve established by a RFMS-labeled dextran ladder (Waters Corporation). The observed GU value and the associated mass of each chromatographic peak were then used to search against an experimental database for N-glycans embedded in the UNIFI Biopharmaceutical platform, which contains information on expected GU values and masses of more than 300 N-glycan species. A structure is then assigned to each chromatographic peak based on two orthogonal criteria: (1) the observed GU value matches the expected GU value within 0.2 GU deviation, and (2) the observed mass matches the expected mass of the glycan within 5 ppm mass error. Additionally, knowledge of CHO glycosylation features was applied as biological filter to remove irrelevant candidate structures, such as glycans with bisecting GlcNAc and alpha2,6-linked sialic acid.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>40679</offset>
+      <text>Calculations</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>40692</offset>
+      <text>Specific growth rate (micro) was determined by plotting ln(VCD) vs t (Equation 1). t is culture time, VCD is viable cell density, and VCD0 is initial viable cell density.Trapezium rule was used to determine the cumulative integrated viable cell density (IVCD) (Equation 2).Specific IgG productivity (qp) between culture times t1 and t2 was determined by plotting IgG titer (P) vs IVCD according to Equation 3.Specific substrate consumption rate (qs) between culture times t1 and t2was determined by plotting substrate concentration (S) vs IVCD according to Equation 4.Specific substrate consumption rate (qs) was fitted into a Monod model according to Equation 5, where qs_max is the maximum specific substrate consumption rate, S is the substrate concentration, and Ks is the affinity constant.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">title_2</infon>
+      <offset>41488</offset>
+      <text>Data Availability</text>
+    </passage>
+    <passage>
+      <infon key="section_type">METHODS</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41506</offset>
+      <text>No datasets were generated or analyzed during the current study.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">title_1</infon>
+      <offset>41571</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>41605</offset>
+      <text>Dawn Sow Zong Leong and Brian Kah Hui Teo contributed equally to this work.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>41681</offset>
+      <text>Electronic supplementary material</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>41715</offset>
+      <text>Supplementary information accompanies this paper at 10.1038/s41598-018-22490-8.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">SUPPL</infon>
+      <infon key="type">footnote</infon>
+      <offset>41795</offset>
+      <text>Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">title</infon>
+      <offset>41932</offset>
+      <text>Author Contributions</text>
+    </passage>
+    <passage>
+      <infon key="section_type">AUTH_CONT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>41953</offset>
+      <text>S.K.N. conceived the experiments and analyzed the results, H.Y. and P.Z. performed the glycosylation profile analyses, Y.S.Y. provided the SH87 cell line, D.S.Z.L., B.K.H.T. and J.G.L.T. conducted all other experiments. The manuscript was reviewed by all authors.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">title_1</infon>
+      <offset>42217</offset>
+      <text>Competing Interests</text>
+    </passage>
+    <passage>
+      <infon key="section_type">COMP_INT</infon>
+      <infon key="type">paragraph</infon>
+      <offset>42237</offset>
+      <text>Parts of the manuscript are filed as aspects of a patent, application numbers 10201601284Y and PCT/SG2017/050079.</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">title</infon>
+      <offset>42351</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">196</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Wright;given-names:EM</infon>
+      <infon key="fpage">197</infon>
+      <infon key="pub-id_pmid">7823022</infon>
+      <infon key="year">1994</infon>
+      <infon key="source">J Exp Biol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">212</infon>
+      <offset>42362</offset>
+      <text>'Active' sugar transport in eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Godia;given-names:F</infon>
+      <infon key="name_2">surname:Cairo;given-names:JJ</infon>
+      <infon key="name_1">surname:Paredes;given-names:C</infon>
+      <infon key="name_0">surname:Altamirano;given-names:C</infon>
+      <infon key="fpage">69</infon>
+      <infon key="pub-id_doi">10.1021/bp990124j</infon>
+      <infon key="pub-id_pmid">10662492</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">16</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">75</infon>
+      <offset>42405</offset>
+      <text>Improvement of CHO cell culture medium formulation: simultaneous substitution of glucose and glutamine</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="name_1">surname:Faik;given-names:P</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Morgan;given-names:MJ</infon>
+      <infon key="fpage">669</infon>
+      <infon key="pub-id_doi">10.1007/BF01116465</infon>
+      <infon key="pub-id_pmid">6213274</infon>
+      <infon key="year">1981</infon>
+      <infon key="source">Biosci Rep</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">686</infon>
+      <offset>42508</offset>
+      <text>Carbohydrate metabolism in cultured animal cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="name_2">surname:Adamson;given-names:SR</infon>
+      <infon key="name_1">surname:Drapeau;given-names:D</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Sinacore;given-names:MS</infon>
+      <infon key="fpage">249</infon>
+      <infon key="pub-id_doi">10.1385/MB:15:3:249</infon>
+      <infon key="pub-id_pmid">10986701</infon>
+      <infon key="year">2000</infon>
+      <infon key="source">Mol Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">257</infon>
+      <offset>42557</offset>
+      <text>Adaptation of mammalian cells to growth in serum-free media</text>
+    </passage>
+    <passage>
+      <infon key="volume">37</infon>
+      <infon key="name_1">surname:Palsson;given-names:BO</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ozturk;given-names:SS</infon>
+      <infon key="fpage">989</infon>
+      <infon key="pub-id_doi">10.1002/bit.260371015</infon>
+      <infon key="pub-id_pmid">18597326</infon>
+      <infon key="year">1991</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">993</infon>
+      <offset>42617</offset>
+      <text>Effect of medium osmolarity on hybridoma growth, metabolism, and antibody production</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Kurano;given-names:S</infon>
+      <infon key="name_2">surname:Messi;given-names:F</infon>
+      <infon key="name_1">surname:Leist;given-names:C</infon>
+      <infon key="name_0">surname:Kurano;given-names:N</infon>
+      <infon key="fpage">101</infon>
+      <infon key="pub-id_doi">10.1016/0168-1656(90)90054-F</infon>
+      <infon key="pub-id_pmid">1366683</infon>
+      <infon key="year">1990</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">15</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">111</infon>
+      <infon key="name_4">surname:Fiechter;given-names:A</infon>
+      <offset>42702</offset>
+      <text>Growth behavior of Chinese hamster ovary cells in a compact loop bioreactor: 1. Effects of physical and chemical environments</text>
+    </passage>
+    <passage>
+      <infon key="volume">123</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Warburg;given-names:O</infon>
+      <infon key="fpage">309</infon>
+      <infon key="pub-id_doi">10.1126/science.123.3191.309</infon>
+      <infon key="pub-id_pmid">13298683</infon>
+      <infon key="year">1956</infon>
+      <infon key="source">Science</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">314</infon>
+      <offset>42828</offset>
+      <text>On the origin of cancer cells</text>
+    </passage>
+    <passage>
+      <infon key="volume">30</infon>
+      <infon key="name_2">surname:Butler;given-names:M</infon>
+      <infon key="name_1">surname:Gleave;given-names:S</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Hassell;given-names:T</infon>
+      <infon key="fpage">29</infon>
+      <infon key="pub-id_doi">10.1007/BF02922022</infon>
+      <infon key="pub-id_pmid">1952924</infon>
+      <infon key="year">1991</infon>
+      <infon key="source">Appl Biochem Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">41</infon>
+      <offset>42858</offset>
+      <text>Growth inhibition in animal cell culture. The effect of lactate and ammonia</text>
+    </passage>
+    <passage>
+      <infon key="volume">13</infon>
+      <infon key="name_1">surname:Toth;given-names:D</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lao;given-names:MS</infon>
+      <infon key="fpage">688</infon>
+      <infon key="pub-id_doi">10.1021/bp9602360</infon>
+      <infon key="pub-id_pmid">9336989</infon>
+      <infon key="year">1997</infon>
+      <infon key="source">Biotechnol Prog</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">691</infon>
+      <offset>42934</offset>
+      <text>Effects of ammonium and lactate on growth and metabolism of a recombinant Chinese hamster ovary cell culture</text>
+    </passage>
+    <passage>
+      <infon key="name_3">surname:Heng;given-names:C</infon>
+      <infon key="name_2">surname:Goh;given-names:L-T</infon>
+      <infon key="name_1">surname:Wong;given-names:K</infon>
+      <infon key="name_0">surname:Wong;given-names:D</infon>
+      <infon key="fpage">164</infon>
+      <infon key="pub-id_doi">10.1002/bit.20317</infon>
+      <infon key="pub-id_pmid">15593097</infon>
+      <infon key="year">2005</infon>
+      <infon key="source">Biotechnol Bioeng</infon>
+      <infon key="type">ref</infon>
+      <infon key="volume">89</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="lpage">177</infon>
+      <infon key="name_4">surname:Yap;given-names:M</infon>
+      <offset>43043</offset>
+      <text>Impact of dynamic online fed-batch strategies on metabolism, productivity and N-glycosylation quality in CHO cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Leong;given-names:DSZ</infon>
+      <infon key="fpage">45216</infon>
+      <infon key="pub-id_doi">10.1038/srep45216</infon>
+      <infon key="pub-id_pmid">28358044</infon>
+      <infon key="year">2017</infon>
+      <infon key="source">Scientific Reports</infon>
+      <infon key="type">ref</infon>
+      <offset>43166</offset>
+      <text>Evaluation and use of disaccharides as energy source in protein-free mammalian cell cultures</text>
+    </passage>
+    <passage>
+      <infon key="volume">124</infon>
+      <infon key="name_2">surname:Wieczorek;given-names:H</infon>
+      <infon key="name_1">surname:Vitavska;given-names:O</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Meyer;given-names:H</infon>
+      <infon key="fpage">1984</infon>
+      <infon key="pub-id_doi">10.1242/jcs.082024</infon>
+      <infon key="pub-id_pmid">21586609</infon>
+      <infon key="year">2011</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">1991</infon>
+      <offset>43259</offset>
+      <text>Identification of an animal sucrose transporter</text>
+    </passage>
+    <passage>
+      <infon key="volume">157</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Ho;given-names:SC</infon>
+      <infon key="fpage">130</infon>
+      <infon key="pub-id_doi">10.1016/j.jbiotec.2011.09.023</infon>
+      <infon key="pub-id_pmid">22024589</infon>
+      <infon key="year">2012</infon>
+      <infon key="source">J Biotechnol</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">139</infon>
+      <offset>43307</offset>
+      <text>IRES-mediated Tricistronic vectors for enhancing generation of high monoclonal antibody expressing CHO cell lines</text>
+    </passage>
+    <passage>
+      <infon key="section_type">REF</infon>
+      <infon key="type">ref</infon>
+      <offset>43421</offset>
+      <text>Chan, K. F. et al. Inactivation of GDP-fucose transporter gene (Slc35c1) in CHO cells by ZFNs, TALENs and CRISPR-Cas9 for production of fucose-free antibodies. Biotechnol J11, 399-414 (2016).</text>
+    </passage>
+    <passage>
+      <infon key="volume">87</infon>
+      <infon key="section_type">REF</infon>
+      <infon key="name_0">surname:Lauber;given-names:MA</infon>
+      <infon key="fpage">5401</infon>
+      <infon key="pub-id_doi">10.1021/acs.analchem.5b00758</infon>
+      <infon key="pub-id_pmid">25927596</infon>
+      <infon key="year">2015</infon>
+      <infon key="source">Anal Chem</infon>
+      <infon key="type">ref</infon>
+      <infon key="lpage">5409</infon>
+      <offset>43613</offset>
+      <text>Rapid Preparation of Released N-Glycans for HILIC Analysis Using a Labeling Reagent that Facilitates Sensitive Fluorescence and ESI-MS Detection</text>
+    </passage>
+  </document>
+</collection>
