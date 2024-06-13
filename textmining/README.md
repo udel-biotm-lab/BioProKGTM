@@ -11,12 +11,14 @@ This project involves setting up the text mining environment and performing vari
    - [Step 1.3: Parsing Book Chapters](#step-13-parsing-book-chapters)
 3. [Step 2: Ontological Concept Creation](#step-2-ontological-concept-creation)
 4. [Step 3: Dictionary Concept Creation](#step-3-dictionary-concept-creation)
+   - [Step 3.1: Acronym detection](#step-31-acronym-detection)
+   - [Step 3.2: Import in a spreadsheet](#step-32-import-in-spreadsheet)
 5. [Step 4: Concepts to Dictionary Mapping](#step-4-concepts-to-dictionary-mapping)
 6. [Step 5: Setting Up EDG Tool](#step-5-setting-up-edg-tool)
    - [Step 5.1: Set Up nlputils](#step-51-set-up-nlputils)
    - [Step 5.2: Set Up EDG](#step-52-set-up-edg)
 7. [Step 6: Running the EDG Tool for Argument Extraction](#step-6-running-the-edg-tool-for-argument-extraction)
-8. [Step 7: Matching Dictionary Terms](#step-7-matching-dictionary-terms)
+9. [Step 7: Matching Dictionary Terms](#step-7-matching-dictionary-terms)
 9. [Step 8: Postprocessing the Output Excel Sheet](#step-8-postprocessing-the-output-excel-sheet)
    - [Step 8.1: Post-process 1](#step-81-post-process-1)
    - [Step 8.2: Post-process 2](#step-82-post-process-2)
@@ -206,6 +208,42 @@ This project involves setting up the text mining environment and performing vari
     ```
 
     While running the script, follow the instructions in the terminal carefully. Use all uppercase letters for abbreviations (e.g., ADCC for antibody-dependent cellular cytotoxicity). Add the plural forms if necessary for any specific canonical name or alternative names. Make sure to exit by pressing "E" after any Add, Update, or Delete operation.
+
+### Step 3.1: Acronym detection
+
+1. If you want to know the acronyms across text and add concepts of them, you have to use the acronym detector tool.
+2. Clone the github repository and follow the setup instructions given there.
+   ```bash
+    git clone git@github.com:ncbi-nlp/Ab3P.git
+    ```
+3. Once you complete the setup process, run the script run_acronym.py to get all the long forms and short forms of the terms available in the text.
+4. Successful running of this script will create a .txt file that will have the processed text having the acronyms available in the processed text. N.B: make sure to set the correct path for ./identify_abbr in line 24 as an external script is used here that detects the acronyms.
+   
+   The script can be found in: `/textmining/scripts/Concepts`
+
+   Run the script in the terminal:
+    ```bash
+    python3 run_acronym.py /your_path/input_dir /your_path/output_dir/acronym_output.txt
+    ```
+
+   Example input_dir can be found in: `/textmining/Input/Abstract`
+   
+   Example acronym_output.txt file can be found in: `/textmining/Concepts_and_Dictionary/Acronym/acronym_output.txt`
+
+### Step 3.2: Import in a spreadsheet 
+If you want to import the text output to an Excel spreadsheet for better visualization, run the SF_LF.py script.
+
+   The script can be found in: `/textmining/scripts/Concepts`
+
+   Run the script in the terminal:
+    ```bash
+    python3 SF_LF.py /your_path/acronym_output.txt /your_path/excel_output.xlsx
+    ```
+
+   Example input_dir can be found in: `/textmining/Concepts_and_Dictionary/Acronym/acronym_output.txt`
+   
+   Example acronym_output.txt file can be found in: `/textmining/Concepts_and_Dictionary/Acronym/sf_lf.xlsx`
+
 
 ## Step 4: Concepts to Dictionary Mapping
 
