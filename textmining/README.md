@@ -18,7 +18,7 @@ This project involves setting up the text mining environment and performing vari
    - [Step 5.1: Set Up nlputils](#step-51-set-up-nlputils)
    - [Step 5.2: Set Up EDG](#step-52-set-up-edg)
 7. [Step 6: Running the EDG Tool for Argument Extraction](#step-6-running-the-edg-tool-for-argument-extraction)
-9. [Step 7: Matching Dictionary Terms](#step-7-matching-dictionary-terms)
+8. [Step 7: Matching Dictionary Terms](#step-7-matching-dictionary-terms)
 9. [Step 8: Postprocessing the Output Excel Sheet](#step-8-postprocessing-the-output-excel-sheet)
    - [Step 8.1: Post-process 1](#step-81-post-process-1)
    - [Step 8.2: Post-process 2](#step-82-post-process-2)
