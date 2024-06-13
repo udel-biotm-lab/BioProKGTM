@@ -2,6 +2,14 @@
 
 This project is a collaboration between the University of Delaware (UD) and Waters Corporation to develop a Knowledge Graph for bioprocess data. Below are the deliverables and instructions for the repositories involved in the project.
 
+### Cloning the Repository
+
+To clone this repository, use the following command:
+
+```bash
+git clone git@github.com:udel-biotm-lab/Waters-Project.git
+```
+
 
 ## Deliverables and Instructions for Text-Mining Tools
 
