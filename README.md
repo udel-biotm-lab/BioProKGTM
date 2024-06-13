@@ -9,7 +9,6 @@ To clone this repository, use the following command:
 ```bash
 git clone git@github.com:udel-biotm-lab/Waters-Project.git
 
----
 
 ## Deliverables and Instructions for Text-Mining Tools
 
