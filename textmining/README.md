@@ -1,4 +1,4 @@
-# Text Mining Project
+# Text Mining Pipeline
 
 This project involves setting up the text mining environment and performing various text mining tasks. Below are the steps to set up the environment and execute the necessary scripts.
 
