@@ -99,7 +99,7 @@ class CacheDAO:
         Returns:
         impact_relations -> list: list of impact relationships
         '''
-        query = "MATCH (e:Effector)-[r]-(a:Affected) RETURN DISTINCT type(r)"
+        query = "MATCH (e:Affector)-[r]-(a:Affected) RETURN DISTINCT type(r)"
         with _db_driver.session() as session:
             impact_relations = session.execute_read(CacheDAO.execute_query, query)
         return impact_relations

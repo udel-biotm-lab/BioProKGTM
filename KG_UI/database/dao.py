@@ -155,7 +155,7 @@ class RelationDAO(DAO):
         base_return_query = 'type(r{hop}) as r{hop}_type,r{hop}.doc_id,r{hop}.sent_text,r{hop}.doc_id_type'
 
         base_path = '''<-[:HAS_CANONICAL_NAME]
-                        -(e{hop}:Effector)
+                        -(e{hop}:Affector)
                         -[r{hop}:{impact_relations}]
                         -(a{hop}:Affected)
                         -[:HAS_CANONICAL_NAME]->'''        
