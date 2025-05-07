@@ -130,7 +130,7 @@ class CacheDAO:
         ontology_names -> list: list of ontology names
         '''
         query = """
-                match (onto:OntologicalConcept)<-[*1..5]-(dc:DictionaryConcept)
+                match (onto:OntologicalConcept)<-[*1..7]-(dc:DictionaryConcept)
                     <-[:HAS_CANONICAL_NAME]
                     -(e1:Affector)
                     -[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]
@@ -154,7 +154,7 @@ class CacheDAO:
         ontology_names -> list: list of ontology names
         '''
         query = """
-                match (onto:OntologicalConcept)<-[*1..5]-(dc:DictionaryConcept)
+                match (onto:OntologicalConcept)<-[*1..7]-(dc:DictionaryConcept)
                     <-[:HAS_CANONICAL_NAME]
                     -(a1:Affected)
                     <-[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]
