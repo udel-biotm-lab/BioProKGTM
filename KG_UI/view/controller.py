@@ -7,14 +7,14 @@ from service.ontology_service import OntologyService
 def retrieve_base_values(_dictionary_service, _ontology_service, _relation_service):
     '''
     This method retrieves the values required for initial load of the UI
-    It includes the canonical names of all the dictionary concepts.
+    It includes the canonical names of the dictionary concepts for start and end nodes.
     It includes the names of all the ontology concepts.
     It includes all the impact relationships.
     '''
-    leaf_nodes = _dictionary_service.get_canonical_names()
+    start_nodes, end_nodes = _dictionary_service.get_canonical_names()
     class_nodes = _ontology_service.get_ontology_names()
     relations = _relation_service.get_possible_relationships()
-    return leaf_nodes, class_nodes, relations
+    return start_nodes, end_nodes, class_nodes, relations
 
 class Controller:
 

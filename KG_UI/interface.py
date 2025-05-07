@@ -27,7 +27,7 @@ if 'show_results' not in st.session_state: st.session_state.show_results = False
 
 # Controller instantiation and retrieval of data for intial load
 controller = Controller()
-leaf_nodes, class_nodes, relations = controller.get_base_values()
+affector_nodes, affected_nodes, class_nodes, relations = controller.get_base_values()
 
 # User input fields
 st.text('Select a start node or a start node class.')
@@ -36,10 +36,10 @@ st.text('Select an end node or an end node class.')
 col3, col4 = st.columns(2)
 col5, col6 = st.columns(2)
 
-with col1: start_node = st.selectbox('Start Node / Subject / Affector',leaf_nodes,index=None)
+with col1: start_node = st.selectbox('Start Node / Subject / Affector',affector_nodes,index=None)
 with col2: start_node_class = st.selectbox('Class of Affector (subject)',class_nodes,index=None)
 
-with col3: end_node = st.selectbox('End Node / Object / Affected',leaf_nodes,index=None)
+with col3: end_node = st.selectbox('End Node / Object / Affected',affected_nodes,index=None)
 with col4: end_node_class = st.selectbox('Class of Affected (object)',class_nodes,index=None)
 
 with col5: relations = st.multiselect('Relationship(s)',relations)

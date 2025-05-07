@@ -202,7 +202,8 @@ class DictionaryDAO(DAO):
     
     def get_canonical_names(self) -> list:
         '''
-        This method returns the unique canonical names of all dictionary concepts.
+        This method returns the unique canonical names of dictionary concepts for start nodes and end nodes.
+        This method returns only those nodes that have at least one impact relationship.
         '''
         return CacheDAO.get_canonical_names(self.driver)    
 

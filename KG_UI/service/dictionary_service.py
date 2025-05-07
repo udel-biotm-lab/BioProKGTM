@@ -17,6 +17,6 @@ class DictionaryService:
 
     def get_canonical_names(self):
         '''
-        This method returns the canonical names of the dictionary concepts.
+        This method returns the canonical names of the dictionary concepts for start and end nodes.
         '''
-        return list(self.dao.get_canonical_names())
+        return self.dao.get_canonical_names()

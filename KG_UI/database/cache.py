@@ -39,11 +39,30 @@ class CacheDAO:
         for record in tx.run(query):
             book_link_map[record['isbn']] = record['link']
         return book_link_map
+    
+    def query_dictionary_nodes(tx, query):
+        '''
+        This method executes the query using the input transaction object and returns a set start nodes and end nodes.
+        This method is used to retrieve canonical names of start nodes and end nodes
+
+        Attributes:
+        tx: transaction object
+        query: cypher query
+
+        Returns:
+        result -> set:start nodes, set:end nodes
+        '''
+        start_nodes = set()
+        end_nodes = set()
+        for record in tx.run(query):
+            start_nodes.add(record['start_nodes'])
+            end_nodes.add(record['end_nodes'])
+        return start_nodes, end_nodes
 
     @st.cache_data
     def get_canonical_names(_db_driver) -> list:
         '''
-        This method retrieves the unique canonical names of all dictionary concepts and returns the list. It caches this data.
+        This method retrieves the unique canonical names of dictionary concepts for start and end nodes. It caches this data.
 
         Attributes:
         _db_driver: database driver object
@@ -51,10 +70,20 @@ class CacheDAO:
         Returns:
         canonical_names -> list: list of canonical names
         '''
-        query = "MATCH (dc:DictionaryConcept) RETURN DISTINCT(dc.canonical_name)"
+        query = """
+                match (dc_start:DictionaryConcept)
+                    <-[:HAS_CANONICAL_NAME]
+                    -(e1:Affector)
+                    -[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]
+                    -(a1:Affected)
+                    -[:HAS_CANONICAL_NAME]->
+                    (dc_end:DictionaryConcept)  
+                    return dc_start.canonical_name as start_nodes, 
+                    dc_end.canonical_name as end_nodes
+                """
         with _db_driver.session() as session:
-            canonical_names = session.execute_read(CacheDAO.execute_query, query)
-        return canonical_names
+            start_nodes, end_nodes = session.execute_read(CacheDAO.query_dictionary_nodes, query)
+        return start_nodes, end_nodes
     
     @st.cache_data
     def get_ontological_relationships(_db_driver) -> list:
