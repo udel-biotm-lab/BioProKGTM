@@ -12,9 +12,9 @@ def retrieve_base_values(_dictionary_service, _ontology_service, _relation_servi
     It includes all the impact relationships.
     '''
     start_nodes, end_nodes = _dictionary_service.get_canonical_names()
-    class_nodes = _ontology_service.get_ontology_names()
+    start_class_nodes, end_class_nodes = _ontology_service.get_ontology_names()
     relations = _relation_service.get_possible_relationships()
-    return start_nodes, end_nodes, class_nodes, relations
+    return start_nodes, end_nodes, start_class_nodes, end_class_nodes, relations
 
 class Controller:
 

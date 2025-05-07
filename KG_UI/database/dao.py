@@ -226,11 +226,27 @@ class OntologyDAO(DAO):
         '''
         return CacheDAO.get_ontological_relationships(self.driver)
     
-    def get_ontology_names(self):
+    # def get_ontology_names(self):
+    #     '''
+    #     This method returns all the names of the ontological concepts.
+    #     '''
+    #     return CacheDAO.get_ontology_names(self.driver)
+
+    def get_ontology_start_classes(self):
         '''
-        This method returns all the names of the ontological concepts.
+        This method retrieves the unique ontology names of those start classes that have at least one impact relationship.
+
         '''
-        return CacheDAO.get_ontology_names(self.driver)
+        return CacheDAO.get_ontology_start_classes(self.driver)
+    
+    
+    def get_ontology_end_classes(self):
+        '''
+        This method retrieves the unique ontology names of those end classes that have at least one impact relationship.
+
+        '''
+        return CacheDAO.get_ontology_end_classes(self.driver)
+    
 
     def get_sub_ontologies(self, ontology_name, ontology_relations):
         '''
@@ -241,6 +257,7 @@ class OntologyDAO(DAO):
         with self.driver.session() as session:
             names = session.execute_read(self.execute_query, query)
         return names
+    
 
     def get_dictionary_canonical_names(self,ontology_names):
         '''

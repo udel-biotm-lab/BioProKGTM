@@ -27,8 +27,8 @@ class OntologyService:
         '''
         This method retrieves all the names of the ontology nodes, and returns a list of the ontology nodes.
         '''
-        self.ontology_names = list(self.dao.get_ontology_names())
-        return self.ontology_names
+        #self.ontology_names = list(self.dao.get_ontology_names())
+        return self.dao.get_ontology_start_classes(), self.dao.get_ontology_end_classes()
     
     def get_dictionary_canonical_names(self,ontology_name):
         '''

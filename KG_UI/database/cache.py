@@ -101,10 +101,27 @@ class CacheDAO:
             relations = session.execute_read(CacheDAO.execute_query, query)
         return relations
 
+    # @st.cache_data
+    # def get_ontology_names(_db_driver) -> list:
+    #     '''
+    #     This method retrieves the unique ontology names and returns the list. It caches this data.
+
+    #     Attributes:
+    #     _db_driver: database driver object
+
+    #     Returns:
+    #     ontology_names -> list: list of ontology names
+    #     '''
+    #     query = 'MATCH(oc:OntologicalConcept) return DISTINCT(oc.name)'
+    #     with _db_driver.session() as session:
+    #         ontology_names = session.execute_read(CacheDAO.execute_query, query)
+    #     return ontology_names
+    
     @st.cache_data
-    def get_ontology_names(_db_driver) -> list:
+    def get_ontology_start_classes(_db_driver) -> list:
         '''
-        This method retrieves the unique ontology names and returns the list. It caches this data.
+        This method retrieves the unique ontology names of those start classes that have at least one impact relationship 
+        and returns the list. It caches this data.
 
         Attributes:
         _db_driver: database driver object
@@ -112,10 +129,41 @@ class CacheDAO:
         Returns:
         ontology_names -> list: list of ontology names
         '''
-        query = 'MATCH(oc:OntologicalConcept) return DISTINCT(oc.name)'
+        query = """
+                match (onto:OntologicalConcept)<-[*1..5]-(dc:DictionaryConcept)
+                    <-[:HAS_CANONICAL_NAME]
+                    -(e1:Affector)
+                    -[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]
+                    ->(a1:Affected) 
+                return distinct(onto.name);
+                """
         with _db_driver.session() as session:
-            ontology_names = session.execute_read(CacheDAO.execute_query, query)
-        return ontology_names
+            start_classe_names = session.execute_read(CacheDAO.execute_query, query)
+        return start_classe_names
+    
+    @st.cache_data
+    def get_ontology_end_classes(_db_driver) -> list:
+        '''
+        This method retrieves the unique ontology names of those end classes that have at least one impact relationship 
+        and returns the list. It caches this data.
+
+        Attributes:
+        _db_driver: database driver object
+
+        Returns:
+        ontology_names -> list: list of ontology names
+        '''
+        query = """
+                match (onto:OntologicalConcept)<-[*1..5]-(dc:DictionaryConcept)
+                    <-[:HAS_CANONICAL_NAME]
+                    -(a1:Affected)
+                    <-[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]
+                    -(e1:Affector) 
+                return distinct(onto.name);
+                """
+        with _db_driver.session() as session:
+            end_classe_names = session.execute_read(CacheDAO.execute_query, query)
+        return end_classe_names
     
     @st.cache_data
     def get_impact_relationships(_db_driver) -> list:
