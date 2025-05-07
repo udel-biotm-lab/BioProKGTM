@@ -116,9 +116,24 @@ class CacheDAO:
     #     with _db_driver.session() as session:
     #         ontology_names = session.execute_read(CacheDAO.execute_query, query)
     #     return ontology_names
+
+    @st.cache_data
+    def maximum_path_length_oc_dc(_db_driver) -> int:
+        '''
+        This method returns the maximum levels from Ontology Concept to Dictionary Concept
+        '''
+        query = """
+                match path=(o:OntologicalConcept)<-[*]-(dc:DictionaryConcept)
+                WITH path, size(nodes(path)) AS node_count
+                return node_count order by node_count desc limit 1
+                """
+        with _db_driver.session() as session:
+            max_path_length = session.execute_read(CacheDAO.execute_query, query)
+        return max_path_length[0]
+
     
     @st.cache_data
-    def get_ontology_start_classes(_db_driver) -> list:
+    def get_ontology_start_classes(_db_driver,max_path_length) -> list:
         '''
         This method retrieves the unique ontology names of those start classes that have at least one impact relationship 
         and returns the list. It caches this data.
@@ -129,8 +144,8 @@ class CacheDAO:
         Returns:
         ontology_names -> list: list of ontology names
         '''
-        query = """
-                match (onto:OntologicalConcept)<-[*1..7]-(dc:DictionaryConcept)
+        query = f"""
+                match (onto:OntologicalConcept)<-[*1..{max_path_length}]-(dc:DictionaryConcept)
                     <-[:HAS_CANONICAL_NAME]
                     -(e1:Affector)
                     -[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]
@@ -142,7 +157,7 @@ class CacheDAO:
         return start_classe_names
     
     @st.cache_data
-    def get_ontology_end_classes(_db_driver) -> list:
+    def get_ontology_end_classes(_db_driver,max_path_length) -> list:
         '''
         This method retrieves the unique ontology names of those end classes that have at least one impact relationship 
         and returns the list. It caches this data.
@@ -153,8 +168,8 @@ class CacheDAO:
         Returns:
         ontology_names -> list: list of ontology names
         '''
-        query = """
-                match (onto:OntologicalConcept)<-[*1..7]-(dc:DictionaryConcept)
+        query = f"""
+                match (onto:OntologicalConcept)<-[*1..{max_path_length}]-(dc:DictionaryConcept)
                     <-[:HAS_CANONICAL_NAME]
                     -(a1:Affected)
                     <-[r1:CORRELATED_NOT_SPECIFIED|POSITIVELY_CORRELATED|NEGATIVELY_CORRELATED|NOT_CORRELATED]

@@ -232,12 +232,16 @@ class OntologyDAO(DAO):
     #     '''
     #     return CacheDAO.get_ontology_names(self.driver)
 
+    def get_maximum_path_length_oc_dc(self):
+        return CacheDAO.maximum_path_length_oc_dc(self.driver)
+
     def get_ontology_start_classes(self):
         '''
         This method retrieves the unique ontology names of those start classes that have at least one impact relationship.
 
         '''
-        return CacheDAO.get_ontology_start_classes(self.driver)
+        max_path_length = self.get_maximum_path_length_oc_dc()
+        return CacheDAO.get_ontology_start_classes(self.driver,max_path_length)
     
     
     def get_ontology_end_classes(self):
@@ -245,7 +249,8 @@ class OntologyDAO(DAO):
         This method retrieves the unique ontology names of those end classes that have at least one impact relationship.
 
         '''
-        return CacheDAO.get_ontology_end_classes(self.driver)
+        max_path_length = self.get_maximum_path_length_oc_dc()
+        return CacheDAO.get_ontology_end_classes(self.driver,max_path_length)
     
 
     def get_sub_ontologies(self, ontology_name, ontology_relations):
